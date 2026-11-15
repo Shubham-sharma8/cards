@@ -13,18 +13,20 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import {
   Bookmark,
+  Check,
   ChevronDown,
   ChevronUp,
   Flag,
+  Layers,
   Maximize2,
   Search,
   Share2,
   SlidersHorizontal,
+  Sparkles,
   Wallet,
   X,
 } from 'lucide-react-native';
 import { ALL_BANKS, ALL_CARDS, getAdvisorMetaMap } from '../../src/lib/data';
-import { CATEGORY_OPTIONS } from '../../src/lib/advisor';
 import { getCategoryStudyTable } from '../../src/lib/categoryStudies';
 import {
   CONVERSION_STRATEGIES,
@@ -33,7 +35,15 @@ import {
   getCardConversionKeywords,
   normalizeMinMonthlyIncomeInr,
 } from '../../src/lib/conversion';
-import { matchesTokenizedQuery } from '../../src/lib/format';
+import {
+  FINDER_CATEGORY_OPTIONS,
+  evaluateMobileMultiCategoryCards,
+  matchesFinderCategory,
+  parseMobileCategoryList,
+  resolveFinderCategoryOption,
+  type MobileMultiCategoryRankedCard,
+} from '../../src/lib/multiCategoryMatcher';
+import { formatFeeDisplay, matchesTokenizedQuery } from '../../src/lib/format';
 import { LedgerTheme } from '../../src/lib/theme';
 import { BankLogo } from '../../src/components/BankLogo';
 import { CanvaFeatureIcon, resolveCategoryCanvaIcon } from '../../src/components/FeatureIcon';
@@ -60,6 +70,7 @@ export default function FinderScreen() {
   const params = useLocalSearchParams<{
     bankSlug?: string;
     cat?: string;
+    cats?: string;
     golf?: string;
     income?: string;
     strategy?: string;
@@ -68,6 +79,9 @@ export default function FinderScreen() {
 
   const [query, setQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [multiMode, setMultiMode] = useState(false);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [requireAllMatch, setRequireAllMatch] = useState(false);
   const [savedOnly, setSavedOnly] = useState(false);
   const [ownedOnly, setOwnedOnly] = useState(false);
   const [ltfOnly, setLtfOnly] = useState(false);
@@ -110,10 +124,28 @@ export default function FinderScreen() {
   }, [params.bankSlug]);
 
   useEffect(() => {
-    if (params.cat && typeof params.cat === 'string') {
-      setSelectedCategory(params.cat);
+    if (params.cats && typeof params.cats === 'string') {
+      const parsed = parseMobileCategoryList(params.cats);
+      if (parsed.length >= 2) {
+        setMultiMode(true);
+        setSelectedCategories(parsed);
+        setSelectedCategory('all');
+        return;
+      }
+      if (parsed.length === 1) {
+        setMultiMode(false);
+        setSelectedCategories([]);
+        setSelectedCategory(parsed[0]);
+        return;
+      }
     }
-  }, [params.cat]);
+    if (params.cat && typeof params.cat === 'string') {
+      const resolved = resolveFinderCategoryOption(params.cat);
+      setMultiMode(false);
+      setSelectedCategories([]);
+      setSelectedCategory(resolved ? resolved.id : params.cat);
+    }
+  }, [params.cat, params.cats]);
 
   useEffect(() => {
     if (params.golf === '1') {
@@ -129,12 +161,50 @@ export default function FinderScreen() {
   const savedSet = useMemo(() => new Set(savedIds), [savedIds]);
   const ownedSet = useMemo(() => new Set(ownedIds), [ownedIds]);
 
+  const selectedSingleOption = useMemo(() => {
+    if (multiMode) {
+      return selectedCategories.length === 1
+        ? resolveFinderCategoryOption(selectedCategories[0])
+        : null;
+    }
+    return resolveFinderCategoryOption(selectedCategory);
+  }, [multiMode, selectedCategories, selectedCategory]);
+
   const activeCategoryStudy = useMemo(() => {
-    if (selectedCategory === 'all') return null;
-    const opt = CATEGORY_OPTIONS.find((o) => o.datasetCategory === selectedCategory);
-    if (!opt) return null;
-    return getCategoryStudyTable(opt.id, ALL_CARDS, getAdvisorMetaMap());
-  }, [selectedCategory]);
+    if (multiMode && selectedCategories.length >= 2) return null;
+    if (!selectedSingleOption) return null;
+    return getCategoryStudyTable(
+      selectedSingleOption.studyId,
+      ALL_CARDS,
+      getAdvisorMetaMap()
+    );
+  }, [multiMode, selectedCategories.length, selectedSingleOption]);
+
+  const toggleMultiMode = () => {
+    triggerCalmLayoutTransition();
+    if (!multiMode) {
+      setSelectedCategories(selectedSingleOption ? [selectedSingleOption.id] : []);
+      setMultiMode(true);
+      setRequireAllMatch(false);
+    } else {
+      setSelectedCategory(selectedCategories[0] || 'all');
+      setSelectedCategories([]);
+      setMultiMode(false);
+      setRequireAllMatch(false);
+    }
+  };
+
+  const toggleCategoryChip = (catId: string) => {
+    triggerCalmLayoutTransition();
+    if (multiMode) {
+      setSelectedCategories((prev) =>
+        prev.includes(catId) ? prev.filter((id) => id !== catId) : [...prev, catId]
+      );
+    } else {
+      const isActive = selectedSingleOption?.id === catId || selectedCategory === catId;
+      setSelectedCategory(isActive ? 'all' : catId);
+    }
+  };
 
   const handleShareStudy = async () => {
     if (!activeCategoryStudy) return;
@@ -157,16 +227,9 @@ export default function FinderScreen() {
     }
   };
 
-  const filtered = useMemo(() => {
+  const nonCategoryFiltered = useMemo(() => {
     return ALL_CARDS.filter((c) => {
       if (bankSlug !== 'all' && c.bank_slug !== bankSlug) return false;
-      if (
-        selectedCategory !== 'all' &&
-        c.primary_category !== selectedCategory &&
-        !c.categories.includes(selectedCategory)
-      ) {
-        return false;
-      }
       if (savedOnly && !savedSet.has(c.card_id)) return false;
       if (ownedOnly && !ownedSet.has(c.card_id)) return false;
 
@@ -212,7 +275,60 @@ export default function FinderScreen() {
         return false;
       }
       return true;
-    }).sort((a, b) => {
+    });
+  }, [
+    query,
+    savedOnly,
+    savedSet,
+    ownedOnly,
+    ownedSet,
+    ltfOnly,
+    upiOnly,
+    noSpendLoungeOnly,
+    golfOnly,
+    zeroForexOnly,
+    fdOnly,
+    partnerOnly,
+    premiumOnly,
+    incomeFilter,
+    bankSlug,
+  ]);
+
+  const multiRecommendation = useMemo(() => {
+    if (!multiMode || selectedCategories.length < 2) return null;
+    return evaluateMobileMultiCategoryCards(nonCategoryFiltered, selectedCategories, {
+      monthlyIncomeInr: incomeFilter,
+      strategy,
+    });
+  }, [multiMode, selectedCategories, nonCategoryFiltered, incomeFilter, strategy]);
+
+  const multiRankMap = useMemo(() => {
+    const map = new Map<string, MobileMultiCategoryRankedCard>();
+    if (!multiRecommendation) return map;
+    for (const r of multiRecommendation.rankedCards) {
+      map.set(r.card.card_id, r);
+    }
+    return map;
+  }, [multiRecommendation]);
+
+  const filtered = useMemo(() => {
+    let list: CardSummaryItem[];
+    if (multiRecommendation) {
+      list = multiRecommendation.rankedCards
+        .filter((r) => (requireAllMatch ? r.isFullMatch : true))
+        .map((r) => r.card);
+    } else {
+      const catToken = multiMode
+        ? selectedCategories[0] || 'all'
+        : selectedCategory;
+      list = nonCategoryFiltered.filter((c) => matchesFinderCategory(c, catToken));
+    }
+
+    if (multiRecommendation && (sortBy === 'rating' || sortBy === 'personalized')) {
+      return list;
+    }
+
+    return [...list].sort((a, b) => {
       if (sortBy === 'personalized') {
         const sa = computePersonalizedDirectoryScore(a, {
           monthlyIncomeInr: incomeFilter,
@@ -236,23 +352,14 @@ export default function FinderScreen() {
       return b.overall_rating - a.overall_rating;
     });
   }, [
-    query,
+    multiRecommendation,
+    requireAllMatch,
+    multiMode,
+    selectedCategories,
     selectedCategory,
-    savedOnly,
-    savedSet,
-    ownedOnly,
-    ownedSet,
-    ltfOnly,
-    upiOnly,
-    noSpendLoungeOnly,
-    golfOnly,
-    zeroForexOnly,
-    fdOnly,
-    partnerOnly,
-    premiumOnly,
+    nonCategoryFiltered,
     incomeFilter,
     strategy,
-    bankSlug,
     sortBy,
   ]);
 
@@ -319,7 +426,7 @@ export default function FinderScreen() {
     strategy !== 'default_inr' ||
     savedOnly ||
     ownedOnly ||
-    selectedCategory !== 'all' ||
+    (multiMode ? selectedCategories.length > 0 : selectedCategory !== 'all') ||
     bankSlug !== 'all' ||
     query.trim() !== '';
 
@@ -338,6 +445,9 @@ export default function FinderScreen() {
   const resetAllFilters = () => {
     setQuery('');
     setSelectedCategory('all');
+    setMultiMode(false);
+    setSelectedCategories([]);
+    setRequireAllMatch(false);
     setSavedOnly(false);
     setOwnedOnly(false);
     setLtfOnly(false);
@@ -385,28 +495,61 @@ export default function FinderScreen() {
           )}
         </View>
 
-        {/* Category Filter Chips (13 Verticals) */}
+        {/* Category Filter Chips + Multi-Select Mode */}
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chipsRow}>
           <ScalePressable
-            onPress={() => setSelectedCategory('all')}
-            style={[styles.pill, selectedCategory === 'all' && styles.pillActive]}
+            onPress={() => {
+              triggerCalmLayoutTransition();
+              setMultiMode(false);
+              setSelectedCategories([]);
+              setRequireAllMatch(false);
+              setSelectedCategory('all');
+            }}
+            style={[styles.pill, !multiMode && selectedCategory === 'all' && styles.pillActive]}
           >
-            <Text style={[styles.pillText, selectedCategory === 'all' && styles.pillTextActive]}>
+            <Text style={[styles.pillText, !multiMode && selectedCategory === 'all' && styles.pillTextActive]}>
               All Categories
             </Text>
           </ScalePressable>
-          {CATEGORY_OPTIONS.map((opt) => {
-            const active = selectedCategory === opt.datasetCategory;
+          <ScalePressable
+            onPress={toggleMultiMode}
+            style={[
+              styles.pill,
+              styles.pillRow,
+              multiMode ? styles.pillActive : styles.multiToggleInactive,
+            ]}
+          >
+            <Layers
+              size={13}
+              color={multiMode ? '#FFFFFF' : LedgerTheme.colors.accent}
+            />
+            <Text
+              style={[
+                styles.pillText,
+                multiMode ? styles.pillTextActive : { color: LedgerTheme.colors.accent, fontWeight: '600' },
+              ]}
+            >
+              Multi-Select{multiMode && selectedCategories.length > 0 ? ` (${selectedCategories.length})` : ''}
+            </Text>
+          </ScalePressable>
+          {FINDER_CATEGORY_OPTIONS.map((opt) => {
+            const active = multiMode
+              ? selectedCategories.includes(opt.id)
+              : selectedSingleOption?.id === opt.id || selectedCategory === opt.datasetCategory;
             return (
               <ScalePressable
                 key={opt.id}
-                onPress={() => setSelectedCategory(active ? 'all' : opt.datasetCategory)}
+                onPress={() => toggleCategoryChip(opt.id)}
                 style={[styles.pill, styles.pillRow, active && styles.pillActive]}
               >
-                <CanvaFeatureIcon
-                  icon={resolveCategoryCanvaIcon(opt.datasetCategory)}
-                  size={14}
-                />
+                {multiMode && active ? (
+                  <Check size={13} color="#FFFFFF" />
+                ) : (
+                  <CanvaFeatureIcon
+                    icon={resolveCategoryCanvaIcon(opt.datasetCategory)}
+                    size={14}
+                  />
+                )}
                 <Text style={[styles.pillText, active && styles.pillTextActive]}>
                   {opt.shortLabel}
                 </Text>
@@ -624,7 +767,162 @@ export default function FinderScreen() {
         contentContainerStyle={styles.listContent}
         ItemSeparatorComponent={() => <View style={{ height: 16 }} />}
         ListHeaderComponent={
-          activeCategoryStudy ? (
+          multiMode && selectedCategories.length < 2 ? (
+            <View style={styles.multiHintBox}>
+              <View style={{ flex: 1, gap: 2 }}>
+                <Text style={styles.multiHintTitle}>
+                  Multi-Select ON ({selectedCategories.length} selected)
+                </Text>
+                <Text style={styles.multiHintSub}>
+                  Tap {selectedCategories.length === 0 ? '2 or more categories' : '1 more category'} above to find the best card &amp; 2-card combo for your mix.
+                </Text>
+              </View>
+              <ScalePressable onPress={toggleMultiMode}>
+                <Text style={styles.multiExitText}>Exit</Text>
+              </ScalePressable>
+            </View>
+          ) : multiRecommendation ? (
+            <View style={styles.multiWinnerBox}>
+              <View style={styles.multiTopRow}>
+                <View style={styles.multiBadgePill}>
+                  <Sparkles size={12} color={LedgerTheme.colors.accent} />
+                  <Text style={styles.multiBadgeText}>
+                    BEST FOR {multiRecommendation.selectedOptions.length} CATEGORIES
+                  </Text>
+                </View>
+                <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                  <ScalePressable
+                    onPress={() => {
+                      triggerCalmLayoutTransition();
+                      setRequireAllMatch((v) => !v);
+                    }}
+                    style={[
+                      styles.matchAllBtn,
+                      requireAllMatch && styles.matchAllBtnActive,
+                    ]}
+                  >
+                    <Text
+                      style={[
+                        styles.matchAllBtnText,
+                        requireAllMatch && { color: '#FFFFFF' },
+                      ]}
+                    >
+                      Match All ({multiRecommendation.fullMatchCount})
+                    </Text>
+                  </ScalePressable>
+                  <ScalePressable onPress={toggleMultiMode}>
+                    <Text style={styles.multiExitText}>Exit</Text>
+                  </ScalePressable>
+                </View>
+              </View>
+
+              {multiRecommendation.bestOverall ? (
+                <ScalePressable
+                  onPress={() => openCard(multiRecommendation.bestOverall!.card)}
+                  style={styles.multiBestCardInner}
+                >
+                  <View style={styles.multiWinnerHeader}>
+                    <View style={{ flex: 1, gap: 2 }}>
+                      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
+                        <View style={styles.rankTag}>
+                          <Text style={styles.rankTagText}>#1 BEST MATCH</Text>
+                        </View>
+                        <Text style={styles.coverageText}>
+                          Covers {multiRecommendation.bestOverall.matchedCount}/{multiRecommendation.bestOverall.totalSelected}
+                        </Text>
+                      </View>
+                      <Text style={styles.multiCardTitle}>
+                        {multiRecommendation.bestOverall.card.card_name}
+                      </Text>
+                      <Text style={styles.multiCardSub}>
+                        {multiRecommendation.bestOverall.card.bank} ·{' '}
+                        {multiRecommendation.bestOverall.card.filter_tags.is_ltf
+                          ? 'Lifetime Free (₹0)'
+                          : formatFeeDisplay(
+                              multiRecommendation.bestOverall.card.joining_fee_inr,
+                              multiRecommendation.bestOverall.card.annual_fee_inr
+                            ).primaryText}
+                      </Text>
+                    </View>
+                    <Text style={styles.openDossierText}>Dossier →</Text>
+                  </View>
+
+                  <View style={styles.metricChipsWrap}>
+                    {multiRecommendation.bestOverall.categoryMetrics.map((m) => (
+                      <View
+                        key={m.categoryId}
+                        style={[
+                          styles.metricChip,
+                          m.matched
+                            ? styles.metricChipMatched
+                            : styles.metricChipUnmatched,
+                        ]}
+                      >
+                        <Text
+                          style={[
+                            styles.metricChipText,
+                            m.matched && { color: LedgerTheme.colors.accent, fontWeight: '600' },
+                          ]}
+                        >
+                          {m.matched ? '✓ ' : ''}
+                          {m.shortLabel}: {m.displayMetric}
+                          {m.isPartialBase ? ' base' : ''}
+                        </Text>
+                      </View>
+                    ))}
+                  </View>
+                </ScalePressable>
+              ) : (
+                <Text style={styles.multiHintSub}>
+                  No single card matches all active filters. Turn off Match All or relax filters.
+                </Text>
+              )}
+
+              {(multiRecommendation.bestLtfPick || multiRecommendation.runnerUp) && (
+                <ScalePressable
+                  onPress={() =>
+                    openCard(
+                      (multiRecommendation.bestLtfPick || multiRecommendation.runnerUp)!.card
+                    )
+                  }
+                  style={styles.multiSubCard}
+                >
+                  <Text style={styles.multiSubLabel}>
+                    {multiRecommendation.bestLtfPick ? 'BEST LIFETIME-FREE PICK' : 'RUNNER-UP'} ·{' '}
+                    {(multiRecommendation.bestLtfPick || multiRecommendation.runnerUp)!.matchedCount}/
+                    {multiRecommendation.bestLtfPick
+                      ? multiRecommendation.bestLtfPick.totalSelected
+                      : multiRecommendation.runnerUp!.totalSelected}{' '}
+                    MATCH
+                  </Text>
+                  <Text style={styles.multiSubTitle} numberOfLines={1}>
+                    {(multiRecommendation.bestLtfPick || multiRecommendation.runnerUp)!.card.card_name}
+                  </Text>
+                  <Text style={styles.multiSubMetrics} numberOfLines={1}>
+                    {(multiRecommendation.bestLtfPick || multiRecommendation.runnerUp)!.summaryLine}
+                  </Text>
+                </ScalePressable>
+              )}
+
+              {multiRecommendation.twoCardCombo && (
+                <View style={styles.multiSubCard}>
+                  <Text style={styles.multiSubLabel}>
+                    BEST 2-CARD COMBO · {multiRecommendation.twoCardCombo.coveredCount}/
+                    {multiRecommendation.twoCardCombo.totalSelected} COVERAGE
+                  </Text>
+                  <Text style={styles.multiSubTitle} numberOfLines={2}>
+                    {multiRecommendation.twoCardCombo.cardA.card.card_name} +{' '}
+                    {multiRecommendation.twoCardCombo.cardB.card.card_name}
+                  </Text>
+                  <Text style={styles.multiSubMetrics}>
+                    {multiRecommendation.twoCardCombo.assignment
+                      .map((a) => `${a.shortLabel}: ${a.cardName.split(' ').slice(0, 2).join(' ')} (${a.displayMetric})`)
+                      .join(' · ')}
+                  </Text>
+                </View>
+              )}
+            </View>
+          ) : activeCategoryStudy ? (
             <View style={styles.studyBox}>
               <ScalePressable
                 onPress={() => {
@@ -716,21 +1014,24 @@ export default function FinderScreen() {
           ) : undefined
         }
         renderItem={({ item }) => {
+          const multiEntry = multiRankMap.get(item.card_id);
           const showPersonalNote =
             sortBy === 'personalized' ||
             incomeFilter !== null ||
             strategy !== 'default_inr';
-          const personalNote = showPersonalNote
-            ? (computePersonalizedDirectoryScore(item, {
-                monthlyIncomeInr: incomeFilter,
-                strategy,
-              }).matchBadge ?? undefined)
-            : undefined;
+          const subtitleNote = multiEntry
+            ? `${multiEntry.matchedCount}/${multiEntry.totalSelected} match · ${multiEntry.summaryLine}`
+            : showPersonalNote
+              ? (computePersonalizedDirectoryScore(item, {
+                  monthlyIncomeInr: incomeFilter,
+                  strategy,
+                }).matchBadge ?? undefined)
+              : undefined;
           return (
             <LedgerCardItem
               card={item}
               onPress={openCard}
-              subtitleNote={personalNote}
+              subtitleNote={subtitleNote}
             />
           );
         }}
@@ -1161,5 +1462,176 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: '500',
     color: LedgerTheme.colors.accent,
+  },
+  multiToggleInactive: {
+    backgroundColor: '#EEF5F2',
+    borderColor: '#C9DBD2',
+  },
+  multiHintBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 10,
+    backgroundColor: '#EEF5F2',
+    borderWidth: 1,
+    borderColor: '#C9DBD2',
+    borderRadius: 12,
+    padding: 12,
+    marginBottom: 12,
+  },
+  multiHintTitle: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: LedgerTheme.colors.accent,
+  },
+  multiHintSub: {
+    fontSize: 12,
+    color: LedgerTheme.colors.inkSecondary,
+    lineHeight: 17,
+  },
+  multiExitText: {
+    fontSize: 12.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.accent,
+  },
+  multiWinnerBox: {
+    backgroundColor: '#F3F9F5',
+    borderWidth: 1,
+    borderColor: '#B8D4C5',
+    borderRadius: 16,
+    padding: 14,
+    marginBottom: 14,
+    gap: 10,
+  },
+  multiTopRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  multiBadgePill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    backgroundColor: '#E1F0E8',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 6,
+  },
+  multiBadgeText: {
+    fontSize: 10.5,
+    fontWeight: '700',
+    color: LedgerTheme.colors.accent,
+    letterSpacing: 0.4,
+  },
+  matchAllBtn: {
+    paddingHorizontal: 9,
+    paddingVertical: 4,
+    borderRadius: 6,
+    borderWidth: 1,
+    borderColor: '#C9DBD2',
+    backgroundColor: '#FFFFFF',
+  },
+  matchAllBtnActive: {
+    backgroundColor: LedgerTheme.colors.accent,
+    borderColor: LedgerTheme.colors.accent,
+  },
+  matchAllBtnText: {
+    fontSize: 11.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.inkSecondary,
+  },
+  multiBestCardInner: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: '#D4E2DA',
+    borderRadius: 12,
+    padding: 12,
+    gap: 10,
+  },
+  multiWinnerHeader: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'space-between',
+    gap: 8,
+  },
+  rankTag: {
+    backgroundColor: LedgerTheme.colors.accent,
+    paddingHorizontal: 6,
+    paddingVertical: 2,
+    borderRadius: 4,
+  },
+  rankTagText: {
+    color: '#FFFFFF',
+    fontSize: 10,
+    fontWeight: '700',
+  },
+  coverageText: {
+    fontSize: 11.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.accent,
+  },
+  multiCardTitle: {
+    fontSize: 15.5,
+    fontWeight: '700',
+    color: LedgerTheme.colors.inkPrimary,
+    marginTop: 2,
+  },
+  multiCardSub: {
+    fontSize: 12,
+    color: LedgerTheme.colors.inkSecondary,
+  },
+  openDossierText: {
+    fontSize: 12.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.accent,
+  },
+  metricChipsWrap: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 6,
+  },
+  metricChip: {
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 6,
+    borderWidth: 1,
+  },
+  metricChipMatched: {
+    backgroundColor: '#EEF5F2',
+    borderColor: '#C9DBD2',
+  },
+  metricChipUnmatched: {
+    backgroundColor: '#FAF9F6',
+    borderColor: LedgerTheme.colors.hairline,
+  },
+  metricChipText: {
+    fontSize: 11.5,
+    color: LedgerTheme.colors.inkSecondary,
+  },
+  multiSubCard: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.hairline,
+    borderRadius: 10,
+    padding: 10,
+    gap: 3,
+  },
+  multiSubLabel: {
+    fontSize: 10,
+    fontWeight: '700',
+    color: LedgerTheme.colors.accent,
+    letterSpacing: 0.4,
+  },
+  multiSubTitle: {
+    fontSize: 13.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.inkPrimary,
+  },
+  multiSubMetrics: {
+    fontSize: 11.5,
+    color: LedgerTheme.colors.inkSecondary,
+    lineHeight: 16,
   },
 });

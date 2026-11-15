@@ -145,7 +145,7 @@ export default function DiscoverScreen() {
       { lane: 'Dining & Groceries', card: findFirst(['hsbc live+'], 'Dining, Groceries & Movies') },
       { lane: 'Online Cashback', card: findFirst(['cashback sbi'], 'Cashback') },
       { lane: 'Travel & Miles', card: findFirst(['axis bank atlas', 'hdfc regalia gold'], 'Travel & Miles') },
-      { lane: 'RuPay on UPI', card: findFirst(['tata neu infinity', 'kiwi'], 'RuPay UPI') },
+      { lane: 'RuPay on UPI', card: findFirst(['tata neu infinity', 'kiwi'], 'RuPay & UPI') },
       { lane: 'Super-Premium Golf', card: findFirst(['infinia metal', 'hsbc premier'], 'Super-Premium') },
     ];
 

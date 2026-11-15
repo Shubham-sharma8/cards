@@ -3,7 +3,7 @@
 import React, { useCallback, useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, Filter, RotateCcw, SlidersHorizontal, X } from "lucide-react";
+import { ArrowRight, Check, Filter, Layers, RotateCcw, SlidersHorizontal, X } from "lucide-react";
 import type { BankSummary, CardSummaryItem, RewardConversionStrategy } from "@/lib/types";
 import { CATEGORY_META, matchesTokenizedQuery } from "@/lib/format";
 import {
@@ -13,8 +13,16 @@ import {
   getCardConversionKeywords,
   normalizeMinMonthlyIncomeInr,
 } from "@/lib/conversion";
+import {
+  evaluateMultiCategoryCards,
+  matchesCategoryToken,
+  parseCategoryListParam,
+  resolveCategoryMeta,
+  type MultiCategoryRankedCard,
+} from "@/lib/multiCategoryMatcher";
 import { fastTransition } from "@/lib/motion";
 import { LedgerCardItem } from "./LedgerCardItem";
+import { MultiCategoryBestCardPanel } from "./MultiCategoryBestCardPanel";
 import { useCompare } from "./CompareContext";
 import { SearchParamsSync } from "./SearchParamsSync";
 import { GooeySearchInput } from "./ui/gooey-input";
@@ -38,6 +46,9 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
   const [query, setQuery] = useState("");
   const [bankSlug, setBankSlug] = useState("all");
   const [category, setCategory] = useState("all");
+  const [multiMode, setMultiMode] = useState(false);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [requireAllMatch, setRequireAllMatch] = useState(false);
   const [onlySaved, setOnlySaved] = useState(false);
   const [onlyLtf, setOnlyLtf] = useState(false);
   const [onlyFyf, setOnlyFyf] = useState(false);
@@ -61,12 +72,28 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
     const q = sp.get("q");
     const bank = sp.get("bank");
     const cat = sp.get("cat");
+    const catsRaw = sp.get("cats");
     const inc = sp.get("income") || "any";
     const strat = (sp.get("strategy") || "default_inr") as RewardConversionStrategy;
     const srt = sp.get("sort");
     if (q !== null) setQuery(q);
     if (bank !== null) setBankSlug(bank);
-    if (cat !== null) setCategory(cat);
+    if (catsRaw !== null) {
+      const parsed = parseCategoryListParam(catsRaw);
+      if (parsed.length >= 2) {
+        setMultiMode(true);
+        setSelectedCategories(parsed);
+        setCategory("all");
+      } else if (parsed.length === 1) {
+        setMultiMode(false);
+        setSelectedCategories([]);
+        setCategory(parsed[0]);
+      }
+    } else if (cat !== null) {
+      setMultiMode(false);
+      setSelectedCategories([]);
+      setCategory(cat);
+    }
     if (sp.get("saved") === "1") setOnlySaved(true);
     if (sp.get("ltf") === "1") setOnlyLtf(true);
     if (sp.get("fyf") === "1") setOnlyFyf(true);
@@ -106,6 +133,9 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
     setQuery("");
     setBankSlug("all");
     setCategory("all");
+    setMultiMode(false);
+    setSelectedCategories([]);
+    setRequireAllMatch(false);
     setOnlySaved(false);
     setOnlyLtf(false);
     setOnlyFyf(false);
@@ -130,70 +160,50 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
   const parsedIncomeNum = maxIncome === "any" ? null : Number(maxIncome);
 
   const selectedCategoryMeta = useMemo(() => {
-    if (category === "all") return null;
-    const byId = CATEGORY_META.find((m) => m.id === category);
-    if (byId) return byId;
-    // Canonical fallback when an external link passes ?cat=datasetCategory
-    return (
-      CATEGORY_META.find((m) => m.label === category && m.datasetCategory === category) ||
-      CATEGORY_META.find(
-        (m) => m.datasetCategory === category && ["cashback", "dining-groceries", "super-premium"].includes(m.id),
-      ) ||
-      CATEGORY_META.find((m) => m.datasetCategory === category) ||
-      null
-    );
-  }, [category]);
+    if (multiMode) {
+      return selectedCategories.length === 1
+        ? resolveCategoryMeta(selectedCategories[0])
+        : null;
+    }
+    return resolveCategoryMeta(category);
+  }, [category, multiMode, selectedCategories]);
 
-  const filteredCards = useMemo(() => {
+  const toggleMultiMode = () => {
+    if (!multiMode) {
+      const seed = selectedCategoryMeta ? [selectedCategoryMeta.id] : [];
+      setSelectedCategories(seed);
+      setMultiMode(true);
+      setRequireAllMatch(false);
+    } else {
+      setCategory(selectedCategories[0] || "all");
+      setSelectedCategories([]);
+      setMultiMode(false);
+      setRequireAllMatch(false);
+    }
+    setVisibleCount(24);
+  };
+
+  const toggleCategoryChip = (catId: string) => {
+    if (multiMode) {
+      setSelectedCategories((prev) =>
+        prev.includes(catId) ? prev.filter((id) => id !== catId) : [...prev, catId]
+      );
+    } else {
+      const active = selectedCategoryMeta?.id === catId;
+      setCategory(active ? "all" : catId);
+    }
+    setVisibleCount(24);
+  };
+
+  const nonCategoryFilteredCards = useMemo(() => {
     const q = query.trim();
     const maxFeeNum = maxFee === "any" ? Infinity : Number(maxFee);
     const maxIncomeNum = parsedIncomeNum ?? Infinity;
 
-    const matchesSelectedCategory = (c: CardSummaryItem) => {
-      if (category === "all") return true;
-      if (selectedCategoryMeta && category === selectedCategoryMeta.id) {
-        const ret = c.effective_return_pct_by_category;
-        const tagsHay = `${c.card_name} ${c.primary_category} ${(c.filter_tags.best_for_tags || []).join(" ")} ${(c.filter_tags.requirement_keywords || []).join(" ")}`;
-        switch (selectedCategoryMeta.id) {
-          case "utilities":
-            return (
-              (ret?.utilities_bills_telecom ?? 0) >= 2.0 ||
-              (c.categories.includes("Cashback") && /utilit|bill|airtel|recharge|bbps|electric/i.test(tagsHay))
-            );
-          case "insurance":
-            return (ret?.insurance ?? 0) >= 2.0 || /insurance|lic|policy/i.test(tagsHay);
-          case "dining":
-            return (
-              (ret?.dining_swiggy_zomato ?? 0) >= 2.5 ||
-              /dining|swiggy|zomato|eazydiner|restaurant/i.test(tagsHay)
-            );
-          case "groceries":
-            return (
-              (ret?.groceries_quick_commerce ?? 0) >= 2.5 ||
-              /grocer|blinkit|zepto|bigbasket|instamart|dmart|supermarket/i.test(tagsHay)
-            );
-          case "gold-jewellery":
-            return (
-              /gold|jewel|tanishq|titan|caratlane|malabar|jewellery/i.test(tagsHay) ||
-              (c.categories.includes("Super-Premium") && (ret?.offline_general_other ?? 0) >= 2.0)
-            );
-          default:
-            return (
-              c.categories.includes(selectedCategoryMeta.datasetCategory) ||
-              c.primary_category === selectedCategoryMeta.datasetCategory
-            );
-        }
-      }
-      return c.categories.includes(category) || c.primary_category === category;
-    };
-
-    const list = cards.filter((c) => {
+    return cards.filter((c) => {
       const t = c.filter_tags;
       if (onlySaved && !savedIds.includes(c.card_id)) return false;
       if (bankSlug !== "all" && c.bank_slug !== bankSlug) return false;
-      if (!matchesSelectedCategory(c)) {
-        return false;
-      }
       if (onlyLtf && !t.is_ltf) return false;
       if (onlyFyf && !t.is_fyf) return false;
       if (onlyFd && !t.is_fd_backed) return false;
@@ -238,8 +248,67 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
       }
       return true;
     });
+  }, [
+    cards,
+    query,
+    bankSlug,
+    onlySaved,
+    savedIds,
+    onlyLtf,
+    onlyFyf,
+    onlyFd,
+    onlyRupay,
+    onlyDomLounge,
+    onlyNoSpendLounge,
+    onlyIntlLounge,
+    onlyRailLounge,
+    onlyForex,
+    onlyZeroForex,
+    onlyGolf,
+    onlyPartners,
+    onlySuperPremium,
+    maxFee,
+    parsedIncomeNum,
+  ]);
 
-    list.sort((a, b) => {
+  const multiRecommendation = useMemo(() => {
+    if (!multiMode || selectedCategories.length < 2) return null;
+    return evaluateMultiCategoryCards(nonCategoryFilteredCards, selectedCategories, {
+      monthlyIncomeInr: parsedIncomeNum,
+      strategy,
+    });
+  }, [multiMode, selectedCategories, nonCategoryFilteredCards, parsedIncomeNum, strategy]);
+
+  const multiRankMap = useMemo(() => {
+    const map = new Map<string, MultiCategoryRankedCard>();
+    if (!multiRecommendation) return map;
+    for (const item of multiRecommendation.rankedCards) {
+      map.set(item.card.card_id, item);
+    }
+    return map;
+  }, [multiRecommendation]);
+
+  const filteredCards = useMemo(() => {
+    let list: CardSummaryItem[];
+    if (multiRecommendation) {
+      list = multiRecommendation.rankedCards
+        .filter((r) => (requireAllMatch ? r.isFullMatch : true))
+        .map((r) => r.card);
+    } else {
+      const singleToken = multiMode
+        ? selectedCategories[0] || "all"
+        : category;
+      list = nonCategoryFilteredCards.filter((c) =>
+        matchesCategoryToken(c, singleToken)
+      );
+    }
+
+    if (multiRecommendation && (sortBy === "rating" || sortBy === "personalized")) {
+      return list;
+    }
+
+    const sorted = [...list];
+    sorted.sort((a, b) => {
       if (sortBy === "personalized") {
         const sa = computePersonalizedDirectoryScore(a, {
           monthlyIncomeInr: parsedIncomeNum,
@@ -275,29 +344,14 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
       return b.overall_rating - a.overall_rating;
     });
 
-    return list;
+    return sorted;
   }, [
-    cards,
-    query,
-    bankSlug,
+    multiRecommendation,
+    requireAllMatch,
+    multiMode,
+    selectedCategories,
     category,
-    selectedCategoryMeta,
-    onlySaved,
-    savedIds,
-    onlyLtf,
-    onlyFyf,
-    onlyFd,
-    onlyRupay,
-    onlyDomLounge,
-    onlyNoSpendLounge,
-    onlyIntlLounge,
-    onlyRailLounge,
-    onlyForex,
-    onlyZeroForex,
-    onlyGolf,
-    onlyPartners,
-    onlySuperPremium,
-    maxFee,
+    nonCategoryFilteredCards,
     parsedIncomeNum,
     strategy,
     sortBy,
@@ -305,7 +359,7 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
 
   const activeFilterCount = [
     bankSlug !== "all",
-    category !== "all",
+    multiMode ? selectedCategories.length > 0 : category !== "all",
     onlySaved,
     onlyLtf,
     onlyFyf,
@@ -378,14 +432,29 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
         </label>
         <select
           id="filter-category"
-          value={selectedCategoryMeta ? selectedCategoryMeta.datasetCategory : category}
+          value={
+            multiMode && selectedCategories.length >= 2
+              ? "__multi__"
+              : selectedCategoryMeta
+              ? selectedCategoryMeta.datasetCategory
+              : category
+          }
           onChange={(e) => {
+            if (e.target.value === "__multi__") return;
+            setMultiMode(false);
+            setSelectedCategories([]);
+            setRequireAllMatch(false);
             setCategory(e.target.value);
             setVisibleCount(24);
           }}
           className="w-full px-3 py-2 text-[13.5px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg text-[#1A1D21] focus:outline-none focus:border-[#0F5C4D]"
         >
           <option value="all">All Categories</option>
+          {multiMode && selectedCategories.length >= 2 && (
+            <option value="__multi__">
+              Multi-Select Active ({selectedCategories.length} selected)
+            </option>
+          )}
           {allCategories.map(([catName, count]) => (
             <option key={catName} value={catName}>
               {catName} ({count})
@@ -652,39 +721,63 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
           </Link>
         </div>
 
-        {/* Clickable Category Strip */}
+        {/* Clickable Category Strip + Multi-Select Toggle */}
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1">
           <button
             type="button"
             onClick={() => {
+              setMultiMode(false);
+              setSelectedCategories([]);
+              setRequireAllMatch(false);
               setCategory("all");
               setVisibleCount(24);
             }}
             className={`shrink-0 px-3 py-1.5 rounded-lg text-[12.5px] border transition-colors cursor-pointer ${
-              category === "all"
+              !multiMode && category === "all"
                 ? "bg-[#0F5C4D] border-[#0F5C4D] text-white"
                 : "bg-white border-[#E4E4DF] text-[#4B525C] hover:border-[#C9C9C2]"
             }`}
           >
             All Categories
           </button>
+          <button
+            type="button"
+            onClick={toggleMultiMode}
+            aria-pressed={multiMode}
+            className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[12.5px] font-medium border transition-colors cursor-pointer ${
+              multiMode
+                ? "bg-[#0F5C4D] border-[#0F5C4D] text-white"
+                : "bg-[#EEF5F2] border-[#C9DBD2] text-[#0F5C4D] hover:border-[#0F5C4D]"
+            }`}
+          >
+            <Layers className="w-3.5 h-3.5" aria-hidden="true" />
+            <span>
+              Multi-Select
+              {multiMode && selectedCategories.length > 0
+                ? ` (${selectedCategories.length})`
+                : ""}
+            </span>
+          </button>
           {CATEGORY_META.map((cat) => {
-            const active = selectedCategoryMeta?.id === cat.id;
+            const active = multiMode
+              ? selectedCategories.includes(cat.id)
+              : selectedCategoryMeta?.id === cat.id;
             return (
               <button
                 key={cat.id}
                 type="button"
-                onClick={() => {
-                  setCategory(active ? "all" : cat.id);
-                  setVisibleCount(24);
-                }}
-                className={`shrink-0 px-3 py-1.5 rounded-lg text-[12.5px] border transition-colors cursor-pointer ${
+                onClick={() => toggleCategoryChip(cat.id)}
+                aria-pressed={active}
+                className={`shrink-0 inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-[12.5px] border transition-colors cursor-pointer ${
                   active
                     ? "bg-[#0F5C4D] border-[#0F5C4D] text-white"
                     : "bg-white border-[#E4E4DF] text-[#4B525C] hover:border-[#C9C9C2]"
                 }`}
               >
-                {cat.shortLabel}
+                {multiMode && active && (
+                  <Check className="w-3 h-3 shrink-0" aria-hidden="true" />
+                )}
+                <span>{cat.shortLabel}</span>
               </button>
             );
           })}
@@ -730,7 +823,40 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
 
         {/* Cards Grid */}
         <div className="lg:col-span-9 space-y-6">
-          {selectedCategoryMeta && (
+          {multiMode && selectedCategories.length < 2 && (
+            <div className="bg-[#EEF5F2] border border-[#C9DBD2] rounded-xl px-4 py-3 flex flex-wrap items-center justify-between gap-2 text-[13px] text-[#0F5C4D]">
+              <span>
+                <strong>Multi-Select ON:</strong> Select{" "}
+                {selectedCategories.length === 0 ? "2 or more categories" : "1 more category"} above to calculate the best single card &amp; 2-card combo for your mix.
+              </span>
+              <button
+                type="button"
+                onClick={toggleMultiMode}
+                className="text-[12px] font-medium underline cursor-pointer shrink-0"
+              >
+                Switch to Single
+              </button>
+            </div>
+          )}
+
+          {multiRecommendation && (
+            <MultiCategoryBestCardPanel
+              recommendation={multiRecommendation}
+              requireAllMatch={requireAllMatch}
+              onToggleRequireAll={() => setRequireAllMatch((v) => !v)}
+              onRemoveCategory={(catId) =>
+                setSelectedCategories((prev) => prev.filter((id) => id !== catId))
+              }
+              onClearAll={() => {
+                setMultiMode(false);
+                setSelectedCategories([]);
+                setRequireAllMatch(false);
+                setCategory("all");
+              }}
+            />
+          )}
+
+          {!multiRecommendation && selectedCategoryMeta && (
             <div className="bg-white border border-[#E4E4DF] rounded-xl px-4 py-3 flex flex-wrap items-center justify-between gap-3">
               <div className="min-w-0">
                 <p className="text-[13.5px] font-medium text-[#1A1D21]">
@@ -771,11 +897,14 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                 <AnimatePresence mode="popLayout">
                   {filteredCards.slice(0, visibleCount).map((card) => {
+                    const multiEntry = multiRankMap.get(card.card_id);
                     const showPersonalNote =
                       sortBy === "personalized" ||
-                      maxIncome !== "all" ||
+                      maxIncome !== "any" ||
                       strategy !== "default_inr";
-                    const personalNote = showPersonalNote
+                    const cardNote = multiEntry
+                      ? `${multiEntry.matchedCount}/${multiEntry.totalSelected} match · ${multiEntry.summaryLine}`
+                      : showPersonalNote
                       ? computePersonalizedDirectoryScore(card, {
                           monthlyIncomeInr: parsedIncomeNum,
                           strategy,
@@ -794,7 +923,7 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
                         <LedgerCardItem
                           card={card}
                           variant="comet"
-                          highlightNote={personalNote ?? undefined}
+                          highlightNote={cardNote ?? undefined}
                         />
                       </motion.div>
                     );
