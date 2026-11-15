@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import type { Metadata } from "next";
 import { MyCardsClient } from "@/components/MyCardsClient";
-import { getAllCardsAsync, getFeeWaiverMapAsync } from "@/lib/data";
+import { getAllCardsAsync, getFeeWaiverMapAsync, selectSsrCardSlice } from "@/lib/data";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -24,7 +24,7 @@ export default async function MyCardsPage() {
         </div>
       }
     >
-      <MyCardsClient cards={cards} waiverMap={waiverMap} />
+      <MyCardsClient cards={selectSsrCardSlice(cards, 36)} waiverMap={waiverMap} />
     </Suspense>
   );
 }

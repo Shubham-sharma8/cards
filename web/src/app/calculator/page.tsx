@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { getAllCardsAsync, getCalculatorExtraMetaMapAsync } from "@/lib/data";
+import { getAllCardsAsync, getCalculatorExtraMetaMapAsync, selectSsrCardSlice } from "@/lib/data";
 import { CalculatorClient, type CardCalcExtraMeta } from "@/components/CalculatorClient";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
@@ -21,7 +21,11 @@ export default async function CalculatorPage() {
     getAllCardsAsync(),
     getCalculatorExtraMetaMapAsync(),
   ]);
-  const extraByCardId: Record<string, CardCalcExtraMeta> = extraMap;
+  const ssrCards = selectSsrCardSlice(cards, 36);
+  const extraByCardId: Record<string, CardCalcExtraMeta> = {};
+  for (const c of ssrCards) {
+    if (extraMap[c.card_id]) extraByCardId[c.card_id] = extraMap[c.card_id];
+  }
 
   return (
     <>
@@ -39,7 +43,7 @@ export default async function CalculatorPage() {
           { name: "Cashback Calculator", path: "/calculator" },
         ])}
       />
-      <CalculatorClient cards={cards} extraByCardId={extraByCardId} />
+      <CalculatorClient cards={ssrCards} extraByCardId={extraByCardId} totalCardCount={cards.length} />
     </>
   );
 }

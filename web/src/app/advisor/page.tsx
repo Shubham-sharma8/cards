@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { AdvisorClient } from "@/components/AdvisorClient";
 import { JsonLd } from "@/components/JsonLd";
-import { getAdvisorMetaMapAsync, getAllCardsAsync, getFeeWaiverMapAsync } from "@/lib/data";
+import { getAdvisorMetaMapAsync, getAllCardsAsync, getFeeWaiverMapAsync, selectSsrCardSlice } from "@/lib/data";
 import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -15,11 +15,18 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default async function AdvisorPage() {
-  const [cards, waiverMap, advisorMetaMap] = await Promise.all([
+  const [cards, fullWaiverMap, fullAdvisorMetaMap] = await Promise.all([
     getAllCardsAsync(),
     getFeeWaiverMapAsync(),
     getAdvisorMetaMapAsync(),
   ]);
+  const ssrCards = selectSsrCardSlice(cards, 36);
+  const waiverMap: typeof fullWaiverMap = {};
+  const advisorMetaMap: typeof fullAdvisorMetaMap = {};
+  for (const c of ssrCards) {
+    if (c.card_id in fullWaiverMap) waiverMap[c.card_id] = fullWaiverMap[c.card_id];
+    if (c.card_id in fullAdvisorMetaMap) advisorMetaMap[c.card_id] = fullAdvisorMetaMap[c.card_id];
+  }
 
   return (
     <>
@@ -38,7 +45,7 @@ export default async function AdvisorPage() {
         ])}
       />
       <AdvisorClient
-        cards={cards}
+        cards={ssrCards}
         waiverMap={waiverMap}
         advisorMetaMap={advisorMetaMap}
       />

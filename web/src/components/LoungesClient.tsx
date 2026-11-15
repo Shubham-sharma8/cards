@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import { useFullCards, useFullR2Json } from "@/lib/useCatalog";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
@@ -66,11 +67,26 @@ const POPULAR_AIRPORT_CODES = new Set(["DEL", "BOM", "BLR", "HYD", "MAA", "CCU",
 
 export function LoungesClient({
   catalog,
-  loungeMaster,
+  loungeMaster: initialLoungeMaster,
   golfClubs = [],
-  allCards,
-  noSpendLoungeCards,
+  allCards: initialAllCards,
+  noSpendLoungeCards: initialNoSpendLoungeCards,
 }: LoungesClientProps) {
+  const allCards = useFullCards(initialAllCards);
+  const needsLoungeHydration =
+    (initialLoungeMaster.participating_indian_airport_lounges?.length ?? 0) <
+    (initialLoungeMaster.participating_indian_airport_lounges_count || 50);
+  const loungeMaster = useFullR2Json(
+    "meta/lounge_access_master.json",
+    initialLoungeMaster,
+    needsLoungeHydration
+  );
+  const noSpendLoungeCards = useMemo(() => {
+    if (allCards.length <= initialAllCards.length) return initialNoSpendLoungeCards;
+    return allCards
+      .filter((c) => c.filter_tags.no_spend_domestic_lounge)
+      .sort((a, b) => b.overall_rating - a.overall_rating);
+  }, [allCards, initialAllCards.length, initialNoSpendLoungeCards]);
   const { ownedIds } = useCompare();
 
   const airportDirectory = useMemo(

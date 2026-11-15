@@ -4,6 +4,7 @@ import {
   getBanksIndexAsync,
   getDevaluationTrackerAsync,
   getLatestOffersAsync,
+  selectSsrCardSlice,
 } from "@/lib/data";
 import { HomeClient } from "@/components/HomeClient";
 
@@ -30,7 +31,7 @@ export default async function HomePage() {
 
   return (
     <HomeClient
-      cards={cards}
+      cards={selectSsrCardSlice(cards, 36)}
       banks={sortedBanks}
       recentDevaluations={deval.timeline_2024_2026.slice(0, 4)}
       latestOffers={latestOffers.offers}

@@ -7,6 +7,7 @@ import {
   getGolfClubsMasterAsync,
   getLoungeAccessMasterAsync,
   getLoungeCatalogAsync,
+  selectSsrCardSlice,
 } from "@/lib/data";
 import { buildBreadcrumbJsonLd, buildCollectionJsonLd, buildPageMetadata } from "@/lib/seo";
 
@@ -30,6 +31,16 @@ export default async function LoungesPage() {
   const noSpendLoungeCards = allCards
     .filter((c) => c.filter_tags.no_spend_domestic_lounge)
     .sort((a, b) => b.overall_rating - a.overall_rating);
+  const ssrLounges = {
+    ...loungeMaster,
+    participating_indian_airport_lounges: (loungeMaster.participating_indian_airport_lounges || [])
+      .slice()
+      .sort((a, b) => {
+        const pri = (code: string) => (code === "DEL" ? 3 : code === "BOM" ? 2 : code === "BLR" ? 1 : 0);
+        return pri(b.airport_code) - pri(a.airport_code);
+      })
+      .slice(0, 36),
+  };
 
   return (
     <>
@@ -50,10 +61,10 @@ export default async function LoungesPage() {
       />
       <LoungesClient
         catalog={catalog}
-        loungeMaster={loungeMaster}
+        loungeMaster={ssrLounges}
         golfClubs={golfClubs}
-        allCards={allCards}
-        noSpendLoungeCards={noSpendLoungeCards}
+        allCards={selectSsrCardSlice(allCards, 36)}
+        noSpendLoungeCards={noSpendLoungeCards.slice(0, 24)}
       />
     </>
   );

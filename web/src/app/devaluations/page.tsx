@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { getAllCardsAsync, getDevaluationTrackerAsync } from "@/lib/data";
+import { getAllCardsAsync, getDevaluationTrackerAsync, selectSsrCardSlice } from "@/lib/data";
 import { DevaluationsClient } from "@/components/DevaluationsClient";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbJsonLd, buildCollectionJsonLd, buildPageMetadata } from "@/lib/seo";
@@ -37,7 +37,7 @@ export default async function DevaluationsPage() {
           { name: "Devaluations", path: "/devaluations" },
         ])}
       />
-      <DevaluationsClient tracker={tracker} cards={cards} />
+      <DevaluationsClient tracker={tracker} cards={selectSsrCardSlice(cards, 36)} />
     </>
   );
 }

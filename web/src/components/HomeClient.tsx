@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
+import { useFullCards } from "@/lib/useCatalog";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -198,12 +199,13 @@ const SHOWCASE_DECK_SPECS: DeckSlotSpec[] = [
 ];
 
 export function HomeClient({
-  cards,
+  cards: initialCards,
   banks,
   recentDevaluations,
   latestOffers = [],
   stats,
 }: HomeClientProps) {
+  const cards = useFullCards(initialCards);
   const router = useRouter();
   const { openCard } = useExpandableCard();
   const [searchInput, setSearchInput] = useState("");
@@ -1038,7 +1040,7 @@ export function HomeClient({
                   Explore {sc.card_name}
                 </h2>
                 <p className="text-[13px] text-[#4B525C] leading-relaxed">
-                  High-resolution card artwork, live category yield breakdown, spend caps &amp; lounge eligibility across {cards.length} Indian cards.
+                  High-resolution card artwork, live category yield breakdown, spend caps &amp; lounge eligibility across {stats.totalCards} Indian cards.
                 </p>
                 <div className="flex flex-wrap gap-1.5 pt-0.5">
                   {heroDeckCards.map((item, idx) => {

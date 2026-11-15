@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { getAllCardsAsync, getBanksIndexAsync } from "@/lib/data";
+import { getAllCardsAsync, getBanksIndexAsync, selectSsrCardSlice } from "@/lib/data";
 import { CardsExplorerClient } from "@/components/CardsExplorerClient";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbJsonLd, buildCollectionJsonLd, buildPageMetadata } from "@/lib/seo";
@@ -37,7 +37,11 @@ export default async function CardsPage() {
           { name: "All Cards", path: "/cards" },
         ])}
       />
-      <CardsExplorerClient cards={cards} banks={banksIndex.banks} />
+      <CardsExplorerClient
+        cards={selectSsrCardSlice(cards, 36)}
+        banks={banksIndex.banks}
+        totalCardCount={cards.length}
+      />
     </>
   );
 }

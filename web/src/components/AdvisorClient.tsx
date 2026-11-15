@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import { useFullCards, useFullR2Json } from "@/lib/useCatalog";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
@@ -118,7 +119,19 @@ const PRIORITY_MODES: Array<{ id: AdvisorPriorityMode; label: string; hint: stri
   { id: "travel_lounge", label: "Travel & Lounge", hint: "Miles, forex & lounges" },
 ];
 
-export function AdvisorClient({ cards, waiverMap, advisorMetaMap }: AdvisorClientProps) {
+export function AdvisorClient({
+  cards: initialCards,
+  waiverMap: initialWaiverMap,
+  advisorMetaMap: initialAdvisorMetaMap,
+}: AdvisorClientProps) {
+  const needsCatalogHydration = initialCards.length < 400;
+  const cards = useFullCards(initialCards);
+  const waiverMap = useFullR2Json("meta/fee_waiver_map.json", initialWaiverMap, needsCatalogHydration);
+  const advisorMetaMap = useFullR2Json(
+    "meta/advisor_meta_map.json",
+    initialAdvisorMetaMap,
+    needsCatalogHydration
+  );
   const { savedIds, toggleSaved, isSaved, clearSaved, isSelected, toggleItem } = useCompare();
 
   const [activeTab, setActiveTab] = useState<AdvisorTab>("advisor");

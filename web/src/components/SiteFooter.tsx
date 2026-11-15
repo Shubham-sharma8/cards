@@ -39,27 +39,27 @@ export function SiteFooter() {
             </h3>
             <ul className="space-y-2 text-[13px] text-[#4B525C]">
               <li>
-                <Link href="/categories" className="hover:text-[#0F5C4D]">
+                <Link href="/categories" prefetch={false} className="hover:text-[#0F5C4D]">
                   All {CATEGORY_META.length} Card Categories
                 </Link>
               </li>
               <li>
-                <Link href="/cards?cat=Fuel" className="hover:text-[#0F5C4D]">
+                <Link href="/cards?cat=Fuel" prefetch={false} className="hover:text-[#0F5C4D]">
                   Fuel Credit Cards
                 </Link>
               </li>
               <li>
-                <Link href="/cards?cat=Cashback" className="hover:text-[#0F5C4D]">
+                <Link href="/cards?cat=Cashback" prefetch={false} className="hover:text-[#0F5C4D]">
                   Cashback &amp; Online Shopping
                 </Link>
               </li>
               <li>
-                <Link href="/cards?cat=Travel%20%26%20Miles" className="hover:text-[#0F5C4D]">
+                <Link href="/cards?cat=Travel%20%26%20Miles" prefetch={false} className="hover:text-[#0F5C4D]">
                   Travel &amp; Air Miles
                 </Link>
               </li>
               <li>
-                <Link href="/cards?rupay=1" className="hover:text-[#0F5C4D]">
+                <Link href="/cards?rupay=1" prefetch={false} className="hover:text-[#0F5C4D]">
                   RuPay UPI &amp; LTF Cards
                 </Link>
               </li>
@@ -72,27 +72,27 @@ export function SiteFooter() {
             </h3>
             <ul className="space-y-2 text-[13px] text-[#4B525C]">
               <li>
-                <Link href="/cards?bank=hdfc-bank" className="hover:text-[#0F5C4D]">
+                <Link href="/cards?bank=hdfc-bank" prefetch={false} className="hover:text-[#0F5C4D]">
                   HDFC Bank
                 </Link>
               </li>
               <li>
-                <Link href="/cards?bank=sbi-card" className="hover:text-[#0F5C4D]">
+                <Link href="/cards?bank=sbi-card" prefetch={false} className="hover:text-[#0F5C4D]">
                   SBI Card
                 </Link>
               </li>
               <li>
-                <Link href="/cards?bank=icici-bank" className="hover:text-[#0F5C4D]">
+                <Link href="/cards?bank=icici-bank" prefetch={false} className="hover:text-[#0F5C4D]">
                   ICICI Bank
                 </Link>
               </li>
               <li>
-                <Link href="/cards?bank=axis-bank" className="hover:text-[#0F5C4D]">
+                <Link href="/cards?bank=axis-bank" prefetch={false} className="hover:text-[#0F5C4D]">
                   Axis Bank
                 </Link>
               </li>
               <li>
-                <Link href="/banks" className="hover:text-[#0F5C4D]">
+                <Link href="/banks" prefetch={false} className="hover:text-[#0F5C4D]">
                   All {bankCount} Banks →
                 </Link>
               </li>
@@ -105,37 +105,37 @@ export function SiteFooter() {
             </h3>
             <ul className="space-y-2 text-[13px] text-[#4B525C]">
               <li>
-                <Link href="/advisor" className="hover:text-[#0F5C4D]">
+                <Link href="/advisor" prefetch={false} className="hover:text-[#0F5C4D]">
                   Personalized Card Advisor
                 </Link>
               </li>
               <li>
-                <Link href="/my-cards" className="hover:text-[#0F5C4D]">
+                <Link href="/my-cards" prefetch={false} className="hover:text-[#0F5C4D]">
                   My Cards Wallet Optimizer
                 </Link>
               </li>
               <li>
-                <Link href="/calculator" className="hover:text-[#0F5C4D]">
+                <Link href="/calculator" prefetch={false} className="hover:text-[#0F5C4D]">
                   Spend &amp; Fee Waiver Calc
                 </Link>
               </li>
               <li>
-                <Link href="/lounges" className="hover:text-[#0F5C4D]">
+                <Link href="/lounges" prefetch={false} className="hover:text-[#0F5C4D]">
                   Airport &amp; Railway Lounges
                 </Link>
               </li>
               <li>
-                <Link href="/devaluations" className="hover:text-[#0F5C4D]">
+                <Link href="/devaluations" prefetch={false} className="hover:text-[#0F5C4D]">
                   2024–2026 Devaluation Tracker
                 </Link>
               </li>
               <li>
-                <Link href="/compare" className="hover:text-[#0F5C4D]">
+                <Link href="/compare" prefetch={false} className="hover:text-[#0F5C4D]">
                   Side-by-Side Comparison
                 </Link>
               </li>
               <li>
-                <Link href="/help" className="hover:text-[#0F5C4D]">
+                <Link href="/help" prefetch={false} className="hover:text-[#0F5C4D]">
                   Bank Helplines &amp; L1/L2/PNO Escalation
                 </Link>
               </li>

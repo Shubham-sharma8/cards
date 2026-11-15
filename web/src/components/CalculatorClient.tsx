@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import { useFullCards, useFullR2Json } from "@/lib/useCatalog";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
@@ -38,6 +39,7 @@ export interface CardCalcExtraMeta {
 interface CalculatorClientProps {
   cards: CardSummaryItem[];
   extraByCardId: Record<string, CardCalcExtraMeta>;
+  totalCardCount?: number;
 }
 
 const PRESETS: Record<
@@ -118,7 +120,18 @@ const PRESETS: Record<
   },
 };
 
-export function CalculatorClient({ cards, extraByCardId }: CalculatorClientProps) {
+export function CalculatorClient({
+  cards: initialCards,
+  extraByCardId: initialExtra,
+  totalCardCount,
+}: CalculatorClientProps) {
+  const cards = useFullCards(initialCards);
+  const extraByCardId = useFullR2Json(
+    "meta/calculator_extra_meta.json",
+    initialExtra,
+    initialCards.length < 400
+  );
+  const displayTotalCards = totalCardCount ? Math.max(totalCardCount, cards.length) : cards.length;
   const { isSelected, toggleItem } = useCompare();
 
   const [spends, setSpends] = useState<Record<SpendCategoryKey, number>>(() => {
@@ -466,7 +479,7 @@ export function CalculatorClient({ cards, extraByCardId }: CalculatorClientProps
                 onChange={(e) => setBankFilter(e.target.value)}
                 className="w-full px-3 py-1.5 text-[13px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg"
               >
-                <option value="all">All {bankList.length} Banks ({cards.length})</option>
+                <option value="all">All {bankList.length} Banks ({displayTotalCards})</option>
                 {bankList.map((b) => (
                   <option key={b} value={b}>
                     {b}

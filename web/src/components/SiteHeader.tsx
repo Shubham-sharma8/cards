@@ -118,6 +118,7 @@ export function SiteHeader() {
           <div className="flex items-center gap-3 lg:gap-5 min-w-0">
             <Link
               href="/"
+              prefetch={false}
               className="shrink-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0F5C4D] rounded-md"
             >
               <BrandLogo />
@@ -130,6 +131,7 @@ export function SiteHeader() {
                   <Link
                     key={link.href}
                     href={link.href}
+                    prefetch={false}
                     className={`relative inline-flex items-center gap-1 px-2.5 py-1.5 text-[13.5px] rounded-lg transition-colors whitespace-nowrap ${
                       active
                         ? "text-[#0F5C4D] bg-[#EEF5F2]"
@@ -286,6 +288,7 @@ export function SiteHeader() {
 
             <Link
               href="/my-cards"
+              prefetch={false}
               className={`inline-flex items-center gap-1.5 h-9 px-3 text-[13px] rounded-full border transition-colors whitespace-nowrap ${
                 pathname === "/my-cards"
                   ? "bg-[#0F5C4D] border-[#0F5C4D] text-white"
@@ -311,6 +314,7 @@ export function SiteHeader() {
             </Link>
 
             <Link
+              prefetch={false}
               href={
                 items.length > 0
                   ? `/compare?ids=${encodeURIComponent(items.map((i) => i.card_id).join(","))}`

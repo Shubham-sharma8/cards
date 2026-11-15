@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
+import { useFullCards } from "@/lib/useCatalog";
 import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
 import {
@@ -121,7 +122,8 @@ function findBestMatch(cards: CardSummaryItem[], patterns: string[]): string | n
   return null;
 }
 
-export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
+export function MyCardsClient({ cards: initialCards, waiverMap }: MyCardsClientProps) {
+  const cards = useFullCards(initialCards);
   const {
     ownedIds,
     walletMeta,

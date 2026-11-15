@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import { useFullCards } from "@/lib/useCatalog";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { ArrowRight, Check, Filter, Layers, RotateCcw, SlidersHorizontal, X } from "lucide-react";
@@ -30,6 +31,7 @@ import { GooeySearchInput } from "./ui/gooey-input";
 interface CardsExplorerClientProps {
   cards: CardSummaryItem[];
   banks: BankSummary[];
+  totalCardCount?: number;
 }
 
 const SORT_OPTIONS = [
@@ -40,7 +42,9 @@ const SORT_OPTIONS = [
   { id: "name_asc", label: "Name (A–Z)" },
 ] as const;
 
-export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) {
+export function CardsExplorerClient({ cards: initialCards, banks, totalCardCount }: CardsExplorerClientProps) {
+  const cards = useFullCards(initialCards);
+  const displayTotalCards = totalCardCount ? Math.max(totalCardCount, cards.length) : cards.length;
   const { savedIds } = useCompare();
 
   const [query, setQuery] = useState("");
@@ -413,7 +417,7 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
           }}
           className="w-full px-3 py-2 text-[13.5px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg text-[#1A1D21] focus:outline-none focus:border-[#0F5C4D]"
         >
-          <option value="all">All {banks.length} Banks ({cards.length})</option>
+          <option value="all">All {banks.length} Banks ({displayTotalCards})</option>
           {banks
             .slice()
             .sort((a, b) => a.bank.localeCompare(b.bank))
@@ -596,7 +600,7 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
               All Active Credit Cards
             </h1>
             <p className="text-[13.5px] sm:text-[14px] text-[#4B525C] mt-1 tabular-nums">
-              Showing {filteredCards.length} of {cards.length} indexed Indian credit cards across{" "}
+              Showing {filteredCards.length} of {displayTotalCards} indexed Indian credit cards across{" "}
               {banks.length} banks.
             </p>
           </div>

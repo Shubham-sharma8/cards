@@ -88,11 +88,28 @@ export default async function LoungeOrGolfDetailPage({ params }: PageProps) {
     notFound();
   }
 
+  const eligibleIds = new Set<string>(
+    loungeSpot
+      ? [
+          ...(loungeSpot.eligible_no_spend_card_ids || []),
+          ...(loungeSpot.eligible_low_spend_card_ids || []),
+          ...(loungeSpot.eligible_high_spend_card_ids || []),
+          ...(loungeSpot.verified_cardmaven_card_ids || []),
+        ]
+      : golfClub
+        ? [
+            ...(golfClub.eligible_no_spend_card_ids || []),
+            ...(golfClub.eligible_high_spend_card_ids || []),
+          ]
+        : []
+  );
+  const relevantCards = (searchIdx.cards || []).filter((c) => eligibleIds.has(c.card_id));
+
   return (
     <LoungeDetailClient
       loungeSpot={loungeSpot}
       golfClub={golfClub}
-      allCards={searchIdx.cards || []}
+      allCards={relevantCards}
     />
   );
 }

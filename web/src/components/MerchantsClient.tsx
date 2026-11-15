@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
+import { useFullCards } from "@/lib/useCatalog";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -117,7 +118,8 @@ function BrandAvatar({
   );
 }
 
-export function MerchantsClient({ directory, cards }: MerchantsClientProps) {
+export function MerchantsClient({ directory, cards: initialCards }: MerchantsClientProps) {
+  const cards = useFullCards(initialCards);
   const { ownedIds, toggleOwned } = useCompare();
   const { openCard } = useExpandableCard();
 

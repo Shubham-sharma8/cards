@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import { useFullCards } from "@/lib/useCatalog";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import {
@@ -84,7 +85,8 @@ export function matchCardForDevalMention(
   return bestScore > 0 ? best : null;
 }
 
-export function DevaluationsClient({ tracker, cards }: DevaluationsClientProps) {
+export function DevaluationsClient({ tracker, cards: initialCards }: DevaluationsClientProps) {
+  const cards = useFullCards(initialCards);
   const { ownedIds, toggleItem, isSelected } = useCompare();
 
   const [query, setQuery] = useState("");

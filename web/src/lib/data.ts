@@ -34,8 +34,6 @@ interface R2JsonBucket {
   get(key: string): Promise<{ json<J = unknown>(): Promise<J> } | null>;
 }
 
-const inflightR2 = new Map<string, Promise<unknown>>();
-
 function getR2BaseUrl(): string {
   const envUrl = process.env.NEXT_PUBLIC_R2_PUBLIC_URL?.trim();
   return (envUrl && envUrl.length > 0 ? envUrl : DEFAULT_R2_BASE).replace(/\/+$/, "");
@@ -51,48 +49,74 @@ function hasLocalDataFs(): boolean {
 
 async function fetchR2Json<T>(relPath: string): Promise<T | null> {
   const cleanPath = relPath.replace(/^\/+/, "");
-  const existing = inflightR2.get(cleanPath);
-  if (existing) {
-    return (await existing) as T | null;
-  }
-
-  const job = (async (): Promise<T | null> => {
-    try {
-      const { getCloudflareContext } = await import("@opennextjs/cloudflare");
-      const ctx = await getCloudflareContext({ async: true });
-      const bucket = (ctx?.env as unknown as { CARDLEDGER_MEDIA?: R2JsonBucket } | undefined)
-        ?.CARDLEDGER_MEDIA;
-      if (bucket) {
-        const obj = await bucket.get(cleanPath);
-        if (obj) {
-          return (await obj.json()) as T;
-        }
-      }
-    } catch {
-      // Outside Cloudflare Workers context (local dev/build or Node runtime); fall back to public R2 HTTPS.
-    }
-
-    try {
-      const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), 8000);
-      const res = await fetch(`${getR2BaseUrl()}/${cleanPath}`, {
-        signal: controller.signal,
-        next: { revalidate: 3600 },
-      });
-      clearTimeout(timer);
-      if (!res.ok) return null;
-      return (await res.json()) as T;
-    } catch {
-      return null;
-    }
-  })();
-
-  inflightR2.set(cleanPath, job);
   try {
-    return await job;
-  } finally {
-    inflightR2.delete(cleanPath);
+    const { getCloudflareContext } = await import("@opennextjs/cloudflare");
+    const ctx = await getCloudflareContext({ async: true });
+    const bucket = (ctx?.env as unknown as { CARDLEDGER_MEDIA?: R2JsonBucket } | undefined)
+      ?.CARDLEDGER_MEDIA;
+    if (bucket) {
+      const obj = await bucket.get(cleanPath);
+      if (obj) {
+        return (await obj.json()) as T;
+      }
+    }
+  } catch {
+    // Outside Cloudflare Workers context (local dev/build or Node runtime); fall back to public R2 HTTPS.
   }
+
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 8000);
+    const res = await fetch(`${getR2BaseUrl()}/${cleanPath}`, {
+      signal: controller.signal,
+      next: { revalidate: 3600 },
+    });
+    clearTimeout(timer);
+    if (!res.ok) return null;
+    return (await res.json()) as T;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Selects a compact initial card subset across top ratings & flagship categories
+ * so static SSR HTML/cache payloads stay well within Cloudflare Workers Free CPU/RAM limits,
+ * while client hydration loads the full 515-card index from static/R2 CDN.
+ */
+export function selectSsrCardSlice(cards: CardSummaryItem[], limit = 36): CardSummaryItem[] {
+  if (cards.length <= limit) return cards;
+  const picked = new Map<string, CardSummaryItem>();
+  const sorted = [...cards].sort((a, b) => b.overall_rating - a.overall_rating);
+
+  const buckets: ((c: CardSummaryItem) => boolean)[] = [
+    (c) => c.categories.includes("Cashback"),
+    (c) => c.categories.includes("Online Shopping"),
+    (c) => c.categories.includes("Travel & Miles"),
+    (c) => Boolean(c.filter_tags.is_rupay_upi),
+    (c) => c.categories.includes("Fuel"),
+    (c) => Boolean(c.filter_tags.no_spend_domestic_lounge),
+    (c) => Boolean(c.filter_tags.is_ltf),
+    (c) => Boolean(c.filter_tags.has_golf),
+  ];
+
+  for (const pred of buckets) {
+    let taken = 0;
+    for (const c of sorted) {
+      if (taken >= 4 || picked.size >= limit) break;
+      if (!picked.has(c.card_id) && pred(c)) {
+        picked.set(c.card_id, c);
+        taken++;
+      }
+    }
+  }
+
+  for (const c of sorted) {
+    if (picked.size >= limit) break;
+    if (!picked.has(c.card_id)) picked.set(c.card_id, c);
+  }
+
+  return Array.from(picked.values());
 }
 
 export function getSiteCounts(): { totalCards: number; totalBanks: number } {
