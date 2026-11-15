@@ -257,6 +257,10 @@ export default function RootLayout() {
                   name="lounge-guide"
                   options={{ title: 'QR Portals & Claim Steps', headerBackTitle: 'Lounges' }}
                 />
+                <Stack.Screen
+                  name="merchants"
+                  options={{ title: 'Merchant MCC Advisor', headerBackTitle: 'Home' }}
+                />
               </Stack>
           </CompareProvider>
         </ThemeProvider>

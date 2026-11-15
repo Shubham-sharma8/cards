@@ -223,6 +223,14 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
     [ownedIds, walletMeta, enrichedCards]
   );
 
+  const renewalDatesByCardId = useMemo(() => {
+    const out: Record<string, string | undefined> = {};
+    for (const id of ownedIds) {
+      out[id] = walletMeta[id]?.renewalDate;
+    }
+    return out;
+  }, [ownedIds, walletMeta]);
+
   const analysis = useMemo(
     () =>
       analyzeOwnedPortfolio(enrichedCards, ownedIds, monthlySpend, {
@@ -231,6 +239,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
         needInternationalLounge,
         needGolf,
         ltfCardIds,
+        renewalDatesByCardId,
       }),
     [
       enrichedCards,
@@ -241,6 +250,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
       needInternationalLounge,
       needGolf,
       ltfCardIds,
+      renewalDatesByCardId,
     ]
   );
 
@@ -254,7 +264,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 space-y-6">
+    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 space-y-6 overflow-x-clip">
       {/* Header */}
       <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4">
         <div>
@@ -270,6 +280,13 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2 shrink-0">
+          <Link
+            href="/merchants"
+            className="inline-flex items-center gap-1.5 text-[12.5px] bg-[#0F5C4D] hover:bg-[#0B463A] text-white px-3 py-2 rounded-lg transition-colors"
+          >
+            Check Merchant MCC Advisor
+            <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+          </Link>
           {starterStacks.map((stack) => (
             <button
               key={stack.id}
@@ -611,7 +628,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
             transition={calmTransition}
-            className="space-y-6"
+            className="space-y-6 w-full min-w-0"
           >
             {/* AI Wallet Optimization Plan */}
             {aiSummary && (
@@ -685,7 +702,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
             </section>
 
             {/* Tabular Utilization Matrix with Checkboxes & Swipe Hacks */}
-            <section className="bg-white border border-[#E4E4DF] rounded-xl overflow-hidden">
+            <section className="bg-white border border-[#E4E4DF] rounded-xl overflow-hidden w-full min-w-0">
               <div className="p-5 sm:p-6 border-b border-[#E4E4DF]">
                 <h2 className="text-[17px] font-medium text-[#1A1D21]">
                   3. Where to Swipe Each Card (✅ Utilization Matrix &amp; Cap Spillover Hacks)
@@ -694,7 +711,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                   Green ✅ marks the optimal card per spend category; 🔄 marks a spillover backup card when monthly caps get exhausted.
                 </p>
               </div>
-              <div className="overflow-x-auto">
+              <div className="w-full max-w-full overflow-x-auto">
                 <table className="w-full min-w-[880px] text-left border-collapse text-[12.5px] tabular-nums">
                   <thead>
                     <tr className="bg-[#FAF9F6] border-b border-[#E4E4DF] text-[#717882]">
@@ -861,22 +878,66 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
             </section>
 
             {/* Keep / Review & Downgrade + Recommended Additions */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              {/* Keep / Remove Audit */}
-              <section className="bg-white border border-[#E4E4DF] rounded-xl p-5 sm:p-6 space-y-4">
-                <h2 className="text-[16px] font-medium text-[#1A1D21]">
-                  5. Keep vs Review / Downgrade Verdict
-                </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full min-w-0">
+              {/* Keep / Remove Audit ("Clear Your Clutter") */}
+              <section className="bg-white border border-[#E4E4DF] rounded-xl p-5 sm:p-6 space-y-4 min-w-0">
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <h2 className="text-[16px] font-medium text-[#1A1D21]">
+                      5. Clear Your Clutter — Keep, Convert to LTF, or Drop Before Renewal
+                    </h2>
+                    <p className="text-[12.5px] text-[#717882] mt-0.5">
+                      Evaluates monthly spend marginal gain, alternative owned cards in your wallet, annual fees &amp; renewal countdown.
+                    </p>
+                  </div>
+                  {analysis.clutterSummary.clutterCount > 0 ? (
+                    <span className="text-[12px] font-medium px-2.5 py-1 rounded-lg bg-[#FEE2E2]/80 text-[#991B1B] border border-[#991B1B]/25 tabular-nums">
+                      {analysis.clutterSummary.clutterCount} flagged · Save {formatInr(analysis.clutterSummary.totalFeeSavingsInr)}/yr
+                    </span>
+                  ) : (
+                    <span className="text-[12px] font-medium px-2.5 py-1 rounded-lg bg-[#EEF5F2] text-[#0F5C4D] border border-[#0F5C4D]/25">
+                      Clean Portfolio
+                    </span>
+                  )}
+                </div>
+
+                {analysis.clutterSummary.urgentRenewalCount > 0 && (
+                  <div className="rounded-xl p-3.5 bg-[#FEE2E2]/60 border border-[#991B1B]/30 text-[12.5px] text-[#991B1B] flex items-start gap-2">
+                    <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" aria-hidden="true" />
+                    <div>
+                      <strong>{analysis.clutterSummary.urgentRenewalCount} renewal deadline(s) within 60 days.</strong>{" "}
+                      Call retention to request Lifetime Free (LTF) conversion or cancel before fee posts.
+                    </div>
+                  </div>
+                )}
+
                 <div className="space-y-3">
                   {analysis.cardAudits.map((audit) => {
-                    const isReview = audit.action === "REVIEW_OR_DOWNGRADE";
+                    const isDrop = audit.clutterVerdict === "DROP_BEFORE_RENEWAL";
+                    const isConvert = audit.clutterVerdict === "CONVERT_TO_LTF";
+                    const isLtf = audit.clutterVerdict === "KEEP_LTF";
+                    const verdictLabel = isDrop
+                      ? "Drop Before Renewal"
+                      : isConvert
+                        ? "Convert to LTF"
+                        : isLtf
+                          ? "Keep (LTF)"
+                          : "Keep Core";
+                    const verdictStyle = isDrop
+                      ? "bg-[#FEE2E2]/85 text-[#991B1B] border border-[#991B1B]/30"
+                      : isConvert
+                        ? "bg-[#FEF6EA] text-[#9A5B13] border border-[#9A5B13]/30"
+                        : "bg-[#EEF5F2] text-[#0F5C4D] border border-[#0F5C4D]/25";
+
                     return (
                       <div
                         key={audit.card.card_id}
-                        className={`border rounded-xl p-4 space-y-2 ${
-                          isReview
-                            ? "bg-[#FEF6EA]/50 border-[#9A5B13]/25"
-                            : "bg-[#FAF9F6] border-[#E4E4DF]"
+                        className={`border rounded-xl p-4 space-y-2.5 ${
+                          isDrop
+                            ? "bg-[#FEE2E2]/25 border-[#991B1B]/25"
+                            : isConvert
+                              ? "bg-[#FEF6EA]/50 border-[#9A5B13]/25"
+                              : "bg-[#FAF9F6] border-[#E4E4DF]"
                         }`}
                       >
                         <div className="flex items-start justify-between gap-2">
@@ -894,21 +955,41 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                             </Link>
                           </div>
                           <span
-                            className={`text-[11px] px-2 py-0.5 rounded-md shrink-0 font-medium ${
-                              isReview
-                                ? "bg-[#FEF6EA] text-[#9A5B13] border border-[#9A5B13]/30"
-                                : "bg-[#EEF5F2] text-[#0F5C4D] border border-[#0F5C4D]/25"
-                            }`}
+                            className={`text-[11px] px-2 py-0.5 rounded-md shrink-0 font-medium ${verdictStyle}`}
                           >
-                            {isReview ? "Review / Downgrade" : "Keep"}
+                            {verdictLabel}
                           </span>
                         </div>
+
+                        <div className="flex flex-wrap items-center gap-1.5 text-[11.5px]">
+                          {audit.daysUntilRenewal !== null && (
+                            <span
+                              className={`px-2 py-0.5 rounded-md border font-medium tabular-nums ${
+                                audit.daysUntilRenewal <= 60
+                                  ? "bg-[#FEE2E2] text-[#991B1B] border-[#991B1B]/30"
+                                  : "bg-white text-[#4B525C] border-[#E4E4DF]"
+                              }`}
+                            >
+                              {audit.daysUntilRenewal === 0
+                                ? "Renews today"
+                                : `Renews in ${audit.daysUntilRenewal}d`}
+                              {audit.renewalDateLabel ? ` (${audit.renewalDateLabel})` : ""}
+                            </span>
+                          )}
+                          {audit.overlappingWalletCards.length > 0 && (
+                            <span className="px-2 py-0.5 rounded-md bg-white border border-[#E4E4DF] text-[#4B525C]">
+                              Covered by: {audit.overlappingWalletCards.slice(0, 2).join(", ")}
+                            </span>
+                          )}
+                        </div>
+
                         <p className="text-[13px] text-[#4B525C] leading-relaxed">
                           {audit.reason}
                         </p>
-                        <div className="flex items-center justify-between text-[12px] text-[#717882] pt-2 border-t border-[#E4E4DF] tabular-nums">
+
+                        <div className="flex flex-wrap items-center justify-between gap-2 text-[12px] text-[#717882] pt-2 border-t border-[#E4E4DF] tabular-nums">
                           <span>
-                            Attributed: +{formatInr(audit.attributedAnnualRewardInr)}/yr
+                            Marginal: +{formatInr(audit.marginalAnnualGainInr)}/yr
                           </span>
                           <span>
                             Eff. Fee:{" "}
@@ -926,6 +1007,32 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                             Net {formatInr(audit.netAttributedValueInr)}
                           </span>
                         </div>
+
+                        {(isDrop || isConvert) && (
+                          <div className="flex flex-wrap items-center gap-2 pt-1">
+                            <button
+                              type="button"
+                              onClick={() => toggleOwned(audit.card.card_id)}
+                              className="inline-flex items-center gap-1 text-[11.5px] font-medium px-2.5 py-1 rounded-lg border border-[#991B1B]/30 bg-white text-[#991B1B] hover:bg-[#FEE2E2]/50 transition-colors cursor-pointer"
+                            >
+                              <Trash2 className="w-3 h-3" aria-hidden="true" />
+                              Drop Card
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() =>
+                                updateWalletMeta(audit.card.card_id, {
+                                  isLTF: true,
+                                  renewalDate: undefined,
+                                })
+                              }
+                              className="inline-flex items-center gap-1 text-[11.5px] font-medium px-2.5 py-1 rounded-lg border border-[#0F5C4D]/30 bg-white text-[#0F5C4D] hover:bg-[#EEF5F2] transition-colors cursor-pointer"
+                            >
+                              <Check className="w-3 h-3" aria-hidden="true" />
+                              Mark as LTF
+                            </button>
+                          </div>
+                        )}
                       </div>
                     );
                   })}
@@ -933,7 +1040,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
               </section>
 
               {/* Recommended Additions */}
-              <section className="bg-white border border-[#E4E4DF] rounded-xl p-5 sm:p-6 space-y-4">
+              <section className="bg-white border border-[#E4E4DF] rounded-xl p-5 sm:p-6 space-y-4 min-w-0">
                 <div className="flex items-center gap-2">
                   <Sparkles className="w-4 h-4 text-[#0F5C4D]" aria-hidden="true" />
                   <h2 className="text-[16px] font-medium text-[#1A1D21]">

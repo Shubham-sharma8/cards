@@ -1,4 +1,5 @@
 import { fetchRemoteCardDossier } from './mediaCdn';
+import type { MerchantDirectoryPayload } from './merchants';
 import type {
   AdvisorCardMeta,
   BankSummary,
@@ -50,6 +51,7 @@ const calcMetaRaw = require('../data/calc_meta.json') as Record<
 const latestOffersRaw = require('../data/latest_offers.json') as LatestOffersPayload;
 const loungeAccessMasterRaw = require('../data/lounge_access_master.json') as LoungeAccessMasterPayload;
 const golfClubsMasterRaw = require('../data/golf_clubs_master.json') as GolfClubsMasterPayload;
+const merchantDirectoryRaw = require('../data/merchant_mcc_directory.json') as MerchantDirectoryPayload;
 
 let cachedDossiersMap: Record<string, MobileCardDossier> | null = null;
 export function getDossiersMap(): Record<string, MobileCardDossier> {
@@ -71,6 +73,7 @@ export const TOTAL_LOUNGE_PROGRAMS = Object.keys(loungeCatalogRaw.programs || {}
 export const DEVALUATION_TRACKER = devalTrackerRaw;
 export const CALC_META = calcMetaRaw;
 export const LATEST_OFFERS: LatestOffer[] = latestOffersRaw.offers || [];
+export const MERCHANT_DIRECTORY: MerchantDirectoryPayload = merchantDirectoryRaw;
 
 let cachedAdvisorMetaMap: Record<string, AdvisorCardMeta> | null = null;
 

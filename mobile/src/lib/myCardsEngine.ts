@@ -8,6 +8,7 @@ import {
   cappedMonthlyCategoryReward,
   evaluateCardForSpend,
 } from './advisor';
+import { isCardDiscontinuedForNewApplicants } from './legacyCards';
 
 export interface MatrixCellInfo {
   cardId: string;
@@ -39,12 +40,24 @@ export interface UtilizationMatrixRow {
 export interface PortfolioCardAudit {
   card: CardSummaryItem;
   action: 'KEEP' | 'REVIEW_OR_DOWNGRADE';
+  clutterVerdict: 'KEEP_CORE' | 'KEEP_LTF' | 'CONVERT_TO_LTF' | 'DROP_BEFORE_RENEWAL';
   primaryCategoriesCount: number;
   primaryCategories: string[];
   attributedAnnualRewardInr: number;
+  marginalAnnualGainInr: number;
   effectiveFeeInr: number;
   netAttributedValueInr: number;
+  overlappingWalletCards: string[];
+  daysUntilRenewal: number | null;
+  renewalDateLabel: string | null;
   reason: string;
+}
+
+export interface ClutterSummary {
+  clutterCount: number;
+  urgentRenewalCount: number;
+  totalFeeSavingsInr: number;
+  suggestedDropIds: string[];
 }
 
 export interface RecommendedAddition {
@@ -75,6 +88,7 @@ export interface WalletAuditResult {
     gaps: string[];
   };
   cardAudits: PortfolioCardAudit[];
+  clutterSummary: ClutterSummary;
   recommendedAdditions: RecommendedAddition[];
 }
 
@@ -88,6 +102,7 @@ export function analyzeOwnedPortfolio(
     needInternationalLounge?: boolean;
     needGolf?: boolean;
     ltfCardIds?: string[];
+    renewalDatesByCardId?: Record<string, string | undefined>;
   } = {}
 ): WalletAuditResult {
   const byId = new Map(allCards.map((c) => [c.card_id, c]));
@@ -389,6 +404,37 @@ export function analyzeOwnedPortfolio(
   }
 
   const ltfOverrideSet = new Set(options.ltfCardIds || []);
+  const renewalMap = options.renewalDatesByCardId || {};
+
+  const computeDaysUntilRenewal = (
+    rawDate: string | undefined
+  ): { days: number | null; label: string | null } => {
+    if (!rawDate || !rawDate.trim()) return { days: null, label: null };
+    const clean = rawDate.trim();
+    let parsed = new Date(clean);
+    if (Number.isNaN(parsed.getTime())) {
+      const m = clean.match(/^(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})$/);
+      if (m) {
+        const y = m[3].length === 2 ? `20${m[3]}` : m[3];
+        parsed = new Date(`${y}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}`);
+      }
+    }
+    if (Number.isNaN(parsed.getTime())) return { days: null, label: clean };
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const target = new Date(parsed.getFullYear(), parsed.getMonth(), parsed.getDate());
+    while (target.getTime() < today.getTime()) {
+      target.setFullYear(target.getFullYear() + 1);
+    }
+    const days = Math.round((target.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+    const label = target.toLocaleDateString('en-IN', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric',
+    });
+    return { days, label };
+  };
+
   let totalCurrentFeesInr = 0;
   const cardAudits: PortfolioCardAudit[] = ownedCards.map((card) => {
     const isUserLtf = ltfOverrideSet.has(card.card_id);
@@ -408,22 +454,70 @@ export function analyzeOwnedPortfolio(
       (card.filter_tags.has_international_lounge && intlCards.length === 1) ||
       ((card.filter_tags.has_golf || card.categories.includes('Golf')) && golfCards.length === 1);
 
+    const otherCards = ownedCards.filter((o) => o.card_id !== card.card_id);
+    let marginalAnnualGainInr = 0;
+    const overlappingCounts: Record<string, number> = {};
+    for (const row of matrixRows) {
+      if (row.monthlySpendInr <= 0) continue;
+      const myCell = row.cellsByCardId[card.card_id];
+      const bestOther = otherCards
+        .map((o) => ({
+          card: o,
+          reward: row.cellsByCardId[o.card_id]?.monthlyRewardInr ?? 0,
+        }))
+        .sort((a, b) => b.reward - a.reward)[0];
+
+      if (bestOther && bestOther.reward >= (myCell?.monthlyRewardInr ?? 0)) {
+        overlappingCounts[bestOther.card.card_name] =
+          (overlappingCounts[bestOther.card.card_name] || 0) + 1;
+      }
+      if (myCell && row.bestCard?.card_id === card.card_id) {
+        const diff = Math.max(0, myCell.monthlyRewardInr - (bestOther?.reward ?? 0));
+        marginalAnnualGainInr += diff * 12;
+      }
+    }
+    const overlappingWalletCards = Object.entries(overlappingCounts)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 2)
+      .map(([name]) => name);
+
+    const { days: daysUntilRenewal, label: renewalDateLabel } = computeDaysUntilRenewal(
+      renewalMap[card.card_id]
+    );
     const netVal = assignedRewards - effFee;
+    const netMarginal = marginalAnnualGainInr - effFee;
     const effectiveLtf = isUserLtf || card.filter_tags.is_ltf;
     const shouldReview =
-      !effectiveLtf &&
-      card.annual_fee_inr > 0 &&
-      wonCats.length === 0 &&
-      !uniquePerk;
+      !effectiveLtf && effFee > 0 && !uniquePerk && (wonCats.length === 0 || netMarginal < 0);
+
+    let clutterVerdict: PortfolioCardAudit['clutterVerdict'] = 'KEEP_CORE';
+    if (shouldReview) {
+      clutterVerdict =
+        marginalAnnualGainInr > 0 && marginalAnnualGainInr >= effFee * 0.45
+          ? 'CONVERT_TO_LTF'
+          : 'DROP_BEFORE_RENEWAL';
+    } else if (effectiveLtf && wonCats.length === 0 && !uniquePerk) {
+      clutterVerdict = 'KEEP_LTF';
+    }
 
     let reason = '';
-    if (shouldReview) {
-      reason = `Paying ₹${Math.round(effFee).toLocaleString('en-IN')} effective renewal while other cards in your wallet beat it in every spend bucket.`;
-    } else if (effectiveLtf && wonCats.length === 0) {
+    if (clutterVerdict === 'DROP_BEFORE_RENEWAL') {
+      const altText =
+        overlappingWalletCards.length > 0
+          ? ` Covered by ${overlappingWalletCards.join(' / ')} in your wallet.`
+          : '';
+      const renewalUrgent =
+        daysUntilRenewal !== null && daysUntilRenewal <= 60
+          ? ` Renews in ${daysUntilRenewal}d (${renewalDateLabel}) — cancel/downgrade now to save ₹${Math.round(effFee).toLocaleString('en-IN')}.`
+          : ` Save ₹${Math.round(effFee).toLocaleString('en-IN')}/yr fee.`;
+      reason = `Adds ₹${Math.round(marginalAnnualGainInr).toLocaleString('en-IN')}/yr vs ₹${Math.round(effFee).toLocaleString('en-IN')} fee.${altText}${renewalUrgent}`;
+    } else if (clutterVerdict === 'CONVERT_TO_LTF') {
+      reason = `Adds ₹${Math.round(marginalAnnualGainInr).toLocaleString('en-IN')}/yr over ${overlappingWalletCards[0] || 'your stack'}, below its ₹${Math.round(effFee).toLocaleString('en-IN')} fee — request LTF conversion or drop before renewal.`;
+    } else if (clutterVerdict === 'KEEP_LTF') {
       reason =
         'Lifetime Free (₹0 fee) — keep active as a zero-cost CIBIL age & bank-sale discount backup.';
     } else if (wonCats.length > 0) {
-      reason = `Top card in your wallet for ${wonCats.slice(0, 3).join(', ')} generating ₹${Math.round(assignedRewards).toLocaleString('en-IN')}/yr.`;
+      reason = `Core anchor for ${wonCats.slice(0, 3).join(', ')} (+₹${Math.round(marginalAnnualGainInr).toLocaleString('en-IN')}/yr unique gain).`;
     } else {
       reason = 'Provides unique lounge/golf privileges not covered by your other cards.';
     }
@@ -431,18 +525,37 @@ export function analyzeOwnedPortfolio(
     return {
       card,
       action: shouldReview ? 'REVIEW_OR_DOWNGRADE' : 'KEEP',
+      clutterVerdict,
       primaryCategoriesCount: wonCats.length,
       primaryCategories: wonCats,
       attributedAnnualRewardInr: assignedRewards,
+      marginalAnnualGainInr: Math.round(marginalAnnualGainInr),
       effectiveFeeInr: effFee,
       netAttributedValueInr: netVal,
+      overlappingWalletCards,
+      daysUntilRenewal,
+      renewalDateLabel,
       reason,
     };
   });
 
+  const clutterAudits = cardAudits.filter(
+    (a) => a.clutterVerdict === 'DROP_BEFORE_RENEWAL' || a.clutterVerdict === 'CONVERT_TO_LTF'
+  );
+  const clutterSummary: ClutterSummary = {
+    clutterCount: clutterAudits.length,
+    urgentRenewalCount: clutterAudits.filter(
+      (a) => a.daysUntilRenewal !== null && a.daysUntilRenewal <= 60
+    ).length,
+    totalFeeSavingsInr: clutterAudits.reduce((s, a) => s + a.effectiveFeeInr, 0),
+    suggestedDropIds: clutterAudits
+      .filter((a) => a.clutterVerdict === 'DROP_BEFORE_RENEWAL')
+      .map((a) => a.card.card_id),
+  };
+
   const ownedSet = new Set(ownedCards.map((c) => c.card_id));
   const candidates = allCards
-    .filter((c) => !ownedSet.has(c.card_id))
+    .filter((c) => !ownedSet.has(c.card_id) && !isCardDiscontinuedForNewApplicants(c))
     .map((cand) => {
       let incGain = 0;
       const boosts: string[] = [];
@@ -554,6 +667,7 @@ export function analyzeOwnedPortfolio(
       gaps,
     },
     cardAudits,
+    clutterSummary,
     recommendedAdditions: candidates,
   };
 }

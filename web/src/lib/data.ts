@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import siteMeta from "./siteMeta.json";
+import merchantDirectoryJson from "../../public/data/merchant-mcc-directory.json";
+import type { MerchantDirectoryPayload } from "./merchants";
 import type {
   AdvisorCardMeta,
   BanksIndexPayload,
@@ -492,4 +494,8 @@ export function getCategoryStats(): CategoryStatsItem[] {
       topCards,
     };
   });
+}
+
+export function getMerchantDirectory(): MerchantDirectoryPayload {
+  return merchantDirectoryJson as MerchantDirectoryPayload;
 }

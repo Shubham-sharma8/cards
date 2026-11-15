@@ -490,6 +490,14 @@ export default function DiscoverScreen() {
                         <CanvaFeatureIcon icon="devaluation" size={18} />
                         <Text style={styles.quickPillLinkText}>Devaluations</Text>
                       </ScalePressable>
+
+                      <ScalePressable
+                        onPress={() => router.push('/merchants' as never)}
+                        style={styles.quickPillLink}
+                      >
+                        <CanvaFeatureIcon icon="rewards" size={18} />
+                        <Text style={styles.quickPillLinkText}>Merchant MCCs</Text>
+                      </ScalePressable>
                     </View>
 
                     {topOffers.length > 0 && (

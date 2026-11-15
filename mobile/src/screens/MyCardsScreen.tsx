@@ -410,6 +410,14 @@ export function MyCardsScreenView() {
     [ownedIds, walletMeta, cardById]
   );
 
+  const renewalDatesByCardId = useMemo(() => {
+    const out: Record<string, string | undefined> = {};
+    for (const id of ownedIds) {
+      out[id] = walletMeta[id]?.renewalDate;
+    }
+    return out;
+  }, [ownedIds, walletMeta]);
+
   const analysis = useMemo(
     () =>
       analyzeOwnedPortfolio(enrichedCards, ownedIds, monthlySpend, {
@@ -418,8 +426,9 @@ export function MyCardsScreenView() {
         needInternationalLounge: false,
         needGolf: false,
         ltfCardIds,
+        renewalDatesByCardId,
       }),
-    [enrichedCards, ownedIds, monthlySpend, ltfCardIds]
+    [enrichedCards, ownedIds, monthlySpend, ltfCardIds, renewalDatesByCardId]
   );
 
   const aiSummary = useMemo(() => generateMyCardsAiSummary(analysis), [analysis]);
@@ -638,6 +647,180 @@ export function MyCardsScreenView() {
                 }))}
               />
             )}
+
+            {/* Clear Your Clutter — Portfolio Audit & Renewal Verdict */}
+            <View style={styles.panel}>
+              <View style={styles.rowBetween}>
+                <View style={styles.sectionHeaderRow}>
+                  <View style={styles.sectionTitleAccent} />
+                  <Text style={styles.sectionTitle}>Clear Your Clutter</Text>
+                </View>
+                <View
+                  style={[
+                    styles.clutterSummaryPill,
+                    analysis.clutterSummary.clutterCount > 0
+                      ? styles.clutterWarnPill
+                      : styles.clutterCleanPill,
+                  ]}
+                >
+                  <Text
+                    style={[
+                      styles.clutterSummaryText,
+                      analysis.clutterSummary.clutterCount > 0
+                        ? { color: '#991B1B' }
+                        : { color: LedgerTheme.colors.accent },
+                    ]}
+                  >
+                    {analysis.clutterSummary.clutterCount > 0
+                      ? `${analysis.clutterSummary.clutterCount} flagged · Save ${formatInr(analysis.clutterSummary.totalFeeSavingsInr)}/yr`
+                      : 'Clean Wallet'}
+                  </Text>
+                </View>
+              </View>
+
+              <Text style={styles.metaNote}>
+                Compares monthly spend gain, overlapping cards already in your wallet, annual fees &amp; days to renewal.
+              </Text>
+
+              {analysis.clutterSummary.urgentRenewalCount > 0 && (
+                <View style={styles.urgentRenewalBanner}>
+                  <AlertTriangle size={15} color="#991B1B" />
+                  <Text style={styles.urgentRenewalText}>
+                    {analysis.clutterSummary.urgentRenewalCount} renewal(s) within 60 days — call retention for LTF or close before fee posts.
+                  </Text>
+                </View>
+              )}
+
+              <View style={{ gap: 10 }}>
+                {analysis.cardAudits.map((audit) => {
+                  const isDrop = audit.clutterVerdict === 'DROP_BEFORE_RENEWAL';
+                  const isConvert = audit.clutterVerdict === 'CONVERT_TO_LTF';
+                  const isLtf = audit.clutterVerdict === 'KEEP_LTF';
+                  const badgeLabel = isDrop
+                    ? 'DROP BEFORE RENEWAL'
+                    : isConvert
+                      ? 'CONVERT TO LTF'
+                      : isLtf
+                        ? 'KEEP (LTF)'
+                        : 'KEEP CORE';
+                  return (
+                    <View
+                      key={audit.card.card_id}
+                      style={[
+                        styles.clutterCard,
+                        isDrop
+                          ? styles.clutterCardDrop
+                          : isConvert
+                            ? styles.clutterCardConvert
+                            : styles.clutterCardKeep,
+                      ]}
+                    >
+                      <View style={styles.rowBetween}>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, flex: 1 }}>
+                          <BankLogo bankSlug={audit.card.bank_slug} bank={audit.card.bank} size="xs" />
+                          <Text style={styles.clutterCardName} numberOfLines={1}>
+                            {audit.card.card_name}
+                          </Text>
+                        </View>
+                        <Text
+                          style={[
+                            styles.clutterVerdictBadge,
+                            isDrop
+                              ? { color: '#991B1B', backgroundColor: '#FEE2E2' }
+                              : isConvert
+                                ? { color: '#9A5B13', backgroundColor: '#FEF6EA' }
+                                : { color: LedgerTheme.colors.accent, backgroundColor: '#EEF5F2' },
+                          ]}
+                        >
+                          {badgeLabel}
+                        </Text>
+                      </View>
+
+                      <View style={styles.clutterChipsRow}>
+                        {audit.daysUntilRenewal !== null && (
+                          <Text
+                            style={[
+                              styles.clutterMetaChip,
+                              audit.daysUntilRenewal <= 60 && {
+                                color: '#991B1B',
+                                borderColor: 'rgba(153,27,27,0.3)',
+                              },
+                            ]}
+                          >
+                            {audit.daysUntilRenewal === 0
+                              ? 'Renews today'
+                              : `Renews in ${audit.daysUntilRenewal}d`}
+                          </Text>
+                        )}
+                        {audit.overlappingWalletCards.length > 0 && (
+                          <Text style={styles.clutterMetaChip} numberOfLines={1}>
+                            Covered by: {audit.overlappingWalletCards.slice(0, 2).join(', ')}
+                          </Text>
+                        )}
+                      </View>
+
+                      <Text style={styles.clutterReason}>{audit.reason}</Text>
+
+                      <View style={styles.clutterMetricsRow}>
+                        <Text style={styles.clutterMetricText}>
+                          Marginal: +{formatInr(audit.marginalAnnualGainInr)}/yr
+                        </Text>
+                        <Text style={styles.clutterMetricText}>
+                          Fee: {audit.effectiveFeeInr === 0 ? '₹0' : formatInr(audit.effectiveFeeInr)}
+                        </Text>
+                        <Text
+                          style={[
+                            styles.clutterMetricText,
+                            {
+                              fontWeight: '700',
+                              color:
+                                audit.netAttributedValueInr >= 0
+                                  ? LedgerTheme.colors.accent
+                                  : '#991B1B',
+                            },
+                          ]}
+                        >
+                          Net {formatInr(audit.netAttributedValueInr)}
+                        </Text>
+                      </View>
+
+                      {(isDrop || isConvert) && (
+                        <View style={styles.clutterActionsRow}>
+                          <ScalePressable
+                            onPress={() => toggleOwned(audit.card.card_id)}
+                            style={styles.dropActionBtn}
+                          >
+                            <Trash2 size={12} color="#991B1B" />
+                            <Text style={styles.dropActionText}>Drop Card</Text>
+                          </ScalePressable>
+                          <ScalePressable
+                            onPress={() =>
+                              updateWalletMeta(audit.card.card_id, {
+                                isLTF: true,
+                                renewalDate: undefined,
+                              })
+                            }
+                            style={styles.ltfActionBtn}
+                          >
+                            <Check size={12} color={LedgerTheme.colors.accent} />
+                            <Text style={styles.ltfActionText}>Mark as LTF</Text>
+                          </ScalePressable>
+                        </View>
+                      )}
+                    </View>
+                  );
+                })}
+              </View>
+
+              <ScalePressable
+                onPress={() => router.push('/merchants' as never)}
+                style={styles.merchantShortcutBtn}
+              >
+                <Text style={styles.merchantShortcutText}>
+                  Check Merchant &amp; Statement MCC Advisor →
+                </Text>
+              </ScalePressable>
+            </View>
           </View>
         )}
 
@@ -1890,6 +2073,155 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: LedgerTheme.colors.accent,
     fontVariant: ['tabular-nums'],
+  },
+  clutterSummaryPill: {
+    paddingHorizontal: 9,
+    paddingVertical: 4,
+    borderRadius: 99,
+    borderWidth: 1,
+  },
+  clutterWarnPill: {
+    backgroundColor: '#FEE2E2',
+    borderColor: 'rgba(153,27,27,0.28)',
+  },
+  clutterCleanPill: {
+    backgroundColor: '#EEF5F2',
+    borderColor: 'rgba(15,92,77,0.25)',
+  },
+  clutterSummaryText: {
+    fontSize: 11,
+    fontWeight: '700',
+  },
+  urgentRenewalBanner: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 8,
+    padding: 10,
+    borderRadius: 10,
+    backgroundColor: '#FEE2E2',
+    borderWidth: 1,
+    borderColor: 'rgba(153,27,27,0.25)',
+  },
+  urgentRenewalText: {
+    flex: 1,
+    fontSize: 12,
+    lineHeight: 17,
+    color: '#991B1B',
+    fontWeight: '500',
+  },
+  clutterCard: {
+    borderRadius: 12,
+    borderWidth: 1,
+    padding: 12,
+    gap: 8,
+  },
+  clutterCardKeep: {
+    backgroundColor: LedgerTheme.colors.canvas,
+    borderColor: LedgerTheme.colors.hairline,
+  },
+  clutterCardConvert: {
+    backgroundColor: '#FEF6EA',
+    borderColor: 'rgba(154,91,19,0.28)',
+  },
+  clutterCardDrop: {
+    backgroundColor: '#FFF5F5',
+    borderColor: 'rgba(153,27,27,0.28)',
+  },
+  clutterCardName: {
+    flex: 1,
+    fontSize: 13.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.inkPrimary,
+  },
+  clutterVerdictBadge: {
+    fontSize: 10,
+    fontWeight: '700',
+    paddingHorizontal: 7,
+    paddingVertical: 3,
+    borderRadius: 6,
+    overflow: 'hidden',
+  },
+  clutterChipsRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 6,
+  },
+  clutterMetaChip: {
+    fontSize: 11,
+    color: LedgerTheme.colors.inkSecondary,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.hairline,
+    paddingHorizontal: 7,
+    paddingVertical: 3,
+    borderRadius: 6,
+  },
+  clutterReason: {
+    fontSize: 12,
+    lineHeight: 17,
+    color: LedgerTheme.colors.inkSecondary,
+  },
+  clutterMetricsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    gap: 6,
+    paddingTop: 6,
+    borderTopWidth: 1,
+    borderTopColor: LedgerTheme.colors.hairline,
+  },
+  clutterMetricText: {
+    fontSize: 11,
+    color: LedgerTheme.colors.inkMuted,
+    fontVariant: ['tabular-nums'],
+  },
+  clutterActionsRow: {
+    flexDirection: 'row',
+    gap: 8,
+    paddingTop: 2,
+  },
+  dropActionBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 8,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: 'rgba(153,27,27,0.35)',
+  },
+  dropActionText: {
+    fontSize: 11.5,
+    fontWeight: '600',
+    color: '#991B1B',
+  },
+  ltfActionBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 8,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: 'rgba(15,92,77,0.3)',
+  },
+  ltfActionText: {
+    fontSize: 11.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.accent,
+  },
+  merchantShortcutBtn: {
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    borderRadius: 10,
+    backgroundColor: LedgerTheme.colors.tintPrimary,
+    alignItems: 'center',
+  },
+  merchantShortcutText: {
+    fontSize: 12.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.accent,
   },
   modalBackdrop: {
     flex: 1,

@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/cards", freq: "daily" as const, prio: 0.95 },
     { path: "/compare", freq: "weekly" as const, prio: 0.9 },
     { path: "/categories", freq: "weekly" as const, prio: 0.9 },
+    { path: "/merchants", freq: "weekly" as const, prio: 0.9 },
     { path: "/calculator", freq: "weekly" as const, prio: 0.9 },
     { path: "/advisor", freq: "weekly" as const, prio: 0.9 },
     { path: "/lounges", freq: "weekly" as const, prio: 0.9 },

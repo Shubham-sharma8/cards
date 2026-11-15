@@ -25,6 +25,7 @@ import { useExpandableCard } from "./ui/expandable-card";
 
 const NAV_LINKS = [
   { href: "/categories", label: "Categories" },
+  { href: "/merchants", label: "Merchants" },
   { href: "/advisor", label: "Advisor" },
   { href: "/cards", label: "Cards" },
   { href: "/calculator", label: "Calculator" },
