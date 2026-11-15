@@ -44,7 +44,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -191,7 +191,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "AU Business Cashback Credit Card is an ideal choice for consumers who are looking for a basic credit card as per their business requirements. This credit card offers **1% cashback on the repayment of total amount due** , capped at Rs. 1,000 per month. Besides this, it also offers **8 complimentary railway lounge visits** annually, making it a preferable option for frequent train travellers. It also offers **30% discount at over 300 partner restaurants** under the Silver Spoon Dining Program, which adds to its value. However, this credit card does not offer any airport lounge visits and welcome/renewal benefits. Overall, this credit card is a suitable option for small business owners seeking a credit card with basic benefits.",
+    "about_overview": "AU Business Cashback Credit Card is an ideal choice for consumers who are looking for a basic credit card as per their business requirements. This credit card offers 1% cashback on the repayment of total amount due , capped at Rs. 1,000 per month. Besides this, it also offers 8 complimentary railway lounge visits annually, making it a preferable option for frequent train travellers. It also offers 30% discount at over 300 partner restaurants under the Silver Spoon Dining Program, which adds to its value. However, this credit card does not offer any airport lounge visits and welcome/renewal benefits. Overall, this credit card is a suitable option for small business owners seeking a credit card with basic benefits.",
     "highlights": [
       "1% cashback on the repayment of the total amount due (Max. cashback of Rs. 1,000 per month)1",
       "8 complimentary railway lounge access per year (Max. 2 per quarter)",

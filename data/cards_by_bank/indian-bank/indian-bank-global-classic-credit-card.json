@@ -42,7 +42,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -169,7 +169,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Indian Bank suited for travel & miles users.",
+    "about_overview": "Indian Bank Global Classic Credit Card is a credit card option from Indian Bank suited for travel & miles users.",
     "highlights": [
       "You receive global acceptance as the card can be used anywhere you travel. You can even use it in places where you wouldn’t normally have enough currency (in transit).",
       "Members receive a cashback option of 0.5% on a minimum of ₹ 500 collected. They get added to your overall account and can be credited directly. This helps you earn while you shop.",

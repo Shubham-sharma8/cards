@@ -43,12 +43,12 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": true,
-    "is_fyf": true,
+    "is_ltf": false,
+    "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": true,
     "is_invite_only": false,
-    "fee_bracket": "Free (LTF)",
+    "fee_bracket": "Under Rs. 1,000",
     "has_domestic_lounge": false,
     "has_international_lounge": false,
     "has_railway_lounge": false,
@@ -166,7 +166,7 @@
   "fees_and_charges_detailed": {
     "joining_fee_inr": 399,
     "annual_fee_inr": 399,
-    "gst_applicable": false,
+    "gst_applicable": true,
     "fee_waiver_spend_inr": 100000,
     "joining_fee_waiver": "Lifetime Free",
     "forex_markup_pct": 3.4,
@@ -188,7 +188,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "Lifetime Free option from YES BANK suited for cashback users.",
+    "about_overview": "YES Bank FREO Credit Card by YES BANK suited for everyday rewards.",
     "highlights": [
       "1% flat cashback on all spends without any monthly capping.",
       "1% fuel surcharge waiver across all fuel pumps up to Rs. 125 per month on transactions between Rs. 400 to Rs. 5000.",
@@ -219,7 +219,6 @@
   "pros_and_cons": {
     "editorial_summary": "Lifetime Free option from YES BANK suited for cashback users.",
     "pros": [
-      "Lifetime Free card with zero annual fee commitment",
       "Solid 1% base return on regular eligible spends",
       "RuPay network supports Scan & Pay merchant UPI transactions"
     ],

@@ -43,7 +43,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": true,
     "is_rupay_upi": true,
@@ -177,7 +177,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Bank of India suited for rupay & upi users.",
+    "about_overview": "Bank of India SwaDhan Rupay Platinum Credit Card is a credit card option from Bank of India suited for rupay & upi users.",
     "highlights": [
       "Features & Benefits",
       "Eligibility Criteria",

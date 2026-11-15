@@ -3,7 +3,7 @@
   "bank_slug": "axis-bank",
   "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 45,
-  "ltf_count": 10,
+  "ltf_count": 12,
   "rupay_upi_count": 4,
   "domestic_lounge_count": 24,
   "international_lounge_count": 11,
@@ -336,7 +336,7 @@
       "card_name": "Axis Bank Privilege Visa Credit Card (Limited Period Lifetime Free Offer)",
       "card_slug": "axis-bank-privilege-visa-credit-card-limited-period-lifetime-free-offer",
       "primary_category": "Lifetime Free",
-      "annual_fee_inr": 1500,
+      "annual_fee_inr": 0,
       "overall_rating": 3.32,
       "json_path": "data/cards_by_bank/axis-bank/axis-bank-privilege-visa-credit-card-limited-period-lifetime-free-offer.json",
       "md_path": "data/cards_by_bank/axis-bank/axis-bank-privilege-visa-credit-card-limited-period-lifetime-free-offer.md"

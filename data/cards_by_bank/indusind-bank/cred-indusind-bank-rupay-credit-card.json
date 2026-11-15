@@ -42,12 +42,12 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": true,
+    "is_ltf": false,
     "is_fyf": true,
     "is_fd_backed": false,
     "is_rupay_upi": true,
     "is_invite_only": false,
-    "fee_bracket": "Free (LTF)",
+    "fee_bracket": "Under Rs. 1,000",
     "has_domestic_lounge": false,
     "has_international_lounge": false,
     "has_railway_lounge": false,
@@ -210,7 +210,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "CRED IndusInd Bank RuPay Credit Card** is an **entry-level co-branded card** that offers accelerated value-back on **online and co-branded spends**. Moreover, with **5% value-back** on UPI spends made through CRED app, this credit card manages to hold its place among the cards offering the highest savings on UPI transactions. The rewards on card spends are credited in the form of CRED Points which can later be redeemed against travel bookings or bill payments on CRED app in 1:1 and 2:1 redemption ratios, respectively.",
+    "about_overview": "CRED IndusInd Bank RuPay Credit Card is an entry-level co-branded card that offers accelerated value-back on online and co-branded spends. Moreover, with 5% value-back on UPI spends made through CRED app, this credit card manages to hold its place among the cards offering the highest savings on UPI transactions. The rewards on card spends are credited in the form of CRED Points which can later be redeemed against travel bookings or bill payments on CRED app in 1:1 and 2:1 redemption ratios, respectively.",
     "highlights": [
       "5 CRED Points: On e-commerce, CRED pay, CRED travel, CRED store and CRED UPI spends",
       "1 CRED Point: On all other transactions, including UPI Scan & Pay, utilities and insurance spends made on CRED and all international transactions",

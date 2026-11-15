@@ -363,7 +363,7 @@
       },
       {
         "city": "Mumbai",
-        "lounge_name": "Mumbai Adani Lounge** Domestic Departure T2",
+        "lounge_name": "Mumbai Adani Lounge Domestic Departure T2",
         "terminal": "Domestic",
         "terminal_type": "Domestic",
         "source_program_id": "axis_lounge_program"
@@ -814,7 +814,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Axis Bank suited for travel & miles users.",
+    "about_overview": "Axis Bank Signature Credit Cards With Lifestyle Benefits is a credit card option from Axis Bank suited for travel & miles users.",
     "highlights": [
       "100 Points on first online transaction",
       "Air accident cover of up to Rs. 2.5 crore",

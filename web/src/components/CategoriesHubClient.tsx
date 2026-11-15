@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
@@ -114,11 +115,13 @@ export function CategoriesHubClient({
 
         <div className="flex flex-wrap items-center gap-2.5 shrink-0">
           {!activeCategory && (
-            <div className="hidden sm:block w-[104px] h-[64px] rounded-xl overflow-hidden border border-[#E4E4DF] bg-[#FAF9F6]">
-              <img
+            <div className="hidden sm:block relative w-[104px] h-[64px] rounded-xl overflow-hidden border border-[#E4E4DF] bg-[#FAF9F6]">
+              <Image
                 src={resolveMediaUrl("/illustrations/ai-vault-3d.webp") || "/illustrations/ai-vault-3d.webp"}
                 alt="3D credit card category vault"
-                className="w-full h-full object-cover"
+                fill
+                sizes="104px"
+                className="object-cover"
               />
             </div>
           )}
@@ -385,11 +388,12 @@ export function CategoriesHubClient({
                     </a>
                   </div>
                   <div className="p-3 sm:p-4 bg-[#FAF9F6]">
-                    <img
+                    <Image
                       src={resolveMediaUrl(`/category-posters/${activeCategory.id}.png`) || `/category-posters/${activeCategory.id}.png`}
                       alt={`${activeCategory.label} credit card comparison infographic`}
+                      width={1200}
+                      height={800}
                       className="w-full h-auto rounded-lg border border-[#E4E4DF]"
-                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -521,8 +525,8 @@ export function CategoriesHubClient({
                             <td className="py-3.5 px-5 align-top min-w-[235px]">
                               <div className="flex items-start gap-3">
                                 {imgSrc ? (
-                                  <div className="w-12 h-8 rounded bg-[#F8F6F0] border border-[#E4E4DF] p-0.5 shrink-0 flex items-center justify-center overflow-hidden">
-                                    <img src={imgSrc} alt={row.cardName} className="w-full h-full object-contain" loading="lazy" />
+                                  <div className="relative w-12 h-8 rounded bg-[#F8F6F0] border border-[#E4E4DF] p-0.5 shrink-0 flex items-center justify-center overflow-hidden">
+                                    <Image src={imgSrc} alt={row.cardName} fill sizes="48px" className="object-contain p-0.5" />
                                   </div>
                                 ) : (
                                   <BankLogo bank={row.bank} size="xs" className="mt-0.5" />

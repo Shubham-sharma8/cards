@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useRef, useState } from "react";
+import Image from "next/image";
 import { motion, useMotionTemplate, useMotionValue, useSpring } from "motion/react";
 import { cardLocalImageUrl } from "@/lib/format";
 import { resolveMediaUrl } from "@/lib/mediaCdn";
@@ -145,12 +146,14 @@ export function Interactive3DCardModel({
             }}
           >
             {src && !imgFailed ? (
-              <img
+              <Image
                 src={src}
                 alt={`${cardName} front view`}
+                fill
+                sizes="(max-width: 640px) 320px, 380px"
                 draggable={false}
                 onError={() => setImgFailed(true)}
-                className="w-full h-full object-contain p-1.5"
+                className="object-contain p-1.5"
               />
             ) : (
               <div className="w-full h-full p-4 flex flex-col justify-between text-[#1A1D21]">

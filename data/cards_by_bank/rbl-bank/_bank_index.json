@@ -3,7 +3,7 @@
   "bank_slug": "rbl-bank",
   "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 43,
-  "ltf_count": 0,
+  "ltf_count": 5,
   "rupay_upi_count": 1,
   "domestic_lounge_count": 16,
   "international_lounge_count": 5,

@@ -40,7 +40,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -164,7 +164,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from UCO Bank suited for zero/low forex users.",
+    "about_overview": "UCO Bank Artisan Credit Card is a credit card option from UCO Bank suited for zero/low forex users.",
     "highlights": [
       "The scheme provides artisans with the necessary funds in a timely and convenient manner",
       "A maximum of Rs. 2.00 lakh can be availed under this scheme",

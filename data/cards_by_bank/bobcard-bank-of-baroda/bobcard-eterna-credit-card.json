@@ -65,12 +65,12 @@
     "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
-    "is_ltf": true,
-    "is_fyf": true,
+    "is_ltf": false,
+    "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
     "is_invite_only": false,
-    "fee_bracket": "Free (LTF)",
+    "fee_bracket": "Rs. 1,000 - Rs. 2,500",
     "has_domestic_lounge": true,
     "has_international_lounge": false,
     "has_railway_lounge": false,

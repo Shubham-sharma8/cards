@@ -461,7 +461,7 @@
       },
       {
         "city": "Mumbai",
-        "lounge_name": "Mumbai Adani Lounge** Domestic Departure T2",
+        "lounge_name": "Mumbai Adani Lounge Domestic Departure T2",
         "terminal": "Domestic",
         "terminal_type": "Domestic",
         "source_program_id": "axis_lounge_program"
@@ -933,7 +933,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Axis Bank suited for cashback users with 4 domestic lounge visits/yr.",
+    "about_overview": "Axis Bank ACE Credit Card is a credit card option from Axis Bank suited for cashback users with 4 domestic lounge visits/yr.",
     "highlights": [
       "5% Cashback: On Google Pay,2 on bill payments for electricity, gas, internet, etc. and recharges for DTH and mobile",
       "4% Cashback: On Zomato, Swiggy and Ola",

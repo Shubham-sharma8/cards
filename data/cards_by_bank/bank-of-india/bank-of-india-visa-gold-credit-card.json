@@ -41,7 +41,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -168,7 +168,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Bank of India suited for super-premium users.",
+    "about_overview": "Bank of India Visa Gold Credit Card is a credit card option from Bank of India suited for super-premium users.",
     "highlights": [
       "Widely accepted – Bank of India Visa Gold Credit Card is a photo credit card and is accepted over 2.5 lakh merchant locations and can also be used to withdraw cash from over 90,000 ATMs.",
       "Cash Advance Facility – The cash advance facility can be availed at more than 4,000 bank branches and there is free remittance option for credit card payment.",

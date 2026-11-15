@@ -106,7 +106,7 @@
     "accelerated_reward_rate_pct": 1.0,
     "point_value_inr_default": 0.25,
     "point_value_inr_matrix": {
-      "2": "1** for Air Mile Conversion against Asia Miles, British Airways, Emirates, Etihad Guest, Qatar Privilege Club, Singapore Airlines, Virgin Atlantic Flying Club: 2:1"
+      "2": "1 for Air Mile Conversion against Asia Miles, British Airways, Emirates, Etihad Guest, Qatar Privilege Club, Singapore Airlines, Virgin Atlantic Flying Club: 2:1"
     },
     "point_expiry": "Check issuer T&C (typically 2-3 years)",
     "reward_earning_rules": [

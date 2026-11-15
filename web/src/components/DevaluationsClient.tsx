@@ -182,7 +182,7 @@ export function DevaluationsClient({ tracker, cards }: DevaluationsClientProps) 
   }, [events, ownedCards]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <div className="w-full min-w-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-8">
       <SearchParamsSync onParams={syncFromParams} />
       {/* Header */}
       <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4 border-b border-[#E4E4DF] pb-5">
@@ -368,7 +368,7 @@ export function DevaluationsClient({ tracker, cards }: DevaluationsClientProps) 
           </h2>
 
           <div className="flex flex-wrap items-center gap-2">
-            <div className="relative">
+            <div className="relative w-full sm:w-[220px]">
               <Search
                 className="w-3.5 h-3.5 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2"
                 aria-hidden="true"
@@ -378,7 +378,7 @@ export function DevaluationsClient({ tracker, cards }: DevaluationsClientProps) 
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search card, lounge, exclusion..."
-                className="pl-8 pr-3 py-1.5 text-[13px] rounded-lg border border-[#E4E4DF] bg-white focus:border-[#0F5C4D] focus:outline-none w-[220px]"
+                className="pl-8 pr-3 py-1.5 text-[13px] rounded-lg border border-[#E4E4DF] bg-white focus:border-[#0F5C4D] focus:outline-none w-full"
               />
             </div>
 

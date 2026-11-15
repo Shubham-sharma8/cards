@@ -795,7 +795,7 @@
     "late_payment_slabs": [
       {
         "statement_balance_slab": "All Statement Balances",
-        "late_fee_inr": "On Amount Due of:**"
+        "late_fee_inr": "On Amount Due of:"
       }
     ]
   },

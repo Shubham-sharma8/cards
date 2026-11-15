@@ -3,7 +3,7 @@
   "bank_slug": "kotak-mahindra-bank",
   "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 34,
-  "ltf_count": 8,
+  "ltf_count": 9,
   "rupay_upi_count": 4,
   "domestic_lounge_count": 12,
   "international_lounge_count": 6,
@@ -137,7 +137,7 @@
       "card_name": "Kotak Privy League Signature Credit Card",
       "card_slug": "kotak-privy-league-signature-credit-card",
       "primary_category": "Travel & Miles",
-      "annual_fee_inr": 2500,
+      "annual_fee_inr": 0,
       "overall_rating": 3.55,
       "json_path": "data/cards_by_bank/kotak-mahindra-bank/kotak-privy-league-signature-credit-card.json",
       "md_path": "data/cards_by_bank/kotak-mahindra-bank/kotak-privy-league-signature-credit-card.md"

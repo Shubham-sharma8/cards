@@ -703,7 +703,7 @@
       },
       {
         "city": "Mumbai",
-        "lounge_name": "Mumbai Adani Lounge** Domestic Departure T2",
+        "lounge_name": "Mumbai Adani Lounge Domestic Departure T2",
         "terminal": "Domestic",
         "terminal_type": "Domestic",
         "source_program_id": "axis_lounge_program"
@@ -1175,7 +1175,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "Axis Bank Horizon Credit Card is an **airline-agnostic travel credit card**. At an annual fee of Rs. 3,000, the card offers travel benefits in the form of **EDGE Miles redeemable at a 1:1 ratio across multiple travel partners**. Besides air miles, the card also offers **domestic and international lounge visits** , along with bonus miles as welcome and renewal benefits, positioning the card as a strong competitor to cards like Axis Atlas and SBI Miles Elite.",
+    "about_overview": "Axis Bank Horizon Credit Card is an airline-agnostic travel credit card. At an annual fee of Rs. 3,000, the card offers travel benefits in the form of EDGE Miles redeemable at a 1:1 ratio across multiple travel partners. Besides air miles, the card also offers domestic and international lounge visits , along with bonus miles as welcome and renewal benefits, positioning the card as a strong competitor to cards like Axis Atlas and SBI Miles Elite.",
     "highlights": [
       "5 EDGE Miles per Rs. 100 spent on Axis Bank Travel EDGE portal and direct airline websites/counters",
       "2 EDGE Miles per Rs. 100 spent 1 on all other spending categories",

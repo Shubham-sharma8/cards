@@ -44,7 +44,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -178,7 +178,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from IndusInd Bank suited for business & tax users.",
+    "about_overview": "IndusInd Bank Business Gold Credit Card is a credit card option from IndusInd Bank suited for business & tax users.",
     "highlights": [
       "This card gives an advantage to the cardholder to live a classy life by getting good concessions on the amount spent on dining, travel and lifestyle.",
       "Booking flight ticket",

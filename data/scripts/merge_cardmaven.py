@@ -114,6 +114,8 @@ EXPLICIT_CARD_MAP: dict[str, tuple[str, str]] = {
     "times-black-icici-bank-credit-card-review": ("icici-bank", "times-black-icici-bank-credit-card"),
     "yes-bank-marquee-credit-card": ("yes-bank", "yes-bank-marquee-credit-card"),
     "yes-bank-reserv-credit-card": ("yes-bank", "yes-bank-reserv-credit-card"),
+    "hdfc-bank-bizblack-credit-card-review": ("hdfc-bank", "hdfc-bizblack-metal-edition-credit-card"),
+    "irctc-sbi-premier-credit-card": ("sbi-card", "irctc-sbi-premier-credit-card"),
 }
 
 # Canonical transfer-partner table from Amex India (Nov 2026)
@@ -918,11 +920,60 @@ def apply_2026_verified_overrides(dossiers: dict[tuple[str, str], dict[str, Any]
             "insurance": "Direct insurer MCC = 0% (Buy Amazon Pay Gift Cards inside Amazon @ 5% up to ₹2k cap instead)",
         }
         new_hist = "1 April 2026: Online 5% monthly cap cut from ₹5,000 to ₹2,000 (₹2,000 offline separate = ₹4,000 total); Tolls, Digital Gaming & Govt excluded."
-        dh = [h for h in d["devaluation_analysis"].get("devaluation_history", []) if "Online 5% monthly cap cut from" not in h]
+        dh = [
+            h for h in d["devaluation_analysis"].get("devaluation_history", [])
+            if "Online 5% monthly cap cut from" not in h and "Combined monthly cashback cap tightened to Rs. 5,000" not in h
+        ]
         d["devaluation_analysis"]["devaluation_history"] = [new_hist] + dh
         d["devaluation_analysis"]["last_devalued_on"] = "2026-04-01"
         d["benefits_features_and_faqs"]["program_updates_2026"] = [
             "April 2026 Update: 5% online cashback cap tightened to ₹2,000/cycle (plus ₹2,000 offline cap = ₹4,000 max/cycle). Tolls, Digital Gaming & Govt MCCs excluded.",
+        ]
+        bf_sbi = d["benefits_features_and_faqs"]
+        bf_sbi["about_overview"] = re.sub(
+            r"Rs\.\s*5,000[^.\"]*across 5%\s*\+\s*1%[^.\"]*|Rs\.\s*5,000/month[^.\"]*cap",
+            "₹2,000/cycle for 5% online + ₹2,000/cycle for 1% offline (effective 1 April 2026)",
+            bf_sbi.get("about_overview", ""),
+            flags=re.I,
+        )
+        bf_sbi["about_overview"] = bf_sbi["about_overview"].replace("Rs. 1,00,000", "₹40,000")
+        bf_sbi["highlights"] = [
+            "1 April 2026 Cap Update: ₹2,000/cycle on 5% online (~₹40k spend) + ₹2,000/cycle on 1% offline (₹4,000 total/cycle)"
+            if "5,000" in h else h
+            for h in bf_sbi.get("highlights", [])
+        ]
+        pc_sbi = d.get("pros_and_cons", {})
+        pc_sbi["cons"] = [
+            "April 2026 Devaluation: 5% online cashback capped at ₹2,000/cycle (~₹40k online spend) + separate ₹2,000/cycle 1% offline cap."
+            if "5,000" in c or "single Rs." in c else c
+            for c in pc_sbi.get("cons", [])
+        ]
+        d["reddit_user_feedback"]["optimization_tips"] = [
+            "Split ₹2,000 online + ₹2,000 offline monthly caps (effective 1 Apr 2026; max ₹40,000/mo 5% online spend) — shift excess online spends after ₹40k to HDFC Swiggy / Millennia / Amazon Pay ICICI."
+            if "5,000" in t else t
+            for t in d.get("reddit_user_feedback", {}).get("optimization_tips", [])
+        ]
+        for k_s in ("summary_sentiment", "best_for_whom"):
+            val_s = d.get("reddit_user_feedback", {}).get(k_s, "")
+            if val_s:
+                val_s = re.sub(r"(?:Rs\.|₹)\s*5,000/(?:month|billing-cycle)", "₹2,000/cycle (5% online)", val_s)
+                val_s = val_s.replace("Rs. 1,00,000", "₹40,000").replace("₹1,00,000", "₹40,000")
+                val_s = val_s.replace("Shared ₹2,000/cycle (5% online) cap: 5% online and 1% offline cashbacks share a single ₹5,000/billing-cycle ceiling", "Split ₹2,000/cycle online + ₹2,000/cycle offline caps effective 1 April 2026")
+                d["reddit_user_feedback"][k_s] = val_s
+        if d.get("pros_and_cons", {}).get("best_for_whom"):
+            d["pros_and_cons"]["best_for_whom"] = d["pros_and_cons"]["best_for_whom"].replace("Rs. 1,00,000", "₹40,000").replace("₹1,00,000", "₹40,000")
+        d["filter_tags"]["best_for_tags"] = [
+            t.replace("Rs. 1,00,000", "₹40,000") for t in d.get("filter_tags", {}).get("best_for_tags", [])
+        ]
+        rc["reward_earning_rules"] = [
+            "1 April 2026 cap split: ₹2,000/cycle on 5% online (~₹40k spend) + ₹2,000/cycle on 1% offline (₹4,000 total)"
+            if "Rs. 5,000 per billing cycle across 5%" in r else r
+            for r in rc.get("reward_earning_rules", [])
+        ]
+        d["reddit_user_feedback"]["practical_community_warnings"] = [
+            "5% cashback across online merchants (1% offline) with split ₹2,000/cycle online + ₹2,000/cycle offline caps effective 1 April 2026 (~₹40k/mo max online spend)."
+            if "5,000" in w else w
+            for w in d.get("reddit_user_feedback", {}).get("practical_community_warnings", [])
         ]
 
     # C. HDFC Regalia Gold: May 15 2026 (5 RP / ₹200), July 1 2026 (₹60k/qtr lounge + Boarding Edge)
@@ -959,6 +1010,39 @@ def apply_2026_verified_overrides(dossiers: dict[tuple[str, str], dict[str, Any]
         rg_dh = [h for h in d["devaluation_analysis"].get("devaluation_history", []) if "Base earn moved to 5 RP" not in h]
         d["devaluation_analysis"]["devaluation_history"] = [rg_hist] + rg_dh
         d["devaluation_analysis"]["last_devalued_on"] = "2026-07-01"
+        for k_s in ("summary_sentiment",):
+            if k_s in d.get("reddit_user_feedback", {}):
+                d["reddit_user_feedback"][k_s] = (
+                    d["reddit_user_feedback"][k_s]
+                    .replace("Base ~1.33% (4 RP/Rs.150 at Rs.0.50 SmartBuy travel)", "Base 1.25% (5 RP/₹200 eff. May 2026 at ₹0.50 SmartBuy travel)")
+                    .replace("4 RP/Rs.150", "5 RP/₹200")
+                    .replace("4 RP/₹150", "5 RP/₹200")
+                )
+        d["reddit_user_feedback"]["optimization_tips"] = [
+            t.replace("4 RP/₹150", "5 RP/₹200").replace("4 RP/Rs.150", "5 RP/₹200").replace("Base ~1.33% (5 RP/₹200", "Base 1.25% (5 RP/₹200")
+            for t in d.get("reddit_user_feedback", {}).get("optimization_tips", [])
+        ]
+        d["pros_and_cons"]["pros"] = [
+            p.replace("4 RP/₹150", "5 RP/₹200").replace("4 RP/Rs.150", "5 RP/₹200")
+            for p in d.get("pros_and_cons", {}).get("pros", [])
+        ]
+        d["reddit_user_feedback"]["practical_community_warnings"] = [
+            w.replace("Base ~1.33% (4 RP/Rs.150", "Base 1.25% (5 RP/₹200 eff. May 2026").replace("4 RP/Rs.150", "5 RP/₹200").replace("4 RP/₹150", "5 RP/₹200")
+            for w in d.get("reddit_user_feedback", {}).get("practical_community_warnings", [])
+        ]
+        # May 15 2026 numerical earn rate update: 5 RP / ₹200 = 1.25% base (@ ₹0.50 SmartBuy) & 6.25% 5X
+        rc_rg = rc.get("effective_return_pct_by_category", {})
+        for k_rg, v_rg in list(rc_rg.items()):
+            if v_rg == 1.33:
+                rc_rg[k_rg] = 1.25
+            elif v_rg == 6.66:
+                rc_rg[k_rg] = 6.25
+            elif v_rg == -1.03:
+                rc_rg[k_rg] = -1.11
+        rc["base_reward_rate_pct"] = 1.25
+        rc["accelerated_reward_rate_pct"] = 6.25
+        if rc.get("category_caveats", {}).get("insurance"):
+            rc["category_caveats"]["insurance"] = rc["category_caveats"]["insurance"].replace("1.33%", "1.25%")
 
     # D. HDFC Diners Club Privilege
     dcp_key = ("hdfc-bank", "hdfc-diners-club-privilege-credit-card")
@@ -967,21 +1051,61 @@ def apply_2026_verified_overrides(dossiers: dict[tuple[str, str], dict[str, Any]
         d["filter_tags"]["no_spend_domestic_lounge"] = False
         d["lounge_access_detailed"]["no_spend_domestic_lounge"] = False
         d["lounge_access_detailed"]["domestic"]["spend_criteria"] = "₹60,000 spend in previous calendar quarter (effective 1 July 2026)"
-        d["devaluation_analysis"].setdefault("devaluation_history", []).insert(
-            0,
-            "May–July 2026: Base reward cut 25% from 4 RP/₹150 to 4 RP/₹200; airport lounges require ₹60,000 spend in previous quarter.",
-        )
+        d["reward_calculator_model"]["monthly_capping_rules"] = [
+            r.replace("1.33% base (4 RP/Rs.150", "1.0% base (4 RP/₹200 eff. May 2026")
+            .replace("4 RP/Rs.150", "4 RP/₹200 (eff. May 2026)")
+            for r in d["reward_calculator_model"].get("monthly_capping_rules", [])
+        ]
+        dcp_hist = "May–July 2026: Base reward cut 25% from 4 RP/₹150 to 4 RP/₹200; airport lounges require ₹60,000 spend in previous quarter."
+        dcp_old = [h for h in d["devaluation_analysis"].get("devaluation_history", []) if "Base reward cut 25%" not in h]
+        d["devaluation_analysis"]["devaluation_history"] = [dcp_hist] + dcp_old
         d["devaluation_analysis"]["last_devalued_on"] = "2026-07-01"
         d["benefits_features_and_faqs"]["program_updates_2026"] = [
             "15 May 2026: Base rewards reduced 25% to 4 RP per ₹200 (< ₹200 earns 0 RP).",
             "1 July 2026: Domestic/Intl lounge access now gated behind ₹60,000 spend in the previous quarter.",
         ]
+        if "summary_sentiment" in d.get("reddit_user_feedback", {}):
+            d["reddit_user_feedback"]["summary_sentiment"] = (
+                d["reddit_user_feedback"]["summary_sentiment"]
+                .replace("4 RP/Rs.150", "4 RP/₹200 (eff. May 2026)")
+                .replace("4 RP/₹150", "4 RP/₹200 (eff. May 2026)")
+            )
+        d["reddit_user_feedback"]["optimization_tips"] = [
+            t.replace("1.33% base (4 RP/Rs.150", "1.0% base (4 RP/₹200 eff. May 2026")
+            .replace("4 RP/₹150", "4 RP/₹200")
+            .replace("4 RP/Rs.150", "4 RP/₹200")
+            for t in d.get("reddit_user_feedback", {}).get("optimization_tips", [])
+        ]
+        d["reddit_user_feedback"]["practical_community_warnings"] = [
+            w.replace("1.33% base (4 RP/Rs.150", "1.0% base (4 RP/₹200 eff. May 2026")
+            .replace("4 RP/₹150", "4 RP/₹200")
+            .replace("4 RP/Rs.150", "4 RP/₹200")
+            for w in d.get("reddit_user_feedback", {}).get("practical_community_warnings", [])
+        ]
+        # May 15 2026 numerical earn rate update: 4 RP / ₹200 = 1.00% base (@ ₹0.50 travel) & 5.00% 5X
+        rc_dcp = d["reward_calculator_model"].get("effective_return_pct_by_category", {})
+        for k_dc, v_dc in list(rc_dcp.items()):
+            if v_dc == 1.33:
+                rc_dcp[k_dc] = 1.0
+            elif v_dc == 6.66:
+                rc_dcp[k_dc] = 5.0
+            elif v_dc == -1.03:
+                rc_dcp[k_dc] = -1.36
+        d["reward_calculator_model"]["base_reward_rate_pct"] = 1.0
+        d["reward_calculator_model"]["accelerated_reward_rate_pct"] = 5.0
+        if d["benefits_features_and_faqs"].get("about_overview"):
+            d["benefits_features_and_faqs"]["about_overview"] = (
+                d["benefits_features_and_faqs"]["about_overview"]
+                .replace("1.33% as a base rate", "1.0% base rate (4 RP/₹200 eff. May 2026)")
+                .replace("13.33% on accelerated categories", "10% on accelerated SmartBuy categories")
+            )
 
     # E. HDFC Infinia, Diners Black Metal, BizPower, BizBlack: July 2026 SmartBuy GyFTR/Woohoo 3,000 RP cap + retention notes
     for b_card in (
         ("hdfc-bank", "hdfc-infinia-metal-edition-credit-card"),
         ("hdfc-bank", "hdfc-diners-club-black-metal-edition"),
         ("hdfc-bank", "hdfc-bank-bizpower-credit-card"),
+        ("hdfc-bank", "hdfc-bizblack-metal-edition-credit-card"),
         ("hdfc-bank", "hdfc-regalia-gold-credit-card"),
     ):
         if b_card in dossiers:
@@ -1043,7 +1167,7 @@ def apply_2026_verified_overrides(dossiers: dict[tuple[str, str], dict[str, Any]
                 ups.insert(0, ax_note)
             bf["program_updates_2026"] = ups[:6]
 
-    # H. PhonePe SBI SELECT BLACK: July 2026 Split Cap (500 RP Insurance + 1500 RP PhonePe + 1000 RP Online)
+    # H. PhonePe SBI SELECT BLACK & PURPLE: July 2026 Split Cap & Exclusions
     pp_key = ("sbi-card", "phonepe-sbi-card-select-black")
     if pp_key in dossiers:
         d = dossiers[pp_key]
@@ -1063,8 +1187,69 @@ def apply_2026_verified_overrides(dossiers: dict[tuple[str, str], dict[str, Any]
             "1 July 2026 Cap Split: PhonePe 2,000 RP/mo split into 500 RP/mo Insurance + 1,500 RP/mo Other PhonePe spends; Online 5% cap cut from 2,000 RP to 1,000 RP/mo.",
             "New July 2026 Exclusions: Tolls (MCC 4784), Education, Jewellery, Gift Cards, Utilities/Insurance/UPI outside PhonePe earn 0 RP.",
         ]
+        sb_dh = [
+            h for h in d["devaluation_analysis"].get("devaluation_history", [])
+            if "Cashback SBI Apr 2026" not in h and "July 2026 Cap Split" not in h
+        ]
+        d["devaluation_analysis"]["devaluation_history"] = [
+            "1 July 2026 Cap Split & Exclusions: PhonePe 2,000 RP/mo bucket split into 500 RP Insurance + 1,500 RP Other PhonePe Spends; 5% online cap cut from 2,000 RP to 1,000 RP/mo; Tolls/Education/Jewellery/Gift Cards excluded."
+        ] + sb_dh
+        d["devaluation_analysis"]["last_devalued_on"] = "2026-07-01"
 
-    # I. HSBC Live+: Visa Infinite + 1 Intl lounge/yr + Amazon Fresh / Flipkart Minutes 10% Grocery MCC
+    ppp_key = ("sbi-card", "phonepe-sbi-card-purple")
+    if ppp_key in dossiers:
+        d = dossiers[ppp_key]
+        rc = d["reward_calculator_model"]
+        rc["monthly_category_caps_inr"] = {
+            "insurance": 250,
+            "utilities_bills_telecom": 750,
+            "travel_flights_hotels": 750,
+            "online_shopping_general": 750,
+            "upi_scan_and_pay": 1000,
+        }
+        rc["category_caveats"] = {
+            "insurance": "July 2026 split cap: Insurance capped separately at 250 RP/month inside PhonePe",
+            "utilities_bills_telecom": "July 2026 split cap: Remaining PhonePe bill/UPI spends capped at 750 RP/month",
+            "online_shopping_general": "July 2026 cut: 5% online cap reduced from 1,000 RP to 750 RP/month",
+        }
+        d["benefits_features_and_faqs"]["program_updates_2026"] = [
+            "1 July 2026 PhonePe Purple Cap Split: 1,000 RP PhonePe bucket split into 250 RP/mo Insurance + 750 RP/mo Other PhonePe Spends; Online 5% cap cut from 1,000 RP to 750 RP/mo.",
+            "New July 2026 Exclusions: Tolls, Education, Jewellery, Gift Cards, and Utilities/Insurance paid outside PhonePe earn 0 RP.",
+        ]
+        pp_dh = [
+            h for h in d["devaluation_analysis"].get("devaluation_history", [])
+            if "Cashback SBI Apr 2026" not in h and "July 2026 PhonePe Purple" not in h
+        ]
+        d["devaluation_analysis"]["devaluation_history"] = [
+            "1 July 2026 PhonePe Purple Cap Split: 1,000 RP PhonePe bucket split into 250 RP Insurance + 750 RP Other PhonePe Spends; Online 5% cap cut from 1,000 RP to 750 RP/mo."
+        ] + pp_dh
+        d["devaluation_analysis"]["last_devalued_on"] = "2026-07-01"
+
+    # I. HDFC BizBlack Metal ITR Eligibility Update (₹45 Lakh)
+    bizblack_key = ("hdfc-bank", "hdfc-bizblack-metal-edition-credit-card")
+    if bizblack_key in dossiers:
+        d = dossiers[bizblack_key]
+        el = d.get("eligibility_detailed", {})
+        if el.get("min_annual_itr_self_employed_inr", 0) < 4500000:
+            el["min_annual_itr_self_employed_inr"] = 4500000
+        ups = list(d["benefits_features_and_faqs"].get("program_updates_2026") or [])
+        bb_itr = "2026 Eligibility Tightening: Annual ITR threshold raised from ₹30 Lakh to ₹45 Lakh for new self-employed applications."
+        if not any("45 Lakh" in u for u in ups):
+            ups.insert(0, bb_itr)
+        d["benefits_features_and_faqs"]["program_updates_2026"] = ups[:6]
+
+    # J. Tata Neu Infinity & Plus HDFC: Nov 25, 2026 Manual NeuCoins Claim Rule
+    for tn_slug in ("tata-neu-infinity-hdfc-bank-credit-card", "tata-neu-plus-hdfc-credit-card"):
+        tn_key = ("hdfc-bank", tn_slug)
+        if tn_key in dossiers:
+            d = dossiers[tn_key]
+            ups = list(d["benefits_features_and_faqs"].get("program_updates_2026") or [])
+            claim_note = "25 November 2026 New Rule: NeuCoins earned must be manually claimed inside the Tata Neu app within 12 months before expiry."
+            if not any("November 2026" in u for u in ups):
+                ups.insert(0, claim_note)
+            d["benefits_features_and_faqs"]["program_updates_2026"] = ups[:6]
+
+    # K. HSBC Live+: Visa Infinite + 1 Intl lounge/yr + Amazon Fresh / Flipkart Minutes 10% Grocery MCC
     hsbc_key = ("hsbc-bank", "hsbc-live-credit-card")
     if hsbc_key in dossiers:
         d = dossiers[hsbc_key]
@@ -1083,7 +1268,7 @@ def apply_2026_verified_overrides(dossiers: dict[tuple[str, str], dict[str, Any]
             ups.insert(0, hsbc_note)
         d["benefits_features_and_faqs"]["program_updates_2026"] = ups[:6]
 
-    # J. BOBCARD Eterna & Tiara: July 15 2026 revised lounge rule
+    # L. BOBCARD Eterna & Tiara: July 15 2026 revised lounge rule (deduplicated)
     for b_slug in ("bobcard-eterna-credit-card", "bobcard-tiara"):
         bk = ("bobcard-bank-of-baroda", b_slug)
         if bk in dossiers:
@@ -1091,10 +1276,98 @@ def apply_2026_verified_overrides(dossiers: dict[tuple[str, str], dict[str, Any]
             d["filter_tags"]["no_spend_domestic_lounge"] = False
             d["lounge_access_detailed"]["no_spend_domestic_lounge"] = False
             d["lounge_access_detailed"]["domestic"]["spend_criteria"] = "Revised spend-based eligibility effective 15 July 2026"
-            d["benefits_features_and_faqs"].setdefault("program_updates_2026", []).insert(
-                0,
-                "15 July 2026 Update: BOBCARD transitioned unlimited lounge visits on Eterna & Tiara to revised quarterly spend-based eligibility.",
-            )
+            ups = list(d["benefits_features_and_faqs"].get("program_updates_2026") or [])
+            bob_note = "15 July 2026 Update: BOBCARD transitioned unlimited lounge visits on Eterna & Tiara to revised quarterly spend-based eligibility."
+            if not any("15 July 2026" in u for u in ups):
+                ups.insert(0, bob_note)
+            d["benefits_features_and_faqs"]["program_updates_2026"] = ups[:6]
+
+    # M. Global Consistency Pass across all 515 dossiers:
+    # - Strip leftover Markdown bolding '**' across strings
+    # - Fix broken 'option from ...' overviews
+    # - Normalize LTF vs annual_fee_inr / fee_bracket mismatches
+    # - Deduplicate program_updates_2026 & devaluation_history
+    def clean_obj_md(obj: Any) -> Any:
+        if isinstance(obj, str):
+            return obj.replace("**", "")
+        if isinstance(obj, list):
+            return [clean_obj_md(x) for x in obj]
+        if isinstance(obj, dict):
+            return {k: clean_obj_md(v) for k, v in obj.items()}
+        return obj
+
+    ltf_fixes = {
+        "axis-bank-privilege-visa-credit-card-limited-period-lifetime-free-offer": {"jf": 0, "af": 0, "ltf": True, "fyf": True, "gst": False, "bracket": "Free (LTF)"},
+        "kotak-privy-league-signature-credit-card": {"jf": 0, "af": 0, "ltf": True, "fyf": True, "gst": False, "bracket": "Free (LTF)", "waiver": "Lifetime Free for Privy League banking customers (₹2,500 otherwise)"},
+        "indigo-sbi-card": {"jf": 1499, "af": 1499, "ltf": False, "fyf": False, "gst": True, "bracket": "Rs. 1,000 - Rs. 2,500", "waiver": "Nil (1,500 bonus BluChips on renewal fee payment)"},
+        "bobcard-eterna-credit-card": {"jf": 2499, "af": 2499, "ltf": False, "fyf": False, "gst": True, "bracket": "Rs. 1,000 - Rs. 2,500"},
+        "bobcard-swavlamban-credit-card": {"jf": 250, "af": 250, "ltf": False, "fyf": False, "gst": True, "bracket": "Under Rs. 1,000"},
+        "bank-of-india-rupay-select-credit-card": {"jf": 0, "af": 800, "ltf": False, "fyf": True, "gst": True, "bracket": "Under Rs. 1,000"},
+        "cred-indusind-bank-rupay-credit-card": {"jf": 0, "af": 499, "ltf": False, "fyf": True, "gst": True, "bracket": "Under Rs. 1,000"},
+        "yes-bank-freo-credit-card": {"jf": 399, "af": 399, "ltf": False, "fyf": False, "gst": True, "bracket": "Under Rs. 1,000"},
+    }
+
+    for key, raw_d in list(dossiers.items()):
+        d = clean_obj_md(raw_d)
+        ident = d["identity"]
+        cslug = ident["card_slug"]
+        cname = ident["card_name"]
+        fees = d["fees_and_charges_detailed"]
+        ft = d["filter_tags"]
+        bf = d["benefits_features_and_faqs"]
+
+        if cslug in ltf_fixes:
+            spec_f = ltf_fixes[cslug]
+            fees["joining_fee_inr"] = spec_f["jf"]
+            fees["annual_fee_inr"] = spec_f["af"]
+            fees["gst_applicable"] = spec_f["gst"]
+            if "waiver" in spec_f:
+                fees["joining_fee_waiver"] = spec_f["waiver"]
+            ft["is_ltf"] = spec_f["ltf"]
+            ft["is_fyf"] = spec_f["fyf"]
+            ft["fee_bracket"] = spec_f["bracket"]
+            if not spec_f["ltf"] and bf.get("about_overview", "").startswith("Lifetime Free option from"):
+                bf["about_overview"] = f"{cname} is an option from {ident['bank']} " + bf["about_overview"].split("suited for", 1)[-1].lstrip()
+                if "suited for" not in bf["about_overview"]:
+                    bf["about_overview"] = f"{cname} by {ident['bank']} suited for everyday rewards."
+                else:
+                    bf["about_overview"] = f"{cname} is an option from {ident['bank']} suited for " + bf["about_overview"].split("suited for", 1)[-1].lstrip()
+                d["pros_and_cons"]["pros"] = [
+                    p for p in d["pros_and_cons"].get("pros", []) if "Lifetime Free card with zero annual fee commitment" not in p
+                ] or [f"Rewarding {ident['primary_category']} benefits from {ident['bank']}"]
+
+        # Align all 0/0 fee_bracket == "Free (LTF)" cards cleanly
+        jf_v = fees.get("joining_fee_inr") or 0
+        af_v = fees.get("annual_fee_inr") or 0
+        if jf_v == 0 and af_v == 0 and ft.get("fee_bracket") == "Free (LTF)":
+            ft["is_ltf"] = True
+
+        # Fix broken leading lowercase "option from ..." overviews
+        ao = (bf.get("about_overview") or "").strip()
+        if ao.startswith("option from "):
+            bf["about_overview"] = f"{cname} is a credit card " + ao
+
+        # Deduplicate program_updates_2026 & devaluation_history preserving order
+        if bf.get("program_updates_2026"):
+            seen_u: set[str] = set()
+            dedup_u: list[str] = []
+            for u in bf["program_updates_2026"]:
+                if u not in seen_u:
+                    seen_u.add(u)
+                    dedup_u.append(u)
+            bf["program_updates_2026"] = dedup_u
+
+        dv_list = d.get("devaluation_analysis", {}).get("devaluation_history") or []
+        if dv_list:
+            seen_d: set[str] = set()
+            dedup_d: list[str] = []
+            for item in dv_list:
+                if item not in seen_d:
+                    seen_d.add(item)
+                    dedup_d.append(item)
+            d["devaluation_analysis"]["devaluation_history"] = dedup_d
+
+        dossiers[key] = d
 
 
 def build_new_card_dossier(spec: dict[str, Any], cm_page: dict[str, Any] | None, template: dict[str, Any], img_client: httpx.Client) -> dict[str, Any]:

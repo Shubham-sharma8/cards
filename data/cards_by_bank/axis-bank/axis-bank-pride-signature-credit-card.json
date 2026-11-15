@@ -366,7 +366,7 @@
       },
       {
         "city": "Mumbai",
-        "lounge_name": "Mumbai Adani Lounge** Domestic Departure T2",
+        "lounge_name": "Mumbai Adani Lounge Domestic Departure T2",
         "terminal": "Domestic",
         "terminal_type": "Domestic",
         "source_program_id": "axis_lounge_program"
@@ -838,7 +838,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Axis Bank suited for dining, groceries & movies users.",
+    "about_overview": "Axis Bank Pride Signature Credit Card is a credit card option from Axis Bank suited for dining, groceries & movies users.",
     "highlights": [
       "8 reward points on every Rs. 200 spent",
       "The earned reward points can be redeemed against Axis Bank EDGE Rewards Catalogue",

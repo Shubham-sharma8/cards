@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import {
@@ -495,11 +496,13 @@ export function AdvisorClient({ cards, waiverMap, advisorMetaMap }: AdvisorClien
           <div className="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div className="flex items-center gap-3 text-[13.5px] font-medium text-[#1A1D21]">
               <AiOrb3D size="md" />
-              <div className="hidden md:block w-12 h-9 rounded-lg overflow-hidden border border-[#CBE0D7] bg-[#FAF9F6] shrink-0">
-                <img
+              <div className="hidden md:block relative w-12 h-9 rounded-lg overflow-hidden border border-[#CBE0D7] bg-[#FAF9F6] shrink-0">
+                <Image
                   src={resolveMediaUrl("/illustrations/ai-vault-3d.webp") || "/illustrations/ai-vault-3d.webp"}
                   alt="3D AI vault"
-                  className="w-full h-full object-cover"
+                  fill
+                  sizes="48px"
+                  className="object-cover"
                 />
               </div>
               <div className="min-w-0">

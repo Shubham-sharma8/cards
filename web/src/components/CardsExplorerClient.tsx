@@ -467,26 +467,26 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
   );
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
+    <div className="w-full min-w-0 max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
       <SearchParamsSync onParams={syncFromParams} />
       {/* Page Title & Controls */}
-      <div className="border-b border-[#E4E4DF] pb-6 mb-6 flex flex-col gap-4">
+      <div className="border-b border-[#E4E4DF] pb-6 mb-6 flex flex-col gap-4 min-w-0">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
-          <div>
-            <h1 className="text-[26px] sm:text-[30px] font-medium tracking-[-0.015em] text-[#1A1D21]">
+          <div className="min-w-0">
+            <h1 className="text-[24px] sm:text-[30px] font-medium tracking-[-0.015em] text-[#1A1D21]">
               All Active Credit Cards
             </h1>
-            <p className="text-[14px] text-[#4B525C] mt-1 tabular-nums">
+            <p className="text-[13.5px] sm:text-[14px] text-[#4B525C] mt-1 tabular-nums">
               Showing {filteredCards.length} of {cards.length} indexed Indian credit cards across{" "}
               {banks.length} banks.
             </p>
           </div>
 
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center gap-2 w-full sm:w-auto">
             <button
               type="button"
               onClick={() => setMobileFiltersOpen(true)}
-              className="lg:hidden inline-flex items-center gap-1.5 px-3.5 py-2 text-[13.5px] bg-white border border-[#E4E4DF] rounded-lg text-[#1A1D21] cursor-pointer"
+              className="lg:hidden inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-[13px] bg-white border border-[#E4E4DF] rounded-lg text-[#1A1D21] cursor-pointer shrink-0"
             >
               <SlidersHorizontal className="w-4 h-4 text-[#0F5C4D]" aria-hidden="true" />
               Filters {activeFilterCount > 0 ? `(${activeFilterCount})` : ""}
@@ -499,7 +499,7 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
               id="sort-cards"
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value as (typeof SORT_OPTIONS)[number]["id"])}
-              className="px-3 py-2 text-[13.5px] bg-white border border-[#E4E4DF] rounded-lg text-[#1A1D21] focus:outline-none focus:border-[#0F5C4D]"
+              className="flex-1 sm:flex-none min-w-0 px-3 py-2 text-[13px] sm:text-[13.5px] bg-white border border-[#E4E4DF] rounded-lg text-[#1A1D21] focus:outline-none focus:border-[#0F5C4D]"
             >
               {SORT_OPTIONS.map((opt) => (
                 <option key={opt.id} value={opt.id}>

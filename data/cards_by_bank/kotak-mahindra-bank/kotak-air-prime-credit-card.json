@@ -106,7 +106,7 @@
     "accelerated_reward_rate_pct": 5.0,
     "point_value_inr_default": 0.25,
     "point_value_inr_matrix": {
-      "air_mile": "Partner Mile** | **Airline/Hotel Partner** |"
+      "air_mile": "Partner Mile | Airline/Hotel Partner |"
     },
     "point_expiry": "Check issuer T&C (typically 2-3 years)",
     "reward_earning_rules": [
@@ -830,7 +830,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Kotak Mahindra Bank suited for travel & miles users with 4 domestic lounge visits/yr.",
+    "about_overview": "Kotak Air+ Prime Credit Card is a credit card option from Kotak Mahindra Bank suited for travel & miles users with 4 domestic lounge visits/yr.",
     "highlights": [
       "5 Air Miles per Rs. 100 spent on booking flight, flight add-ons, hotel and hotel add-ons via Kotak Unbox, along with auto dealer merchants (5 Air Miles include 3 accelerated and 2 base Air Miles)",
       "2 Air Miles per Rs. 100 spent on other categories",

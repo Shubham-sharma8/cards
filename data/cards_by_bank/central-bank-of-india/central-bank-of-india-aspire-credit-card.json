@@ -45,7 +45,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": true,
     "is_rupay_upi": false,
@@ -192,7 +192,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Central Bank Of India suited for travel & miles users.",
+    "about_overview": "Central Bank of India Aspire Credit Card is a credit card option from Central Bank Of India suited for travel & miles users.",
     "highlights": [
       "There is a global acceptance of this card.",
       "ATM compatibility that allows you to make cash withdrawal anywhere across the world.",

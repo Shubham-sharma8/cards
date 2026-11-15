@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
@@ -560,13 +561,21 @@ export function HomeClient({
             transition={calmTransition}
             className="max-w-2xl mx-auto text-center space-y-5 relative z-10"
           >
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FAF9F6] border border-[#E4E4DF] text-[12.5px] text-[#4B525C] tabular-nums shadow-[0_1px_2px_rgba(26,29,33,0.03)]">
-              <span className="w-2 h-2 rounded-full bg-[#0F5C4D]" aria-hidden="true" />
-              <span>{stats.totalCards} Indian credit cards</span>
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1 rounded-full bg-[#FAF9F6] border border-[#E4E4DF] text-[11.5px] sm:text-[12.5px] text-[#4B525C] tabular-nums whitespace-nowrap shadow-[0_1px_2px_rgba(26,29,33,0.03)]">
+              <span className="w-2 h-2 rounded-full bg-[#0F5C4D] shrink-0" aria-hidden="true" />
+              <span>
+                {stats.totalCards} <span className="hidden sm:inline">Indian credit </span>cards
+              </span>
               <span aria-hidden="true">·</span>
-              <span>{stats.totalBanks} issuers</span>
+              <span>
+                {stats.totalBanks} <span className="sm:hidden">banks</span>
+                <span className="hidden sm:inline">issuers</span>
+              </span>
               <span aria-hidden="true">·</span>
-              <span>Zero sponsored picks</span>
+              <span>
+                Zero <span className="sm:hidden">bias</span>
+                <span className="hidden sm:inline">sponsored picks</span>
+              </span>
             </div>
 
             <h1 className="text-[32px] sm:text-[44px] font-medium tracking-[-0.025em] leading-[1.14] text-[#1A1D21]">
@@ -604,8 +613,8 @@ export function HomeClient({
                       setSearchInput(e.target.value);
                       setSearchFocused(true);
                     }}
-                    placeholder="Search Infinia, Accor ALL, KrisFlyer, zero forex, RuPay UPI..."
-                    className="w-full pl-11 pr-4 py-3 text-[14px] text-[#1A1D21] placeholder:text-[#717882] bg-[#FAF9F6] border border-[#C9C9C2] focus:border-[#0F5C4D] focus:bg-white rounded-full focus:outline-none transition-colors"
+                    placeholder="Search Infinia, Accor ALL, RuPay UPI..."
+                    className="w-full pl-11 pr-4 py-3 text-[13.5px] sm:text-[14px] text-[#1A1D21] placeholder:text-[#717882] bg-[#FAF9F6] border border-[#C9C9C2] focus:border-[#0F5C4D] focus:bg-white rounded-full focus:outline-none transition-colors"
                   />
                 </div>
                 <button
@@ -1037,10 +1046,12 @@ export function HomeClient({
                 className="group relative overflow-hidden rounded-2xl border border-[#E4E4DF] bg-white hover:border-[#0F5C4D]/50 transition-all flex items-stretch min-h-[126px]"
               >
                 <div className="w-[120px] sm:w-[136px] shrink-0 relative overflow-hidden bg-[#F3F2EE]">
-                  <img
+                  <Image
                     src={resolveMediaUrl("/illustrations/airport-lounge-hero.webp") || "/illustrations/airport-lounge-hero.webp"}
                     alt="Airport lounge visual"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    fill
+                    sizes="(max-width: 640px) 120px, 136px"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
                 <div className="p-4 flex flex-col justify-center min-w-0">
@@ -1061,10 +1072,12 @@ export function HomeClient({
                 className="group relative overflow-hidden rounded-2xl border border-[#E4E4DF] bg-white hover:border-[#0F5C4D]/50 transition-all flex items-stretch min-h-[126px]"
               >
                 <div className="w-[120px] sm:w-[136px] shrink-0 relative overflow-hidden bg-[#FAF9F6]">
-                  <img
+                  <Image
                     src={resolveMediaUrl("/illustrations/rewards-compass-3d.webp") || "/illustrations/rewards-compass-3d.webp"}
                     alt="3D rewards and air miles calculator visual"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    fill
+                    sizes="(max-width: 640px) 120px, 136px"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
                 <div className="p-4 flex flex-col justify-center min-w-0">

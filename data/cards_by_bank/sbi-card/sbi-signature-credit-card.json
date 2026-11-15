@@ -42,7 +42,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -165,7 +165,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from SBI Card suited for travel & miles users.",
+    "about_overview": "SBI Signature Credit Card is a credit card option from SBI Card suited for travel & miles users.",
     "highlights": [],
     "welcome_benefit": null,
     "milestone_benefits": [],

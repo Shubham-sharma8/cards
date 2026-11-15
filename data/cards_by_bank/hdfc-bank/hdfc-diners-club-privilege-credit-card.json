@@ -103,8 +103,8 @@
   },
   "reward_calculator_model": {
     "earn_unit": "Reward Points",
-    "base_reward_rate_pct": 1.12,
-    "accelerated_reward_rate_pct": 1.12,
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
     "point_value_inr_default": 0.56,
     "point_value_inr_matrix": {
       "default_redemption": "Rs. 0.56"
@@ -119,25 +119,25 @@
       "Dining : Up to 10% off on restaurant bill payments via Swiggy Dineout."
     ],
     "effective_return_pct_by_category": {
-      "online_shopping_general": 1.33,
-      "amazon_flipkart_myntra": 1.33,
-      "dining_swiggy_zomato": 6.66,
-      "groceries_quick_commerce": 1.33,
-      "travel_flights_hotels": 6.66,
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 5.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 5.0,
       "upi_scan_and_pay": 0.0,
-      "utilities_bills_telecom": 1.33,
+      "utilities_bills_telecom": 1.0,
       "fuel": 0.0,
-      "insurance": 1.33,
+      "insurance": 1.0,
       "education_rent_govt": 0.0,
-      "international_forex_net_of_markup": -1.03,
-      "offline_general_other": 1.33
+      "international_forex_net_of_markup": -1.36,
+      "offline_general_other": 1.0
     },
     "monthly_category_caps_inr": {
       "dining_swiggy_zomato": 2500,
       "travel_flights_hotels": 2500
     },
     "monthly_capping_rules": [
-      "1.33% base (4 RP/Rs.150 at Rs.0.50 travel value); 5X (6.67%) on Swiggy/Zomato/BookMyShow up to 2,500 RP/month; Rs. 1,500 quarterly voucher at Rs. 1.5L spend."
+      "1.0% base (4 RP/₹200 eff. May 2026 at Rs.0.50 travel value); 5X (6.67%) on Swiggy/Zomato/BookMyShow up to 2,500 RP/month; Rs. 1,500 quarterly voucher at Rs. 1.5L spend."
     ],
     "category_caveats": {},
     "excluded_categories": [],
@@ -361,7 +361,9 @@
           ]
         ]
       }
-    ]
+    ],
+    "default_reward_rate_pct": 1.0,
+    "peak_reward_rate_pct": 5.0
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -779,7 +781,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "HDFC Diners Club Privilege Credit Card is a good choice for people looking for lifestyle benefits across everyday spending categories like dining, shopping, and movies. Cardholders can earn accelerated rewards on popular brands like Zomato & Swiggy, quarterly milestone benefits from Decathlon and Marriott, and the Buy One, Get One offer on BookMyShow. The card also offers up to 10X rewards on SmartBuy, giving users a reward rate of up to 13.33% on accelerated categories and 1.33% as a base rate.",
+    "about_overview": "HDFC Diners Club Privilege Credit Card is a good choice for people looking for lifestyle benefits across everyday spending categories like dining, shopping, and movies. Cardholders can earn accelerated rewards on popular brands like Zomato & Swiggy, quarterly milestone benefits from Decathlon and Marriott, and the Buy One, Get One offer on BookMyShow. The card also offers up to 10X rewards on SmartBuy, giving users a reward rate of up to 10% on accelerated SmartBuy categories and 1.0% base rate (4 RP/₹200 eff. May 2026).",
     "highlights": [
       "4 reward points for every Rs. 200 on retail spends​1-3",
       "5X rewards on Swiggy and Zomato 4,5",
@@ -902,7 +904,7 @@
       "High 3.5% (+GST) forex markup makes international swipes net negative.",
       "Quarterly spend thresholds for domestic airport lounge access",
       "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
-      "1.33% base (4 RP/Rs.150 at Rs.0.50 travel value); 5X (6.67%) on Swiggy/Zomato/BookMyShow up to 2,500 RP/month; Rs. 1,500 quarterly voucher at Rs. 1.5L spend."
+      "1.0% base (4 RP/₹200 eff. May 2026 at Rs.0.50 travel value); 5X (6.67%) on Swiggy/Zomato/BookMyShow up to 2,500 RP/month; Rs. 1,500 quarterly voucher at Rs. 1.5L spend."
     ],
     "optimization_tips": [
       "Focus spends on dining & food delivery (6.7% effective return) before hitting monthly category caps.",
@@ -915,8 +917,6 @@
     "devaluation_risk_score": 5,
     "last_devalued_on": "2026-07-01",
     "devaluation_history": [
-      "May–July 2026: Base reward cut 25% from 4 RP/₹150 to 4 RP/₹200; airport lounges require ₹60,000 spend in previous quarter.",
-      "May–July 2026: Base reward cut 25% from 4 RP/₹150 to 4 RP/₹200; airport lounges require ₹60,000 spend in previous quarter.",
       "May–July 2026: Base reward cut 25% from 4 RP/₹150 to 4 RP/₹200; airport lounges require ₹60,000 spend in previous quarter.",
       "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
     ],

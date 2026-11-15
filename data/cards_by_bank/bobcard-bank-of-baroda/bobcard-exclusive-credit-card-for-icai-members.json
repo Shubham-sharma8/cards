@@ -819,7 +819,7 @@
     "late_payment_slabs": [
       {
         "statement_balance_slab": "All Statement Balances",
-        "late_fee_inr": "Amount less than Rs. 100 -** Nil"
+        "late_fee_inr": "Amount less than Rs. 100 - Nil"
       }
     ]
   },

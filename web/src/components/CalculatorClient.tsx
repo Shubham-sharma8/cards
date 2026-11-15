@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { Calculator, Check, ChevronDown, ChevronUp, Info, Plus } from "lucide-react";
@@ -254,11 +255,13 @@ export function CalculatorClient({ cards, extraByCardId }: CalculatorClientProps
         </div>
 
         <div className="flex flex-wrap items-center gap-3 shrink-0">
-          <div className="hidden sm:block w-[112px] h-[74px] rounded-xl overflow-hidden border border-[#E4E4DF] bg-[#FAF9F6] shrink-0">
-            <img
+          <div className="hidden sm:block relative w-[112px] h-[74px] rounded-xl overflow-hidden border border-[#E4E4DF] bg-[#FAF9F6] shrink-0">
+            <Image
               src={resolveMediaUrl("/illustrations/rewards-compass-3d.webp") || "/illustrations/rewards-compass-3d.webp"}
               alt="3D studio illustration of metallic credit card, reward tokens, and compass"
-              className="w-full h-full object-cover"
+              fill
+              sizes="112px"
+              className="object-cover"
             />
           </div>
           <div className="bg-white border border-[#E4E4DF] rounded-xl px-4 py-3 flex items-center gap-6 shrink-0 tabular-nums">
@@ -524,13 +527,14 @@ export function CalculatorClient({ cards, extraByCardId }: CalculatorClientProps
                       #{idx + 1}
                     </span>
 
-                    <div className="w-[78px] h-[50px] rounded-md bg-[#F3F2EE] border border-[#E4E4DF] overflow-hidden shrink-0 flex items-center justify-center">
+                    <div className="relative w-[78px] h-[50px] rounded-md bg-[#F3F2EE] border border-[#E4E4DF] overflow-hidden shrink-0 flex items-center justify-center">
                       {imgSrc ? (
-                        <img
+                        <Image
                           src={imgSrc}
                           alt={card.card_name}
-                          className="w-full h-full object-contain p-0.5"
-                          loading="lazy"
+                          fill
+                          sizes="78px"
+                          className="object-contain p-0.5"
                         />
                       ) : (
                         <span className="text-[10px] text-[#717882] px-1 text-center leading-tight">

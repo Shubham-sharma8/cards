@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import {
@@ -296,10 +297,12 @@ export function LoungesClient({
         className="relative overflow-hidden rounded-2xl border border-[#E4E4DF] bg-white grid grid-cols-1 md:grid-cols-12 items-stretch"
       >
         <div className="md:col-span-5 relative min-h-[168px] sm:min-h-[196px] overflow-hidden bg-[#F3F2EE]">
-          <img
+          <Image
             src={resolveMediaUrl("/illustrations/airport-lounge-hero.webp") || "/illustrations/airport-lounge-hero.webp"}
             alt="Sunlit Indian airport VIP lounge overlooking runway"
-            className="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+            fill
+            sizes="(max-width: 768px) 100vw, 42vw"
+            className="object-cover transition-transform duration-700 hover:scale-[1.03]"
           />
           <div
             aria-hidden="true"
@@ -879,11 +882,12 @@ export function LoungesClient({
                     }`}
                   >
                     <div className="relative h-44 w-full overflow-hidden bg-[#F3F2EE]">
-                      <img
+                      <Image
                         src={spotImg}
                         alt={spot.google_place_name || `${spot.lounge_name} real lounge photo`}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className="object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
                       {typeof spot.google_rating === "number" && (
@@ -1144,14 +1148,15 @@ export function LoungesClient({
                     className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl overflow-hidden flex flex-col justify-between"
                   >
                     <div className="relative h-40 w-full bg-[#EFECE5] overflow-hidden">
-                      <img
+                      <Image
                         src={
                           resolveMediaUrl(club.local_photo_path || "/illustrations/lounge-golf-club.webp") ||
                           "/illustrations/lounge-golf-club.webp"
                         }
                         alt={`${club.club_name} (${club.city}) real photo`}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className="object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent" />
                       <span className="absolute top-2.5 left-2.5 bg-white/95 text-[#1A1D21] text-[11px] font-semibold px-2 py-0.5 rounded-md">

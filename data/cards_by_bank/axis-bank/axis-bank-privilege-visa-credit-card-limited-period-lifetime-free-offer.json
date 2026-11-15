@@ -115,8 +115,8 @@
     "accelerated_reward_rate_pct": 1.0,
     "point_value_inr_default": 0.25,
     "point_value_inr_matrix": {
-      "redemption_value": "** 1 EDGE Reward point = Up to Rs. 0.20",
-      "redemption_option": "** You can opt for redemption against the products/ vouchers available in the Axis EDGE Rewards Catalogue or points-to-mile conversion"
+      "redemption_value": " 1 EDGE Reward point = Up to Rs. 0.20",
+      "redemption_option": " You can opt for redemption against the products/ vouchers available in the Axis EDGE Rewards Catalogue or points-to-mile conversion"
     },
     "point_expiry": "Check issuer T&C (typically 2-3 years)",
     "reward_earning_rules": [
@@ -367,7 +367,7 @@
       },
       {
         "city": "Mumbai",
-        "lounge_name": "Mumbai Adani Lounge** Domestic Departure T2",
+        "lounge_name": "Mumbai Adani Lounge Domestic Departure T2",
         "terminal": "Domestic",
         "terminal_type": "Domestic",
         "source_program_id": "axis_lounge_program"
@@ -803,8 +803,8 @@
     "participating_lounges_count": 80
   },
   "fees_and_charges_detailed": {
-    "joining_fee_inr": 1500,
-    "annual_fee_inr": 1500,
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
     "gst_applicable": false,
     "fee_waiver_spend_inr": null,
     "joining_fee_waiver": "Lifetime Free",

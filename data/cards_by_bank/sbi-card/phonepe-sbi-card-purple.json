@@ -111,9 +111,9 @@
       "offline_general_other": 1.0
     },
     "monthly_category_caps_inr": {
+      "insurance": 250,
       "utilities_bills_telecom": 750,
       "travel_flights_hotels": 750,
-      "insurance": 250,
       "online_shopping_general": 750,
       "upi_scan_and_pay": 1000
     },
@@ -121,8 +121,9 @@
       "3% RPs ONLY via PhonePe App on Insurance (cap 250 RP/mo) & Utilities (cap 750 RP/mo) — ~1.5% net after ~1.5% PhonePe convenience fee; 0% on swipe or external UPI; 2% online (cap 750 RP/mo); 1% UPI (cap 1,000 RP/mo)."
     ],
     "category_caveats": {
-      "insurance": "3% gross ONLY via PhonePe App (~1.5% net after ~1.5% convenience fee; capped at 250 RP/month); 0% on swipe/direct insurer/external UPI.",
-      "utilities_bills_telecom": "3% gross ONLY via PhonePe App (~1.5% net after ~1.5% fee; capped at 750 RP/month); 0% outside PhonePe."
+      "insurance": "July 2026 split cap: Insurance capped separately at 250 RP/month inside PhonePe",
+      "utilities_bills_telecom": "July 2026 split cap: Remaining PhonePe bill/UPI spends capped at 750 RP/month",
+      "online_shopping_general": "July 2026 cut: 5% online cap reduced from 1,000 RP to 750 RP/month"
     },
     "excluded_categories": [],
     "transfer_partners": [],
@@ -372,7 +373,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "Another notable benefit is that the card is also offered on the RuPay network, which allows cardholders to link their card with the UPI apps and earn benefits on UPI spends made via PhonePe app as well. The card also compensates for its joining fee by offering a **PhonePe gift card worth Rs. 500** at the time of joining. Additionally, the card also offers a **Yatra voucher worth Rs. 3,000** as a milestone benefit, allowing frequent travellers to maximize their savings. Overall, when compared to PhonePe HDFC Uno Card, SBI PURPLE offers better value at the same annual fee, due to its higher reward rate, rewards on offline & in-store spends, and direct welcome benefits. This card is a suitable option for consumers looking to maximize savings on their PhonePe spends.",
+    "about_overview": "Another notable benefit is that the card is also offered on the RuPay network, which allows cardholders to link their card with the UPI apps and earn benefits on UPI spends made via PhonePe app as well. The card also compensates for its joining fee by offering a PhonePe gift card worth Rs. 500 at the time of joining. Additionally, the card also offers a Yatra voucher worth Rs. 3,000 as a milestone benefit, allowing frequent travellers to maximize their savings. Overall, when compared to PhonePe HDFC Uno Card, SBI PURPLE offers better value at the same annual fee, due to its higher reward rate, rewards on offline & in-store spends, and direct welcome benefits. This card is a suitable option for consumers looking to maximize savings on their PhonePe spends.",
     "highlights": [
       "3 reward points for every Rs. 100 spent on eligible PhonePe spends, including recharges, utilities, bill payments, insurance and travel, capped at 250 points per month on insurance spends via PhonePe app and 750 points per month on other PhonePe spends",
       "2 reward points for every Rs. 100 on eligible online spends, capped at 750 points per month",
@@ -444,11 +445,8 @@
       }
     ],
     "program_updates_2026": [
-      "The reward rates still look very good, but the card is not as generous as it was at launch. SBI Card reduced the monthly reward caps from 1 July 2026, which means you now need to use the card more selectively. For someone who already uses PhonePe regularly for bills and payments, there is still decent value here.",
-      "The reward rates on the PhonePe SBI Card SELECT BLACK still look very good but the lower monthly caps have taken away some of the shine. From 1 July 2026, the 10% PhonePe reward bucket has also been split between insurance and other eligible PhonePe spends.",
-      "The sweet spot is much simpler. Use the card for the 10% PhonePe categories and 5% online spends. A monthly spend of ₹40,000 across these buckets can earn up to 3000 RP or ₹3000 back. That is the part of the card that still makes sense after the July 2026 changes.",
-      "Lower monthly reward caps from July 2026",
-      "The PhonePe SBI Card SELECT BLACK is still a good card, but the July 2026 changes have reduced its overall value."
+      "1 July 2026 PhonePe Purple Cap Split: 1,000 RP PhonePe bucket split into 250 RP/mo Insurance + 750 RP/mo Other PhonePe Spends; Online 5% cap cut from 1,000 RP to 750 RP/mo.",
+      "New July 2026 Exclusions: Tolls, Education, Jewellery, Gift Cards, and Utilities/Insurance paid outside PhonePe earn 0 RP."
     ]
   },
   "ratings": {
@@ -508,9 +506,9 @@
   "devaluation_analysis": {
     "devaluation_frequency": "Medium-High",
     "devaluation_risk_score": 6,
-    "last_devalued_on": null,
+    "last_devalued_on": "2026-07-01",
     "devaluation_history": [
-      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+      "1 July 2026 PhonePe Purple Cap Split: 1,000 RP PhonePe bucket split into 250 RP Insurance + 750 RP Other PhonePe Spends; Online 5% cap cut from 1,000 RP to 750 RP/mo."
     ],
     "watch_out_vectors": [
       "Quarterly spend thresholds for domestic airport lounge access",

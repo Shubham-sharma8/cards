@@ -40,7 +40,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -169,7 +169,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Bank of India suited for fuel users.",
+    "about_overview": "Bank of India Kisan Samadhan Credit Card is a credit card option from Bank of India suited for fuel users.",
     "highlights": [
       "Crop production loan sanctioned depends on the type of crops, cultivation area, and loan required for raising a crop per unit area cultivated.",
       "Finance will be extended for short-term expenditures such as the maintenance of equipment (tractors and farms) and allied activities such as dairy, poultry, cost of feed, fuel, annual repairs, etc.",

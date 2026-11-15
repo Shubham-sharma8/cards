@@ -643,8 +643,8 @@ export function CardDossierClient({
           </div>
 
           {/* Right Score + Action Box */}
-          <div className="flex sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-3 shrink-0 w-full lg:w-auto border-t lg:border-t-0 pt-4 lg:pt-0 border-[#E4E4DF]">
-            <div className="flex items-center gap-2 flex-wrap lg:justify-end">
+          <div className="flex flex-col sm:flex-row lg:flex-col items-stretch sm:items-center lg:items-end justify-between gap-3 shrink-0 w-full lg:w-auto border-t lg:border-t-0 pt-4 lg:pt-0 border-[#E4E4DF]">
+            <div className="flex items-center gap-2 flex-wrap justify-between sm:justify-start lg:justify-end">
               <div className="flex items-center gap-1.5 bg-white border border-[#E4E4DF] px-3 py-1.5 rounded-lg tabular-nums">
                 <Star className="w-4 h-4 text-[#9A5B13]" aria-hidden="true" />
                 <span className="text-[16px] font-medium text-[#1A1D21]">
@@ -742,7 +742,7 @@ export function CardDossierClient({
               </div>
             </div>
 
-            <div className="flex items-center gap-2 flex-wrap">
+            <div className="grid grid-cols-2 sm:flex items-center gap-2 w-full sm:w-auto lg:w-auto">
               <button
                 type="button"
                 onClick={() =>
@@ -756,14 +756,14 @@ export function CardDossierClient({
                     overall_rating: ratings.overall_market_rating,
                   })
                 }
-                className={`inline-flex items-center gap-1.5 text-[13px] px-3.5 py-2 rounded-lg border transition-colors cursor-pointer ${
+                className={`inline-flex items-center justify-center gap-1.5 text-[13px] px-3.5 py-2 rounded-lg border transition-colors cursor-pointer whitespace-nowrap ${
                   compared
                     ? "bg-[#EEF5F2] border-[#0F5C4D]/40 text-[#0F5C4D]"
                     : "bg-white border-[#E4E4DF] hover:border-[#C9C9C2] text-[#1A1D21]"
                 }`}
               >
-                {compared ? <Check className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
-                {compared ? "Added to Compare" : "Compare"}
+                {compared ? <Check className="w-4 h-4 shrink-0" /> : <Plus className="w-4 h-4 shrink-0" />}
+                {compared ? "In Compare" : "Compare"}
               </button>
 
               {sanitizeExternalHref(official_and_reference_links.bank_url) && (
@@ -772,10 +772,10 @@ export function CardDossierClient({
                   target="_blank"
                   rel="noopener noreferrer"
                   referrerPolicy="no-referrer"
-                  className="inline-flex items-center gap-1.5 text-[13px] font-medium bg-[#0F5C4D] hover:bg-[#0B473B] text-white px-4 py-2 rounded-lg transition-colors"
+                  className="inline-flex items-center justify-center gap-1.5 text-[13px] font-medium bg-[#0F5C4D] hover:bg-[#0B473B] text-white px-4 py-2 rounded-lg transition-colors whitespace-nowrap"
                 >
                   Official Bank Page
-                  <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
+                  <ExternalLink className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
                 </a>
               )}
             </div>

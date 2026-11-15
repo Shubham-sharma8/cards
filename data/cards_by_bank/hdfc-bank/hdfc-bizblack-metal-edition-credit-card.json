@@ -50,7 +50,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -147,7 +149,446 @@
         "Complimentary ALL Accor+ Explorer membership on spending Rs. 1.5 lakh within the first 90 days",
         "Joining fee waiver on spending Rs. 1.5 lakh within 90 days of card issuance"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HDFC BizBlack Credit Card: At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Premium Business Credit Card"
+          ],
+          [
+            "Network",
+            "Diners Club"
+          ],
+          [
+            "Joining Fee",
+            "₹10,000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹10,000 + GST (waived on ₹7.5 lakh annual spends)"
+          ],
+          [
+            "Welcome Benefit",
+            "Club Marriott Membership + ₹5000 Taj Stay Voucher*"
+          ],
+          [
+            "Reward Rate",
+            "5 Reward Points per ₹150 spent"
+          ],
+          [
+            "Tax Payment Rewards",
+            "Up to 5X Reward Points on eligible Income Tax & GST payments"
+          ],
+          [
+            "SmartBuy Rewards",
+            "Up to 10X Reward Points"
+          ],
+          [
+            "Lounge Access",
+            "Unlimited domestic & international lounge access"
+          ],
+          [
+            "Forex Markup",
+            "2% + GST"
+          ],
+          [
+            "Best For",
+            "Business owners with high tax and travel spends"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Fee Type",
+          "Charges"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹10,000 + GST"
+          ],
+          [
+            "Annual Renewal Fee",
+            "₹10,000 + GST"
+          ],
+          [
+            "Joining Fee Waiver",
+            "Spend ₹1.5 lakh within 90 days of card issuance (applicable to first-time cardholders)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹7.5 lakh in the card anniversary year"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-2",
+        "kind": "eligibility",
+        "title": "Eligibility",
+        "headers": [
+          "Criteria",
+          "Requirement"
+        ],
+        "rows": [
+          [
+            "Applicant Type",
+            "Self-employed professionals, business owners and sole proprietors"
+          ],
+          [
+            "Age",
+            "21–65 years"
+          ],
+          [
+            "Minimum Income",
+            "Annual ITR above ₹45 lakh"
+          ],
+          [
+            "Credit Assessment",
+            "Subject to HDFC Bank’s internal credit and underwriting policies"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-3",
+        "kind": "other_table",
+        "title": "HDFC BizBlack Credit Card Welcome Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Club Marriott Membership",
+            "Complimentary annual membership with dining and stay privileges across participating Marriott hotels."
+          ],
+          [
+            "Taj Stay Voucher",
+            "₹5000 Taj Experiences Gift Card on spending ₹1.5 lakh within the first 90 days of card issuance."
+          ],
+          [
+            "Joining Fee Waiver",
+            "Spend ₹1.5 lakh within the first 90 days to get the ₹10,000 joining fee waived (applicable to first-time cardholders)."
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-4",
+        "kind": "reward_structure",
+        "title": "HDFC BizBlack Credit Card Reward Points",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Approx. Return*"
+        ],
+        "rows": [
+          [
+            "Regular Retail Spends",
+            "5 Reward Points per ₹150",
+            "3.33%"
+          ],
+          [
+            "Income Tax Payments†",
+            "Up to 5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "GST Payments†",
+            "Up to 5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "PayZapp & SmartPay Bill Payments†",
+            "Up to 5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "MMT MyBiz Bookings†",
+            "Up to 5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "SmartBuy Purchases",
+            "Up to 10X Reward Points (50 RP per ₹150)",
+            "Up to 33.33%"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-5",
+        "kind": "accelerated_partners",
+        "title": "HDFC BizBlack Income Tax & GST Payment Benefits",
+        "headers": [
+          "Transaction",
+          "Reward Rate",
+          "Approx. Return*",
+          "Accelerated RP Cap"
+        ],
+        "rows": [
+          [
+            "Income Tax / Advance Tax Payments (via the Income Tax Portal)",
+            "5X Reward Points (25 RP per ₹150)†",
+            "Up to 16.67%",
+            "7500 RP per statement cycle"
+          ],
+          [
+            "GST Payments (via the GST Portal)",
+            "5X Reward Points (25 RP per ₹150)†",
+            "Up to 16.67%",
+            "7500 RP per statement cycle (shared across all 5X business categories)"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-6",
+        "kind": "accelerated_partners",
+        "title": "HDFC BizBlack SmartBuy Benefits",
+        "headers": [
+          "Category",
+          "Reward Rate",
+          "Approx. Return"
+        ],
+        "rows": [
+          [
+            "Hotels (SmartBuy)",
+            "10X Reward Points (50 RP per ₹150)",
+            "Up to 33.33%"
+          ],
+          [
+            "Flights (SmartBuy)",
+            "5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "Buses (SmartBuy)",
+            "5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "MMT Holiday Packages",
+            "5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "Duty Free (Adani One)",
+            "5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "Drivado",
+            "5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "Myntra",
+            "5X Reward Points (25 RP per ₹150)",
+            "Up to 16.67%"
+          ],
+          [
+            "IGP",
+            "10X Reward Points (50 RP per ₹150)",
+            "Up to 33.33%"
+          ],
+          [
+            "Jockey",
+            "10X Reward Points (50 RP per ₹150)",
+            "Up to 33.33%"
+          ],
+          [
+            "PharmEasy",
+            "10X Reward Points (50 RP per ₹150)",
+            "Up to 33.33%"
+          ],
+          [
+            "Brand Vouchers (Gyftr/Woohoo)",
+            "3X Reward Points (15 RP per ₹150)",
+            "Up to 10.00%"
+          ],
+          [
+            "Apple Imagine / Tresor",
+            "3X Reward Points (15 RP per ₹150)",
+            "Up to 10.00%"
+          ],
+          [
+            "Train Bookings (ConfirmTkt / MMT Trains)",
+            "3X Reward Points (15 RP per ₹150)",
+            "Up to 10.00%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-7",
+        "kind": "lounge_access",
+        "title": "HDFC BizBlack Airport Lounge & Travel Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "Unlimited complimentary access for primary and add-on cardholders across eligible lounges in India"
+          ],
+          [
+            "International Airport Lounges",
+            "Unlimited access to 1000+ lounges worldwide through the Diners Club Lounge Programme"
+          ],
+          [
+            "Priority Pass",
+            "Complimentary Digital Priority Pass membership for international lounge access"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-8",
+        "kind": "milestone_benefits",
+        "title": "HDFC BizBlack Milestone Benefits",
+        "headers": [
+          "Annual Spend",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "Every ₹5 lakh spent",
+            "₹5000 SmartBuy Flight Voucher or Taj Experiences Gift Card"
+          ],
+          [
+            "Maximum Benefit",
+            "Up to ₹20,000 worth of vouchers in a calendar year (4 milestones)"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-9",
+        "kind": "redemption_catalog",
+        "title": "HDFC BizBlack Reward Point Redemption",
+        "headers": [
+          "Redemption Option",
+          "Value"
+        ],
+        "rows": [
+          [
+            "SmartBuy Flights & Hotels",
+            "1 Reward Point = ₹1"
+          ],
+          [
+            "Business Catalogue",
+            "Up to ₹1 per Reward Point"
+          ],
+          [
+            "Product Catalogue",
+            "Up to ₹0.50 per Reward Point"
+          ],
+          [
+            "Statement Credit",
+            "₹0.30 per Reward Point"
+          ],
+          [
+            "Airmiles Conversion",
+            "Varies"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-10",
+        "kind": "other_table",
+        "title": "Things to Know",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Minimum Reward Points for Statement Credit",
+            "2500 Reward Points"
+          ],
+          [
+            "Reward Point Validity",
+            "3 years from the date of accumulation"
+          ],
+          [
+            "Maximum Reward Points Earned",
+            "1,50,000 Reward Points per statement cycle"
+          ],
+          [
+            "SmartBuy Redemption Limit",
+            "Up to 70% of the booking value"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-11",
+        "kind": "fees_and_charges",
+        "title": "Forex Markup Fee & Global Value Program",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex Markup Fee",
+            "2% + GST"
+          ],
+          [
+            "Global Value Benefit",
+            "1% cashback on eligible international spends"
+          ],
+          [
+            "Maximum Cashback",
+            "₹1000 per statement cycle"
+          ]
+        ]
+      },
+      {
+        "id": "hdfc-smartbuy-gyftr-caps-july-2026",
+        "kind": "accelerated_partners",
+        "title": "HDFC SmartBuy Monthly & GyFTR Voucher Caps (July 2026)",
+        "note": "Effective 1 July 2026, SmartBuy GyFTR & Woohoo brand vouchers carry a carved-out 3,000 Bonus RP/month sub-limit inside the overall SmartBuy monthly cap.",
+        "headers": [
+          "Card Variant",
+          "Overall SmartBuy Cap/Mo",
+          "GyFTR/Woohoo Cap",
+          "Max Spend for 3,000 Bonus RP"
+        ],
+        "rows": [
+          [
+            "HDFC Infinia / Infinia Metal",
+            "15,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month (5X)"
+          ],
+          [
+            "HDFC Diners Club Black Metal",
+            "10,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹45,000 / month (3X)"
+          ],
+          [
+            "HDFC BizBlack Metal",
+            "7,500–15,000 RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month"
+          ],
+          [
+            "HDFC Regalia Gold",
+            "4,000 RP (capped)",
+            "Sub-cap applies",
+            "5X via Instant Voucher / Myntra / Nykaa"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -614,7 +1055,33 @@
       {
         "q": "Can I get a loan on HDFC Biz Black credit card?",
         "a": "Yes, HDFC Bank Biz Black cardholders can get an Insta loan of any available amount within their assigned credit limit. The loan amount would be blocked against the remaining limit until repaid. Cardholders can also opt for Jumbo loan under which they can borrow a loan amount even beyond the available credit card limit without blocking any part of their credit limit."
+      },
+      {
+        "question": "Is the HDFC BizBlack Credit Card worth it?",
+        "answer": "Yes, if you are a business owner or self-employed professional with significant annual tax payments and travel expenses. The card delivers its best value through accelerated rewards on eligible tax payments, SmartBuy benefits and milestone vouchers."
+      },
+      {
+        "question": "Does the HDFC BizBlack Credit Card offer rewards on Income Tax payments?",
+        "answer": "Yes. Eligible Income Tax and advance tax payments can earn up to 5X Reward Points, subject to the minimum spending requirement and monthly accelerated reward cap."
+      },
+      {
+        "question": "What is the annual fee for the HDFC BizBlack Credit Card?",
+        "answer": "The card carries a joining and annual renewal fee of ₹10,000 plus GST. The renewal fee is waived on annual spends of ₹7.5 lakh."
+      },
+      {
+        "question": "What is the forex markup on the HDFC BizBlack Credit Card?",
+        "answer": "The card charges a 2% forex markup plus GST. Eligible international spends may also qualify for benefits under HDFC Bank's Global Value Program."
+      },
+      {
+        "question": "Who should apply for the HDFC BizBlack Credit Card?",
+        "answer": "The card is best suited for business owners, sole proprietors and self-employed professionals who regularly make tax payments and can maximize the card's travel and reward benefits."
       }
+    ],
+    "program_updates_2026": [
+      "2026 Eligibility Tightening: Annual ITR threshold raised from ₹30 Lakh to ₹45 Lakh for new self-employed applications.",
+      "1 July 2026 SmartBuy Update: GyFTR & Woohoo brand vouchers carry a separate 3,000 Bonus RP/month sub-cap (~₹30k spend on Infinia, ~₹45k on DCB Metal).",
+      "Note: Approximate returns assume Reward Points are redeemed at ₹1 per Reward Point through eligible SmartBuy/business travel redemptions. Accelerated rewards are subject to SmartBuy merchant-specific monthly caps and HDFC Bank’s reward terms.",
+      "Note: HDFC Bank periodically updates SmartBuy partners, reward rates and promotional offers. Always verify the latest eligible merchants and reward multipliers on the SmartBuy portal before making a high-value purchase."
     ]
   },
   "ratings": {
@@ -636,11 +1103,18 @@
       "Up to 5X Reward Points on card spends, including business expenses",
       "Extensive travel benefits like unlimited lounge access, accelerated rewards, discount offers and vouchers",
       "Lifestyle benefits like dining discounts, golf access and rewards and discounts on popular brands/platforms",
-      "Rewards redemption ratio of up to 1:1 for travel-related redemption options"
+      "Rewards redemption ratio of up to 1:1 for travel-related redemption options",
+      "Excellent rewards on eligible Income Tax and GST payments.",
+      "Strong SmartBuy benefits with reward redemption worth up to ₹1 per Reward Point.",
+      "Unlimited domestic and international airport lounge access."
     ],
     "cons": [
       "Spend-based condition on rewards on business spends and capping on monthly rewards earnings",
-      "Low redemption value of reward points if redeemed against non-travel options"
+      "Low redemption value of reward points if redeemed against non-travel options",
+      "₹10,000 + GST annual fee may not suit low-spending businesses.",
+      "Accelerated Reward Points are subject to monthly caps and minimum spending requirements.",
+      "Diners Club acceptance is still not as widespread as Visa or Mastercard.",
+      "Global Value cashback is capped at ₹1,000 per statement cycle."
     ],
     "best_for_whom": "Business owners, CAs, doctors, and self-employed professionals paying quarterly advance tax & GST bills",
     "not_ideal_for": "Salaried employees without business ITR or tax payment needs",
@@ -724,7 +1198,7 @@
     "age_range": "21 to 65 years",
     "min_monthly_income_salaried_inr": 250000,
     "govt_employee_income_note": null,
-    "min_annual_itr_self_employed_inr": 3000000,
+    "min_annual_itr_self_employed_inr": 4500000,
     "min_cibil_score": 730,
     "approval_notes": "Nationality: Indian citizen"
   },

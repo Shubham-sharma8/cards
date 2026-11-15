@@ -115,7 +115,7 @@
     "accelerated_reward_rate_pct": 10.0,
     "point_value_inr_default": 2.0,
     "point_value_inr_matrix": {
-      "axis_travel_edge": "** Redeem to book flights, hotels and experiences via Axis Travel EDGE platform in the ratio of **1:1 (1 EDGE mile = Rs. 1)**"
+      "axis_travel_edge": " Redeem to book flights, hotels and experiences via Axis Travel EDGE platform in the ratio of 1:1 (1 EDGE mile = Rs. 1)"
     },
     "point_expiry": "Check issuer T&C (typically 2-3 years)",
     "reward_earning_rules": [
@@ -661,7 +661,7 @@
       },
       {
         "city": "Mumbai",
-        "lounge_name": "Mumbai Adani Lounge** Domestic Departure T2",
+        "lounge_name": "Mumbai Adani Lounge Domestic Departure T2",
         "terminal": "Domestic",
         "terminal_type": "Domestic",
         "source_program_id": "axis_lounge_program"

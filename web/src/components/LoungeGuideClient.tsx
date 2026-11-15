@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useCallback, useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import {
   AlertTriangle,
@@ -235,9 +236,11 @@ export function LoungeGuideClient({ catalog }: LoungeGuideClientProps) {
           </div>
 
           <div className="rounded-xl border border-[#E4E4DF] overflow-hidden bg-[#FAF9F6] p-2">
-            <img
+            <Image
               src={resolveMediaUrl("/category-posters/lounge-claim-guide.png") || "/category-posters/lounge-claim-guide.png"}
               alt="4-step Indian airport lounge QR claim guide"
+              width={1200}
+              height={760}
               className="w-full h-auto rounded-lg"
             />
           </div>

@@ -301,7 +301,7 @@
       },
       {
         "city": "Calicut",
-        "lounge_name": "CCJ02** Calicut Kozhikode Calicut International Airport Bird Lounge Terminal 2 International Departure",
+        "lounge_name": "CCJ02 Calicut Kozhikode Calicut International Airport Bird Lounge Terminal 2 International Departure",
         "terminal": "International",
         "terminal_type": "International",
         "source_program_id": "indusind_lounge_program"
@@ -721,7 +721,7 @@
       },
       {
         "city": "Calicut",
-        "lounge_name": "**The Calicut International Airport Lounge will cease operations effective 26 June 2026 and tentatively",
+        "lounge_name": "The Calicut International Airport Lounge will cease operations effective 26 June 2026 and tentatively",
         "terminal": "International",
         "terminal_type": "International",
         "source_program_id": "indusind_lounge_program"

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { resolveMediaUrl } from "@/lib/mediaCdn";
 
 export type CanvaIconKey =
@@ -54,7 +55,7 @@ export function CanvaFeatureIcon({
   className = "",
 }: CanvaFeatureIconProps) {
   return (
-    <img
+    <Image
       src={resolveMediaUrl(CANVA_ICON_PATH[icon]) || CANVA_ICON_PATH[icon]}
       alt={alt}
       width={size}

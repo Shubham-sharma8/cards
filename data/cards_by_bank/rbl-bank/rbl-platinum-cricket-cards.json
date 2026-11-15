@@ -40,7 +40,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -166,7 +166,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from RBL Bank suited for travel & miles users.",
+    "about_overview": "RBL Platinum Cricket Cards is a credit card option from RBL Bank suited for travel & miles users.",
     "highlights": [
       "Cricket’s fans can earn wickets and run on the amount spent and redeem those in lieu of various products featured in Delhi Daredevils Fan Club. Earn 2 runs against Rs. 100 spent and 1 wicket for each cumulative spending of INR 1 lakh made on the card.",
       "Enjoy invitation to premier events like meet the players, Fan matches, DD fan Nights, fan matches, sports events and much more.",

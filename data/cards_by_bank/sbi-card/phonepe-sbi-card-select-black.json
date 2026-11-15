@@ -1110,9 +1110,9 @@
   "devaluation_analysis": {
     "devaluation_frequency": "Medium",
     "devaluation_risk_score": 6,
-    "last_devalued_on": "2026 (Reddit/community devaluation warnings on 10% utility caps & fee changes)",
+    "last_devalued_on": "2026-07-01",
     "devaluation_history": [
-      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+      "1 July 2026 Cap Split & Exclusions: PhonePe 2,000 RP/mo bucket split into 500 RP Insurance + 1,500 RP Other PhonePe Spends; 5% online cap cut from 2,000 RP to 1,000 RP/mo; Tolls/Education/Jewellery/Gift Cards excluded."
     ],
     "watch_out_vectors": [
       "Quarterly spend thresholds for domestic airport lounge access",

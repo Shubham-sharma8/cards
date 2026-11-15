@@ -41,7 +41,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -168,7 +168,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from UCO Bank suited for super-premium users.",
+    "about_overview": "UCO Bank Swarojgar Credit Card is a credit card option from UCO Bank suited for super-premium users.",
     "highlights": [
       "This card is specially designed to provide financial aid to people involved in micro, small or medium enterprises. Handloom weavers, fishermen, small artisans, rickshaw owners, service sector, self-employed individuals etc. are the targeted customers.",
       "The cardholders can avail term loan or cash credit or both.",

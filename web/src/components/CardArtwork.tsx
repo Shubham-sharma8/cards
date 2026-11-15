@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { cardLocalImageUrl } from "@/lib/format";
 import { resolveMediaUrl } from "@/lib/mediaCdn";
 import type { CardTheme } from "@/lib/types";
@@ -46,13 +47,13 @@ export function CardArtwork({
         className={`${boxClass} relative rounded-lg overflow-hidden shrink-0 flex items-center justify-center`}
         style={{ backgroundColor: surfaceBg, border: `1px solid ${borderColor}` }}
       >
-        <img
+        <Image
           src={src}
           alt={`${cardName} artwork`}
-          loading="lazy"
-          decoding="async"
+          fill
+          sizes={size === "lg" ? "320px" : size === "sm" ? "76px" : "116px"}
           onError={() => setFailed(true)}
-          className="w-full h-full object-contain p-1"
+          className="object-contain p-1"
         />
       </div>
     ) : (

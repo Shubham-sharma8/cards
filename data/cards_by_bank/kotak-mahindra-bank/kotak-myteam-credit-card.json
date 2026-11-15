@@ -41,7 +41,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -168,7 +168,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Kotak Mahindra Bank suited for cashback users.",
+    "about_overview": "Kotak MyTeam Credit Card is a credit card option from Kotak Mahindra Bank suited for cashback users.",
     "highlights": [
       "Top 5 spenders of each team will get Rs. 1,000 cashback",
       "Rs. 200 Cashback on spending Rs. 10,000 within 45 days of card issuance",

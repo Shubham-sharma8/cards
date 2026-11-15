@@ -41,7 +41,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -182,7 +182,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from RBL Bank suited for cashback users.",
+    "about_overview": "RBL Cookies Credit Card is a credit card option from RBL Bank suited for cashback users.",
     "highlights": [
       "5X Rewards: 5 reward points per Rs. 100 spent online",
       "1X Rewards: 1 reward point per Rs. 100 spent offline",

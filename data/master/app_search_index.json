@@ -300,7 +300,7 @@
         "min_income_salaried_inr": 25000,
         "min_cibil_score": 730,
         "best_for_tags": [
-          "Online shoppers spending Rs. 15,000–Rs. 1,00,000",
+          "Online shoppers spending Rs. 15,000–₹40,000",
           "month across D2C sites",
           "Amazon",
           "Flipkart",
@@ -346,7 +346,7 @@
       "golf_summary": null,
       "capping_summary": "₹2,000/cycle on Online 5% spends + ₹2,000/cycle on Offline 1% spends (₹4,000 total/cycle since Apr 2026)",
       "milestone_summary": null,
-      "best_for_short": "Online shoppers spending Rs. 15,000–Rs. 1,00,000/month across D2C sites, Amazon, Flipkart, Myntra, Nykaa, food/travel portals",
+      "best_for_short": "Online shoppers spending Rs. 15,000–₹40,000/month across D2C sites, Amazon, Flipkart, Myntra, Nykaa, food/travel portals",
       "json_path": "data/cards_by_bank/sbi-card/cashback-sbi-card.json",
       "md_path": "data/cards_by_bank/sbi-card/cashback-sbi-card.md"
     },
@@ -2674,18 +2674,18 @@
         ]
       },
       "effective_return_pct_by_category": {
-        "online_shopping_general": 1.33,
-        "amazon_flipkart_myntra": 6.66,
-        "dining_swiggy_zomato": 1.33,
-        "groceries_quick_commerce": 1.33,
-        "travel_flights_hotels": 6.66,
+        "online_shopping_general": 1.25,
+        "amazon_flipkart_myntra": 6.25,
+        "dining_swiggy_zomato": 1.25,
+        "groceries_quick_commerce": 1.25,
+        "travel_flights_hotels": 6.25,
         "upi_scan_and_pay": 0.0,
-        "utilities_bills_telecom": 1.33,
+        "utilities_bills_telecom": 1.25,
         "fuel": 0.0,
-        "insurance": 1.33,
+        "insurance": 1.25,
         "education_rent_govt": 0.0,
-        "international_forex_net_of_markup": -1.03,
-        "offline_general_other": 1.33
+        "international_forex_net_of_markup": -1.11,
+        "offline_general_other": 1.25
       },
       "monthly_category_caps_inr": {
         "amazon_flipkart_myntra": 2500,
@@ -2695,7 +2695,7 @@
       },
       "category_caveats": {
         "education_rent_govt": "0% on Rent and Government/Tax transactions per HDFC MITC.",
-        "insurance": "1.33% base RPs capped at 5,000 RP/month (~₹2,500 flight value) + 2,000 RP/day."
+        "insurance": "1.25% base RPs capped at 5,000 RP/month (~₹2,500 flight value) + 2,000 RP/day."
       },
       "domestic_lounge_summary": "12 complimentary domestic lounge visits/year (unlocked on ₹60,000 spend in previous quarter since Jul 2026)",
       "international_lounge_summary": "6 complimentary international Priority Pass visits per year (unlocked post 4 txns)",
@@ -5034,12 +5034,12 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": true,
+        "is_ltf": false,
         "is_fyf": true,
         "is_fd_backed": false,
         "is_rupay_upi": true,
         "is_invite_only": false,
-        "fee_bracket": "Free (LTF)",
+        "fee_bracket": "Under Rs. 1,000",
         "has_domestic_lounge": false,
         "has_international_lounge": false,
         "has_railway_lounge": false,
@@ -5609,15 +5609,16 @@
         "offline_general_other": 1.0
       },
       "monthly_category_caps_inr": {
+        "insurance": 250,
         "utilities_bills_telecom": 750,
         "travel_flights_hotels": 750,
-        "insurance": 250,
         "online_shopping_general": 750,
         "upi_scan_and_pay": 1000
       },
       "category_caveats": {
-        "insurance": "3% gross ONLY via PhonePe App (~1.5% net after ~1.5% convenience fee; capped at 250 RP/month); 0% on swipe/direct insurer/external UPI.",
-        "utilities_bills_telecom": "3% gross ONLY via PhonePe App (~1.5% net after ~1.5% fee; capped at 750 RP/month); 0% outside PhonePe."
+        "insurance": "July 2026 split cap: Insurance capped separately at 250 RP/month inside PhonePe",
+        "utilities_bills_telecom": "July 2026 split cap: Remaining PhonePe bill/UPI spends capped at 750 RP/month",
+        "online_shopping_general": "July 2026 cut: 5% online cap reduced from 1,000 RP to 750 RP/month"
       },
       "domestic_lounge_summary": "No domestic airport lounge access",
       "international_lounge_summary": "No international lounge access",
@@ -5915,18 +5916,18 @@
         ]
       },
       "effective_return_pct_by_category": {
-        "online_shopping_general": 1.33,
-        "amazon_flipkart_myntra": 1.33,
-        "dining_swiggy_zomato": 6.66,
-        "groceries_quick_commerce": 1.33,
-        "travel_flights_hotels": 6.66,
+        "online_shopping_general": 1.0,
+        "amazon_flipkart_myntra": 1.0,
+        "dining_swiggy_zomato": 5.0,
+        "groceries_quick_commerce": 1.0,
+        "travel_flights_hotels": 5.0,
         "upi_scan_and_pay": 0.0,
-        "utilities_bills_telecom": 1.33,
+        "utilities_bills_telecom": 1.0,
         "fuel": 0.0,
-        "insurance": 1.33,
+        "insurance": 1.0,
         "education_rent_govt": 0.0,
-        "international_forex_net_of_markup": -1.03,
-        "offline_general_other": 1.33
+        "international_forex_net_of_markup": -1.36,
+        "offline_general_other": 1.0
       },
       "monthly_category_caps_inr": {
         "dining_swiggy_zomato": 2500,
@@ -9017,7 +9018,7 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -10687,12 +10688,12 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": true,
-        "is_fyf": true,
+        "is_ltf": false,
+        "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
         "is_invite_only": false,
-        "fee_bracket": "Free (LTF)",
+        "fee_bracket": "Rs. 1,000 - Rs. 2,500",
         "has_domestic_lounge": true,
         "has_international_lounge": false,
         "has_railway_lounge": false,
@@ -10893,7 +10894,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -12049,12 +12050,12 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": true,
+        "is_ltf": false,
         "is_fyf": true,
         "is_fd_backed": false,
         "is_rupay_upi": true,
         "is_invite_only": false,
-        "fee_bracket": "Free (LTF)",
+        "fee_bracket": "Under Rs. 1,000",
         "has_domestic_lounge": true,
         "has_international_lounge": true,
         "has_railway_lounge": false,
@@ -12553,7 +12554,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": true,
         "is_rupay_upi": false,
@@ -15609,7 +15610,7 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": true,
@@ -16704,7 +16705,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -19072,7 +19073,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -21678,7 +21679,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -21883,7 +21884,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -21976,7 +21977,7 @@
       "card_network": "Visa / Mastercard",
       "card_tier": "Mid-Premium",
       "status": "Active",
-      "annual_fee_inr": 2500,
+      "annual_fee_inr": 0,
       "fee_waiver_spend_inr": null,
       "forex_markup_pct": 3.5,
       "overall_rating": 3.55,
@@ -22511,7 +22512,7 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -22611,7 +22612,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -23316,7 +23317,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -24123,12 +24124,12 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": true,
-        "is_fyf": true,
+        "is_ltf": false,
+        "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
         "is_invite_only": false,
-        "fee_bracket": "Free (LTF)",
+        "fee_bracket": "Rs. 1,000 - Rs. 2,500",
         "has_domestic_lounge": true,
         "has_international_lounge": false,
         "has_railway_lounge": false,
@@ -25921,7 +25922,7 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -26125,7 +26126,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -26535,12 +26536,12 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": true,
-        "is_fyf": true,
+        "is_ltf": false,
+        "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": true,
         "is_invite_only": false,
-        "fee_bracket": "Free (LTF)",
+        "fee_bracket": "Under Rs. 1,000",
         "has_domestic_lounge": false,
         "has_international_lounge": false,
         "has_railway_lounge": false,
@@ -28487,7 +28488,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": true,
@@ -28585,7 +28586,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": true,
         "is_rupay_upi": true,
@@ -28688,7 +28689,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -28784,7 +28785,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29095,7 +29096,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29190,7 +29191,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29280,7 +29281,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29374,7 +29375,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29474,7 +29475,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29671,7 +29672,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29771,7 +29772,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29873,7 +29874,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -29969,7 +29970,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -30067,7 +30068,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -30158,7 +30159,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -30250,7 +30251,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -32482,7 +32483,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -34849,7 +34850,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -35921,7 +35922,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -36600,7 +36601,7 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -37683,7 +37684,7 @@
       "card_network": "Visa",
       "card_tier": "Mid-Tier",
       "status": "Active",
-      "annual_fee_inr": 1500,
+      "annual_fee_inr": 0,
       "fee_waiver_spend_inr": null,
       "forex_markup_pct": 3.5,
       "overall_rating": 3.32,
@@ -38104,12 +38105,12 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": true,
-        "is_fyf": true,
+        "is_ltf": false,
+        "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
         "is_invite_only": false,
-        "fee_bracket": "Free (LTF)",
+        "fee_bracket": "Under Rs. 1,000",
         "has_domestic_lounge": false,
         "has_international_lounge": false,
         "has_railway_lounge": false,
@@ -39080,7 +39081,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -39474,7 +39475,7 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -39571,7 +39572,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -39953,7 +39954,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -40245,7 +40246,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -40439,7 +40440,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": true,
         "is_rupay_upi": false,
@@ -41996,7 +41997,7 @@
         "source": "image"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -42183,7 +42184,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,
@@ -46642,7 +46643,7 @@
         "source": "issuer_fallback"
       },
       "filter_tags": {
-        "is_ltf": false,
+        "is_ltf": true,
         "is_fyf": false,
         "is_fd_backed": false,
         "is_rupay_upi": false,

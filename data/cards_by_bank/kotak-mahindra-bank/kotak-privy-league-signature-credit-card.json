@@ -787,10 +787,10 @@
   },
   "fees_and_charges_detailed": {
     "joining_fee_inr": 0,
-    "annual_fee_inr": 2500,
+    "annual_fee_inr": 0,
     "gst_applicable": false,
     "fee_waiver_spend_inr": null,
-    "joining_fee_waiver": "Lifetime Free",
+    "joining_fee_waiver": "Lifetime Free for Privy League banking customers (₹2,500 otherwise)",
     "forex_markup_pct": 3.5,
     "apr_monthly_pct": 3.5,
     "apr_annual_pct": 42.0,
@@ -834,7 +834,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "Kotak Privy League Signature Credit Card is designed for Privy League customers looking to save on their online and offline spends. The card offers accelerated rewards **(5 points per Rs. 100)** on multiple categories, including apparel, groceries, departmental stores, travel agencies, jewellery, and more, making it a practical option for everyday spends. Besides this, it offers a **base reward rate of 2 points per Rs. 100** spent on other categories. Another good thing about this card is that it comes with the option to**choose between the Shoppers or Travellers plan** , giving flexibility to cardholders to select categories as per their preferences. Besides rewards, travel benefits like **complimentary lounge visits worldwide** and a **low forex markup fee of 2%** make this card a suitable option for international travel as well. However, one important thing to note is that this card works differently as it is offered in **two variants — paid and lifetime free**. While the paid variant offers higher value-back, the free variant comes with limited travel benefits. By paying an annual fee of Rs. 2,500, consumers can maximize benefits of this card. Note: Kotak Mahindra Bank has discontinued the issuance of this card for new customers. The features and benefits available on this page apply only to the existing credit cardholders.__",
+    "about_overview": "Kotak Privy League Signature Credit Card is designed for Privy League customers looking to save on their online and offline spends. The card offers accelerated rewards (5 points per Rs. 100) on multiple categories, including apparel, groceries, departmental stores, travel agencies, jewellery, and more, making it a practical option for everyday spends. Besides this, it offers a base reward rate of 2 points per Rs. 100 spent on other categories. Another good thing about this card is that it comes with the option tochoose between the Shoppers or Travellers plan , giving flexibility to cardholders to select categories as per their preferences. Besides rewards, travel benefits like complimentary lounge visits worldwide and a low forex markup fee of 2% make this card a suitable option for international travel as well. However, one important thing to note is that this card works differently as it is offered in two variants — paid and lifetime free. While the paid variant offers higher value-back, the free variant comes with limited travel benefits. By paying an annual fee of Rs. 2,500, consumers can maximize benefits of this card. Note: Kotak Mahindra Bank has discontinued the issuance of this card for new customers. The features and benefits available on this page apply only to the existing credit cardholders.__",
     "highlights": [
       "5 reward points per Rs. 100 spent on select categories, including apparels, grocery, consumer durable, multi-brand online and departmental stores",
       "2 reward points per Rs. 100 spent on other categories,2",

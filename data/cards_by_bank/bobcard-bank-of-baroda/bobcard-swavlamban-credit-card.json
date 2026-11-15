@@ -42,12 +42,12 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": true,
-    "is_fyf": true,
+    "is_ltf": false,
+    "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
     "is_invite_only": false,
-    "fee_bracket": "Free (LTF)",
+    "fee_bracket": "Under Rs. 1,000",
     "has_domestic_lounge": false,
     "has_international_lounge": false,
     "has_railway_lounge": false,
@@ -168,7 +168,7 @@
   "fees_and_charges_detailed": {
     "joining_fee_inr": 250,
     "annual_fee_inr": 250,
-    "gst_applicable": false,
+    "gst_applicable": true,
     "fee_waiver_spend_inr": 12000,
     "joining_fee_waiver": "Rs. 250 (Waived off on spending Rs. 2,500 within the first 60 days of card setup)",
     "forex_markup_pct": 3.5,
@@ -181,7 +181,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "Lifetime Free option from BOBCARD (Bank of Baroda) suited for travel & miles users.",
+    "about_overview": "BOBCARD Swavlamban Credit Card by BOBCARD (Bank of Baroda) suited for everyday rewards.",
     "highlights": [
       "Features and Benefits",
       "Should you get this credit card?",
@@ -214,7 +214,6 @@
   "pros_and_cons": {
     "editorial_summary": "Lifetime Free option from BOBCARD (Bank of Baroda) suited for travel & miles users.",
     "pros": [
-      "Lifetime Free card with zero annual fee commitment",
       "Backed by BOBCARD (Bank of Baroda) digital card controls, EMI conversion & merchant offers"
     ],
     "cons": [

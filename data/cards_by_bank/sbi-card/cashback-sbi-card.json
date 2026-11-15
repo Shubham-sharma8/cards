@@ -60,7 +60,7 @@
     "min_income_salaried_inr": 25000,
     "min_cibil_score": 730,
     "best_for_tags": [
-      "Online shoppers spending Rs. 15,000–Rs. 1,00,000",
+      "Online shoppers spending Rs. 15,000–₹40,000",
       "month across D2C sites",
       "Amazon",
       "Flipkart",
@@ -87,7 +87,7 @@
     "reward_earning_rules": [
       "5% cashback on almost all online spends without merchant restrictions",
       "1% cashback on offline spends and utility/select eligible categories",
-      "April 2026 updated combined monthly cap: Rs. 5,000 per billing cycle across 5% + 1%"
+      "1 April 2026 cap split: ₹2,000/cycle on 5% online (~₹40k spend) + ₹2,000/cycle on 1% offline (₹4,000 total)"
     ],
     "effective_return_pct_by_category": {
       "online_shopping_general": 5.0,
@@ -370,7 +370,7 @@
       "Annual fee waived on ₹2 lakh annual spends"
     ],
     "cons": [
-      "April 2026 cap merges 5% online + 1% offline into a single Rs. 5,000/month ceiling",
+      "April 2026 Devaluation: 5% online cashback capped at ₹2,000/cycle (~₹40k online spend) + separate ₹2,000/cycle 1% offline cap.",
       "Zero airport lounge access and excluded from SBI instant-discount e-commerce sales",
       "Aggressive exclusions (utilities, insurance, education, rent, fuel, gift vouchers)",
       "Online cashback capped at ₹2000 per statement cycle (cut in April 2026)",
@@ -378,7 +378,7 @@
       "Only 1% on offline spends",
       "3.5% forex markup on international spends"
     ],
-    "best_for_whom": "Online shoppers spending Rs. 15,000–Rs. 1,00,000/month across D2C sites, Amazon, Flipkart, Myntra, Nykaa, food/travel portals",
+    "best_for_whom": "Online shoppers spending Rs. 15,000–₹40,000/month across D2C sites, Amazon, Flipkart, Myntra, Nykaa, food/travel portals",
     "not_ideal_for": "Travelers seeking lounge access, utility/insurance billers, or shoppers relying on SBI instant sale discounts",
     "recommended_monthly_spend_inr": "Rs. 20,000 – Rs. 1,00,000 online",
     "verdict": "Must-have core online cashback card for 80% of Indian cardholders despite the April 2026 combined Rs. 5k/month cap."
@@ -391,11 +391,11 @@
     "practical_community_warnings": [
       "High 3.5% (+GST) forex markup makes international swipes net negative.",
       "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
-      "5% cashback across almost all online merchants (1% offline) with Rs. 5,000/month combined statement credit cap across online + offline spends."
+      "5% cashback across online merchants (1% offline) with split ₹2,000/cycle online + ₹2,000/cycle offline caps effective 1 April 2026 (~₹40k/mo max online spend)."
     ],
     "optimization_tips": [
       "Apay Gift Card Utility & Insurance Route: Direct utilities, insurance, and gift card MCCs earn 0%. Buy Amazon Pay Gift Cards directly on Amazon.in (or eligible e-commerce voucher checkouts coding as online shopping) for 5% cashback, then pay electricity/gas/insurance inside Amazon Pay.",
-      "Shared ₹5,000/month cap: 5% online and 1% offline cashbacks share a single ₹5,000/billing-cycle ceiling (₹1,00,000 online spend) — avoid sudden bulk gift-card spikes that trigger SBI fraud alerts."
+      "Split ₹2,000 online + ₹2,000 offline monthly caps (effective 1 Apr 2026; max ₹40,000/mo 5% online spend) — shift excess online spends after ₹40k to HDFC Swiggy / Millennia / Amazon Pay ICICI."
     ]
   },
   "devaluation_analysis": {
@@ -405,8 +405,7 @@
     "devaluation_history": [
       "1 April 2026: Online 5% monthly cap cut from ₹5,000 to ₹2,000 (₹2,000 offline separate = ₹4,000 total); Tolls, Digital Gaming & Govt excluded.",
       "2023-05: Lounge access removed (4 dom/yr cut), 5% monthly cap cut from Rs. 10,000 to Rs. 5,000",
-      "2024: Rent, jewelry, education, utilities, rail, govt & gift cards excluded from 5% / 1%",
-      "2026-04: Combined monthly cashback cap tightened to Rs. 5,000/statement cycle across BOTH 5% online and 1% offline spends"
+      "2024: Rent, jewelry, education, utilities, rail, govt & gift cards excluded from 5% / 1%"
     ],
     "watch_out_vectors": [
       "Quarterly spend thresholds for domestic airport lounge access",

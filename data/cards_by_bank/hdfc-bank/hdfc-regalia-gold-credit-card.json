@@ -118,8 +118,8 @@
   },
   "reward_calculator_model": {
     "earn_unit": "HDFC Reward Points",
-    "base_reward_rate_pct": 1.33,
-    "accelerated_reward_rate_pct": 6.66,
+    "base_reward_rate_pct": 1.25,
+    "accelerated_reward_rate_pct": 6.25,
     "point_value_inr_default": 0.5,
     "point_value_inr_matrix": {
       "gold_catalogue": "Rs. 0.65",
@@ -135,18 +135,18 @@
       "Boarding Edge Program (Jul 2026): Upload flight boarding pass on SmartBuy to unlock 2 arrival perks/quarter (₹750 Uber voucher, spa, buffet, or room upgrade)."
     ],
     "effective_return_pct_by_category": {
-      "online_shopping_general": 1.33,
-      "amazon_flipkart_myntra": 6.66,
-      "dining_swiggy_zomato": 1.33,
-      "groceries_quick_commerce": 1.33,
-      "travel_flights_hotels": 6.66,
+      "online_shopping_general": 1.25,
+      "amazon_flipkart_myntra": 6.25,
+      "dining_swiggy_zomato": 1.25,
+      "groceries_quick_commerce": 1.25,
+      "travel_flights_hotels": 6.25,
       "upi_scan_and_pay": 0.0,
-      "utilities_bills_telecom": 1.33,
+      "utilities_bills_telecom": 1.25,
       "fuel": 0.0,
-      "insurance": 1.33,
+      "insurance": 1.25,
       "education_rent_govt": 0.0,
-      "international_forex_net_of_markup": -1.03,
-      "offline_general_other": 1.33
+      "international_forex_net_of_markup": -1.11,
+      "offline_general_other": 1.25
     },
     "monthly_category_caps_inr": {
       "amazon_flipkart_myntra": 2500,
@@ -160,7 +160,7 @@
     ],
     "category_caveats": {
       "education_rent_govt": "0% on Rent and Government/Tax transactions per HDFC MITC.",
-      "insurance": "1.33% base RPs capped at 5,000 RP/month (~₹2,500 flight value) + 2,000 RP/day."
+      "insurance": "1.25% base RPs capped at 5,000 RP/month (~₹2,500 flight value) + 2,000 RP/day."
     },
     "excluded_categories": [],
     "transfer_partners": [
@@ -799,7 +799,9 @@
           ]
         ]
       }
-    ]
+    ],
+    "default_reward_rate_pct": 1.25,
+    "peak_reward_rate_pct": 6.25
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -1626,11 +1628,11 @@
     "practical_community_warnings": [
       "Quarterly spend thresholds for domestic airport lounge access",
       "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
-      "Base ~1.33% (4 RP/Rs.150 at Rs.0.50 SmartBuy travel); 5X on Myntra/Nykaa/M&S/Reliance Digital (cap 5,000 RP/mo); up to 10X SmartBuy (cap 4,000 RP/mo); Rent & Govt/Tax earn 0%."
+      "Base 1.25% (5 RP/₹200 eff. May 2026 at Rs.0.50 SmartBuy travel); 5X on Myntra/Nykaa/M&S/Reliance Digital (cap 5,000 RP/mo); up to 10X SmartBuy (cap 4,000 RP/mo); Rent & Govt/Tax earn 0%."
     ],
     "optimization_tips": [
       "Chase ₹1.5L Quarterly & ₹5L/₹7.5L Annual Milestones: Earn ₹1,500 Myntra/Nykaa/Reliance/Marriott vouchers each ₹1.5L quarter plus ₹5,000 Flight Vouchers at ₹5L & ₹7.5L annual spend alongside 5X partner retail multipliers.",
-      "Direct insurance earns 4 RP/₹150 capped at 2,000 RP/month; verify ₹60,000 preceding-quarter spend rules where applicable for domestic lounge access.",
+      "Direct insurance earns 5 RP/₹200 capped at 2,000 RP/month; verify ₹60,000 preceding-quarter spend rules where applicable for domestic lounge access.",
       "30-Minute Spa Session: Relax after your flight at 140+ premium wellness centers, including Meghavi Wellness, Tattva Spa, and Tathaapi Spa.",
       "₹750 Uber Voucher: A unique code for your airport transfer to or from the airport in participating cities.",
       "Complimentary Buffet: Enjoy a full meal at participating ITC Hotels, Welcomhotel, Mementos, Storii, or Fortune properties. (Pro-tip: You don’t even need to be a staying guest to use the buffet voucher!)",

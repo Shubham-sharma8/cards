@@ -83,7 +83,7 @@
     "accelerated_reward_rate_pct": 1.0,
     "point_value_inr_default": 0.25,
     "point_value_inr_matrix": {
-      "step_2": "** Enter the number of Smiles you wish to redeem"
+      "step_2": " Enter the number of Smiles you wish to redeem"
     },
     "point_expiry": "Check issuer T&C (typically 2-3 years)",
     "reward_earning_rules": [
@@ -205,7 +205,7 @@
     ]
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from IndusInd Bank suited for travel & miles users.",
+    "about_overview": "IndusInd Bank Jio-bp Mobility+ Credit Card is a credit card option from IndusInd Bank suited for travel & miles users.",
     "highlights": [
       "12 Smiles: On Jio-bp, including diesel, petrol, Castrol lubes, wildbean cafe and Jio-bp convenience store, up to 1,200 Smiles per month",
       "5 Smiles: On groceries, supermarket and dining",

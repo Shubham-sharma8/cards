@@ -43,7 +43,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -175,7 +175,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from Punjab National Bank suited for travel & miles users.",
+    "about_overview": "PNB Global Gold Credit Card is a credit card option from Punjab National Bank suited for travel & miles users.",
     "highlights": [
       "Applying for the PNB global gold credit card entitles the card holder to two free additional add-on cards for family members of the primary card holder. These add on cards enjoy the same benefits as the primary credit card holder.",
       "Cardholders have the option of making utility bill payments using their PNB Global Gold credit card.",

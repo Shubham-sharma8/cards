@@ -40,7 +40,7 @@
     "applicable_lounge_list_urls": []
   },
   "filter_tags": {
-    "is_ltf": false,
+    "is_ltf": true,
     "is_fyf": false,
     "is_fd_backed": false,
     "is_rupay_upi": false,
@@ -167,7 +167,7 @@
     "late_payment_slabs": []
   },
   "benefits_features_and_faqs": {
-    "about_overview": "option from HDFC Bank suited for travel & miles users.",
+    "about_overview": "HDFC VISA Signature Credit Card – For Travel Spends is a credit card option from HDFC Bank suited for travel & miles users.",
     "highlights": [
       "2 reward points for every Rs. 150 spent",
       "Enjoy the comfort of over 600 global airports",
