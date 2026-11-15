@@ -21,7 +21,7 @@ import { CATEGORY_META, formatLoungeQuota } from "./format";
 import { isValidCardId, isValidSlug } from "./security";
 
 const DATA_ROOT = path.resolve(process.cwd(), "..", "data");
-const DEFAULT_R2_BASE = "https://pub-8a560aaca6404206b9adcd66799b1cee.r2.dev";
+const DEFAULT_R2_BASE = "https://media.card.cogify.me";
 
 function getR2BaseUrl(): string {
   const envUrl = process.env.NEXT_PUBLIC_R2_PUBLIC_URL?.trim();

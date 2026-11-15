@@ -35,6 +35,7 @@ MOBILE_DATA = ROOT / "mobile" / "src" / "data"
 
 IMAGE_DIRS = [
     ("card-images", WEB_PUBLIC / "card-images"),
+    ("brand-logos", WEB_PUBLIC / "brand-logos"),
     ("lounge-photos", WEB_PUBLIC / "lounge-photos"),
     ("golf-photos", WEB_PUBLIC / "golf-photos"),
     ("category-posters", WEB_PUBLIC / "category-posters"),
@@ -48,6 +49,7 @@ META_FILES = [
     ("meta/lounge_access_master.json", ROOT / "data" / "master" / "lounge_access_master.json"),
     ("meta/golf_clubs_master.json", ROOT / "data" / "master" / "golf_clubs_master.json"),
     ("meta/devaluation_tracker.json", ROOT / "data" / "master" / "devaluation_tracker.json"),
+    ("meta/merchant_mcc_directory.json", WEB_PUBLIC / "data" / "merchant-mcc-directory.json"),
     ("meta/search_index.json", MOBILE_DATA / "search_index.json"),
 ]
 
@@ -134,6 +136,32 @@ def put_object_sigv4(
         return 0, str(exc)
 
 
+def put_object_api_token(
+    *,
+    account_id: str,
+    api_token: str,
+    bucket: str,
+    object_key: str,
+    payload: bytes,
+    content_type: str,
+    cache_control: str,
+) -> tuple[int, str]:
+    encoded_key = urllib.parse.quote(object_key.lstrip("/"), safe="/-_.~")
+    url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/r2/buckets/{bucket}/objects/{encoded_key}"
+    req = urllib.request.Request(url, data=payload, method="PUT")
+    req.add_header("Authorization", f"Bearer {api_token}")
+    req.add_header("Content-Type", content_type)
+    req.add_header("Cache-Control", cache_control)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return resp.status, ""
+    except urllib.error.HTTPError as err:
+        body = err.read().decode("utf-8", errors="replace")[:250]
+        return err.code, body
+    except Exception as exc:  # noqa: BLE001
+        return 0, str(exc)
+
+
 def collect_jobs(prefix_filter: str | None = None) -> list[tuple[str, bytes, str, str]]:
     jobs: list[tuple[str, bytes, str, str]] = []
 
@@ -189,24 +217,21 @@ def main() -> int:
             print(f"  ... and {len(jobs) - 15} more objects.")
         return 0
 
-    account_id = os.environ.get("R2_ACCOUNT_ID", "").strip()
+    account_id = (os.environ.get("R2_ACCOUNT_ID") or os.environ.get("CLOUDFLARE_ACCOUNT_ID") or "").strip()
+    api_token = os.environ.get("CLOUDFLARE_API_TOKEN", "").strip()
     access_key = os.environ.get("R2_ACCESS_KEY_ID", "").strip()
     secret_key = os.environ.get("R2_SECRET_ACCESS_KEY", "").strip()
     bucket = os.environ.get("R2_BUCKET_NAME", "").strip()
 
-    missing = [
-        name
-        for name, val in [
-            ("R2_ACCOUNT_ID", account_id),
-            ("R2_ACCESS_KEY_ID", access_key),
-            ("R2_SECRET_ACCESS_KEY", secret_key),
-            ("R2_BUCKET_NAME", bucket),
-        ]
-        if not val
-    ]
-    if missing:
-        print(f"ERROR: Missing required environment variables: {', '.join(missing)}", file=sys.stderr)
-        print("Set R2_BUCKET_NAME to your Cloudflare R2 bucket name (and ensure key has Object Write access).", file=sys.stderr)
+    use_api_token = bool(api_token and account_id and bucket)
+    use_s3_keys = bool(account_id and access_key and secret_key and bucket)
+
+    if not use_api_token and not use_s3_keys:
+        print(
+            "ERROR: Provide either (CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID/R2_ACCOUNT_ID + R2_BUCKET_NAME) "
+            "or (R2_ACCOUNT_ID + R2_ACCESS_KEY_ID + R2_SECRET_ACCESS_KEY + R2_BUCKET_NAME).",
+            file=sys.stderr,
+        )
         return 2
 
     ok = 0
@@ -214,15 +239,29 @@ def main() -> int:
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
         future_map = {
             pool.submit(
-                put_object_sigv4,
-                account_id=account_id,
-                access_key=access_key,
-                secret_key=secret_key,
-                bucket=bucket,
-                object_key=key,
-                payload=data,
-                content_type=ctype,
-                cache_control=cache_ctrl,
+                put_object_api_token if use_api_token else put_object_sigv4,
+                **(
+                    {
+                        "account_id": account_id,
+                        "api_token": api_token,
+                        "bucket": bucket,
+                        "object_key": key,
+                        "payload": data,
+                        "content_type": ctype,
+                        "cache_control": cache_ctrl,
+                    }
+                    if use_api_token
+                    else {
+                        "account_id": account_id,
+                        "access_key": access_key,
+                        "secret_key": secret_key,
+                        "bucket": bucket,
+                        "object_key": key,
+                        "payload": data,
+                        "content_type": ctype,
+                        "cache_control": cache_ctrl,
+                    }
+                ),
             ): key
             for key, data, ctype, cache_ctrl in jobs
         }
