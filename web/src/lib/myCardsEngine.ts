@@ -86,6 +86,7 @@ export function analyzeOwnedPortfolio(
     needNoSpendLounge?: boolean;
     needInternationalLounge?: boolean;
     needGolf?: boolean;
+    ltfCardIds?: string[];
   } = {}
 ): WalletAuditResult {
   const byId = new Map(allCards.map((c) => [c.card_id, c]));
@@ -386,12 +387,15 @@ export function analyzeOwnedPortfolio(
   }
 
   // Portfolio Keep / Remove audit
+  const ltfOverrideSet = new Set(options.ltfCardIds || []);
   let totalCurrentFeesInr = 0;
   const cardAudits: PortfolioCardAudit[] = ownedCards.map((card) => {
+    const isUserLtf = ltfOverrideSet.has(card.card_id);
     const waiverSpend = card.fee_waiver_spend_inr ?? null;
     const assignedSpend = spendAssignedPerCard[card.card_id] || 0;
     const assignedRewards = rewardAssignedPerCard[card.card_id] || 0;
     const waived =
+      isUserLtf ||
       card.annual_fee_inr === 0 ||
       (waiverSpend !== null && waiverSpend > 0 && assignedSpend >= waiverSpend);
     const effFee = waived ? 0 : Math.round(card.annual_fee_inr * 1.18);
@@ -404,8 +408,9 @@ export function analyzeOwnedPortfolio(
       ((card.filter_tags.has_golf || card.categories.includes("Golf")) && golfCards.length === 1);
 
     const netVal = assignedRewards - effFee;
+    const effectiveLtf = isUserLtf || card.filter_tags.is_ltf;
     const shouldReview =
-      !card.filter_tags.is_ltf &&
+      !effectiveLtf &&
       card.annual_fee_inr > 0 &&
       wonCats.length === 0 &&
       !uniquePerk;
@@ -413,7 +418,7 @@ export function analyzeOwnedPortfolio(
     let reason = "";
     if (shouldReview) {
       reason = `Paying ${Math.round(effFee).toLocaleString("en-IN")} INR effective renewal while other cards in your wallet beat it in every spend bucket.`;
-    } else if (card.filter_tags.is_ltf && wonCats.length === 0) {
+    } else if (effectiveLtf && wonCats.length === 0) {
       reason = "Lifetime Free (₹0 fee) — keep active as a zero-cost CIBIL age & bank-sale discount backup.";
     } else if (wonCats.length > 0) {
       reason = `Top card in your wallet for ${wonCats.slice(0, 3).join(", ")} generating ₹${Math.round(assignedRewards).toLocaleString("en-IN")}/yr.`;

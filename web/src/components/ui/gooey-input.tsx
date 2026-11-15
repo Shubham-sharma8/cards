@@ -46,6 +46,10 @@ export interface GooeySearchInputProps {
   onOpenChange?: (open: boolean) => void;
   /** Compact trigger label when mode === "morph" (empty = strict icon-only circle) */
   compactLabel?: string;
+  /** Compact button visual style in morph mode */
+  compactVariant?: "solid" | "outline";
+  /** Compact height in morph mode ("sm" = 36px for headers, "md" = 44px default) */
+  compactSize?: "sm" | "md";
   /** Width in px when collapsed in morph mode */
   collapsedWidth?: number;
   /** Width in px when expanded in morph mode */
@@ -73,6 +77,8 @@ export function GooeySearchInput({
   open: controlledOpen,
   onOpenChange,
   compactLabel = "",
+  compactVariant = "solid",
+  compactSize = "md",
   collapsedWidth = 44,
   expandedWidth = 380,
   expandedOffset = 0,
@@ -254,10 +260,14 @@ export function GooeySearchInput({
     );
   }
 
+  const outerH = compactSize === "sm" ? "h-9" : "h-11";
+  const innerH = compactSize === "sm" ? "h-9" : "h-10";
+  const bubbleWH = compactSize === "sm" ? "h-9 w-9" : "h-10 w-10";
+
   return (
     <div className={cn("relative inline-flex max-w-full items-center", className)}>
       <motion.div
-        className="flex h-11 max-w-full items-center overflow-hidden"
+        className={cn("flex max-w-full items-center overflow-hidden", outerH)}
         variants={morphVariants}
         initial={isExpanded ? "expanded" : "collapsed"}
         animate={isExpanded ? "expanded" : "collapsed"}
@@ -275,7 +285,11 @@ export function GooeySearchInput({
             title={ariaLabel || "Search"}
             aria-label={ariaLabel || (hasLabel ? compactLabel : "Search")}
             className={cn(
-              "flex h-11 w-full cursor-pointer items-center justify-center rounded-full bg-[#0F5C4D] text-white shadow-sm outline-none transition-colors hover:bg-[#0B473B] disabled:opacity-50",
+              "flex w-full cursor-pointer items-center justify-center rounded-full outline-none transition-colors disabled:opacity-50",
+              outerH,
+              compactVariant === "outline"
+                ? "border border-[#E4E4DF] bg-white text-[#0F5C4D] hover:border-[#C9C9C2] hover:bg-[#FAF9F6]"
+                : "bg-[#0F5C4D] text-white shadow-sm hover:bg-[#0B473B]",
               hasLabel ? "gap-2 px-4 text-[13px] font-medium" : "px-0",
             )}
           >
@@ -283,13 +297,16 @@ export function GooeySearchInput({
             {hasLabel && <span className="truncate">{compactLabel}</span>}
           </button>
         ) : (
-          <div className="flex h-11 w-full items-center gap-2">
+          <div className={cn("flex w-full items-center gap-2", outerH)}>
             <motion.div
               variants={iconBubbleVariants}
               initial="collapsed"
               animate="expanded"
               transition={GOOEY_SPRING}
-              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0F5C4D] text-white shadow-sm"
+              className={cn(
+                "flex shrink-0 items-center justify-center rounded-full bg-[#0F5C4D] text-white shadow-sm",
+                bubbleWH,
+              )}
               aria-hidden="true"
             >
               <Search className="h-4 w-4" />
@@ -297,7 +314,8 @@ export function GooeySearchInput({
 
             <div
               className={cn(
-                "flex h-10 min-w-0 flex-1 items-center gap-1.5 rounded-full border border-[#0F5C4D] bg-white px-3.5 ring-2 ring-[#0F5C4D]/12 shadow-sm",
+                "flex min-w-0 flex-1 items-center gap-1.5 rounded-full border border-[#0F5C4D] bg-white px-3.5 ring-2 ring-[#0F5C4D]/12 shadow-sm",
+                innerH,
                 inputClassName,
               )}
             >

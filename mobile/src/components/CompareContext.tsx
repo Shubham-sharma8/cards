@@ -15,6 +15,7 @@ export interface WalletCardMeta {
   last4Digits?: string;
   nickname?: string;
   renewalDate?: string;
+  isLTF?: boolean;
   usedDomesticLounge: number;
   usedInternationalLounge: number;
   usedGolfGames: number;

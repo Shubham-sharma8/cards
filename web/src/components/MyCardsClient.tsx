@@ -129,13 +129,16 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
   const { openCard } = useExpandableCard();
   const [selectedCardModal, setSelectedCardModal] = useState<CardSummaryItem | null>(null);
   const [renewalDraft, setRenewalDraft] = useState("");
+  const [isLtfDraft, setIsLtfDraft] = useState(false);
   const [last4Draft, setLast4Draft] = useState("");
   const [nicknameDraft, setNicknameDraft] = useState("");
 
   const openCardModal = (card: CardSummaryItem) => {
     const m = walletMeta[card.card_id];
+    const defaultLtf = m?.isLTF ?? (card.annual_fee_inr === 0 || card.filter_tags.is_ltf);
     setSelectedCardModal(card);
-    setRenewalDraft(m?.renewalDate ?? "");
+    setIsLtfDraft(defaultLtf);
+    setRenewalDraft(defaultLtf ? "" : (m?.renewalDate ?? ""));
     setLast4Draft(m?.last4Digits ?? "");
     setNicknameDraft(m?.nickname ?? "");
   };
@@ -144,7 +147,8 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
     if (!selectedCardModal) return;
     const cleanLast4 = last4Draft.replace(/\D/g, "").slice(0, 4);
     updateWalletMeta(selectedCardModal.card_id, {
-      renewalDate: renewalDraft.trim() || undefined,
+      isLTF: isLtfDraft,
+      renewalDate: isLtfDraft ? undefined : (renewalDraft.trim() || undefined),
       last4Digits: cleanLast4 || undefined,
       nickname: nicknameDraft.trim() || undefined,
     });
@@ -208,6 +212,17 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
       .slice(0, 12);
   }, [enrichedCards, cardSearch]);
 
+  const ltfCardIds = useMemo(
+    () =>
+      ownedIds.filter((id) => {
+        const meta = walletMeta[id];
+        if (meta?.isLTF !== undefined) return meta.isLTF;
+        const c = enrichedCards.find((item) => item.card_id === id);
+        return Boolean(c && (c.annual_fee_inr === 0 || c.filter_tags.is_ltf));
+      }),
+    [ownedIds, walletMeta, enrichedCards]
+  );
+
   const analysis = useMemo(
     () =>
       analyzeOwnedPortfolio(enrichedCards, ownedIds, monthlySpend, {
@@ -215,6 +230,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
         needNoSpendLounge,
         needInternationalLounge,
         needGolf,
+        ltfCardIds,
       }),
     [
       enrichedCards,
@@ -224,6 +240,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
       needNoSpendLounge,
       needInternationalLounge,
       needGolf,
+      ltfCardIds,
     ]
   );
 
@@ -370,6 +387,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
             {analysis.ownedCards.map((c, idx) => {
               const feeInfo = formatFeeDisplay(c.joining_fee_inr, c.annual_fee_inr);
               const meta = walletMeta[c.card_id];
+              const isCardLtf = meta?.isLTF ?? (c.annual_fee_inr === 0 || c.filter_tags.is_ltf);
               return (
                 <div
                   key={c.card_id}
@@ -398,7 +416,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                           {c.card_name}
                         </div>
                         <div className="text-[12px] text-[#0F5C4D] font-medium mt-0.5 tabular-nums">
-                          {feeInfo.primaryText}
+                          {isCardLtf ? "₹0 (LTF)" : feeInfo.primaryText}
                         </div>
                       </div>
                     </button>
@@ -438,7 +456,13 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                   <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-[#E4E4DF] text-[12px]">
                     <Modal>
                       <BankModalTrigger
-                        label={meta?.renewalDate ? `Renews ${meta.renewalDate}` : "Select & Renewal"}
+                        label={
+                          isCardLtf
+                            ? "LTF · No Renewal"
+                            : meta?.renewalDate
+                              ? `Renews ${meta.renewalDate}`
+                              : "Details & LTF"
+                        }
                         bankSlug={c.bank_slug}
                         bank={c.bank}
                         onBeforeOpen={() => openCardModal(c)}
@@ -1056,13 +1080,17 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-[12.5px]">
                     <div className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl p-3">
                       <span className="text-[#717882] block text-[11px]">
-                        {feeInfo.isSplit ? "Joining Fee" : "Joining / Card Fee"}
+                        {isLtfDraft
+                          ? "Annual Fee"
+                          : feeInfo.isSplit
+                            ? "Joining Fee"
+                            : "Joining / Card Fee"}
                       </span>
                       <span className="font-semibold text-[#1A1D21] tabular-nums">
-                        {feeInfo.joiningText}
+                        {isLtfDraft ? "₹0 (LTF)" : feeInfo.joiningText}
                       </span>
                     </div>
-                    {feeInfo.isSplit && (
+                    {!isLtfDraft && feeInfo.isSplit && (
                       <div className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl p-3">
                         <span className="text-[#717882] block text-[11px]">Annual Renewal Fee</span>
                         <span className="font-semibold text-[#1A1D21] tabular-nums">
@@ -1083,19 +1111,47 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                 );
               })()}
 
-              <div className="space-y-3 text-[13px]">
-                <div>
-                  <label className="block text-[12px] font-medium text-[#4B525C] mb-1">
-                    Date of Renewal
-                  </label>
-                  <input
-                    type="text"
-                    value={renewalDraft}
-                    onChange={(e) => setRenewalDraft(e.target.value)}
-                    placeholder="e.g. 15 Nov 2026"
-                    className="w-full px-3 py-2 bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
-                  />
+              <label className="flex items-center justify-between gap-3 bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl px-3.5 py-2.5 cursor-pointer">
+                <div className="min-w-0">
+                  <span className="block text-[13px] font-medium text-[#1A1D21]">
+                    Lifetime Free (LTF)
+                  </span>
+                  <span className="block text-[11.5px] text-[#717882]">
+                    ₹0 renewal fee, no renewal date, excluded from total fee calculations
+                  </span>
                 </div>
+                <input
+                  type="checkbox"
+                  checked={isLtfDraft}
+                  onChange={(e) => {
+                    const checked = e.target.checked;
+                    setIsLtfDraft(checked);
+                    if (checked) setRenewalDraft("");
+                  }}
+                  className="w-4 h-4 accent-[#0F5C4D] rounded shrink-0"
+                />
+              </label>
+
+              <div className="space-y-3 text-[13px]">
+                {!isLtfDraft ? (
+                  <div>
+                    <label className="block text-[12px] font-medium text-[#4B525C] mb-1">
+                      Date of Renewal
+                    </label>
+                    <input
+                      type="text"
+                      value={renewalDraft}
+                      onChange={(e) => setRenewalDraft(e.target.value)}
+                      placeholder="e.g. 15 Nov 2026"
+                      className="w-full px-3 py-2 bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
+                    />
+                  </div>
+                ) : (
+                  <div className="flex items-center gap-2 bg-[#EEF5F2] border border-[#C5DFD6] text-[#0F5C4D] text-[12px] font-medium px-3 py-2 rounded-lg">
+                    <Check className="w-4 h-4 shrink-0" />
+                    <span>Held as LTF — no renewal date or annual fee charged in totals.</span>
+                  </div>
+                )}
                 <div className="grid grid-cols-2 gap-3">
                   <div>
                     <label className="block text-[12px] font-medium text-[#4B525C] mb-1">
@@ -1138,14 +1194,14 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                   <Link
                     href={`/${selectedCardModal.bank_slug}/${selectedCardModal.card_slug}`}
                     onClick={() => saveCardModalMeta()}
-                    className="flex-1 text-center border border-[#E4E4DF] hover:border-[#0F5C4D] text-[#1A1D21] text-[13px] font-medium px-3 py-2 rounded-xl transition-colors"
+                    className="flex-1 inline-flex items-center justify-center whitespace-nowrap border border-[#E4E4DF] hover:border-[#0F5C4D] text-[#1A1D21] text-[13px] font-medium px-3 py-2.5 rounded-xl transition-colors"
                   >
-                    Full Card Dossier →
+                    Full Dossier →
                   </Link>
                   <button
                     type="button"
                     onClick={saveCardModalMeta}
-                    className="flex-1 bg-[#0F5C4D] hover:bg-[#0B463B] text-white text-[13px] font-medium px-3 py-2 rounded-xl transition-colors cursor-pointer"
+                    className="flex-1 inline-flex items-center justify-center whitespace-nowrap bg-[#0F5C4D] hover:bg-[#0B463B] text-white text-[13px] font-medium px-3 py-2.5 rounded-xl transition-colors cursor-pointer"
                   >
                     Save Details
                   </button>

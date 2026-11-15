@@ -129,16 +129,69 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
 
   const parsedIncomeNum = maxIncome === "any" ? null : Number(maxIncome);
 
+  const selectedCategoryMeta = useMemo(() => {
+    if (category === "all") return null;
+    const byId = CATEGORY_META.find((m) => m.id === category);
+    if (byId) return byId;
+    // Canonical fallback when an external link passes ?cat=datasetCategory
+    return (
+      CATEGORY_META.find((m) => m.label === category && m.datasetCategory === category) ||
+      CATEGORY_META.find(
+        (m) => m.datasetCategory === category && ["cashback", "dining-groceries", "super-premium"].includes(m.id),
+      ) ||
+      CATEGORY_META.find((m) => m.datasetCategory === category) ||
+      null
+    );
+  }, [category]);
+
   const filteredCards = useMemo(() => {
     const q = query.trim();
     const maxFeeNum = maxFee === "any" ? Infinity : Number(maxFee);
     const maxIncomeNum = parsedIncomeNum ?? Infinity;
 
+    const matchesSelectedCategory = (c: CardSummaryItem) => {
+      if (category === "all") return true;
+      if (selectedCategoryMeta && category === selectedCategoryMeta.id) {
+        const ret = c.effective_return_pct_by_category;
+        const tagsHay = `${c.card_name} ${c.primary_category} ${(c.filter_tags.best_for_tags || []).join(" ")} ${(c.filter_tags.requirement_keywords || []).join(" ")}`;
+        switch (selectedCategoryMeta.id) {
+          case "utilities":
+            return (
+              (ret?.utilities_bills_telecom ?? 0) >= 2.0 ||
+              (c.categories.includes("Cashback") && /utilit|bill|airtel|recharge|bbps|electric/i.test(tagsHay))
+            );
+          case "insurance":
+            return (ret?.insurance ?? 0) >= 2.0 || /insurance|lic|policy/i.test(tagsHay);
+          case "dining":
+            return (
+              (ret?.dining_swiggy_zomato ?? 0) >= 2.5 ||
+              /dining|swiggy|zomato|eazydiner|restaurant/i.test(tagsHay)
+            );
+          case "groceries":
+            return (
+              (ret?.groceries_quick_commerce ?? 0) >= 2.5 ||
+              /grocer|blinkit|zepto|bigbasket|instamart|dmart|supermarket/i.test(tagsHay)
+            );
+          case "gold-jewellery":
+            return (
+              /gold|jewel|tanishq|titan|caratlane|malabar|jewellery/i.test(tagsHay) ||
+              (c.categories.includes("Super-Premium") && (ret?.offline_general_other ?? 0) >= 2.0)
+            );
+          default:
+            return (
+              c.categories.includes(selectedCategoryMeta.datasetCategory) ||
+              c.primary_category === selectedCategoryMeta.datasetCategory
+            );
+        }
+      }
+      return c.categories.includes(category) || c.primary_category === category;
+    };
+
     const list = cards.filter((c) => {
       const t = c.filter_tags;
       if (onlySaved && !savedIds.includes(c.card_id)) return false;
       if (bankSlug !== "all" && c.bank_slug !== bankSlug) return false;
-      if (category !== "all" && !c.categories.includes(category) && c.primary_category !== category) {
+      if (!matchesSelectedCategory(c)) {
         return false;
       }
       if (onlyLtf && !t.is_ltf) return false;
@@ -228,6 +281,7 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
     query,
     bankSlug,
     category,
+    selectedCategoryMeta,
     onlySaved,
     savedIds,
     onlyLtf,
@@ -271,11 +325,6 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
     strategy !== "default_inr",
     query.trim().length > 0,
   ].filter(Boolean).length;
-
-  const selectedCategoryMeta = useMemo(
-    () => CATEGORY_META.find((m) => m.datasetCategory === category) || null,
-    [category]
-  );
 
   const FilterControls = (
     <div className="space-y-5">
@@ -329,7 +378,7 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
         </label>
         <select
           id="filter-category"
-          value={category}
+          value={selectedCategoryMeta ? selectedCategoryMeta.datasetCategory : category}
           onChange={(e) => {
             setCategory(e.target.value);
             setVisibleCount(24);
@@ -620,13 +669,13 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
             All Categories
           </button>
           {CATEGORY_META.map((cat) => {
-            const active = category === cat.datasetCategory;
+            const active = selectedCategoryMeta?.id === cat.id;
             return (
               <button
                 key={cat.id}
                 type="button"
                 onClick={() => {
-                  setCategory(active ? "all" : cat.datasetCategory);
+                  setCategory(active ? "all" : cat.id);
                   setVisibleCount(24);
                 }}
                 className={`shrink-0 px-3 py-1.5 rounded-lg text-[12.5px] border transition-colors cursor-pointer ${

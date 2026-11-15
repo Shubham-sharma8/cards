@@ -898,7 +898,9 @@ export function AdvisorClient({ cards, waiverMap, advisorMetaMap }: AdvisorClien
                 <div className="flex flex-wrap gap-1.5">
                   {GOAL_OPTIONS.map((g) => {
                     const active = profile.preferredGoals.includes(g);
-                    const meta = CATEGORY_META.find((c) => c.datasetCategory === g);
+                    const meta =
+                      CATEGORY_META.find((c) => c.label === g && c.datasetCategory === g) ||
+                      CATEGORY_META.find((c) => c.datasetCategory === g);
                     return (
                       <button
                         key={g}

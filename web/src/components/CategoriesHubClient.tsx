@@ -270,7 +270,7 @@ export function CategoriesHubClient({
 
                 <div className="flex flex-wrap items-center gap-2 shrink-0">
                   <Link
-                    href={`/cards?cat=${encodeURIComponent(activeCategory.datasetCategory)}`}
+                    href={`/cards?cat=${encodeURIComponent(activeCategory.id)}`}
                     className="inline-flex items-center gap-1.5 px-4 py-2.5 bg-[#0F5C4D] hover:bg-[#0B473B] text-white text-[13px] font-medium rounded-lg transition-colors"
                   >
                     Open in All Cards ({activeCategory.totalCards})
@@ -286,7 +286,7 @@ export function CategoriesHubClient({
                     Top-Rated Cards in {activeCategory.shortLabel}
                   </h3>
                   <Link
-                    href={`/cards?cat=${encodeURIComponent(activeCategory.datasetCategory)}`}
+                    href={`/cards?cat=${encodeURIComponent(activeCategory.id)}`}
                     className="text-[13px] text-[#0F5C4D] hover:underline"
                   >
                     Filter all {activeCategory.totalCards} →

@@ -4,6 +4,7 @@ import {
   Pressable,
   ScrollView,
   StyleSheet,
+  Switch,
   Text,
   TextInput,
   View,
@@ -262,6 +263,7 @@ export function MyCardsScreenView() {
   const [last4Draft, setLast4Draft] = useState('');
   const [selectedWalletCard, setSelectedWalletCard] = useState<CardSummaryItem | null>(null);
   const [renewalDraft, setRenewalDraft] = useState('');
+  const [isLtfDraft, setIsLtfDraft] = useState(false);
   const [detailLast4Draft, setDetailLast4Draft] = useState('');
   const [nicknameDraft, setNicknameDraft] = useState('');
   const [showOptimizer, setShowOptimizer] = useState(false);
@@ -397,6 +399,17 @@ export function MyCardsScreenView() {
     };
   }, [ownedCards, walletMeta]);
 
+  const ltfCardIds = useMemo(
+    () =>
+      ownedIds.filter((id) => {
+        const meta = walletMeta[id];
+        if (meta?.isLTF !== undefined) return meta.isLTF;
+        const c = cardById.get(id);
+        return Boolean(c && (c.annual_fee_inr === 0 || c.filter_tags.is_ltf));
+      }),
+    [ownedIds, walletMeta, cardById]
+  );
+
   const analysis = useMemo(
     () =>
       analyzeOwnedPortfolio(enrichedCards, ownedIds, monthlySpend, {
@@ -404,8 +417,9 @@ export function MyCardsScreenView() {
         needNoSpendLounge: true,
         needInternationalLounge: false,
         needGolf: false,
+        ltfCardIds,
       }),
-    [enrichedCards, ownedIds, monthlySpend]
+    [enrichedCards, ownedIds, monthlySpend, ltfCardIds]
   );
 
   const aiSummary = useMemo(() => generateMyCardsAiSummary(analysis), [analysis]);
@@ -417,8 +431,10 @@ export function MyCardsScreenView() {
 
   const openWalletCardDetails = (card: CardSummaryItem) => {
     const m = walletMeta[card.card_id];
+    const defaultLtf = m?.isLTF ?? (card.annual_fee_inr === 0 || card.filter_tags.is_ltf);
     setSelectedWalletCard(card);
-    setRenewalDraft(m?.renewalDate ?? '');
+    setIsLtfDraft(defaultLtf);
+    setRenewalDraft(defaultLtf ? '' : (m?.renewalDate ?? ''));
     setDetailLast4Draft(m?.last4Digits ?? '');
     setNicknameDraft(m?.nickname ?? '');
   };
@@ -428,7 +444,8 @@ export function MyCardsScreenView() {
     const cleanLast4 = detailLast4Draft.replace(/\D/g, '').slice(0, 4);
     updateWalletMeta(selectedWalletCard.card_id, {
       last4Digits: cleanLast4 || undefined,
-      renewalDate: renewalDraft.trim() || undefined,
+      isLTF: isLtfDraft,
+      renewalDate: isLtfDraft ? undefined : renewalDraft.trim() || undefined,
       nickname: nicknameDraft.trim() || undefined,
     });
     setSelectedWalletCard(null);
@@ -749,6 +766,7 @@ export function MyCardsScreenView() {
 
             {walletPerkSummary.perCard.map(({ card, quota, meta }, idx) => {
               const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+              const isCardLtf = meta.isLTF ?? (card.annual_fee_inr === 0 || card.filter_tags.is_ltf);
               return (
               <CalmEntranceView key={card.card_id} delayMs={idx * 40} style={styles.walletCard}>
                 {/* Card Identity Header */}
@@ -776,7 +794,7 @@ export function MyCardsScreenView() {
                         {card.card_name}
                       </Text>
                       <Text style={styles.walletFeeMeta} numberOfLines={1}>
-                        {feeInfo.primaryText}
+                        {isCardLtf ? '₹0 (Lifetime Free)' : feeInfo.primaryText}
                       </Text>
                       <View style={styles.tagRow}>
                         <ScalePressable
@@ -789,15 +807,24 @@ export function MyCardsScreenView() {
                           <Pencil size={10} color={LedgerTheme.colors.accent} />
                         </ScalePressable>
 
-                        <ScalePressable
-                          onPress={() => openWalletCardDetails(card)}
-                          style={styles.renewalBadge}
-                        >
-                          <Calendar size={10} color={LedgerTheme.colors.inkSecondary} />
-                          <Text style={styles.renewalBadgeText}>
-                            {meta.renewalDate ? `Renews ${meta.renewalDate}` : '+ Renewal Date'}
-                          </Text>
-                        </ScalePressable>
+                        {isCardLtf ? (
+                          <ScalePressable
+                            onPress={() => openWalletCardDetails(card)}
+                            style={styles.ltfPillBadge}
+                          >
+                            <Text style={styles.ltfPillText}>LTF · No Renewal</Text>
+                          </ScalePressable>
+                        ) : (
+                          <ScalePressable
+                            onPress={() => openWalletCardDetails(card)}
+                            style={styles.renewalBadge}
+                          >
+                            <Calendar size={10} color={LedgerTheme.colors.inkSecondary} />
+                            <Text style={styles.renewalBadgeText}>
+                              {meta.renewalDate ? `Renews ${meta.renewalDate}` : '+ Renewal Date'}
+                            </Text>
+                          </ScalePressable>
+                        )}
 
                         {quota.domesticEligible && (
                           <View
@@ -1113,11 +1140,17 @@ export function MyCardsScreenView() {
                   <View style={styles.detailStatsRow}>
                     <View style={styles.detailStatBox}>
                       <Text style={styles.detailStatLabel}>
-                        {feeInfo.isSplit ? 'Joining Fee' : 'Joining / Card Fee'}
+                        {isLtfDraft
+                          ? 'Annual Fee'
+                          : feeInfo.isSplit
+                            ? 'Joining Fee'
+                            : 'Joining / Card Fee'}
                       </Text>
-                      <Text style={styles.detailStatVal}>{feeInfo.joiningText}</Text>
+                      <Text style={styles.detailStatVal}>
+                        {isLtfDraft ? '₹0 (LTF)' : feeInfo.joiningText}
+                      </Text>
                     </View>
-                    {feeInfo.isSplit && (
+                    {!isLtfDraft && feeInfo.isSplit && (
                       <View style={styles.detailStatBox}>
                         <Text style={styles.detailStatLabel}>Annual Renewal Fee</Text>
                         <Text style={styles.detailStatVal}>{feeInfo.annualText}</Text>
@@ -1134,15 +1167,44 @@ export function MyCardsScreenView() {
                     </View>
                   </View>
 
-                  <View style={{ gap: 8 }}>
-                    <Text style={styles.inputFieldLabel}>Date of Renewal (e.g. 15 Nov 2026)</Text>
-                    <TextInput
-                      value={renewalDraft}
-                      onChangeText={setRenewalDraft}
-                      placeholder="DD MMM YYYY (e.g. 15 Nov 2026)"
-                      placeholderTextColor={LedgerTheme.colors.inkMuted}
-                      style={styles.detailInput}
+                  <View style={styles.ltfToggleRow}>
+                    <View style={{ flex: 1, gap: 2 }}>
+                      <Text style={styles.ltfToggleTitle}>Lifetime Free (LTF)</Text>
+                      <Text style={styles.ltfToggleSub}>
+                        ₹0 renewal fee, no renewal date, excluded from total fees
+                      </Text>
+                    </View>
+                    <Switch
+                      value={isLtfDraft}
+                      onValueChange={(next) => {
+                        setIsLtfDraft(next);
+                        if (next) setRenewalDraft('');
+                      }}
+                      trackColor={{ false: '#D4D4CE', true: '#99D2C4' }}
+                      thumbColor={isLtfDraft ? LedgerTheme.colors.accent : '#FFFFFF'}
                     />
+                  </View>
+
+                  <View style={{ gap: 8 }}>
+                    {!isLtfDraft ? (
+                      <>
+                        <Text style={styles.inputFieldLabel}>Date of Renewal (e.g. 15 Nov 2026)</Text>
+                        <TextInput
+                          value={renewalDraft}
+                          onChangeText={setRenewalDraft}
+                          placeholder="DD MMM YYYY (e.g. 15 Nov 2026)"
+                          placeholderTextColor={LedgerTheme.colors.inkMuted}
+                          style={styles.detailInput}
+                        />
+                      </>
+                    ) : (
+                      <View style={styles.ltfNoticeBox}>
+                        <Check size={14} color={LedgerTheme.colors.accent} />
+                        <Text style={styles.ltfNoticeText}>
+                          Held as LTF — no renewal date or annual fee charged in totals.
+                        </Text>
+                      </View>
+                    )}
                     <View style={{ flexDirection: 'row', gap: 10 }}>
                       <View style={{ flex: 1, gap: 4 }}>
                         <Text style={styles.inputFieldLabel}>Last 4 Digits</Text>
@@ -1183,7 +1245,9 @@ export function MyCardsScreenView() {
                       style={styles.modalPrimaryActionBtn}
                     >
                       <Plane size={15} color="#FFFFFF" />
-                      <Text style={styles.modalSaveText}>Check Airport &amp; Golf for This Card</Text>
+                      <Text style={styles.modalSaveText} numberOfLines={1} adjustsFontSizeToFit>
+                        Check Airport &amp; Golf for This Card
+                      </Text>
                     </ScalePressable>
 
                     <View style={styles.modalActions}>
@@ -1196,13 +1260,25 @@ export function MyCardsScreenView() {
                         }}
                         style={styles.modalCancelBtn}
                       >
-                        <Text style={styles.modalCancelText}>Full Card Dossier →</Text>
+                        <Text
+                          style={styles.modalCancelText}
+                          numberOfLines={1}
+                          adjustsFontSizeToFit
+                        >
+                          Full Dossier →
+                        </Text>
                       </ScalePressable>
                       <ScalePressable
                         onPress={saveWalletCardDetails}
                         style={styles.modalSaveBtn}
                       >
-                        <Text style={styles.modalSaveText}>Save Details</Text>
+                        <Text
+                          style={styles.modalSaveText}
+                          numberOfLines={1}
+                          adjustsFontSizeToFit
+                        >
+                          Save Details
+                        </Text>
                       </ScalePressable>
                     </View>
                   </View>
@@ -1252,13 +1328,17 @@ export function MyCardsScreenView() {
                 onPress={() => setEditingLast4Card(null)}
                 style={styles.modalCancelBtn}
               >
-                <Text style={styles.modalCancelText}>Cancel</Text>
+                <Text style={styles.modalCancelText} numberOfLines={1} adjustsFontSizeToFit>
+                  Cancel
+                </Text>
               </ScalePressable>
               <ScalePressable
                 onPress={confirmLast4Modal}
                 style={styles.modalSaveBtn}
               >
-                <Text style={styles.modalSaveText}>Save to My Cards</Text>
+                <Text style={styles.modalSaveText} numberOfLines={1} adjustsFontSizeToFit>
+                  Save to My Cards
+                </Text>
               </ScalePressable>
             </View>
           </Pressable>
@@ -1896,43 +1976,109 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: LedgerTheme.colors.inkPrimary,
   },
+  ltfToggleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 12,
+    backgroundColor: LedgerTheme.colors.canvas,
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.hairline,
+    borderRadius: 12,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
+  ltfToggleTitle: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: LedgerTheme.colors.inkPrimary,
+  },
+  ltfToggleSub: {
+    fontSize: 11,
+    fontWeight: '500',
+    color: LedgerTheme.colors.inkMuted,
+  },
+  ltfNoticeBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: LedgerTheme.colors.tintPrimary,
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.tintBorder,
+    borderRadius: 10,
+    paddingHorizontal: 11,
+    paddingVertical: 9,
+  },
+  ltfNoticeText: {
+    flex: 1,
+    fontSize: 12,
+    fontWeight: '600',
+    color: LedgerTheme.colors.accent,
+  },
+  ltfPillBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: LedgerTheme.colors.tintPrimary,
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.tintBorder,
+    borderRadius: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+  },
+  ltfPillText: {
+    fontSize: 11,
+    fontWeight: '700',
+    color: LedgerTheme.colors.accent,
+  },
   modalPrimaryActionBtn: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
+    minHeight: 44,
     backgroundColor: '#1A1D21',
     borderRadius: 11,
+    paddingHorizontal: 14,
     paddingVertical: 11,
   },
   modalActions: {
     flexDirection: 'row',
+    alignItems: 'stretch',
     gap: 10,
     marginTop: 4,
   },
   modalCancelBtn: {
     flex: 1,
+    minHeight: 44,
     borderWidth: 1,
-    borderColor: LedgerTheme.colors.hairline,
+    borderColor: LedgerTheme.colors.hairlineStrong,
+    backgroundColor: LedgerTheme.colors.surface,
     borderRadius: 11,
-    paddingVertical: 12,
+    paddingHorizontal: 10,
+    paddingVertical: 11,
     alignItems: 'center',
+    justifyContent: 'center',
   },
   modalCancelText: {
-    fontSize: 14,
+    fontSize: 13.5,
     fontWeight: '600',
-    color: LedgerTheme.colors.inkSecondary,
+    color: LedgerTheme.colors.inkPrimary,
+    textAlign: 'center',
   },
   modalSaveBtn: {
-    flex: 2,
+    flex: 1,
+    minHeight: 44,
     backgroundColor: LedgerTheme.colors.accent,
     borderRadius: 11,
-    paddingVertical: 12,
+    paddingHorizontal: 10,
+    paddingVertical: 11,
     alignItems: 'center',
+    justifyContent: 'center',
   },
   modalSaveText: {
-    fontSize: 14,
+    fontSize: 13.5,
     fontWeight: '700',
     color: '#FFFFFF',
+    textAlign: 'center',
   },
 });
