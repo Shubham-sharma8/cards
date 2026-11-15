@@ -149,7 +149,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "Varies by variant (1/qtr on Spark5/10; 2/qtr on Spark20)",
+      "spend_criteria": "Rs. 20,000 spend in preceding calendar quarter (variant dependent)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Up to 8 domestic airport lounge visits/year (1/quarter on Spark5/10, 2/quarter on Spark20)"

@@ -152,7 +152,7 @@
     "domestic": {
       "visits_per_year": 4,
       "visits_per_quarter": 0,
-      "spend_criteria": "See issuer T&C (spend criteria may apply)",
+      "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Airport Lounge Access: Cardholders get 4 complimentary visits in a year to domestic lounges at the Airport"

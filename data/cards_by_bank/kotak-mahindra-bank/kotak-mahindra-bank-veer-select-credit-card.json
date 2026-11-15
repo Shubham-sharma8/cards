@@ -156,7 +156,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 0,
-      "spend_criteria": "See issuer T&C (spend criteria may apply)",
+      "spend_criteria": "Rs. 75,000 spend in previous calendar quarter",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Airport Lounge Access- 8 Complimentary Airport Lounge access annually, i.e. 2 lounge access per calendar quarter within India"

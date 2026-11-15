@@ -57,12 +57,35 @@ def normalize_name(s: str) -> str:
 
 def parse_spend_threshold_inr(cond: str | None) -> int:
     if not cond:
-        return 0
+        return -1
     low = cond.lower()
-    if ("no spend" in low or "zero spend" in low or "unconditional" in low) and not re.search(
-        r"(?:rs\.?|₹)\s*[\d,]+", low
-    ):
+    # Ignore nominal Rs. 2 / Rs. 25 validation swipe amounts and calendar years (2024..2027)
+    low_clean = re.sub(
+        r"(?:rs\.?|₹)\s*(?:2|25)(?![\d,])(?:\s*(?:visa|mastercard|rupay|validation|token|hold))?|\b202[4-9]\b",
+        "",
+        low,
+    )
+    if (
+        "no spend" in low_clean
+        or "zero spend" in low_clean
+        or "no minimum spend" in low_clean
+        or "without spend threshold" in low_clean
+        or "unconditional" in low_clean
+    ) and not re.search(r"(?:rs\.?|₹)\s*[\d,]{3,}|lakh|\blac\b", low_clean):
         return 0
+    m_lakh = re.search(r"(\d+(?:\.\d+)?)\s*(?:lakh|lac)\b", low_clean)
+    if m_lakh:
+        return int(float(m_lakh.group(1)) * 100000)
+    m_k = re.search(r"(?:rs\.?|₹)\s*(\d+(?:\.\d+)?)\s*k\b", low_clean)
+    if m_k:
+        return int(float(m_k.group(1)) * 1000)
+    m_num = re.search(r"(?:rs\.?|₹)\s*([\d,]{3,})", low_clean)
+    if m_num:
+        return int(m_num.group(1).replace(",", ""))
+    m_comma = re.search(r"\b(\d{1,3},\d{2,3}(?:,\d{3})*)\b", low_clean)
+    if m_comma:
+        return int(m_comma.group(1).replace(",", ""))
+    return -1
     lakh_m = re.search(r"([\d.]+)\s*lakh", low)
     if lakh_m:
         try:
@@ -398,6 +421,31 @@ def build_golf_reviews(club: dict[str, Any]) -> list[dict[str, Any]]:
     ]
 
 
+# Verified Privé / VIP Lounge partner allowlists (strictly invite / ultra-luxury tiers — NEVER generic Priority Pass)
+ENCALM_PRIVE_CARDS = {
+    "icici_bank_emeralde_private_metal_credit_card",
+    "icici_bank_times_black_icici_credit_card",
+    "amex_american_express_platinum_charge_card",
+    "axis_bank_primus_credit_card",
+    "axis_bank_burgundy_private_credit_card",
+}
+ADANI_PRIVE_CARDS = ENCALM_PRIVE_CARDS | {
+    "hdfc_bank_infinia_credit_card",
+    "hdfc_bank_hdfc_diners_club_black_credit_card",
+    "credit_card_axis_bank_reserve_credit_card",
+    "sbi_bank_aurum_credit_card",
+    "hsbc_premier_credit_card",
+    "icici_bank_adani_one_signature_credit_card",
+}
+BLR_VIP_PRIVE_CARDS = ENCALM_PRIVE_CARDS | {
+    "hdfc_bank_infinia_credit_card",
+    "credit_card_axis_bank_reserve_credit_card",
+    "hsbc_premier_credit_card",
+    "idfc_first_bank_idfc_first_private_credit_card",
+    "indusind_bank_pioneer_heritage_metal_credit_card",
+}
+
+
 def card_matches_spot(card: dict[str, Any], spot: dict[str, Any], cm_airports: dict[str, Any]) -> tuple[bool, str, int]:
     ft = card.get("filter_tags") or {}
     is_intl = "international" in str(spot.get("terminal_type") or "").lower()
@@ -412,10 +460,10 @@ def card_matches_spot(card: dict[str, Any], spot: dict[str, Any], cm_airports: d
         return False, "", 999999
 
     lcode = str(spot.get("lounge_code") or "").upper()
+    lname_low = str(spot.get("lounge_name") or "").lower()
     cname = str(card.get("card_name") or "")
     cid = str(card.get("card_id") or "")
     ann_fee = int(card.get("annual_fee_inr") or 0)
-    tier = str(card.get("card_tier") or "")
 
     if lcode == "DEL_AMEX_T3":
         if not (re.search(r"platinum card|centurion", cname, re.I) or "platinum_card" in cid or ann_fee >= 50000):
@@ -423,17 +471,39 @@ def card_matches_spot(card: dict[str, Any], spot: dict[str, Any], cm_airports: d
     if "AMEX" in lcode and lcode != "DEL_AMEX_T3":
         if "Amex" not in nets:
             return False, "", 999999
-    if "PRIVE" in lcode:
-        is_super = ann_fee >= 5000 or bool(
-            re.search(r"super-?premium|infinia|emeralde|magnus|burgundy|reserve|diners club black|bizblack|aurum|premier", f"{cname} {tier}", re.I)
-        )
-        if not is_super and matched_net != "Priority Pass":
+
+    is_prive_or_vip = (
+        "PRIVE" in lcode
+        or "prive" in lname_low
+        or "privé" in lname_low
+        or "vip lounge" in lname_low
+        or "/ vip" in lname_low
+        or "vip /" in lname_low
+    )
+    if is_prive_or_vip:
+        if lcode in ("DEL_PRIVE_T3I", "HYD_PRIVE_I"):
+            if cid not in ENCALM_PRIVE_CARDS:
+                return False, "", 999999
+        elif lcode == "BOM_PRIVE_T2I":
+            if cid not in ADANI_PRIVE_CARDS:
+                return False, "", 999999
+        elif lcode == "BLR_PRIVE_T2":
+            if cid not in BLR_VIP_PRIVE_CARDS:
+                return False, "", 999999
+        elif cid not in ADANI_PRIVE_CARDS:
             return False, "", 999999
 
     spend_cond = card.get("lounge_spend_condition")
     thresh = parse_spend_threshold_inr(spend_cond)
-    if not is_intl and ft.get("no_spend_domestic_lounge") and thresh == 0:
-        thresh = 0
+    if not is_intl:
+        if ft.get("no_spend_domestic_lounge") and thresh <= 0:
+            thresh = 0
+        elif not ft.get("no_spend_domestic_lounge") and thresh <= 0:
+            # Spend-gated / issuer T&C card without parsed numeric amount -> high_spend_ids (never no_spend)
+            thresh = 50000
+    else:
+        if thresh < 0:
+            thresh = 50000 if not ft.get("no_spend_domestic_lounge") else 0
     return True, matched_net, thresh
 
 

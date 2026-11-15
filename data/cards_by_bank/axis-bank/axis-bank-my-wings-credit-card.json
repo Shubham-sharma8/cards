@@ -167,7 +167,7 @@
     "domestic": {
       "visits_per_year": 1,
       "visits_per_quarter": 0,
-      "spend_criteria": "See issuer T&C (spend criteria may apply)",
+      "spend_criteria": "Rs. 50,000 spend in previous 3 calendar months",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Yes, Axis Bank My Wings Credit Card offer complimentary domestic lounge visits."

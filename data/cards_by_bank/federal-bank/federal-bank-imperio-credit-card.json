@@ -142,7 +142,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "Rs, 40",
+      "spend_criteria": "Rs. 40,000 spend in preceding calendar quarter (Federal Bank T&C)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Yes, the card offers 2 complimentary domestic airport lounge visits per quarter, totaling up to 8 annually, subject to a minimum spend of Rs, 40,000 in the previous quarter."

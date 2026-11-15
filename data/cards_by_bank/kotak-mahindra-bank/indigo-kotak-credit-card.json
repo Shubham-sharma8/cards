@@ -125,7 +125,7 @@
     "domestic": {
       "visits_per_year": 0,
       "visits_per_quarter": 0,
-      "spend_criteria": "Not Applicable",
+      "spend_criteria": "Rs. 75,000 spend in previous calendar quarter (eff. Jun 2025)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "No domestic airport lounge access"

@@ -314,6 +314,7 @@ export function CategoriesHubClient({
                         >
                           <LedgerCardItem
                             card={card}
+                            variant="comet"
                             highlightNote={
                               golfHighlight ||
                               (catPct > 0

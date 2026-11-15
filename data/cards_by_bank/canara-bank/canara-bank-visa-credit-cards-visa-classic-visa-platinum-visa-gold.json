@@ -146,7 +146,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "Available on Visa Platinum variant",
+      "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter per issuer T&C",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "2 complimentary domestic lounge visits per quarter (8/year) for Canara Visa Platinum primary holders"

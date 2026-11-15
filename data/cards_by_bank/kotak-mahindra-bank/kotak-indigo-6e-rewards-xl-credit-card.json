@@ -144,7 +144,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See issuer T&C (spend criteria may apply)",
+      "spend_criteria": "Rs. 75,000 spend in previous calendar quarter (eff. Jun 2025)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Complimentary domestic airport lounge access"

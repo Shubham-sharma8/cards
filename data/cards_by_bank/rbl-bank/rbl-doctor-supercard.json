@@ -149,7 +149,7 @@
     "domestic": {
       "visits_per_year": 4,
       "visits_per_quarter": 1,
-      "spend_criteria": "See issuer T&C (spend criteria may apply)",
+      "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "You can get 1 complimentary airport lounge access in a quarter."

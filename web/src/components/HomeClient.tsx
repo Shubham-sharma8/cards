@@ -16,10 +16,10 @@ import {
   Globe,
   Layers,
   Plane,
-  Search,
   ShieldCheck,
   Smartphone,
   Sparkles,
+  Table2,
   Tag,
   Wallet,
   X,
@@ -52,12 +52,15 @@ import {
 import { CanvaFeatureIcon, resolveCategoryCanvaIcon, type CanvaIconKey } from "./FeatureIcon";
 import {
   AiOrb3D,
-  Card3DTilt,
   MovingBorderPill,
   SparklesField,
   SpotlightBeam,
 } from "./Modern3DAi";
 import { Interactive3DCardModel } from "./Interactive3DCardModel";
+import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import { CometCard } from "./ui/comet-card";
+import { GooeySearchInput } from "./ui/gooey-input";
+import { useExpandableCard } from "./ui/expandable-card";
 
 interface HomeClientProps {
   cards: CardSummaryItem[];
@@ -202,6 +205,7 @@ export function HomeClient({
   stats,
 }: HomeClientProps) {
   const router = useRouter();
+  const { openCard } = useExpandableCard();
   const [searchInput, setSearchInput] = useState("");
   const [heroIncome, setHeroIncome] = useState<number | null>(null);
   const [heroStrategy, setHeroStrategy] = useState<RewardConversionStrategy>("default_inr");
@@ -593,33 +597,31 @@ export function HomeClient({
             <div className="mt-2 max-w-xl mx-auto relative">
               <form
                 onSubmit={handleSearch}
-                className="flex flex-col sm:flex-row gap-2.5"
+                onFocus={() => setSearchFocused(true)}
+                onBlur={() => setTimeout(() => setSearchFocused(false), 200)}
+                className="flex flex-col sm:flex-row gap-2.5 items-stretch sm:items-center"
               >
                 <label htmlFor="hero-search" className="sr-only">
                   Search credit cards, banks, or features
                 </label>
-                <div className="relative flex-1">
-                  <Search
-                    className="w-4 h-4 text-[#717882] absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none"
-                    aria-hidden="true"
-                  />
-                  <input
-                    id="hero-search"
-                    type="text"
+                <div className="flex-1">
+                  <GooeySearchInput
+                    mode="bar"
                     value={searchInput}
-                    onFocus={() => setSearchFocused(true)}
-                    onBlur={() => setTimeout(() => setSearchFocused(false), 180)}
-                    onChange={(e) => {
-                      setSearchInput(e.target.value);
+                    onValueChange={(val) => {
+                      setSearchInput(val);
                       setSearchFocused(true);
                     }}
+                    onSubmit={(val) => {
+                      router.push(`/cards?q=${encodeURIComponent(val.trim())}`);
+                    }}
                     placeholder="Search Infinia, Accor ALL, RuPay UPI..."
-                    className="w-full pl-11 pr-4 py-3 text-[13.5px] sm:text-[14px] text-[#1A1D21] placeholder:text-[#717882] bg-[#FAF9F6] border border-[#C9C9C2] focus:border-[#0F5C4D] focus:bg-white rounded-full focus:outline-none transition-colors"
+                    ariaLabel="Search credit cards, banks, or features"
                   />
                 </div>
                 <button
                   type="submit"
-                  className="px-6 py-3 text-[14px] font-medium text-white bg-[#0F5C4D] hover:bg-[#0B473B] rounded-full transition-colors cursor-pointer shrink-0 shadow-[0_4px_14px_rgba(15,92,77,0.18)]"
+                  className="px-6 py-2.5 text-[14px] font-medium text-white bg-[#0F5C4D] hover:bg-[#0B473B] rounded-full transition-colors cursor-pointer shrink-0 shadow-[0_4px_14px_rgba(15,92,77,0.18)]"
                 >
                   {heroIncome || heroStrategy !== "default_inr" ? "Personalized Match" : "Explore Cards"}
                 </button>
@@ -635,7 +637,7 @@ export function HomeClient({
                       </span>
                     )}
                   </div>
-                  <div className="divide-y divide-[#F3F2EE] max-h-[300px] overflow-y-auto">
+                  <div className="p-2 space-y-1.5 max-h-[320px] overflow-y-auto">
                     {heroSuggestions.map(({ card, personalized }) => {
                       const spec = CARD_TRANSFER_SPECS[card.card_id];
                       const minInc = normalizeMinMonthlyIncomeInr(
@@ -643,38 +645,49 @@ export function HomeClient({
                         card.filter_tags.min_income_salaried_inr
                       );
                       return (
-                        <Link
-                          key={card.card_id}
-                          href={`/${card.bank_slug}/${card.card_slug}`}
-                          className="flex items-center justify-between gap-3 px-4 py-2.5 hover:bg-[#FAF9F6] transition-colors"
-                        >
-                          <div className="flex items-center gap-3 min-w-0">
-                            <BankLogo bankSlug={card.bank_slug} bank={card.bank} size="sm" />
-                            <div className="min-w-0">
-                              <p className="text-[13.5px] font-medium text-[#1A1D21] truncate">
-                                {card.card_name}
-                              </p>
-                              <p className="text-[11.5px] text-[#717882] truncate">
-                                {(() => {
-                                  const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
-                                  return `${card.bank} · ${feeInfo.isSplit ? `Join ${feeInfo.joiningText} / Yr ${feeInfo.annualText}` : feeInfo.primaryText}`;
-                                })()}
-                                {minInc ? ` · ₹${Math.round(minInc / 1000)}k+/mo` : ""}
-                              </p>
+                        <CometCard key={card.card_id} rotateDepth={4} translateDepth={3}>
+                          <div className="flex items-center justify-between gap-3 px-3 py-2.5 rounded-xl border border-[#EFEFE9] bg-white hover:border-[#0F5C4D]/40 transition-colors">
+                            <Link
+                              href={`/${card.bank_slug}/${card.card_slug}`}
+                              className="flex items-center gap-3 min-w-0 flex-1"
+                            >
+                              <BankLogo bankSlug={card.bank_slug} bank={card.bank} size="sm" />
+                              <div className="min-w-0">
+                                <p className="text-[13.5px] font-medium text-[#1A1D21] truncate">
+                                  {card.card_name}
+                                </p>
+                                <p className="text-[11.5px] text-[#717882] truncate">
+                                  {(() => {
+                                    const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+                                    return `${card.bank} · ${feeInfo.isSplit ? `Join ${feeInfo.joiningText} / Yr ${feeInfo.annualText}` : feeInfo.primaryText}`;
+                                  })()}
+                                  {minInc ? ` · ₹${Math.round(minInc / 1000)}k+/mo` : ""}
+                                </p>
+                              </div>
+                            </Link>
+                            <div className="flex items-center gap-1.5 shrink-0">
+                              <button
+                                type="button"
+                                onMouseDown={(e) => e.preventDefault()}
+                                onClick={() => openCard(card)}
+                                title={`Quick tables for ${card.card_name}`}
+                                className="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-1 rounded-lg border border-[#E4E4DF] bg-[#FAF9F6] text-[#0F5C4D] hover:bg-[#EEF5F2] cursor-pointer"
+                              >
+                                <Table2 className="w-3 h-3" aria-hidden="true" />
+                                <span>Tables</span>
+                              </button>
+                              {personalized.matchBadge ? (
+                                <span className="text-[11px] font-medium bg-[#EEF5F2] text-[#0F5C4D] px-2 py-0.5 rounded-full">
+                                  {personalized.matchBadge}
+                                </span>
+                              ) : spec?.supportsAccor ? (
+                                <span className="text-[11px] bg-[#EEF5F2] text-[#0F5C4D] px-2 py-0.5 rounded-full">
+                                  Accor ALL
+                                </span>
+                              ) : null}
                             </div>
                           </div>
-                          <div className="flex items-center gap-1.5 shrink-0">
-                            {personalized.matchBadge ? (
-                              <span className="text-[11px] font-medium bg-[#EEF5F2] text-[#0F5C4D] px-2 py-0.5 rounded-full">
-                                {personalized.matchBadge}
-                              </span>
-                            ) : spec?.supportsAccor ? (
-                              <span className="text-[11px] bg-[#EEF5F2] text-[#0F5C4D] px-2 py-0.5 rounded-full">
-                                Accor ALL
-                              </span>
-                            ) : null}
-                          </div>
-                        </Link>
+                        </CometCard>
                       );
                     })}
                   </div>
@@ -828,76 +841,78 @@ export function HomeClient({
                     }}
                     className="relative"
                   >
-                    <Card3DTilt maxTilt={11} glare className="rounded-2xl">
-                      <Link
-                        href={`/${card.bank_slug}/${card.card_slug}`}
-                        className="block w-[212px] lg:w-[228px] h-[278px] rounded-2xl p-4 flex flex-col justify-between transition-shadow duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0F5C4D]"
-                        style={{
-                          backgroundColor: bgHex,
-                          border: `1px solid ${borderHex}`,
-                          backgroundImage: `radial-gradient(circle at 88% 12%, ${accentHex}1F 0%, transparent 56%)`,
-                          boxShadow: isHovered
-                            ? "0 22px 44px rgba(26, 29, 33, 0.16)"
-                            : "0 10px 26px rgba(26, 29, 33, 0.08)",
-                        }}
-                      >
-                      {/* Top Category + Badge */}
-                      <div className="flex items-start justify-between gap-2">
-                        <div className="min-w-0">
-                          <span
-                            className="inline-block text-[11.5px] font-medium px-2 py-0.5 rounded-md bg-white/85"
-                            style={{ color: accentHex }}
-                          >
-                            {spec.title}
-                          </span>
-                          <p className="text-[11px] text-[#4B525C] mt-1 line-clamp-1">
-                            {spec.subtitle}
-                          </p>
-                        </div>
-                        <span className="w-8 h-8 rounded-full bg-white border border-[#E4E4DF] flex items-center justify-center shrink-0 shadow-[0_2px_6px_rgba(26,29,33,0.05)]">
-                          <CanvaFeatureIcon icon={spec.icon} size={16} />
-                        </span>
-                      </div>
+                    <CardContainer tiltDivisor={18} className="rounded-2xl">
+                      <CardBody>
+                        <Link
+                          href={`/${card.bank_slug}/${card.card_slug}`}
+                          className="block w-[212px] lg:w-[228px] h-[278px] rounded-2xl p-4 flex flex-col justify-between transition-shadow duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0F5C4D]"
+                          style={{
+                            backgroundColor: bgHex,
+                            border: `1px solid ${borderHex}`,
+                            backgroundImage: `radial-gradient(circle at 88% 12%, ${accentHex}1F 0%, transparent 56%)`,
+                            boxShadow: isHovered
+                              ? "0 22px 44px rgba(26, 29, 33, 0.16)"
+                              : "0 10px 26px rgba(26, 29, 33, 0.08)",
+                          }}
+                        >
+                          {/* Top Category + Badge floating in 3D */}
+                          <CardItem translateZ={26} className="flex items-start justify-between gap-2 w-full">
+                            <div className="min-w-0">
+                              <span
+                                className="inline-block text-[11.5px] font-medium px-2 py-0.5 rounded-md bg-white/85"
+                                style={{ color: accentHex }}
+                              >
+                                {spec.title}
+                              </span>
+                              <p className="text-[11px] text-[#4B525C] mt-1 line-clamp-1">
+                                {spec.subtitle}
+                              </p>
+                            </div>
+                            <span className="w-8 h-8 rounded-full bg-white border border-[#E4E4DF] flex items-center justify-center shrink-0 shadow-[0_2px_6px_rgba(26,29,33,0.05)]">
+                              <CanvaFeatureIcon icon={spec.icon} size={16} />
+                            </span>
+                          </CardItem>
 
-                      {/* Real Indian Card Artwork */}
-                      <div className="my-auto flex items-center justify-center py-2">
-                        <div className="scale-[1.18] lg:scale-[1.24] drop-shadow-[0_6px_14px_rgba(26,29,33,0.12)]">
-                          <CardArtwork
-                            localImagePath={card.local_image_path}
-                            cardName={card.card_name}
-                            bank={card.bank}
-                            network={card.card_network}
-                            cardTheme={card.card_theme}
-                            size="md"
-                          />
-                        </div>
-                      </div>
+                          {/* Real Indian Card Artwork with high Z lift */}
+                          <CardItem translateZ={56} className="my-auto flex items-center justify-center py-2 w-full">
+                            <div className="scale-[1.18] lg:scale-[1.24] drop-shadow-[0_10px_18px_rgba(26,29,33,0.16)]">
+                              <CardArtwork
+                                localImagePath={card.local_image_path}
+                                cardName={card.card_name}
+                                bank={card.bank}
+                                network={card.card_network}
+                                cardTheme={card.card_theme}
+                                size="md"
+                              />
+                            </div>
+                          </CardItem>
 
-                      {/* Bottom Card Identity + Return Metric */}
-                      <div className="pt-2.5 border-t border-black/8 space-y-1">
-                        <div className="flex items-center gap-1.5 min-w-0">
-                          <BankLogo bankSlug={card.bank_slug} bank={card.bank} size="xs" />
-                          <span className="text-[11px] text-[#4B525C] truncate">{card.bank}</span>
-                        </div>
-                        <p className="text-[13px] font-medium text-[#1A1D21] truncate">
-                          {card.card_name}
-                        </p>
-                        <div className="flex items-center justify-between text-[11.5px] tabular-nums">
-                          <span className="text-[#4B525C] truncate pr-2">
-                            {(() => {
-                              const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
-                              return feeInfo.isSplit
-                                ? `Join ${feeInfo.joiningText} · Yr ${feeInfo.annualText}`
-                                : feeInfo.primaryText;
-                            })()}
-                          </span>
-                          <span className="font-medium shrink-0" style={{ color: accentHex }}>
-                            {peakPct > 0 ? `Up to ${peakPct.toFixed(1)}%` : `${card.card_network}`}
-                          </span>
-                          </div>
-                        </div>
-                      </Link>
-                    </Card3DTilt>
+                          {/* Bottom Card Identity + Return Metric */}
+                          <CardItem translateZ={28} className="pt-2.5 border-t border-black/8 space-y-1 w-full">
+                            <div className="flex items-center gap-1.5 min-w-0">
+                              <BankLogo bankSlug={card.bank_slug} bank={card.bank} size="xs" />
+                              <span className="text-[11px] text-[#4B525C] truncate">{card.bank}</span>
+                            </div>
+                            <p className="text-[13px] font-medium text-[#1A1D21] truncate">
+                              {card.card_name}
+                            </p>
+                            <div className="flex items-center justify-between text-[11.5px] tabular-nums">
+                              <span className="text-[#4B525C] truncate pr-2">
+                                {(() => {
+                                  const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+                                  return feeInfo.isSplit
+                                    ? `Join ${feeInfo.joiningText} · Yr ${feeInfo.annualText}`
+                                    : feeInfo.primaryText;
+                                })()}
+                              </span>
+                              <span className="font-medium shrink-0" style={{ color: accentHex }}>
+                                {peakPct > 0 ? `Up to ${peakPct.toFixed(1)}%` : `${card.card_network}`}
+                              </span>
+                            </div>
+                          </CardItem>
+                        </Link>
+                      </CardBody>
+                    </CardContainer>
                   </motion.div>
                 );
               })}
@@ -1232,7 +1247,7 @@ export function HomeClient({
                         transition={fastTransition}
                         className="h-full"
                       >
-                        <LedgerCardItem card={card} />
+                        <LedgerCardItem card={card} variant="comet" />
                       </motion.div>
                     ))}
                   </AnimatePresence>

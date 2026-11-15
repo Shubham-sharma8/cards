@@ -3,7 +3,7 @@
 import React, { useCallback, useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, Filter, RotateCcw, Search, SlidersHorizontal, X } from "lucide-react";
+import { ArrowRight, Filter, RotateCcw, SlidersHorizontal, X } from "lucide-react";
 import type { BankSummary, CardSummaryItem, RewardConversionStrategy } from "@/lib/types";
 import { CATEGORY_META, matchesTokenizedQuery } from "@/lib/format";
 import {
@@ -17,6 +17,7 @@ import { fastTransition } from "@/lib/motion";
 import { LedgerCardItem } from "./LedgerCardItem";
 import { useCompare } from "./CompareContext";
 import { SearchParamsSync } from "./SearchParamsSync";
+import { GooeySearchInput } from "./ui/gooey-input";
 
 interface CardsExplorerClientProps {
   cards: CardSummaryItem[];
@@ -510,36 +511,21 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
           </div>
         </div>
 
-        {/* Search Field */}
-        <div className="relative max-w-2xl">
-          <Search
-            className="w-4 h-4 text-[#717882] absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"
-            aria-hidden="true"
-          />
+        {/* Search Field — Aceternity Gooey Search */}
+        <div className="max-w-2xl">
           <label htmlFor="directory-search" className="sr-only">
             Filter cards by keyword
           </label>
-          <input
-            id="directory-search"
-            type="text"
+          <GooeySearchInput
+            mode="bar"
             value={query}
-            onChange={(e) => {
-              setQuery(e.target.value);
+            onValueChange={(val) => {
+              setQuery(val);
               setVisibleCount(24);
             }}
             placeholder="Filter by card name, bank, requirement (e.g. Amazon, SmartBuy, airport lounge, UPI)..."
-            className="w-full pl-10 pr-10 py-2.5 text-[14px] bg-white border border-[#E4E4DF] focus:border-[#0F5C4D] rounded-xl text-[#1A1D21] placeholder:text-[#717882] focus:outline-none"
+            ariaLabel="Filter cards by keyword"
           />
-          {query && (
-            <button
-              type="button"
-              onClick={() => setQuery("")}
-              aria-label="Clear search query"
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-[#717882] hover:text-[#1A1D21] cursor-pointer"
-            >
-              <X className="w-4 h-4" />
-            </button>
-          )}
         </div>
         {/* Personalize Salary & Redemption Strategy Bar */}
         <div className="bg-white border border-[#E4E4DF] rounded-xl px-3.5 py-2.5 flex flex-wrap items-center justify-between gap-3 text-[12px]">
@@ -753,7 +739,11 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
                         transition={fastTransition}
                         className="h-full"
                       >
-                        <LedgerCardItem card={card} highlightNote={personalNote ?? undefined} />
+                        <LedgerCardItem
+                          card={card}
+                          variant="comet"
+                          highlightNote={personalNote ?? undefined}
+                        />
                       </motion.div>
                     );
                   })}

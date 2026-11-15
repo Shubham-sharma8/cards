@@ -83,7 +83,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": true,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "has_golf": false,
     "zero_or_low_forex": false,
     "zero_forex": false,
@@ -330,7 +330,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": true,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "applicable_lounge_links": [
       {
         "program_id": "sbi_elite",
@@ -1499,7 +1499,6 @@
     "sentiment_summary": "Community discussions around SBI Card Travel & Miles cards.",
     "key_threads": [],
     "practical_community_warnings": [
-      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
       "High 3.5% (+GST) forex markup makes international swipes net negative."
     ],
     "optimization_tips": [

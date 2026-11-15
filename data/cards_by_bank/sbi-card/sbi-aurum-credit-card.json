@@ -1303,16 +1303,6 @@
         "google_rating": 4.6
       },
       {
-        "city": "New Delhi",
-        "airport_code": "DEL",
-        "lounge_code": "DEL_PRIVE_T3I",
-        "lounge_name": "Encalm Privé International Lounge",
-        "terminal": "Terminal 3 (T3I International)",
-        "terminal_type": "International",
-        "matched_network": "Visa",
-        "google_rating": 4.3
-      },
-      {
         "city": "Mumbai",
         "airport_code": "BOM",
         "lounge_code": "BOM03",
@@ -1383,26 +1373,6 @@
         "google_rating": 3.7
       },
       {
-        "city": "Hyderabad",
-        "airport_code": "HYD",
-        "lounge_code": "HYD_PRIVE_I",
-        "lounge_name": "Encalm Privé Lounge (International)",
-        "terminal": "International Terminal",
-        "terminal_type": "International",
-        "matched_network": "Visa",
-        "google_rating": 4.9
-      },
-      {
-        "city": "Bengaluru",
-        "airport_code": "BLR",
-        "lounge_code": "BLR_PRIVE_T2",
-        "lounge_name": "080 VIP / Privé Lounge (Terminal 2)",
-        "terminal": "Terminal 2",
-        "terminal_type": "International",
-        "matched_network": "Visa",
-        "google_rating": 4.7
-      },
-      {
         "city": "Guwahati",
         "airport_code": "GAU",
         "lounge_code": "GAU02",
@@ -1423,9 +1393,9 @@
         "google_rating": 4.6
       }
     ],
-    "participating_lounges_count": 90,
+    "participating_lounges_count": 87,
     "domestic_lounge_accessible_count": 60,
-    "international_lounge_accessible_count": 30,
+    "international_lounge_accessible_count": 27,
     "accessible_lounge_codes": [
       "IXA1",
       "AMD01",
@@ -1505,7 +1475,6 @@
       "BOM02",
       "BOM_T2D",
       "BOM_T2I",
-      "DEL_PRIVE_T3I",
       "BOM03",
       "BOM04",
       "BOM05",
@@ -1513,8 +1482,6 @@
       "BOM08",
       "BOM_PRIVE_T2I",
       "BOM_LOYALTY_T2I",
-      "HYD_PRIVE_I",
-      "BLR_PRIVE_T2",
       "GAU02",
       "COK_EARTH"
     ],

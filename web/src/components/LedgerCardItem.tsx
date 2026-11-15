@@ -3,17 +3,20 @@
 import React from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, Bookmark, Check, Plus, Star, Wallet } from "lucide-react";
+import { ArrowRight, Bookmark, Check, Plus, Star, Table2, Wallet } from "lucide-react";
 import type { CardSummaryItem } from "@/lib/types";
 import { formatFeeDisplay } from "@/lib/format";
 import { BankLogo } from "./BankLogo";
 import { CardArtwork } from "./CardArtwork";
 import { useCompare } from "./CompareContext";
 import { CanvaFeatureIcon, type CanvaIconKey } from "./FeatureIcon";
+import { CometCard } from "./ui/comet-card";
+import { useExpandableCard } from "./ui/expandable-card";
 
 interface LedgerCardItemProps {
   card: CardSummaryItem;
   highlightNote?: string;
+  variant?: "default" | "comet";
 }
 
 interface TagPill {
@@ -23,8 +26,9 @@ interface TagPill {
   tone: "green" | "blue" | "neutral";
 }
 
-export function LedgerCardItem({ card, highlightNote }: LedgerCardItemProps) {
+export function LedgerCardItem({ card, highlightNote, variant = "default" }: LedgerCardItemProps) {
   const { isSelected, toggleItem, isSaved, toggleSaved, isOwned, toggleOwned } = useCompare();
+  const { openCard } = useExpandableCard();
   const compared = isSelected(card.card_id);
   const saved = isSaved(card.card_id);
   const owned = isOwned(card.card_id);
@@ -68,14 +72,16 @@ export function LedgerCardItem({ card, highlightNote }: LedgerCardItemProps) {
   const accentHex = card.card_theme?.primary_hex || "#0F5C4D";
   const isPicked = compared || owned;
 
-  return (
+  const cardNode = (
     <motion.article
       layout="position"
       transition={{ type: "spring", stiffness: 320, damping: 28 }}
       className={`group relative h-full border rounded-xl p-4 sm:p-5 transition-all duration-200 flex flex-col justify-between gap-4 overflow-hidden ${
         isPicked
           ? "bg-[#F8FCFA] border-[#0F5C4D]/55 ring-2 ring-[#0F5C4D]/15 shadow-[0_10px_28px_rgba(15,92,77,0.08)]"
-          : "bg-white border-[#E4E4DF] hover:border-[#0F5C4D]/45 hover:bg-[#FCFDFC] hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(26,29,33,0.07)]"
+          : `bg-white border-[#E4E4DF] hover:border-[#0F5C4D]/45 hover:bg-[#FCFDFC] ${
+              variant === "comet" ? "" : "hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(26,29,33,0.07)]"
+            }`
       }`}
     >
       {/* Subtle dynamic card color hairline on hover or selection */}
@@ -234,7 +240,7 @@ export function LedgerCardItem({ card, highlightNote }: LedgerCardItemProps) {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-2">
+        <div className="grid grid-cols-3 gap-1.5">
           <motion.button
             type="button"
             whileTap={{ scale: 0.93 }}
@@ -249,7 +255,7 @@ export function LedgerCardItem({ card, highlightNote }: LedgerCardItemProps) {
                 overall_rating: card.overall_rating,
               })
             }
-            className={`inline-flex items-center justify-center gap-1.5 text-[12.5px] px-3 py-1.5 rounded-lg border transition-colors cursor-pointer whitespace-nowrap ${
+            className={`inline-flex items-center justify-center gap-1 text-[12px] px-2 py-1.5 rounded-lg border transition-colors cursor-pointer whitespace-nowrap ${
               compared
                 ? "bg-[#0F5C4D] border-[#0F5C4D] text-white font-medium shadow-[0_3px_10px_rgba(15,92,77,0.18)]"
                 : "bg-[#FAF9F6] border-[#E4E4DF] hover:border-[#C9C9C2] text-[#4B525C]"
@@ -263,9 +269,9 @@ export function LedgerCardItem({ card, highlightNote }: LedgerCardItemProps) {
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ scale: 0.75, opacity: 0 }}
                   transition={{ type: "spring", stiffness: 450, damping: 24 }}
-                  className="inline-flex items-center gap-1.5"
+                  className="inline-flex items-center gap-1"
                 >
-                  <Check className="w-3.5 h-3.5" aria-hidden="true" />
+                  <Check className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
                   Added
                 </motion.span>
               ) : (
@@ -275,24 +281,43 @@ export function LedgerCardItem({ card, highlightNote }: LedgerCardItemProps) {
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ scale: 0.8, opacity: 0 }}
                   transition={{ duration: 0.14 }}
-                  className="inline-flex items-center gap-1.5"
+                  className="inline-flex items-center gap-1"
                 >
-                  <Plus className="w-3.5 h-3.5" aria-hidden="true" />
+                  <Plus className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
                   Compare
                 </motion.span>
               )}
             </AnimatePresence>
           </motion.button>
 
+          <button
+            type="button"
+            onClick={() => openCard(card)}
+            title={`Quick tables & summary for ${card.card_name}`}
+            className="inline-flex items-center justify-center gap-1 text-[12px] font-medium text-[#1A1D21] bg-[#FAF9F6] hover:bg-[#F3F2EE] border border-[#E4E4DF] hover:border-[#C9C9C2] px-2 py-1.5 rounded-lg transition-colors cursor-pointer whitespace-nowrap"
+          >
+            <Table2 className="w-3.5 h-3.5 text-[#0F5C4D] shrink-0" aria-hidden="true" />
+            <span>Tables</span>
+          </button>
+
           <Link
             href={`/${card.bank_slug}/${card.card_slug}`}
-            className="inline-flex items-center justify-center gap-1 text-[12.5px] font-medium text-[#0F5C4D] hover:text-[#0B473B] px-3 py-1.5 rounded-lg bg-[#EEF5F2] hover:bg-[#E1EDE8] transition-colors whitespace-nowrap"
+            className="inline-flex items-center justify-center gap-1 text-[12px] font-medium text-[#0F5C4D] hover:text-[#0B473B] px-2 py-1.5 rounded-lg bg-[#EEF5F2] hover:bg-[#E1EDE8] transition-colors whitespace-nowrap"
           >
-            <span>Details</span>
-            <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+            <span>More</span>
+            <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 shrink-0" aria-hidden="true" />
           </Link>
         </div>
       </div>
     </motion.article>
   );
+
+  if (variant === "comet") {
+    return (
+      <CometCard rotateDepth={6} translateDepth={6} className="h-full">
+        {cardNode}
+      </CometCard>
+    );
+  }
+  return cardNode;
 }

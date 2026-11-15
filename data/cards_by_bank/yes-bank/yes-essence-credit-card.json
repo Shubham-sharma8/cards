@@ -156,7 +156,7 @@
     "domestic": {
       "visits_per_year": 4,
       "visits_per_quarter": 1,
-      "spend_criteria": "Rs. 25,000 or more in the previous quarter Fo",
+      "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Cardholders can avail 1 complimentary domestic airport lounge access per quarter by spending Rs. 25,000 or more in the previous quarter"

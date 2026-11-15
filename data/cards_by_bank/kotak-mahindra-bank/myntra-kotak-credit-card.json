@@ -155,7 +155,7 @@
     "domestic": {
       "visits_per_year": 4,
       "visits_per_quarter": 1,
-      "spend_criteria": "See Kotak Mahindra Bank T&C",
+      "spend_criteria": "Rs. 75,000 spend in previous calendar quarter",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "4 complimentary domestic airport lounge visits per year (1 per quarter)"

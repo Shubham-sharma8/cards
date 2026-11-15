@@ -91,7 +91,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": true,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "has_golf": true,
     "zero_or_low_forex": true,
     "zero_forex": false,
@@ -417,7 +417,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "No spend criteria (ZERO spend requirement in 2026!)",
+      "spend_criteria": "No spend criteria (ZERO spend requirement in 2026)",
       "add_on_allowed": true,
       "shared_limit": true,
       "summary": "8 domestic lounges/year (2/quarter) with ZERO spend requirement — LTF!"
@@ -438,7 +438,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": true,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "applicable_lounge_links": [
       {
         "program_id": "page_indusind_tiger_pp",

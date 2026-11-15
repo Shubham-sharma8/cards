@@ -2,11 +2,11 @@
   "bank": "Axis Bank",
   "bank_slug": "axis-bank",
   "generated_at": "2026-11-15T06:00:00+00:00",
-  "total_cards": 45,
+  "total_cards": 46,
   "ltf_count": 12,
   "rupay_upi_count": 4,
-  "domestic_lounge_count": 24,
-  "international_lounge_count": 11,
+  "domestic_lounge_count": 25,
+  "international_lounge_count": 12,
   "railway_lounge_count": 0,
   "zero_or_low_forex_count": 6,
   "with_image_count": 45,
@@ -480,6 +480,16 @@
       "overall_rating": 3.07,
       "json_path": "data/cards_by_bank/axis-bank/axis-bank-aura-credit-card.json",
       "md_path": "data/cards_by_bank/axis-bank/axis-bank-aura-credit-card.md"
+    },
+    {
+      "card_id": "credit_card_axis_bank_reserve_credit_card",
+      "card_name": "Axis Bank Reserve Credit Card",
+      "card_slug": "axis-bank-reserve-credit-card",
+      "primary_category": "Super-Premium",
+      "annual_fee_inr": 50000,
+      "overall_rating": 3.66,
+      "json_path": "data/cards_by_bank/onecard-co-branded/axis-bank-reserve-credit-card.json",
+      "md_path": "data/cards_by_bank/onecard-co-branded/axis-bank-reserve-credit-card.md"
     }
   ]
 }

@@ -384,7 +384,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See issuer T&C",
+      "spend_criteria": "Rs. 25,000 quarterly spend / RuPay network terms apply (2 visits/quarter)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "8 complimentary domestic airport lounge visits per year (2 per quarter)"

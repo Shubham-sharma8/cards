@@ -487,7 +487,7 @@
     "domestic": {
       "visits_per_year": 32,
       "visits_per_quarter": 8,
-      "spend_criteria": "See issuer T&C (Visa: 8/qtr, 32/yr; Mastercard: 6/qtr, 24/yr)",
+      "spend_criteria": "Rs. 50,000 spend in previous 3 calendar months (waived for 1st 3 months from issuance)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Up to 32 complimentary domestic airport lounge visits/year (8/quarter on Visa Signature; 24/year, 6/quarter on Mastercard World)"

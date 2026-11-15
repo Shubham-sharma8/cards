@@ -416,7 +416,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "Spend-based quarterly rule applies",
+      "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter",
       "add_on_allowed": false,
       "summary": "8 complimentary domestic airport lounge visits/yr (2/quarter, spend-linked)"
     },

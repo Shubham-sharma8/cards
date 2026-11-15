@@ -356,7 +356,7 @@
     "domestic": {
       "visits_per_year": 4,
       "visits_per_quarter": 1,
-      "spend_criteria": "Standard quarterly qualification",
+      "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter (Equitas Selfe T&C)",
       "add_on_allowed": false,
       "summary": "1 complimentary domestic airport lounge visit per quarter (4/year)"
     },

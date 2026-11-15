@@ -81,7 +81,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": true,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "has_golf": false,
     "zero_or_low_forex": true,
     "zero_forex": false,
@@ -165,7 +165,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 0,
-      "spend_criteria": "Monthly/quarterly spend criteria applies",
+      "spend_criteria": "No spend criteria for base 8/yr (plus 1 visit per Rs. 1,00,000 spent up to 15/yr)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Complimentary airport lounge access without any spend-based condition"
@@ -186,7 +186,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": true,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "applicable_lounge_links": [
       {
         "program_id": "sbi_elite",
@@ -1304,7 +1304,6 @@
     "sentiment_summary": "Community discussions around SBI Card Travel & Miles cards.",
     "key_threads": [],
     "practical_community_warnings": [
-      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
       "Quarterly spend thresholds for domestic airport lounge access",
       "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
       "Up to 1:1 point-to-mile conversion ratio for reward points redemption"

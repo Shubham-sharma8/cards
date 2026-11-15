@@ -3111,7 +3111,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "No strict high-spend tier",
+          "spend_criteria": "No spend criteria (4 domestic visits/yr, max 1/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 domestic Visa airport lounge visits/yr (1/quarter)"
@@ -5539,7 +5539,7 @@
         "domestic": {
           "visits_per_year": 6,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 60,000 spend in previous calendar quarter (HDFC Diners voucher program)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "6 complimentary airport lounge visits per year"
@@ -5832,7 +5832,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly spend / RuPay network terms apply (2 visits/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic airport lounge visits per year (2 per quarter)"
@@ -10499,7 +10499,7 @@
         "domestic": {
           "visits_per_year": 999,
           "visits_per_quarter": 999,
-          "spend_criteria": "Rs. 40,000 spend in previous quarter (for unlimited domestic lounge)",
+          "spend_criteria": "Rs. 75,000 spend in preceding calendar quarter (revised Jul/Oct 2026 BOBCARD T&C)",
           "add_on_allowed": true,
           "shared_limit": false,
           "summary": "Unlimited domestic lounges subject to Rs. 40k/quarter spend"
@@ -10644,7 +10644,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "Check AU spend-based updates (select tiers moved to spend criteria)",
+          "spend_criteria": "Rs. 50,000 spend in preceding calendar quarter for flights lounge (updated AU 2026 T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 domestic airport lounge visits/yr (2/quarter)"
@@ -10956,7 +10956,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "No spend criteria (ZERO spend requirement in 2026!)",
+          "spend_criteria": "No spend criteria (ZERO spend requirement in 2026)",
           "add_on_allowed": true,
           "shared_limit": true,
           "summary": "8 domestic lounges/year (2/quarter) with ZERO spend requirement — LTF!"
@@ -11970,7 +11970,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "Available on Visa Platinum variant",
+          "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter per issuer T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary domestic lounge visits per quarter (8/year) for Canara Visa Platinum primary holders"
@@ -12112,7 +12112,7 @@
         "domestic": {
           "visits_per_year": 3,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Discontinued recurring lounge benefit (legacy 3 introductory visits only)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "3 complimentary airport lounge access or 3 meal vouchers"
@@ -13872,7 +13872,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Airport Lounge Access : With this credit card, you can avail 8 free accesses to the domestic airport lounges."
@@ -13999,7 +13999,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "You can get 1 complimentary airport lounge access in a quarter."
@@ -14507,7 +14507,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Domestic Lounge Access: Get 1 domestic lounge access every quarter at major airports in India."
@@ -15010,7 +15010,7 @@
         "domestic": {
           "visits_per_year": 6,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Airport Lounge Access: Enjoy 6 free visits in a year at domestic airport lounges at major airports in India."
@@ -15134,7 +15134,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Airport Lounge Access : get a chance to have 8 complimentary access to domestic lounges at major airports in India."
@@ -15267,7 +15267,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "Check quarterly terms (4/yr max 1/qtr)",
+          "spend_criteria": "No spend criteria (4 domestic visits/yr, max 1/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 domestic airport lounge visits/yr (1/quarter)"
@@ -16173,7 +16173,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "Flight booking via AU Rewardz / spend condition per T&C",
+          "spend_criteria": "Rs. 50,000 quarterly spend or eligible AU Rewardz booking per T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per quarter on eligible flight bookings via AU Rewardz"
@@ -16626,7 +16626,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "See AU Zenith+ T&C",
+          "spend_criteria": "Rs. 50,000 spend in preceding calendar quarter (updated AU 2026 T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "16 complimentary domestic airport lounge visits per year (max 4 per quarter)"
@@ -17652,7 +17652,7 @@
         "domestic": {
           "visits_per_year": 32,
           "visits_per_quarter": 8,
-          "spend_criteria": "See issuer T&C (Visa: 8/qtr, 32/yr; Mastercard: 6/qtr, 24/yr)",
+          "spend_criteria": "Rs. 50,000 spend in previous 3 calendar months (waived for 1st 3 months from issuance)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Up to 32 complimentary domestic airport lounge visits/year (8/quarter on Visa Signature; 24/year, 6/quarter on Mastercard World)"
@@ -17939,7 +17939,7 @@
         "domestic": {
           "visits_per_year": 1,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 50,000 spend in previous 3 calendar months",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Yes, Axis Bank My Wings Credit Card offer complimentary domestic lounge visits."
@@ -18384,7 +18384,7 @@
         "domestic": {
           "visits_per_year": 32,
           "visits_per_quarter": 8,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 50,000 spend in previous 3 calendar months",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "32 complimentary domestic airport lounge visits per year (max 8 per quarter)"
@@ -18818,7 +18818,7 @@
         "domestic": {
           "visits_per_year": 999,
           "visits_per_quarter": 999,
-          "spend_criteria": "Rs. 40,000 in previous quarter",
+          "spend_criteria": "Rs. 75,000 spend in preceding calendar quarter (revised Jul/Oct 2026 BOBCARD T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Unlimited complimentary domestic airport lounge visits on spending Rs. 40,000 in previous quarter"
@@ -19265,7 +19265,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly retail spend per Bandhan Bank & Mastercard T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per quarter (16/year)"
@@ -19424,7 +19424,7 @@
         "domestic": {
           "visits_per_year": 32,
           "visits_per_quarter": 8,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "No spend criteria (8 domestic visits/quarter, unlimited international)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic airport lounge visits per quarter (32/year)"
@@ -19580,7 +19580,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See BOI RuPay Select T&C",
+          "spend_criteria": "Rs. 25,000 quarterly POS/Ecom spend per NPCI RuPay Select & BOI T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Up to 8 complimentary domestic airport lounge visits per year (max 2 per quarter)"
@@ -19715,7 +19715,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter per issuer T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 free Domestic Airport Lounge visits per quarter"
@@ -21103,7 +21103,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 50,000 spend in previous calendar quarter (verify HDFC co-brand schedule)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic airport lounge visits per year (max 2 per quarter)"
@@ -21409,7 +21409,7 @@
         "domestic": {
           "visits_per_year": 6,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 60,000 spend in previous calendar quarter (HDFC Diners voucher program)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "6 complimentary airport lounge visits per year"
@@ -22614,7 +22614,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "No spend criteria (First Citizen Black bundled tier)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "16 complimentary domestic airport lounge visits per year (max 4 per quarter)"
@@ -23066,7 +23066,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "See Adani One / ICICI T&C",
+          "spend_criteria": "Rs. 75,000 spend in preceding calendar quarter (4 domestic visits/quarter, primary only)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "16 complimentary domestic airport lounge visits per year (4 per quarter)"
@@ -25340,7 +25340,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 20,000 spend in previous calendar month (4/qtr incl. 1 guest)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per quarter, including 1 guest visit3"
@@ -26524,7 +26524,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 50,000–1,50,000 quarterly spend per IndusInd Apr 2026 terms (Visa Infinite tier)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary visits per calendar quarter in any of the participating domestic lounges"
@@ -27480,7 +27480,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter per issuer T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits"
@@ -27612,7 +27612,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 75,000 spend in previous calendar quarter (eff. Jun 2025)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Up to 8 complimentary domestic airport lounge visits per year (2 per quarter)"
@@ -27914,7 +27914,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 75,000 spend in previous calendar quarter (eff. Jun 2025)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per year (max 2 per quarter)"
@@ -28058,7 +28058,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 75,000 spend in previous calendar quarter (eff. Jun 2025)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per year (max 2 per quarter)"
@@ -28339,7 +28339,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 75,000 spend in previous calendar quarter (eff. Jun 2025)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary domestic airport lounge access"
@@ -28641,7 +28641,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 75,000 spend in previous calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Airport Lounge Access- 8 Complimentary Airport Lounge access annually, i.e. 2 lounge access per calendar quarter within India"
@@ -28931,7 +28931,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See Kotak Mahindra Bank T&C",
+          "spend_criteria": "No spend criteria (8 domestic visits/yr, 2/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic airport lounge visits per year (2 per quarter)"
@@ -29351,7 +29351,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See Kotak Mahindra Bank T&C",
+          "spend_criteria": "Rs. 75,000 spend in previous calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per year (1 per quarter)"
@@ -29573,7 +29573,7 @@
     {
       "card_id": "credit_card_axis_bank_reserve_credit_card",
       "card_name": "Axis Bank Reserve Credit Card",
-      "bank": "OneCard / Co-branded",
+      "bank": "Axis Bank",
       "card_network": "Visa / Mastercard",
       "card_tier": "Super-Premium",
       "primary_category": "Super-Premium",
@@ -29793,7 +29793,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C (Select variant eligible; Platinum excludes complimentary visits)",
+          "spend_criteria": "Rs. 25,000 quarterly POS/Ecom spend on Select variant (Platinum excluded)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary domestic airport lounge visits per quarter (8/year on Select variant) + 4 international lounge visits/year"
@@ -30079,7 +30079,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Airport Lounge Access: Cardholders get 4 complimentary visits in a year to domestic lounges at the Airport"
@@ -30360,7 +30360,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Airport Lounge Access: Get 2 complimentary visits every calendar quarter at domestic lounges at all major airports in India."
@@ -30657,7 +30657,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See SBI Visa Lounge T&C",
+          "spend_criteria": "No spend criteria (4 domestic visits/yr, max 1/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic Visa airport lounge visits per year (max 2 per quarter)"
@@ -30790,7 +30790,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See SBI Visa Lounge T&C",
+          "spend_criteria": "No spend criteria (8 domestic visits/yr, max 2/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic Visa airport lounge visits per year (max 2 per quarter)"
@@ -31232,7 +31232,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "Monthly/quarterly spend criteria applies",
+          "spend_criteria": "Rs. 1,00,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Spend-based condition on domestic lounge access"
@@ -31388,7 +31388,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 50,000 spend in preceding quarter (verify co-brand T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic airport lounge visits per year (max 2 per quarter)"
@@ -31541,7 +31541,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See SBI Card T&C",
+          "spend_criteria": "No spend criteria (4 domestic visits/yr, max 1/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per year (max 1 per quarter)"
@@ -31855,7 +31855,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 50,000 quarterly spend or active tier condition per T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per year"
@@ -32006,7 +32006,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 50,000 quarterly spend per co-brand T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary airport lounge access : 8 lounge access visits per year to domestic MasterCard lounges in India (restricted to up to 2 visits per quarter)"
@@ -32146,7 +32146,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 50,000 quarterly spend per co-brand T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary lounge access : 8 complimentary airport lounge access visits in a year to domestic MasterCard lounges in India (restricted to maximum 2 visits per quarter)"
@@ -32285,7 +32285,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "No spend criteria (8/yr, max 2/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic airport lounge visits per year (2 per quarter)"
@@ -32856,7 +32856,7 @@
         "domestic": {
           "visits_per_year": 2,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "No spend criteria (2 domestic lounge visits/calendar year)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary domestic lounge access"
@@ -33006,7 +33006,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "No strict high threshold",
+          "spend_criteria": "No spend criteria domestically (Rs. 20,000/month prior spend for Int'l Priority Pass)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 domestic airport lounge visits/quarter"
@@ -33797,7 +33797,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly POS/Ecom spend per NPCI RuPay Select & Union T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary domestic airport lounge visits per quarter (8/year)"
@@ -33936,7 +33936,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 25,000 quarterly spend per Union Bank & JCB lounge T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary domestic lounge visits per quarter"
@@ -34076,7 +34076,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly spend per Union Bank & JCB lounge T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Up to 8 complimentary domestic airport lounge visits per year (max 2 per quarter)"
@@ -34211,7 +34211,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 50,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "However you can avail domestic lounge access up to 2 visits per quarter."
@@ -34641,7 +34641,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "Rs. 25,000 or more in the previous quarter Fo",
+          "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Cardholders can avail 1 complimentary domestic airport lounge access per quarter by spending Rs. 25,000 or more in the previous quarter"
@@ -34787,7 +34787,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 50,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Domestic Lounge Access: Get 1 complimentary domestic airport lounge access per quarter, valid only for primary members."
@@ -37776,7 +37776,7 @@
         "domestic": {
           "visits_per_year": 3,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter per issuer T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "3 complimentary domestic airport lounge visits per year (1 per quarter)"
@@ -46035,7 +46035,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "Available on PNB Patanjali RuPay Select variant",
+          "spend_criteria": "Rs. 25,000 quarterly spend on PNB Patanjali RuPay Select variant",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary domestic airport lounge access on Select variant (2/quarter)"
@@ -46168,7 +46168,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly spend per PNB / network lounge T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Domestic and international airport lounge access program (2 domestic/quarter via RuPay Select)"
@@ -46424,7 +46424,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See RuPay Select issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly POS/Ecom spend per NPCI RuPay Select & PNB T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary domestic airport lounge access (2 visits/quarter under RuPay Select)"
@@ -46558,7 +46558,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly spend per PNB / network lounge T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary domestic airport lounge visits (2/quarter)"
@@ -47083,7 +47083,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 free domestic airport lounge visits per quarter (8/year)"
@@ -48811,7 +48811,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 50,000 spend in preceding quarter (verify business card T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic airport lounge visits per year (max 2 per quarter)"
@@ -50612,7 +50612,7 @@
         "domestic": {
           "visits_per_year": 2,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 50,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary domestic airport lounge access (1-2 visits/year)"
@@ -54601,7 +54601,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 50,000 spend in previous 3 calendar months",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "16 complimentary domestic airport lounge visits per year (max 4 per quarter)"
@@ -56092,7 +56092,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly retail spend per Bandhan Bank & Mastercard T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per year (1 per quarter)"
@@ -56245,7 +56245,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly retail spend per Bandhan Bank & Mastercard T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "1 complimentary domestic airport lounge visit every quarter (4/year)"
@@ -56549,7 +56549,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "Varies by variant (1/qtr on Spark5/10; 2/qtr on Spark20)",
+          "spend_criteria": "Rs. 20,000 spend in preceding calendar quarter (variant dependent)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Up to 8 domestic airport lounge visits/year (1/quarter on Spark5/10, 2/quarter on Spark20)"
@@ -56688,7 +56688,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "Rs, 40",
+          "spend_criteria": "Rs. 40,000 spend in preceding calendar quarter (Federal Bank T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Yes, the card offers 2 complimentary domestic airport lounge visits per quarter, totaling up to 8 annually, subject to a minimum spend of Rs, 40,000 in the previous quarter."
@@ -59060,7 +59060,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See Adani One Platinum T&C",
+          "spend_criteria": "Rs. 75,000 spend in preceding calendar quarter (2 domestic visits/quarter, primary only)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary domestic airport lounge visits per quarter (8/year) + 2 lounge upgrades/quarter"
@@ -59660,7 +59660,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See ICICI Parakram Select T&C",
+          "spend_criteria": "Rs. 75,000 spend in preceding calendar quarter (updated ICICI T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary domestic airport lounge visits every quarter (8/year)"
@@ -61495,7 +61495,7 @@
         "domestic": {
           "visits_per_year": 0,
           "visits_per_quarter": 0,
-          "spend_criteria": "Not Applicable",
+          "spend_criteria": "Rs. 75,000 spend in previous calendar quarter (eff. Jun 2025)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "No domestic airport lounge access"
@@ -62533,7 +62533,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See Kotak Privy T&C",
+          "spend_criteria": "Rs. 75,000 spend in previous calendar quarter (eff. Jun 2025)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary domestic airport lounge visits per quarter (8/year) via DreamFolks"
@@ -63285,7 +63285,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 quarterly spend per PNB / network lounge T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary domestic airport lounge visits"
@@ -64062,7 +64062,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Up to 8 complimentary domestic airport lounge visits/year (max 2 per quarter)"
@@ -64359,7 +64359,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Up to 8 complimentary domestic airport lounge visits/year (max 2 per quarter)"
@@ -64818,7 +64818,7 @@
         "domestic": {
           "visits_per_year": 12,
           "visits_per_quarter": 3,
-          "spend_criteria": "See RBL Bank T&C",
+          "spend_criteria": "Rs. 20,000 spend in preceding calendar quarter (check RBL Nova T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "12 complimentary domestic airport lounge visits per year"
@@ -65399,7 +65399,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "No spend criteria (4/yr, max 1/quarter)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 free domestic airport lounge visits yearly (max 1 per quarter)"
@@ -66572,7 +66572,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "Monthly/quarterly spend criteria applies",
+          "spend_criteria": "No spend criteria for base 8/yr (plus 1 visit per Rs. 1,00,000 spent up to 15/yr)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Complimentary airport lounge access without any spend-based condition"
@@ -68344,7 +68344,7 @@
         "domestic": {
           "visits_per_year": 16,
           "visits_per_quarter": 4,
-          "spend_criteria": "Standard Chartered Priority Banking card",
+          "spend_criteria": "Rs. 20,000 spend in previous month + active Priority Banking status",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per quarter (16/year)"
@@ -68494,7 +68494,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter per issuer T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "Up to 4 complimentary domestic airport lounge visits per year (capped at 1 visit per quarter)"
@@ -69060,7 +69060,7 @@
         "domestic": {
           "visits_per_year": 4,
           "visits_per_quarter": 1,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 25,000 spend in preceding calendar quarter per issuer T&C",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "4 complimentary domestic airport lounge visits per calendar year"
@@ -70238,7 +70238,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 75,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "8 complimentary domestic airport lounge visits per year (max 2 per quarter)"
@@ -70389,7 +70389,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 2,
-          "spend_criteria": "See issuer T&C",
+          "spend_criteria": "Rs. 75,000 spend in preceding calendar quarter",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "2 complimentary domestic airport lounge visits per quarter (8/year)"
@@ -70535,7 +70535,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 20,000 spend in preceding calendar quarter (verify AU corporate T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "The card offers 8 complimentary domestic airport lounge visits annually, with a cap of 2 visits per quarter."
@@ -70963,7 +70963,7 @@
         "domestic": {
           "visits_per_year": 8,
           "visits_per_quarter": 0,
-          "spend_criteria": "See issuer T&C (spend criteria may apply)",
+          "spend_criteria": "Rs. 20,000 spend in preceding calendar quarter (verify AU corporate T&C)",
           "add_on_allowed": false,
           "shared_limit": false,
           "summary": "The Visa variant of the card offers 8 complimentary domestic airport lounge visits in a year, subject to a maximum of 2 visits per calendar quarter."

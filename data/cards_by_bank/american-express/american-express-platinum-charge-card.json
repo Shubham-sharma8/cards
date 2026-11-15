@@ -1069,6 +1069,16 @@
         "google_rating": 4.2
       },
       {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL_PRIVE_T3I",
+        "lounge_name": "Encalm Privé International Lounge",
+        "terminal": "Terminal 3 (T3I International)",
+        "terminal_type": "International",
+        "matched_network": "Amex",
+        "google_rating": 4.3
+      },
+      {
         "city": "Mumbai",
         "airport_code": "BOM",
         "lounge_code": "BOM04",
@@ -1087,11 +1097,31 @@
         "terminal_type": "International",
         "matched_network": "Amex",
         "google_rating": 4.1
+      },
+      {
+        "city": "Hyderabad",
+        "airport_code": "HYD",
+        "lounge_code": "HYD_PRIVE_I",
+        "lounge_name": "Encalm Privé Lounge (International)",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Amex",
+        "google_rating": 4.9
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR_PRIVE_T2",
+        "lounge_name": "080 VIP / Privé Lounge (Terminal 2)",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "matched_network": "Amex",
+        "google_rating": 4.7
       }
     ],
-    "participating_lounges_count": 81,
+    "participating_lounges_count": 84,
     "domestic_lounge_accessible_count": 57,
-    "international_lounge_accessible_count": 24,
+    "international_lounge_accessible_count": 27,
     "accessible_lounge_codes": [
       "IXA1",
       "AMD01",
@@ -1172,8 +1202,11 @@
       "BOM_T2D",
       "BOM_T2I",
       "DEL_AMEX_T3",
+      "DEL_PRIVE_T3I",
       "BOM04",
-      "BOM_AMEX_T2"
+      "BOM_AMEX_T2",
+      "HYD_PRIVE_I",
+      "BLR_PRIVE_T2"
     ],
     "accessible_golf_slugs": [
       "ahmedabad-glade-one-golf-resort-club",

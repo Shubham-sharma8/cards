@@ -137,7 +137,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See issuer T&C (Select variant eligible; Platinum excludes complimentary visits)",
+      "spend_criteria": "Rs. 25,000 quarterly POS/Ecom spend on Select variant (Platinum excluded)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "2 complimentary domestic airport lounge visits per quarter (8/year on Select variant) + 4 international lounge visits/year"

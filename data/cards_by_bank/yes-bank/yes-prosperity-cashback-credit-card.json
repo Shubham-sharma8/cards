@@ -153,7 +153,7 @@
     "domestic": {
       "visits_per_year": 4,
       "visits_per_quarter": 1,
-      "spend_criteria": "See issuer T&C (spend criteria may apply)",
+      "spend_criteria": "Rs. 50,000 spend in preceding calendar quarter",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Domestic Lounge Access: Get 1 complimentary domestic airport lounge access per quarter, valid only for primary members."

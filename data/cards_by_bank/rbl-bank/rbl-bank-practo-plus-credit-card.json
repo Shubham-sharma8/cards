@@ -138,7 +138,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See issuer T&C",
+      "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "2 free domestic airport lounge visits per quarter (8/year)"

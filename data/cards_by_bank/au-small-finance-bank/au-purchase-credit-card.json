@@ -156,7 +156,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 0,
-      "spend_criteria": "See issuer T&C (spend criteria may apply)",
+      "spend_criteria": "Rs. 20,000 spend in preceding calendar quarter (verify AU corporate T&C)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "The Visa variant of the card offers 8 complimentary domestic airport lounge visits in a year, subject to a maximum of 2 visits per calendar quarter."

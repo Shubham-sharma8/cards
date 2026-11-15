@@ -1418,16 +1418,6 @@
         "google_rating": 4.6
       },
       {
-        "city": "New Delhi",
-        "airport_code": "DEL",
-        "lounge_code": "DEL_PRIVE_T3I",
-        "lounge_name": "Encalm Privé International Lounge",
-        "terminal": "Terminal 3 (T3I International)",
-        "terminal_type": "International",
-        "matched_network": "Diners Club",
-        "google_rating": 4.3
-      },
-      {
         "city": "Mumbai",
         "airport_code": "BOM",
         "lounge_code": "BOM04",
@@ -1450,42 +1440,12 @@
       {
         "city": "Mumbai",
         "airport_code": "BOM",
-        "lounge_code": "BOM_PRIVE_T2I",
-        "lounge_name": "Adani Business / Privé Lounge (T2 International)",
-        "terminal": "Terminal 2 (T2I International)",
-        "terminal_type": "International",
-        "matched_network": "Diners Club",
-        "google_rating": 4.6
-      },
-      {
-        "city": "Mumbai",
-        "airport_code": "BOM",
         "lounge_code": "BOM_LOYALTY_T2I",
         "lounge_name": "Loyalty Lounge (Terminal 2)",
         "terminal": "Terminal 2 (T2I International)",
         "terminal_type": "International",
         "matched_network": "Diners Club",
         "google_rating": 3.7
-      },
-      {
-        "city": "Hyderabad",
-        "airport_code": "HYD",
-        "lounge_code": "HYD_PRIVE_I",
-        "lounge_name": "Encalm Privé Lounge (International)",
-        "terminal": "International Terminal",
-        "terminal_type": "International",
-        "matched_network": "Diners Club",
-        "google_rating": 4.9
-      },
-      {
-        "city": "Bengaluru",
-        "airport_code": "BLR",
-        "lounge_code": "BLR_PRIVE_T2",
-        "lounge_name": "080 VIP / Privé Lounge (Terminal 2)",
-        "terminal": "Terminal 2",
-        "terminal_type": "International",
-        "matched_network": "Diners Club",
-        "google_rating": 4.7
       },
       {
         "city": "Kochi",
@@ -1498,9 +1458,9 @@
         "google_rating": 4.6
       }
     ],
-    "participating_lounges_count": 86,
+    "participating_lounges_count": 82,
     "domestic_lounge_accessible_count": 56,
-    "international_lounge_accessible_count": 30,
+    "international_lounge_accessible_count": 26,
     "accessible_lounge_codes": [
       "IXA1",
       "AMD01",
@@ -1580,13 +1540,9 @@
       "BOM02",
       "BOM_T2D",
       "BOM_T2I",
-      "DEL_PRIVE_T3I",
       "BOM04",
       "BOM05",
-      "BOM_PRIVE_T2I",
       "BOM_LOYALTY_T2I",
-      "HYD_PRIVE_I",
-      "BLR_PRIVE_T2",
       "COK_EARTH"
     ],
     "accessible_golf_slugs": [

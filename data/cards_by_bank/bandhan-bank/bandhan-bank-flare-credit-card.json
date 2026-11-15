@@ -158,7 +158,7 @@
     "domestic": {
       "visits_per_year": 16,
       "visits_per_quarter": 4,
-      "spend_criteria": "See issuer T&C",
+      "spend_criteria": "Rs. 25,000 quarterly retail spend per Bandhan Bank & Mastercard T&C",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "4 complimentary domestic airport lounge visits per quarter (16/year)"

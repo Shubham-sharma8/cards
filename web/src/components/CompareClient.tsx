@@ -36,6 +36,7 @@ import { BankLogo } from "./BankLogo";
 import { CardArtwork } from "./CardArtwork";
 import { useCompare } from "./CompareContext";
 import { CategoryMultiBarChart } from "./AnalyticsCharts";
+import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 
 interface CompareClientProps {
   initialCards: CardDossier[];
@@ -252,14 +253,20 @@ export function CompareClient({ initialCards }: CompareClientProps) {
                       href={`/${c.identity.bank_slug}/${c.identity.card_slug}`}
                       className="flex flex-col gap-3 group"
                     >
-                      <CardArtwork
-                        localImagePath={c.visual_assets.local_image_path}
-                        cardName={c.identity.card_name}
-                        bank={c.identity.bank}
-                        network={c.identity.card_network}
-                        cardTheme={c.visual_assets.card_theme}
-                        size="md"
-                      />
+                      <CardContainer tiltDivisor={16} containerClassName="justify-start">
+                        <CardBody>
+                          <CardItem translateZ={36}>
+                            <CardArtwork
+                              localImagePath={c.visual_assets.local_image_path}
+                              cardName={c.identity.card_name}
+                              bank={c.identity.bank}
+                              network={c.identity.card_network}
+                              cardTheme={c.visual_assets.card_theme}
+                              size="md"
+                            />
+                          </CardItem>
+                        </CardBody>
+                      </CardContainer>
                       <div>
                         <span className="inline-flex items-center gap-1.5 text-[11.5px] text-[#717882] font-normal">
                           <BankLogo bankSlug={c.identity.bank_slug} bank={c.identity.bank} size="xs" />

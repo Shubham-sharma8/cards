@@ -157,7 +157,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See Adani One Platinum T&C",
+      "spend_criteria": "Rs. 75,000 spend in preceding calendar quarter (2 domestic visits/quarter, primary only)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "2 complimentary domestic airport lounge visits per quarter (8/year) + 2 lounge upgrades/quarter"

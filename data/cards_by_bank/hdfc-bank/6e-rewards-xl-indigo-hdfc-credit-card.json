@@ -146,7 +146,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See issuer T&C",
+      "spend_criteria": "Rs. 50,000 spend in previous calendar quarter (verify HDFC co-brand schedule)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "8 complimentary domestic airport lounge visits per year (max 2 per quarter)"

@@ -23,7 +23,6 @@ import {
   Plane,
   Plus,
   Receipt,
-  Search,
   Share2,
   ShieldAlert,
   Sparkles,
@@ -61,6 +60,7 @@ import { calmTransition, fastTransition } from "@/lib/motion";
 import { BankLogo } from "./BankLogo";
 import { Interactive3DCardModel } from "./Interactive3DCardModel";
 import { useCompare } from "./CompareContext";
+import { GooeySearchInput } from "./ui/gooey-input";
 import {
   CanvaFeatureIcon,
   CanvaFeaturePill,
@@ -2160,14 +2160,13 @@ export function CardDossierClient({
                     </p>
                   </div>
                   {combinedIndianLounges.length > 0 && (
-                    <div className="relative w-full sm:w-72">
-                      <Search className="w-4 h-4 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2" aria-hidden="true" />
-                      <input
-                        type="text"
+                    <div className="w-full sm:w-72">
+                      <GooeySearchInput
+                        mode="bar"
                         value={loungeQuery}
-                        onChange={(e) => setLoungeQuery(e.target.value)}
+                        onValueChange={setLoungeQuery}
                         placeholder="Filter by city, terminal, lounge..."
-                        className="w-full pl-9 pr-3 py-2 text-[13px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
+                        ariaLabel="Filter accessible Indian lounges"
                       />
                     </div>
                   )}

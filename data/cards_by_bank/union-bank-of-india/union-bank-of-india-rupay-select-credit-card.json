@@ -141,7 +141,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See issuer T&C",
+      "spend_criteria": "Rs. 25,000 quarterly POS/Ecom spend per NPCI RuPay Select & Union T&C",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "2 complimentary domestic airport lounge visits per quarter (8/year)"

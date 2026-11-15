@@ -139,7 +139,7 @@
     "domestic": {
       "visits_per_year": 6,
       "visits_per_quarter": 0,
-      "spend_criteria": "See issuer T&C (spend criteria may apply)",
+      "spend_criteria": "Rs. 35,000 spend in preceding calendar quarter (RBL Bank T&C)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Airport Lounge Access: Enjoy 6 free visits in a year at domestic airport lounges at major airports in India."

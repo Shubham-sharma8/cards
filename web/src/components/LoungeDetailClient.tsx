@@ -15,9 +15,9 @@ import {
   MessageSquareQuote,
   Plane,
   QrCode,
-  Search,
   ShieldAlert,
   Star,
+  Table2,
   Wallet,
 } from "lucide-react";
 import type {
@@ -29,6 +29,9 @@ import { formatFeeDisplay } from "@/lib/format";
 import { resolveMediaUrl } from "@/lib/mediaCdn";
 import { BankLogo } from "./BankLogo";
 import { useCompare } from "./CompareContext";
+import { CometCard } from "./ui/comet-card";
+import { GooeySearchInput } from "./ui/gooey-input";
+import { useExpandableCard } from "./ui/expandable-card";
 
 interface LoungeDetailClientProps {
   loungeSpot: ParticipatingAirportLoungeSpot | null;
@@ -42,6 +45,7 @@ export function LoungeDetailClient({
   allCards,
 }: LoungeDetailClientProps) {
   const { ownedIds } = useCompare();
+  const { openCard } = useExpandableCard();
   const isGolf = Boolean(golfClub);
   const venue = loungeSpot || golfClub;
 
@@ -148,40 +152,56 @@ export function LoungeDetailClient({
     const fee = formatFeeDisplay(c.joining_fee_inr, c.annual_fee_inr);
     const inWallet = ownedIds.includes(c.card_id);
     return (
-      <Link
-        key={c.card_id}
-        href={`/${c.bank_slug}/${c.card_slug}`}
-        className={`flex items-center justify-between gap-3 rounded-xl border p-3.5 transition-colors ${
-          inWallet
-            ? "bg-[#EEF5F2] border-[#93C9B5] hover:bg-[#E2EFEA]"
-            : "bg-[#FAF9F6] border-[#E4E4DF] hover:border-[#0F5C4D]"
-        }`}
-      >
-        <div className="flex items-center gap-3 min-w-0">
-          <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="sm" />
-          <div className="min-w-0">
-            <div className="flex items-center gap-2">
-              <p className="text-[13.5px] font-medium text-[#1A1D21] truncate">
-                {c.card_name}
+      <CometCard key={c.card_id} rotateDepth={5} translateDepth={4}>
+        <div
+          className={`flex items-center justify-between gap-2.5 rounded-xl border p-3.5 transition-colors h-full ${
+            inWallet
+              ? "bg-[#EEF5F2] border-[#93C9B5] hover:bg-[#E2EFEA]"
+              : "bg-[#FAF9F6] border-[#E4E4DF] hover:border-[#0F5C4D]"
+          }`}
+        >
+          <Link href={`/${c.bank_slug}/${c.card_slug}`} className="flex items-center gap-3 min-w-0 flex-1">
+            <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="sm" />
+            <div className="min-w-0">
+              <div className="flex items-center gap-2">
+                <p className="text-[13.5px] font-medium text-[#1A1D21] truncate">
+                  {c.card_name}
+                </p>
+                {inWallet && (
+                  <span className="shrink-0 text-[10.5px] font-semibold bg-[#0F5C4D] text-white px-2 py-0.5 rounded-full">
+                    In My Cards
+                  </span>
+                )}
+              </div>
+              <p className="text-[12px] text-[#717882] truncate">
+                {c.bank} · {c.card_network} · {fee.primaryText}
               </p>
-              {inWallet && (
-                <span className="shrink-0 text-[10.5px] font-semibold bg-[#0F5C4D] text-white px-2 py-0.5 rounded-full">
-                  In My Cards
-                </span>
+              {spendNote && (
+                <p className="text-[11.5px] text-[#9A5B13] font-medium mt-0.5">
+                  {spendNote}
+                </p>
               )}
             </div>
-            <p className="text-[12px] text-[#717882] truncate">
-              {c.bank} · {c.card_network} · {fee.primaryText}
-            </p>
-            {spendNote && (
-              <p className="text-[11.5px] text-[#9A5B13] font-medium mt-0.5">
-                {spendNote}
-              </p>
-            )}
+          </Link>
+          <div className="flex items-center gap-1.5 shrink-0">
+            <button
+              type="button"
+              onClick={() => openCard(c)}
+              title={`Quick tables for ${c.card_name}`}
+              className="inline-flex items-center gap-1 text-[11.5px] font-medium text-[#1A1D21] bg-white border border-[#E4E4DF] hover:border-[#0F5C4D] px-2 py-1 rounded-lg cursor-pointer"
+            >
+              <Table2 className="w-3.5 h-3.5 text-[#0F5C4D]" aria-hidden="true" />
+              <span className="hidden sm:inline">Tables</span>
+            </button>
+            <Link
+              href={`/${c.bank_slug}/${c.card_slug}`}
+              className="text-[12px] font-medium text-[#0F5C4D] hover:underline whitespace-nowrap"
+            >
+              View →
+            </Link>
           </div>
         </div>
-        <span className="text-[12px] font-medium text-[#0F5C4D] shrink-0">View →</span>
-      </Link>
+      </CometCard>
     );
   };
 
@@ -478,14 +498,13 @@ export function LoungeDetailClient({
               Zero-spend and low-spend (&lt; ₹15,000) cards are shown first. Cards requiring ₹15,000+ spend are tucked inside the expandable list below.
             </p>
           </div>
-          <div className="relative w-full sm:w-72">
-            <Search className="w-4 h-4 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2" />
-            <input
-              type="text"
+          <div className="w-full sm:w-80">
+            <GooeySearchInput
+              mode="bar"
               value={cardQuery}
-              onChange={(e) => setCardQuery(e.target.value)}
+              onValueChange={setCardQuery}
               placeholder="Filter bank, card, Visa / RuPay..."
-              className="w-full pl-9 pr-3 py-2 text-[13px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl focus:outline-none focus:border-[#0F5C4D]"
+              ariaLabel="Filter accepted cards"
             />
           </div>
         </div>

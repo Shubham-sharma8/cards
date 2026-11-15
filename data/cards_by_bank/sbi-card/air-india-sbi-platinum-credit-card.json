@@ -71,7 +71,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": false,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "has_golf": false,
     "zero_or_low_forex": false,
     "zero_forex": false,
@@ -151,7 +151,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See SBI Visa Lounge T&C",
+      "spend_criteria": "No spend criteria (4 domestic visits/yr, max 1/quarter)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "8 complimentary domestic Visa airport lounge visits per year (max 2 per quarter)"
@@ -172,7 +172,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": false,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "applicable_lounge_links": [
       {
         "program_id": "sbi_prime",

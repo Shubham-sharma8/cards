@@ -16,7 +16,6 @@ import {
   Phone,
   Plane,
   QrCode,
-  Search,
   Star,
   Train,
   X,
@@ -42,6 +41,16 @@ import { fastTransition, LEDGER_EASE, springGentle } from "@/lib/motion";
 import { BankLogo } from "./BankLogo";
 import { useCompare } from "./CompareContext";
 import { LedgerCardItem } from "./LedgerCardItem";
+import { CometCard } from "./ui/comet-card";
+import { GooeySearchInput } from "./ui/gooey-input";
+import {
+  BankModalTrigger,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalFooter,
+  useModal,
+} from "./ui/animated-modal";
 
 interface LoungesClientProps {
   catalog: LoungeCatalogPayload;
@@ -419,15 +428,14 @@ export function LoungesClient({
         </div>
 
         {(viewMode === "programs" || viewMode === "spots" || viewMode === "matrix") && (
-          <div className="flex flex-col sm:flex-row gap-2.5 flex-1 lg:max-w-lg">
-            <div className="relative flex-1">
-              <Search className="w-4 h-4 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2" aria-hidden="true" />
-              <input
-                type="text"
+          <div className="flex flex-col sm:flex-row gap-2.5 flex-1 lg:max-w-lg items-stretch sm:items-center">
+            <div className="flex-1">
+              <GooeySearchInput
+                mode="bar"
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onValueChange={setQuery}
                 placeholder="Search city (Delhi, Mumbai), lounge, or bank..."
-                className="w-full pl-9 pr-3 py-2 text-[13.5px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
+                ariaLabel="Search city, lounge, or bank"
               />
             </div>
             <select
@@ -503,25 +511,14 @@ export function LoungesClient({
                 </span>
               </div>
 
-              <div className="relative">
-                <Search className="w-4 h-4 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2" aria-hidden="true" />
-                <input
-                  type="text"
+              <div>
+                <GooeySearchInput
+                  mode="bar"
                   value={airportQuery}
-                  onChange={(e) => setAirportQuery(e.target.value)}
+                  onValueChange={setAirportQuery}
                   placeholder="Search Delhi, Mumbai, Privé, 080, Goa, Noida DXN, NMI..."
-                  className="w-full pl-9 pr-8 py-2 text-[13.5px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
+                  ariaLabel="Search Indian airport hub or lounge"
                 />
-                {airportQuery && (
-                  <button
-                    type="button"
-                    onClick={() => setAirportQuery("")}
-                    aria-label="Clear airport search"
-                    className="absolute right-2.5 top-1/2 -translate-y-1/2 text-[#717882] hover:text-[#1A1D21] cursor-pointer"
-                  >
-                    <X className="w-4 h-4" />
-                  </button>
-                )}
               </div>
 
               {!airportQuery && (
@@ -701,6 +698,11 @@ export function LoungesClient({
               </div>
 
               <div className="flex flex-wrap items-center gap-2.5">
+                <LoungeCardSelectorModal
+                  allCards={allCards}
+                  focusedCard={focusedCard}
+                  onSelectCard={(id) => setFocusedCardId(id)}
+                />
                 <Link
                   href={`/lounges/guide?airport=${encodeURIComponent(airportReport.airportCode)}`}
                   className="inline-flex items-center gap-1.5 min-h-[40px] px-3.5 py-1.5 rounded-lg bg-[#EEF5F2] border border-[#0F5C4D]/25 text-[#0F5C4D] text-[13px] font-medium hover:bg-[#E2EFE9] transition-colors"
@@ -1022,24 +1024,23 @@ export function LoungesClient({
                     Live Google Maps scores, total reviews, and real course photos across major Indian golf clubs.
                   </p>
                 </div>
-                <div className="relative w-full sm:w-64">
-                  <Search className="w-4 h-4 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2" aria-hidden="true" />
-                  <input
-                    type="text"
+                <div className="w-full sm:w-72">
+                  <GooeySearchInput
+                    mode="bar"
                     value={golfCourseQuery}
-                    onChange={(e) => setGolfCourseQuery(e.target.value)}
+                    onValueChange={setGolfCourseQuery}
                     placeholder="Filter city or golf club..."
-                    className="w-full pl-9 pr-3 py-1.5 text-[13px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
+                    ariaLabel="Filter city or golf club"
                   />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {filteredGolfClubs.map((club) => (
-                  <div
-                    key={club.slug}
-                    className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl overflow-hidden flex flex-col justify-between"
-                  >
+                  <CometCard key={club.slug} rotateDepth={4} translateDepth={4}>
+                    <div
+                      className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl overflow-hidden flex flex-col justify-between h-full"
+                    >
                     <div className="relative h-40 w-full bg-[#EFECE5] overflow-hidden">
                       <Image
                         src={
@@ -1102,6 +1103,7 @@ export function LoungesClient({
                       </div>
                     </div>
                   </div>
+                  </CometCard>
                 ))}
               </div>
             </div>
@@ -1191,13 +1193,15 @@ export function LoungesClient({
                         <h4 className="text-[13.5px] font-medium text-[#1A1D21]">
                           Mastercard India Participating Golf Courses
                         </h4>
-                        <input
-                          type="text"
-                          value={golfCourseQuery}
-                          onChange={(e) => setGolfCourseQuery(e.target.value)}
-                          placeholder="Filter city or golf club..."
-                          className="px-2.5 py-1 text-[12px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-md focus:outline-none focus:border-[#0F5C4D]"
-                        />
+                        <div className="w-full sm:w-64">
+                          <GooeySearchInput
+                            mode="bar"
+                            value={golfCourseQuery}
+                            onValueChange={setGolfCourseQuery}
+                            placeholder="Filter city or golf club..."
+                            ariaLabel="Filter Mastercard golf courses"
+                          />
+                        </div>
                       </div>
                       <div className="space-y-2.5 max-h-72 overflow-y-auto pr-1">
                         {g.courseGroups.map((grp) => {
@@ -1497,12 +1501,151 @@ export function LoungesClient({
                 transition={fastTransition}
                 className="h-full"
               >
-                <LedgerCardItem card={card} />
+                <LedgerCardItem card={card} variant="comet" />
               </motion.div>
             ))}
           </AnimatePresence>
         </div>
       )}
     </div>
+  );
+}
+
+function LoungeCardSelectorModal({
+  allCards,
+  focusedCard,
+  onSelectCard,
+}: {
+  allCards: CardSummaryItem[];
+  focusedCard: CardSummaryItem | null;
+  onSelectCard: (cardId: string | null) => void;
+}) {
+  return (
+    <Modal>
+      <BankModalTrigger
+        label={focusedCard ? `Testing: ${focusedCard.card_name.slice(0, 18)}` : "Select Card"}
+        bankSlug={focusedCard?.bank_slug}
+        bank={focusedCard?.bank || "HDFC Bank"}
+        className="min-h-[40px]"
+      />
+      <LoungeCardSelectorModalBody
+        allCards={allCards}
+        focusedCard={focusedCard}
+        onSelectCard={onSelectCard}
+      />
+    </Modal>
+  );
+}
+
+function LoungeCardSelectorModalBody({
+  allCards,
+  focusedCard,
+  onSelectCard,
+}: {
+  allCards: CardSummaryItem[];
+  focusedCard: CardSummaryItem | null;
+  onSelectCard: (cardId: string | null) => void;
+}) {
+  const { setOpen } = useModal();
+  const [search, setSearch] = useState("");
+
+  const matches = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    const list = allCards.filter((c) => c.filter_tags?.has_domestic_lounge);
+    if (!q) return list.slice(0, 10);
+    return list
+      .filter(
+        (c) =>
+          c.card_name.toLowerCase().includes(q) ||
+          c.bank.toLowerCase().includes(q) ||
+          c.card_network.toLowerCase().includes(q)
+      )
+      .slice(0, 14);
+  }, [allCards, search]);
+
+  return (
+    <ModalBody>
+      <ModalContent className="space-y-4">
+        <div className="pr-8">
+          <h3 className="text-[17px] font-semibold text-[#1A1D21]">
+            Select Any Card to Test Terminal Access
+          </h3>
+          <p className="text-[12.5px] text-[#717882] mt-0.5">
+            Instantly inspect exact no-spend vs. spend-gated lounge eligibility across every terminal.
+          </p>
+        </div>
+
+        <GooeySearchInput
+          mode="bar"
+          value={search}
+          onValueChange={setSearch}
+          placeholder="Search HDFC Infinia, Adani One, Axis Atlas, Scapia..."
+          ariaLabel="Search card to test lounge eligibility"
+        />
+
+        <div className="max-h-[290px] overflow-y-auto space-y-1.5 pr-1">
+          {matches.map((c) => {
+            const active = focusedCard?.card_id === c.card_id;
+            return (
+              <CometCard key={c.card_id} rotateDepth={4} translateDepth={3}>
+                <button
+                  type="button"
+                  onClick={() => {
+                    onSelectCard(c.card_id);
+                    setOpen(false);
+                  }}
+                  className={`w-full text-left flex items-center justify-between gap-3 px-3.5 py-2.5 rounded-xl border transition-colors cursor-pointer ${
+                    active
+                      ? "bg-[#EEF5F2] border-[#0F5C4D]"
+                      : "bg-white border-[#E4E4DF] hover:border-[#0F5C4D]/50"
+                  }`}
+                >
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="sm" />
+                    <div className="min-w-0">
+                      <p className="text-[13.5px] font-medium text-[#1A1D21] truncate">
+                        {c.card_name}
+                      </p>
+                      <p className="text-[11.5px] text-[#717882] truncate">
+                        {c.bank} ·{" "}
+                        {c.filter_tags.no_spend_domestic_lounge
+                          ? "No-Spend Eligible"
+                          : c.lounge_spend_condition || "Spend-Gated"}
+                      </p>
+                    </div>
+                  </div>
+                  <span className="text-[11.5px] font-medium text-[#0F5C4D] shrink-0">
+                    {active ? "Active" : "Test →"}
+                  </span>
+                </button>
+              </CometCard>
+            );
+          })}
+        </div>
+      </ModalContent>
+      <ModalFooter className="justify-between">
+        {focusedCard ? (
+          <button
+            type="button"
+            onClick={() => {
+              onSelectCard(null);
+              setOpen(false);
+            }}
+            className="text-[12.5px] text-[#9A5B13] hover:underline cursor-pointer"
+          >
+            Reset to All My Cards
+          </button>
+        ) : (
+          <span className="text-[12px] text-[#717882]">219 mapped domestic lounge cards</span>
+        )}
+        <button
+          type="button"
+          onClick={() => setOpen(false)}
+          className="px-3.5 py-1.5 rounded-lg border border-[#E4E4DF] bg-white text-[12.5px] font-medium text-[#1A1D21] cursor-pointer"
+        >
+          Close
+        </button>
+      </ModalFooter>
+    </ModalBody>
   );
 }

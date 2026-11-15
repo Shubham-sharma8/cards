@@ -1163,18 +1163,25 @@ def build_lounge_mapper(lounge_catalog: dict[str, Any], lounge_master: dict[str,
         final_lounges = (rail_entries[:30] + air_entries[:80]) if has_rail else air_entries[:80]
 
         dom_crit_low = dom_criteria.lower()
-        dom_combined_low = dom_crit_low + " " + dom_low
+        # Strip nominal lounge validation swipe mentions (Rs. 2 / Rs. 25) and explicit negations
+        dom_clean_low = re.sub(
+            r"\b(?:without|no|zero)\s+(?:minimum\s+|strict\s+|prior\s+|high[\s-]*)?spend\s*(?:criteria|requirement|threshold|gate|condition)s?\b",
+            "",
+            dom_crit_low + " " + re.sub(r"\brs\.?\s*(?:2|25)(?![\d,])(?:\s*(?:visa|mastercard|rupay|validation|token|hold))?", "", dom_low),
+        )
         has_spend_blocker = bool(
             re.search(
-                r"rs\.?\s*\d[\d,]*|/month|/qtr|/quarter|lakh|\blac\b|spend\s+rs|spend\s+of|previous\s+(?:quarter|month|year)|quarterly\s+spend|preceding|flight\s+booking|spend-based|spend\s+requirement|spend\s+threshold|min\.?\s*spend|paid.*membership|see\s+.*\s*t&c|criteria\s+apply|check\s+.*spend|specified",
-                dom_combined_low,
+                r"rs\.?\s*\d[\d,]*|₹\s*\d[\d,]*|/month|/qtr|/quarter|lakh|\blac\b|spend\s+rs|spend\s+of|previous\s+(?:quarter|month|year)|quarterly\s+spend|preceding|flight\s+booking|spend-based|spend[\s-]*linked|spend\s+requirement|spend\s+threshold|min\.?\s*spend|paid.*membership|see\s+.*\s*t&c|criteria\s+apply|check\s+.*spend|specified",
+                dom_clean_low,
             )
         )
         explicit_no_spend = (
             ("no spend criteria" in dom_crit_low and "specified" not in dom_crit_low)
             or "zero spend" in dom_crit_low
+            or "no minimum spend" in dom_crit_low
+            or "without spend threshold" in dom_crit_low
             or "unconditional" in dom_crit_low
-            or ("unlimited" in dom_summary.lower() and "spend" not in dom_crit_low and "see " not in dom_crit_low)
+            or ("unlimited" in dom_summary.lower() and not has_spend_blocker and "see " not in dom_crit_low)
         )
         no_spend = bool(has_dom and explicit_no_spend and not has_spend_blocker)
 

@@ -147,7 +147,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See issuer T&C",
+      "spend_criteria": "Rs. 25,000 quarterly spend per PNB / network lounge T&C",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Complimentary domestic airport lounge visits (2/quarter)"

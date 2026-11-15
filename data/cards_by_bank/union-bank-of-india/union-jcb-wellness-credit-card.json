@@ -149,7 +149,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "See issuer T&C",
+      "spend_criteria": "Rs. 25,000 quarterly spend per Union Bank & JCB lounge T&C",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Up to 8 complimentary domestic airport lounge visits per year (max 2 per quarter)"

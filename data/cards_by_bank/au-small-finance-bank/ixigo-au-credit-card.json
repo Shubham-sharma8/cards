@@ -282,7 +282,7 @@
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "Check AU spend-based updates (select tiers moved to spend criteria)",
+      "spend_criteria": "Rs. 50,000 spend in preceding calendar quarter for flights lounge (updated AU 2026 T&C)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "8 domestic airport lounge visits/yr (2/quarter)"

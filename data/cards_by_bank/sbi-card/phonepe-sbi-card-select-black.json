@@ -72,7 +72,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": false,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "has_golf": false,
     "zero_or_low_forex": false,
     "zero_forex": false,
@@ -316,7 +316,7 @@
     "domestic": {
       "visits_per_year": 4,
       "visits_per_quarter": 1,
-      "spend_criteria": "Check quarterly terms (4/yr max 1/qtr)",
+      "spend_criteria": "No spend criteria (4 domestic visits/yr, max 1/quarter)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "4 domestic airport lounge visits/yr (1/quarter)"
@@ -337,7 +337,7 @@
     "has_domestic_lounge": true,
     "has_international_lounge": false,
     "has_railway_lounge": false,
-    "no_spend_domestic_lounge": false,
+    "no_spend_domestic_lounge": true,
     "applicable_lounge_links": [
       {
         "program_id": "sbi_set_b",
