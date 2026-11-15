@@ -1,0 +1,471 @@
+{
+  "identity": {
+    "card_id": "sbi_bank_reliance_sbi_credit_cards",
+    "card_name": "SBI Reliance Credit Card",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "sbi-reliance-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Airport Lounge",
+    "categories": [
+      "Airport Lounge",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/sbi-reliance-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#A52F34",
+      "secondary_hex": "#B36B40",
+      "wash_hex": "#F0E1DF",
+      "soft_bg_hex": "#F7ECED",
+      "border_hex": "#EBD1D2",
+      "ink_on_soft_hex": "#A52F34",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+    "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/reliance-sbi-card-tnc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "SBI Card customers seeking airport lounge rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "card",
+      "credit",
+      "dining",
+      "groceries",
+      "lounge",
+      "movies",
+      "online",
+      "reliance",
+      "sbi",
+      "shopping"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "10 Reward Points on every Rs. 100 spent on AJIO & JioMart Online Stores (except on UPI Payments)",
+      "5 reward points for every Rs. 100 spent on the participating Reliance Retail Stores.",
+      "Cashback Offer: 5% cashback, up to Rs. 250 per month on Jio Mart spends.",
+      "Discount offers: The card offers 5% discount on the following Reliance Group brands:",
+      "5 reward points for every Rs. 100 spent on Dining & Movies",
+      "1 reward point for every Rs. 100 spent on other retail purchases"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.5,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.25,
+      "groceries_quick_commerce": 1.5,
+      "travel_flights_hotels": 1.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 250,
+      "amazon_flipkart_myntra": 250,
+      "dining_swiggy_zomato": 250,
+      "groceries_quick_commerce": 250,
+      "travel_flights_hotels": 250,
+      "upi_scan_and_pay": 250,
+      "utilities_bills_telecom": 250
+    },
+    "monthly_capping_rules": [
+      "Cashback Offer: 5% cashback, up to Rs. 250 per month on Jio Mart spends."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Cashback Offer: 5% cashback, up to Rs. 250 per month on Jio Mart spends.",
+        "RelianceOne Offer: 1 RelianceOne point per Rs. 200 on offline spends made on groceries and additional 1 RelianceOne point per Rs. 200 spent on Fashion Factory.",
+        "Milestone Benefits 2: Reliance Retail voucher worth Rs. 500 on annual spends of Rs. 25,000, worth Rs. 750 on annual Spends of Rs. 50,000 and Rs. 1,000 on annual spends of Rs. 80,000.",
+        "Activation Benefits: Reliance Retail voucher worth of Rs. 500 on activation. Plus, additional discount vouchers worth Rs. 3,200 of participating Reliance stores."
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "LoungeKey / Diners",
+      "visits_per_year": 4,
+      "spend_criteria": "See issuer T&C",
+      "add_on_allowed": false,
+      "guest_fee": "USD 27+GST (typical Priority Pass)",
+      "summary": "However, the premium variant - Reliance SBI Card Prime offers 8 domestic and 4 international airport lounge access per calendar year."
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "From Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "From Rs. 1,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "From Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 950"
+      },
+      {
+        "statement_balance_slab": "From Rs. 25,001 to Rs. 50,001",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "SBI Card and Reliance Group offer co-branded cards in two variants: Reliance SBI Card and Reliance SBI Card PRIME. The Reliance Group covers varied segments like clothing, footwear, furniture, etc., and **cardholders can save a significant amount on their daily spends using the co-branded benefits.** SBI Card is already in partnership with Landmark Group offering Spar, Max and Home Center credit cards and this new collaboration will specifically cater to Reliance Group loyalists.**The reward rate of the base variant is just decent at 1.25%, but still a good option for loyalists seeking a low annual fee card.** Reliance Retail consists of brands like AJIO (online shopping), Reliance Trends (lifestyle spends), Jio Mart (groceries), Reliance Jewels (jewellery), Netmeds (online pharmacy), and several other lifestyle brands that come under the Reliance Retail umbrella, including Centro, Fashion Factory, Zivame, and Coverstory.",
+    "highlights": [
+      "10 Reward Points on every Rs. 100 spent on AJIO & JioMart Online Stores (except on UPI Payments)",
+      "5 reward points for every Rs. 100 spent on the participating Reliance Retail Stores.",
+      "Cashback Offer: 5% cashback, up to Rs. 250 per month on Jio Mart spends.",
+      "RelianceOne Offer: 1 RelianceOne point per Rs. 200 on offline spends made on groceries and additional 1 RelianceOne point per Rs. 200 spent on Fashion Factory.",
+      "Milestone Benefits 2: Reliance Retail voucher worth Rs. 500 on annual spends of Rs. 25,000, worth Rs. 750 on annual Spends of Rs. 50,000 and Rs. 1,000 on annual spends of Rs. 80,000."
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Cashback Offer: 5% cashback, up to Rs. 250 per month on Jio Mart spends.",
+      "RelianceOne Offer: 1 RelianceOne point per Rs. 200 on offline spends made on groceries and additional 1 RelianceOne point per Rs. 200 spent on Fashion Factory.",
+      "Milestone Benefits 2: Reliance Retail voucher worth Rs. 500 on annual spends of Rs. 25,000, worth Rs. 750 on annual Spends of Rs. 50,000 and Rs. 1,000 on annual spends of Rs. 80,000.",
+      "Activation Benefits: Reliance Retail voucher worth of Rs. 500 on activation. Plus, additional discount vouchers worth Rs. 3,200 of participating Reliance stores."
+    ],
+    "dining_benefits": [
+      "5 reward points for every Rs. 100 spent on Dining & Movies"
+    ],
+    "movie_benefits": [
+      "5 reward points for every Rs. 100 spent on Dining & Movies"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You prefer shopping at the associated Reliance Group brands",
+      "You prefer offline spends over online"
+    ],
+    "faqs": [
+      {
+        "q": "Does the card offer any rewards on UPI payments?",
+        "a": "Yes, with the RuPay variant of your Reliance SBI Card, you get 1 reward point per Rs. 100 spent at participating Reliance Retail stores."
+      },
+      {
+        "q": "Do I earn rewards on rent payments?",
+        "a": "No, rental transactions are excluded from the rewards program."
+      },
+      {
+        "q": "How to close a Reliance SBI credit card?",
+        "a": "To close your Reliance SBI Credit Card, you can contact SBI Credit Card Customer Care at 1860 180 1290/1860 500 1290."
+      },
+      {
+        "q": "Does the SBI Reliance credit card have lounge access?",
+        "a": "No, the Reliance SBI credit card does not offer any complimentary lounge access. However, the premium variant - Reliance SBI Card Prime offers 8 domestic and 4 international airport lounge access per calendar year."
+      },
+      {
+        "q": "Is there any capping on earning fuel surcharge benefits?",
+        "a": "Yes, the 1% fuel surcharge waiver is capped at Rs. 100 per statement cycle."
+      },
+      {
+        "q": "Is Reliance SBI Prime credit card good?",
+        "a": "Reliance SBI Prime credit card is a good choice for people who like shopping on multiple brands covered under Reliance Group’s umbrella, such as Jio Mart, Ajio, Reliance Trends, Zivame, and Reliance Jewels among others."
+      },
+      {
+        "q": "What are the benefits of SBI Reliance welcome card?",
+        "a": "On activation, the card offers Reliance retail voucher worth Rs. 500 and additional discount vouchers worth Rs. 3,200 of participating Reliance stores such as Jio Mart. AJIO, Reliance Trends, Azorte and Zivame among others."
+      },
+      {
+        "q": "What is the movie ticket offer on Reliance SBI Prime credit card?",
+        "a": "The card offers one movie ticket every month worth Rs. 250 via BookMyShow."
+      },
+      {
+        "q": "How to redeem Reliance SBI credit card voucher?",
+        "a": "Reliance SBI credit card voucher is redeemable across general merchandise & fashion categories."
+      },
+      {
+        "q": "How to apply for Reliance SBI credit card?",
+        "a": "You can apply for Reliance SBI credit card online on the SBI Card’s official website."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.59,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Movies": 3.0,
+      "Rewards": 3.0,
+      "Dining Benefits": 3.0,
+      "branded Benefits": 3.5,
+      "movies": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBI Card suited for airport lounge users.",
+    "pros": [
+      "Multi-brand benefits",
+      "Low annual fee and easy fee waiver condition",
+      "Round-the-year benefits on Reliance brands",
+      "Low spend threshold for milestone benefits"
+    ],
+    "cons": [
+      "No lounge access",
+      "Brand benefits can be restrictive",
+      "Low base reward rate beyond primary categories"
+    ],
+    "best_for_whom": "SBI Card customers seeking airport lounge rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from SBI Card suited for airport lounge users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.59,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBI Card Airport Lounge cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Cashback Offer: 5% cashback, up to Rs. 250 per month on Jio Mart spends."
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (2.5% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium-High",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "axis_bank_ace_credit_card",
+      "card_name": "Axis Bank ACE Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-ace-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.26,
+      "reason": "Direct competitor from Axis Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_diners_club_privilege_credit_card",
+      "card_name": "HDFC Diners Club Privilege Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-diners-club-privilege-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.16,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.16/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hsbc_bank_rupay_cashback_credit_card",
+      "card_name": "HSBC RuPay Cashback Credit Card",
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "card_slug": "hsbc-rupay-cashback-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.22,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.22/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-extra-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Extra Cashback",
+      "summary": "Up to Rs 1500 Extra Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Instant Discount",
+      "summary": "Up to Rs 1500 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 5,000 Instant Discount",
+      "summary": "Up to Rs 5,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1-000-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs. 1,000 Cashback.",
+      "summary": "Up to Rs. 1,000 Cashback.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to RS 5000 Instant Discount",
+      "summary": "Up to RS 5000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-16-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 16,000 Instant Discount",
+      "summary": "Up to Rs 16,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    }
+  ]
+}

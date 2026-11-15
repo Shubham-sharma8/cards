@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "card_id": "idfc_first_bank_idfc_business_max_credit_card",
+    "card_name": "IDFC FIRST Business Max Credit Card",
+    "bank": "IDFC FIRST Bank",
+    "bank_slug": "idfc-first-bank",
+    "card_slug": "idfc-first-business-max-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / Secured",
+    "primary_category": "Business & Tax",
+    "categories": [
+      "Travel & Miles",
+      "Lifetime Free",
+      "Zero/Low Forex",
+      "Entry-Level & Secured (FD)",
+      "Business & Tax",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/idfc-first-bank/idfc-first-business-max-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#6A1D1B",
+      "secondary_hex": "#7B4D29",
+      "wash_hex": "#E9DFDC",
+      "soft_bg_hex": "#F2EBEA",
+      "border_hex": "#DECDCD",
+      "ink_on_soft_hex": "#6A1D1B",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.idfcfirst.bank.in/credit-card",
+    "mitc_pdf_url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": true,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": true,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "business",
+      "card",
+      "credit",
+      "entry",
+      "fd",
+      "first",
+      "forex",
+      "free",
+      "idfc",
+      "level",
+      "lifetime",
+      "lifetime-free",
+      "low",
+      "low-forex",
+      "ltf",
+      "max",
+      "miles",
+      "online",
+      "secured",
+      "shopping",
+      "tax",
+      "travel",
+      "zero",
+      "zero-fee",
+      "zero-forex"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 0.75,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "6 reward points on every Rs. 200 spent on domestic online spends",
+      "4 reward points on every Rs. 200 spent on domestic offline spends",
+      "3 rewards points on UPI spends above Rs. 2,000",
+      "1 rewards point on UPI spends below Rs. 2,000",
+      "Redeem the accumulated reward points at a value of 1RP = Rs. 0.25",
+      "20% Bonus Rewards Points on hotel booking via IDFC FIRST Bank Mobile App"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.75,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.75,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 0.5,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "6 reward points on every Rs. 200 spent on domestic online spends",
+        "4 reward points on every Rs. 200 spent on domestic offline spends",
+        "3 rewards points on UPI spends above Rs. 2,000",
+        "1 rewards point on UPI spends below Rs. 2,000"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 0.0,
+    "apr_monthly_pct": 1.0,
+    "apr_annual_pct": 12.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of total amount due (min. Rs. 100, max. Rs. 1,300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from IDFC FIRST Bank suited for business & tax users and low 0% forex markup.",
+    "highlights": [
+      "6 reward points on every Rs. 200 spent on domestic online spends",
+      "4 reward points on every Rs. 200 spent on domestic offline spends",
+      "3 rewards points on UPI spends above Rs. 2,000"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "6 reward points on every Rs. 200 spent on domestic online spends",
+      "4 reward points on every Rs. 200 spent on domestic offline spends",
+      "3 rewards points on UPI spends above Rs. 2,000",
+      "1 rewards point on UPI spends below Rs. 2,000"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are not eligible for unsecured card and want to build your credit history with a lifetime free credit card",
+      "You travel frequently and want to owe a card that offers accelerated reward points on hotel and flight booking",
+      "You are looking for a business credit card that offers zero forex markup fee",
+      "You often use IDFC FIRST Bank Mobile App for booking hotels and flights"
+    ],
+    "faqs": [
+      {
+        "q": "Who should consider the IDFC FIRST Business Max Credit Card?",
+        "a": "The card is ideal for small business owners, freelancers, and startups who may not qualify for unsecured business cards. Since it is backed by a fixed deposit starting at Rs. 10,000, it helps consumers build business credit while availing lifetime free card benefits and low finance charges of 12% p.a."
+      },
+      {
+        "q": "How rewarding is the card for regular business spending?",
+        "a": "Cardholders can earn 6 reward points per Rs. 200 spent on domestic online purchases and 4 reward points on offline transactions. UPI payments above Rs. 2,000 earn 3 points per Rs. 200."
+      },
+      {
+        "q": "Does the card offer any travel-related benefits for business owners?",
+        "a": "Yes, the card comes with a low forex markup fee of 1.5%, making international transactions more affordable. Consumers can also get 20% bonus reward points on hotel bookings and 10% bonus reward points on flight bookings made through the IDFC FIRST Bank mobile app."
+      },
+      {
+        "q": "Are there any annual or joining charges on the card?",
+        "a": "No, the IDFC FIRST Business Max Credit Card is completely lifetime free with zero joining and annual fees."
+      },
+      {
+        "q": "Can purchases be converted into EMIs with this card?",
+        "a": "Yes, transactions above Rs. 1,500 can be converted into easy EMIs."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.57,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.5,
+      "Rewards": 3.5,
+      "Online Shopping": 3.5,
+      "travel": 3.5,
+      "rewards": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from IDFC FIRST Bank suited for business & tax users and low 0% forex markup.",
+    "pros": [
+      "Up to 20% Bonus Reward Points on travel spends",
+      "Zero forex mark-up fee",
+      "6 reward points per Rs. 200 spent on domestic online transactions"
+    ],
+    "cons": [
+      "Does not offer any travel related benefits",
+      "Low reward redemption rate of Rs. 0.25"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "Lifetime Free option from IDFC FIRST Bank suited for business & tax users and low 0% forex markup."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.57,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IDFC FIRST Bank Business & Tax cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Low 0.0% forex markup makes this practical for international travel and USD/SaaS subscriptions."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Per-Rs.-200 rounding (<Rs. 200 = 0 RP), offset by positive 0% forex upgrades on Wealth/Select."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "indian_overseas_bank_iob_zet_credit_card",
+      "card_name": "IOB ZET Credit Card",
+      "bank": "Indian Overseas Bank",
+      "bank_slug": "indian-overseas-bank",
+      "card_slug": "iob-zet-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.7,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "central_bank_of_india_central_bank_india_aspire_credit_card",
+      "card_name": "Central Bank of India Aspire Credit Card",
+      "bank": "Central Bank Of India",
+      "bank_slug": "central-bank-of-india",
+      "card_slug": "central-bank-of-india-aspire-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.74,
+      "reason": "Direct competitor from Central Bank Of India at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_bank_idfc_first_wow_black_credit_card",
+      "card_name": "FIRST WOW! Black Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-wow-black-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 750,
+      "overall_rating": 4.22,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.22/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-1-cashback-499",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual 1% Cashback ₹499",
+      "summary": "FIRST EARN Virtual 1% Cashback ₹499",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-fd-backed-1-cashback",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "summary": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-zero-forex-promos-weekend-movie-tripstacc",
+      "bank": "IDFC FIRST Bank",
+      "title": "Zero Forex Promos & Weekend Movie / Tripstacc Benefits",
+      "summary": "Buy-1-Get-1 movie ticket perks on District/BookMyShow plus instant flight/hotel discounts via Tripstacc and IDFC FIRST Reward offers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "targeted"
+    }
+  ]
+}

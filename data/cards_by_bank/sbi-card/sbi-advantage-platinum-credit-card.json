@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "card_id": "sbi_bank_sbi_advantage_platinum_credit_card",
+    "card_name": "SBI Advantage Platinum Credit Card",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "sbi-advantage-platinum-credit-card",
+    "card_network": "Visa",
+    "card_tier": "Super-Premium",
+    "primary_category": "Super-Premium",
+    "categories": [
+      "Super-Premium",
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Zero/Low Forex",
+      "Entry-Level & Secured (FD)",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/sbi-advantage-platinum-credit-card.webp",
+    "image_source": "cardledger_studio_render",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+    "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/fees-and-charges/mitc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "High-income spenders maximizing SBI Card concierge",
+      "unlimited lounges & accelerated travel portals",
+      "Rs. 50,000+"
+    ],
+    "requirement_keywords": [
+      "advantage",
+      "card",
+      "credit",
+      "dining",
+      "entry",
+      "fd",
+      "forex",
+      "fuel",
+      "groceries",
+      "level",
+      "low",
+      "low-forex",
+      "movies",
+      "online",
+      "platinum",
+      "premium",
+      "sbi",
+      "secured",
+      "shopping",
+      "super",
+      "zero"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 2.5,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Get 5X reward points on any spending towards grocery and dining.",
+      "For all other categories, you earn 2 reward points for every ₹ 100 that you spend. These reward points can be redeemed against several products in the catalogue provided with the card.",
+      "Easy bill pay option allows you to pay all your electricity, telephone, insurance and other utility bills ensuring that you do not miss any due dates.",
+      "1% fuel charge is waived off on all transactions between ₹ 500 – ₹ 4,000 subject to a maximum waiver of ₹ 250.",
+      "You can make cash withdrawals at all ATMs, giving you the advantage of cash on the go. You get a cash advance of up to 80% of your credit limit, subject to a maximum withdrawal of ₹ 15,000 each day.",
+      "Finance charges: Up to 2.5% each month."
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 2.5,
+      "groceries_quick_commerce": 2.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -1.86,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "You can make cash withdrawals at all ATMs, giving you the advantage of cash on the go. You get a cash advance of up to 80% of your credit limit, subject to a maximum withdrawal of ₹ 15,000 each day.",
+      "Finance charges: Up to 2.5% each month."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "A welcome voucher worth ₹ 3,000 from brands like Bata, Hush Puppies, Marks and Spencer, Shoppers Stop and Westside.",
+        "For all other categories, you earn 2 reward points for every ₹ 100 that you spend. These reward points can be redeemed against several products in the catalogue provided with the card.",
+        "1% fuel charge is waived off on all transactions between ₹ 500 – ₹ 4,000 subject to a maximum waiver of ₹ 250.",
+        "Get rewarded on your purchases of ₹ 2 Lakhs each year in the form of gift vouchers worth ₹ 3,000 with top lifestyle brands."
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "Priority Pass",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 2.0,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from SBI Card suited for super-premium users.",
+    "highlights": [
+      "A welcome voucher worth ₹ 3,000 from brands like Bata, Hush Puppies, Marks and Spencer, Shoppers Stop and Westside.",
+      "Get 5X reward points on any spending towards grocery and dining.",
+      "For all other categories, you earn 2 reward points for every ₹ 100 that you spend. These reward points can be redeemed against several products in the catalogue provided with the card.",
+      "Easy bill pay option allows you to pay all your electricity, telephone, insurance and other utility bills ensuring that you do not miss any due dates.",
+      "1% fuel charge is waived off on all transactions between ₹ 500 – ₹ 4,000 subject to a maximum waiver of ₹ 250."
+    ],
+    "welcome_benefit": "A welcome voucher worth ₹ 3,000 from brands like Bata, Hush Puppies, Marks and Spencer, Shoppers Stop and Westside.",
+    "milestone_benefits": [
+      "A welcome voucher worth ₹ 3,000 from brands like Bata, Hush Puppies, Marks and Spencer, Shoppers Stop and Westside.",
+      "For all other categories, you earn 2 reward points for every ₹ 100 that you spend. These reward points can be redeemed against several products in the catalogue provided with the card.",
+      "1% fuel charge is waived off on all transactions between ₹ 500 – ₹ 4,000 subject to a maximum waiver of ₹ 250.",
+      "Get rewarded on your purchases of ₹ 2 Lakhs each year in the form of gift vouchers worth ₹ 3,000 with top lifestyle brands."
+    ],
+    "dining_benefits": [
+      "Get 5X reward points on any spending towards grocery and dining."
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Easy bill pay option allows you to pay all your electricity, telephone, insurance and other utility bills ensuring that you do not miss any due dates."
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.61,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBI Card suited for super-premium users.",
+    "pros": [
+      "Backed by SBI Card digital card controls, EMI conversion & merchant offers",
+      "Contactless Tap & Pay + zero lost-card liability protection"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "High-income spenders maximizing SBI Card concierge, unlimited lounges & accelerated travel portals",
+    "not_ideal_for": "Moderate spenders unlikely to cross annual fee waiver / extract >fee value",
+    "recommended_monthly_spend_inr": "Rs. 50,000+",
+    "verdict": "option from SBI Card suited for super-premium users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.61,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBI Card Super-Premium cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "You can make cash withdrawals at all ATMs, giving you the advantage of cash on the go. You get a cash advance of up to 80% of your credit limit, subject to a maximum withdrawal of ₹ 15,000 each day.",
+      "Finance charges: Up to 2.5% each month."
+    ],
+    "optimization_tips": [
+      "Focus spends on dining & food delivery (2.5% effective return) before hitting monthly category caps."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium-High",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "indian_bank_onecard_credit_card",
+      "card_name": "Indian Bank OneCard Credit Card",
+      "bank": "Indian Bank",
+      "bank_slug": "indian-bank",
+      "card_slug": "indian-bank-onecard-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.5,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "central_bank_of_india_central_bank_india_aspire_credit_card",
+      "card_name": "Central Bank of India Aspire Credit Card",
+      "bank": "Central Bank Of India",
+      "bank_slug": "central-bank-of-india",
+      "card_slug": "central-bank-of-india-aspire-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.74,
+      "reason": "Direct competitor from Central Bank Of India at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.07/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.42/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-extra-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Extra Cashback",
+      "summary": "Up to Rs 1500 Extra Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Instant Discount",
+      "summary": "Up to Rs 1500 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 5,000 Instant Discount",
+      "summary": "Up to Rs 5,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1-000-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs. 1,000 Cashback.",
+      "summary": "Up to Rs. 1,000 Cashback.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to RS 5000 Instant Discount",
+      "summary": "Up to RS 5000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-16-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 16,000 Instant Discount",
+      "summary": "Up to Rs 16,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    }
+  ]
+}

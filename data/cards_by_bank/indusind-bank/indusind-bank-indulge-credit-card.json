@@ -1,0 +1,959 @@
+{
+  "identity": {
+    "card_id": "indusind_bank_indulge_credit_card",
+    "card_name": "IndusInd Bank Indulge Credit Card",
+    "bank": "IndusInd Bank",
+    "bank_slug": "indusind-bank",
+    "card_slug": "indusind-bank-indulge-credit-card",
+    "card_network": "Diners Club",
+    "card_tier": "Super-Premium",
+    "primary_category": "Super-Premium",
+    "categories": [
+      "Super-Premium",
+      "Travel & Miles",
+      "Airport Lounge",
+      "Dining, Groceries & Movies",
+      "Online Shopping",
+      "Golf"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/indusind-bank/indusind-bank-indulge-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#8F7B47",
+      "secondary_hex": "#939D57",
+      "wash_hex": "#EDEAE1",
+      "soft_bg_hex": "#F5F3EE",
+      "border_hex": "#E6E2D7",
+      "ink_on_soft_hex": "#706138",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+    "mitc_pdf_url": "https://www.indusind.com/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "IndusInd Bank Airport Lounge Access Program PDF",
+        "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/Other/Airport-Lounge-Access-Program.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "IndusInd Bank — Indusind Pp Tnc",
+        "url": "https://www.indusind.bank.in/in/en/personal/tnc-airport-lounges-with-priority-pass.html",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 10,000+",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": true,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 300000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "High-income spenders maximizing IndusInd Bank concierge",
+      "unlimited lounges & accelerated travel portals",
+      "Rs. 250,000+"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "golf",
+      "groceries",
+      "indulge",
+      "indusind",
+      "lounge",
+      "miles",
+      "movies",
+      "online",
+      "premium",
+      "shopping",
+      "super",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Air Miles / Travel Points",
+    "base_reward_rate_pct": 0.7,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5 reward points for every Rs. 100 spent across all categories",
+      "0.70 reward points for every Rs. 100 spent on utility, insurance, govt. transactions, and education related expenses",
+      "Redeem reward points against cash credit at a value of 1 RP = Rs. 11",
+      "Convert reward points into KrisFlyer Miles at a value of 200 Reward Points = 100 KrisFlyer Miles",
+      "Redeem reward points against gift vouchers, or products from the rewards catalogue",
+      "Low forex markup fee of 1.8%"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.7,
+      "amazon_flipkart_myntra": 0.7,
+      "dining_swiggy_zomato": 0.7,
+      "groceries_quick_commerce": 0.7,
+      "travel_flights_hotels": 1.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.7,
+      "fuel": 0.0,
+      "insurance": 0.7,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.43,
+      "offline_general_other": 0.7
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 75000,
+      "annual_fee_inr": 10000,
+      "annual_fee_with_gst_inr": 11800.0,
+      "fee_waiver_spend_inr": 1000000,
+      "monthly_spend_for_waiver_inr": 83333,
+      "milestone_slabs": [
+        "Redeem reward points against gift vouchers, or products from the rewards catalogue",
+        "6 complimentary domestic lounge visits per quarter on a min. spend of Rs. 5 Lakh in the previous quarter",
+        "Annual fee waiver on spending Rs. 10 Lakh or more in a year",
+        "Dining discount of up to Rs. 6,000 per year via EazyDiner"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 24,
+      "visits_per_quarter": 6,
+      "spend_criteria": "Min. Rs. 5,00,000 in previous quarter",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "6 complimentary domestic lounge visits per quarter (24/year) on min. Rs. 5 Lakh spend in previous quarter"
+    },
+    "international": {
+      "program": "Priority Pass",
+      "visits_per_year": 16,
+      "spend_criteria": "See issuer T&C",
+      "add_on_allowed": false,
+      "guest_fee": "USD 27+GST (typical Priority Pass)",
+      "summary": "4 complimentary international lounge visits per quarter (16/year)"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "indusind_lounge_program",
+        "title": "IndusInd Bank Airport Lounge Access Program PDF",
+        "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/Other/Airport-Lounge-Access-Program.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 70,
+        "local_pdf_path": "data/raw/lounges/pdfs/indusind_lounge_program.pdf"
+      },
+      {
+        "program_id": "page_indusind_pp_tnc",
+        "title": "IndusInd Bank — Indusind Pp Tnc",
+        "url": "https://www.indusind.bank.in/in/en/personal/tnc-airport-lounges-with-priority-pass.html",
+        "secondary_url": null,
+        "source_type": "official_bank_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agartala",
+        "lounge_name": "IXA01 Agartala Maharaja Bir Bikram Airport Primus Lounge Domestic Terminal Domestic Departure",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "AMD01 Ahmedabad Sardar Vallabhbhai Patel International Airport The Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "ATQ01 Amritsar Sri Guru Ram Dass Jee International Airport Airr Lounge (Int) Terminal 1 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "ATQ02 Amritsar Sri Guru Ram Dass Jee International Airport Primus Lounge Domestic Terminal Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "BLR01 Bengaluru Kempegowda International Airport 080 Lounge Terminal 2 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "BLR105 Bengaluru Kempegowda International Airport 080 Arrival Terminal 1 Arrival Arrival",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "BLR205 Bengaluru Kempegowda International Airport 080 Arrival Terminal 2 Arrival Arrival",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "BLR206 Bengaluru Kempegowda International Airport 080 VIP Arrival Terminal 2 Arrival Arrival",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "BHO01 Bhopal Bhopal Raja Bhoj Primus Lounge Terminal 1 Domestic Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Calicut",
+        "lounge_name": "CCJ02** Calicut Kozhikode Calicut International Airport Bird Lounge Terminal 2 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "IXC01 Chandigarh Shaheed Bhagat Singh International Airport Plaza Premium Lounge Domestic Terminal Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "IXC02 Chandigarh Shaheed Bhagat Singh International Airport Plaza Premium Lounge International Terminal International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "MAA01 Chennai Chennai International Airport Travel Club Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "MAA03 Chennai Chennai International Airport Travel Club Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "MAA02 Chennai Chennai International Airport Travel Club Terminal 2 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "MAA04 Chennai Chennai International Airport Travel Club Terminal 4 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "COK02 Cochin Cochin International Airport Earth Lounge Terminal 3 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "COK01 Cochin Cochin International Airport Earth Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "CJB01 Coimbatore Coimbatore International Airport Blackberry Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "DIB01 Dibrugarh Dibrugarh Mohanbari Airport Primus Lounge Domestic Terminal Domestic Departure",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "GOX02 Goa Domestic T1 Departure Encalm Lounge Terminal 1 Domestic Departure",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "GOX01 Goa Encalm Lounge International T1 Departure Encalm Lounge Terminal 1 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "GAU01 Guwahati Lokpriya Gopinath Bordoloi International Airport The Lounge GF Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "GAU02 Guwahati Lokpriya Gopinath Bordoloi International Airport The Lounge FF Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "GWL01 Gwalior Rajmata Vijayaraje Scindia Airport Pahun Lounge Terminal 1 Domestic Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "HYD02 Hyderabad Encalm Lounge International T1 Departure Encalm Lounge Terminal 1 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "HYD01 Hyderabad Encalm Lounge Domestic T1 Departure Encalm Lounge Terminal 1 Domestic Departure",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "IDR01 Indore Devi Ahilya Bai Holkar Airport Primus Lounge Terminal 1 Domestic Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "JAI01 Jaipur Jaipur International Airport Adani Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "IXJ01 Jammu Jammu Airport Pahun Lounge Terminal 1 Domestic Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "CNN01 Kannur Kannur International Pearl Lounge Terminal 1 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "CNN02 Kannur Kannur International Pearl Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "LKO01 Lucknow Chaudhary Charan Singh International Airport Adani Lounge Terminal 3 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "IXM01 Madurai Madurai International Airport Primus Lounge Main Terminal International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "BOM01 Mumbai Chhatrapati Shivaji Maharaj International Airport Travel Club Terminal 1C Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "BOM04 Mumbai Chhatrapati Shivaji Maharaj International Airport Travel Club Terminal 2 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "NMI01 Navi Mumbai Navi Mumbai International Airport Adani Silver Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "NAG01 Nagpur Dr. Babasaheb Ambedkar International Airport Airr Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "NAG02 Nagpur Dr. Babasaheb Ambedkar International Airport Mandarin Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "DEL01 New Delhi Encalm Lounge Domestic Departure T1 (New) Encalm Lounge Terminal 1 (New) Domestic Departure",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "DEL02 New Delhi Indira Gandhi International Airport Encalm Lounge Terminal 2 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "DEL03 New Delhi Encalm Lounge Domestic Departure T3 Encalm Lounge Terminal 3 Domestic Departure",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "DEL04 New Delhi Encalm Lounge International Departure T3 Encalm Lounge Terminal 3 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "DEL05 New Delhi Encalm Lounge Domestic arrival T3 Encalm Lounge Terminal 3 Arrival Arrival",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Dehradun",
+        "lounge_name": "DED11 Dehradun Dehradun Airport Carnations Lounge Terminal 1 Domestic Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "IXR01 Ranchi Birsa Munda Airport Airr Lounge Terminal 1 Domestic Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "SXR01 Srinagar Sheikh Ul Alam International Airport Pahun Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Trivandrum",
+        "lounge_name": "TRV01 Trivandrum Thiruvananthapuram International Airport T2 The Lounge Terminal 2 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Patna",
+        "lounge_name": "PAT01 Patna Jayprakash Narayan Airport Uttham Lounge Terminal 1 Domestic Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Varanasi",
+        "lounge_name": "VNS01 Varanasi Lal Bahadur Shastri International Airport Take off Bar and Lounge Terminal 1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "BOM02 Mumbai Chhatrapati Shivaji Maharaj International Airport Adani Lounge - Domestic T1-B (Previously 'Oasis') T1-B Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "BOM05 Mumbai Chhatrapati Shivaji Maharaj International Airport Adani Silver International Lounge T2 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "DEL02 New Delhi Encalm Lounge Domestic Departure T2 Indira Gandhi International Airport T2 Domestic Departure",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Dehradun",
+        "lounge_name": "Dehradun Airport Carnations Lounge T1 Domestic",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "ATQ02 Amritsar Primus Lounge Sri Guru Ram Dass Jee",
+        "terminal": "",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "BLR101 Bengaluru Kempegowda International Airport 080 Domestic Lounge T1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "BLR102 Bengaluru Kempegowda International Airport 080 Domestic Lounge T1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "BLRI202 Bengaluru Kempegowda International Airport 080 International Lounge T2 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "IXC01 Chandigarh Plaza Premium Lounge Shaheed Bhagat Singh",
+        "terminal": "",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "IXC02 Chandigarh Plaza Premium Lounge Shaheed Bhagat Singh",
+        "terminal": "",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "COK02 Cochin Earth Lounge Cochin International Airport T3 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "COK01 Cochin Earth Lounge Cochin International Airport T1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "GOX02 Goa Encalm Lounge Domestic T1 Departure Manohar International Airport T1 Domestic Departure",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "GOX01 Goa Encalm Lounge International T1",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "GOI01 Goa - Dom Goa International Airport - Dabolim Travel Club (New Lounge) T1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "GOI02 Goa - Int Goa International Airport - Dabolim Travel Club (New Lounge) T1 International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "IXM01 Madurai Primus Lounge Madurai International Airport Main Terminal International Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "PNQ01 Pune Earth Lounge Pune International Airport T1 Domestic Departure",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "*The Travel Club Lounge - Goa - Dom (near Gate B) will be non-operational from 11:00 PM to 6:00 AM.",
+        "terminal": "",
+        "terminal_type": "Domestic",
+        "source_program_id": "indusind_lounge_program"
+      },
+      {
+        "city": "Calicut",
+        "lounge_name": "**The Calicut International Airport Lounge will cease operations effective 26 June 2026 and tentatively",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "indusind_lounge_program"
+      }
+    ],
+    "participating_lounges_count": 70
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 75000,
+    "annual_fee_inr": 10000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 1000000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 1.79,
+    "apr_annual_pct": 21.48,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 101 and Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 501 and Rs. 1,000",
+        "late_fee_inr": "Rs. 350"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 1,001 and Rs. 10,000",
+        "late_fee_inr": "Rs. 550"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 10,001 and Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 25,001 and Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "IndusInd Bank Indulge Credit Card is a premium card with a pure **22K gold inlay** and **no pre-set spending limit**. It offers benefits across multiple categories such as dining, travel, lifestyle, and entertainment, making it an all-rounder option for high spenders. While the card caters to various categories, its **reward rate is comparatively low at 1.5%** , especially when compared to similar cards like HDFC Diners Club Black (3.33% value-back) and ICICI Emeralde Private (3% value-back). However, the card somewhat compensates for the lower earning rate by offering reward redemption at a 1:1 ratio (1 RP = Rs. 1) against cashback. Besides rewards, the card offers limited travel benefits, such as a **low forex markup fee of 1.8%** and **16 complimentary international lounge visits** per year. Whereas, other cards with a similar annual fee offer unlimited international lounge visits worldwide, which gives them an edge for frequent travellers. However, the Indulge Card enhances its overall value with lifestyle benefits like **unlimited complimentary golf games** & lessons,**free movie tickets** , and dining discounts. Overall, IndusInd Bank Indulge Credit Card is a reasonable option for high spenders who are looking for a card with premium lifestyle benefits.",
+    "highlights": [
+      "5 reward points for every Rs. 100 spent across all categories",
+      "0.70 reward points for every Rs. 100 spent on utility, insurance, govt. transactions, and education related expenses",
+      "Redeem reward points against cash credit at a value of 1 RP = Rs. 11",
+      "Convert reward points into KrisFlyer Miles at a value of 200 Reward Points = 100 KrisFlyer Miles"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Redeem reward points against gift vouchers, or products from the rewards catalogue",
+      "6 complimentary domestic lounge visits per quarter on a min. spend of Rs. 5 Lakh in the previous quarter",
+      "Annual fee waiver on spending Rs. 10 Lakh or more in a year",
+      "Dining discount of up to Rs. 6,000 per year via EazyDiner"
+    ],
+    "dining_benefits": [
+      "Rs. 3,000 off on dining bills at 100+ partner restaurant bills, twice a year via EazyDiner",
+      "Dining discount of up to Rs. 6,000 per year via EazyDiner"
+    ],
+    "movie_benefits": [
+      "Buy One Get One offer on BookMyShow, capped at Rs. 700 per ticket, thrice a month",
+      "Additional Rs. 50 off on BookMyShow on selecting the F&B option",
+      "Buy 1 Get 1 offer on movie tickets, up to Rs. 300 per transaction"
+    ],
+    "golf_benefits": [
+      "Unlimited golf games and lessons at regular golf clubs",
+      "4 complimentary golf games in a month at premium golf clubs"
+    ],
+    "golf_summary": {
+      "has_golf": true,
+      "complimentary_access": "Unlimited regular games & lessons + 4/mo premier clubs",
+      "eligible_courses": "Domestic",
+      "spend_condition": "None",
+      "extra_notes": "High-tier metal card with unlimited coaching"
+    },
+    "insurance_cover": [
+      "0.70 reward points for every Rs. 100 spent on utility, insurance, govt. transactions, and education related expenses",
+      "Personal Air Accident Insurance of up to Rs. 25 Lakh"
+    ],
+    "concierge_or_privilege": [
+      "Complimentary 24×7 concierge services"
+    ],
+    "get_this_card_if": [
+      "You are looking for a premium credit card with luxury lifestyle benefits such as unlimited golf games",
+      "You are ready to pay a high joining fee of Rs. 75,000",
+      "You prefer to redeem reward points against cashback to maximize value back",
+      "You want a credit card with no pre-set spending limit"
+    ],
+    "faqs": [
+      {
+        "q": "What is the eligibility criteria to apply for IndusInd Bank Indulge Credit Card?",
+        "a": "To apply for this credit card, you must be at least 21 years old. If you are a salaried individual, your annual income should be Rs. 36 Lakh or more. For self-employed individuals, the required annual income is Rs. 42 Lakh or more."
+      },
+      {
+        "q": "How can I apply for IndusInd Bank Indulge Credit Card?",
+        "a": "You can apply online by visiting the official website of IndusInd Bank and submitting a duly filled application form. Alternatively, you can also apply offline by visiting the nearest IndusInd Bank branch in person."
+      },
+      {
+        "q": "Does IndusInd Bank Indulge Credit Card offer lounge access benefits?",
+        "a": "Yes, the card offers 16 complimentary international lounge visits per year (maximum 4 per quarter) through Priority Pass."
+      },
+      {
+        "q": "What is the credit limit offered on IndusInd Bank Indulge Credit Card?",
+        "a": "IndusInd Bank Indulge Credit Card comes with no pre-set spending limit. However, each transaction’s approval is subject to your eligibility and IndusInd Bank’s internal policies."
+      },
+      {
+        "q": "Does IndusInd Bank Indulge Credit Card offer free movie tickets?",
+        "a": "Yes, you can avail the Buy 1 Get 1 offer up to 3 times per month on ticket bookings via BookMyShow. You can save up to Rs. 700 on the second ticket. Additionally, the card also offers an extra Rs. 50 discount on selecting the F&B option."
+      },
+      {
+        "q": "Can I redeem reward points earned via IndusInd Bank Indulge Credit Card against cashback?",
+        "a": "Yes, you can redeem accumulated reward points against cashback at a value of 1 Reward Point = Rs. 1."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.37,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.0,
+      "Lifestyle Benefits": 4.0,
+      "travel": 3.0,
+      "rewards": 3.0,
+      "lifestyle_benefits": 4.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IndusInd Bank suited for super-premium users.",
+    "pros": [
+      "No pre-set spending limit",
+      "Low forex markup fee of 1.8%",
+      "Reward redemption against cashback at a 1:1 ratio",
+      "Unlimited complimentary golf games and lessons",
+      "Buy 1 Get 1 Offer on BookMyShow",
+      "Dining discount of up to Rs. 6,000 per year via EazyDiner"
+    ],
+    "cons": [
+      "Very high joining fee of Rs. 75,000",
+      "Low reward earning rate of 1.5% across all spends"
+    ],
+    "best_for_whom": "High-income spenders maximizing IndusInd Bank concierge, unlimited lounges & accelerated travel portals",
+    "not_ideal_for": "Moderate spenders unlikely to cross annual fee waiver / extract >fee value",
+    "recommended_monthly_spend_inr": "Rs. 250,000+",
+    "verdict": "option from IndusInd Bank suited for super-premium users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.37,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IndusInd Bank Super-Premium cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
+      "High 3.5% (+GST) forex markup makes international swipes net negative."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹1,000,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count.",
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low",
+    "devaluation_risk_score": 3,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "axis_bank_burgundy_private_credit_card",
+      "card_name": "Axis Bank Burgundy Private Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-burgundy-private-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "rbl_bank_nova_credit_card",
+      "card_name": "RBL NOVA Credit Card",
+      "bank": "RBL Bank",
+      "bank_slug": "rbl-bank",
+      "card_slug": "rbl-nova-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 3.88,
+      "reason": "Direct competitor from RBL Bank at similar fee tier (Rs. 12,500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 300000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 3600000,
+    "min_cibil_score": 730,
+    "approval_notes": "To apply for this credit card, you must be at least 21 years old. If you are a salaried individual, your annual income should be Rs. 36 Lakh or more. For self-employed individuals, the required annual income is Rs. 42 Lakh or more."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "indusind-bank-make-the-most-out-of-your-reward-points-by-us",
+      "bank": "IndusInd Bank",
+      "title": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you",
+      "summary": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you shop.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "indusind-bank-eazydiner-culinary-treats-flight-movie-priv",
+      "bank": "IndusInd Bank",
+      "title": "EazyDiner Culinary Treats & Flight/Movie Privileges",
+      "summary": "Guaranteed dining discounts at EazyDiner partner restaurants, BOGO movie perks via BookMyShow, and zero-markup forex promos on Tiger/Avios.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

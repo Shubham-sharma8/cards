@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_hdfc_giga_business_credit_card",
+    "card_name": "HDFC Bank GIGA Business Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "hdfc-bank-giga-business-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Business & Tax",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Business & Tax"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/hdfc-bank-giga-business-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#25B5C0",
+      "secondary_hex": "#3681C9",
+      "wash_hex": "#E0F1F0",
+      "soft_bg_hex": "#EBF8F9",
+      "border_hex": "#CFEFF1",
+      "ink_on_soft_hex": "#166C73",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/business-credit-cards/giga-business-credit-card/fees-and-charges/mitc-204-64.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 33333,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Proprietors",
+      "MSMEs & self-employed professionals separating GST",
+      "vendor expenses",
+      "Rs. 50,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "business",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "fuel",
+      "giga",
+      "groceries",
+      "hdfc",
+      "miles",
+      "movies",
+      "tax",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Redeem the accumulated reward points at a value of 1 CashPoint = Rs. 0.25",
+      "Up to Rs. 200 off on a min. order value of Rs. 2,000 on Swiggy Dineout, twice a month",
+      "Up to Rs. 1,800 Cashback in the first calendar year and a voucher worth Rs. 800",
+      "1% fuel surcharge waiver on a min. transition of Rs. 400 to Rs. 5,000, capped at Rs. 250 per month on all fuel spends",
+      "Up to 7.5% off on dining bills with Swiggy Dineout"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 250
+    },
+    "monthly_capping_rules": [
+      "Up to Rs. 1,800 Cashback in the first calendar year and a voucher worth Rs. 800"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": 50000,
+      "monthly_spend_for_waiver_inr": 4167,
+      "milestone_slabs": [
+        "6 CashPoints on every Rs. 200 spent on Business digital spends, bill payments, income tax and GST payments",
+        "800 bonus CashPoints on spending Rs. 50,000 per month",
+        "Up to Rs. 1,800 Cashback in the first calendar year and a voucher worth Rs. 800",
+        "Gift voucher worth Rs. 250 on your first transaction within 37 days as a welcome benefit"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 50000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Cardholders can earn 2 CashPoints for every Rs. 200 spent on general business expenses and 6 CashPoints for every Rs. 200 spent on eligible business digital spends, bill payments, GST payments, and income tax payments. Accumulated CashPoints can be redeemed at a value of 1 CashPoint = Rs. 0.25. The card also includes features such as monthly spending-based milestone rewards, a welcome benefit, dining discounts through Swiggy Dineout, and a fuel surcharge waiver on eligible fuel transactions. The card comes with an annual fee of Rs. 500, which can be waived if the cardholder spends at least Rs. 50,000 during the card anniversary year. Overall, the HDFC GIGA BUSINESS Credit Card is positioned as a mid-range business credit card that combines rewards on business spends with basic lifestyle and savings benefits, making it suitable for consumers seeking an entry-level credit card to start their credit journey.",
+    "highlights": [
+      "2 CashPoints on every Rs. 200 spent on general business expenses",
+      "6 CashPoints on every Rs. 200 spent on Business digital spends, bill payments, income tax and GST payments",
+      "Redeem the accumulated reward points at a value of 1 CashPoint = Rs. 0.25"
+    ],
+    "welcome_benefit": "Gift voucher worth Rs. 250 on your first transaction within 37 days as a welcome benefit",
+    "milestone_benefits": [
+      "6 CashPoints on every Rs. 200 spent on Business digital spends, bill payments, income tax and GST payments",
+      "800 bonus CashPoints on spending Rs. 50,000 per month",
+      "Up to Rs. 1,800 Cashback in the first calendar year and a voucher worth Rs. 800",
+      "Gift voucher worth Rs. 250 on your first transaction within 37 days as a welcome benefit"
+    ],
+    "dining_benefits": [
+      "Up to Rs. 200 off on a min. order value of Rs. 2,000 on Swiggy Dineout, twice a month",
+      "Up to 7.5% off on dining bills with Swiggy Dineout"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want to own a business credit card and want to earn CashPoints on general business expenses",
+      "You dine out via Swiggy Dineout, and you want to save on it",
+      "You are looking for a mid-tier credit card to start your credit journey"
+    ],
+    "faqs": [
+      {
+        "q": "Who is the HDFC GIGA BUSINESS Credit Card best suited for?",
+        "a": "The card is primarily designed for consumers who regularly use a credit card for business-related expenses such as utility bills, tax payments, and digital transactions."
+      },
+      {
+        "q": "How are CashPoints earned on business expenses?",
+        "a": "Cardholders can earn CashPoints at different rates depending on the spending category. General business purchases earn a standard reward rate, while eligible digital payments, utility bills, GST payments, and income tax payments earn rewards at a higher rate."
+      },
+      {
+        "q": "Can rewards earned on tax payments be redeemed as cash?",
+        "a": "CashPoints accumulated through eligible spending can be redeemed against the card statement or other available redemption options. Each CashPoint carries a fixed redemption value, making it easier to estimate the actual reward earned."
+      },
+      {
+        "q": "What happens if I do not meet the annual fee waiver condition?",
+        "a": "If the required spending threshold is not achieved during the card anniversary year, the annual membership fee will be charged. Reviewing yearly spending can help cardholders understand whether they qualify for the fee waiver."
+      },
+      {
+        "q": "Does the card provide benefits beyond business-related rewards?",
+        "a": "Apart from rewards on business expenses, the card includes additional features such as spending-based milestone benefits, dining-related savings through partner programs, and a fuel surcharge waiver on eligible fuel purchases."
+      },
+      {
+        "q": "Are all digital transactions eligible for accelerated rewards?",
+        "a": "Not every digital transaction may qualify for the higher reward rate. Accelerated rewards generally apply to specific categories defined by the issuer, so cardholders should review the applicable terms to understand eligible transactions."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.23,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Fuel Benefits": 3.0,
+      "Dining Benefits": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for business & tax users.",
+    "pros": [
+      "2 CashPoints on every Rs. 200 spent on general business expenses",
+      "6 CashPoints on every Rs. 200 spent on Business digital spends, bill payments, income tax, and GST payments",
+      "Up to 7.5% off on dining bills with Swiggy Dineout"
+    ],
+    "cons": [
+      "Low reward redemption value of 1 CahsPoint = Rs. 0.25",
+      "No travel-related perks"
+    ],
+    "best_for_whom": "Proprietors, MSMEs & self-employed professionals separating GST/tax/vendor expenses",
+    "not_ideal_for": "Salaried individuals with strictly personal spends",
+    "recommended_monthly_spend_inr": "Rs. 50,000+",
+    "verdict": "option from HDFC Bank suited for business & tax users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.23,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HDFC Bank Business & Tax cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Up to Rs. 1,800 Cashback in the first calendar year and a voucher worth Rs. 800"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹50,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_business_gold_credit_card",
+      "card_name": "ICICI Bank Business Gold Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-business-gold-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.21,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Business & Tax with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "au_small_finance_bank_business_cashback_credit_card",
+      "card_name": "AU Business Cashback Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "au-business-cashback-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.46,
+      "reason": "Direct competitor from AU Small Finance Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.07/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+      "card_name": "YES BANK PaisaSave Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-paisasave-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.28,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.28/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "25 years to 65 years",
+    "min_monthly_income_salaried_inr": 33333,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 400000,
+    "min_cibil_score": 730,
+    "approval_notes": "Resident: Indian"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

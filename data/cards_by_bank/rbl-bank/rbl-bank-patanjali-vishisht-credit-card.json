@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "card_id": "rbl_bank_patanjali_vishisht_credit_card",
+    "card_name": "RBL Bank Patanjali Vishisht Credit Card",
+    "bank": "RBL Bank",
+    "bank_slug": "rbl-bank",
+    "card_slug": "rbl-bank-patanjali-vishisht-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/rbl-bank/rbl-bank-patanjali-vishisht-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#BB4E30",
+      "secondary_hex": "#5EA7AB",
+      "wash_hex": "#F2E4DE",
+      "soft_bg_hex": "#F9EFEC",
+      "border_hex": "#F0D8D1",
+      "ink_on_soft_hex": "#A3442A",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+    "mitc_pdf_url": "https://drws17a9qx558.cloudfront.net/document/Credit%20Cards/RBL-MITC-final.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "miles",
+      "online",
+      "patanjali",
+      "rbl",
+      "shopping",
+      "travel",
+      "vishisht"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "10% cashback, up to Rs. 500 per month, on online and offline Patanjali purchases of min. Rs. 500",
+      "1 reward point on every Rs. 100 spent online and offline",
+      "Accrued reward points can be redeemed against products available in RBL Rewards Catalogue",
+      "2,000 reward points on making the 1st spend of min. Rs. 500 within 30 days from card issuance",
+      "1% fuel surcharge waiver, up to Rs. 200 per month, on fuel spends of Rs. 500 to Rs. 4,000",
+      "10% savings on co-branded spends made from Patanjali stores/website"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 6.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 500,
+      "fuel": 200
+    },
+    "monthly_capping_rules": [
+      "10% cashback, up to Rs. 500 per month, on online and offline Patanjali purchases of min. Rs. 500"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": 150000,
+      "monthly_spend_for_waiver_inr": 12500,
+      "milestone_slabs": [
+        "2,000 reward points on making the 1st spend of min. Rs. 500 within 30 days from card issuance",
+        "Rs. 500 Patanjali voucher on Rs. 2.5 lakh annual spends, subject to min. Rs. 12,000 spends on Patanjali website/store",
+        "2 nights/3 days Patanjali Wellness Centre stay on Rs. 4 lakh annual spends, subject to min. Rs. 15,000 spends on Patanjali website/store",
+        "Annual fee waived off on spending a min. of Rs. 1.5 lakh in the previous year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 150000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.99,
+    "apr_annual_pct": 47.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "12.5% of the outstanding amount, subject to a min. of Rs. 5 and a max. of Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "RBL Bank offers two co-branded credit cards in collaboration with Patanjali where RBL Patanjali Vishisht is the base variant and RBL Patanjali Swarn credit card is the premium variant. Both these cards offer accelerated value-back on co-branded spends as cashback and milestone benefits.",
+    "highlights": [
+      "10% cashback, up to Rs. 500 per month, on online and offline Patanjali purchases of min. Rs. 500",
+      "1 reward point on every Rs. 100 spent online and offline",
+      "Accrued reward points can be redeemed against products available in RBL Rewards Catalogue"
+    ],
+    "welcome_benefit": "Rewards as joining bonus as compensation for the joining fee",
+    "milestone_benefits": [
+      "2,000 reward points on making the 1st spend of min. Rs. 500 within 30 days from card issuance",
+      "Rs. 500 Patanjali voucher on Rs. 2.5 lakh annual spends, subject to min. Rs. 12,000 spends on Patanjali website/store",
+      "2 nights/3 days Patanjali Wellness Centre stay on Rs. 4 lakh annual spends, subject to min. Rs. 15,000 spends on Patanjali website/store",
+      "Annual fee waived off on spending a min. of Rs. 1.5 lakh in the previous year"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are a loyal customer of Patanjali and use their products for your everyday personal and household needs",
+      "You have another credit card to get a good value-back on your other lifestyle expenses, including apparel, travel, entertainment, dining, etc.",
+      "You can maximise your savings by availing card benefits like milestone benefits and fee waiver by meeting the required spending conditions"
+    ],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.73,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 2.0,
+      "Welcome Benefits": 3.0,
+      "branded Benefits": 3.5,
+      "rewards": 2.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from RBL Bank suited for travel & miles users.",
+    "pros": [
+      "10% savings on co-branded spends made from Patanjali stores/website",
+      "Rewards as joining bonus as compensation for the joining fee",
+      "Exclusive co-branded benefits as milestone bonuses",
+      "Low spending requirement for fee waiver"
+    ],
+    "cons": [
+      "Capping on cashback savings on spends made on Patanjali brand",
+      "Low reward point earnings on all spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from RBL Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.73,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around RBL Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "10% cashback, up to Rs. 500 per month, on online and offline Patanjali purchases of min. Rs. 500"
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (6.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹150,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "csb_bank_edge_plus_csb_rupay_credit_card",
+      "card_name": "Edge+ CSB Bank RuPay Credit Card",
+      "bank": "CSB Bank",
+      "bank_slug": "csb-bank",
+      "card_slug": "edge-csb-bank-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.26,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbi_bank_flipkart_sbi_credit_card",
+      "card_name": "Flipkart SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "flipkart-sbi-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.24,
+      "reason": "Direct competitor from SBI Card at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "axis_bank_flipkart_axis_bank_credit_card",
+      "card_name": "Flipkart Axis Bank Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "flipkart-axis-bank-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.22,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.22/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "axis_bank_axis_bank_cashback_credit_card",
+      "card_name": "Axis Bank Cashback Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-cashback-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.2,
+      "reason": "Top-rated Cashback card in market with rating 4.2/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "rbl-bank-rbl-travel-dining-bookmyshow-weekend-offer",
+      "bank": "RBL Bank",
+      "title": "RBL Travel, Dining & BookMyShow Weekend Offers",
+      "summary": "Zero forex markup travel benefits on World Safari plus monthly BookMyShow discounts and fuel surcharge waivers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.rblbank.com/personal-banking/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

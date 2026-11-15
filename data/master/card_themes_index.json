@@ -1,0 +1,5115 @@
+{
+  "total": 511,
+  "themes": {
+    "amex_american_express_platinum_charge_card": {
+      "primary_hex": "#1C5F94",
+      "secondary_hex": "#2B3CA3",
+      "wash_hex": "#DFE7EA",
+      "soft_bg_hex": "#EBF1F5",
+      "border_hex": "#CDDCE7",
+      "ink_on_soft_hex": "#1C5F94",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "amex_bank_american_express_gold_credit_card": {
+      "primary_hex": "#A19149",
+      "secondary_hex": "#95A857",
+      "wash_hex": "#EFEDE1",
+      "soft_bg_hex": "#F7F5EF",
+      "border_hex": "#EAE7D7",
+      "ink_on_soft_hex": "#726634",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "amex_bank_american_express_platinum_reserve_credit_cards": {
+      "primary_hex": "#1C5F94",
+      "secondary_hex": "#2B3CA3",
+      "wash_hex": "#DFE7EA",
+      "soft_bg_hex": "#EBF1F5",
+      "border_hex": "#CDDCE7",
+      "ink_on_soft_hex": "#1C5F94",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "amex_bank_american_express_platinum_travel_credit_cards": {
+      "primary_hex": "#1C5F94",
+      "secondary_hex": "#2B3CA3",
+      "wash_hex": "#DFE7EA",
+      "soft_bg_hex": "#EBF1F5",
+      "border_hex": "#CDDCE7",
+      "ink_on_soft_hex": "#1C5F94",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "amex_bank_membership_rewards_credit_card": {
+      "primary_hex": "#9E8C4D",
+      "secondary_hex": "#96A55A",
+      "wash_hex": "#EFECE2",
+      "soft_bg_hex": "#F6F5EF",
+      "border_hex": "#EAE6D8",
+      "ink_on_soft_hex": "#706336",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "amex_bank_smartearn_credit_card": {
+      "primary_hex": "#4569A6",
+      "secondary_hex": "#5753AC",
+      "wash_hex": "#E4E8EC",
+      "soft_bg_hex": "#EEF2F7",
+      "border_hex": "#D6DEEB",
+      "ink_on_soft_hex": "#41629B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_aditya_birla_finance_au_credit_cards": {
+      "primary_hex": "#C02526",
+      "secondary_hex": "#C97336",
+      "wash_hex": "#F3E0DD",
+      "soft_bg_hex": "#F9EBEB",
+      "border_hex": "#F1CFCF",
+      "ink_on_soft_hex": "#BA2425",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_altura_credit_card": {
+      "primary_hex": "#C34A28",
+      "secondary_hex": "#6F1C7D",
+      "wash_hex": "#F3E4DD",
+      "soft_bg_hex": "#FAEFEC",
+      "border_hex": "#F2D7D0",
+      "ink_on_soft_hex": "#AA4023",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_altura_plus_credit_card": {
+      "primary_hex": "#184381",
+      "secondary_hex": "#272691",
+      "wash_hex": "#DFE3E8",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CCD6E3",
+      "ink_on_soft_hex": "#184381",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_ananta_credit_card": {
+      "primary_hex": "#B08222",
+      "secondary_hex": "#1C6C7D",
+      "wash_hex": "#F1EBDD",
+      "soft_bg_hex": "#F8F4EB",
+      "border_hex": "#EEE4CE",
+      "ink_on_soft_hex": "#7D5C18",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_corporate_credit_card": {
+      "primary_hex": "#A21F2F",
+      "secondary_hex": "#B0562F",
+      "wash_hex": "#EFDFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#EBCED1",
+      "ink_on_soft_hex": "#A21F2F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_kosmo_credit_card": {
+      "primary_hex": "#83B338",
+      "secondary_hex": "#5CB847",
+      "wash_hex": "#ECF1DF",
+      "soft_bg_hex": "#F4F8ED",
+      "border_hex": "#E4EED3",
+      "ink_on_soft_hex": "#506D22",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_laksya_credit_card": {
+      "primary_hex": "#208DA8",
+      "secondary_hex": "#A14B60",
+      "wash_hex": "#E0ECED",
+      "soft_bg_hex": "#EBF5F7",
+      "border_hex": "#CEE6EC",
+      "ink_on_soft_hex": "#196D81",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_magnifi_credit_card": {
+      "primary_hex": "#603C24",
+      "secondary_hex": "#716532",
+      "wash_hex": "#E8E2DD",
+      "soft_bg_hex": "#F1EDEB",
+      "border_hex": "#DCD4CF",
+      "ink_on_soft_hex": "#603C24",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_nomo_credit_card": {
+      "primary_hex": "#532975",
+      "secondary_hex": "#833885",
+      "wash_hex": "#E6E0E7",
+      "soft_bg_hex": "#F0ECF3",
+      "border_hex": "#D9D0E1",
+      "ink_on_soft_hex": "#532975",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_prathama_credit_card": {
+      "primary_hex": "#A3484F",
+      "secondary_hex": "#323B67",
+      "wash_hex": "#F0E4E2",
+      "soft_bg_hex": "#F7EFEF",
+      "border_hex": "#EBD7D8",
+      "ink_on_soft_hex": "#9E464C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_purchase_credit_card": {
+      "primary_hex": "#6F1517",
+      "secondary_hex": "#804822",
+      "wash_hex": "#E9DEDB",
+      "soft_bg_hex": "#F2EAEA",
+      "border_hex": "#DFCCCC",
+      "ink_on_soft_hex": "#6F1517",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_small_finance_bank_lit_credit_card_lifetime_free_card": {
+      "primary_hex": "#B25F38",
+      "secondary_hex": "#D39136",
+      "wash_hex": "#F1E7DF",
+      "soft_bg_hex": "#F8F1ED",
+      "border_hex": "#EEDCD3",
+      "ink_on_soft_hex": "#954F2F",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_tejas_credit_card": {
+      "primary_hex": "#C58126",
+      "secondary_hex": "#7E1C36",
+      "wash_hex": "#F4EBDD",
+      "soft_bg_hex": "#FAF4EB",
+      "border_hex": "#F2E3CF",
+      "ink_on_soft_hex": "#8B5B1B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_xcite_ace_credit_card": {
+      "primary_hex": "#1E5391",
+      "secondary_hex": "#2D32A0",
+      "wash_hex": "#E0E5EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CED9E7",
+      "ink_on_soft_hex": "#1E5391",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_xcite_credit_card": {
+      "primary_hex": "#17677B",
+      "secondary_hex": "#204D84",
+      "wash_hex": "#DFE7E7",
+      "soft_bg_hex": "#EAF1F3",
+      "border_hex": "#CCDEE2",
+      "ink_on_soft_hex": "#17677B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_au_xcite_ultra_credit_card": {
+      "primary_hex": "#3F2262",
+      "secondary_hex": "#752178",
+      "wash_hex": "#E4DFE4",
+      "soft_bg_hex": "#EEEBF1",
+      "border_hex": "#D5CEDC",
+      "ink_on_soft_hex": "#3F2262",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_business_cashback_credit_card": {
+      "primary_hex": "#1A608A",
+      "secondary_hex": "#29409A",
+      "wash_hex": "#DFE7E9",
+      "soft_bg_hex": "#EAF1F4",
+      "border_hex": "#CDDCE5",
+      "ink_on_soft_hex": "#1A608A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_cheq_au_credit_card": {
+      "primary_hex": "#2B5A3F",
+      "secondary_hex": "#396A63",
+      "wash_hex": "#E1E6E0",
+      "soft_bg_hex": "#ECF0EE",
+      "border_hex": "#D0DBD5",
+      "ink_on_soft_hex": "#2B5A3F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_instapay_credit_card": {
+      "primary_hex": "#49156F",
+      "secondary_hex": "#802280",
+      "wash_hex": "#E5DEE6",
+      "soft_bg_hex": "#EFEAF2",
+      "border_hex": "#D7CCDF",
+      "ink_on_soft_hex": "#49156F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_ixigo_au_credit_card": {
+      "primary_hex": "#5C2E80",
+      "secondary_hex": "#8E3D8F",
+      "wash_hex": "#E7E1E8",
+      "soft_bg_hex": "#F0ECF4",
+      "border_hex": "#DBD1E3",
+      "ink_on_soft_hex": "#5C2E80",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "au_small_finance_bank_paytm_au_credit_card": {
+      "primary_hex": "#BC8F2E",
+      "secondary_hex": "#B4C13E",
+      "wash_hex": "#F3ECDE",
+      "soft_bg_hex": "#F9F5EC",
+      "border_hex": "#F0E6D1",
+      "ink_on_soft_hex": "#7F601F",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "au_small_finance_bank_spont_credit_card": {
+      "primary_hex": "#C52F26",
+      "secondary_hex": "#CFBA2D",
+      "wash_hex": "#F4E1DD",
+      "soft_bg_hex": "#FAECEB",
+      "border_hex": "#F2D1CF",
+      "ink_on_soft_hex": "#B82C24",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "au_small_finance_bank_vetta_credit_card": {
+      "primary_hex": "#A31F21",
+      "secondary_hex": "#B1642F",
+      "wash_hex": "#F0DFDC",
+      "soft_bg_hex": "#F7EBEB",
+      "border_hex": "#EBCECE",
+      "ink_on_soft_hex": "#A31F21",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "au_small_finance_bank_zenith_plus_credit_card": {
+      "primary_hex": "#285D53",
+      "secondary_hex": "#36616E",
+      "wash_hex": "#E1E6E2",
+      "soft_bg_hex": "#ECF0F0",
+      "border_hex": "#D0DBD9",
+      "ink_on_soft_hex": "#285D53",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_ace_credit_card": {
+      "primary_hex": "#6C194A",
+      "secondary_hex": "#7D2635",
+      "wash_hex": "#E9DEE1",
+      "soft_bg_hex": "#F2EAEF",
+      "border_hex": "#DFCCD7",
+      "ink_on_soft_hex": "#6C194A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_airtel_axis_bank_credit_card": {
+      "primary_hex": "#602539",
+      "secondary_hex": "#B3A63F",
+      "wash_hex": "#E8E0DF",
+      "soft_bg_hex": "#F1EBED",
+      "border_hex": "#DCCFD3",
+      "ink_on_soft_hex": "#602539",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_atlas_credit_card": {
+      "primary_hex": "#6F1D3C",
+      "secondary_hex": "#802E2B",
+      "wash_hex": "#E9DFE0",
+      "soft_bg_hex": "#F2EBED",
+      "border_hex": "#DFCDD4",
+      "ink_on_soft_hex": "#6F1D3C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_aura_credit_card": {
+      "primary_hex": "#6C1930",
+      "secondary_hex": "#7D3326",
+      "wash_hex": "#E9DEDE",
+      "soft_bg_hex": "#F2EAEC",
+      "border_hex": "#DFCCD1",
+      "ink_on_soft_hex": "#6C1930",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_cashback_credit_card": {
+      "primary_hex": "#6F153E",
+      "secondary_hex": "#802226",
+      "wash_hex": "#E9DEE0",
+      "soft_bg_hex": "#F2EAEE",
+      "border_hex": "#DFCCD5",
+      "ink_on_soft_hex": "#6F153E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_commercial_credit_card": {
+      "primary_hex": "#842248",
+      "secondary_hex": "#943431",
+      "wash_hex": "#ECDFE1",
+      "soft_bg_hex": "#F4EBEF",
+      "border_hex": "#E4CED7",
+      "ink_on_soft_hex": "#842248",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "axis_bank_axis_bank_freecharge_credit_card": {
+      "primary_hex": "#982E47",
+      "secondary_hex": "#904122",
+      "wash_hex": "#EEE1E1",
+      "soft_bg_hex": "#F6ECEE",
+      "border_hex": "#E8D1D7",
+      "ink_on_soft_hex": "#982E47",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_insta_easy_credit_cards": {
+      "primary_hex": "#3A59AB",
+      "secondary_hex": "#57409C",
+      "wash_hex": "#E3E6ED",
+      "soft_bg_hex": "#EDF0F7",
+      "border_hex": "#D4DAED",
+      "ink_on_soft_hex": "#3A59AB",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_my_wings_credit_cards": {
+      "primary_hex": "#842248",
+      "secondary_hex": "#943431",
+      "wash_hex": "#ECDFE1",
+      "soft_bg_hex": "#F4EBEF",
+      "border_hex": "#E4CED7",
+      "ink_on_soft_hex": "#842248",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "axis_bank_axis_bank_my_zone_credit_cards": {
+      "primary_hex": "#77173F",
+      "secondary_hex": "#882525",
+      "wash_hex": "#EADEE0",
+      "soft_bg_hex": "#F3EAEE",
+      "border_hex": "#E1CCD5",
+      "ink_on_soft_hex": "#77173F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_neo_credit_cards": {
+      "primary_hex": "#6D1838",
+      "secondary_hex": "#7E2925",
+      "wash_hex": "#E9DEDF",
+      "soft_bg_hex": "#F2EAED",
+      "border_hex": "#DFCCD3",
+      "ink_on_soft_hex": "#6D1838",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_pride_platinum_credit_cards": {
+      "primary_hex": "#6F1543",
+      "secondary_hex": "#B04B37",
+      "wash_hex": "#E9DEE1",
+      "soft_bg_hex": "#F2EAEE",
+      "border_hex": "#DFCCD6",
+      "ink_on_soft_hex": "#6F1543",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_pride_signature_credit_cards": {
+      "primary_hex": "#6E1643",
+      "secondary_hex": "#B34A35",
+      "wash_hex": "#E9DEE1",
+      "soft_bg_hex": "#F2EAEE",
+      "border_hex": "#DFCCD6",
+      "ink_on_soft_hex": "#6E1643",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_signature_credit_cards_with_lifestyle_benefits": {
+      "primary_hex": "#6E1643",
+      "secondary_hex": "#B24B35",
+      "wash_hex": "#E9DEE1",
+      "soft_bg_hex": "#F2EAEE",
+      "border_hex": "#DFCCD6",
+      "ink_on_soft_hex": "#6E1643",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_signature_credit_cards_with_travel_benefits": {
+      "primary_hex": "#6E1643",
+      "secondary_hex": "#B24B35",
+      "wash_hex": "#E9DEE1",
+      "soft_bg_hex": "#F2EAEE",
+      "border_hex": "#DFCCD6",
+      "ink_on_soft_hex": "#6E1643",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_bank_titanium_smart_traveler_credit_cards": {
+      "primary_hex": "#9E2756",
+      "secondary_hex": "#D39C36",
+      "wash_hex": "#EFE0E3",
+      "soft_bg_hex": "#F6ECF0",
+      "border_hex": "#EACFDA",
+      "ink_on_soft_hex": "#9E2756",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_kwik_credit_card": {
+      "primary_hex": "#771E46",
+      "secondary_hex": "#872C2F",
+      "wash_hex": "#EADFE1",
+      "soft_bg_hex": "#F3EBEE",
+      "border_hex": "#E1CED6",
+      "ink_on_soft_hex": "#771E46",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_scapia_credit_card": {
+      "primary_hex": "#C54226",
+      "secondary_hex": "#C98E36",
+      "wash_hex": "#F4E3DD",
+      "soft_bg_hex": "#FAEEEB",
+      "border_hex": "#F2D5CF",
+      "ink_on_soft_hex": "#AB3921",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_shoppers_stop_credit_card": {
+      "primary_hex": "#8E2A51",
+      "secondary_hex": "#9D3D3A",
+      "wash_hex": "#EDE0E2",
+      "soft_bg_hex": "#F5ECEF",
+      "border_hex": "#E6D0D9",
+      "ink_on_soft_hex": "#8E2A51",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_axis_supermoney_rupay_credit_card": {
+      "primary_hex": "#1F156F",
+      "secondary_hex": "#7B1E6F",
+      "wash_hex": "#E0DEE6",
+      "soft_bg_hex": "#EBEAF2",
+      "border_hex": "#CECCDF",
+      "ink_on_soft_hex": "#1F156F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_burgundy_private_credit_card": {
+      "primary_hex": "#842248",
+      "secondary_hex": "#943431",
+      "wash_hex": "#ECDFE1",
+      "soft_bg_hex": "#F4EBEF",
+      "border_hex": "#E4CED7",
+      "ink_on_soft_hex": "#842248",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "axis_bank_buzz_credit_card": {
+      "primary_hex": "#3C295B",
+      "secondary_hex": "#61376B",
+      "wash_hex": "#E3E0E3",
+      "soft_bg_hex": "#EDECF0",
+      "border_hex": "#D4D0DB",
+      "ink_on_soft_hex": "#3C295B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_fibe_axis_bank_credit_card": {
+      "primary_hex": "#5F2542",
+      "secondary_hex": "#684D31",
+      "wash_hex": "#E7E0E0",
+      "soft_bg_hex": "#F1EBEE",
+      "border_hex": "#DCCFD5",
+      "ink_on_soft_hex": "#5F2542",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_flipkart_axis_bank_credit_card": {
+      "primary_hex": "#286898",
+      "secondary_hex": "#812956",
+      "wash_hex": "#E1E8EB",
+      "soft_bg_hex": "#ECF1F6",
+      "border_hex": "#D0DEE8",
+      "ink_on_soft_hex": "#286898",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_flipkart_axis_bank_super_elite_credit_card": {
+      "primary_hex": "#99284F",
+      "secondary_hex": "#D3A436",
+      "wash_hex": "#EEE0E2",
+      "soft_bg_hex": "#F6ECEF",
+      "border_hex": "#E9D0D8",
+      "ink_on_soft_hex": "#99284F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_freecharge_plus_credit_card": {
+      "primary_hex": "#982E47",
+      "secondary_hex": "#904122",
+      "wash_hex": "#EEE1E1",
+      "soft_bg_hex": "#F6ECEE",
+      "border_hex": "#E8D1D7",
+      "ink_on_soft_hex": "#982E47",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_gpay_flex_axis_bank_credit_card": {
+      "primary_hex": "#B13A5F",
+      "secondary_hex": "#1C7D49",
+      "wash_hex": "#F1E2E4",
+      "soft_bg_hex": "#F8EDF1",
+      "border_hex": "#EED4DC",
+      "ink_on_soft_hex": "#AB385C",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "axis_bank_horizon_credit_card": {
+      "primary_hex": "#6F153F",
+      "secondary_hex": "#802227",
+      "wash_hex": "#E9DEE0",
+      "soft_bg_hex": "#F2EAEE",
+      "border_hex": "#DFCCD5",
+      "ink_on_soft_hex": "#6F153F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_ikea_family_credit_card": {
+      "primary_hex": "#911C4B",
+      "secondary_hex": "#246AA2",
+      "wash_hex": "#EDDEE1",
+      "soft_bg_hex": "#F5EBEF",
+      "border_hex": "#E7CDD7",
+      "ink_on_soft_hex": "#911C4B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_indianoil_credit_card": {
+      "primary_hex": "#703656",
+      "secondary_hex": "#7F454D",
+      "wash_hex": "#E9E2E3",
+      "soft_bg_hex": "#F2EDF0",
+      "border_hex": "#E0D3DA",
+      "ink_on_soft_hex": "#703656",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_indigo_axis_bank_credit_card": {
+      "primary_hex": "#931C53",
+      "secondary_hex": "#274295",
+      "wash_hex": "#EEDEE2",
+      "soft_bg_hex": "#F5EBF0",
+      "border_hex": "#E7CDD9",
+      "ink_on_soft_hex": "#931C53",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_magnus_burgundy_credit_card": {
+      "primary_hex": "#782649",
+      "secondary_hex": "#883535",
+      "wash_hex": "#EAE0E1",
+      "soft_bg_hex": "#F3EBEF",
+      "border_hex": "#E1CFD7",
+      "ink_on_soft_hex": "#782649",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_magnus_credit_card": {
+      "primary_hex": "#782649",
+      "secondary_hex": "#883535",
+      "wash_hex": "#EAE0E1",
+      "soft_bg_hex": "#F3EBEF",
+      "border_hex": "#E1CFD7",
+      "ink_on_soft_hex": "#782649",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_miles_and_more_select_credit_card": {
+      "primary_hex": "#A62C5E",
+      "secondary_hex": "#C99C40",
+      "wash_hex": "#F0E0E4",
+      "soft_bg_hex": "#F7ECF1",
+      "border_hex": "#EBD1DC",
+      "ink_on_soft_hex": "#A62C5E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_miles_and_more_world_credit_card": {
+      "primary_hex": "#AA3060",
+      "secondary_hex": "#D3A036",
+      "wash_hex": "#F0E1E4",
+      "soft_bg_hex": "#F7ECF1",
+      "border_hex": "#ECD1DC",
+      "ink_on_soft_hex": "#AA3060",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "axis_bank_my_zone_easy_credit_card": {
+      "primary_hex": "#78173F",
+      "secondary_hex": "#892625",
+      "wash_hex": "#EADEE0",
+      "soft_bg_hex": "#F3EAEE",
+      "border_hex": "#E1CCD5",
+      "ink_on_soft_hex": "#78173F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_olympus_credit_card": {
+      "primary_hex": "#661F3C",
+      "secondary_hex": "#BAA24F",
+      "wash_hex": "#E8DFE0",
+      "soft_bg_hex": "#F1EBED",
+      "border_hex": "#DDCED4",
+      "ink_on_soft_hex": "#661F3C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_primus_credit_card": {
+      "primary_hex": "#931C54",
+      "secondary_hex": "#A22B31",
+      "wash_hex": "#EEDEE3",
+      "soft_bg_hex": "#F5EBF0",
+      "border_hex": "#E7CDD9",
+      "ink_on_soft_hex": "#931C54",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_privilege_credit_card": {
+      "primary_hex": "#7A1743",
+      "secondary_hex": "#8B2527",
+      "wash_hex": "#EBDEE1",
+      "soft_bg_hex": "#F3EAEE",
+      "border_hex": "#E2CCD6",
+      "ink_on_soft_hex": "#7A1743",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_privilege_easy_credit_card": {
+      "primary_hex": "#781742",
+      "secondary_hex": "#892527",
+      "wash_hex": "#EADEE0",
+      "soft_bg_hex": "#F3EAEE",
+      "border_hex": "#E1CCD5",
+      "ink_on_soft_hex": "#781742",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_rewards_credit_card": {
+      "primary_hex": "#6B1A3A",
+      "secondary_hex": "#7C2A27",
+      "wash_hex": "#E9DEDF",
+      "soft_bg_hex": "#F2EAED",
+      "border_hex": "#DECDD4",
+      "ink_on_soft_hex": "#6B1A3A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_samsung_axis_bank_credit_card": {
+      "primary_hex": "#183677",
+      "secondary_hex": "#9E3266",
+      "wash_hex": "#DFE2E7",
+      "soft_bg_hex": "#EAEDF3",
+      "border_hex": "#CCD3E1",
+      "ink_on_soft_hex": "#183677",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_samsung_axis_bank_infinite_credit_card": {
+      "primary_hex": "#992361",
+      "secondary_hex": "#253076",
+      "wash_hex": "#EEDFE4",
+      "soft_bg_hex": "#F6EBF1",
+      "border_hex": "#E9CFDC",
+      "ink_on_soft_hex": "#992361",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_select_credit_card": {
+      "primary_hex": "#852B48",
+      "secondary_hex": "#94433A",
+      "wash_hex": "#ECE0E1",
+      "soft_bg_hex": "#F4ECEF",
+      "border_hex": "#E4D0D7",
+      "ink_on_soft_hex": "#852B48",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "axis_bank_spicejet_axis_bank_credit_card": {
+      "primary_hex": "#71304E",
+      "secondary_hex": "#B09859",
+      "wash_hex": "#EAE1E2",
+      "soft_bg_hex": "#F2ECEF",
+      "border_hex": "#E0D1D8",
+      "ink_on_soft_hex": "#71304E",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "axis_bank_spicejet_voyage_black_credit_card": {
+      "primary_hex": "#842248",
+      "secondary_hex": "#943431",
+      "wash_hex": "#ECDFE1",
+      "soft_bg_hex": "#F4EBEF",
+      "border_hex": "#E4CED7",
+      "ink_on_soft_hex": "#842248",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "bandhan_bank_flare_credit_card": {
+      "primary_hex": "#AF3E36",
+      "secondary_hex": "#2D436C",
+      "wash_hex": "#F1E3DF",
+      "soft_bg_hex": "#F8EEED",
+      "border_hex": "#EDD5D3",
+      "ink_on_soft_hex": "#A93C34",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bandhan_bank_ignite_credit_card": {
+      "primary_hex": "#B73628",
+      "secondary_hex": "#C4813A",
+      "wash_hex": "#F2E2DD",
+      "soft_bg_hex": "#F9EDEC",
+      "border_hex": "#EFD3D0",
+      "ink_on_soft_hex": "#B13427",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bandhan_bank_lumina_credit_card": {
+      "primary_hex": "#6E1617",
+      "secondary_hex": "#7F4923",
+      "wash_hex": "#E9DEDB",
+      "soft_bg_hex": "#F2EAEA",
+      "border_hex": "#DFCCCC",
+      "ink_on_soft_hex": "#6E1617",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bandhan_bank_sparks_credit_card": {
+      "primary_hex": "#A03525",
+      "secondary_hex": "#1D507C",
+      "wash_hex": "#EFE1DD",
+      "soft_bg_hex": "#F6EDEB",
+      "border_hex": "#EAD3CF",
+      "ink_on_soft_hex": "#A03525",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bank_of_india_bank_of_india_visa_gold_credit_card": {
+      "primary_hex": "#987026",
+      "secondary_hex": "#9FA736",
+      "wash_hex": "#EEE9DD",
+      "soft_bg_hex": "#F6F2EB",
+      "border_hex": "#E8E0CF",
+      "ink_on_soft_hex": "#805E20",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_india_india_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_india_kisan_samadhan_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_india_mastercard_platinum_international_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_india_rupay_platinum_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_india_rupay_select_credit_card": {
+      "primary_hex": "#572E53",
+      "secondary_hex": "#6B2E44",
+      "wash_hex": "#E6E1E2",
+      "soft_bg_hex": "#F0ECF0",
+      "border_hex": "#DAD1D9",
+      "ink_on_soft_hex": "#572E53",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bank_of_india_swadhan_rupay_platinum_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_india_visa_gold_international_credit_card": {
+      "primary_hex": "#987026",
+      "secondary_hex": "#9FA736",
+      "wash_hex": "#EEE9DD",
+      "soft_bg_hex": "#F6F2EB",
+      "border_hex": "#E8E0CF",
+      "ink_on_soft_hex": "#805E20",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_india_visa_platinum_international_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_maharashtra_bank_maharashtra_sbi_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bank_of_maharashtra_bank_of_maharashtra_sbi_platinum_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bobcard_assam_rifles_sentinel_credit_card": {
+      "primary_hex": "#9B8750",
+      "secondary_hex": "#782122",
+      "wash_hex": "#EFEBE2",
+      "soft_bg_hex": "#F6F4EF",
+      "border_hex": "#E9E5D8",
+      "ink_on_soft_hex": "#73643B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_bobcard_cashback_credit_card": {
+      "primary_hex": "#855F2E",
+      "secondary_hex": "#C32B2E",
+      "wash_hex": "#ECE7DE",
+      "soft_bg_hex": "#F4F1EC",
+      "border_hex": "#E4DCD1",
+      "ink_on_soft_hex": "#7F5B2C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_bobcard_easy_credit_card": {
+      "primary_hex": "#268CC5",
+      "secondary_hex": "#264A9D",
+      "wash_hex": "#E1ECF0",
+      "soft_bg_hex": "#EBF5FA",
+      "border_hex": "#CFE6F2",
+      "ink_on_soft_hex": "#1C6892",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_bobcard_eterna_credit_card": {
+      "primary_hex": "#15586F",
+      "secondary_hex": "#224180",
+      "wash_hex": "#DFE6E6",
+      "soft_bg_hex": "#EAF0F2",
+      "border_hex": "#CCDADF",
+      "ink_on_soft_hex": "#15586F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_bobcard_etihad_guest_credit_card": {
+      "primary_hex": "#96723E",
+      "secondary_hex": "#A3A44F",
+      "wash_hex": "#EEE9E0",
+      "soft_bg_hex": "#F6F2EE",
+      "border_hex": "#E8E0D5",
+      "ink_on_soft_hex": "#7B5D33",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "bobcard_bobcard_hpcl_energie_credit_card": {
+      "primary_hex": "#5E6A2D",
+      "secondary_hex": "#486732",
+      "wash_hex": "#E7E8DE",
+      "soft_bg_hex": "#F1F2EC",
+      "border_hex": "#DCDED1",
+      "ink_on_soft_hex": "#5E6A2D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_bobcard_prime_credit_card": {
+      "primary_hex": "#B48836",
+      "secondary_hex": "#B2BA45",
+      "wash_hex": "#F2EBDF",
+      "soft_bg_hex": "#F8F4ED",
+      "border_hex": "#EEE5D3",
+      "ink_on_soft_hex": "#7F6026",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "bobcard_bobcard_scapia_credit_card": {
+      "primary_hex": "#C54126",
+      "secondary_hex": "#C98D36",
+      "wash_hex": "#F4E3DD",
+      "soft_bg_hex": "#FAEEEB",
+      "border_hex": "#F2D5CF",
+      "ink_on_soft_hex": "#B23B22",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_bobcard_select_credit_card": {
+      "primary_hex": "#B79E34",
+      "secondary_hex": "#3E3960",
+      "wash_hex": "#F2EEDF",
+      "soft_bg_hex": "#F9F6ED",
+      "border_hex": "#EFEAD2",
+      "ink_on_soft_hex": "#756521",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_bobcard_tiara_credit_card": {
+      "primary_hex": "#7E2FBB",
+      "secondary_hex": "#D39536",
+      "wash_hex": "#EBE1EF",
+      "soft_bg_hex": "#F3ECF9",
+      "border_hex": "#E3D1F0",
+      "ink_on_soft_hex": "#7E2FBB",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "bobcard_bobcard_uni_goldx_credit_card": {
+      "primary_hex": "#A09D30",
+      "secondary_hex": "#1F7A61",
+      "wash_hex": "#EFEEDE",
+      "soft_bg_hex": "#F6F6EC",
+      "border_hex": "#EAE9D1",
+      "ink_on_soft_hex": "#6B6920",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_empower_credit_card": {
+      "primary_hex": "#AC733F",
+      "secondary_hex": "#B2A74D",
+      "wash_hex": "#F1E9E0",
+      "soft_bg_hex": "#F8F2EE",
+      "border_hex": "#EDE0D5",
+      "ink_on_soft_hex": "#855931",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_exclusive_credit_card_icai_members": {
+      "primary_hex": "#292560",
+      "secondary_hex": "#513371",
+      "wash_hex": "#E1E0E4",
+      "soft_bg_hex": "#ECEBF1",
+      "border_hex": "#D0CFDC",
+      "ink_on_soft_hex": "#292560",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_icsi_diamond_credit_card": {
+      "primary_hex": "#547296",
+      "secondary_hex": "#5E61A1",
+      "wash_hex": "#E6E9EA",
+      "soft_bg_hex": "#F0F2F6",
+      "border_hex": "#D9E0E8",
+      "ink_on_soft_hex": "#4C6787",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "bobcard_indian_army_yoddha_bobcard_credit_card": {
+      "primary_hex": "#B37538",
+      "secondary_hex": "#B8AF47",
+      "wash_hex": "#F1E9DF",
+      "soft_bg_hex": "#F8F3ED",
+      "border_hex": "#EEE1D3",
+      "ink_on_soft_hex": "#8A5A2B",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "bobcard_indian_coast_guard_rakshamah_credit_card": {
+      "primary_hex": "#4D658A",
+      "secondary_hex": "#5D5B9B",
+      "wash_hex": "#E5E7E9",
+      "soft_bg_hex": "#EFF1F4",
+      "border_hex": "#D8DDE5",
+      "ink_on_soft_hex": "#4D658A",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "bobcard_nainital_bank_renaissance_credit_card": {
+      "primary_hex": "#34715F",
+      "secondary_hex": "#45613A",
+      "wash_hex": "#E2E9E4",
+      "soft_bg_hex": "#EDF2F1",
+      "border_hex": "#D2E0DC",
+      "ink_on_soft_hex": "#326C5B",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "bobcard_onecard_credit_card": {
+      "primary_hex": "#B05022",
+      "secondary_hex": "#BD9A33",
+      "wash_hex": "#F1E5DD",
+      "soft_bg_hex": "#F8EFEB",
+      "border_hex": "#EED8CE",
+      "ink_on_soft_hex": "#A34A20",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "bobcard_pragati_credit_card": {
+      "primary_hex": "#839051",
+      "secondary_hex": "#936D39",
+      "wash_hex": "#ECECE2",
+      "soft_bg_hex": "#F4F5EF",
+      "border_hex": "#E4E7D9",
+      "ink_on_soft_hex": "#5F693B",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "bobcard_swavlamban_credit_card": {
+      "primary_hex": "#213A64",
+      "secondary_hex": "#322F75",
+      "wash_hex": "#E0E2E4",
+      "soft_bg_hex": "#EBEDF1",
+      "border_hex": "#CED4DD",
+      "ink_on_soft_hex": "#213A64",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_varunah_credit_cards": {
+      "primary_hex": "#246994",
+      "secondary_hex": "#344AA3",
+      "wash_hex": "#E0E8EA",
+      "soft_bg_hex": "#EBF2F5",
+      "border_hex": "#CFDEE7",
+      "ink_on_soft_hex": "#246994",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "bobcard_vikram_credit_card": {
+      "primary_hex": "#9C874F",
+      "secondary_hex": "#99A35C",
+      "wash_hex": "#EFEBE2",
+      "soft_bg_hex": "#F6F4EF",
+      "border_hex": "#E9E5D8",
+      "ink_on_soft_hex": "#73643A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "canara_bank_canara_visa_classic_mastercard_standard_credit_card": {
+      "primary_hex": "#1D6B97",
+      "secondary_hex": "#2D47A6",
+      "wash_hex": "#DFE8EB",
+      "soft_bg_hex": "#EBF2F6",
+      "border_hex": "#CDDEE8",
+      "ink_on_soft_hex": "#1C6691",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "canara_bank_credit_card_rewards": {
+      "primary_hex": "#1D6B97",
+      "secondary_hex": "#2D47A6",
+      "wash_hex": "#DFE8EB",
+      "soft_bg_hex": "#EBF2F6",
+      "border_hex": "#CDDEE8",
+      "ink_on_soft_hex": "#1C6691",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "canara_bank_rupay_platinum_credit_card": {
+      "primary_hex": "#2C3659",
+      "secondary_hex": "#B57C30",
+      "wash_hex": "#E1E2E3",
+      "soft_bg_hex": "#ECEDF0",
+      "border_hex": "#D1D3DA",
+      "ink_on_soft_hex": "#2C3659",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "canara_bank_rupay_select_credit_card": {
+      "primary_hex": "#6F2715",
+      "secondary_hex": "#805D22",
+      "wash_hex": "#E9E0DB",
+      "soft_bg_hex": "#F2ECEA",
+      "border_hex": "#DFCFCC",
+      "ink_on_soft_hex": "#6F2715",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "canara_bank_visa_classic_mastercard_standard_credit_card": {
+      "primary_hex": "#1D6B97",
+      "secondary_hex": "#2D47A6",
+      "wash_hex": "#DFE8EB",
+      "soft_bg_hex": "#EBF2F6",
+      "border_hex": "#CDDEE8",
+      "ink_on_soft_hex": "#1C6691",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "canara_bank_visa_credit_cards": {
+      "primary_hex": "#1D6B97",
+      "secondary_hex": "#2D47A6",
+      "wash_hex": "#DFE8EB",
+      "soft_bg_hex": "#EBF2F6",
+      "border_hex": "#CDDEE8",
+      "ink_on_soft_hex": "#1C6691",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "central_bank_of_india_central_bank_india_aspire_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "central_bank_of_india_central_bank_india_titanium_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "central_bank_of_india_central_bank_india_world_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "central_bank_of_india_rupay_platinum_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "central_bank_of_india_rupay_select_credit_card": {
+      "primary_hex": "#942A44",
+      "secondary_hex": "#A34C3A",
+      "wash_hex": "#EEE0E1",
+      "soft_bg_hex": "#F5ECEE",
+      "border_hex": "#E7D0D6",
+      "ink_on_soft_hex": "#942A44",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "central_bank_of_india_visa_platinum_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "credit_card_axis_bank_reserve_credit_card": {
+      "primary_hex": "#761B40",
+      "secondary_hex": "#872A29",
+      "wash_hex": "#EADEE0",
+      "soft_bg_hex": "#F3EAEE",
+      "border_hex": "#E1CDD5",
+      "ink_on_soft_hex": "#761B40",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "credit_card_onecard": {
+      "primary_hex": "#364760",
+      "secondary_hex": "#444372",
+      "wash_hex": "#E2E4E4",
+      "soft_bg_hex": "#EDEEF1",
+      "border_hex": "#D3D7DC",
+      "ink_on_soft_hex": "#364760",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "csb_bank_edge_plus_csb_rupay_credit_card": {
+      "primary_hex": "#C5262B",
+      "secondary_hex": "#C96F36",
+      "wash_hex": "#F4E0DE",
+      "soft_bg_hex": "#FAEBEC",
+      "border_hex": "#F2CFD0",
+      "ink_on_soft_hex": "#B82428",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "dbs_bank_dbs_spark_credit_card": {
+      "primary_hex": "#8E1D1C",
+      "secondary_hex": "#9D5C2B",
+      "wash_hex": "#EDDFDC",
+      "soft_bg_hex": "#F5EBEB",
+      "border_hex": "#E6CDCD",
+      "ink_on_soft_hex": "#8E1D1C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "dbs_bank_dbs_vantage_credit_card": {
+      "primary_hex": "#408FAA",
+      "secondary_hex": "#D19638",
+      "wash_hex": "#E4ECED",
+      "soft_bg_hex": "#EEF5F7",
+      "border_hex": "#D5E6EC",
+      "ink_on_soft_hex": "#2F6A7E",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "federal_bank_amplifi_fi_federal_credit_card": {
+      "primary_hex": "#554630",
+      "secondary_hex": "#66673D",
+      "wash_hex": "#E6E4DE",
+      "soft_bg_hex": "#F0EEEC",
+      "border_hex": "#DAD6D1",
+      "ink_on_soft_hex": "#554630",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "federal_bank_edgecobranded_credit_card": {
+      "primary_hex": "#30877C",
+      "secondary_hex": "#407D96",
+      "wash_hex": "#E2EBE7",
+      "soft_bg_hex": "#ECF4F3",
+      "border_hex": "#D1E5E2",
+      "ink_on_soft_hex": "#287067",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "federal_bank_federal_bank_rupay_signet_credit_card": {
+      "primary_hex": "#4179AA",
+      "secondary_hex": "#917F49",
+      "wash_hex": "#E4EAED",
+      "soft_bg_hex": "#EEF3F7",
+      "border_hex": "#D5E2EC",
+      "ink_on_soft_hex": "#36658E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "federal_bank_federal_bank_visa_signet_credit_card": {
+      "primary_hex": "#4179AA",
+      "secondary_hex": "#917F49",
+      "wash_hex": "#E4EAED",
+      "soft_bg_hex": "#EEF3F7",
+      "border_hex": "#D5E2EC",
+      "ink_on_soft_hex": "#36658E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "federal_bank_federal_starbiz_credit_card": {
+      "primary_hex": "#978345",
+      "secondary_hex": "#2E5C7E",
+      "wash_hex": "#EEEBE1",
+      "soft_bg_hex": "#F6F4EE",
+      "border_hex": "#E8E4D6",
+      "ink_on_soft_hex": "#726334",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "federal_bank_magnifi_credit_card": {
+      "primary_hex": "#653A1F",
+      "secondary_hex": "#76682D",
+      "wash_hex": "#E8E2DC",
+      "soft_bg_hex": "#F1EDEB",
+      "border_hex": "#DDD4CE",
+      "ink_on_soft_hex": "#653A1F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "federal_bank_onecard_credit_card": {
+      "primary_hex": "#1B588F",
+      "secondary_hex": "#2A369E",
+      "wash_hex": "#DFE6EA",
+      "soft_bg_hex": "#EAF0F5",
+      "border_hex": "#CDDAE6",
+      "ink_on_soft_hex": "#1B588F",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "federal_bank_paisabazaar_paisaback_credit_card": {
+      "primary_hex": "#2C4272",
+      "secondary_hex": "#423B82",
+      "wash_hex": "#E1E3E6",
+      "soft_bg_hex": "#ECEEF2",
+      "border_hex": "#D1D5E0",
+      "ink_on_soft_hex": "#2C4272",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "federal_bank_rupay_wave_credit_card": {
+      "primary_hex": "#15496F",
+      "secondary_hex": "#223180",
+      "wash_hex": "#DFE4E6",
+      "soft_bg_hex": "#EAEFF2",
+      "border_hex": "#CCD7DF",
+      "ink_on_soft_hex": "#15496F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "federal_bank_scapia_credit_card": {
+      "primary_hex": "#BE3C2C",
+      "secondary_hex": "#C3843C",
+      "wash_hex": "#F3E2DE",
+      "soft_bg_hex": "#F9EDEC",
+      "border_hex": "#F1D4D1",
+      "ink_on_soft_hex": "#B23829",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "federal_bank_simplifi_fi_credit_card": {
+      "primary_hex": "#1FA487",
+      "secondary_hex": "#2F98B2",
+      "wash_hex": "#E0EFE9",
+      "soft_bg_hex": "#EBF7F4",
+      "border_hex": "#CEEBE5",
+      "ink_on_soft_hex": "#15715D",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "federal_bank_visa_celesta_credit_card": {
+      "primary_hex": "#1B588F",
+      "secondary_hex": "#2A369E",
+      "wash_hex": "#DFE6EA",
+      "soft_bg_hex": "#EAF0F5",
+      "border_hex": "#CDDAE6",
+      "ink_on_soft_hex": "#1B588F",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "federal_bank_visa_imperio_credit_card": {
+      "primary_hex": "#4477A6",
+      "secondary_hex": "#A79657",
+      "wash_hex": "#E4E9EC",
+      "soft_bg_hex": "#EEF3F7",
+      "border_hex": "#D6E1EB",
+      "ink_on_soft_hex": "#3B6790",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_6e_rewards_indigo_hdfc_bank_credit_card": {
+      "primary_hex": "#3B74AF",
+      "secondary_hex": "#4A51B5",
+      "wash_hex": "#E3E9ED",
+      "soft_bg_hex": "#EDF2F8",
+      "border_hex": "#D4E0ED",
+      "ink_on_soft_hex": "#336598",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_6e_rewards_xl_indigo_hdfc_credit_card": {
+      "primary_hex": "#364C9A",
+      "secondary_hex": "#5A47A8",
+      "wash_hex": "#E2E4EB",
+      "soft_bg_hex": "#EDEFF6",
+      "border_hex": "#D3D8E9",
+      "ink_on_soft_hex": "#364C9A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_biz_black_credit_card": {
+      "primary_hex": "#877349",
+      "secondary_hex": "#5E82A3",
+      "wash_hex": "#ECE9E1",
+      "soft_bg_hex": "#F4F2EF",
+      "border_hex": "#E5E0D7",
+      "ink_on_soft_hex": "#73623E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_biz_first_credit_card": {
+      "primary_hex": "#348AB6",
+      "secondary_hex": "#4360BC",
+      "wash_hex": "#E2ECEE",
+      "soft_bg_hex": "#EDF4F8",
+      "border_hex": "#D2E5EF",
+      "ink_on_soft_hex": "#286A8C",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_biz_grow_credit_card": {
+      "primary_hex": "#195382",
+      "secondary_hex": "#273692",
+      "wash_hex": "#DFE5E8",
+      "soft_bg_hex": "#EAF0F4",
+      "border_hex": "#CCD9E4",
+      "ink_on_soft_hex": "#195382",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_biz_power_credit_card": {
+      "primary_hex": "#323063",
+      "secondary_hex": "#573F73",
+      "wash_hex": "#E2E1E4",
+      "soft_bg_hex": "#EDECF1",
+      "border_hex": "#D2D1DD",
+      "ink_on_soft_hex": "#323063",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_business_moneyback_credit_card": {
+      "primary_hex": "#337AB8",
+      "secondary_hex": "#4250BD",
+      "wash_hex": "#E2EAEF",
+      "soft_bg_hex": "#EDF3F9",
+      "border_hex": "#D2E2EF",
+      "ink_on_soft_hex": "#2B669A",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_diners_club_privilege_credit_card": {
+      "primary_hex": "#6C3D5E",
+      "secondary_hex": "#7E4A58",
+      "wash_hex": "#E9E2E4",
+      "soft_bg_hex": "#F2EEF1",
+      "border_hex": "#DFD4DC",
+      "ink_on_soft_hex": "#6C3D5E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_diners_clubmiles_credit_card": {
+      "primary_hex": "#5E3635",
+      "secondary_hex": "#86653E",
+      "wash_hex": "#E7E2DF",
+      "soft_bg_hex": "#F1EDED",
+      "border_hex": "#DCD3D3",
+      "ink_on_soft_hex": "#5E3635",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_doctors_superia_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_freedom_credit_card": {
+      "primary_hex": "#2266A6",
+      "secondary_hex": "#333FB4",
+      "wash_hex": "#E0E7EC",
+      "soft_bg_hex": "#EBF1F7",
+      "border_hex": "#CEDDEB",
+      "ink_on_soft_hex": "#2266A6",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_bank_business_platinum_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_hdfc_bank_diners_rewardz_credit_cards": {
+      "primary_hex": "#384264",
+      "secondary_hex": "#BB984E",
+      "wash_hex": "#E3E3E4",
+      "soft_bg_hex": "#EDEEF1",
+      "border_hex": "#D3D5DD",
+      "ink_on_soft_hex": "#384264",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_bank_money_back_credit_cards": {
+      "primary_hex": "#337BB8",
+      "secondary_hex": "#4251BD",
+      "wash_hex": "#E2EAEF",
+      "soft_bg_hex": "#EDF3F9",
+      "border_hex": "#D2E2EF",
+      "ink_on_soft_hex": "#2B679A",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_bank_moneyback_plus_credit_card": {
+      "primary_hex": "#2391BA",
+      "secondary_hex": "#3562C7",
+      "wash_hex": "#E0EDEF",
+      "soft_bg_hex": "#EBF5F9",
+      "border_hex": "#CFE7F0",
+      "ink_on_soft_hex": "#196986",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_bank_regalia_credit_cards": {
+      "primary_hex": "#74663C",
+      "secondary_hex": "#7A834B",
+      "wash_hex": "#EAE7E0",
+      "soft_bg_hex": "#F2F1ED",
+      "border_hex": "#E0DDD4",
+      "ink_on_soft_hex": "#6F6239",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_bank_upi_rupay_credit_card": {
+      "primary_hex": "#6C1963",
+      "secondary_hex": "#472673",
+      "wash_hex": "#E9DEE4",
+      "soft_bg_hex": "#F2EAF1",
+      "border_hex": "#DFCCDD",
+      "ink_on_soft_hex": "#6C1963",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_business_bharat_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_hdfc_business_freedom_credit_card": {
+      "primary_hex": "#1E679B",
+      "secondary_hex": "#2E42AA",
+      "wash_hex": "#E0E7EB",
+      "soft_bg_hex": "#EBF1F6",
+      "border_hex": "#CEDEE9",
+      "ink_on_soft_hex": "#1E679B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_business_gold_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_hdfc_business_platinum_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_hdfc_business_regalia_first_credit_card": {
+      "primary_hex": "#7D6B3D",
+      "secondary_hex": "#838C4D",
+      "wash_hex": "#EBE8E0",
+      "soft_bg_hex": "#F3F2EE",
+      "border_hex": "#E2DED4",
+      "ink_on_soft_hex": "#736238",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_diners_club_black_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_hdfc_giga_business_credit_card": {
+      "primary_hex": "#25B5C0",
+      "secondary_hex": "#3681C9",
+      "wash_hex": "#E0F1F0",
+      "soft_bg_hex": "#EBF8F9",
+      "border_hex": "#CFEFF1",
+      "ink_on_soft_hex": "#166C73",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_miles_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_hdfc_pixel_go_fd_credit_card": {
+      "primary_hex": "#2696C5",
+      "secondary_hex": "#3660C9",
+      "wash_hex": "#E1EDF0",
+      "soft_bg_hex": "#EBF6FA",
+      "border_hex": "#CFE8F2",
+      "ink_on_soft_hex": "#1B6A8B",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_pixel_play_fd_credit_card": {
+      "primary_hex": "#37A4B3",
+      "secondary_hex": "#467BB9",
+      "wash_hex": "#E3EFEE",
+      "soft_bg_hex": "#EDF7F8",
+      "border_hex": "#D3EBEE",
+      "ink_on_soft_hex": "#256E78",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_regalia_first_credit_cards": {
+      "primary_hex": "#7D6B3D",
+      "secondary_hex": "#838C4D",
+      "wash_hex": "#EBE8E0",
+      "soft_bg_hex": "#F3F2EE",
+      "border_hex": "#E2DED4",
+      "ink_on_soft_hex": "#736238",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_regalia_gold_credit_card": {
+      "primary_hex": "#644321",
+      "secondary_hex": "#75702F",
+      "wash_hex": "#E8E3DC",
+      "soft_bg_hex": "#F1EEEB",
+      "border_hex": "#DDD6CE",
+      "ink_on_soft_hex": "#644321",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_solitaire_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_hdfc_titanium_times_credit_card": {
+      "primary_hex": "#152C6F",
+      "secondary_hex": "#216898",
+      "wash_hex": "#DFE0E6",
+      "soft_bg_hex": "#EAECF2",
+      "border_hex": "#CCD1DF",
+      "ink_on_soft_hex": "#152C6F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_hdfc_visa_signature_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_indianoil_hdfc_bank_credit_card": {
+      "primary_hex": "#BD802E",
+      "secondary_hex": "#C1C13E",
+      "wash_hex": "#F3EADE",
+      "soft_bg_hex": "#F9F4EC",
+      "border_hex": "#F0E3D1",
+      "ink_on_soft_hex": "#865A21",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_infinia_credit_card": {
+      "primary_hex": "#193E6C",
+      "secondary_hex": "#26297D",
+      "wash_hex": "#DFE3E5",
+      "soft_bg_hex": "#EAEEF2",
+      "border_hex": "#CCD5DF",
+      "ink_on_soft_hex": "#193E6C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_irctc_hdfc_bank_credit_card": {
+      "primary_hex": "#3D7DAE",
+      "secondary_hex": "#4B5BB4",
+      "wash_hex": "#E3EAED",
+      "soft_bg_hex": "#EEF3F8",
+      "border_hex": "#D4E2ED",
+      "ink_on_soft_hex": "#336992",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_marriott_bonvoy_hdfc_credit_card": {
+      "primary_hex": "#77663A",
+      "secondary_hex": "#7E8649",
+      "wash_hex": "#EAE7DF",
+      "soft_bg_hex": "#F3F1ED",
+      "border_hex": "#E1DDD4",
+      "ink_on_soft_hex": "#726237",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_millennia_credit_card": {
+      "primary_hex": "#254F84",
+      "secondary_hex": "#343693",
+      "wash_hex": "#E0E5E8",
+      "soft_bg_hex": "#EBEFF4",
+      "border_hex": "#CFD8E4",
+      "ink_on_soft_hex": "#254F84",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_paytm_hdfc_bank_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_paytm_hdfc_bank_select_credit_card": {
+      "primary_hex": "#163C6F",
+      "secondary_hex": "#232480",
+      "wash_hex": "#DFE2E6",
+      "soft_bg_hex": "#EAEDF2",
+      "border_hex": "#CCD4DF",
+      "ink_on_soft_hex": "#163C6F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_phonepe_ultimo_credit_card": {
+      "primary_hex": "#968C54",
+      "secondary_hex": "#8FA15E",
+      "wash_hex": "#EEECE3",
+      "soft_bg_hex": "#F6F5F0",
+      "border_hex": "#E8E6D9",
+      "ink_on_soft_hex": "#6F673E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_phonepe_uno_credit_card": {
+      "primary_hex": "#322166",
+      "secondary_hex": "#5F2F77",
+      "wash_hex": "#E2DFE5",
+      "soft_bg_hex": "#EDEBF1",
+      "border_hex": "#D2CEDD",
+      "ink_on_soft_hex": "#322166",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_pixel_credit_cards": {
+      "primary_hex": "#37A4B3",
+      "secondary_hex": "#467BB9",
+      "wash_hex": "#E3EFEE",
+      "soft_bg_hex": "#EDF7F8",
+      "border_hex": "#D3EBEE",
+      "ink_on_soft_hex": "#256E78",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_pixel_go_credit_card": {
+      "primary_hex": "#2696C5",
+      "secondary_hex": "#3660C9",
+      "wash_hex": "#E1EDF0",
+      "soft_bg_hex": "#EBF6FA",
+      "border_hex": "#CFE8F2",
+      "ink_on_soft_hex": "#1B6A8B",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_platinum_edge_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_platinum_plus_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_platinum_times_credit_card": {
+      "primary_hex": "#537B97",
+      "secondary_hex": "#9D8F55",
+      "wash_hex": "#E6EAEB",
+      "soft_bg_hex": "#F0F3F6",
+      "border_hex": "#D9E2E8",
+      "ink_on_soft_hex": "#45677E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_shoppers_stop_black_credit_card": {
+      "primary_hex": "#8F7638",
+      "secondary_hex": "#5B7F9A",
+      "wash_hex": "#EDE9DF",
+      "soft_bg_hex": "#F5F3ED",
+      "border_hex": "#E6E1D3",
+      "ink_on_soft_hex": "#745F2D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_shoppers_stop_credit_cards": {
+      "primary_hex": "#243761",
+      "secondary_hex": "#393272",
+      "wash_hex": "#E0E2E4",
+      "soft_bg_hex": "#EBEDF1",
+      "border_hex": "#CFD3DC",
+      "ink_on_soft_hex": "#243761",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_superia_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_swiggy_blck_hdfc_credit_card": {
+      "primary_hex": "#AF863B",
+      "secondary_hex": "#D23A33",
+      "wash_hex": "#F1EBE0",
+      "soft_bg_hex": "#F8F4ED",
+      "border_hex": "#EDE4D4",
+      "ink_on_soft_hex": "#7C5F2A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_swiggy_credit_card": {
+      "primary_hex": "#C57B26",
+      "secondary_hex": "#1E4589",
+      "wash_hex": "#F4EADD",
+      "soft_bg_hex": "#FAF3EB",
+      "border_hex": "#F2E2CF",
+      "ink_on_soft_hex": "#8B571B",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_swiggy_ornge_hdfc_credit_card": {
+      "primary_hex": "#C55526",
+      "secondary_hex": "#C99F36",
+      "wash_hex": "#F4E5DD",
+      "soft_bg_hex": "#FAF0EB",
+      "border_hex": "#F2DACF",
+      "ink_on_soft_hex": "#A54720",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_tata_neu_hdfc_bank_credit_cards": {
+      "primary_hex": "#266BC5",
+      "secondary_hex": "#504BBE",
+      "wash_hex": "#E1E8F0",
+      "soft_bg_hex": "#EBF2FA",
+      "border_hex": "#CFDEF2",
+      "ink_on_soft_hex": "#2261B2",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hdfc_bank_tata_neu_infinity_hdfc_bank_credit_card": {
+      "primary_hex": "#552E7F",
+      "secondary_hex": "#863D8E",
+      "wash_hex": "#E6E1E8",
+      "soft_bg_hex": "#F0ECF3",
+      "border_hex": "#DAD1E3",
+      "ink_on_soft_hex": "#552E7F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_tata_neu_infinity_hdfc_fd_credit_card": {
+      "primary_hex": "#552E7F",
+      "secondary_hex": "#863D8E",
+      "wash_hex": "#E6E1E8",
+      "soft_bg_hex": "#F0ECF3",
+      "border_hex": "#DAD1E3",
+      "ink_on_soft_hex": "#552E7F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_tata_neu_plus_hdfc_fd_credit_card": {
+      "primary_hex": "#2484BC",
+      "secondary_hex": "#70259D",
+      "wash_hex": "#E0EBEF",
+      "soft_bg_hex": "#EBF4F9",
+      "border_hex": "#CFE4F0",
+      "ink_on_soft_hex": "#1D6995",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hdfc_bank_teachers_platinum_credit_card": {
+      "primary_hex": "#18447C",
+      "secondary_hex": "#26288D",
+      "wash_hex": "#DFE3E7",
+      "soft_bg_hex": "#EAEEF3",
+      "border_hex": "#CCD6E2",
+      "ink_on_soft_hex": "#18447C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hdfc_bank_titanium_edge_credit_card": {
+      "primary_hex": "#4E769D",
+      "secondary_hex": "#5B61A4",
+      "wash_hex": "#E5E9EB",
+      "soft_bg_hex": "#EFF3F6",
+      "border_hex": "#D8E1E9",
+      "ink_on_soft_hex": "#446789",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hsbc_bank_cashback_credit_card": {
+      "primary_hex": "#AB2127",
+      "secondary_hex": "#B96532",
+      "wash_hex": "#F1DFDD",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#EDCECF",
+      "ink_on_soft_hex": "#AB2127",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hsbc_bank_hsbc_platinum_credit_cards": {
+      "primary_hex": "#487A80",
+      "secondary_hex": "#557291",
+      "wash_hex": "#E5EAE8",
+      "soft_bg_hex": "#EFF3F4",
+      "border_hex": "#D7E2E3",
+      "ink_on_soft_hex": "#406C71",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hsbc_bank_hsbc_prive_credit_card": {
+      "primary_hex": "#AB2127",
+      "secondary_hex": "#B96532",
+      "wash_hex": "#F1DFDD",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#EDCECF",
+      "ink_on_soft_hex": "#AB2127",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hsbc_bank_hsbc_rupay_platinum_credit_card": {
+      "primary_hex": "#A87443",
+      "secondary_hex": "#AEA551",
+      "wash_hex": "#F0E9E1",
+      "soft_bg_hex": "#F7F2EE",
+      "border_hex": "#ECE0D6",
+      "ink_on_soft_hex": "#825A34",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "hsbc_bank_hsbc_smart_value_credit_card": {
+      "primary_hex": "#AB2127",
+      "secondary_hex": "#B96532",
+      "wash_hex": "#F1DFDD",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#EDCECF",
+      "ink_on_soft_hex": "#AB2127",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "hsbc_bank_live_plus_credit_card": {
+      "primary_hex": "#AF3C47",
+      "secondary_hex": "#3C77AC",
+      "wash_hex": "#F1E2E1",
+      "soft_bg_hex": "#F8EDEE",
+      "border_hex": "#EDD4D7",
+      "ink_on_soft_hex": "#A93A45",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hsbc_bank_rupay_cashback_credit_card": {
+      "primary_hex": "#AB2127",
+      "secondary_hex": "#B96532",
+      "wash_hex": "#F1DFDD",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#EDCECF",
+      "ink_on_soft_hex": "#AB2127",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hsbc_bank_taj_credit_card": {
+      "primary_hex": "#A67E44",
+      "secondary_hex": "#AD3E36",
+      "wash_hex": "#F0EAE1",
+      "soft_bg_hex": "#F7F3EE",
+      "border_hex": "#EBE3D6",
+      "ink_on_soft_hex": "#7B5D32",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "hsbc_bank_travelone_credit_card": {
+      "primary_hex": "#AB2127",
+      "secondary_hex": "#B96532",
+      "wash_hex": "#F1DFDD",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#EDCECF",
+      "ink_on_soft_hex": "#AB2127",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "hsbc_premier_credit_card": {
+      "primary_hex": "#AB2127",
+      "secondary_hex": "#B96532",
+      "wash_hex": "#F1DFDD",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#EDCECF",
+      "ink_on_soft_hex": "#AB2127",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "icici_amazon_pay_icici_bank_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_accelero_credit_card": {
+      "primary_hex": "#7B1D17",
+      "secondary_hex": "#266FAD",
+      "wash_hex": "#EBDFDB",
+      "soft_bg_hex": "#F3EBEA",
+      "border_hex": "#E2CDCC",
+      "ink_on_soft_hex": "#7B1D17",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_adani_one_credit_cards": {
+      "primary_hex": "#B1553A",
+      "secondary_hex": "#71343F",
+      "wash_hex": "#F1E5DF",
+      "soft_bg_hex": "#F8F0ED",
+      "border_hex": "#EEDAD4",
+      "ink_on_soft_hex": "#9A4A32",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_adani_one_signature_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_business_gold_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_cashback_black_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_coral_credit_card": {
+      "primary_hex": "#8E2E21",
+      "secondary_hex": "#9D6B30",
+      "wash_hex": "#EDE1DC",
+      "soft_bg_hex": "#F5ECEB",
+      "border_hex": "#E6D1CE",
+      "ink_on_soft_hex": "#8E2E21",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_coral_credit_card_against_fixed_deposit": {
+      "primary_hex": "#912F22",
+      "secondary_hex": "#A06D32",
+      "wash_hex": "#EDE1DD",
+      "soft_bg_hex": "#F5ECEB",
+      "border_hex": "#E7D1CE",
+      "ink_on_soft_hex": "#912F22",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_emeralde_private_metal_credit_card": {
+      "primary_hex": "#156F58",
+      "secondary_hex": "#227180",
+      "wash_hex": "#DFE8E3",
+      "soft_bg_hex": "#EAF2F0",
+      "border_hex": "#CCDFDA",
+      "ink_on_soft_hex": "#156F58",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_hpcl_coral_american_express_credit_card": {
+      "primary_hex": "#97361D",
+      "secondary_hex": "#A6782D",
+      "wash_hex": "#EEE2DC",
+      "soft_bg_hex": "#F6EDEB",
+      "border_hex": "#E8D3CD",
+      "ink_on_soft_hex": "#97361D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_hpcl_super_saver_credit_card": {
+      "primary_hex": "#2A668D",
+      "secondary_hex": "#AA7D5B",
+      "wash_hex": "#E1E7E9",
+      "soft_bg_hex": "#ECF1F5",
+      "border_hex": "#D0DDE6",
+      "ink_on_soft_hex": "#2A668D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_icici_bank_carbon_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_icici_bank_emeralde_credit_card": {
+      "primary_hex": "#156F5B",
+      "secondary_hex": "#226E80",
+      "wash_hex": "#DFE8E3",
+      "soft_bg_hex": "#EAF2F0",
+      "border_hex": "#CCDFDB",
+      "ink_on_soft_hex": "#156F5B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_icici_bank_expression_credit_card": {
+      "primary_hex": "#457DA6",
+      "secondary_hex": "#B07C5A",
+      "wash_hex": "#E4EAEC",
+      "soft_bg_hex": "#EEF3F7",
+      "border_hex": "#D6E2EB",
+      "ink_on_soft_hex": "#3A698B",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "icici_bank_icici_bank_goibibo_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_icici_bank_hpcl_coral_visa_credit_cards": {
+      "primary_hex": "#B13F32",
+      "secondary_hex": "#BC8243",
+      "wash_hex": "#F1E3DE",
+      "soft_bg_hex": "#F8EEED",
+      "border_hex": "#EED5D2",
+      "ink_on_soft_hex": "#AB3D30",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_icici_bank_hpcl_platinum_credit_card": {
+      "primary_hex": "#286B96",
+      "secondary_hex": "#AC815D",
+      "wash_hex": "#E1E8EA",
+      "soft_bg_hex": "#ECF2F6",
+      "border_hex": "#D0DEE8",
+      "ink_on_soft_hex": "#266790",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_icici_bank_instant_platinum_credit_card": {
+      "primary_hex": "#B08E37",
+      "secondary_hex": "#C8332C",
+      "wash_hex": "#F1ECDF",
+      "soft_bg_hex": "#F8F5ED",
+      "border_hex": "#EEE6D3",
+      "ink_on_soft_hex": "#765F25",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_icici_bank_platinum_identity_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_icici_bank_rubyx_visa_credit_card": {
+      "primary_hex": "#812124",
+      "secondary_hex": "#915630",
+      "wash_hex": "#EBDFDD",
+      "soft_bg_hex": "#F4EBEB",
+      "border_hex": "#E3CECF",
+      "ink_on_soft_hex": "#812124",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_icici_bank_sapphiro_visa_credit_card": {
+      "primary_hex": "#183C7D",
+      "secondary_hex": "#2D268E",
+      "wash_hex": "#DFE2E7",
+      "soft_bg_hex": "#EAEDF3",
+      "border_hex": "#CCD4E2",
+      "ink_on_soft_hex": "#183C7D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_icici_bank_titanium_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_icici_bank_visa_signature_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_icici_mine_credit_card": {
+      "primary_hex": "#266AC5",
+      "secondary_hex": "#D25431",
+      "wash_hex": "#E1E8F0",
+      "soft_bg_hex": "#EBF2FA",
+      "border_hex": "#CFDEF2",
+      "ink_on_soft_hex": "#2463B8",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "icici_bank_icici_parakram_select_credit_card": {
+      "primary_hex": "#4A7FA1",
+      "secondary_hex": "#BBAA4E",
+      "wash_hex": "#E5EAEC",
+      "soft_bg_hex": "#EFF3F7",
+      "border_hex": "#D7E3EA",
+      "ink_on_soft_hex": "#3E6A87",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "icici_bank_icici_platinum_chip_visa_credit_cards": {
+      "primary_hex": "#A28A49",
+      "secondary_hex": "#607AA9",
+      "wash_hex": "#EFECE1",
+      "soft_bg_hex": "#F7F4EF",
+      "border_hex": "#EBE5D7",
+      "ink_on_soft_hex": "#736234",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_makemytrip_credit_card": {
+      "primary_hex": "#BA6C24",
+      "secondary_hex": "#702C29",
+      "wash_hex": "#F2E8DD",
+      "soft_bg_hex": "#F9F2EB",
+      "border_hex": "#F0DFCF",
+      "ink_on_soft_hex": "#94561D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_makemytrip_icici_bank_platinum_credit_card": {
+      "primary_hex": "#C02527",
+      "secondary_hex": "#C97236",
+      "wash_hex": "#F3E0DD",
+      "soft_bg_hex": "#F9EBEC",
+      "border_hex": "#F1CFCF",
+      "ink_on_soft_hex": "#BA2426",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "icici_bank_makemytrip_icici_bank_signature_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_parakram_credit_card": {
+      "primary_hex": "#4880A2",
+      "secondary_hex": "#486633",
+      "wash_hex": "#E5EAEC",
+      "soft_bg_hex": "#EFF4F7",
+      "border_hex": "#D7E3EB",
+      "ink_on_soft_hex": "#3A6782",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "icici_bank_platinum_business_credit_card": {
+      "primary_hex": "#A3451F",
+      "secondary_hex": "#B18B2F",
+      "wash_hex": "#F0E3DC",
+      "soft_bg_hex": "#F7EEEB",
+      "border_hex": "#EBD6CE",
+      "ink_on_soft_hex": "#A3451F",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "icici_bank_times_black_icici_credit_card": {
+      "primary_hex": "#846B4A",
+      "secondary_hex": "#959458",
+      "wash_hex": "#ECE8E1",
+      "soft_bg_hex": "#F4F2EF",
+      "border_hex": "#E4DED7",
+      "ink_on_soft_hex": "#755F42",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idbi_bank_eclat_select_credit_card": {
+      "primary_hex": "#187052",
+      "secondary_hex": "#257A81",
+      "wash_hex": "#DFE9E2",
+      "soft_bg_hex": "#EAF2EF",
+      "border_hex": "#CCE0D9",
+      "ink_on_soft_hex": "#187052",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "idbi_bank_euphoria_world_credit_card": {
+      "primary_hex": "#41A395",
+      "secondary_hex": "#5194AE",
+      "wash_hex": "#E4EFEA",
+      "soft_bg_hex": "#EEF7F5",
+      "border_hex": "#D5EBE8",
+      "ink_on_soft_hex": "#2B6C63",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "idbi_bank_idbi_bank_aspire_platinum_credit_card": {
+      "primary_hex": "#15386F",
+      "secondary_hex": "#252280",
+      "wash_hex": "#DFE2E6",
+      "soft_bg_hex": "#EAEDF2",
+      "border_hex": "#CCD3DF",
+      "ink_on_soft_hex": "#15386F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idbi_bank_imperium_platinum_credit_card": {
+      "primary_hex": "#156F6F",
+      "secondary_hex": "#225980",
+      "wash_hex": "#DFE8E6",
+      "soft_bg_hex": "#EAF2F2",
+      "border_hex": "#CCDFDF",
+      "ink_on_soft_hex": "#156F6F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idbi_bank_lumine_platinum_credit_card": {
+      "primary_hex": "#187052",
+      "secondary_hex": "#257A81",
+      "wash_hex": "#DFE9E2",
+      "soft_bg_hex": "#EAF2EF",
+      "border_hex": "#CCE0D9",
+      "ink_on_soft_hex": "#187052",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "idbi_bank_royale_signature_credit_card": {
+      "primary_hex": "#806E33",
+      "secondary_hex": "#818F42",
+      "wash_hex": "#EBE8DF",
+      "soft_bg_hex": "#F4F2ED",
+      "border_hex": "#E3DFD2",
+      "ink_on_soft_hex": "#70602C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idbi_bank_winnings_credit_card": {
+      "primary_hex": "#BE942D",
+      "secondary_hex": "#B1C23D",
+      "wash_hex": "#F3EDDE",
+      "soft_bg_hex": "#F9F5EC",
+      "border_hex": "#F1E7D1",
+      "ink_on_soft_hex": "#7A5F1D",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "idfc_bank_idfc_first_wow_black_credit_card": {
+      "primary_hex": "#882434",
+      "secondary_hex": "#974D33",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CFD2",
+      "ink_on_soft_hex": "#882434",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "idfc_bank_idfc_first_wow_credit_card": {
+      "primary_hex": "#6F191D",
+      "secondary_hex": "#804827",
+      "wash_hex": "#E9DEDC",
+      "soft_bg_hex": "#F2EAEB",
+      "border_hex": "#DFCCCD",
+      "ink_on_soft_hex": "#6F191D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_ashva_credit_card": {
+      "primary_hex": "#622A30",
+      "secondary_hex": "#724A38",
+      "wash_hex": "#E8E0DE",
+      "soft_bg_hex": "#F1ECEC",
+      "border_hex": "#DCD0D1",
+      "ink_on_soft_hex": "#622A30",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_hello_cashback_credit_card": {
+      "primary_hex": "#272B6E",
+      "secondary_hex": "#7D314B",
+      "wash_hex": "#E1E0E6",
+      "soft_bg_hex": "#ECECF2",
+      "border_hex": "#CFD0DF",
+      "ink_on_soft_hex": "#272B6E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_business_max_credit_card": {
+      "primary_hex": "#6A1D1B",
+      "secondary_hex": "#7B4D29",
+      "wash_hex": "#E9DFDC",
+      "soft_bg_hex": "#F2EBEA",
+      "border_hex": "#DECDCD",
+      "ink_on_soft_hex": "#6A1D1B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_business_multiplier_credit_card": {
+      "primary_hex": "#882434",
+      "secondary_hex": "#974D33",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CFD2",
+      "ink_on_soft_hex": "#882434",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "idfc_first_bank_idfc_first_classic_credit_card": {
+      "primary_hex": "#4C799F",
+      "secondary_hex": "#C18E48",
+      "wash_hex": "#E5EAEC",
+      "soft_bg_hex": "#EFF3F6",
+      "border_hex": "#D8E2EA",
+      "ink_on_soft_hex": "#42698A",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_first_diamond_reserve_credit_card": {
+      "primary_hex": "#5C4229",
+      "secondary_hex": "#6C6837",
+      "wash_hex": "#E7E3DD",
+      "soft_bg_hex": "#F0EEEC",
+      "border_hex": "#DBD5D0",
+      "ink_on_soft_hex": "#5C4229",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_first_earn_credit_card": {
+      "primary_hex": "#AE3C41",
+      "secondary_hex": "#B4724B",
+      "wash_hex": "#F1E2E0",
+      "soft_bg_hex": "#F8EDEE",
+      "border_hex": "#EDD4D5",
+      "ink_on_soft_hex": "#AE3C41",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_first_hpcl_power_credit_card": {
+      "primary_hex": "#882434",
+      "secondary_hex": "#974D33",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CFD2",
+      "ink_on_soft_hex": "#882434",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card": {
+      "primary_hex": "#882434",
+      "secondary_hex": "#974D33",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CFD2",
+      "ink_on_soft_hex": "#882434",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "idfc_first_bank_idfc_first_millennia_credit_card": {
+      "primary_hex": "#991F2C",
+      "secondary_hex": "#1C4E7D",
+      "wash_hex": "#EEDFDE",
+      "soft_bg_hex": "#F6EBEC",
+      "border_hex": "#E9CED1",
+      "ink_on_soft_hex": "#991F2C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_first_private_credit_card": {
+      "primary_hex": "#6F1815",
+      "secondary_hex": "#804D22",
+      "wash_hex": "#E9DEDB",
+      "soft_bg_hex": "#F2EAEA",
+      "border_hex": "#DFCCCC",
+      "ink_on_soft_hex": "#6F1815",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_first_select_credit_card": {
+      "primary_hex": "#A43851",
+      "secondary_hex": "#B25D49",
+      "wash_hex": "#F0E2E2",
+      "soft_bg_hex": "#F7EDEF",
+      "border_hex": "#EBD3D9",
+      "ink_on_soft_hex": "#A43851",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_first_wealth_credit_card": {
+      "primary_hex": "#1F4575",
+      "secondary_hex": "#202279",
+      "wash_hex": "#E0E3E7",
+      "soft_bg_hex": "#EBEEF3",
+      "border_hex": "#CED6E1",
+      "ink_on_soft_hex": "#1F4575",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_gaj_credit_card": {
+      "primary_hex": "#897537",
+      "secondary_hex": "#586039",
+      "wash_hex": "#ECE9DF",
+      "soft_bg_hex": "#F4F3ED",
+      "border_hex": "#E5E1D3",
+      "ink_on_soft_hex": "#73622E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_lic_select_credit_card": {
+      "primary_hex": "#AC672B",
+      "secondary_hex": "#9B2429",
+      "wash_hex": "#F1E7DE",
+      "soft_bg_hex": "#F8F1EC",
+      "border_hex": "#EDDED0",
+      "ink_on_soft_hex": "#8D5523",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_idfc_rupay_credit_card": {
+      "primary_hex": "#9E753D",
+      "secondary_hex": "#457949",
+      "wash_hex": "#EFE9E0",
+      "soft_bg_hex": "#F6F3EE",
+      "border_hex": "#EAE1D4",
+      "ink_on_soft_hex": "#7D5C30",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_indigo_idfc_first_dual_credit_card": {
+      "primary_hex": "#A63035",
+      "secondary_hex": "#C69D43",
+      "wash_hex": "#F0E1DF",
+      "soft_bg_hex": "#F7ECED",
+      "border_hex": "#EBD1D3",
+      "ink_on_soft_hex": "#A63035",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_indigo_idfc_first_dual_fd_credit_card": {
+      "primary_hex": "#A63035",
+      "secondary_hex": "#C69D43",
+      "wash_hex": "#F0E1DF",
+      "soft_bg_hex": "#F7ECED",
+      "border_hex": "#EBD1D3",
+      "ink_on_soft_hex": "#A63035",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_lic_credit_cards": {
+      "primary_hex": "#15616F",
+      "secondary_hex": "#224A80",
+      "wash_hex": "#DFE7E6",
+      "soft_bg_hex": "#EAF1F2",
+      "border_hex": "#CCDCDF",
+      "ink_on_soft_hex": "#15616F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_mayura_credit_card": {
+      "primary_hex": "#382461",
+      "secondary_hex": "#623272",
+      "wash_hex": "#E3DFE4",
+      "soft_bg_hex": "#EDEBF1",
+      "border_hex": "#D3CFDC",
+      "ink_on_soft_hex": "#382461",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_quantum_plus_credit_card": {
+      "primary_hex": "#6B1A22",
+      "secondary_hex": "#7C4327",
+      "wash_hex": "#E9DEDD",
+      "soft_bg_hex": "#F2EAEB",
+      "border_hex": "#DECDCE",
+      "ink_on_soft_hex": "#6B1A22",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "idfc_first_bank_swyp_credit_card": {
+      "primary_hex": "#C58926",
+      "secondary_hex": "#C3C936",
+      "wash_hex": "#F4ECDD",
+      "soft_bg_hex": "#FAF4EB",
+      "border_hex": "#F2E5CF",
+      "ink_on_soft_hex": "#855C1A",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "indian_bank_global_gold_credit_card": {
+      "primary_hex": "#987026",
+      "secondary_hex": "#9FA736",
+      "wash_hex": "#EEE9DD",
+      "soft_bg_hex": "#F6F2EB",
+      "border_hex": "#E8E0CF",
+      "ink_on_soft_hex": "#805E20",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indian_bank_indian_bank_bharat_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indian_bank_indian_bank_global_classic_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indian_bank_onecard_credit_card": {
+      "primary_hex": "#364760",
+      "secondary_hex": "#444372",
+      "wash_hex": "#E2E4E4",
+      "soft_bg_hex": "#EDEEF1",
+      "border_hex": "#D3D7DC",
+      "ink_on_soft_hex": "#364760",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indian_overseas_bank_classic_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indian_overseas_bank_gold_credit_card": {
+      "primary_hex": "#987026",
+      "secondary_hex": "#9FA736",
+      "wash_hex": "#EEE9DD",
+      "soft_bg_hex": "#F6F2EB",
+      "border_hex": "#E8E0CF",
+      "ink_on_soft_hex": "#805E20",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indian_overseas_bank_iob_zet_credit_card": {
+      "primary_hex": "#4B1F66",
+      "secondary_hex": "#772D74",
+      "wash_hex": "#E5DFE5",
+      "soft_bg_hex": "#EFEBF1",
+      "border_hex": "#D7CEDD",
+      "ink_on_soft_hex": "#4B1F66",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_avios_visa_infinite_credit_card": {
+      "primary_hex": "#915E4E",
+      "secondary_hex": "#A68F4B",
+      "wash_hex": "#EDE6E2",
+      "soft_bg_hex": "#F5F1EF",
+      "border_hex": "#E7DCD8",
+      "ink_on_soft_hex": "#875849",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_celesta_credit_card": {
+      "primary_hex": "#6F643E",
+      "secondary_hex": "#4178AF",
+      "wash_hex": "#E9E7E0",
+      "soft_bg_hex": "#F2F1EE",
+      "border_hex": "#DFDDD5",
+      "ink_on_soft_hex": "#6F643E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_cred_indusind_rupay_credit_card": {
+      "primary_hex": "#C53E26",
+      "secondary_hex": "#C98A36",
+      "wash_hex": "#F4E3DD",
+      "soft_bg_hex": "#FAEEEB",
+      "border_hex": "#F2D5CF",
+      "ink_on_soft_hex": "#B23822",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "indusind_bank_crest_credit_card": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "indusind_bank_duo_credit_card": {
+      "primary_hex": "#A62B2B",
+      "secondary_hex": "#B46E3C",
+      "wash_hex": "#F0E0DE",
+      "soft_bg_hex": "#F7ECEC",
+      "border_hex": "#EBD0D0",
+      "ink_on_soft_hex": "#A62B2B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_eazy_diner_indusind_bank_credit_card": {
+      "primary_hex": "#A0734A",
+      "secondary_hex": "#814135",
+      "wash_hex": "#EFE9E1",
+      "soft_bg_hex": "#F6F2EF",
+      "border_hex": "#EAE0D7",
+      "ink_on_soft_hex": "#815C3B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_eazy_diner_indusind_platinum_credit_card": {
+      "primary_hex": "#C54126",
+      "secondary_hex": "#D38E36",
+      "wash_hex": "#F4E3DD",
+      "soft_bg_hex": "#FAEEEB",
+      "border_hex": "#F2D5CF",
+      "ink_on_soft_hex": "#B23B22",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "indusind_bank_indulge_credit_card": {
+      "primary_hex": "#8F7B47",
+      "secondary_hex": "#939D57",
+      "wash_hex": "#EDEAE1",
+      "soft_bg_hex": "#F5F3EE",
+      "border_hex": "#E6E2D7",
+      "ink_on_soft_hex": "#706138",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_indus_solitaire_credit_card": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indusind_bank_indusind_bank_business_gold_credit_card": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indusind_bank_indusind_bank_legend_credit_card": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "indusind_bank_indusind_bank_platinum_aura_credit_cards": {
+      "primary_hex": "#40AAA3",
+      "secondary_hex": "#8B3443",
+      "wash_hex": "#E4F0EC",
+      "soft_bg_hex": "#EEF7F7",
+      "border_hex": "#D5ECEB",
+      "ink_on_soft_hex": "#296D68",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "indusind_bank_indusind_bank_platinum_credit_cards": {
+      "primary_hex": "#224B62",
+      "secondary_hex": "#303F73",
+      "wash_hex": "#E0E4E4",
+      "soft_bg_hex": "#EBEFF1",
+      "border_hex": "#CED7DC",
+      "ink_on_soft_hex": "#224B62",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_indusind_bank_signature_credit_card": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indusind_bank_indusind_bank_worldmiles_credit_card": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "indusind_bank_indusind_jio_bp_mobility_plus_credit_card": {
+      "primary_hex": "#303255",
+      "secondary_hex": "#394E60",
+      "wash_hex": "#E2E1E3",
+      "soft_bg_hex": "#ECEDF0",
+      "border_hex": "#D1D2DA",
+      "ink_on_soft_hex": "#303255",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_nexxt_credit_card": {
+      "primary_hex": "#3A85B0",
+      "secondary_hex": "#4960B6",
+      "wash_hex": "#E3EBEE",
+      "soft_bg_hex": "#EDF4F8",
+      "border_hex": "#D4E4EE",
+      "ink_on_soft_hex": "#2F6B8D",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "indusind_bank_pioneer_heritage_metal_credit_card": {
+      "primary_hex": "#B49436",
+      "secondary_hex": "#A6BA45",
+      "wash_hex": "#F2EDDF",
+      "soft_bg_hex": "#F8F5ED",
+      "border_hex": "#EEE7D3",
+      "ink_on_soft_hex": "#796424",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "indusind_bank_pioneer_legacy_credit_card": {
+      "primary_hex": "#66201F",
+      "secondary_hex": "#C09F49",
+      "wash_hex": "#E8DFDC",
+      "soft_bg_hex": "#F1EBEB",
+      "border_hex": "#DDCECE",
+      "ink_on_soft_hex": "#66201F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_platinum_aura_edge_credit_card": {
+      "primary_hex": "#2B275E",
+      "secondary_hex": "#6B472E",
+      "wash_hex": "#E1E0E4",
+      "soft_bg_hex": "#ECECF1",
+      "border_hex": "#D0CFDC",
+      "ink_on_soft_hex": "#2B275E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "indusind_bank_tiger_credit_card": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "indusind_indusind_bank_avios_credit_card": {
+      "primary_hex": "#97814A",
+      "secondary_hex": "#85574B",
+      "wash_hex": "#EEEBE1",
+      "soft_bg_hex": "#F6F4EF",
+      "border_hex": "#E8E3D7",
+      "ink_on_soft_hex": "#736238",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "karur_vysya_bank_karur_vysya_bank_sbi_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "karur_vysya_bank_kvb_honour_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "karur_vysya_bank_kvb_platinum_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_811_dreamdifferent_credit_card": {
+      "primary_hex": "#2C4758",
+      "secondary_hex": "#3A4368",
+      "wash_hex": "#E1E4E3",
+      "soft_bg_hex": "#ECEEF0",
+      "border_hex": "#D1D7DA",
+      "ink_on_soft_hex": "#2C4758",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_811_super_money_credit_card": {
+      "primary_hex": "#4526C5",
+      "secondary_hex": "#D1386F",
+      "wash_hex": "#E4E0F0",
+      "soft_bg_hex": "#EEEBFA",
+      "border_hex": "#D6CFF2",
+      "ink_on_soft_hex": "#4526C5",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_delight_platinum_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_feast_gold_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_indianoil_kotak_credit_card": {
+      "primary_hex": "#76173A",
+      "secondary_hex": "#872A25",
+      "wash_hex": "#EADEDF",
+      "soft_bg_hex": "#F3EAED",
+      "border_hex": "#E1CCD4",
+      "ink_on_soft_hex": "#76173A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_indigo_ka_ching_6e_rewards_credit_card": {
+      "primary_hex": "#C52638",
+      "secondary_hex": "#C96336",
+      "wash_hex": "#F4E0DF",
+      "soft_bg_hex": "#FAEBED",
+      "border_hex": "#F2CFD3",
+      "ink_on_soft_hex": "#B82434",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_indigo_kotak_xl_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_811_credit_card": {
+      "primary_hex": "#2D4658",
+      "secondary_hex": "#3B4368",
+      "wash_hex": "#E1E4E3",
+      "soft_bg_hex": "#ECEEF0",
+      "border_hex": "#D1D6DA",
+      "ink_on_soft_hex": "#2D4658",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_kotak_air_plus_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_air_plus_prime_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_bank_pvr_platinum_credit_cards": {
+      "primary_hex": "#AB9840",
+      "secondary_hex": "#5068BA",
+      "wash_hex": "#F1EDE0",
+      "soft_bg_hex": "#F7F6EE",
+      "border_hex": "#EDE8D5",
+      "ink_on_soft_hex": "#73672B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_kotak_cashback_plus_credit_card": {
+      "primary_hex": "#C4262B",
+      "secondary_hex": "#C96F36",
+      "wash_hex": "#F4E0DE",
+      "soft_bg_hex": "#FAEBEC",
+      "border_hex": "#F2CFD0",
+      "ink_on_soft_hex": "#BE252A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_kotak_cashback_plus_prime_credit_card": {
+      "primary_hex": "#C4272C",
+      "secondary_hex": "#C86F37",
+      "wash_hex": "#F4E0DE",
+      "soft_bg_hex": "#FAECEC",
+      "border_hex": "#F2CFD1",
+      "ink_on_soft_hex": "#BE262B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_kotak_delight_credit_cards": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_essentia_platinum_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_fortune_gold_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_indigo_credit_card": {
+      "primary_hex": "#26326D",
+      "secondary_hex": "#47347D",
+      "wash_hex": "#E1E1E6",
+      "soft_bg_hex": "#EBEDF2",
+      "border_hex": "#CFD2DF",
+      "ink_on_soft_hex": "#26326D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_kotak_indigo_ka_ching_6e_rewards_xl_credit_card": {
+      "primary_hex": "#233E62",
+      "secondary_hex": "#313173",
+      "wash_hex": "#E0E3E4",
+      "soft_bg_hex": "#EBEEF1",
+      "border_hex": "#CFD5DC",
+      "ink_on_soft_hex": "#233E62",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_kotak_infinite_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_pvr_gold_credit_cards": {
+      "primary_hex": "#6A2829",
+      "secondary_hex": "#7A5236",
+      "wash_hex": "#E9E0DD",
+      "soft_bg_hex": "#F2ECEC",
+      "border_hex": "#DED0D0",
+      "ink_on_soft_hex": "#6A2829",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_kotak_solitaire_credit_card": {
+      "primary_hex": "#2B255F",
+      "secondary_hex": "#533370",
+      "wash_hex": "#E1E0E4",
+      "soft_bg_hex": "#ECEBF1",
+      "border_hex": "#D0CFDC",
+      "ink_on_soft_hex": "#2B255F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_kotak_veer_platinum_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_white_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_kotak_white_reserve_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_league_platinum_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_metro_kotak_credit_card": {
+      "primary_hex": "#266372",
+      "secondary_hex": "#345282",
+      "wash_hex": "#E1E7E6",
+      "soft_bg_hex": "#EBF1F2",
+      "border_hex": "#CFDDE0",
+      "ink_on_soft_hex": "#266372",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_myntra_kotak_credit_card": {
+      "primary_hex": "#C56A26",
+      "secondary_hex": "#D3363A",
+      "wash_hex": "#F4E8DD",
+      "soft_bg_hex": "#FAF2EB",
+      "border_hex": "#F2DECF",
+      "ink_on_soft_hex": "#98521D",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_myteam_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "kotak_mahindra_bank_privy_league_signature_credit_card": {
+      "primary_hex": "#6A2324",
+      "secondary_hex": "#7B4F31",
+      "wash_hex": "#E9DFDD",
+      "soft_bg_hex": "#F2EBEB",
+      "border_hex": "#DECFCF",
+      "ink_on_soft_hex": "#6A2324",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_pvr_inox_kotak_credit_card": {
+      "primary_hex": "#9C7B31",
+      "secondary_hex": "#9EAA42",
+      "wash_hex": "#EFEADE",
+      "soft_bg_hex": "#F6F3EC",
+      "border_hex": "#E9E2D2",
+      "ink_on_soft_hex": "#795F26",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_royale_signature_credit_card": {
+      "primary_hex": "#554B30",
+      "secondary_hex": "#5E87AC",
+      "wash_hex": "#E6E4DE",
+      "soft_bg_hex": "#F0EFEC",
+      "border_hex": "#DAD7D1",
+      "ink_on_soft_hex": "#554B30",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_upi_rupay_credit_card": {
+      "primary_hex": "#931C25",
+      "secondary_hex": "#355164",
+      "wash_hex": "#EEDEDD",
+      "soft_bg_hex": "#F5EBEB",
+      "border_hex": "#E7CDCF",
+      "ink_on_soft_hex": "#931C25",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_urbane_gold_credit_card": {
+      "primary_hex": "#A59346",
+      "secondary_hex": "#97AB54",
+      "wash_hex": "#F0EDE1",
+      "soft_bg_hex": "#F7F5EE",
+      "border_hex": "#EBE7D6",
+      "ink_on_soft_hex": "#6F632F",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "kotak_mahindra_bank_veer_select_credit_card": {
+      "primary_hex": "#A82430",
+      "secondary_hex": "#B65F35",
+      "wash_hex": "#F0DFDE",
+      "soft_bg_hex": "#F7EBEC",
+      "border_hex": "#ECCFD1",
+      "ink_on_soft_hex": "#A82430",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "lic_cards_lic_platinum_credit_card": {
+      "primary_hex": "#842248",
+      "secondary_hex": "#943431",
+      "wash_hex": "#ECDFE1",
+      "soft_bg_hex": "#F4EBEF",
+      "border_hex": "#E4CED7",
+      "ink_on_soft_hex": "#842248",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "lic_cards_lic_signature_credit_card": {
+      "primary_hex": "#6F1558",
+      "secondary_hex": "#802241",
+      "wash_hex": "#E9DEE3",
+      "soft_bg_hex": "#F2EAF0",
+      "border_hex": "#DFCCDA",
+      "ink_on_soft_hex": "#6F1558",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "punjab_national_bank_global_classic_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_global_gold_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_global_platinum_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_patanjali_credit_cards": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_pnb_easemytrip_credit_card": {
+      "primary_hex": "#154970",
+      "secondary_hex": "#223181",
+      "wash_hex": "#DFE4E6",
+      "soft_bg_hex": "#EAEFF2",
+      "border_hex": "#CCD7E0",
+      "ink_on_soft_hex": "#154970",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "punjab_national_bank_pnb_luxura_rupay_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_pnb_luxura_visa_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_pnb_rakshak_rupay_credit_cards": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_pnb_rupay_millennial_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_pnb_rupay_platinum_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_pnb_rupay_select_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_pnb_wave_and_pay_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "punjab_national_bank_visa_signature_credit_card": {
+      "primary_hex": "#88223A",
+      "secondary_hex": "#974431",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CED4",
+      "ink_on_soft_hex": "#88223A",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_bookmyshow_play_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_cookies_credit_card": {
+      "primary_hex": "#C5B926",
+      "secondary_hex": "#D3367C",
+      "wash_hex": "#F4F1DD",
+      "soft_bg_hex": "#FAF9EB",
+      "border_hex": "#F2F0CF",
+      "ink_on_soft_hex": "#6B6515",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "rbl_bank_doctor_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_indianoil_rbl_credit_cards": {
+      "primary_hex": "#A82E48",
+      "secondary_hex": "#914277",
+      "wash_hex": "#F0E1E1",
+      "soft_bg_hex": "#F7ECEF",
+      "border_hex": "#ECD1D7",
+      "ink_on_soft_hex": "#A82E48",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_indianoil_rbl_xtra_credit_card": {
+      "primary_hex": "#A82E48",
+      "secondary_hex": "#914277",
+      "wash_hex": "#F0E1E1",
+      "soft_bg_hex": "#F7ECEF",
+      "border_hex": "#ECD1D7",
+      "ink_on_soft_hex": "#A82E48",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_irctc_rbl_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_monthly_treats_credit_card": {
+      "primary_hex": "#3E8583",
+      "secondary_hex": "#9B4A69",
+      "wash_hex": "#E3EBE8",
+      "soft_bg_hex": "#EEF4F4",
+      "border_hex": "#D5E4E4",
+      "ink_on_soft_hex": "#326B69",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "rbl_bank_nova_credit_card": {
+      "primary_hex": "#536E93",
+      "secondary_hex": "#5E5EA1",
+      "wash_hex": "#E6E8EA",
+      "soft_bg_hex": "#F0F2F5",
+      "border_hex": "#D9DFE7",
+      "ink_on_soft_hex": "#4B6384",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_patanjali_vishisht_credit_card": {
+      "primary_hex": "#BB4E30",
+      "secondary_hex": "#5EA7AB",
+      "wash_hex": "#F2E4DE",
+      "soft_bg_hex": "#F9EFEC",
+      "border_hex": "#F0D8D1",
+      "ink_on_soft_hex": "#A3442A",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "rbl_bank_platinum_advantage_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_platinum_choice_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_platinum_classic_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_platinum_edge_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_platinum_max_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_platinum_maxima_plus_credit_card": {
+      "primary_hex": "#5A422B",
+      "secondary_hex": "#6A6639",
+      "wash_hex": "#E7E3DE",
+      "soft_bg_hex": "#F0EEEC",
+      "border_hex": "#DBD5D0",
+      "ink_on_soft_hex": "#5A422B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_platinum_plus_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_platinum_prime_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_popcorn_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_bank_apex_credit_card": {
+      "primary_hex": "#1A4588",
+      "secondary_hex": "#2C2998",
+      "wash_hex": "#DFE3E9",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CDD6E5",
+      "ink_on_soft_hex": "#1A4588",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_bank_blockbuster_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_bank_classic_reward_credit_cards": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_bank_icon_credit_card": {
+      "primary_hex": "#5E4C26",
+      "secondary_hex": "#696F34",
+      "wash_hex": "#E7E4DD",
+      "soft_bg_hex": "#F1EFEB",
+      "border_hex": "#DCD8CF",
+      "ink_on_soft_hex": "#5E4C26",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_bank_movies_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_bank_practo_plus_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_classic_platinum_credit_cards": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_classic_shoppers_credit_cards": {
+      "primary_hex": "#841919",
+      "secondary_hex": "#945527",
+      "wash_hex": "#ECDEDB",
+      "soft_bg_hex": "#F4EAEA",
+      "border_hex": "#E4CCCC",
+      "ink_on_soft_hex": "#841919",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_insignia_preferred_banking_world_credit_cards": {
+      "primary_hex": "#866D48",
+      "secondary_hex": "#949558",
+      "wash_hex": "#ECE8E1",
+      "soft_bg_hex": "#F4F2EF",
+      "border_hex": "#E4DFD7",
+      "ink_on_soft_hex": "#776140",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_lumiere_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_mocash_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_money_tap_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_platinum_cricket_credit_cards": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_rbl_platinum_delight_credit_cards": {
+      "primary_hex": "#6A5636",
+      "secondary_hex": "#787A45",
+      "wash_hex": "#E9E5DF",
+      "soft_bg_hex": "#F2F0ED",
+      "border_hex": "#DEDAD3",
+      "ink_on_soft_hex": "#6A5636",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_platinum_maxima_credit_cards": {
+      "primary_hex": "#194484",
+      "secondary_hex": "#292794",
+      "wash_hex": "#DFE3E8",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CCD6E4",
+      "ink_on_soft_hex": "#194484",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_quickpay_credit_card": {
+      "primary_hex": "#194384",
+      "secondary_hex": "#2A2794",
+      "wash_hex": "#DFE3E8",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CCD6E4",
+      "ink_on_soft_hex": "#194384",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_titanium_delight_credit_cards": {
+      "primary_hex": "#952734",
+      "secondary_hex": "#A45837",
+      "wash_hex": "#EEE0DF",
+      "soft_bg_hex": "#F5ECED",
+      "border_hex": "#E8CFD2",
+      "ink_on_soft_hex": "#952734",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_upi_wala_credit_card": {
+      "primary_hex": "#1A468A",
+      "secondary_hex": "#2C299A",
+      "wash_hex": "#DFE4E9",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CDD6E5",
+      "ink_on_soft_hex": "#1A468A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_rbl_world_safari_lite_credit_card": {
+      "primary_hex": "#7E6640",
+      "secondary_hex": "#8B8D50",
+      "wash_hex": "#EBE7E0",
+      "soft_bg_hex": "#F3F1EE",
+      "border_hex": "#E3DDD5",
+      "ink_on_soft_hex": "#745E3B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_shoprite_credit_card": {
+      "primary_hex": "#194585",
+      "secondary_hex": "#292895",
+      "wash_hex": "#DFE3E8",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CCD6E4",
+      "ink_on_soft_hex": "#194585",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "rbl_bank_travel_entertainment_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_world_max_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_world_plus_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_world_prime_supercard_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "rbl_bank_world_safari_credit_card": {
+      "primary_hex": "#2A4890",
+      "secondary_hex": "#473A9F",
+      "wash_hex": "#E1E4EA",
+      "soft_bg_hex": "#ECEFF5",
+      "border_hex": "#D0D7E7",
+      "ink_on_soft_hex": "#2A4890",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_air_india_sbi_platinum_credit_cards": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_air_india_sbi_signature_credit_cards": {
+      "primary_hex": "#194C84",
+      "secondary_hex": "#272E94",
+      "wash_hex": "#DFE4E8",
+      "soft_bg_hex": "#EAEFF4",
+      "border_hex": "#CCD8E4",
+      "ink_on_soft_hex": "#194C84",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_apollo_sbi_credit_card": {
+      "primary_hex": "#B37C37",
+      "secondary_hex": "#C64D43",
+      "wash_hex": "#F1EADF",
+      "soft_bg_hex": "#F8F3ED",
+      "border_hex": "#EEE2D3",
+      "ink_on_soft_hex": "#845C29",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_aurum_credit_card": {
+      "primary_hex": "#B09436",
+      "secondary_hex": "#A3B946",
+      "wash_hex": "#F1EDDF",
+      "soft_bg_hex": "#F8F5ED",
+      "border_hex": "#EEE7D3",
+      "ink_on_soft_hex": "#756324",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_doctor_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_elite_business_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_flipkart_sbi_credit_card": {
+      "primary_hex": "#1D2768",
+      "secondary_hex": "#2DA0CC",
+      "wash_hex": "#DFE0E5",
+      "soft_bg_hex": "#EBECF1",
+      "border_hex": "#CDCFDE",
+      "ink_on_soft_hex": "#1D2768",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_indigo_sbi_credit_card": {
+      "primary_hex": "#221881",
+      "secondary_hex": "#5D2691",
+      "wash_hex": "#E0DEE8",
+      "soft_bg_hex": "#EBEAF4",
+      "border_hex": "#CECCE3",
+      "ink_on_soft_hex": "#221881",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_indigo_sbi_elite_credit_card": {
+      "primary_hex": "#AC398F",
+      "secondary_hex": "#354A91",
+      "wash_hex": "#F1E2EA",
+      "soft_bg_hex": "#F8EDF5",
+      "border_hex": "#EDD3E6",
+      "ink_on_soft_hex": "#A6378A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_landmark_rewards_sbi_credit_card": {
+      "primary_hex": "#2C4459",
+      "secondary_hex": "#3A4069",
+      "wash_hex": "#E1E3E3",
+      "soft_bg_hex": "#ECEEF0",
+      "border_hex": "#D1D6DA",
+      "ink_on_soft_hex": "#2C4459",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_landmark_rewards_sbi_prime_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_landmark_rewards_sbi_select_credit_card": {
+      "primary_hex": "#705496",
+      "secondary_hex": "#965EA1",
+      "wash_hex": "#E9E5EA",
+      "soft_bg_hex": "#F2F0F6",
+      "border_hex": "#E0D9E8",
+      "ink_on_soft_hex": "#705496",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_mumbai_metro_sbi_credit_card": {
+      "primary_hex": "#224170",
+      "secondary_hex": "#323080",
+      "wash_hex": "#E0E3E6",
+      "soft_bg_hex": "#EBEEF2",
+      "border_hex": "#CED5E0",
+      "ink_on_soft_hex": "#224170",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_natures_basket_credit_cards": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_ola_money_sbi_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_paytm_sbi_credit_card": {
+      "primary_hex": "#27A1C4",
+      "secondary_hex": "#376BC8",
+      "wash_hex": "#E1EEF0",
+      "soft_bg_hex": "#ECF7FA",
+      "border_hex": "#CFEAF2",
+      "ink_on_soft_hex": "#1A6D84",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_paytm_sbi_credit_card_select": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_phonepe_purple_credit_card": {
+      "primary_hex": "#472D72",
+      "secondary_hex": "#304269",
+      "wash_hex": "#E5E1E6",
+      "soft_bg_hex": "#EEECF2",
+      "border_hex": "#D7D1E0",
+      "ink_on_soft_hex": "#472D72",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_phonepe_select_black_credit_card": {
+      "primary_hex": "#27415E",
+      "secondary_hex": "#35386F",
+      "wash_hex": "#E1E3E4",
+      "soft_bg_hex": "#ECEEF1",
+      "border_hex": "#CFD5DC",
+      "ink_on_soft_hex": "#27415E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_reliance_sbi_credit_cards": {
+      "primary_hex": "#A52F34",
+      "secondary_hex": "#B36B40",
+      "wash_hex": "#F0E1DF",
+      "soft_bg_hex": "#F7ECED",
+      "border_hex": "#EBD1D2",
+      "ink_on_soft_hex": "#A52F34",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_sbi_advantage_platinum_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_sbi_bpcl_credit_card": {
+      "primary_hex": "#84703E",
+      "secondary_hex": "#1C627D",
+      "wash_hex": "#ECE9E0",
+      "soft_bg_hex": "#F4F2EE",
+      "border_hex": "#E4E0D5",
+      "ink_on_soft_hex": "#746337",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_sbi_bpcl_credit_card_octane": {
+      "primary_hex": "#846231",
+      "secondary_hex": "#929341",
+      "wash_hex": "#ECE7DE",
+      "soft_bg_hex": "#F4F1EC",
+      "border_hex": "#E4DCD2",
+      "ink_on_soft_hex": "#7E5E2F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_sbi_elite_credit_card": {
+      "primary_hex": "#68473B",
+      "secondary_hex": "#7A6A48",
+      "wash_hex": "#E8E4E0",
+      "soft_bg_hex": "#F1EEED",
+      "border_hex": "#DED7D4",
+      "ink_on_soft_hex": "#68473B",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_sbi_eternal_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_sbi_irctc_credit_card": {
+      "primary_hex": "#26A4C5",
+      "secondary_hex": "#6E66A3",
+      "wash_hex": "#E1EFF0",
+      "soft_bg_hex": "#EBF7FA",
+      "border_hex": "#CFEBF2",
+      "ink_on_soft_hex": "#1A6F85",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_sbi_miles_credit_card": {
+      "primary_hex": "#96546F",
+      "secondary_hex": "#A15F5E",
+      "wash_hex": "#EEE5E6",
+      "soft_bg_hex": "#F6F0F2",
+      "border_hex": "#E8D9DF",
+      "ink_on_soft_hex": "#8C4F68",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_sbi_miles_elite_credit_card": {
+      "primary_hex": "#C0842B",
+      "secondary_hex": "#C2C43B",
+      "wash_hex": "#F3EBDE",
+      "soft_bg_hex": "#F9F4EC",
+      "border_hex": "#F1E4D0",
+      "ink_on_soft_hex": "#885D1E",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_sbi_miles_prime_credit_card": {
+      "primary_hex": "#44A2A7",
+      "secondary_hex": "#5282AD",
+      "wash_hex": "#E4EFED",
+      "soft_bg_hex": "#EEF7F7",
+      "border_hex": "#D6EBEC",
+      "ink_on_soft_hex": "#2E6D71",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_sbi_prime_credit_card": {
+      "primary_hex": "#234D62",
+      "secondary_hex": "#633639",
+      "wash_hex": "#E0E4E4",
+      "soft_bg_hex": "#EBEFF1",
+      "border_hex": "#CFD8DC",
+      "ink_on_soft_hex": "#234D62",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_sbi_pulse_credit_card": {
+      "primary_hex": "#9C4F77",
+      "secondary_hex": "#624776",
+      "wash_hex": "#EFE5E7",
+      "soft_bg_hex": "#F6EFF3",
+      "border_hex": "#E9D8E1",
+      "ink_on_soft_hex": "#924A6F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_sbi_signature_credit_cards": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_sbi_simply_save_credit_card": {
+      "primary_hex": "#2B5AA1",
+      "secondary_hex": "#3E3CAF",
+      "wash_hex": "#E1E6EC",
+      "soft_bg_hex": "#ECF0F7",
+      "border_hex": "#D0DBEA",
+      "ink_on_soft_hex": "#2B5AA1",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_shaurya_sbi_credit_card": {
+      "primary_hex": "#15506F",
+      "secondary_hex": "#223880",
+      "wash_hex": "#DFE5E6",
+      "soft_bg_hex": "#EAEFF2",
+      "border_hex": "#CCD8DF",
+      "ink_on_soft_hex": "#15506F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_shaurya_select_sbi_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_simplyclick_credit_card": {
+      "primary_hex": "#925258",
+      "secondary_hex": "#A1745E",
+      "wash_hex": "#EEE5E3",
+      "soft_bg_hex": "#F5EFF0",
+      "border_hex": "#E7D9DA",
+      "ink_on_soft_hex": "#8D4F55",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_tata_credit_cards": {
+      "primary_hex": "#AA8D41",
+      "secondary_hex": "#A2B04F",
+      "wash_hex": "#F0ECE0",
+      "soft_bg_hex": "#F7F5EE",
+      "border_hex": "#ECE6D5",
+      "ink_on_soft_hex": "#78642E",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_tata_croma_credit_card": {
+      "primary_hex": "#A58A46",
+      "secondary_hex": "#9FAB54",
+      "wash_hex": "#F0ECE1",
+      "soft_bg_hex": "#F7F4EE",
+      "border_hex": "#EBE5D6",
+      "ink_on_soft_hex": "#756231",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_tata_neu_infinity_sbi_credit_card": {
+      "primary_hex": "#402560",
+      "secondary_hex": "#693371",
+      "wash_hex": "#E4E0E4",
+      "soft_bg_hex": "#EEEBF1",
+      "border_hex": "#D5CFDC",
+      "ink_on_soft_hex": "#402560",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_tata_neu_plus_sbi_credit_card": {
+      "primary_hex": "#2484BC",
+      "secondary_hex": "#70259D",
+      "wash_hex": "#E0EBEF",
+      "soft_bg_hex": "#EBF4F9",
+      "border_hex": "#CFE4F0",
+      "ink_on_soft_hex": "#1D6995",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbi_bank_tata_star_credit_cards": {
+      "primary_hex": "#BBA930",
+      "secondary_hex": "#C87541",
+      "wash_hex": "#F2EFDE",
+      "soft_bg_hex": "#F9F7EC",
+      "border_hex": "#F0ECD1",
+      "ink_on_soft_hex": "#72671D",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_titan_sbi_credit_card": {
+      "primary_hex": "#1F5CA5",
+      "secondary_hex": "#2F34B3",
+      "wash_hex": "#E0E6EC",
+      "soft_bg_hex": "#EBF0F7",
+      "border_hex": "#CEDBEB",
+      "ink_on_soft_hex": "#1F5CA5",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbi_bank_unnati_credit_card": {
+      "primary_hex": "#C58426",
+      "secondary_hex": "#C7C936",
+      "wash_hex": "#F4EBDD",
+      "soft_bg_hex": "#FAF4EB",
+      "border_hex": "#F2E4CF",
+      "ink_on_soft_hex": "#8B5D1B",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_bank_yatra_sbi_credit_card": {
+      "primary_hex": "#BF872C",
+      "secondary_hex": "#D33D36",
+      "wash_hex": "#F3EBDE",
+      "soft_bg_hex": "#F9F4EC",
+      "border_hex": "#F1E5D1",
+      "ink_on_soft_hex": "#875F1F",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbi_cashback_sbi_card": {
+      "primary_hex": "#543392",
+      "secondary_hex": "#8B43A0",
+      "wash_hex": "#E6E1EA",
+      "soft_bg_hex": "#F0EDF5",
+      "border_hex": "#D9D2E7",
+      "ink_on_soft_hex": "#543392",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbm_bank_bharatpe_sbm_commercial_credit_card": {
+      "primary_hex": "#265C8E",
+      "secondary_hex": "#36409D",
+      "wash_hex": "#E1E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CFDBE6",
+      "ink_on_soft_hex": "#265C8E",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "sbm_bank_paisabazaar_paisa_plus_credit_card": {
+      "primary_hex": "#6B4C22",
+      "secondary_hex": "#1F607A",
+      "wash_hex": "#E9E4DD",
+      "soft_bg_hex": "#F2EFEB",
+      "border_hex": "#DED8CE",
+      "ink_on_soft_hex": "#6B4C22",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbm_bank_paisabazaar_stepup_secured_credit_card": {
+      "primary_hex": "#2E265E",
+      "secondary_hex": "#55346F",
+      "wash_hex": "#E2E0E4",
+      "soft_bg_hex": "#ECEBF1",
+      "border_hex": "#D1CFDC",
+      "ink_on_soft_hex": "#2E265E",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbm_bank_rupicard_credit_card": {
+      "primary_hex": "#3B73B0",
+      "secondary_hex": "#4A50B5",
+      "wash_hex": "#E3E9EE",
+      "soft_bg_hex": "#EDF2F8",
+      "border_hex": "#D4E0EE",
+      "ink_on_soft_hex": "#336499",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "sbm_bank_sbm_bank_onecard_lite_credit_card": {
+      "primary_hex": "#364760",
+      "secondary_hex": "#444372",
+      "wash_hex": "#E2E4E4",
+      "soft_bg_hex": "#EDEEF1",
+      "border_hex": "#D3D7DC",
+      "ink_on_soft_hex": "#364760",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbm_bank_sbm_credilio_credit_card": {
+      "primary_hex": "#3D2460",
+      "secondary_hex": "#D3A836",
+      "wash_hex": "#E3DFE4",
+      "soft_bg_hex": "#EEEBF1",
+      "border_hex": "#D4CFDC",
+      "ink_on_soft_hex": "#3D2460",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbm_bank_sbm_gild_credit_card": {
+      "primary_hex": "#8B7A4E",
+      "secondary_hex": "#604839",
+      "wash_hex": "#EDEAE2",
+      "soft_bg_hex": "#F5F3EF",
+      "border_hex": "#E5E2D8",
+      "ink_on_soft_hex": "#726440",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbm_bank_sbm_magnet_credit_card": {
+      "primary_hex": "#3A59AB",
+      "secondary_hex": "#57409C",
+      "wash_hex": "#E3E6ED",
+      "soft_bg_hex": "#EDF0F7",
+      "border_hex": "#D4DAED",
+      "ink_on_soft_hex": "#3A59AB",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "sbm_bank_sbm_onecard_credit_card": {
+      "primary_hex": "#364760",
+      "secondary_hex": "#444372",
+      "wash_hex": "#E2E4E4",
+      "soft_bg_hex": "#EDEEF1",
+      "border_hex": "#D3D7DC",
+      "ink_on_soft_hex": "#364760",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "sbm_bank_velocity_sbm_commercial_credit_card": {
+      "primary_hex": "#265C8E",
+      "secondary_hex": "#36409D",
+      "wash_hex": "#E1E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CFDBE6",
+      "ink_on_soft_hex": "#265C8E",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "sbm_bank_zet_credit_card": {
+      "primary_hex": "#52156F",
+      "secondary_hex": "#802277",
+      "wash_hex": "#E6DEE6",
+      "soft_bg_hex": "#EFEAF2",
+      "border_hex": "#D9CCDF",
+      "ink_on_soft_hex": "#52156F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "south_indian_bank_onecard_credit_card": {
+      "primary_hex": "#364760",
+      "secondary_hex": "#444372",
+      "wash_hex": "#E2E4E4",
+      "soft_bg_hex": "#EDEEF1",
+      "border_hex": "#D3D7DC",
+      "ink_on_soft_hex": "#364760",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "standard_chartered_bank_digismart_credit_card": {
+      "primary_hex": "#318FB9",
+      "secondary_hex": "#4163BE",
+      "wash_hex": "#E2ECEF",
+      "soft_bg_hex": "#ECF5F9",
+      "border_hex": "#D2E6F0",
+      "ink_on_soft_hex": "#246A89",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "standard_chartered_bank_easemytrip_credit_card": {
+      "primary_hex": "#1D8C99",
+      "secondary_hex": "#316394",
+      "wash_hex": "#DFECEB",
+      "soft_bg_hex": "#EBF5F6",
+      "border_hex": "#CDE6E9",
+      "ink_on_soft_hex": "#176F79",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "standard_chartered_bank_priority_visa_infinite_credit_card": {
+      "primary_hex": "#1D5371",
+      "secondary_hex": "#2B3E82",
+      "wash_hex": "#DFE5E6",
+      "soft_bg_hex": "#EBF0F2",
+      "border_hex": "#CDD9E0",
+      "ink_on_soft_hex": "#1D5371",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "standard_chartered_bank_smart_credit_card": {
+      "primary_hex": "#549692",
+      "secondary_hex": "#6667A3",
+      "wash_hex": "#E6EDEA",
+      "soft_bg_hex": "#F0F6F5",
+      "border_hex": "#D9E8E7",
+      "ink_on_soft_hex": "#3B6A67",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "standard_chartered_bank_standard_chartered_beyond_credit_card": {
+      "primary_hex": "#187258",
+      "secondary_hex": "#267783",
+      "wash_hex": "#DFE9E3",
+      "soft_bg_hex": "#EAF2F0",
+      "border_hex": "#CCE0DA",
+      "ink_on_soft_hex": "#176C53",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "standard_chartered_bank_standard_chartered_landmark_rewards_platinum_credit_card": {
+      "primary_hex": "#187258",
+      "secondary_hex": "#267783",
+      "wash_hex": "#DFE9E3",
+      "soft_bg_hex": "#EAF2F0",
+      "border_hex": "#CCE0DA",
+      "ink_on_soft_hex": "#176C53",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "standard_chartered_bank_standard_chartered_manhattan_platinum_credit_cards": {
+      "primary_hex": "#187258",
+      "secondary_hex": "#267783",
+      "wash_hex": "#DFE9E3",
+      "soft_bg_hex": "#EAF2F0",
+      "border_hex": "#CCE0DA",
+      "ink_on_soft_hex": "#176C53",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "standard_chartered_bank_standard_chartered_platinum_rewards_credit_cards": {
+      "primary_hex": "#187258",
+      "secondary_hex": "#267783",
+      "wash_hex": "#DFE9E3",
+      "soft_bg_hex": "#EAF2F0",
+      "border_hex": "#CCE0DA",
+      "ink_on_soft_hex": "#176C53",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "standard_chartered_bank_standard_chartered_rewards_credit_card": {
+      "primary_hex": "#15456F",
+      "secondary_hex": "#222D80",
+      "wash_hex": "#DFE3E6",
+      "soft_bg_hex": "#EAEEF2",
+      "border_hex": "#CCD6DF",
+      "ink_on_soft_hex": "#15456F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "standard_chartered_bank_standard_chartered_super_value_titanium_credit_cards": {
+      "primary_hex": "#547096",
+      "secondary_hex": "#5E5FA1",
+      "wash_hex": "#E6E9EA",
+      "soft_bg_hex": "#F0F2F6",
+      "border_hex": "#D9E0E8",
+      "ink_on_soft_hex": "#4C6587",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "standard_chartered_bank_ultimate_credit_card": {
+      "primary_hex": "#775A28",
+      "secondary_hex": "#C22A2F",
+      "wash_hex": "#EAE6DD",
+      "soft_bg_hex": "#F3F0EC",
+      "border_hex": "#E1DBD0",
+      "ink_on_soft_hex": "#775A28",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "tamilnad_mercantile_bank_platinum_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "tamilnad_mercantile_bank_titanium_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "uco_bank_uco_bank_artisan_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "uco_bank_uco_bank_laghu_udyami_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "uco_bank_uco_bank_swarojgar_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "union_bank_of_india_classic_credit_card": {
+      "primary_hex": "#205892",
+      "secondary_hex": "#3038A1",
+      "wash_hex": "#E0E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CEDAE7",
+      "ink_on_soft_hex": "#205892",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "union_bank_of_india_gold_credit_card": {
+      "primary_hex": "#205892",
+      "secondary_hex": "#3038A1",
+      "wash_hex": "#E0E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CEDAE7",
+      "ink_on_soft_hex": "#205892",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "union_bank_of_india_jcb_health_credit_card": {
+      "primary_hex": "#B2BC2E",
+      "secondary_hex": "#53B683",
+      "wash_hex": "#F1F2DE",
+      "soft_bg_hex": "#F8F9EC",
+      "border_hex": "#EEF0D1",
+      "ink_on_soft_hex": "#666C1A",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "union_bank_of_india_jcb_wellness_credit_card": {
+      "primary_hex": "#8F764A",
+      "secondary_hex": "#999D5A",
+      "wash_hex": "#EDE9E1",
+      "soft_bg_hex": "#F5F3EF",
+      "border_hex": "#E6E1D7",
+      "ink_on_soft_hex": "#76613D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "union_bank_of_india_platinum_credit_card": {
+      "primary_hex": "#205892",
+      "secondary_hex": "#3038A1",
+      "wash_hex": "#E0E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CEDAE7",
+      "ink_on_soft_hex": "#205892",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "union_bank_of_india_rupay_select_credit_card": {
+      "primary_hex": "#AF3B44",
+      "secondary_hex": "#792065",
+      "wash_hex": "#F1E2E1",
+      "soft_bg_hex": "#F8EDEE",
+      "border_hex": "#EDD4D6",
+      "ink_on_soft_hex": "#A93942",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "union_bank_of_india_silver_credit_card": {
+      "primary_hex": "#205892",
+      "secondary_hex": "#3038A1",
+      "wash_hex": "#E0E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CEDAE7",
+      "ink_on_soft_hex": "#205892",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "union_bank_of_india_union_bank_of_india_usecure_credit_card": {
+      "primary_hex": "#205892",
+      "secondary_hex": "#3038A1",
+      "wash_hex": "#E0E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CEDAE7",
+      "ink_on_soft_hex": "#205892",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "union_bank_of_india_union_bank_of_india_visa_international_signature_credit_card": {
+      "primary_hex": "#205892",
+      "secondary_hex": "#3038A1",
+      "wash_hex": "#E0E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CEDAE7",
+      "ink_on_soft_hex": "#205892",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "union_bank_of_india_union_uni_carbon_credit_card": {
+      "primary_hex": "#6C1818",
+      "secondary_hex": "#BA9A31",
+      "wash_hex": "#E9DEDB",
+      "soft_bg_hex": "#F2EAEA",
+      "border_hex": "#DFCCCC",
+      "ink_on_soft_hex": "#6C1818",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "unity_small_finance_bank_roar_bank_rupay_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "utkarsh_bank_utkarsh_eternal_credit_card": {
+      "primary_hex": "#A17C4A",
+      "secondary_hex": "#A8A757",
+      "wash_hex": "#EFEAE1",
+      "soft_bg_hex": "#F7F3EF",
+      "border_hex": "#EAE2D7",
+      "ink_on_soft_hex": "#7C6039",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "utkarsh_bank_utkarsh_rhodium_credit_card": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "utkarsh_bank_utkarsh_smartgen_credit_card": {
+      "primary_hex": "#794E9D",
+      "secondary_hex": "#A15BA4",
+      "wash_hex": "#EBE4EB",
+      "soft_bg_hex": "#F3EFF6",
+      "border_hex": "#E2D8E9",
+      "ink_on_soft_hex": "#794E9D",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "utkarsh_bank_utkarsh_supermoney_rupay_credit_card": {
+      "primary_hex": "#2E26C5",
+      "secondary_hex": "#7B36C9",
+      "wash_hex": "#E2E0F0",
+      "soft_bg_hex": "#ECEBFA",
+      "border_hex": "#D1CFF2",
+      "ink_on_soft_hex": "#2E26C5",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "utkarsh_bank_utkarsh_wish_credit_card": {
+      "primary_hex": "#6E2894",
+      "secondary_hex": "#D34036",
+      "wash_hex": "#E9E0EA",
+      "soft_bg_hex": "#F2ECF5",
+      "border_hex": "#DFD0E7",
+      "ink_on_soft_hex": "#6E2894",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_anq_pi_phi_credit_card": {
+      "primary_hex": "#59442C",
+      "secondary_hex": "#69673A",
+      "wash_hex": "#E7E3DE",
+      "soft_bg_hex": "#F0EEEC",
+      "border_hex": "#DAD6D1",
+      "ink_on_soft_hex": "#59442C",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_byoc_credit_card": {
+      "primary_hex": "#204A94",
+      "secondary_hex": "#3630A3",
+      "wash_hex": "#E0E4EA",
+      "soft_bg_hex": "#EBEFF5",
+      "border_hex": "#CED7E7",
+      "ink_on_soft_hex": "#204A94",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "yes_bank_first_business_credit_card": {
+      "primary_hex": "#836433",
+      "secondary_hex": "#8F9243",
+      "wash_hex": "#ECE7DF",
+      "soft_bg_hex": "#F4F1ED",
+      "border_hex": "#E4DDD2",
+      "ink_on_soft_hex": "#785C2F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_first_preferred_credit_card": {
+      "primary_hex": "#AC953E",
+      "secondary_hex": "#4A5FBF",
+      "wash_hex": "#F1EDE0",
+      "soft_bg_hex": "#F8F5EE",
+      "border_hex": "#EDE8D5",
+      "ink_on_soft_hex": "#74642A",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_freo_credit_card": {
+      "primary_hex": "#303C55",
+      "secondary_hex": "#413D67",
+      "wash_hex": "#E2E2E3",
+      "soft_bg_hex": "#ECEDF0",
+      "border_hex": "#D1D4DA",
+      "ink_on_soft_hex": "#303C55",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_klick_credit_card": {
+      "primary_hex": "#88C526",
+      "secondary_hex": "#53C936",
+      "wash_hex": "#ECF3DD",
+      "soft_bg_hex": "#F4FAEB",
+      "border_hex": "#E5F2CF",
+      "ink_on_soft_hex": "#4E7216",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "yes_bank_marquee_credit_card": {
+      "primary_hex": "#204A94",
+      "secondary_hex": "#3630A3",
+      "wash_hex": "#E0E4EA",
+      "soft_bg_hex": "#EBEFF5",
+      "border_hex": "#CED7E7",
+      "ink_on_soft_hex": "#204A94",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "yes_bank_paisabazaar_paisasave_credit_card": {
+      "primary_hex": "#359893",
+      "secondary_hex": "#4582A6",
+      "wash_hex": "#E2EDEA",
+      "soft_bg_hex": "#EDF6F5",
+      "border_hex": "#D3E8E7",
+      "ink_on_soft_hex": "#27706D",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "yes_bank_popclub_credit_card": {
+      "primary_hex": "#363A61",
+      "secondary_hex": "#534372",
+      "wash_hex": "#E2E2E4",
+      "soft_bg_hex": "#EDEDF1",
+      "border_hex": "#D3D4DC",
+      "ink_on_soft_hex": "#363A61",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_private_credit_card": {
+      "primary_hex": "#204A94",
+      "secondary_hex": "#3630A3",
+      "wash_hex": "#E0E4EA",
+      "soft_bg_hex": "#EBEFF5",
+      "border_hex": "#CED7E7",
+      "ink_on_soft_hex": "#204A94",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    },
+    "yes_bank_prosperity_business_credit_card": {
+      "primary_hex": "#C53A26",
+      "secondary_hex": "#48C186",
+      "wash_hex": "#F4E2DD",
+      "soft_bg_hex": "#FAEDEB",
+      "border_hex": "#F2D4CF",
+      "ink_on_soft_hex": "#B23422",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "yes_bank_prosperity_edge_credit_card": {
+      "primary_hex": "#265AB2",
+      "secondary_hex": "#3E37BF",
+      "wash_hex": "#E1E6EE",
+      "soft_bg_hex": "#EBF0F8",
+      "border_hex": "#CFDBEE",
+      "ink_on_soft_hex": "#265AB2",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_prosperity_reward_plus_credit_card": {
+      "primary_hex": "#408691",
+      "secondary_hex": "#50739F",
+      "wash_hex": "#E4EBEA",
+      "soft_bg_hex": "#EEF4F5",
+      "border_hex": "#D5E4E7",
+      "ink_on_soft_hex": "#346D76",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "yes_bank_uni_credit_card": {
+      "primary_hex": "#204A94",
+      "secondary_hex": "#3630A3",
+      "wash_hex": "#E0E4EA",
+      "soft_bg_hex": "#EBEFF5",
+      "border_hex": "#CED7E7",
+      "ink_on_soft_hex": "#204A94",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    },
+    "yes_bank_wellness_credit_card": {
+      "primary_hex": "#238ABA",
+      "secondary_hex": "#355BC7",
+      "wash_hex": "#E0ECEF",
+      "soft_bg_hex": "#EBF4F9",
+      "border_hex": "#CFE5F0",
+      "ink_on_soft_hex": "#1B698D",
+      "is_dark_card": false,
+      "source": "image"
+    },
+    "yes_bank_wellness_plus_credit_card": {
+      "primary_hex": "#1D4067",
+      "secondary_hex": "#2B2F78",
+      "wash_hex": "#DFE3E5",
+      "soft_bg_hex": "#EBEEF1",
+      "border_hex": "#CDD5DE",
+      "ink_on_soft_hex": "#1D4067",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_yes_essence_credit_card": {
+      "primary_hex": "#2A63C0",
+      "secondary_hex": "#403AC5",
+      "wash_hex": "#E1E7F0",
+      "soft_bg_hex": "#ECF1F9",
+      "border_hex": "#D0DDF1",
+      "ink_on_soft_hex": "#2960BA",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_yes_first_exclusive_credit_card": {
+      "primary_hex": "#15326F",
+      "secondary_hex": "#2B2280",
+      "wash_hex": "#DFE1E6",
+      "soft_bg_hex": "#EAEDF2",
+      "border_hex": "#CCD2DF",
+      "ink_on_soft_hex": "#15326F",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_yes_prosperity_cashback_credit_card": {
+      "primary_hex": "#2075A7",
+      "secondary_hex": "#314CB5",
+      "wash_hex": "#E0E9ED",
+      "soft_bg_hex": "#EBF3F7",
+      "border_hex": "#CEE1EC",
+      "ink_on_soft_hex": "#1C6894",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_yes_prosperity_cashback_plus_credit_card": {
+      "primary_hex": "#2075A7",
+      "secondary_hex": "#314CB5",
+      "wash_hex": "#E0E9ED",
+      "soft_bg_hex": "#EBF3F7",
+      "border_hex": "#CEE1EC",
+      "ink_on_soft_hex": "#1C6894",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_yes_prosperity_rewards_credit_card": {
+      "primary_hex": "#1F72A5",
+      "secondary_hex": "#2F4AB3",
+      "wash_hex": "#E0E9EC",
+      "soft_bg_hex": "#EBF2F7",
+      "border_hex": "#CEE0EB",
+      "ink_on_soft_hex": "#1D6998",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "yes_bank_zagg_credit_card": {
+      "primary_hex": "#264DC5",
+      "secondary_hex": "#5036C9",
+      "wash_hex": "#E1E4F0",
+      "soft_bg_hex": "#EBEFFA",
+      "border_hex": "#CFD8F2",
+      "ink_on_soft_hex": "#264DC5",
+      "is_dark_card": true,
+      "source": "image"
+    },
+    "slice_bank_slice_rupay_credit_card": {
+      "primary_hex": "#6E2B91",
+      "secondary_hex": "#9D4EDD",
+      "wash_hex": "#F3EAFB",
+      "soft_bg_hex": "#FAF5FF",
+      "border_hex": "#E0C9F5",
+      "ink_on_soft_hex": "#5B217A",
+      "is_dark_card": false,
+      "source": "issuer_curated"
+    },
+    "csb_bank_jupiter_edge_csb_rupay_credit_card": {
+      "primary_hex": "#D64550",
+      "secondary_hex": "#1D2939",
+      "wash_hex": "#FDECEE",
+      "soft_bg_hex": "#FFF5F6",
+      "border_hex": "#F6CCD0",
+      "ink_on_soft_hex": "#A32934",
+      "is_dark_card": false,
+      "source": "issuer_curated"
+    }
+  }
+}

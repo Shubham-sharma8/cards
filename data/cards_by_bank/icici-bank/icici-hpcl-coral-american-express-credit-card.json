@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "card_id": "icici_bank_hpcl_coral_american_express_credit_card",
+    "card_name": "ICICI HPCL Coral American Express Credit Card",
+    "bank": "ICICI Bank",
+    "bank_slug": "icici-bank",
+    "card_slug": "icici-hpcl-coral-american-express-credit-card",
+    "card_network": "Visa / Mastercard / American Express",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Fuel",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Fuel",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/icici-bank/icici-hpcl-coral-american-express-credit-card.webp",
+    "image_source": "enrichment_p2",
+    "match_confidence": 0.94,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#97361D",
+      "secondary_hex": "#A6782D",
+      "wash_hex": "#EEE2DC",
+      "soft_bg_hex": "#F6EDEB",
+      "border_hex": "#E8D3CD",
+      "ink_on_soft_hex": "#97361D",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+    "mitc_pdf_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/personal/cards/mitc_cc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Regular petrol",
+      "diesel commuters matching the card's partner pump brand (BPCL",
+      "IOCL",
+      "HPCL)",
+      "Rs. 4,000 – Rs. 15,000 fuel/month"
+    ],
+    "requirement_keywords": [
+      "american",
+      "bank",
+      "card",
+      "cashback",
+      "coral",
+      "credit",
+      "dining",
+      "express",
+      "fuel",
+      "groceries",
+      "hpcl",
+      "icici",
+      "miles",
+      "movies",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 2.5,
+    "accelerated_reward_rate_pct": 2.5,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Earn 3x PAYBACK Points on fuel spends",
+      "2000 PAYBACK = Rs. 500 worth of fuel",
+      "2.5% cashback, upto Rs.100, on fuel spends at HPCL pumps",
+      "Fuel surcharge waiver at HPCL Pumps",
+      "25% discount, up to Rs. 100, on purchasing 2 movie tickets via BookMyShow per month",
+      "2 PAYBACK points per Rs. 100 spent on retail, excluding fuel"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.5,
+      "amazon_flipkart_myntra": 2.5,
+      "dining_swiggy_zomato": 2.5,
+      "groceries_quick_commerce": 2.5,
+      "travel_flights_hotels": 2.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 7.5,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -1.63,
+      "offline_general_other": 2.5
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 1000
+    },
+    "monthly_capping_rules": [
+      "2.5% cashback, upto Rs.100, on fuel spends at HPCL pumps",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Fuel transactions (reward points excluded)"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 199,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "2.5% cashback, upto Rs.100, on fuel spends at HPCL pumps"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 199,
+    "annual_fee_inr": 0,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "3.40% per month / 40.80% pa.",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "Nil for amount due less than Rs. 100 Rs. 100 for amount between Rs. 100 and Rs. 500 Rs. 500 for total amount due greater than Rs. 501 and up to Rs. 10,000 Rs. 750 for total amount due greater than Rs. 10,000"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from ICICI Bank suited for fuel users.",
+    "highlights": [
+      "Annual Fee: Rs. 199",
+      "Earn 2 PAYBACK Points for every Rs. 100 spent on retail",
+      "Earn 3x PAYBACK Points on fuel spends",
+      "2000 PAYBACK = Rs. 500 worth of fuel",
+      "2.5% cashback, upto Rs.100, on fuel spends at HPCL pumps"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "2.5% cashback, upto Rs.100, on fuel spends at HPCL pumps"
+    ],
+    "dining_benefits": [
+      "Dining offers through ICICI Bank Culinary Treats Programme"
+    ],
+    "movie_benefits": [
+      "25% discount, up to Rs. 100, on purchasing 2 movie tickets via BookMyShow per month"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 4.0,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from ICICI Bank suited for fuel users.",
+    "pros": [
+      "Targeted rewards structure backed by ICICI Bank",
+      "Backed by ICICI Bank digital card controls, EMI conversion & merchant offers"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
+    "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",
+    "recommended_monthly_spend_inr": "Rs. 4,000 – Rs. 15,000 fuel/month",
+    "verdict": "option from ICICI Bank suited for fuel users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.91,
+    "reddit_mentions": 3,
+    "sentiment_summary": "Community discussions around ICICI Bank Fuel cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "2.5% cashback, upto Rs.100, on fuel spends at HPCL pumps",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "optimization_tips": [
+      "Focus spends on partner fuel pump swipes (7.5% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "High",
+    "devaluation_risk_score": 7,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Heavy 2024 Rs. 75k/qtr lounge spend cuts + Nov 2026 insurance/INOX cuts across Core/Sapphiro; ONLY Amazon Pay & EPM stay strong."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.07/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+      "card_name": "YES BANK PaisaSave Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-paisasave-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.28,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.28/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "SBI Credit Card Eligibility"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "icici-bank-up-to-75-off-on-tax-filing-plans-and-service",
+      "bank": "ICICI Bank",
+      "title": "Up to 75% off on tax filing plans and services",
+      "summary": "Up to 75% off on tax filing plans and services.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.icicibank.com/offers/categories/credit-card",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "icici-bank-20-off-on-all-tax-related-services",
+      "bank": "ICICI Bank",
+      "title": "20% off on all tax related services",
+      "summary": "20% off on all tax related services",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.icicibank.com/offers/categories/credit-card",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "icici-bank-ishop-travel-portal-instant-merchant-discou",
+      "bank": "ICICI Bank",
+      "title": "iShop Travel Portal & Instant Merchant Discounts",
+      "summary": "Accelerated rewards up to 12X/6X via ICICI iShop flights & hotels, plus 10% instant discount across Amazon, Flipkart & MakeMyTrip.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.icicibank.com/offers/categories/credit-card",
+      "scope": "targeted"
+    }
+  ]
+}

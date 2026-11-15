@@ -1,0 +1,59 @@
+{
+  "bank": "UCO Bank",
+  "bank_slug": "uco-bank",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_cards": 3,
+  "ltf_count": 0,
+  "rupay_upi_count": 0,
+  "domestic_lounge_count": 0,
+  "international_lounge_count": 0,
+  "railway_lounge_count": 0,
+  "golf_count": 0,
+  "zero_or_low_forex_count": 2,
+  "with_image_count": 3,
+  "official_lounge_programs": [],
+  "cards": [
+    {
+      "card_id": "uco_bank_uco_bank_artisan_credit_card",
+      "card_name": "UCO Bank Artisan Credit Card",
+      "card_slug": "uco-bank-artisan-credit-card",
+      "primary_category": "Zero/Low Forex",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.43,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/uco-bank/uco-bank-artisan-credit-card.webp",
+      "json_file": "uco-bank-artisan-credit-card.json",
+      "md_file": "uco-bank-artisan-credit-card.md"
+    },
+    {
+      "card_id": "uco_bank_uco_bank_swarojgar_credit_card",
+      "card_name": "UCO Bank Swarojgar Credit Card",
+      "card_slug": "uco-bank-swarojgar-credit-card",
+      "primary_category": "Super-Premium",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.43,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/uco-bank/uco-bank-swarojgar-credit-card.webp",
+      "json_file": "uco-bank-swarojgar-credit-card.json",
+      "md_file": "uco-bank-swarojgar-credit-card.md"
+    },
+    {
+      "card_id": "uco_bank_uco_bank_laghu_udyami_credit_card",
+      "card_name": "UCO Bank Laghu Udyami Credit Card",
+      "card_slug": "uco-bank-laghu-udyami-credit-card",
+      "primary_category": "Business & Tax",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.31,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/uco-bank/uco-bank-laghu-udyami-credit-card.webp",
+      "json_file": "uco-bank-laghu-udyami-credit-card.json",
+      "md_file": "uco-bank-laghu-udyami-credit-card.md"
+    }
+  ]
+}

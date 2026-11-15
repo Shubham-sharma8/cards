@@ -1,0 +1,108 @@
+{
+  "bank": "American Express",
+  "bank_slug": "american-express",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_cards": 6,
+  "ltf_count": 0,
+  "rupay_upi_count": 0,
+  "domestic_lounge_count": 3,
+  "international_lounge_count": 2,
+  "railway_lounge_count": 0,
+  "golf_count": 2,
+  "zero_or_low_forex_count": 0,
+  "with_image_count": 6,
+  "official_lounge_programs": [
+    {
+      "program_id": "page_amex_platinum_lounge",
+      "title": "American Express Platinum & Lounge Collection Directory",
+      "url": "https://www.americanexpress.com/in/charge-cards/platinum-card/",
+      "parsed_lounges_count": 0
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "amex_bank_american_express_platinum_travel_credit_cards",
+      "card_name": "American Express Platinum Travel Credit Card",
+      "card_slug": "american-express-platinum-travel-credit-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "American Express",
+      "annual_fee_inr": 5000,
+      "overall_rating": 4.45,
+      "has_domestic_lounge": true,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/american-express/american-express-platinum-travel-credit-card.webp",
+      "json_file": "american-express-platinum-travel-credit-card.json",
+      "md_file": "american-express-platinum-travel-credit-card.md"
+    },
+    {
+      "card_id": "amex_bank_membership_rewards_credit_card",
+      "card_name": "American Express Membership Rewards® Credit Card",
+      "card_slug": "american-express-membership-rewards-credit-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "American Express",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.12,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/american-express/american-express-membership-rewards-credit-card.webp",
+      "json_file": "american-express-membership-rewards-credit-card.json",
+      "md_file": "american-express-membership-rewards-credit-card.md"
+    },
+    {
+      "card_id": "amex_bank_american_express_gold_credit_card",
+      "card_name": "American Express® Gold Card",
+      "card_slug": "american-express-gold-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "American Express",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.05,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/american-express/american-express-gold-card.webp",
+      "json_file": "american-express-gold-card.json",
+      "md_file": "american-express-gold-card.md"
+    },
+    {
+      "card_id": "amex_american_express_platinum_charge_card",
+      "card_name": "American Express Platinum Charge Card",
+      "card_slug": "american-express-platinum-charge-card",
+      "primary_category": "Super-Premium",
+      "card_network": "American Express",
+      "annual_fee_inr": 66000,
+      "overall_rating": 3.66,
+      "has_domestic_lounge": true,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/american-express/american-express-platinum-charge-card.webp",
+      "json_file": "american-express-platinum-charge-card.json",
+      "md_file": "american-express-platinum-charge-card.md"
+    },
+    {
+      "card_id": "amex_bank_smartearn_credit_card",
+      "card_name": "American Express SmartEarn™ Credit Card",
+      "card_slug": "american-express-smartearn-credit-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "American Express",
+      "annual_fee_inr": 495,
+      "overall_rating": 3.6,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/american-express/american-express-smartearn-credit-card.webp",
+      "json_file": "american-express-smartearn-credit-card.json",
+      "md_file": "american-express-smartearn-credit-card.md"
+    },
+    {
+      "card_id": "amex_bank_american_express_platinum_reserve_credit_cards",
+      "card_name": "American Express® Platinum Reserveˢᵐ Credit Card",
+      "card_slug": "american-express-platinum-reserve-credit-card",
+      "primary_category": "Super-Premium",
+      "card_network": "American Express",
+      "annual_fee_inr": 10000,
+      "overall_rating": 3.5,
+      "has_domestic_lounge": true,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/american-express/american-express-platinum-reserve-credit-card.webp",
+      "json_file": "american-express-platinum-reserve-credit-card.json",
+      "md_file": "american-express-platinum-reserve-credit-card.md"
+    }
+  ]
+}

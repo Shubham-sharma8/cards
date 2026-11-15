@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "card_id": "idbi_bank_imperium_platinum_credit_card",
+    "card_name": "IDBI Bank Imperium Platinum Credit Card",
+    "bank": "IDBI Bank",
+    "bank_slug": "idbi-bank",
+    "card_slug": "idbi-bank-imperium-platinum-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / Secured",
+    "primary_category": "Fuel",
+    "categories": [
+      "Fuel",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/idbi-bank/idbi-bank-imperium-platinum-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#156F6F",
+      "secondary_hex": "#225980",
+      "wash_hex": "#DFE8E6",
+      "soft_bg_hex": "#EAF2F2",
+      "border_hex": "#CCDFDF",
+      "ink_on_soft_hex": "#156F6F",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.idbibank.in/credit-cards.asp",
+    "mitc_pdf_url": "https://www.idbi.bank.in/pdf/MITC-CC.PDF",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": true,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 20000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "entry",
+      "fd",
+      "fuel",
+      "idbi",
+      "imperium",
+      "level",
+      "platinum",
+      "secured"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "1% fuel surcharge charge on all fuel spends between Rs. 400 and Rs. 4,000, capped at Rs. 300 per month",
+      "Credit limit of 85% of the FD amount",
+      "Save up to Rs. 3,600 every year on fuel spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 3.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 300
+    },
+    "monthly_capping_rules": [
+      "Credit limit of 85% of the FD amount"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": 75000,
+      "monthly_spend_for_waiver_inr": 6250,
+      "milestone_slabs": [
+        "500 bonus Delight Points on first transaction of Rs. 1,500 or more within 30 days of card activation",
+        "1,000 points on annual spends of Rs. 1 Lakh",
+        "1,500 points on annual spends of Rs. 2 Lakh",
+        "1% fuel surcharge charge on all fuel spends between Rs. 400 and Rs. 4,000, capped at Rs. 300 per month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 75000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 500 to Rs. 5,000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 5,000 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 20,000",
+        "late_fee_inr": "Rs. 950"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from IDBI Bank suited for fuel users.",
+    "highlights": [
+      "2 Delight Points per Rs. 150 spent on shopping, movies, travelling, etc.1",
+      "500 bonus Delight Points on card activation",
+      "500 bonus Delight Points on first transaction of Rs. 1,500 or more within 30 days of card activation"
+    ],
+    "welcome_benefit": "500 Delight Points as welcome benefits",
+    "milestone_benefits": [
+      "500 bonus Delight Points on first transaction of Rs. 1,500 or more within 30 days of card activation",
+      "1,000 points on annual spends of Rs. 1 Lakh",
+      "1,500 points on annual spends of Rs. 2 Lakh",
+      "1% fuel surcharge charge on all fuel spends between Rs. 400 and Rs. 4,000, capped at Rs. 300 per month"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "2 Delight Points per Rs. 150 spent on shopping, movies, travelling, etc.1"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are new-to-credit card and not eligible for unsecured card",
+      "You want a card with basic reward benefits on shopping, travelling, movies, etc.",
+      "You are willing to spend Rs. 75,000 annually to get the annual fee waived off"
+    ],
+    "faqs": [
+      {
+        "q": "What rewards does IDBI Bank Imperium Platinum Credit Card offer?",
+        "a": "IDBI Bank Imperium Platinum Credit Card offers 2 Delight Points per Rs. 150 spent on shopping, movies, travel and other lifestyle purchases for everyday spending."
+      },
+      {
+        "q": "Is there any welcome benefit on IDBI Bank Imperium Platinum Credit Card?",
+        "a": "IDBI Bank Imperium Platinum offers 500 Delight Points on Rs. 1,500 spend within 30 days or 300 points if spent between 31 and 90 days of activation."
+      },
+      {
+        "q": "What are the fees for an IDBI Bank Imperium Platinum Credit Card?",
+        "a": "IDBI Bank Imperium Platinum charges Rs. 499 plus taxes as joining and annual fee, which can be waived on annual spends of Rs. 75,000."
+      },
+      {
+        "q": "Does this card offer fuel benefits?",
+        "a": "Yes, the card offers 1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 4,000, capped at Rs. 300 per month."
+      },
+      {
+        "q": "Who should apply for this card?",
+        "a": "IDBI Bank Imperium Platinum Credit Card is suitable for new-to-credit individuals who are not eligible for unsecured cards, seeking basic rewards while building credit history."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.44,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Fuel Benefits": 2.5,
+      "Welcome Benefits": 2.5,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IDBI Bank suited for fuel users.",
+    "pros": [
+      "2 Delight Points per Rs. 150 spent",
+      "Save up to Rs. 3,600 every year on fuel spends",
+      "Low annual fee of Rs. 499",
+      "500 Delight Points as welcome benefits"
+    ],
+    "cons": [
+      "Reward rate is relatively low",
+      "No complimentary domestic and international airport lounge visits"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "option from IDBI Bank suited for fuel users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.44,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IDBI Bank Fuel cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Credit limit of 85% of the FD amount"
+    ],
+    "optimization_tips": [
+      "Focus spends on partner fuel pump swipes (3.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹75,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "sbi_bank_sbi_bpcl_credit_card_octane",
+      "card_name": "BPCL SBI Card Octane",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "bpcl-sbi-card-octane",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.4,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.4/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.42/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 20000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Min. FD Amount: Rs. 20,000"
+  },
+  "latest_offers": []
+}

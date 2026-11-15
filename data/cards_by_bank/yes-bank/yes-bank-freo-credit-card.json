@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "card_id": "yes_bank_freo_credit_card",
+    "card_name": "YES Bank FREO Credit Card",
+    "bank": "YES BANK",
+    "bank_slug": "yes-bank",
+    "card_slug": "yes-bank-freo-credit-card",
+    "card_network": "RuPay / Visa",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Lifetime Free",
+      "RuPay & UPI",
+      "Fuel",
+      "Business & Tax"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/yes-bank/yes-bank-freo-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#303C55",
+      "secondary_hex": "#413D67",
+      "wash_hex": "#E2E2E3",
+      "soft_bg_hex": "#ECEDF0",
+      "border_hex": "#D1D4DA",
+      "ink_on_soft_hex": "#303C55",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+    "mitc_pdf_url": "https://www.yesbank.in/pdf?name=yes_first_mitc_credit_cards_english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "business",
+      "card",
+      "cashback",
+      "credit",
+      "free",
+      "freo",
+      "fuel",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "rupay",
+      "scan-and-pay",
+      "tax",
+      "upi",
+      "yes",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "1% flat cashback on all spends without any monthly capping.",
+      "1% fuel surcharge waiver across all fuel pumps up to Rs. 125 per month on transactions between Rs. 400 to Rs. 5000.",
+      "4 reward points per Rs. 200 spent on UPI transactions above Rs. 2000",
+      "Foreign currency markup of 3.4%"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 1.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.01,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 125
+    },
+    "monthly_capping_rules": [
+      "1% flat cashback on all spends without any monthly capping."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 399,
+      "annual_fee_inr": 399,
+      "annual_fee_with_gst_inr": 399.0,
+      "fee_waiver_spend_inr": 100000,
+      "monthly_spend_for_waiver_inr": 8333,
+      "milestone_slabs": [
+        "1% fuel surcharge waiver across all fuel pumps up to Rs. 125 per month on transactions between Rs. 400 to Rs. 5000.",
+        "Annual fee surcharge waiver for Visa variant on spending above Rs. 1,00,000 in previous year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 399,
+    "annual_fee_inr": 399,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": 100000,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.4,
+    "apr_monthly_pct": 3.8,
+    "apr_annual_pct": 45.6,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 20,000 to Rs. 25,000",
+        "late_fee_inr": "Rs. 1,000"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from YES BANK suited for cashback users.",
+    "highlights": [
+      "1% flat cashback on all spends without any monthly capping.",
+      "1% fuel surcharge waiver across all fuel pumps up to Rs. 125 per month on transactions between Rs. 400 to Rs. 5000.",
+      "4 reward points per Rs. 200 spent on UPI transactions above Rs. 2000",
+      "2 rewards points per Rs. 200 spent online",
+      "Lifetime free Rupay variant"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1% fuel surcharge waiver across all fuel pumps up to Rs. 125 per month on transactions between Rs. 400 to Rs. 5000.",
+      "Annual fee surcharge waiver for Visa variant on spending above Rs. 1,00,000 in previous year"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.46,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from YES BANK suited for cashback users.",
+    "pros": [
+      "Lifetime Free card with zero annual fee commitment",
+      "Solid 1% base return on regular eligible spends",
+      "RuPay network supports Scan & Pay merchant UPI transactions"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "Lifetime Free option from YES BANK suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.46,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around YES BANK Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.4% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "1% flat cashback on all spends without any monthly capping."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.4% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹100,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "High",
+    "devaluation_risk_score": 7,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Repeated lounge & RP devaluations (up to Rs. 1L/qtr spend for domestic lounges; Nov 2026 Reserve/First cut)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "bobcard_assam_rifles_sentinel_credit_card",
+      "card_name": "Assam Rifles The SENTINEL BOBCARD",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "assam-rifles-the-sentinel-bobcard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_indian_coast_guard_rakshamah_credit_card",
+      "card_name": "Indian Coast Guard Rakshamah BOBCARD Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "indian-coast-guard-rakshamah-bobcard-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "cred-indusind-bank-rupay-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.2,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.2/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "yes_bank_klick_credit_card",
+      "card_name": "YES BANK Klick (Kiwi) RuPay Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-klick-kiwi-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated RuPay & UPI card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "yes-bank-yes-rewards-bookmyshow-upi-merchant-perks",
+      "bank": "YES BANK",
+      "title": "YES Rewards & BookMyShow / UPI Merchant Perks",
+      "summary": "Up to 25% off on BookMyShow movie tickets, accelerated reward points on online shopping, and UPI Scan & Pay offers on Kiwi / ACE.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

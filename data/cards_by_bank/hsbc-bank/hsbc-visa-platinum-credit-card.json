@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "card_id": "hsbc_bank_hsbc_platinum_credit_cards",
+    "card_name": "HSBC Visa Platinum Credit Card",
+    "bank": "HSBC Bank",
+    "bank_slug": "hsbc-bank",
+    "card_slug": "hsbc-visa-platinum-credit-card",
+    "card_network": "Visa",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Lifetime Free",
+      "Fuel",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-visa-platinum-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#487A80",
+      "secondary_hex": "#557291",
+      "wash_hex": "#E5EAE8",
+      "soft_bg_hex": "#EFF3F4",
+      "border_hex": "#D7E2E3",
+      "ink_on_soft_hex": "#406C71",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hsbc.bank.in/credit-cards/",
+    "mitc_pdf_url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/platinum_mostimp_tnc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 600000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "free",
+      "fuel",
+      "hsbc",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "miles",
+      "online",
+      "platinum",
+      "shopping",
+      "travel",
+      "visa",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Air Miles / Travel Points",
+    "base_reward_rate_pct": 0.33,
+    "accelerated_reward_rate_pct": 0.33,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "2 reward points for every Rs. 150 spent",
+      "6X reward points on hotel bookings through ‘Travel with Points’ portal",
+      "4X reward points on flight bookings through ‘Travel with Points’ portal",
+      "2X reward points on car rental bookings through ‘Travel with Points’ portal",
+      "Convert accumulated reward points into partner airlines or hotel loyalty points as per the below details:",
+      "Amazon voucher worth Rs. 250 on completing the online credit card application and video KYC"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.33,
+      "amazon_flipkart_myntra": 0.33,
+      "dining_swiggy_zomato": 0.33,
+      "groceries_quick_commerce": 0.33,
+      "travel_flights_hotels": 1.98,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.8,
+      "offline_general_other": 0.33
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 250
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Amazon voucher worth Rs. 250 on completing the online credit card application and video KYC",
+        "2,000 reward points on card activation & on spending at least Rs. 5,000 within the first 30 days",
+        "1% fuel surcharge waiver, up to Rs. 250 per month, for fuel spends of Rs. 400 to Rs. 4,000",
+        "Rs. 250 cashback every quarter on contactless fuel spends"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "100% of the Minimum Payment Due (Subject to a min. of Rs. 250 and a max. of Rs. 1,200 per month)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Despite having no joining fee, the card comes with decent welcome benefits, including an **Amazon voucher worth Rs. 250** , 3-month **Swiggy One Membership** , and 2,000 bonus reward points. In addition, cardholders can avail exclusive travel and lifestyle benefits through Visa Signature platform, such as a complimentary **12-month Times Prime subscription** and cashback on travel bookings through MakeMyTrip.",
+    "highlights": [
+      "2 reward points for every Rs. 150 spent",
+      "6X reward points on hotel bookings through ‘Travel with Points’ portal",
+      "4X reward points on flight bookings through ‘Travel with Points’ portal"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Amazon voucher worth Rs. 250 on completing the online credit card application and video KYC",
+      "2,000 reward points on card activation & on spending at least Rs. 5,000 within the first 30 days",
+      "1% fuel surcharge waiver, up to Rs. 250 per month, for fuel spends of Rs. 400 to Rs. 4,000",
+      "Rs. 250 cashback every quarter on contactless fuel spends"
+    ],
+    "dining_benefits": [
+      "Free 3-month Swiggy One Membership on card activation",
+      "Free 3-month Swiggy One Membership"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Complimentary 12-month Times Prime subscription, including free access to Discovery+, JioHotstar, Uber One, etc.",
+      "Lost card liability cover of up to Rs. 3 Lakh"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "Is HSBC Platinum Credit Card good?",
+        "a": "HSBC Visa Platinum is an entry-level credit card, ideal for individuals who are new to credit. You can earn reward points on every spend and redeem them for airmiles, vouchers, and more, as per your preferences."
+      },
+      {
+        "q": "How can the HSBC Platinum Credit Card annual fee be waived?",
+        "a": "HSBC does not charge any joining or annual fee from HSBC Platinum credit card users."
+      },
+      {
+        "q": "Is the HSBC Platinum Credit Card lifetime free?",
+        "a": "Yes, HSBC Visa Platinum credit card is a lifetime free credit card without any joining or annual fee."
+      },
+      {
+        "q": "Does the HSBC Platinum Credit Card have lounge access?",
+        "a": "No, HSBC Platinum credit card does not offer any complimentary airport lounge access to its users."
+      },
+      {
+        "q": "What is the credit limit on the HSBC Platinum Credit Card?",
+        "a": "Credit card limit varies depending on the individual and as per their credit score, credit history, income and other related factors. So, there is no fixed credit limit that is assigned to all the cardholders."
+      },
+      {
+        "q": "What is the movie offer on HSBC Platinum Credit Card?",
+        "a": "Currently, HSBC Visa Platinum Credit Card does not offer any exclusive benefits on movie spends. However, you can earn reward points on your online as well as offline transactions."
+      },
+      {
+        "q": "How to redeem points earned on HSBC Platinum Credit Card?",
+        "a": "You can redeem your accumulated reward points through the HSBC rewards catalogue for products or vouchers. Additionally, you can convert your points into air miles at a 2:1 ratio."
+      },
+      {
+        "q": "How to apply for HSBC Platinum Credit Card?",
+        "a": "To apply for HSBC Visa Platinum Credit Card online, visit the official HSBC website and apply through the card’s page. Alternatively, you can visit any of the nearest bank branches and apply offline by submitting the credit card application form."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.45,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Welcome Benefits": 3.5,
+      "Lifestyle Benefits": 4.0,
+      "rewards": 3.0,
+      "lifestyle_benefits": 4.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from HSBC Bank suited for travel & miles users.",
+    "pros": [
+      "No joining and annual fee",
+      "Up to 6X reward points on travel spends",
+      "2:1 reward redemption ratio for partner airlines/hotels",
+      "Free 3-month Swiggy One Membership",
+      "Exclusive travel & lifestyle benefits through Visa Signature"
+    ],
+    "cons": [
+      "Low base reward rate of 0.67%",
+      "No travel benefits, such as complimentary lounge visits",
+      "No spending milestone benefits like bonus rewards"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "Lifetime Free option from HSBC Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.45,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HSBC Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Nov 2026 Live+ lounge/MCC trim paired with positive 1.99% forex cut; TravelOne & Premier remain flagship strongholds."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "kotak_mahindra_bank_kotak_infinite_credit_card",
+      "card_name": "Kotak Infinite Credit Card",
+      "bank": "Kotak Mahindra Bank",
+      "bank_slug": "kotak-mahindra-bank",
+      "card_slug": "kotak-infinite-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.7,
+      "reason": "Direct competitor from Kotak Mahindra Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.42/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_credit_card",
+      "card_name": "HPCL FIRST Power Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "hpcl-first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 199,
+      "overall_rating": 4.33,
+      "reason": "Top-rated Fuel card in market with rating 4.33/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried",
+    "age_range": "18 to 65 years",
+    "min_monthly_income_salaried_inr": 600000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Resident: Indian"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hsbc-bank-enjoy-2x-reward-points-on-newly-launched-appl",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 2X reward points on newly launched Apple products and up to 6X reward points on existing",
+      "summary": "Enjoy 2X reward points on newly launched Apple products and up to 6X reward points on existing Apple products with select HSBC credit cards on purchases via the HSBC Unicorn portal.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-enjoy-5-cashback-up-to-inr15-000-per-calend",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 5% cashback, up to INR15,000 per calendar month, 0% forex mark-up and 0% dynamic currency",
+      "summary": "Enjoy 5% cashback, up to INR15,000 per calendar month, 0% forex mark-up and 0% dynamic currency conversion charges on HSBC RuPay Credit Card international point-of-sale transactions.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-get-up-to-10x-accelerated-reward-points-when",
+      "bank": "HSBC Bank",
+      "title": "Get up to 10X accelerated reward points when you spend over INR10,000",
+      "summary": "Get up to 10X accelerated reward points when you spend over INR10,000.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-enjoy-10-off-up-to-inr-1-000-on-nykaa-beauty",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 10% off up to INR 1,000 on Nykaa Beauty and Nykaa Fashion",
+      "summary": "Enjoy 10% off up to INR 1,000 on Nykaa Beauty and Nykaa Fashion.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-live-dining-weekend-merchant-cashback-offe",
+      "bank": "HSBC Bank",
+      "title": "Live+ Dining & Weekend Merchant Cashback Offers",
+      "summary": "Up to 10% accelerated cashback on dining, food delivery & groceries, plus Saturday/Sunday travel and BookMyShow BOGO offers.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "targeted"
+    }
+  ]
+}

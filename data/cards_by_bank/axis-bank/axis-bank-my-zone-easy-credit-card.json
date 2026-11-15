@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "card_id": "axis_bank_my_zone_easy_credit_card",
+    "card_name": "Axis Bank MY ZONE EASY Credit Card",
+    "bank": "Axis Bank",
+    "bank_slug": "axis-bank",
+    "card_slug": "axis-bank-my-zone-easy-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / Secured",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/axis-bank/axis-bank-my-zone-easy-credit-card.png",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#78173F",
+      "secondary_hex": "#892625",
+      "wash_hex": "#EADEE0",
+      "soft_bg_hex": "#F3EAEE",
+      "border_hex": "#E1CCD5",
+      "ink_on_soft_hex": "#78173F",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.axis.bank.in/cards/credit-card",
+    "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": true,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "axis",
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "easy",
+      "entry",
+      "fd",
+      "fuel",
+      "groceries",
+      "level",
+      "movies",
+      "my",
+      "secured",
+      "zone"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 25.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "25% cashback on movie ticket purchases (online and box office) at registered merchants, capped at Rs. 1,000 per year",
+      "4 EDGE reward points for every Rs. 200 spent on domestic transactions",
+      "Redeem accumulated reward points on products and items through the Axis EDGE Rewards catalogue",
+      "15% off on dining at partner restaurants through the Dining Delights program",
+      "1% fuel surcharge waiver on all fuel spends between Rs. 400 and Rs. 4,000, capped at Rs. 400 per month",
+      "Cash withdrawal is allowed up to 100% of the available credit limit"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.4,
+      "amazon_flipkart_myntra": 0.4,
+      "dining_swiggy_zomato": 0.4,
+      "groceries_quick_commerce": 0.4,
+      "travel_flights_hotels": 0.4,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.73,
+      "offline_general_other": 0.4
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "0.40% base EDGE RP; movie/shopping benefits are capped promo coupon discounts."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "25% cashback on movie ticket purchases (online and box office) at registered merchants, capped at Rs. 1,000 per year",
+        "1% fuel surcharge waiver on all fuel spends between Rs. 400 and Rs. 4,000, capped at Rs. 400 per month",
+        "Save up to Rs. 4,800 on all fuel spends"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.4,
+    "apr_annual_pct": 49.36,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 10,000",
+        "late_fee_inr": "Rs. 1,200"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Additionally, the card allows cash withdrawals up to the credit limit and offers 50 days of interest-free purchases. With a joining and annual fee of Rs. 500 plus taxes and a required fixed deposit of Rs. 15,000, it is a decent choice for starting a credit journey with a low-cost card.",
+    "highlights": [
+      "25% cashback on movie ticket purchases (online and box office) at registered merchants, capped at Rs. 1,000 per year",
+      "4 EDGE reward points for every Rs. 200 spent on domestic transactions",
+      "Redeem accumulated reward points on products and items through the Axis EDGE Rewards catalogue"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "25% cashback on movie ticket purchases (online and box office) at registered merchants, capped at Rs. 1,000 per year",
+      "1% fuel surcharge waiver on all fuel spends between Rs. 400 and Rs. 4,000, capped at Rs. 400 per month",
+      "Save up to Rs. 4,800 on all fuel spends"
+    ],
+    "dining_benefits": [
+      "15% off on dining at partner restaurants through the Dining Delights program"
+    ],
+    "movie_benefits": [
+      "25% cashback on movie ticket purchases (online and box office) at registered merchants, capped at Rs. 1,000 per year",
+      "25% cashback on movie tickets, up to Rs. 1,000 a year"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are new to credit and want to build a credit profile",
+      "You often book movie tickets via partner platforms and want to maximize savings"
+    ],
+    "faqs": [
+      {
+        "q": "Who can apply for the Axis Bank MY ZONE EAZY Credit Card?",
+        "a": "This card is available for Indian citizens aged 18 years or above. Applicants need to open a fixed deposit between Rs. 15,000 and Rs. 25 Lakh. Tax Saver FDs, Flexi-Deposits, and FDs held by HUFs, trusts, societies, or companies are not eligible."
+      },
+      {
+        "q": "How can I apply for the card?",
+        "a": "You can apply online through Axis Bank’s official website or visit a branch in person. You will need to submit self-attested ID proof, address proof, PAN, and the fixed deposit details to complete your application."
+      },
+      {
+        "q": "What are the rewards and benefits of this card?",
+        "a": "The card offers 4 EDGE reward points for every Rs. 200 spent domestically, 25% cashback on movie tickets up to Rs. 1,000 per year, 15% discount at partner restaurants, and a 1% fuel surcharge waiver on fuel purchases between Rs. 400 and Rs. 4,000."
+      },
+      {
+        "q": "What is the credit limit on this card?",
+        "a": "The credit limit is based on your fixed deposit and can go up to 100% of the FD amount, giving you a secure way to start building your credit profile."
+      },
+      {
+        "q": "How do I activate my Axis Bank MY ZONE EAZY Credit Card?",
+        "a": "You can activate the card online via mobile or internet banking, or by calling Axis Bank customer care and following the IVR instructions. Once activated, you can start using the card immediately for purchases and rewards."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.15,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Movies": 3.0,
+      "Rewards": 3.0,
+      "Dining Benefits": 2.5,
+      "movies": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Axis Bank suited for cashback users.",
+    "pros": [
+      "25% cashback on movie tickets, up to Rs. 1,000 a year",
+      "4 reward points for every Rs. 200 spent domestically",
+      "Save up to Rs. 4,800 on all fuel spends"
+    ],
+    "cons": [
+      "Does not offer any travel benefits like complimentary lounge access",
+      "No annual fee waiver"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "option from Axis Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.44,
+    "reddit_mentions": 4,
+    "sentiment_summary": "Community discussions around Axis Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "In this round of devaluation many of the entry level cards like Neo, Myzone, Flipkart are either of reduced value or are rendered almost useless.",
+      "All LTF apart from SBI (However, got it from cashkaro so got ₹1800 for this and applied Myzone through the same so got ₹1400 from that with card being LTF)."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Very High",
+    "devaluation_risk_score": 8,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_coral_credit_card_against_fixed_deposit",
+      "card_name": "ICICI Coral FD Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-coral-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.37,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Cashback with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "kotak_mahindra_bank_kotak_cashback_plus_prime_credit_card",
+      "card_name": "Kotak Cashback+ Prime Credit Card",
+      "bank": "Kotak Mahindra Bank",
+      "bank_slug": "kotak-mahindra-bank",
+      "card_slug": "kotak-cashback-prime-credit-card",
+      "annual_fee_inr": 750,
+      "overall_rating": 4.15,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.15/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hsbc_bank_live_plus_credit_card",
+      "card_name": "HSBC Live+ Credit Card",
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "card_slug": "hsbc-live-credit-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.76,
+      "reason": "Top-rated Dining, Groceries & Movies card in market with rating 4.76/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age Requirement: 18 years"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "axis-bank-grab-deals-eazydiner-dining-delights-up-to",
+      "bank": "Axis Bank",
+      "title": "Grab Deals & EazyDiner Dining Delights (Up to 30%–40% Off)",
+      "summary": "Extra Reward Points / cashback via Axis Grab Deals plus Dining Delights discounts of 15%–40% at partner restaurants across India.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.axis.bank.in/grab-deals/online-offers",
+      "scope": "targeted"
+    }
+  ]
+}

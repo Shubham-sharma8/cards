@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "card_id": "hsbc_bank_taj_credit_card",
+    "card_name": "HSBC Taj Credit Card",
+    "bank": "HSBC Bank",
+    "bank_slug": "hsbc-bank",
+    "card_slug": "hsbc-taj-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Super-Premium",
+    "primary_category": "Super-Premium",
+    "categories": [
+      "Super-Premium",
+      "Travel & Miles",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-taj-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#A67E44",
+      "secondary_hex": "#AD3E36",
+      "wash_hex": "#F0EAE1",
+      "soft_bg_hex": "#F7F3EE",
+      "border_hex": "#EBE3D6",
+      "ink_on_soft_hex": "#7B5D32",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hsbc.bank.in/credit-cards/",
+    "mitc_pdf_url": "https://www.hsbc.co.in/credit-cards/products/taj/",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 10,000+",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 500000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "High-income spenders maximizing HSBC Bank concierge",
+      "unlimited lounges & accelerated travel portals",
+      "Rs. 366,666+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "hsbc",
+      "miles",
+      "online",
+      "premium",
+      "shopping",
+      "super",
+      "taj",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 25.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Taj InnerCircle Platinum NeuPass membership covering benefits like priority/early check-ins, late check-outs, dedicated 24/7 Platinum concierge service, additional NeuCoin reward points, a special welcome service; happy hours; and more at participating hotels.",
+      "25% savings on the best available rate for room/suite at Taj Palaces, Safaris and other properties",
+      "25% savings on food and beverages, including Qmin deliveries",
+      "5 reward points for every Rs. 100 spent on participating hotel chains5",
+      "1.5 reward points for every Rs. 100 spent",
+      "1.5 reward points = Rs. 1, credited in HSBC Taj Credit Card Wallet balance"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.5,
+      "amazon_flipkart_myntra": 1.5,
+      "dining_swiggy_zomato": 2.5,
+      "groceries_quick_commerce": 1.5,
+      "travel_flights_hotels": 5.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 1.23,
+      "offline_general_other": 1.5
+    },
+    "monthly_category_caps_inr": {
+      "travel_flights_hotels": 15000
+    },
+    "monthly_capping_rules": [
+      "Rs. 1.1L+GST Taj Platinum card: 1.5% base & 5% at Taj/IHCL wallets; 25% Taj BAR/F&B discounts apply only at participating Taj Palaces."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 110000,
+      "annual_fee_inr": 110000,
+      "annual_fee_with_gst_inr": 129800.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "25% off at Tira (min. spend Rs. 2,499; max. total savings Rs. 750)",
+        "12% off at Zomato (min. spend Rs. 2,499; max. total savings Rs. 500)",
+        "5% off at Croma (min spend Rs. 20,000; max total savings Rs. 2,000)"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 110000,
+    "annual_fee_inr": 110000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "100% of minimum payment due (minimum Rs. 250 and maximum Rs. 1,200 per month)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "HSBC Taj Credit Card, offered in partnership with the Indian Hotels Company Ltd (IHCL), is a co-branded hotel credit card **tailored to the needs of affluent consumers who value luxury travel and hospitality experiences.** While the Marriott Bonvoy HDFC Credit Card introduced India to hotel co-branded credit cards in the mid-range segment last year, the HSBC Taj Credit Card is India’s first hotel co-branded card in the super-premium category. With an annual fee of Rs. 1.10 Lakh, it also becomes one of the costliest credit cards in India. Cardholders get**exclusive benefits not just with Taj Properties but also across other hotel chains under the IHCL Group, including SeleQtions, Gateway, Vivanta, Ginger Hotels and amã Stays & Trails.** A complimentary membership to Taj InnerCircle Platinum NeuPass gives access to exclusive privileges at participating hotels, further enhancing consumer experience. Beyond hotel benefits, the card also caters to travellers’ needs with benefits such as unlimited lounge access, discount on flight ticket bookings, discount on duty-free spends and complimentary concierge service. Direct discount on some popular brands like Starbucks, Tira, PVR Cinemas, Zomato, and Swiggy provide cardholders with more opportunities to save.",
+    "highlights": [
+      "Free night stay (plus breakfast) at a Taj Palace hotel and 2 nights at any participating hotel",
+      "Taj InnerCircle Platinum NeuPass membership covering benefits like priority/early check-ins, late check-outs, dedicated 24/7 Platinum concierge service, additional NeuCoin reward points, a special welcome service; happy hours; and more at participating hotels.",
+      "Free access to India’s premier executive business club, The Chambers Lounge and Taj Club Lounge with tea/coffee for 21",
+      "Unlimited room upgrades to the next level of room or suite at participating hotels"
+    ],
+    "welcome_benefit": "Taj InnerCircle Platinum NeuPass membership covering benefits like priority/early check-ins, late check-outs, dedicated 24/7 Platinum concierge service, additional NeuCoin reward points, a special welcome service; happy hours; and more at participating hotels.",
+    "milestone_benefits": [
+      "25% off at Tira (min. spend Rs. 2,499; max. total savings Rs. 750)",
+      "12% off at Zomato (min. spend Rs. 2,499; max. total savings Rs. 500)",
+      "5% off at Croma (min spend Rs. 20,000; max total savings Rs. 2,000)"
+    ],
+    "dining_benefits": [
+      "Free 4 set meals for 2 at Taj and other participating restaurants",
+      "12% off at Zomato (min. spend Rs. 2,499; max. total savings Rs. 500)"
+    ],
+    "movie_benefits": [
+      "2 for 1 movie and event tickets through Book My Show (max. ticket value Rs. 750 each)"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Taj InnerCircle Platinum NeuPass membership covering benefits like priority/early check-ins, late check-outs, dedicated 24/7 Platinum concierge service, additional NeuCoin reward points, a special welcome service; happy hours; and more at participating hotels."
+    ],
+    "concierge_or_privilege": [
+      "Taj InnerCircle Platinum NeuPass membership covering benefits like priority/early check-ins, late check-outs, dedicated 24/7 Platinum concierge service, additional NeuCoin reward points, a special welcome service; happy hours; and more at participating hotels."
+    ],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "What are the documents required to apply for this card?",
+        "a": "To apply for an HSBC Taj Credit Card, cardholders need to submit proof of residence, identity proof and their permanent account number (PAN) card. Additionally, income proofs such as the latest salary slip may be required if you\\'re a salaried employee."
+      },
+      {
+        "q": "What benefits does the NeuPass membership offer?",
+        "a": "The complimentary Platinum NeuPass membership offered on the card offers benefits like additional NeuCoins/points; early/priority check-in and late check-out; unlimited room upgrades to the next category, happy hours and a dedicated customer care service among other benefits."
+      },
+      {
+        "q": "What is the forex markup fee on the card?",
+        "a": "The card charges a forex markup fee of 3.5% of the transaction amount. However, the fee is waived off for India’s executive banking clients."
+      },
+      {
+        "q": "How do I contact HSBC for more details on the card?",
+        "a": "You can contact the bank at their toll-free number 1800 569 1111."
+      },
+      {
+        "q": "Does the card offer a fuel surcharge waiver?",
+        "a": "Yes, the card offers fuel surcharge waiver on transactions between Rs. 400 and Rs. 4,000 on all fuel pumps."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.33,
+    "editorial_rating": 4.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 4.0,
+      "Rewards": 3.5,
+      "Lifestyle Benefits": 3.5,
+      "branded Benefits": 4.5,
+      "travel": 4.0,
+      "rewards": 3.5,
+      "lifestyle_benefits": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HSBC Bank suited for super-premium users.",
+    "pros": [
+      "Unlimited room upgrades",
+      "Benefits not limited to one but seven hotel chains",
+      "Straight-forward lifestyle benefits via partner brands",
+      "Complimentary Taj InnerCircle Platinum NeuPass membership"
+    ],
+    "cons": [
+      "High income eligibility",
+      "Reward redemption limited to participating hotels",
+      "Brand specific benefits can be limiting for some users"
+    ],
+    "best_for_whom": "High-income spenders maximizing HSBC Bank concierge, unlimited lounges & accelerated travel portals",
+    "not_ideal_for": "Moderate spenders unlikely to cross annual fee waiver / extract >fee value",
+    "recommended_monthly_spend_inr": "Rs. 366,666+",
+    "verdict": "option from HSBC Bank suited for super-premium users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.33,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HSBC Bank Super-Premium cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
+      "High 3.5% (+GST) forex markup makes international swipes net negative."
+    ],
+    "optimization_tips": [
+      "Focus spends on flights & hotel bookings (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Nov 2026 Live+ lounge/MCC trim paired with positive 1.99% forex cut; TravelOne & Premier remain flagship strongholds."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "axis_bank_burgundy_private_credit_card",
+      "card_name": "Axis Bank Burgundy Private Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-burgundy-private-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "rbl_bank_rbl_lumiere_credit_card",
+      "card_name": "RBL Bank Lumière Credit Card",
+      "bank": "RBL Bank",
+      "bank_slug": "rbl-bank",
+      "card_slug": "rbl-bank-lumi-re-credit-card",
+      "annual_fee_inr": 50000,
+      "overall_rating": 3.9,
+      "reason": "Direct competitor from RBL Bank at similar fee tier (Rs. 50,000/yr)."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Top-rated Super-Premium card in market with rating 4.9/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "Between 25 years and 75 years",
+    "min_monthly_income_salaried_inr": 500000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age: Between 25 years and 75 years"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hsbc-bank-enjoy-2x-reward-points-on-newly-launched-appl",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 2X reward points on newly launched Apple products and up to 6X reward points on existing",
+      "summary": "Enjoy 2X reward points on newly launched Apple products and up to 6X reward points on existing Apple products with select HSBC credit cards on purchases via the HSBC Unicorn portal.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-enjoy-5-cashback-up-to-inr15-000-per-calend",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 5% cashback, up to INR15,000 per calendar month, 0% forex mark-up and 0% dynamic currency",
+      "summary": "Enjoy 5% cashback, up to INR15,000 per calendar month, 0% forex mark-up and 0% dynamic currency conversion charges on HSBC RuPay Credit Card international point-of-sale transactions.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-get-up-to-10x-accelerated-reward-points-when",
+      "bank": "HSBC Bank",
+      "title": "Get up to 10X accelerated reward points when you spend over INR10,000",
+      "summary": "Get up to 10X accelerated reward points when you spend over INR10,000.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-enjoy-10-off-up-to-inr-1-000-on-nykaa-beauty",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 10% off up to INR 1,000 on Nykaa Beauty and Nykaa Fashion",
+      "summary": "Enjoy 10% off up to INR 1,000 on Nykaa Beauty and Nykaa Fashion.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-live-dining-weekend-merchant-cashback-offe",
+      "bank": "HSBC Bank",
+      "title": "Live+ Dining & Weekend Merchant Cashback Offers",
+      "summary": "Up to 10% accelerated cashback on dining, food delivery & groceries, plus Saturday/Sunday travel and BookMyShow BOGO offers.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "targeted"
+    }
+  ]
+}

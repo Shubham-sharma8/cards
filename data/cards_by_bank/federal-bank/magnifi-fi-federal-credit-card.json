@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "card_id": "federal_bank_magnifi_credit_card",
+    "card_name": "MagniFi Fi-Federal Credit Card",
+    "bank": "Federal Bank",
+    "bank_slug": "federal-bank",
+    "card_slug": "magnifi-fi-federal-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Lifetime Free",
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Business & Tax",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/federal-bank/magnifi-fi-federal-credit-card-up-to-5-savings-on-weekend-spends.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#653A1F",
+      "secondary_hex": "#76682D",
+      "wash_hex": "#E8E2DC",
+      "soft_bg_hex": "#F1EDEB",
+      "border_hex": "#DDD4CE",
+      "ink_on_soft_hex": "#653A1F",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.federal.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.federal.bank.in/credit-cards",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Federal Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Any (LTF keeper)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "business",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "federal",
+      "fi",
+      "free",
+      "fuel",
+      "groceries",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "magnifi",
+      "movies",
+      "online",
+      "shopping",
+      "tax",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Partner Brands/Platforms: Amazon, Zomato, Zepto and BookMyShow",
+      "On Weekend Spends: 5% back as 20 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month",
+      "On Weekday Spends: 0.5% back as 2 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month",
+      "Excluded Spending Categories: Fuel, utility payments, insurance, jewellery and gold, wallet reloads, rental payments, real estate, education, and services related to government, agriculture, horticulture, veterinary and business.",
+      "You wish to avail discount benefits on popular online partner brands like Amazon, Zomato, Zepto and BookMyShow"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "On Weekend Spends: 5% back as 20 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month",
+      "On Weekday Spends: 0.5% back as 2 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Fuel transactions (reward points excluded)",
+      "Wallet loads",
+      "Utility bill payments",
+      "Government / tax payments",
+      "Education fee payments",
+      "Insurance premium payments",
+      "Jewellery & gold purchases"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "On Weekend Spends: 5% back as 20 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month",
+        "On Weekday Spends: 0.5% back as 2 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from Federal Bank suited for cashback users.",
+    "highlights": [
+      "Partner Brands/Platforms: Amazon, Zomato, Zepto and BookMyShow",
+      "Validity: Saturdays and Sundays, once every month on each platform",
+      "Capping: Max. Rs. 100 off on each platform",
+      "Minimum Order Value: Rs. 500",
+      "On Weekend Spends: 5% back as 20 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "On Weekend Spends: 5% back as 20 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month",
+      "On Weekday Spends: 0.5% back as 2 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month"
+    ],
+    "dining_benefits": [
+      "Partner Brands/Platforms: Amazon, Zomato, Zepto and BookMyShow",
+      "You wish to avail discount benefits on popular online partner brands like Amazon, Zomato, Zepto and BookMyShow"
+    ],
+    "movie_benefits": [
+      "Partner Brands/Platforms: Amazon, Zomato, Zepto and BookMyShow",
+      "You wish to avail discount benefits on popular online partner brands like Amazon, Zomato, Zepto and BookMyShow"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Excluded Spending Categories: Fuel, utility payments, insurance, jewellery and gold, wallet reloads, rental payments, real estate, education, and services related to government, agriculture, horticulture, veterinary and business."
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.31,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from Federal Bank suited for cashback users.",
+    "pros": [
+      "Lifetime Free card with zero annual fee commitment",
+      "Backed by Federal Bank digital card controls, EMI conversion & merchant offers"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Federal Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Any (LTF keeper)",
+    "verdict": "Lifetime Free option from Federal Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.31,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Federal Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "On Weekend Spends: 5% back as 20 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month",
+      "On Weekday Spends: 0.5% back as 2 Fi-Points per Rs. 100 spent, up to 2,000 Fi-Points per month"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_assam_rifles_sentinel_credit_card",
+      "card_name": "Assam Rifles The SENTINEL BOBCARD",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "assam-rifles-the-sentinel-bobcard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.09/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

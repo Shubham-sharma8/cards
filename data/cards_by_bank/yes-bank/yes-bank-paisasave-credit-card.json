@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+    "card_name": "YES BANK PaisaSave Credit Card",
+    "bank": "YES BANK",
+    "bank_slug": "yes-bank",
+    "card_slug": "yes-bank-paisasave-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "RuPay & UPI",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/yes-bank/yes-bank-paisasave-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#359893",
+      "secondary_hex": "#4582A6",
+      "wash_hex": "#E2EDEA",
+      "soft_bg_hex": "#EDF6F5",
+      "border_hex": "#D3E8E7",
+      "ink_on_soft_hex": "#27706D",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+    "mitc_pdf_url": "https://www.yesbank.in/pdf?name=ybl_fintech_mitc_2024.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 25000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "groceries",
+      "miles",
+      "movies",
+      "paisasave",
+      "rupay",
+      "scan-and-pay",
+      "travel",
+      "upi",
+      "yes"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 6.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "6% Cashback: 12 reward points per Rs. 200 spent on the following categories –",
+      "Dining , including Swiggy, Zomato, Dineout, restaurants, fast food joints, etc.",
+      "1% Cashback: 2 reward points per Rs. 200 spent on other category spends",
+      "Capping: 6% cashback is capped at Rs. 3,000 per month. Base cashback rate of 1% will apply on all card spends once you reach the capped limit.",
+      "1% Cashback: 2 reward points per Rs. 200 spent on UPI transactions above Rs. 2,000",
+      "1 Reward Point = Rs. 1, redeemable as cashback/statement credit via YES Rewardz platform at zero redemption fee"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 6.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 6.0,
+      "upi_scan_and_pay": 1.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "dining_swiggy_zomato": 3000,
+      "travel_flights_hotels": 3000
+    },
+    "monthly_capping_rules": [
+      "6% cashback (12 RP/Rs.200) across Dining (Swiggy/Zomato/restaurants) & Travel combined capped at Rs. 3,000/month (up to Rs. 50,000/mo spend); 1% uncapped base."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1% Cashback: 2 reward points per Rs. 200 spent on other category spends",
+        "Capping: 6% cashback is capped at Rs. 3,000 per month. Base cashback rate of 1% will apply on all card spends once you reach the capped limit."
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.99,
+    "apr_annual_pct": 47.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 500",
+        "late_fee_inr": "Rs. 1,350 or 10% of total outstanding amount, whichever is lower"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "YES BANK Paisabazaar PaisaSave Credit Card is a cashback card catering to consumers who spend a considerable amount on dining and travel. Cardholders get flat 6% cashback on both these spending categories – which is possibly the highest value-back offered without any platform or merchant restrictions. In addition to this accelerated cashback, card users get 1% unlimited cashback on all other spends, including UPI transactions made through the virtual RuPay card variant.",
+    "highlights": [
+      "6% Cashback: 12 reward points per Rs. 200 spent on the following categories –",
+      "Dining , including Swiggy, Zomato, Dineout, restaurants, fast food joints, etc.",
+      "Travel , including MMT, EaseMyTrip, Cleartrip, other travel agencies/portals, Air India, Marriott, Oberoi, Radisson, Hyatt, and many others.",
+      "1% Cashback: 2 reward points per Rs. 200 spent on other category spends"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1% Cashback: 2 reward points per Rs. 200 spent on other category spends",
+      "Capping: 6% cashback is capped at Rs. 3,000 per month. Base cashback rate of 1% will apply on all card spends once you reach the capped limit."
+    ],
+    "dining_benefits": [
+      "Dining , including Swiggy, Zomato, Dineout, restaurants, fast food joints, etc.",
+      "District : 10% off, up to Rs. 500, on dining bills of minimum Rs. 4,000 on District once per card using code YESTREAT till 30 Nov 2026",
+      "Swiggy : 5% off, up to Rs. 125, on food orders of min. Rs. 500 via Swiggy, once per card till 30 Nov 2026"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You prefer to earn cashback on all your spends without any reward redemption fee",
+      "You travel and dine-out frequently and want a card with good savings on these spends",
+      "You are looking for a low annual fee card with good cashback rate on select lifestyle spends without any brand, platform or airline restriction",
+      "You want a card with hassle-free reward points redemption for cashback without any added cost of redemption fee"
+    ],
+    "faqs": [
+      {
+        "q": "Is YES BANK Paisabazaar PaisaSave Credit Card eligible for EMI transactions?",
+        "a": "Though YES BANK does not offer any cashback on EMI transactions, YES BANK Paisabazaar PaisaSave credit cardholders can still avail the instant EMI and EMI on Call facilities on card purchases worth minimum Rs. 1,500. Via the instant EMI service, you can opt to pay in parts for your purchase, while the EMI on Call is a post purchase EMI option that you can choose by making a call to the bank. However, if possible, it is advised to pay your dues in full by the due date to avoid accruing interest charges."
+      },
+      {
+        "q": "How will I accrue cashback on my transactions done through PaisaSave credit card?",
+        "a": "YES BANK Paisabazaar PaisaSave credit card users would accrue their cashback as reward points that are credited to their credit card account. These points can later be redeemed as statement credit in 1:1 ratio without paying any additional fee by logging in to the YES Rewardz platform."
+      },
+      {
+        "q": "If I already have a YES BANK Credit Card, can I apply for Paisabazaar PaisaSave credit card too?",
+        "a": "No, those who are existing YES BANK credit cardholders are not eligible for YES BANK PaisaSave card."
+      },
+      {
+        "q": "Can I get only YES BANK Paisabazaar PaisaSave RuPay credit card directly without getting the Mastercard variant?",
+        "a": "YES BANK PaisaSave RuPay credit card is only offered as a complimentary card with the Mastercard variant. So, you can get the Rupay variant only if you have the Mastercard one."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.28,
+    "editorial_rating": 4.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.5,
+      "Cashback": 4.0,
+      "Dining Benefits": 4.0,
+      "travel": 3.5,
+      "cashback": 4.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from YES BANK suited for travel & miles users.",
+    "pros": [
+      "6% cashback on travel and dining spends",
+      "Reward points are redeemable as statement credit in 1:1 redemption ratio",
+      "No brand restriction on categories with accelerated value-back",
+      "Low annual fee with easily achievable fee waiver condition"
+    ],
+    "cons": [
+      "Capping on accelerated value-back earnings",
+      "No value-back on UPI transactions below Rs. 2,000"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from YES BANK suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.28,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around YES BANK Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "6% cashback (12 RP/Rs.200) across Dining (Swiggy/Zomato/restaurants) & Travel combined capped at Rs. 3,000/month (up to Rs. 50,000/mo spend); 1% uncapped base."
+    ],
+    "optimization_tips": [
+      "Focus spends on dining & food delivery (6.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "High",
+    "devaluation_risk_score": 7,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Repeated lounge & RP devaluations (up to Rs. 1L/qtr spend for domestic lounges; Nov 2026 Reserve/First cut)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbi_bank_sbi_eternal_credit_card",
+      "card_name": "Eternal SBI Credit Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "eternal-sbi-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 3.85,
+      "reason": "Direct competitor from SBI Card at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_bank_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.44,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.44/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "axis_bank_airtel_axis_bank_credit_card",
+      "card_name": "Airtel Axis Bank Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "airtel-axis-bank-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.3,
+      "reason": "Top-rated Cashback card in market with rating 4.3/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "21 to 60 years",
+    "min_monthly_income_salaried_inr": 25000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age: 21 to 60 years"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "yes-bank-yes-rewards-bookmyshow-upi-merchant-perks",
+      "bank": "YES BANK",
+      "title": "YES Rewards & BookMyShow / UPI Merchant Perks",
+      "summary": "Up to 25% off on BookMyShow movie tickets, accelerated reward points on online shopping, and UPI Scan & Pay offers on Kiwi / ACE.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

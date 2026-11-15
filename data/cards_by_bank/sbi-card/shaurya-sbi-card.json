@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "card_id": "sbi_bank_shaurya_sbi_credit_card",
+    "card_name": "Shaurya SBI Card",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "shaurya-sbi-card",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "RuPay & UPI",
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/shaurya-sbi-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#15506F",
+      "secondary_hex": "#223880",
+      "wash_hex": "#DFE5E6",
+      "soft_bg_hex": "#EAEFF2",
+      "border_hex": "#CCD8DF",
+      "ink_on_soft_hex": "#15506F",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+    "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "SBI Card customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "card",
+      "cashback",
+      "dining",
+      "fuel",
+      "groceries",
+      "movies",
+      "online",
+      "rupay",
+      "sbi",
+      "scan-and-pay",
+      "shaurya",
+      "shopping",
+      "upi"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 0.25,
+    "accelerated_reward_rate_pct": 1.25,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5 reward points per Rs. 100 spent on CSD, dining, movies, departmental and grocery stores",
+      "1 reward point per Rs. 100 spent on other categories",
+      "Redeem accumulated reward points against cashback or through the rewards catalogue at a value of 1 Reward Point = Re. 0.25",
+      "1,000 reward points on the payment of joining fee",
+      "1% fuel surcharge waiver on fuel spends between Rs. 500 and Rs. 3,000, capped at Rs. 100 per month",
+      "Up to Rs. 1,200 annual savings on fuel"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.25,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 1.25,
+      "groceries_quick_commerce": 1.25,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.25,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 100
+    },
+    "monthly_capping_rules": [
+      "Up to Rs. 1,200 annual savings on fuel"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 250,
+      "annual_fee_inr": 250,
+      "annual_fee_with_gst_inr": 295.0,
+      "fee_waiver_spend_inr": 50000,
+      "monthly_spend_for_waiver_inr": 4167,
+      "milestone_slabs": [
+        "Annual fee waiver on spending Rs. 50,000 or more in a year",
+        "1% fuel surcharge waiver on fuel spends between Rs. 500 and Rs. 3,000, capped at Rs. 100 per month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 250,
+    "annual_fee_inr": 250,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 50000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 2.75,
+    "apr_annual_pct": 33.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 500 up to Rs. 1,000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 1,000 up to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 10,000 up to Rs. 25,000",
+        "late_fee_inr": "Rs. 950"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 25,000 up to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Cardholders can redeem accumulated reward points against cashback or through the rewards catalogue at a value of **1 Reward Point = Rs. 0.25**. Apart from the accelerated categories, the card offers a **low value-back of 0.25% on other spends**. Overall, Shaurya SBI Card is a low annual fee credit card with basic benefits. Apart from reward points, it offers benefits such as fuel surcharge waiver, **1,000 reward points as a welcome benefit** , and an annual fee waiver. This card is a suitable option for defence personnel seeking a low annual fee card to save on canteen and everyday spends.",
+    "highlights": [
+      "5 reward points per Rs. 100 spent on CSD, dining, movies, departmental and grocery stores",
+      "1 reward point per Rs. 100 spent on other categories",
+      "Redeem accumulated reward points against cashback or through the rewards catalogue at a value of 1 Reward Point = Re. 0.25",
+      "1,000 reward points on the payment of joining fee"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Annual fee waiver on spending Rs. 50,000 or more in a year",
+      "1% fuel surcharge waiver on fuel spends between Rs. 500 and Rs. 3,000, capped at Rs. 100 per month"
+    ],
+    "dining_benefits": [
+      "5 reward points per Rs. 100 spent on CSD, dining, movies, departmental and grocery stores",
+      "5X rewards on dining, movie & other everyday spends"
+    ],
+    "movie_benefits": [
+      "5 reward points per Rs. 100 spent on CSD, dining, movies, departmental and grocery stores",
+      "5X rewards on dining, movie & other everyday spends"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Personal Accidental Insurance Cover of Rs. 2 Lakh",
+      "Credit card comes embossed with your service branch i.e. AIRFORCE, ARMY, NAVY & PARAMILITARY"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are a defence personnel (serving or retired)",
+      "You want higher rewards on daily spends like CSD, groceries and dining",
+      "You are looking for a low annual fee card with basic benefits",
+      "You prefer to redeem reward points against cashback"
+    ],
+    "faqs": [
+      {
+        "q": "What is Shaurya SBI Card?",
+        "a": "Shaurya SBI credit card is designed especially for the defence personnel. Cardholders can get the card embossed with the Navy, Army, Air force or Paramilitary’s insignia. The card offers accelerated reward points on everyday spends and even on CSD spends."
+      },
+      {
+        "q": "Does SBI Shaurya Card have lounge access?",
+        "a": "No, SBI Shaurya Credit Card does not offer any domestic or international airport lounge access."
+      },
+      {
+        "q": "What reward points does the Shaurya SBI Card offer?",
+        "a": "You earn 5 reward points per Rs. 100 on CSD, dining, departmental store/grocery, and movie spends, and 1 reward point per Rs. 100 on all other eligible purchases."
+      },
+      {
+        "q": "Does Shaurya SBI Credit Card offer a fuel surcharge waiver?",
+        "a": "Yes, you get a 1% fuel surcharge waiver for fuel transactions between Rs. 500 and Rs. 3,000, with a maximum waiver of Rs. 100 per statement cycle."
+      },
+      {
+        "q": "What insurance benefits come with Shaurya SBI Credit Card?",
+        "a": "The card offers a complimentary personal accident insurance cover of Rs. 2 Lakh."
+      },
+      {
+        "q": "What are the interest rates on outstanding balances for Shaurya SBI Credit Card?",
+        "a": "The interest (finance) charge is up to 2.75% per month, which translates to about 33% p.a."
+      },
+      {
+        "q": "Are there fees for cash advances on Shaurya SBI Credit Card?",
+        "a": "Yes, the cash advance fee is 2.5% of the amount withdrawn, or a minimum of Rs. 500, whichever is higher."
+      },
+      {
+        "q": "Does Shaurya SBI Credit Card charge foreign currency transaction fees?",
+        "a": "Yes, this credit card charges a foreign currency markup fee of 3.5% on transactions made in non-INR currency."
+      },
+      {
+        "q": "Can purchases made on Shaurya SBI Credit Card be converted into EMIs?",
+        "a": "Yes, you can convert purchases into EMIs (“Flexipay”), though cash advance, balance transfers, and fuel transactions are excluded from earning reward points, per T&Cs."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.25,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.5,
+      "Shopping": 3.0,
+      "Dining Benefits": 3.0,
+      "rewards": 3.5,
+      "shopping": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBI Card suited for cashback users.",
+    "pros": [
+      "Low annual fee of Rs. 250",
+      "Up to Rs. 1,200 annual savings on fuel",
+      "5X rewards on spends at canteen stores",
+      "5X rewards on dining, movie & other everyday spends"
+    ],
+    "cons": [
+      "Low reward redemption value of 1 RP = Rs. 0.25",
+      "Low reward rate of 0.25% on other spends",
+      "No travel related benefits like lounge access"
+    ],
+    "best_for_whom": "SBI Card customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from SBI Card suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.25,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBI Card Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Up to Rs. 1,200 annual savings on fuel"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹50,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium-High",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "bobcard_assam_rifles_sentinel_credit_card",
+      "card_name": "Assam Rifles The SENTINEL BOBCARD",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "assam-rifles-the-sentinel-bobcard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_indian_coast_guard_rakshamah_credit_card",
+      "card_name": "Indian Coast Guard Rakshamah BOBCARD Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "indian-coast-guard-rakshamah-bobcard-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hsbc_bank_rupay_cashback_credit_card",
+      "card_name": "HSBC RuPay Cashback Credit Card",
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "card_slug": "hsbc-rupay-cashback-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.22,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.22/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_bank_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.44,
+      "reason": "Top-rated RuPay & UPI card in market with rating 4.44/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-extra-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Extra Cashback",
+      "summary": "Up to Rs 1500 Extra Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Instant Discount",
+      "summary": "Up to Rs 1500 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 5,000 Instant Discount",
+      "summary": "Up to Rs 5,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1-000-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs. 1,000 Cashback.",
+      "summary": "Up to Rs. 1,000 Cashback.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to RS 5000 Instant Discount",
+      "summary": "Up to RS 5000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-16-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 16,000 Instant Discount",
+      "summary": "Up to Rs 16,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "card_id": "unity_small_finance_bank_roar_bank_rupay_credit_card",
+    "card_name": "Roarbank RuPay Credit Card by Unity SFB",
+    "bank": "Unity Small Finance Bank",
+    "bank_slug": "unity-small-finance-bank",
+    "card_slug": "roarbank-rupay-credit-card-by-unity-sfb",
+    "card_network": "RuPay",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "RuPay & UPI",
+      "Cashback",
+      "Dining, Groceries & Movies",
+      "Lifetime Free"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/unity-small-finance-bank/roarbank-rupay-credit-card-by-unity-sfb.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#2C4C76",
+      "secondary_hex": "#3B3C86",
+      "wash_hex": "#E1E4E7",
+      "soft_bg_hex": "#ECEFF3",
+      "border_hex": "#D1D8E1",
+      "ink_on_soft_hex": "#2C4C76",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://unity.bank.in/credit-cards",
+    "mitc_pdf_url": "https://roar.bank.in/doc/MITC%20Credit%20card.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "by",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "finance",
+      "free",
+      "groceries",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "movies",
+      "roarbank",
+      "rupay",
+      "scan-and-pay",
+      "sfb",
+      "small",
+      "unity",
+      "upi",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "Up to 10% rotating cashback on chosen monthly merchant categories (food/movies/UPI/groceries — subject to Rs. 1,000–Rs. 2,500 monthly caps)",
+      "1% base cashback on standard retail & RuPay UPI spends",
+      "Fuel transactions excluded (surcharge waiver only)"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 5.0,
+      "groceries_quick_commerce": 2.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 1.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "dining_swiggy_zomato": 1500,
+      "groceries_quick_commerce": 1000
+    },
+    "monthly_capping_rules": [
+      "Rotating chosen monthly boost categories up to 5%–10% capped at Rs. 1,500/mo; 1% base on retail & RuPay UPI; fuel is excluded (surcharge waiver only)."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Fuel transactions (reward points excluded)"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": []
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.3,
+    "apr_annual_pct": 39.6,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "2% of the unpaid dues (Min. of Rs. 750)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from Unity Small Finance Bank suited for rupay & upi users.",
+    "highlights": [
+      "Cardholders will receive a notification on the 1st of each month to select two cashback categories from the available options, such as clothing, grocery, fuel, restaurants, movies, etc.",
+      "Cardholders can earn a maximum cashback of Rs. 2,500 per month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [],
+    "dining_benefits": [
+      "Cardholders will receive a notification on the 1st of each month to select two cashback categories from the available options, such as clothing, grocery, fuel, restaurants, movies, etc."
+    ],
+    "movie_benefits": [
+      "Cardholders will receive a notification on the 1st of each month to select two cashback categories from the available options, such as clothing, grocery, fuel, restaurants, movies, etc."
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are new-to-credit and want to build your credit score",
+      "You want to earn cashback on select categories",
+      "You are looking for a credit card with customizable benefits"
+    ],
+    "faqs": [
+      {
+        "q": "What is a Roarbank RuPay Credit Card?",
+        "a": "Roarbank RuPay Credit Card is a lifetime free credit card offered by Roarbank in collaboration with UNITY Small Finance Bank. It is designed for beginners and offers cashback along with a 2-in-1 spending feature."
+      },
+      {
+        "q": "How does the cashback feature work on this credit card?",
+        "a": "Cardholders can earn up to 20% cashback every month on any two selected categories such as grocery, fuel, dining, or movies. Categories must be chosen at the start of the month and cannot be changed mid-cycle. The maximum cashback is capped at Rs. 2,500 per month."
+      },
+      {
+        "q": "What does the 2-in-1 feature of Roarbank RuPay Credit Card mean?",
+        "a": "This 2-in-1 card allows spending through a combination of the savings account balance and the credit limit. Transactions are first deducted from the linked savings account. Once the balance is exhausted, the remaining amount is charged to the credit line."
+      },
+      {
+        "q": "What is the maximum credit limit offered on Roarbank RuPay Credit Card?",
+        "a": "The card offers a credit limit of up to Rs. 3 Lakh, depending on the eligibility and banking relationship of the applicant. The combined spending power includes both the savings account balance and the assigned credit limit."
+      },
+      {
+        "q": "Who is eligible to apply for Roarbank RuPay Credit Card?",
+        "a": "Applicants must be Indian residents and should have an active savings account with Roarbank. Since it is an entry-level credit card, it is suitable for new-to-credit consumers. However, the final approval is subject to internal assessment by the bank."
+      },
+      {
+        "q": "Can I use this Roarbank RuPay credit card internationally?",
+        "a": "Yes, you can use Roarbank credit card by Unity Small Finance Bank for international transactions. But a forex mark-up fee of 3.5% of the transaction amount would also be charged on every such spend."
+      },
+      {
+        "q": "When can I withdraw the accumulated cashback using Roarbank credit card to my main account?",
+        "a": "The cashback accrued on your Roarbank RuPay credit card spends is tracked within the Roarbank app. You can redeem this cashback by selecting the Withdraw Cashback option under the Cashback menu. The selected cashback amount will automatically transfer to the Roarbank Card account."
+      },
+      {
+        "q": "What is the maximum amount of cashback you can accumulate in a month using Roarbank RuPay credit card by Unity SFB?",
+        "a": "You can accrue a cashback worth up to Rs. 2,500 every month using your Roarbank credit card."
+      },
+      {
+        "q": "What is the minimum spend to convert into EMI for Roarbank RuPay credit cardholders?",
+        "a": "Roarbank RuPay credit card by Unity SFB offers the option to convert transactions worth Rs. 2,000 and above into EMIs."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.14,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 3.0,
+      "Shopping": 3.0,
+      "cashback": 3.0,
+      "shopping": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from Unity Small Finance Bank suited for rupay & upi users.",
+    "pros": [
+      "No annual and joining fees",
+      "Up to 20% cashback on any 2 categories",
+      "7% interest rate on FD amount"
+    ],
+    "cons": [
+      "No travel and lifestyle related benefits",
+      "Cashback benefit is capped at Rs. 2,500 per month"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "Lifetime Free option from Unity Small Finance Bank suited for rupay & upi users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.14,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Unity Small Finance Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Rotating chosen monthly boost categories up to 5%–10% capped at Rs. 1,500/mo; 1% base on retail & RuPay UPI; fuel is excluded (surcharge waiver only)."
+    ],
+    "optimization_tips": [
+      "Focus spends on dining & food delivery (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbm_bank_zet_credit_card",
+      "card_name": "SBM ZET Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-zet-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.8,
+      "reason": "Direct competitor from SBM Bank India at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_bank_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.44,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.44/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "yes_bank_klick_credit_card",
+      "card_name": "YES BANK Klick (Kiwi) RuPay Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-klick-kiwi-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated RuPay & UPI card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

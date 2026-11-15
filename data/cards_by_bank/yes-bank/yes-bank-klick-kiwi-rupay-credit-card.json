@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "card_id": "yes_bank_klick_credit_card",
+    "card_name": "YES BANK Klick (Kiwi) RuPay Credit Card",
+    "bank": "YES BANK",
+    "bank_slug": "yes-bank",
+    "card_slug": "yes-bank-klick-kiwi-rupay-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Entry-Level",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "RuPay & UPI",
+      "Lifetime Free",
+      "Cashback"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/yes-bank/yes-bank-klick-kiwi-rupay-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#88C526",
+      "secondary_hex": "#53C936",
+      "wash_hex": "#ECF3DD",
+      "soft_bg_hex": "#F4FAEB",
+      "border_hex": "#E5F2CF",
+      "ink_on_soft_hex": "#4E7216",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+    "mitc_pdf_url": "https://www.yes.bank.in/pdf?name=ybl_mitc_pdf.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Heavy UPI merchant payers wanting instant bank-account cashback up to 2%–5% (with Kiwi Neon) LTF",
+      "Rs. 15,000+ via Scan & Pay UPI"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "free",
+      "kiwi",
+      "klick",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "rupay",
+      "scan-and-pay",
+      "upi",
+      "yes",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Kiwi Cashback (up to 2% base / 5% Neon subscription up to Rs. 1.5L/yr milestones)",
+    "base_reward_rate_pct": 1.5,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "2 reward points per Rs. 200 on non-UPI spends",
+      "Low forex markup fee of 2.75%",
+      "1% fuel surcharge waiver on fuel spends across all fuel stations, capped at Rs. 250 per month",
+      "1.5% cashback on UPI Scan & Pay transactions",
+      "0.5% cashback on online payments"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 2.0,
+      "groceries_quick_commerce": 2.0,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 2.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.5
+    },
+    "monthly_category_caps_inr": {
+      "upi_scan_and_pay": 1500
+    },
+    "monthly_capping_rules": [
+      "2% flat Scan & Pay UPI cashback via Kiwi app (scales up to 5% effective with Kiwi Neon milestones on Rs. 1.5L/yr)."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": 0,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "2 reward points per Rs. 200 on non-UPI spends",
+        "1% fuel surcharge waiver on fuel spends across all fuel stations, capped at Rs. 250 per month",
+        "Save up to Rs. 3,000 on fuel spend every year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Base LTF card has 0 lounges; optional paid Kiwi Neon membership unlocks milestone lounges at Rs. 50k/1L/1.5L annual UPI spend",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No default lounge on base LTF card (milestone lounges only via Kiwi Neon)"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.99,
+    "apr_annual_pct": 47.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 500",
+        "late_fee_inr": "Rs. 1,350 or 10% of total outstanding amount, whichever is lower"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Consumers can apply for this credit card by completing the KYC process through the Kiwi app. To know about the features and benefits of this credit card in detail, continue reading.",
+    "highlights": [
+      "2 reward points per Rs. 200 on non-UPI spends",
+      "Low forex markup fee of 2.75%",
+      "1% fuel surcharge waiver on fuel spends across all fuel stations, capped at Rs. 250 per month",
+      "1.5% cashback on UPI Scan & Pay transactions"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "2 reward points per Rs. 200 on non-UPI spends",
+      "1% fuel surcharge waiver on fuel spends across all fuel stations, capped at Rs. 250 per month",
+      "Save up to Rs. 3,000 on fuel spend every year"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You travel frequently overseas and want to avail a card that offer low forex markup fee",
+      "You are looking for a lifetime free credit card to start your credit journey",
+      "You often spend on fuel and want to save on it",
+      "You want to avail a 100% virtual credit card that offers reward points on every non-UPI spends"
+    ],
+    "faqs": [
+      {
+        "q": "How can I earn reward points with the Klick Credit Card?",
+        "a": "You earn 2 reward points for every Rs. 200 spent on non-UPI transactions. This makes it ideal for offline shopping and daily expenses."
+      },
+      {
+        "q": "What travel benefits does the Klick Credit Card offer?",
+        "a": "The card charges a low forex markup fee of 2.75%, making it cost-effective for international transactions. Additionally, it provides convenience and rewards for overseas travel and online shopping."
+      },
+      {
+        "q": "Is there a fuel surcharge waiver on this credit card?",
+        "a": "Yes. You get a 1% fuel surcharge waiver on all fuel purchases across stations, capped at Rs. 250 per month."
+      },
+      {
+        "q": "What cashback benefits are offered on UPI and online payments?",
+        "a": "Paying with the Klick Credit Card on Kiwi gives 1.5% cashback on UPI Scan & Pay transactions and 0.5% cashback on online payments, maximizing savings on digital transactions."
+      },
+      {
+        "q": "How can I apply for the Klick Credit Card?",
+        "a": "You can apply by completing the KYC process via the Kiwi app. The card is entirely virtual, making it easy to access rewards and benefits without visiting a branch."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.32,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.0,
+      "Fuel Benefits": 3.0,
+      "travel": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Top-rated pure RuPay UPI cashback card on r/CreditCardsIndia alongside SuperMoney Pro & Tata Neu Infinity.",
+    "pros": [
+      "2 reward points per Rs. 200 on non-UPI spends",
+      "Low foreign exchange markup fee of 2.75%",
+      "Save up to Rs. 3,000 on fuel spend every year"
+    ],
+    "cons": [
+      "No airport lounge visits"
+    ],
+    "best_for_whom": "Heavy UPI merchant payers wanting instant bank-account cashback up to 2%–5% (with Kiwi Neon) LTF",
+    "not_ideal_for": "Users wanting domestic airport lounges without hitting high Kiwi Neon annual spend milestones",
+    "recommended_monthly_spend_inr": "Rs. 15,000+ via Scan & Pay UPI",
+    "verdict": "Top-rated pure RuPay UPI cashback card on r/CreditCardsIndia alongside SuperMoney Pro & Tata Neu Infinity."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.69,
+    "reddit_mentions": 16,
+    "sentiment_summary": "Community discussions around YES BANK RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "2% flat Scan & Pay UPI cashback via Kiwi app (scales up to 5% effective with Kiwi Neon milestones on Rs. 1.5L/yr)."
+    ],
+    "optimization_tips": [
+      "Kiwi Neon Annual Ladder: With Neon (₹999/yr), annual UPI milestones unlock retroactive rates of 3% at ₹50K, 4% at ₹1L, and 5% at ₹1.5L/yr — route ₹12,500+/mo Scan & Pay merchant QRs natively via the Kiwi app."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "High",
+    "devaluation_risk_score": 7,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Repeated lounge & RP devaluations (up to Rs. 1L/qtr spend for domestic lounges; Nov 2026 Reserve/First cut)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "axis_bank_axis_supermoney_rupay_credit_card",
+      "card_name": "Axis Bank super.money RuPay Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-super-money-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.3,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "cred-indusind-bank-rupay-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.2,
+      "reason": "Direct competitor from IndusInd Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_phonepe_ultimo_credit_card",
+      "card_name": "PhonePe HDFC Bank Ultimo Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "phonepe-hdfc-bank-ultimo-credit-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.62,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.62/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "sbi_bank_phonepe_select_black_credit_card",
+      "card_name": "PhonePe SBI Card SELECT BLACK",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "phonepe-sbi-card-select-black",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.58,
+      "reason": "Top-rated RuPay & UPI card in market with rating 4.58/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "yes-bank-yes-rewards-bookmyshow-upi-merchant-perks",
+      "bank": "YES BANK",
+      "title": "YES Rewards & BookMyShow / UPI Merchant Perks",
+      "summary": "Up to 25% off on BookMyShow movie tickets, accelerated reward points on online shopping, and UPI Scan & Pay offers on Kiwi / ACE.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

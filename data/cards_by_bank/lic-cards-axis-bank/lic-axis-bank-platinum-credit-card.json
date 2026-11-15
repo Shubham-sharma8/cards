@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "card_id": "lic_cards_lic_platinum_credit_card",
+    "card_name": "LIC Axis Bank Platinum Credit Card",
+    "bank": "LIC Cards (Axis Bank)",
+    "bank_slug": "lic-cards-axis-bank",
+    "card_slug": "lic-axis-bank-platinum-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Lifetime Free",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/lic-cards-axis-bank/lic-axis-bank-platinum-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#842248",
+      "secondary_hex": "#943431",
+      "wash_hex": "#ECDFE1",
+      "soft_bg_hex": "#F4EBEF",
+      "border_hex": "#E4CED7",
+      "ink_on_soft_hex": "#842248",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.liccards.co.in/credit-cards",
+    "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "axis",
+      "bank",
+      "card",
+      "cards",
+      "credit",
+      "dining",
+      "free",
+      "groceries",
+      "lic",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "miles",
+      "movies",
+      "platinum",
+      "travel",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.25,
+    "accelerated_reward_rate_pct": 0.5,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "2 reward points for every Rs. 100 spent on LIC premium payments",
+      "2 reward points for every Rs. 100 spent internationally",
+      "1 reward point for every Rs. 100 on other categories",
+      "Redeem reward points against e-vouchers, gift cards & other products through the rewards catalogue",
+      "1% fuel surcharge waiver transactions ranging between Rs. 400 to Rs. 4,000, capped at Rs. 400 per month",
+      "Up to 20% dining discount at partner restaurants under the Axis Bank Dining Delights Program"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.25,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 0.25,
+      "groceries_quick_commerce": 0.25,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 400
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Redeem reward points against e-vouchers, gift cards & other products through the rewards catalogue",
+        "1% fuel surcharge waiver transactions ranging between Rs. 400 to Rs. 4,000, capped at Rs. 400 per month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 55.55,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,200"
+      },
+      {
+        "statement_balance_slab": "Greater than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "LIC Axis Bank Platinum Credit Card is the base variant among the two co-branded credit cards offered by Axis Bank and LIC. This credit card is suitable for beginners looking for benefits around LIC premium payments. Cardholders can earn **2X (2 points per Rs. 100) on LIC premium payments** along with the **international transactions**. On other spends, the card offers a **base reward rate of 1 point per Rs. 100 spent**. While the main USP of this credit card is the **accelerated rewards on LIC premium payments** and international transactions. However, being a **lifetime free entry-level card** , the reward structure offered on this card is basic. Also, in comparison to other rewards credit cards that allow redemption across multiple channels, this card allows **reward redemption only across selected products** mentioned in the LIC credit card rewards catalogue. However, not many cards offer rewards around LIC payments. Overll, this card is a **beginner-friendly rewards credit card** with inclined benefits towards LIC payments.",
+    "highlights": [
+      "2 reward points for every Rs. 100 spent on LIC premium payments",
+      "2 reward points for every Rs. 100 spent internationally",
+      "1 reward point for every Rs. 100 on other categories"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Redeem reward points against e-vouchers, gift cards & other products through the rewards catalogue",
+      "1% fuel surcharge waiver transactions ranging between Rs. 400 to Rs. 4,000, capped at Rs. 400 per month"
+    ],
+    "dining_benefits": [
+      "Up to 20% dining discount at partner restaurants under the Axis Bank Dining Delights Program",
+      "Up to 20% discount on dining at partner restaurants"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Lost card liability insurance cover up to the credit limit",
+      "Card liability insurance cover up to the credit limit"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for an entry level credit card with no joining and annual fees",
+      "You regularly pay LIC insurance premiums via credit cards and want to earn rewards on those payments",
+      "You are new to credit cards and want a basic, entry-level card for building your credit history",
+      "You prefer a simple rewards program for everyday spends"
+    ],
+    "faqs": [
+      {
+        "q": "Which credit card is best for LIC payments?",
+        "a": "While not many cards offer benefits around LIC payments, Axis Bank offers co-branded credit cards with LIC Cards, which could be a suitable pick in this category. One such card is LIC Axis Bank Platinum Credit Card, which offers 2 reward points for every Rs. 100 spent on LIC premium payments."
+      },
+      {
+        "q": "How can I redeem the reward points earned on LIC Axis Bank Platinum Credit Card?",
+        "a": "You can redeem the reward points on this card against the products listed in the LIC rewards points catalogue. In order to redeem the reward points, you can contact customer care at 1800 419 0064."
+      },
+      {
+        "q": "What is the validity of reward points offered on LIC Axis Bank Platinum Credit Card?",
+        "a": "All reward points earned on this card are valid for one year from the date of accumulation. In case the reward points are not used in this duration, they will expire."
+      },
+      {
+        "q": "How do I pay my LIC Axis Bank Platinum Credit Card bill?",
+        "a": "You can pay your LIC Axis Bank Platinum Credit Card bill via NEFT, Visa Money Transfer, Axis Bank mobile app, or via the LIC cards website. You can also pay offline via cash payment at your nearest Axis Bank branch or via cheque/draft."
+      },
+      {
+        "q": "Can I avail EMI facility with LIC Axis Bank Platinum Credit Card?",
+        "a": "Yes, you can convert purchases of Rs. 2,500 or more into easy EMIs using this credit card. This feature helps you manage big-ticket expenses more conveniently."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.27,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Dining Benefits": 2.5,
+      "branded Benefits": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from LIC Cards (Axis Bank) suited for travel & miles users.",
+    "pros": [
+      "Accelerated (2X) rewards on LIC premium payments and international spends",
+      "Redemption of rewards against multiple categories",
+      "Up to 20% discount on dining at partner restaurants",
+      "Card liability insurance cover up to the credit limit"
+    ],
+    "cons": [
+      "No travel or lifestyle related benefits",
+      "Low reward rate on other spends other than LIC and international transactions",
+      "No reward points on fuel, utility bills, rent payments, and jewellery purchases"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "Lifetime Free option from LIC Cards (Axis Bank) suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.27,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around LIC Cards (Axis Bank) Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Min. Age Requirement: 18 years"
+  },
+  "latest_offers": []
+}

@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "card_id": "standard_chartered_bank_standard_chartered_super_value_titanium_credit_cards",
+    "card_name": "Standard Chartered Super Value Titanium Credit Card",
+    "bank": "Standard Chartered Bank",
+    "bank_slug": "standard-chartered-bank",
+    "card_slug": "standard-chartered-super-value-titanium-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Fuel",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/standard-chartered-bank/standard-chartered-super-value-titanium-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#547096",
+      "secondary_hex": "#5E5FA1",
+      "wash_hex": "#E6E9EA",
+      "soft_bg_hex": "#F0F2F6",
+      "border_hex": "#D9E0E8",
+      "ink_on_soft_hex": "#4C6587",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sc.bank.in/credit-cards/",
+    "mitc_pdf_url": "https://av.sc.com/in/content/docs/in-common-svt-midc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 55000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Standard Chartered Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "chartered",
+      "credit",
+      "fuel",
+      "online",
+      "shopping",
+      "standard",
+      "super",
+      "titanium",
+      "value"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5% cashback on fuel spends of Rs. 2,000 or below",
+      "5% cashback on utility bill payments of Rs. 750 or more",
+      "5% cashback on phone bill payments above Rs. 750",
+      "1 reward point for every Rs. 150 spent across other categories",
+      "Reward points are redeemable against vouchers, discounts and other offers from Standard Chartered Bank’s Rewards Catalogue",
+      "5% cashback on fuel, telephone & utility bills"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 5.0,
+      "fuel": 5.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "utilities_bills_telecom": 1500,
+      "fuel": 1500
+    },
+    "monthly_capping_rules": [
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 750,
+      "annual_fee_inr": 750,
+      "annual_fee_with_gst_inr": 885.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "5% cashback on fuel spends of Rs. 2,000 or below",
+        "Reward points are redeemable against vouchers, discounts and other offers from Standard Chartered Bank’s Rewards Catalogue"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "Priority Pass",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 750,
+    "annual_fee_inr": 750,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "3% of cash withdrawal amount subject to a minimum of Rs. 300",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Nil",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 700"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 10,000",
+        "late_fee_inr": "Rs. 1,200"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Standard Chartered Super Value Titanium is an entry-level credit card primarily offering benefits across fuel and utility spends. It is among the few credit cards in India that offer benefits on fuel without being in co-branded partnership with a fuel refinery. Value-back on primary categories is offered in the form of direct cashback, with separate capping on each category. On other spends, cardholders earn reward points. At an annual fee of Rs. 750, Standard Chartered Super Value Titanium Credit Card is slightly costlier than other cards in this category. Read on to know about its features and benefits and a comparison with other fuel and entry-level cards.",
+    "highlights": [
+      "5% cashback on fuel spends of Rs. 2,000 or below",
+      "5% cashback on utility bill payments of Rs. 750 or more",
+      "5% cashback on phone bill payments above Rs. 750"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "5% cashback on fuel spends of Rs. 2,000 or below",
+      "Reward points are redeemable against vouchers, discounts and other offers from Standard Chartered Bank’s Rewards Catalogue"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You wish to save on fuel without restricting to a particular brand",
+      "The cards you own do not offer value-back on utility spends but you wish to save on this category",
+      "You are not looking for travel, shopping, dining or movie benefits",
+      "You are Standard Chartered Bank’s Premium Banking Customer"
+    ],
+    "faqs": [
+      {
+        "q": "Can I transfer my outstanding balance on any other bank’s credit card?",
+        "a": "Yes, Standard Chartered Super Value Titanium credit card provides the facility of ‘Balance Transfer’ through which you can transfer your outstanding balance on any other bank’s credit card. The card allows transferring other credit card balance of up to Rs. 5 Lakh, at an interest rate of 0.99% for first six months."
+      },
+      {
+        "q": "What are the documents required to apply for Super Value Titanium credit card?",
+        "a": "To apply for Standard Chartered Super Value Titanium credit card, you need to provide government approved photo ID proof like Aadhaar Card, PAN Card, Voter ID card, etc. You will also have to provide address proof and income proof documents."
+      },
+      {
+        "q": "Will I be charged anything extra if I use my card overseas?",
+        "a": "Yes. All transactions made in any foreign currency will attract a 3.5% forex mark-up fee. GST will also be applicable on the fee amount."
+      },
+      {
+        "q": "Can I get an add-on card for my son?",
+        "a": "Yes. You can get an add-on card on the Super Value Titanium Credit Card. However, minimum age of the add-on cardmember should be 18 years."
+      },
+      {
+        "q": "How can I convert my outstanding bills into EMIs?",
+        "a": "You can convert your outstanding amount into EMI through net banking or mobile app. Minimum spends of Rs. 2,000 can be converted. Tenure ranges from 3 months to 60 months and the interest rate starts from 0.99% per month."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.62,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Reward Rate": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Standard Chartered Bank suited for cashback users.",
+    "pros": [
+      "5% cashback on fuel, telephone & utility bills",
+      "Reward points on other eligible spends",
+      "Complimentary Priority Pass membership for Premium Banking customers"
+    ],
+    "cons": [
+      "Low monthly capping on cashback earning",
+      "Poor reward rate on spends beyond the primary categories",
+      "Condition to meet minimum transaction value to be eligible for cashback"
+    ],
+    "best_for_whom": "Standard Chartered Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from Standard Chartered Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.62,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Standard Chartered Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "optimization_tips": [
+      "Focus spends on utility & telecom bill payments (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Direct competitor from Federal Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "amex_bank_membership_rewards_credit_card",
+      "card_name": "American Express Membership Rewards® Credit Card",
+      "bank": "American Express",
+      "bank_slug": "american-express",
+      "card_slug": "american-express-membership-rewards-credit-card",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.12,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.12/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Top-rated Cashback card in market with rating 4.82/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "Between 21 and 65 years",
+    "min_monthly_income_salaried_inr": 55000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Occupation: Salaried or Self-employed"
+  },
+  "latest_offers": []
+}

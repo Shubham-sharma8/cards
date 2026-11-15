@@ -1,0 +1,67 @@
+import { Platform, type ViewStyle } from 'react-native';
+
+export const LedgerTheme = {
+  colors: {
+    canvas: '#FBF9F4',
+    surface: '#FFFFFF',
+    subtle: '#F3EFE6',
+    creamWarm: '#F8F1E5',
+    tintPrimary: '#EBF4F1',
+    tintBorder: '#B9DCD0',
+    blueSoftBg: '#F1F5FF',
+    blueSoftBorder: '#D5E1FF',
+    tintWarn: '#FEF5E8',
+    tintDanger: '#FDF1F1',
+    inkPrimary: '#111827',
+    inkSecondary: '#474F59',
+    inkMuted: '#6D7580',
+    hairline: '#E6E2D8',
+    hairlineStrong: '#CBC6BA',
+    accent: '#0C5B4C',
+    accentDark: '#094439',
+    warn: '#9A5B13',
+    danger: '#991B1B',
+  },
+  fontFamily: Platform.select({
+    ios: 'System',
+    android: 'Roboto',
+    default: 'System',
+  }),
+  spacing: {
+    screenPad: 18,
+    sectionGap: 22,
+    cardGap: 16,
+    cardPad: 18,
+  },
+  radius: {
+    sm: 10,
+    md: 14,
+    lg: 20,
+    pill: 999,
+  },
+  type: {
+    hero: { fontSize: 30, lineHeight: 37, fontWeight: '700' as const, letterSpacing: -0.6 },
+    h1: { fontSize: 24, lineHeight: 31, fontWeight: '700' as const, letterSpacing: -0.4 },
+    h2: { fontSize: 20, lineHeight: 26, fontWeight: '700' as const, letterSpacing: -0.25 },
+    cardTitle: { fontSize: 17.5, lineHeight: 23, fontWeight: '600' as const },
+    body: { fontSize: 15, lineHeight: 22, fontWeight: '400' as const },
+    meta: { fontSize: 13.5, lineHeight: 19, fontWeight: '400' as const },
+    micro: { fontSize: 12, lineHeight: 16, fontWeight: '400' as const },
+  },
+  shadow: {
+    card: {
+      shadowColor: '#111827',
+      shadowOffset: { width: 0, height: 3 },
+      shadowOpacity: 0.055,
+      shadowRadius: 12,
+      elevation: 2,
+    } satisfies ViewStyle,
+    soft: {
+      shadowColor: '#0C5B4C',
+      shadowOffset: { width: 0, height: 6 },
+      shadowOpacity: 0.09,
+      shadowRadius: 14,
+      elevation: 3,
+    } satisfies ViewStyle,
+  },
+};

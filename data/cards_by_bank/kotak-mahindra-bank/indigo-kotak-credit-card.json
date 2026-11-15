@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "card_id": "kotak_mahindra_bank_kotak_indigo_credit_card",
+    "card_name": "IndiGo Kotak Credit Card",
+    "bank": "Kotak Mahindra Bank",
+    "bank_slug": "kotak-mahindra-bank",
+    "card_slug": "indigo-kotak-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/kotak-mahindra-bank/indigo-kotak-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#26326D",
+      "secondary_hex": "#47347D",
+      "wash_hex": "#E1E1E6",
+      "soft_bg_hex": "#EBEDF2",
+      "border_hex": "#CFD2DF",
+      "ink_on_soft_hex": "#26326D",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+    "mitc_pdf_url": "https://www.kotak.bank.in/content/dam/Kotak/files/english-rcas.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 1,000 - 2,999",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "groceries",
+      "indigo",
+      "kotak",
+      "mahindra",
+      "miles",
+      "movies",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Unlimited 1 IndiGo BluChip on all other card spends, including UPI transactions in case of RuPay card variant"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 2.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Unlimited 1 IndiGo BluChip on all other card spends, including UPI transactions in case of RuPay card variant"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 1500,
+      "annual_fee_inr": 1500,
+      "annual_fee_with_gst_inr": 1770.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Voucher worth 2,500 IndiGo BluChips on Rs. 1.25 lakh annual spends",
+        "Voucher worth 2,500 IndiGo BluChips on Rs. 2.5 lakh annual spends",
+        "Voucher worth 2,500 IndiGo BluChips on Rs. 6 lakh annual spends",
+        "Milestone bonus vouchers worth up to 7,500 IndiGo BluChips per year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 1500,
+    "annual_fee_inr": 1500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "– | 2 IndiGo BluChips per Rs. 100 spent | 4 IndiGo BluChips per Rs. 100 spent",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 100 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 500 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 1,000 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 5,000 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 10,000 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 25,000 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "> **Your credit card doesn’t have airport lounge benefits?",
+    "highlights": [
+      "Up to 19 IndiGo BluChips on IndiGo flight bookings, with the following break-up:",
+      "8 IndiGo BluChips for IndiGo BluChip members",
+      "3 IndiGo BluChips for using Kotak IndiGo Credit Card"
+    ],
+    "welcome_benefit": "Welcome Bonus: Voucher worth 2,500 IndiGo BluChips",
+    "milestone_benefits": [
+      "Voucher worth 2,500 IndiGo BluChips on Rs. 1.25 lakh annual spends",
+      "Voucher worth 2,500 IndiGo BluChips on Rs. 2.5 lakh annual spends",
+      "Voucher worth 2,500 IndiGo BluChips on Rs. 6 lakh annual spends",
+      "Milestone bonus vouchers worth up to 7,500 IndiGo BluChips per year"
+    ],
+    "dining_benefits": [
+      "Unlimited 2 IndiGo BluChips on dining and entertainment spends"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are a frequent air traveller and prefer IndiGo airlines for your travels",
+      "You have IndiGo BluChips membership and are looking for a co-branded travel credit card to increase your savings further",
+      "You can utilise the IndiGo BluChip vouchers as welcome, renewal and milestone bonuses within 6 months of their issuance before they expire"
+    ],
+    "faqs": [
+      {
+        "q": "Do IndiGo BluChip vouchers expire?",
+        "a": "Yes, the IndiGo BluChip vouchers expire after 6 months from their date of issuance."
+      },
+      {
+        "q": "What is the eligibility criteria for IndiGo Kotak Credit Card?",
+        "a": "To be eligible for Kotak IndiGo Credit Card, the applicant must be 18 years and above and must hold the IndiGo BluChip program membership."
+      },
+      {
+        "q": "What is the base tier of BluChip membership?",
+        "a": "The base default tier of IndiGo BluChip membership is Blu 3."
+      },
+      {
+        "q": "What is BluChip in IndiGo Kotak Credit Card?",
+        "a": "BluChip is a newly launched loyalty program of IndiGo Airlines. Under this program, the members can earn BluChips on their spends and redeem them for future IndiGo bookings and avail complimentary airline services and discounts. The program comes with different tier-based benefits, lifetime validity of points, and no blackout dates."
+      },
+      {
+        "q": "Is IndiGo Kotak Credit Card replacing Kotak IndiGo 6E Rewards Credit Card?",
+        "a": "IndiGo’s 6E Rewards Program has been discontinued and is replaced by IndiGo BluChip Program. So, Kotak Mahindra Bank has launched two new co-branded cards for IndiGo loyalists - IndiGo and IndiGo XL. However, the existing co-branded 6E Rewards credit cards will continue to offer benefits as per their terms and conditions until further notice."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.29,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Milestone Benefits": 3.0,
+      "branded Benefits": 3.5,
+      "travel": 3.0,
+      "milestone_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Kotak Mahindra Bank suited for travel & miles users.",
+    "pros": [
+      "Up to 19 IndiGo BluChips per Rs. 100 spent on IndiGo flights",
+      "Additional co-branded travel benefits via IndiGo BluChips membership",
+      "Milestone bonus vouchers worth up to 7,500 IndiGo BluChips per year",
+      "2,500 IndiGo BluChips voucher on joining and card renewal"
+    ],
+    "cons": [
+      "Low reward rate on non co-branded spending categories",
+      "No complimentary airport lounge access",
+      "Card only offered to IndiGo BluChips membership holders"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from Kotak Mahindra Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.29,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Kotak Mahindra Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Unlimited 1 IndiGo BluChip on all other card spends, including UPI transactions in case of RuPay card variant"
+    ],
+    "optimization_tips": [
+      "Focus spends on flights & hotel bookings (2.5% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "RBI digital embargo recovery era + PVR/White/Myntra reward & lounge reductions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_regalia_gold_credit_card",
+      "card_name": "HDFC Regalia Gold Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-regalia-gold-credit-card",
+      "annual_fee_inr": 2500,
+      "overall_rating": 4.34,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 2,500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "To be eligible for Kotak IndiGo Credit Card, the applicant must be 18 years and above and must hold the IndiGo BluChip program membership."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "kotak-mahindra-bank-haute-sauce",
+      "bank": "Kotak Mahindra Bank",
+      "title": "Haute Sauce",
+      "summary": "Just Added Haute Sauce Get 20% off on a minimum purchase of ₹1499 Valid Till : 31 December 2026 Read More",
+      "category": "Cashback & Card Perks",
+      "valid_till": "31 December 2026",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-the-unstoppable-tour",
+      "bank": "Kotak Mahindra Bank",
+      "title": "The Unstoppable Tour",
+      "summary": "Just Added The Unstoppable Tour Enjoy an early pre-sale window for Kotak Credit Card customers from 2nd October 2026, 12:00PM to 4th October 2026, 12:00PM Valid Till : 27 March 2027 Read More",
+      "category": "Cashback & Card Perks",
+      "valid_till": "27 March 2027",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-the-bombay-sweet-shop",
+      "bank": "Kotak Mahindra Bank",
+      "title": "The Bombay Sweet Shop",
+      "summary": "Just Added The Bombay Sweet Shop Flat 30% off upto ₹15000 on any purchase on Kotak Solitaire Credit Card. Applicable on both online (www.bombaysweetshop.com, Swiggy, Zomato) and offline stores Valid Till : 30 November 2026 Read More",
+      "category": "Dining",
+      "valid_till": "30 November 2026",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-anantara-vacation-club",
+      "bank": "Kotak Mahindra Bank",
+      "title": "Anantara Vacation Club",
+      "summary": "Just Added Anantara Vacation Club Upto 80% instant discount at Anantara Vacation Club via Kotak Solitaire & White Reserve Credit Cards Valid Till : 20 December 2026 Read More",
+      "category": "Cashback & Card Perks",
+      "valid_till": "20 December 2026",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-district-dining",
+      "bank": "Kotak Mahindra Bank",
+      "title": "District Dining",
+      "summary": "Just Added District Dining 15% instant discount up to ₹750 on Min Bill Value of ₹3000 via Kotak Mahindra Bank Select Credit Cards Valid Till : 31 March 2027 Read More",
+      "category": "Dining",
+      "valid_till": "31 March 2027",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-kotak-merchant-cashback-dining-fuel-surch",
+      "bank": "Kotak Mahindra Bank",
+      "title": "Kotak Merchant Cashback & Dining / Fuel Surcharge Offers",
+      "summary": "Up to 10% instant discount on partner travel, electronics & Myntra shopping campaigns plus weekend dining perks.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

@@ -1,0 +1,824 @@
+{
+  "schema_version": "2026.11-dossier-v2",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_banks": 38,
+  "total_cards": 506,
+  "build_stats": {
+    "total_cards": 506,
+    "cards_with_pb_enrichment": 499,
+    "cards_with_mitc_pdf": 442,
+    "cards_with_late_slabs": 398,
+    "cards_with_lounge_links": 217,
+    "cards_with_golf": 65,
+    "cards_with_images": 506,
+    "cards_with_reddit_threads": 118
+  },
+  "banks": [
+    {
+      "bank": "American Express",
+      "bank_slug": "american-express",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 6,
+      "ltf_count": 0,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 3,
+      "international_lounge_count": 2,
+      "railway_lounge_count": 0,
+      "golf_count": 2,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 6,
+      "official_lounge_programs": [
+        {
+          "program_id": "page_amex_platinum_lounge",
+          "title": "American Express Platinum & Lounge Collection Directory",
+          "url": "https://www.americanexpress.com/in/charge-cards/platinum-card/",
+          "parsed_lounges_count": 0
+        }
+      ]
+    },
+    {
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 24,
+      "ltf_count": 11,
+      "rupay_upi_count": 3,
+      "domestic_lounge_count": 13,
+      "international_lounge_count": 4,
+      "railway_lounge_count": 11,
+      "golf_count": 1,
+      "zero_or_low_forex_count": 3,
+      "with_image_count": 24,
+      "official_lounge_programs": [
+        {
+          "program_id": "page_hoi_au_cards",
+          "title": "AU Small Finance Bank — Hoi Au Cards",
+          "url": "https://lms.hoi.in/lounge-list/au-credit-card",
+          "parsed_lounges_count": 89
+        }
+      ]
+    },
+    {
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 45,
+      "ltf_count": 10,
+      "rupay_upi_count": 4,
+      "domestic_lounge_count": 24,
+      "international_lounge_count": 11,
+      "railway_lounge_count": 0,
+      "golf_count": 3,
+      "zero_or_low_forex_count": 6,
+      "with_image_count": 45,
+      "official_lounge_programs": [
+        {
+          "program_id": "axis_lounge_program",
+          "title": "Axis Bank Airport Lounge Access Program PDF",
+          "url": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-bank-airport-lounge-access-program.pdf",
+          "parsed_lounges_count": 24
+        },
+        {
+          "program_id": "axis_lounge_tnc",
+          "title": "Axis Bank Complimentary Lounge Access Terms & Airport List",
+          "url": "https://www.axis.bank.in/docs/default-source/default-document-library/terms_conditions_complimentary_lounge_access.pdf",
+          "parsed_lounges_count": 9
+        },
+        {
+          "program_id": "page_axis_lounge_page",
+          "title": "Axis Bank — Axis Lounge Page",
+          "url": "https://www.axis.bank.in/cards/credit-card/airport-lounge-access-credit-card",
+          "parsed_lounges_count": 0
+        }
+      ]
+    },
+    {
+      "bank": "Bandhan Bank",
+      "bank_slug": "bandhan-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 4,
+      "ltf_count": 0,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 4,
+      "international_lounge_count": 3,
+      "railway_lounge_count": 0,
+      "golf_count": 2,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 4,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Bank of India",
+      "bank_slug": "bank-of-india",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 9,
+      "ltf_count": 1,
+      "rupay_upi_count": 3,
+      "domestic_lounge_count": 2,
+      "international_lounge_count": 1,
+      "railway_lounge_count": 0,
+      "golf_count": 1,
+      "zero_or_low_forex_count": 7,
+      "with_image_count": 9,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Bank of Maharashtra",
+      "bank_slug": "bank-of-maharashtra",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 2,
+      "ltf_count": 0,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 1,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 2,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 21,
+      "ltf_count": 11,
+      "rupay_upi_count": 7,
+      "domestic_lounge_count": 10,
+      "international_lounge_count": 1,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 5,
+      "with_image_count": 21,
+      "official_lounge_programs": [
+        {
+          "program_id": "page_bobcard_lounge_blog",
+          "title": "BOBCARD (Bank of Baroda) — Bobcard Lounge Blog",
+          "url": "https://www.bobcard.co.in/blogs/choose-the-best-credit-card-for-lounge-access",
+          "parsed_lounges_count": 0
+        }
+      ]
+    },
+    {
+      "bank": "Canara Bank",
+      "bank_slug": "canara-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 6,
+      "ltf_count": 4,
+      "rupay_upi_count": 2,
+      "domestic_lounge_count": 1,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 3,
+      "with_image_count": 6,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Central Bank Of India",
+      "bank_slug": "central-bank-of-india",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 6,
+      "ltf_count": 1,
+      "rupay_upi_count": 3,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 1,
+      "with_image_count": 6,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "CSB Bank",
+      "bank_slug": "csb-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 2,
+      "ltf_count": 2,
+      "rupay_upi_count": 2,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 2,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "DBS Bank",
+      "bank_slug": "dbs-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 2,
+      "ltf_count": 0,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 2,
+      "international_lounge_count": 1,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 1,
+      "with_image_count": 2,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 12,
+      "ltf_count": 7,
+      "rupay_upi_count": 5,
+      "domestic_lounge_count": 5,
+      "international_lounge_count": 2,
+      "railway_lounge_count": 1,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 4,
+      "with_image_count": 12,
+      "official_lounge_programs": [
+        {
+          "program_id": "scapia_federal_lounge",
+          "title": "Scapia Federal Credit Card Updated Unlimited Lounge List",
+          "url": "https://res.cloudinary.com/scapiacards/raw/upload/v1741259974/spitha_prod_uploads/2025_03/Updatedloungelist_1741259972146.pdf",
+          "parsed_lounges_count": 0
+        }
+      ]
+    },
+    {
+      "bank": "Federal Bank / Scapia",
+      "bank_slug": "federal-bank-scapia",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 1,
+      "ltf_count": 1,
+      "rupay_upi_count": 1,
+      "domestic_lounge_count": 1,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 1,
+      "with_image_count": 1,
+      "official_lounge_programs": [
+        {
+          "program_id": "scapia_federal_lounge",
+          "title": "Scapia Federal Credit Card Updated Unlimited Lounge List",
+          "url": "https://res.cloudinary.com/scapiacards/raw/upload/v1741259974/spitha_prod_uploads/2025_03/Updatedloungelist_1741259972146.pdf",
+          "parsed_lounges_count": 0
+        }
+      ]
+    },
+    {
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 56,
+      "ltf_count": 5,
+      "rupay_upi_count": 11,
+      "domestic_lounge_count": 18,
+      "international_lounge_count": 11,
+      "railway_lounge_count": 1,
+      "golf_count": 9,
+      "zero_or_low_forex_count": 7,
+      "with_image_count": 56,
+      "official_lounge_programs": [
+        {
+          "program_id": "hdfc_regalia_gold",
+          "title": "HDFC Regalia Gold Participating Airport Lounge List",
+          "url": "https://lms.hoi.in/lounge-list/hdfc-regalia-gold",
+          "parsed_lounges_count": 68
+        },
+        {
+          "program_id": "hdfc_diners_black_intl",
+          "title": "HDFC Diners Club Black International Lounge List",
+          "url": "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "hdfc_infinia",
+          "title": "HDFC Infinia Airport Lounge Access Program",
+          "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/airport-lounge-access-program-30sep2025.pdf",
+          "parsed_lounges_count": 68
+        },
+        {
+          "program_id": "hdfc_tata_neu_infinity",
+          "title": "HDFC Tata Neu Infinity Domestic Airport Lounge List",
+          "url": "https://www.hdfc.bank.in/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "hdfc_tata_neu_plus",
+          "title": "HDFC Tata Neu Plus Domestic Airport Lounge List",
+          "url": "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "hdfc_tata_neu_milestone",
+          "title": "HDFC Tata Neu Milestone Lounge Program",
+          "url": "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "hdfc_irctc_railway",
+          "title": "HDFC IRCTC Executive Railway Lounge List",
+          "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/irctc-credit-card/lounge.pdf",
+          "parsed_lounges_count": 12
+        },
+        {
+          "program_id": "page_hoi_hdfc_infinia",
+          "title": "HDFC Bank — Hoi Hdfc Infinia",
+          "url": "https://lms.hoi.in/lounge-list/hdfc-infinia",
+          "parsed_lounges_count": 68
+        },
+        {
+          "program_id": "page_hdfc_lounge_guide",
+          "title": "HDFC Bank — Hdfc Lounge Guide",
+          "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "page_dreamfolks_hdfc_irctc",
+          "title": "HDFC Bank — Dreamfolks Hdfc Irctc",
+          "url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
+          "parsed_lounges_count": 12
+        }
+      ]
+    },
+    {
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 9,
+      "ltf_count": 3,
+      "rupay_upi_count": 2,
+      "domestic_lounge_count": 5,
+      "international_lounge_count": 5,
+      "railway_lounge_count": 0,
+      "golf_count": 2,
+      "zero_or_low_forex_count": 3,
+      "with_image_count": 9,
+      "official_lounge_programs": [
+        {
+          "program_id": "hsbc_lounge_tnc",
+          "title": "HSBC India Airport Lounge List & Terms",
+          "url": "https://www.hsbc.bank.in/content/dam/hsbc/in/documents/lounge-list-tnc.pdf",
+          "parsed_lounges_count": 7
+        },
+        {
+          "program_id": "page_hsbc_lounge_page",
+          "title": "HSBC Bank — Hsbc Lounge Page",
+          "url": "https://www.hsbc.bank.in/credit-cards/airport-lounge-access-credit-card/",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "page_hsbc_travelone_lk",
+          "title": "HSBC Bank — Hsbc Travelone Lk",
+          "url": "https://www.loungekey.com/en/hsbctravelone",
+          "parsed_lounges_count": 0
+        }
+      ]
+    },
+    {
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 32,
+      "ltf_count": 8,
+      "rupay_upi_count": 1,
+      "domestic_lounge_count": 20,
+      "international_lounge_count": 8,
+      "railway_lounge_count": 5,
+      "golf_count": 6,
+      "zero_or_low_forex_count": 5,
+      "with_image_count": 32,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "IDBI Bank",
+      "bank_slug": "idbi-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 7,
+      "ltf_count": 4,
+      "rupay_upi_count": 2,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 1,
+      "with_image_count": 7,
+      "official_lounge_programs": [
+        {
+          "program_id": "idbi_mastercard_lounge",
+          "title": "IDBI Bank Mastercard Exclusive Airport Lounge List",
+          "url": "https://www.idbibank.in/pdf/MASTERCARD-EXCLUSIVE-AIRPORT-LOUNGE-ACCESS.pdf",
+          "parsed_lounges_count": 59
+        },
+        {
+          "program_id": "idbi_visa_lounge",
+          "title": "IDBI Bank Visa Airport Lounge List",
+          "url": "https://www.idbibank.in/pdf/VISA-Airport-Lounge-Access.pdf",
+          "parsed_lounges_count": 65
+        }
+      ]
+    },
+    {
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 24,
+      "ltf_count": 9,
+      "rupay_upi_count": 10,
+      "domestic_lounge_count": 12,
+      "international_lounge_count": 7,
+      "railway_lounge_count": 12,
+      "golf_count": 7,
+      "zero_or_low_forex_count": 23,
+      "with_image_count": 24,
+      "official_lounge_programs": [
+        {
+          "program_id": "idfc_dc_lounge",
+          "title": "IDFC FIRST Bank Domestic Airport Lounge List",
+          "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/DC-Lounge-Airport-List-01.pdf",
+          "parsed_lounges_count": 40
+        },
+        {
+          "program_id": "idfc_lic_select",
+          "title": "IDFC FIRST / LIC Select Airport Lounge List",
+          "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/LIC-Select-Lounge-List.pdf",
+          "parsed_lounges_count": 12
+        }
+      ]
+    },
+    {
+      "bank": "Indian Bank",
+      "bank_slug": "indian-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 4,
+      "ltf_count": 2,
+      "rupay_upi_count": 1,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 4,
+      "with_image_count": 4,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Indian Overseas Bank",
+      "bank_slug": "indian-overseas-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 3,
+      "ltf_count": 1,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 2,
+      "with_image_count": 3,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 22,
+      "ltf_count": 7,
+      "rupay_upi_count": 3,
+      "domestic_lounge_count": 9,
+      "international_lounge_count": 9,
+      "railway_lounge_count": 0,
+      "golf_count": 9,
+      "zero_or_low_forex_count": 8,
+      "with_image_count": 22,
+      "official_lounge_programs": [
+        {
+          "program_id": "indusind_lounge_program",
+          "title": "IndusInd Bank Airport Lounge Access Program PDF",
+          "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/Other/Airport-Lounge-Access-Program.pdf",
+          "parsed_lounges_count": 70
+        },
+        {
+          "program_id": "page_indusind_pp_tnc",
+          "title": "IndusInd Bank — Indusind Pp Tnc",
+          "url": "https://www.indusind.bank.in/in/en/personal/tnc-airport-lounges-with-priority-pass.html",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "page_indusind_tiger_pp",
+          "title": "IndusInd Bank — Indusind Tiger Pp",
+          "url": "https://www.indusind.bank.in/in/en/personal/tnc-priority-pass-programme-tiger.html",
+          "parsed_lounges_count": 0
+        }
+      ]
+    },
+    {
+      "bank": "Karur Vysya Bank",
+      "bank_slug": "karur-vysya-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 3,
+      "ltf_count": 0,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 1,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 3,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Kotak Mahindra Bank",
+      "bank_slug": "kotak-mahindra-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 34,
+      "ltf_count": 8,
+      "rupay_upi_count": 4,
+      "domestic_lounge_count": 12,
+      "international_lounge_count": 6,
+      "railway_lounge_count": 0,
+      "golf_count": 2,
+      "zero_or_low_forex_count": 5,
+      "with_image_count": 34,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "LIC Cards (Axis Bank)",
+      "bank_slug": "lic-cards-axis-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 2,
+      "ltf_count": 2,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 1,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 2,
+      "official_lounge_programs": [
+        {
+          "program_id": "axis_lounge_program",
+          "title": "Axis Bank Airport Lounge Access Program PDF",
+          "url": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-bank-airport-lounge-access-program.pdf",
+          "parsed_lounges_count": 24
+        },
+        {
+          "program_id": "axis_lounge_tnc",
+          "title": "Axis Bank Complimentary Lounge Access Terms & Airport List",
+          "url": "https://www.axis.bank.in/docs/default-source/default-document-library/terms_conditions_complimentary_lounge_access.pdf",
+          "parsed_lounges_count": 9
+        },
+        {
+          "program_id": "page_axis_lounge_page",
+          "title": "Axis Bank — Axis Lounge Page",
+          "url": "https://www.axis.bank.in/cards/credit-card/airport-lounge-access-credit-card",
+          "parsed_lounges_count": 0
+        }
+      ]
+    },
+    {
+      "bank": "OneCard / Co-branded",
+      "bank_slug": "onecard-co-branded",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 2,
+      "ltf_count": 1,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 1,
+      "international_lounge_count": 1,
+      "railway_lounge_count": 0,
+      "golf_count": 1,
+      "zero_or_low_forex_count": 1,
+      "with_image_count": 2,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Punjab National Bank",
+      "bank_slug": "punjab-national-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 13,
+      "ltf_count": 1,
+      "rupay_upi_count": 8,
+      "domestic_lounge_count": 8,
+      "international_lounge_count": 8,
+      "railway_lounge_count": 0,
+      "golf_count": 2,
+      "zero_or_low_forex_count": 5,
+      "with_image_count": 13,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "RBL Bank",
+      "bank_slug": "rbl-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 43,
+      "ltf_count": 0,
+      "rupay_upi_count": 1,
+      "domestic_lounge_count": 16,
+      "international_lounge_count": 5,
+      "railway_lounge_count": 0,
+      "golf_count": 5,
+      "zero_or_low_forex_count": 6,
+      "with_image_count": 43,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 45,
+      "ltf_count": 1,
+      "rupay_upi_count": 9,
+      "domestic_lounge_count": 23,
+      "international_lounge_count": 12,
+      "railway_lounge_count": 1,
+      "golf_count": 3,
+      "zero_or_low_forex_count": 4,
+      "with_image_count": 45,
+      "official_lounge_programs": [
+        {
+          "program_id": "sbi_elite",
+          "title": "SBI Card ELITE Domestic Airport Lounge List",
+          "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/elite-lounge-list.pdf",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "sbi_prime",
+          "title": "SBI Card PRIME Domestic Airport Lounge List",
+          "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/prime-lounge-list.pdf",
+          "parsed_lounges_count": 0
+        },
+        {
+          "program_id": "sbi_set_a",
+          "title": "SBI Card Set A Participating Domestic Airport Lounges (w.e.f. Jan 2026)",
+          "url": "https://www.sbicard.com/en/personal/benefits/airport-lounge-access.page",
+          "parsed_lounges_count": 32
+        },
+        {
+          "program_id": "sbi_set_b",
+          "title": "SBI Card Set B Participating Domestic Airport Lounges (PRIME / Platinum / Select)",
+          "url": "https://www.sbicard.com/en/personal/benefits/airport-lounge-access.page",
+          "parsed_lounges_count": 57
+        },
+        {
+          "program_id": "page_sbi_lounge_page",
+          "title": "SBI Card — Sbi Lounge Page",
+          "url": "https://www.sbicard.com/en/personal/benefits/airport-lounge-access.page",
+          "parsed_lounges_count": 72
+        }
+      ]
+    },
+    {
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 11,
+      "ltf_count": 8,
+      "rupay_upi_count": 4,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 5,
+      "with_image_count": 11,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Slice Small Finance Bank",
+      "bank_slug": "slice-small-finance-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 1,
+      "ltf_count": 1,
+      "rupay_upi_count": 1,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 1,
+      "with_image_count": 1,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "South Indian Bank",
+      "bank_slug": "south-indian-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 1,
+      "ltf_count": 1,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 1,
+      "with_image_count": 1,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Standard Chartered Bank",
+      "bank_slug": "standard-chartered-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 11,
+      "ltf_count": 1,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 5,
+      "international_lounge_count": 3,
+      "railway_lounge_count": 0,
+      "golf_count": 2,
+      "zero_or_low_forex_count": 2,
+      "with_image_count": 11,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Tamilnad Mercantile Bank",
+      "bank_slug": "tamilnad-mercantile-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 2,
+      "ltf_count": 2,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 2,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "UCO Bank",
+      "bank_slug": "uco-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 3,
+      "ltf_count": 0,
+      "rupay_upi_count": 0,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 2,
+      "with_image_count": 3,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Union Bank of India",
+      "bank_slug": "union-bank-of-india",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 10,
+      "ltf_count": 3,
+      "rupay_upi_count": 1,
+      "domestic_lounge_count": 3,
+      "international_lounge_count": 3,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 1,
+      "with_image_count": 10,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Unity Small Finance Bank",
+      "bank_slug": "unity-small-finance-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 1,
+      "ltf_count": 1,
+      "rupay_upi_count": 1,
+      "domestic_lounge_count": 0,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 1,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "Utkarsh Small Finance Bank",
+      "bank_slug": "utkarsh-small-finance-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 5,
+      "ltf_count": 2,
+      "rupay_upi_count": 1,
+      "domestic_lounge_count": 1,
+      "international_lounge_count": 0,
+      "railway_lounge_count": 0,
+      "golf_count": 0,
+      "zero_or_low_forex_count": 0,
+      "with_image_count": 5,
+      "official_lounge_programs": []
+    },
+    {
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "generated_at": "2026-11-14T16:00:26.769663+00:00",
+      "total_cards": 22,
+      "ltf_count": 3,
+      "rupay_upi_count": 5,
+      "domestic_lounge_count": 12,
+      "international_lounge_count": 7,
+      "railway_lounge_count": 0,
+      "golf_count": 8,
+      "zero_or_low_forex_count": 5,
+      "with_image_count": 22,
+      "official_lounge_programs": [
+        {
+          "program_id": "yes_domestic_lounge",
+          "title": "YES BANK Domestic Airport Lounge Access List",
+          "url": "https://www.yes.bank.in/pdf?name=ybl_yes_bank_domestic_lounge_access.pdf",
+          "parsed_lounges_count": 0
+        }
+      ]
+    }
+  ]
+}

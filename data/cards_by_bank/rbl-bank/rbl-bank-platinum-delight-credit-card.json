@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "card_id": "rbl_bank_rbl_platinum_delight_credit_cards",
+    "card_name": "RBL Bank Platinum Delight Credit Card",
+    "bank": "RBL Bank",
+    "bank_slug": "rbl-bank",
+    "card_slug": "rbl-bank-platinum-delight-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Fuel",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/rbl-bank/rbl-bank-platinum-delight-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#6A5636",
+      "secondary_hex": "#787A45",
+      "wash_hex": "#E9E5DF",
+      "soft_bg_hex": "#F2F0ED",
+      "border_hex": "#DEDAD3",
+      "ink_on_soft_hex": "#6A5636",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+    "mitc_pdf_url": "https://webassets.rbl.bank.in/document/Credit%20Cards/RBL-MITC-final.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 1,000 - 2,999",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "delight",
+      "fuel",
+      "miles",
+      "online",
+      "platinum",
+      "rbl",
+      "shopping",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "2 reward points for every Rs. 100 spent",
+      "4 reward points per Rs. 100 spent on weekends, capped at 1,000 points per month",
+      "4,000 reward points on the payment of joining fee and on the first transaction within 30 days of card issuance",
+      "1,000 reward points every month on 5 transactions worth Rs. 1,000 each in a month",
+      "1% fuel surcharge waiver (Up to Rs. 150 per month) on fuel spends between Rs. 500 and Rs. 4,000",
+      "2X reward points on weekend spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 150
+    },
+    "monthly_capping_rules": [
+      "4 reward points per Rs. 100 spent on weekends, capped at 1,000 points per month"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 1000,
+      "annual_fee_inr": 1000,
+      "annual_fee_with_gst_inr": 1180.0,
+      "fee_waiver_spend_inr": 200000,
+      "monthly_spend_for_waiver_inr": 16667,
+      "milestone_slabs": [
+        "1% fuel surcharge waiver (Up to Rs. 150 per month) on fuel spends between Rs. 500 and Rs. 4,000",
+        "Annual fee waiver on spending Rs. 2 Lakh or more in a year",
+        "Multiple redemption options for travel bookings, e-vouchers, products, and more"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 1000,
+    "annual_fee_inr": 1000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 200000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.99,
+    "apr_annual_pct": 47.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "12.5% of the outstanding amount (Min. Rs. 5"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "RBL Bank Platinum Delight Credit Card is an entry-level credit card offering value-back through reward points on every spend. Cardholders can earn **2X reward points on weekend spends** and a base reward rate of **2** **reward points per Rs. 100 spent on weekdays**. The accumulated reward points can be redeemed through the rewards portal against multiple categories, including travel bookings, recharges, e-vouchers, and the purchase of products & items. Apart from this, the card also offers **1,000 reward points as milestone benefit** and **4,000 reward points as welcome benefit** , which add to the card’s overall value. This card is a suitable option for consumers seeking a **card with basic reward benefits**.",
+    "highlights": [
+      "2 reward points for every Rs. 100 spent",
+      "4 reward points per Rs. 100 spent on weekends, capped at 1,000 points per month",
+      "4,000 reward points on the payment of joining fee and on the first transaction within 30 days of card issuance",
+      "1,000 reward points every month on 5 transactions worth Rs. 1,000 each in a month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1% fuel surcharge waiver (Up to Rs. 150 per month) on fuel spends between Rs. 500 and Rs. 4,000",
+      "Annual fee waiver on spending Rs. 2 Lakh or more in a year",
+      "Multiple redemption options for travel bookings, e-vouchers, products, and more"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for an entry-level credit card with basic benefits",
+      "You prefer to make more purchases on weekends instead of weekdays",
+      "You can spend Rs. 2 Lakh in a year to avail annual fee waiver",
+      "You are looking for a card that primarily focuses on reward points"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for RBL Platinum Delight Credit Card?",
+        "a": "You can apply for this card online by visiting the official website of RBL Bank and submitting a duly filled application form. Besides this, you can also apply offline by visiting any of the nearest branches of the bank and submitting the application form along with the relevant documents in person."
+      },
+      {
+        "q": "Can I earn rewards on fuel spends through RBL Platinum Delight Credit Card?",
+        "a": "No, this credit card does not offer reward points on select categories, including fuel, utilities, insurance, rent/real estate, railways, wallet loading, government services, and EMI conversion."
+      },
+      {
+        "q": "How can I redeem earned reward points on RBL Platinum Delight Credit Card?",
+        "a": "You can redeem the accumulated reward points through the rewards portal against multiple categories, including travel bookings, recharges, e-vouchers, and the purchase of products and items."
+      },
+      {
+        "q": "Does RBL Platinum Delight Credit Card offer lounge access benefits?",
+        "a": "No, RBL Bank Platinum Delight Credit Card does not offer any lounge access benefits. However, you can save on your travel spends by earning up to 4 reward points per Rs. 100 spent on weekends."
+      },
+      {
+        "q": "Does RBL Platinum Delight Credit Card offer renewal benefits?",
+        "a": "No, this credit card does not offer any renewal benefits. However, you can avail an annual fee waiver on spending Rs. 2 Lakh in a year."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.18,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Welcome Benefits": 2.5,
+      "Milestone Benefits": 2.5,
+      "rewards": 3.0,
+      "milestone_benefits": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from RBL Bank suited for travel & miles users.",
+    "pros": [
+      "2X reward points on weekend spends",
+      "Monthly milestone benefit of 1,000 reward points",
+      "Multiple redemption options for travel bookings, e-vouchers, products, and more"
+    ],
+    "cons": [
+      "No travel and lifestyle related benefits",
+      "Monthly capping on rewards earned on weekend spends",
+      "No reward points on fuel, rent, and utility bill payments"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from RBL Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.18,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around RBL Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "4 reward points per Rs. 100 spent on weekends, capped at 1,000 points per month"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹200,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Direct competitor from IDFC FIRST Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "amex_bank_membership_rewards_credit_card",
+      "card_name": "American Express Membership Rewards® Credit Card",
+      "bank": "American Express",
+      "bank_slug": "american-express",
+      "card_slug": "american-express-membership-rewards-credit-card",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.12,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.12/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_credit_card",
+      "card_name": "HPCL FIRST Power Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "hpcl-first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 199,
+      "overall_rating": 4.33,
+      "reason": "Top-rated Fuel card in market with rating 4.33/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "rbl-bank-rbl-travel-dining-bookmyshow-weekend-offer",
+      "bank": "RBL Bank",
+      "title": "RBL Travel, Dining & BookMyShow Weekend Offers",
+      "summary": "Zero forex markup travel benefits on World Safari plus monthly BookMyShow discounts and fuel surcharge waivers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.rblbank.com/personal-banking/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

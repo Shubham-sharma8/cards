@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "card_id": "indusind_bank_nexxt_credit_card",
+    "card_name": "IndusInd Nexxt Credit Card",
+    "bank": "IndusInd Bank",
+    "bank_slug": "indusind-bank",
+    "card_slug": "indusind-nexxt-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Super-Premium",
+    "primary_category": "Super-Premium",
+    "categories": [
+      "Super-Premium",
+      "Cashback",
+      "Travel & Miles",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/indusind-bank/indusind-nexxt-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#3A85B0",
+      "secondary_hex": "#4960B6",
+      "wash_hex": "#E3EBEE",
+      "soft_bg_hex": "#EDF4F8",
+      "border_hex": "#D4E4EE",
+      "ink_on_soft_hex": "#2F6B8D",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+    "mitc_pdf_url": "https://www.indusind.com/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "High-income spenders maximizing IndusInd Bank concierge",
+      "unlimited lounges & accelerated travel portals",
+      "Rs. 50,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "groceries",
+      "indusind",
+      "miles",
+      "movies",
+      "nexxt",
+      "online",
+      "premium",
+      "shopping",
+      "super",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Air Miles / Travel Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 0.5,
+    "point_value_inr_default": 0.75,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.75"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "1 reward point for every Rs. 150 spent",
+      "Redeem reward points against cash credit at a value of 1 RP = Rs. 0.75",
+      "Convert reward points into Krisflyer Miles at a value of 400 RP = 100 Krisflyer Miles",
+      "Complimentary vouchers of top brands, such as Montblac, The Postcard Hotel, Amazon, Flipkart and more at the time of joining",
+      "1% fuel surcharge waiver on fuel spends across all petrol pumps",
+      "Low reward redemption value of Rs. 0.75 per point against cashback"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 10000,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Redeem rewards against products & vouchers through IndusMoments or Pay with Rewards",
+        "Complimentary vouchers of top brands, such as Montblac, The Postcard Hotel, Amazon, Flipkart and more at the time of joining",
+        "Vouchers from top brands as welcome benefit"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 10000,
+    "annual_fee_inr": 0,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.83,
+    "apr_annual_pct": 46.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 350"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 550"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "IndusInd Nexxt Credit Card offers **1 reward point per Rs. 150 spent** across all categories. Cardholders can redeem the accumulated reward points against cashback, Airmiles, products, and vouchers through the rewards catalogue or via the Pay with Points option. In addition, the card offers **free movie tickets** on bookings made through BookMyShow, along with other basic benefits. While the card does not charge an annual fee from the second year onwards, it comes with a **joining fee of Rs. 10,000**. However, it offers **complimentary vouchers** from top brands like Montblanc, The Postcard Hotel, Amazon, Flipkart, and more as welcome benefits. Overall, IndusInd Nexxt is a rewards credit card with basic benefits and is suitable for consumers who want to save on their online and offline spends through reward points.",
+    "highlights": [
+      "1 reward point for every Rs. 150 spent",
+      "Redeem reward points against cash credit at a value of 1 RP = Rs. 0.75",
+      "Convert reward points into Krisflyer Miles at a value of 400 RP = 100 Krisflyer Miles",
+      "Redeem rewards against products & vouchers through IndusMoments or Pay with Rewards"
+    ],
+    "welcome_benefit": "Vouchers from top brands as welcome benefit",
+    "milestone_benefits": [
+      "Redeem rewards against products & vouchers through IndusMoments or Pay with Rewards",
+      "Complimentary vouchers of top brands, such as Montblac, The Postcard Hotel, Amazon, Flipkart and more at the time of joining",
+      "Vouchers from top brands as welcome benefit"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "Buy 1 Get Offer on movie tickets on BookMyShow, twice a month",
+      "Lost Ticket: Rs. 25,000",
+      "Up to 2 free movie tickets every month"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Air Accident Cover: Rs. 25 Lakh",
+      "Lost card liability cover under the total protect program offers a sum equal to the credit limit of the card"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for a rewards credit card with basic benefits",
+      "You frequently go out for movies and want to save on movie ticket bookings",
+      "You prefer to earn the same reward rate across all spending categories, whether online or offline"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for IndusInd Nexxt Credit Card?",
+        "a": "You can apply for this credit card online by visiting the official website of IndusInd Bank. You’ll need to fill out the application form and submit the required documents. Alternatively, you can apply offline by visiting any of the bank’s branches and submitting the form in person."
+      },
+      {
+        "q": "Can I use IndusInd Nexxt Credit Card for international transactions?",
+        "a": "Yes, you can use this credit card for overseas transactions. However, it comes with a forex markup fee of 3.5%, which is relatively high. If you are looking to save on international spends, consider a card with zero or low forex markup fees."
+      },
+      {
+        "q": "How many free movie tickets can I get in a month with IndusInd Nexxt Credit Card?",
+        "a": "You can avail Buy 1 Get 1 Free offer on movie ticket bookings through BookMyShow. A maximum of 2 free movie tickets per month can be availed, with a capping of Rs. 200 per ticket."
+      },
+      {
+        "q": "How is IndusInd Nexxt an interactive credit card?",
+        "a": "IndusInd Nexxt Credit Card is an interactive card equipped with buttons that allow you to choose your preferred mode of payment—Credit, EMI, or Rewards, at the time of purchase."
+      },
+      {
+        "q": "What is the annual fee of IndusInd Nexxt Credit Card?",
+        "a": "This card does not charge any annual fee from the second year onwards. However, it does come with a one-time joining fee of Rs. 10,000."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.31,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Movies": 3.0,
+      "Rewards": 3.0,
+      "Welcome Benefits": 3.5,
+      "movies": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IndusInd Bank suited for super-premium users.",
+    "pros": [
+      "Up to 2 free movie tickets every month",
+      "No annual fee from the second year onwards",
+      "Vouchers from top brands as welcome benefit",
+      "Same reward rate across all categories, whether online or offline"
+    ],
+    "cons": [
+      "High joining fee of Rs. 10,000",
+      "No travel or lifestyle benefits, such as complimentary lounge access",
+      "Low reward redemption value of Rs. 0.75 per point against cashback",
+      "Airmile conversion is limited to KrisFlyer Miles only"
+    ],
+    "best_for_whom": "High-income spenders maximizing IndusInd Bank concierge, unlimited lounges & accelerated travel portals",
+    "not_ideal_for": "Moderate spenders unlikely to cross annual fee waiver / extract >fee value",
+    "recommended_monthly_spend_inr": "Rs. 50,000+",
+    "verdict": "option from IndusInd Bank suited for super-premium users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.31,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IndusInd Bank Super-Premium cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low",
+    "devaluation_risk_score": 3,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "icici_bank_icici_bank_visa_signature_credit_card",
+      "card_name": "ICICI Bank Visa Signature Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-visa-signature-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 3.15,
+      "reason": "Direct competitor from ICICI Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "axis_bank_axis_bank_cashback_credit_card",
+      "card_name": "Axis Bank Cashback Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-cashback-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.2,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.2/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Top-rated Super-Premium card in market with rating 4.9/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "indusind-bank-make-the-most-out-of-your-reward-points-by-us",
+      "bank": "IndusInd Bank",
+      "title": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you",
+      "summary": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you shop.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "indusind-bank-eazydiner-culinary-treats-flight-movie-priv",
+      "bank": "IndusInd Bank",
+      "title": "EazyDiner Culinary Treats & Flight/Movie Privileges",
+      "summary": "Guaranteed dining discounts at EazyDiner partner restaurants, BOGO movie perks via BookMyShow, and zero-markup forex promos on Tiger/Avios.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

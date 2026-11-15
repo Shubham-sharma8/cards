@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "card_id": "idfc_first_bank_swyp_credit_card",
+    "card_name": "FIRST SWYP Credit Card by IDFC FIRST Bank",
+    "bank": "IDFC FIRST Bank",
+    "bank_slug": "idfc-first-bank",
+    "card_slug": "first-swyp-credit-card-by-idfc-first-bank",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Zero/Low Forex",
+    "categories": [
+      "Travel & Miles",
+      "RuPay & UPI",
+      "Dining, Groceries & Movies",
+      "Zero/Low Forex",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/idfc-first-bank/first-swyp-credit-card-by-idfc-first-bank.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#C58926",
+      "secondary_hex": "#C3C936",
+      "wash_hex": "#F4ECDD",
+      "soft_bg_hex": "#FAF4EB",
+      "border_hex": "#F2E5CF",
+      "ink_on_soft_hex": "#855C1A",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.idfcfirst.bank.in/credit-card",
+    "mitc_pdf_url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": true,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "International travelers and foreign SaaS",
+      "e-commerce buyers avoiding 3.5%+GST markup",
+      "Rs. 15,000+ (or international trips)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "by",
+      "card",
+      "credit",
+      "dining",
+      "first",
+      "forex",
+      "groceries",
+      "idfc",
+      "irctc",
+      "low",
+      "low-forex",
+      "miles",
+      "movies",
+      "online",
+      "railway",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "swyp",
+      "travel",
+      "upi",
+      "zero",
+      "zero-forex"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 20.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "20% off up to Rs. 80 at Domino’s Pizza on orders above Rs. 299, twice every month",
+      "10% off up to Rs. 500 on EaseMyTrip flight or hotel bookings above Rs. 5,000, once a month",
+      "20% off up to Rs. 270 on SUGAR Cosmetics orders above Rs. 1,250, once a month",
+      "10% off up to Rs. 100 on TATA CLiQ orders above Rs. 999, once a month",
+      "Save 10% up to Rs. 100 on Zomato orders above Rs. 299, twice every month",
+      "10% off up to Rs. 500 on Nykaa orders above Rs. 3,000, once a month"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.5,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "dining_swiggy_zomato": 160,
+      "travel_flights_hotels": 500
+    },
+    "monthly_capping_rules": [
+      "Milestone-based RP earn (up to ~1%–1.5% at Rs. 5k/10k/15k monthly tiers) plus capped brand discount coupons (Domino's Rs. 80x2, Tata CLiQ Rs. 100, EaseMyTrip Rs. 500)."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Amazon voucher worth Rs. 500 on spending minimum Rs. 5,000 within the first 30 days of card issuance",
+        "MakeMyTrip discount voucher worth Rs. 1,500 offering 10% discount on domestic flights and 20% discount on domestic hotels.",
+        "200 reward points on monthly spends above Rs. 5,000",
+        "500 reward points on monthly spends above Rs. 10,000"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 16,
+      "visits_per_quarter": 0,
+      "summary": "However, cardholders get up to 16 complimentary railway lounge visits per year (4 per quarter)."
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 0.0,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of the total amount due, subject to a min. of Rs. 100 & max. of Rs. 6,000"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "IDFC FIRST SWYP Credit Card, with an annual fee of Rs. 499, offers discounts of up to 20% on leading online portals and brands such as Domino’s, Nykaa, MakeMyTrip, Myntra, and more. However, unlike most credit cards that offer reward points on every transaction, FIRST SWYP offers rewards in the form of spend-based monthly milestone benefits. Despite this difference, cardholders can still earn a decent reward rate on their expenses. In addition to regular card spends, cardholders can also earn monthly spend-based rewards on UPI transactions. However, to unlock this feature and activate the UPI facility, they are required to get a FIRST Digital RuPay UPI Credit Card, which is issued at an additional annual fee of Rs. 199. The referral program is another unique feature of FIRST SWYP Credit Card. Under this program, cardholders can avail benefits such as annual fee waiver, cashback, bonus reward points, movie discounts, and complimentary lounge access every year, depending on the number of successful referrals. However, despite being a decent option, not every cardholder may be able to utilize this benefit effectively. Additionally, IDFC FIRST Bank has restricted the bill payment options for this card, which can be considered as a positive step towards better credit management for some users. Cardholders can either pay their total outstanding amount in full or convert eligible dues into easy EMIs, eliminating the option to revolve outstanding balances to the next billing cycle, an option that usually comes with high finance charges.",
+    "highlights": [
+      "20% off up to Rs. 80 at Domino’s Pizza on orders above Rs. 299, twice every month",
+      "10% off up to Rs. 500 on EaseMyTrip flight or hotel bookings above Rs. 5,000, once a month",
+      "20% off up to Rs. 270 on SUGAR Cosmetics orders above Rs. 1,250, once a month",
+      "10% off up to Rs. 100 on TATA CLiQ orders above Rs. 999, once a month"
+    ],
+    "welcome_benefit": "Complimentary EaseMyTrip and MakeMyTrip vouchers as welcome benefits",
+    "milestone_benefits": [
+      "Amazon voucher worth Rs. 500 on spending minimum Rs. 5,000 within the first 30 days of card issuance",
+      "MakeMyTrip discount voucher worth Rs. 1,500 offering 10% discount on domestic flights and 20% discount on domestic hotels.",
+      "200 reward points on monthly spends above Rs. 5,000",
+      "500 reward points on monthly spends above Rs. 10,000"
+    ],
+    "dining_benefits": [
+      "Save 10% up to Rs. 100 on Zomato orders above Rs. 299, twice every month"
+    ],
+    "movie_benefits": [
+      "25% off, up to Rs. 100 once per month, on movie tickets, applicable on making at least one transaction in the previous month"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Card Liability cover of Rs. 25,000",
+      "Personal Accident cover of Rs. 2 Lakh"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want to start your credit journey and are looking for a card with basic all-round benefits",
+      "You do not mind paying an additional fee for UPI activation and the associated benefits",
+      "You make most of your purchases online from partnered brands",
+      "You are looking for a low annual fee card with decent lifestyle benefits"
+    ],
+    "faqs": [
+      {
+        "q": "Is IDFC FIRST SWYP Credit Card good for beginners or first-time card users?",
+        "a": "Yes, IDFC FIRST SWYP Credit Card is suitable for new-to-credit users as it comes with a low annual fee and simple spend-based milestone rewards. Additionally, the restriction on revolving credit encourages better repayment discipline."
+      },
+      {
+        "q": "How do milestone rewards work on the IDFC FIRST SWYP Credit Card?",
+        "a": "Unlike regular cards, SWYP does not offer reward points on every transaction. Instead, you earn fixed reward points on crossing specific monthly spending thresholds. These milestone benefits are not incremental and only the highest eligible milestone is rewarded."
+      },
+      {
+        "q": "Can I earn rewards on UPI transactions with IDFC FIRST SWYP Credit Card?",
+        "a": "Yes, you can earn rewards on UPI spends, but only after activating the FIRST Digital RuPay UPI Credit Card by paying an additional annual fee of Rs. 199 + GST. UPI rewards are applicable only on eligible spends, excluding cash and fuel transactions."
+      },
+      {
+        "q": "Does IDFC FIRST SWYP Credit Card allow partial bill payments?",
+        "a": "No, the SWYP Credit Card does not allow partial or revolving payments. Cardholders can either pay the total outstanding amount in full or convert eligible dues into EMIs, helping avoid high finance charges."
+      },
+      {
+        "q": "What is the reward point value of IDFC FIRST SWYP Credit Card?",
+        "a": "The reward redemption value for IDFC FIRST SWYP Credit Card is Rs. 0.25 per reward point. This relatively low value makes milestone planning important to maximize overall returns."
+      },
+      {
+        "q": "Are airport lounge visits included with IDFC FIRST SWYP Credit Card?",
+        "a": "No, the card does not offer complimentary airport lounge access. However, cardholders get up to 16 complimentary railway lounge visits per year (4 per quarter)."
+      },
+      {
+        "q": "How does IDFC FIRST SWYP Credit Card referral program work?",
+        "a": "Under the referral program, cardholders can earn benefits like annual fee waiver, cashback, reward points, movie vouchers, and lounge access based on the number of successful referrals made within a year, subject to bank terms and eligibility conditions.** **"
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.65,
+    "editorial_rating": 3.5,
+    "aggregator_rating": 4.47,
+    "category_sub_ratings": {
+      "Travel": 3.5,
+      "Shopping": 4.0,
+      "Lifestyle Benefits": 3.0,
+      "travel": 3.5,
+      "shopping": 4.0,
+      "lifestyle_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IDFC FIRST Bank suited for zero/low forex users and low 0% forex markup.",
+    "pros": [
+      "Discount offers on top brands, including Domino’s, Nykaa, EaseMyTrip, and more",
+      "Complimentary Lenskart Gold Max Membership worth Rs. 800 on joining",
+      "Complimentary EaseMyTrip and MakeMyTrip vouchers as welcome benefits",
+      "Up to 16 complimentary railway lounge visits every year",
+      "Zero forex mark-up fee"
+    ],
+    "cons": [
+      "Milestone benefits are not incremental",
+      "No complimentary airport lounge access",
+      "Low reward redemption value of Rs. 0.25 per point",
+      "Additional fee of Rs. 199 to avail benefits on UPI spends"
+    ],
+    "best_for_whom": "International travelers and foreign SaaS/e-commerce buyers avoiding 3.5%+GST markup",
+    "not_ideal_for": "Domestic-only spenders seeking peak local e-commerce cashback",
+    "recommended_monthly_spend_inr": "Rs. 15,000+ (or international trips)",
+    "verdict": "option from IDFC FIRST Bank suited for zero/low forex users and low 0% forex markup."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.65,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IDFC FIRST Bank Zero/Low Forex cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Milestone-based RP earn (up to ~1%–1.5% at Rs. 5k/10k/15k monthly tiers) plus capped brand discount coupons (Domino's Rs. 80x2, Tata CLiQ Rs. 100, EaseMyTrip Rs. 500)."
+    ],
+    "optimization_tips": [
+      "Low 0.0% forex markup makes this practical for international travel and USD/SaaS subscriptions."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Per-Rs.-200 rounding (<Rs. 200 = 0 RP), offset by positive 0% forex upgrades on Wealth/Select."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbi_bank_sbi_eternal_credit_card",
+      "card_name": "Eternal SBI Credit Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "eternal-sbi-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 3.85,
+      "reason": "Direct competitor from SBI Card at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_bank_idfc_first_wow_black_credit_card",
+      "card_name": "FIRST WOW! Black Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-wow-black-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 750,
+      "overall_rating": 4.22,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.22/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-1-cashback-499",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual 1% Cashback ₹499",
+      "summary": "FIRST EARN Virtual 1% Cashback ₹499",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-fd-backed-1-cashback",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "summary": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-zero-forex-promos-weekend-movie-tripstacc",
+      "bank": "IDFC FIRST Bank",
+      "title": "Zero Forex Promos & Weekend Movie / Tripstacc Benefits",
+      "summary": "Buy-1-Get-1 movie ticket perks on District/BookMyShow plus instant flight/hotel discounts via Tripstacc and IDFC FIRST Reward offers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "targeted"
+    }
+  ]
+}

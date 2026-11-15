@@ -1,0 +1,1026 @@
+{
+  "identity": {
+    "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+    "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+    "bank": "IDFC FIRST Bank",
+    "bank_slug": "idfc-first-bank",
+    "card_slug": "first-power-credit-card-by-idfc-first-bank",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Zero/Low Forex",
+    "categories": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "Fuel",
+      "Zero/Low Forex",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/idfc-first-bank/first-power-credit-card-by-idfc-first-bank.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#882434",
+      "secondary_hex": "#974D33",
+      "wash_hex": "#ECDFDF",
+      "soft_bg_hex": "#F4EBED",
+      "border_hex": "#E5CFD2",
+      "ink_on_soft_hex": "#882434",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.idfcfirst.bank.in/credit-card",
+    "mitc_pdf_url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "IDFC FIRST Bank Domestic Airport Lounge List",
+        "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/DC-Lounge-Airport-List-01.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "Mastercard Participating Domestic Airport Lounges India PDF",
+        "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": true,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "International travelers and foreign SaaS",
+      "e-commerce buyers avoiding 3.5%+GST markup",
+      "Rs. 15,000+ (or international trips)"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "bank",
+      "by",
+      "card",
+      "credit",
+      "first",
+      "forex",
+      "fuel",
+      "idfc",
+      "lounge",
+      "low",
+      "low-forex",
+      "miles",
+      "online",
+      "power",
+      "shopping",
+      "travel",
+      "zero",
+      "zero-forex"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.5,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5% savings on fuel spends : 30 rewards points per Rs. 150 spent on HPCL fuel, up to 2400 reward points in a statement cycle",
+      "1.5% savings through HP Pay App: 6 Happy Coins per Rs. 100 on fuel spends through HP Pay App, up to 600 Happy Coins per month",
+      "5% savings On Grocery & Utility Spends: 30 reward points per Rs. 150 spent, up to 400 rewards per statement cycle",
+      "5% savings On IDFC FIRST FASTag Recharge: 30 reward points per Rs. 150 spent, up to 200 reward points per statement cycle",
+      "26.67% bonus reward points: On hotel bookings made via IDFC FIRST Bank Mobile App",
+      "13.33% bonus reward points: On flights made via IDFC FIRST Bank Mobile App"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.67,
+      "amazon_flipkart_myntra": 0.67,
+      "dining_swiggy_zomato": 0.67,
+      "groceries_quick_commerce": 2.5,
+      "travel_flights_hotels": 0.67,
+      "upi_scan_and_pay": 0.67,
+      "utilities_bills_telecom": 2.5,
+      "fuel": 6.5,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.46,
+      "offline_general_other": 0.67
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 750,
+      "groceries_quick_commerce": 500,
+      "utilities_bills_telecom": 500
+    },
+    "monthly_capping_rules": [
+      "Up to 6.5% total savings at HPCL pumps via HP Pay app + FASTag/surcharge waiver (capped around Rs. 10,000–Rs. 12,000 monthly fuel spend); 2.5% grocery/utilities."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "5% savings on fuel spends : 30 rewards points per Rs. 150 spent on HPCL fuel, up to 2400 reward points in a statement cycle",
+        "1.5% savings through HP Pay App: 6 Happy Coins per Rs. 100 on fuel spends through HP Pay App, up to 600 Happy Coins per month",
+        "5% savings On Grocery & Utility Spends: 30 reward points per Rs. 150 spent, up to 400 rewards per statement cycle",
+        "26.67% bonus reward points: On hotel bookings made via IDFC FIRST Bank Mobile App"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 4,
+      "visits_per_quarter": 1,
+      "spend_criteria": "Rs. 20,000 in previous month",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "1 complimentary domestic airport lounge visit per quarter on minimum monthly spends of Rs. 20,000"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "idfc_dc_lounge",
+        "title": "IDFC FIRST Bank Domestic Airport Lounge List",
+        "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/DC-Lounge-Airport-List-01.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 40,
+        "local_pdf_path": "data/raw/lounges/pdfs/idfc_dc_lounge.pdf"
+      },
+      {
+        "program_id": "visa_india_lounges",
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 99,
+        "local_pdf_path": "data/raw/lounges/pdfs/visa_india_lounges.pdf"
+      },
+      {
+        "program_id": "page_visa_lounge_offer",
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "mastercard_india_lounges_pdf",
+        "title": "Mastercard Participating Domestic Airport Lounges India PDF",
+        "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agartala",
+        "lounge_name": "1 Maharaja Bir Bikram Airport Primus Lounge Domestic Terminal Domestic Departure Tripura Agartala",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Lounge Domestic Domestic Departure Punjab Amritsar",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "5 Bhopal Raja Bhoj Airport Primus Lounge Domestic Domestic Departure Madhya Pradesh Bhopal",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "8 Chennai International Airport Travel Club-MAA01 T1 Domestic Departure Tamil Nadu Chennai",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "9 Chennai International Airport Travel Club-MAA02 T1 Domestic Departure Tamil Nadu Chennai",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "10 Chennai International Airport Travel Club T4 Domestic Departure Tamil Nadu Chennai",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "11 Cochin International Airport Earth Lounge T1 Domestic Departure Kerala Cochin",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "12 Coimbatore International Airport Blackberry Lounge T1 Domestic Departure Tamil Nadu Coimbatore",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "13 Dibrugarh Mohanbari Airport Primus Lounge Domestic Domestic Departure Assam Dibrugarh",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "14 Goa International Airport - Dabolim Travel Club Domestic Domestic Departure Goa Goa",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "18 Devi Ahilya Bai Holkar Airport Primus Lounge Domestic Domestic Departure Madhya Pradesh Indore",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "19 Jaipur International Airport Adani Lounge - Domestic T1 T1 Domestic Departure Rajasthan Jaipur",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "20 Jammu Airport Pahun Lounge T1 Domestic Departure Jammu & Kashmir Jammu",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "21 Kannur International Airport Pearl Lounge International International Departure Kerala Kannur",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "22 Kannur International Airport Pearl Lounge Domestic Domestic Departure Kerala Kannur",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "26 Madurai International Airport Primus Lounge Main Terminal International Departure Tamil Nadu Madurai",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Lounge T1 Domestic Departure Maharashtra Nagpur",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "32 Navi Mumbai International Airport Adani Lounge T1 Domestic Departure Maharashtra Navi Mumbai",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "37 Pune International Airport Elysian Lounge T2 Domestic Departure Maharashtra Pune",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "38 Birsa Munda Airport Airr Lounge T1 Domestic Departure Jharkhand Ranchi",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "39 Sheikh Ul Alam International Airport Pahun Lounge T1 Domestic Departure Jammu & Kashmir Srinagar",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "40 Thiruvananthapuram International Airport Adani Lounge - Domestic T1 T1 Domestic Departure Kerala Thiruvananthapuram",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Varanasi",
+        "lounge_name": "41 Lal Bahadur Shastri International Airport Take Off Bar and Lounge Domestic Domestic Departure Uttar Pradesh Varanasi",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Dehradun",
+        "lounge_name": "44 Dehradun Jolly Grant Airport Carnations Lounge Domestic Domestic Departure Uttarakhand Dehradun",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Patna",
+        "lounge_name": "45 Jay Prakash Narayan Airport Uttham Lounge Domestic Domestic Departure Bihar Patna",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "50 Kempegowda International Airport BLR01 080 Lounge T2 Domestic Departure Karnataka Bengaluru",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "51 Kempegowda International Airport BLR102 080 Lounge T1 Domestic Departure Karnataka Bengaluru",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "52 Kempegowda International Airport BLR104 080 Lounge T1 Domestic Departure Karnataka Bengaluru",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "53 Kempegowda International Airport BLR101 080 Lounge T1 Domestic Departure Karnataka Bengaluru",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "54 Chennai International Airport Travel Club T2 International Departure Tamil Nadu Chennai",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "55 Cochin International Airport Earth Lounge T3 International Departure Kerala Cochin",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "56 Goa International Airport - Dabolim Travel Club (New Lounge) International International Departure Goa Goa",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "57 Rajmata Vijayaraje Scindia Airport Pahun Lounge T1 Domestic Departure Madhya Pradesh Gwalior",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Airr Lounge T1 Domestic Departure Maharashtra Nagpur",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "69 Thiruvananthapuram International Airport The Lounge - International T2 T2 International Departure Kerala Thiruvananthapuram",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "71 Kempegowda International Airport BLR206 080 VIP Arrival T2 Arrival Arrival Karnataka Bengaluru",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "72 Kempegowda International Airport BLRI202 080 Internatoonal Lounge T2 International Departure Karnataka Bengaluru",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "73 Kempegowda International Airport BLR103 080 Domestic Lounge VIP T1 Domestic Departure Karnataka Bengaluru",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "74 Kempegowda International Airport BLR02 080 VIP Lounge T2 Domestic Departure Karnataka Bengaluru",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "76 Pune International Airport Elysian Lounge T2 International Departure Maharashtra Pune",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "idfc_dc_lounge"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "1 Agartala Airport Agartala Primus Lounge IXA1 Domestic Domestic Terminal Airside - Domestic Departures, Ground Level, after Security Hold A",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "2 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD01 Domestic Terminal 1 Terminal 1 (Near Boarding Gate No. 1) 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "3 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Silver Lounge-International AMD02 International Terminal 2 Terminal 2 Depar",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "4 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD04 Domestic Terminal 2 Terminal 2 Departure area First Floor 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "5 Prayagraj Airport Allahabad / Prayagraj Zesto Execustive Lounge IXD Domestic Domestic Terminal Airside - Prayagraj Airport, Domestic Depar",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "9 Sri Guru Ram Dass Jee International Airport Amritsar Primus Lounge ATQ Domestic NA Airside - Domestic Departures. After Security Checks pr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "10 Sri Guru Ram Dass Jee International Airport Amritsar The Airr Lounge ATQ6 International International Terminal Airside - International De",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "13 Kempegowda International Airport Bengaluru 080 Domestic Lounge BLR9 Domestic Terminal 2 Airside - Domestic and in transit Departures. Aft",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "14 Kempegowda International Airport Bengaluru 080 International Lounge BLR10 International Terminal 2 Airside - International Departures. Af",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "15 Kempegowda International Airport Bengaluru 080 Arrival BLR12 International/ Domestic Arrival Terminal 2 Landside - Ground Level, Arrivals",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "16 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 1 BLR101 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "17 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 2 BLR102 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "18 Kempegowda International Airport Bengaluru 080 Domestic Lounge - East BLR104 Domestic Terminal 1 Domestic Departure Terminal 1, Opposite ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "19 Bhopal Raja Bhoj Bhopal Primus Lounge BHO Domestic Domestic Terminal Airside - Domestic Departures, Level 1, after Security Hold Area. 24",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "20 Chandigarh International Airport Chandigarh Primus Lounge IXC6 Domestic Domestic Terminal Airside - Domestic Departures. After Security H",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "24 Chennai International Airport Chennai Travel Club Lounge - T2 Terminal MAA02 International Terminal 1 New International Departure,Termina",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "26 Cochin International Airport Cochin Travel Club Lounge COK2 International Terminal 3",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "27 Cochin International Airport Cochin Travel Club Lounge COK1 Domestic Terminal 1 2nd Floor, Domestic Security Holding Area 04:00 - 23:30 d",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "29 Dibrugarh Mohanbari Dibrugarh Primus Lounge DIB Domestic NA Airside: Dibrugarh airport, SHA, 1st floor, opposite gate 3 and 4 24 hours da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "30 Manohar International Airport Goa Encalm Lounge GOX01 International Terminal 1 Encalm Lounge Dom T1 Departure, Level 2 24 Hours",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "31 Manohar International Airport Goa Encalm Lounge GOX02 Domestic Terminal 1 Encalm Lounge Dom T1 Departure, Level 2 24 Hours",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "32 Goa International Airport - Dabolim Goa Travel Club Lounge Domestic GOI01 Domestic Terminal 1 Domestic Departure, After SHA, 2nd Floor, o",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "33 Goa International Airport - Dabolim Goa Travel Club Lounge International GOI02 International Terminal 1 Domestic Departure, After SHA, 2n",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "Guwahati The Lounge GAU01 Domestic Terminal 1 GROUND FLOOR, AFTER SECURITY CHECK 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "Guwahati The Lounge GAU02 Domestic Terminal 1 1ST FLOOR, AFTER SECURITY CHECK 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "36 Gwalior Airport Gwalior Paahun Executive Lounge GWL Domestic Domestic Terminal Airside - Domestic Departures. 1st Floor. 06:00 - 08:00 da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "37 Rajiv Gandhi International Airport Hyderabad Encalm Lounge HYD01 Domestic Terminal 1 Encalm Lounge Domestic T1 Departure, Encalm Hospital",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "38 Rajiv Gandhi International Airport Hyderabad Encalm Lounge HYD02 International Terminal 1 Encalm Lounge International T1 Departure, Encal",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "39 Devi Ahilya Bai Holkar Airport Indore Primus Lounge IDR Domestic NA Airside - After Security Checks proceed to the 1st Floor. 24 hours da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "40 Jaipur International Airport Jaipur The Lounge JAI01 Domestic Terminal 2 In-Front of M1 gate, near KFC 24Hrs",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "IXJ Domestic Domestic Terminal Airside - Jammu Airport Domestic Departures. The lounge is located on the 1st Floor, near Gate 5. 06:30 - 21:",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "42 Kannur International Kannaur Pearl Lounge Domestic CNN Domestic Domestic Terminal Airside - after Security Hold Area 108, near Gate 1A. 1",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "43 Kannur International Kannaur Pearl Lounge International CNN1 International International Terminal Airside - After Security Hold Area 113,",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "44 Netaji Subhas Chandra Bose International Airport Kolkata Travel Club Lounge Domestic CCU01 Domestic Terminal 1 Mezzanine floor, after sec",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "46 Netaji Subhas Chandra Bose International Airport Kolkata Travel Club Lounge Annex Domestic CCU03 Domestic Terminal 1 Mezzanine floor, aft",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "48 Chaudhary Charan Singh International Airport Lucknow Adani Lounge LKO01 Domestic Terminal 3 Domestic Departure hall ; Zone- Airside after",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "50 Madurai International Madurai Primus Lounge IXM1 International NA Airside - Madurai Airport, After Security Hold Area, 1st Floor, near th",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Travel Club BOM01 Domestic Terminal 1C T1 DEPARTURE | OPPOSITE GATE NO 22 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Adani Lounge BOM02 Domestic Terminal 1B T1 DEPARTURE | FIRST FLOOR OPPOSITE TO MACDONALD 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Travel Club BOM04 Domestic Terminal 2 Near Gate 44 Post SHA T2 DEPARTURE| NEAR BY STARBUCKS 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      }
+    ],
+    "participating_lounges_count": 80
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 0.0,
+    "apr_monthly_pct": 3.85,
+    "apr_annual_pct": 46.2,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of total amount due (min. Rs. 100, max. Rs. 1,300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Beyond fuel, it also provides **accelerated rewards on groceries, utility bill payments, and FASTag recharges,** along with benefits like **complimentary airport lounge access, movie vouchers, roadside assistance, etc.** Consumers seeking significant savings on their fuel expenses, along with saving on other everyday spending, can consider applying for this credit card.",
+    "highlights": [
+      "5% savings on fuel spends : 30 rewards points per Rs. 150 spent on HPCL fuel, up to 2400 reward points in a statement cycle",
+      "1.5% savings through HP Pay App: 6 Happy Coins per Rs. 100 on fuel spends through HP Pay App, up to 600 Happy Coins per month",
+      "5% savings On Grocery & Utility Spends: 30 reward points per Rs. 150 spent, up to 400 rewards per statement cycle"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "5% savings on fuel spends : 30 rewards points per Rs. 150 spent on HPCL fuel, up to 2400 reward points in a statement cycle",
+      "1.5% savings through HP Pay App: 6 Happy Coins per Rs. 100 on fuel spends through HP Pay App, up to 600 Happy Coins per month",
+      "5% savings On Grocery & Utility Spends: 30 reward points per Rs. 150 spent, up to 400 rewards per statement cycle",
+      "26.67% bonus reward points: On hotel bookings made via IDFC FIRST Bank Mobile App"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "25% off, up to Rs. 100, on movie tickets once per month on making at least one transaction in the previous month",
+      "Movie discount every month"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Personal accident cover worth Rs. 2 lakh and lost card liability cover worth Rs. 25,000"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are an HPCL loyalist",
+      "You want a fuel card with low annual fee",
+      "You regularly commute with your vehicle and spend a significant amount on fuel",
+      "You are okay with using your earned reward points for fuel purchases"
+    ],
+    "faqs": [
+      {
+        "q": "How is IDFC FIRST Power Plus Credit Card?",
+        "a": "The IDFC FIRST Power Plus Credit Card is a good choice for beginners who are also HPCL fuel station loyalists. The card offers up to 6.5% savings on fuel but also accelerated 5% savings on everyday transactions like groceries and utilities. However, to maximize benefits, users will have to shift their other brand preferences."
+      },
+      {
+        "q": "Who is eligible for the FIRST Power Credit card?",
+        "a": "The IDFC FIRST Power Plus credit card is offered to individuals aged at least 21 years, with a stable source of income of a minimum of Rs. 3 lakh every year and a good credit score."
+      },
+      {
+        "q": "What is the cashback feature on the IDFC FIRST Power Plus Credit Card?",
+        "a": "The cashback on the IDFC FIRST Power Plus credit card is offered in the first year under the activation benefits. On the first fuel transaction done within the first 30 days of card set-up, card users earn Rs. 500 cashback, subject to a minimum transaction value of Rs. 500."
+      },
+      {
+        "q": "Is there any spend capping to earn rewards on this card?",
+        "a": "Maximum spends capping of Rs. 12,000 per statement cycle for HPCL fuel spends; Rs. 10,000 per statement cycle on HP Pay App; Rs. 2,000 per statement cycle on grocery and utilities; Rs. 1,000 spends per statement cycle on IDFC FIRST FASTag Recharge."
+      },
+      {
+        "q": "How much is the value of IDFC Power Plus card points?",
+        "a": "The per reward value on IDFC FIRST Power Plus credit card is Rs. 0.25."
+      },
+      {
+        "q": "Does the power plus credit card offer lounge access?",
+        "a": "Yes, the card offers access to domestic airport lounges, 1 visit every quarter on minimum monthly spends of Rs. 20,000."
+      },
+      {
+        "q": "What is the difference between IDFC FIRST Power and Power Plus credit card?",
+        "a": "IDFC FIRST Power and Power Plus are two co-branded fuel credit cards. The base variant, Power offers a return of up to 5% on fuel spends, in comparison to 6.5% value-back offered on the Power Plus card."
+      },
+      {
+        "q": "How to get IDFC First Power RuPay Credit Card?",
+        "a": "IDFC FIRST Bank is a credit card partner with Issuer / Market. To apply for this card you can fill the form on the top of this page by providing your mobile number."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.42,
+    "editorial_rating": 4.0,
+    "aggregator_rating": 4.47,
+    "category_sub_ratings": {
+      "Travel": 4.0,
+      "Rewards": 4.0,
+      "Fuel Benefits": 4.0,
+      "Lifestyle Benefits": 3.0,
+      "travel": 4.0,
+      "rewards": 4.0,
+      "lifestyle_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IDFC FIRST Bank suited for zero/low forex users with 4 domestic lounge visits/yr and low 0% forex markup.",
+    "pros": [
+      "Up to 6.5% savings on fuel transactions",
+      "Up to 26.67% bonus reward points on travel",
+      "Up to 5% savings on IDFC FIRST FASTag, groceries & utilities",
+      "Zero forex mark-up fee",
+      "Movie discount every month"
+    ],
+    "cons": [
+      "Low reward redemption value of just Rs. 0.25",
+      "Rewards on fuel spends limited to just HPCL branded fuel purchase",
+      "No fuel surcharge waiver",
+      "Lounge access is spend-based"
+    ],
+    "best_for_whom": "International travelers and foreign SaaS/e-commerce buyers avoiding 3.5%+GST markup",
+    "not_ideal_for": "Domestic-only spenders seeking peak local e-commerce cashback",
+    "recommended_monthly_spend_inr": "Rs. 15,000+ (or international trips)",
+    "verdict": "option from IDFC FIRST Bank suited for zero/low forex users with 4 domestic lounge visits/yr and low 0% forex markup."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.42,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IDFC FIRST Bank Zero/Low Forex cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Up to 6.5% total savings at HPCL pumps via HP Pay app + FASTag/surcharge waiver (capped around Rs. 10,000–Rs. 12,000 monthly fuel spend); 2.5% grocery/utilities."
+    ],
+    "optimization_tips": [
+      "HP Pay QR Double-Dip: Always scan the HP Pay QR code inside the HP Pay App (don't just swipe at the POS) to combine IDFC fuel rewards, Happy Coins & 1% surcharge waiver (~6.5% total net value up to ₹10,000–₹12,000/mo fuel)."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Per-Rs.-200 rounding (<Rs. 200 = 0 RP), offset by positive 0% forex upgrades on Wealth/Select."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Direct competitor from Federal Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_credit_card",
+      "card_name": "HPCL FIRST Power Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "hpcl-first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 199,
+      "overall_rating": 4.33,
+      "reason": "Top-rated Fuel card in market with rating 4.33/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-1-cashback-499",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual 1% Cashback ₹499",
+      "summary": "FIRST EARN Virtual 1% Cashback ₹499",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-fd-backed-1-cashback",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "summary": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-zero-forex-promos-weekend-movie-tripstacc",
+      "bank": "IDFC FIRST Bank",
+      "title": "Zero Forex Promos & Weekend Movie / Tripstacc Benefits",
+      "summary": "Buy-1-Get-1 movie ticket perks on District/BookMyShow plus instant flight/hotel discounts via Tripstacc and IDFC FIRST Reward offers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "targeted"
+    }
+  ]
+}

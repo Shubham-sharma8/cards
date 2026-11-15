@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "card_id": "sbi_bank_apollo_sbi_credit_card",
+    "card_name": "Apollo SBI Card",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "apollo-sbi-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Dining, Groceries & Movies",
+    "categories": [
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/apollo-sbi-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#B37C37",
+      "secondary_hex": "#C64D43",
+      "wash_hex": "#F1EADF",
+      "soft_bg_hex": "#F8F3ED",
+      "border_hex": "#EEE2D3",
+      "ink_on_soft_hex": "#845C29",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+    "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "SBI Card customers seeking dining",
+      "groceries & movies rewards & bank-specific discount offers",
+      "Rs. 10,000+"
+    ],
+    "requirement_keywords": [
+      "apollo",
+      "card",
+      "dining",
+      "groceries",
+      "movies",
+      "online",
+      "sbi",
+      "shopping"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.12,
+    "accelerated_reward_rate_pct": 0.75,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "3 reward points per Rs. 100 spent on Apollo services",
+      "2 reward points per Rs. 100 spent on Dining, Movies & Entertainment",
+      "1 reward point per Rs. 100 spent on Beauty & Wellness services",
+      "1 reward point for every Rs. 200 spent on other categories",
+      "Up to 10% instant discount on select Apollo services",
+      "500 reward points worth Rs. 500 on the payment of joining fee"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.12,
+      "amazon_flipkart_myntra": 0.12,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.12,
+      "travel_flights_hotels": 0.12,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -4.01,
+      "offline_general_other": 0.12
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 100
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": 100000,
+      "monthly_spend_for_waiver_inr": 8333,
+      "milestone_slabs": [
+        "Annual fee waiver on spending Rs. 1 Lakh in a year",
+        "1% fuel surcharge waiver on fuel spends across all fuel stations, capped at Rs. 100 per month",
+        "Annual fee waiver on yearly spends of Rs. 1 Lakh",
+        "Fuel surcharge waiver is capped at Rs. 100 per month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 100000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 500 up to Rs. 1,000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 1,000 up to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 10,000 up to Rs. 25,000",
+        "late_fee_inr": "Rs. 950"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 25,000 up to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Apollo SBI Card is designed for consumers who frequently spend on healthcare, pharmacy, wellness, and lifestyle categories. Along with accelerated rewards on Apollo services, the card also offers benefits on dining, movies, entertainment, and beauty & wellness spends. Cardholders can also enhance savings through 10% instant discount on select Apollo services. Overall, this credit card is a suitable option for consumers looking for a low annual fee card to save on Apollo services.",
+    "highlights": [
+      "3 reward points per Rs. 100 spent on Apollo services",
+      "2 reward points per Rs. 100 spent on Dining, Movies & Entertainment",
+      "1 reward point per Rs. 100 spent on Beauty & Wellness services",
+      "1 reward point for every Rs. 200 spent on other categories"
+    ],
+    "welcome_benefit": "Welcome reward points worth Rs. 500 on joining fee payment",
+    "milestone_benefits": [
+      "Annual fee waiver on spending Rs. 1 Lakh in a year",
+      "1% fuel surcharge waiver on fuel spends across all fuel stations, capped at Rs. 100 per month",
+      "Annual fee waiver on yearly spends of Rs. 1 Lakh",
+      "Fuel surcharge waiver is capped at Rs. 100 per month"
+    ],
+    "dining_benefits": [
+      "2 reward points per Rs. 100 spent on Dining, Movies & Entertainment",
+      "2X rewards on dining, entertainment, and wellness spends"
+    ],
+    "movie_benefits": [
+      "2 reward points per Rs. 100 spent on Dining, Movies & Entertainment"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently spend on Apollo Pharmacy, Apollo Hospitals, or other Apollo services",
+      "You want reward points on dining, movies, and entertainment spends",
+      "You are looking for a credit card with healthcare and wellness-focused benefits",
+      "You prefer a low annual fee card with annual fee waiver benefits"
+    ],
+    "faqs": [
+      {
+        "q": "What are the welcome benefits offered on Apollo SBI Card?",
+        "a": "The card offers 500 reward points worth Rs. 500 upon payment of the joining fee. The card also comes with complimentary Apollo Gold Tier Membership benefits."
+      },
+      {
+        "q": "What rewards can I earn on Apollo SBI Card?",
+        "a": "You can earn 3 reward points per Rs. 100 spent on Apollo services, 2 reward points per Rs. 100 on dining, movies, and entertainment, and 1 reward point on eligible spends across other categories."
+      },
+      {
+        "q": "Does Apollo SBI Card offer annual fee waiver?",
+        "a": "Yes, the annual fee can be waived on spending Rs. 1 Lakh or more in a card anniversary year."
+      },
+      {
+        "q": "Is there any fuel benefit on Apollo SBI Card?",
+        "a": "Yes, the card offers 1% fuel surcharge waiver across fuel stations in India, subject to a maximum waiver of Rs. 100 per month."
+      },
+      {
+        "q": "Who should apply for Apollo SBI Card?",
+        "a": "This card is suitable for consumers who frequently spend on healthcare, pharmacy, wellness, and Apollo-related services and want rewards on everyday lifestyle categories as well."
+      },
+      {
+        "q": "Does Apollo SBI Card offer discounts on Apollo services?",
+        "a": "Yes, cardholders can avail up to 10% instant discount on select Apollo services as per applicable offers."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.19,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Lifestyle Benefits": 3.0,
+      "branded Benefits": 3.5,
+      "rewards": 3.0,
+      "lifestyle_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBI Card suited for dining, groceries & movies users.",
+    "pros": [
+      "Welcome reward points worth Rs. 500 on joining fee payment",
+      "Complimentary Apollo Gold Tier Membership",
+      "3X rewards on Apollo services",
+      "2X rewards on dining, entertainment, and wellness spends",
+      "Annual fee waiver on yearly spends of Rs. 1 Lakh"
+    ],
+    "cons": [
+      "Lower reward rate on general spends",
+      "Fuel surcharge waiver is capped at Rs. 100 per month",
+      "Benefits are more suitable for Apollo ecosystem loyalists"
+    ],
+    "best_for_whom": "SBI Card customers seeking dining, groceries & movies rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 10,000+",
+    "verdict": "option from SBI Card suited for dining, groceries & movies users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.19,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBI Card Dining, Groceries & Movies cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹100,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium-High",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_swiggy_ornge_hdfc_credit_card",
+      "card_name": "Swiggy Ornge HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "swiggy-ornge-hdfc-bank-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.25,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.25/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "axis_bank_ace_credit_card",
+      "card_name": "Axis Bank ACE Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-ace-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.26,
+      "reason": "Top-rated Cashback card in market with rating 4.26/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-extra-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Extra Cashback",
+      "summary": "Up to Rs 1500 Extra Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Instant Discount",
+      "summary": "Up to Rs 1500 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 5,000 Instant Discount",
+      "summary": "Up to Rs 5,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1-000-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs. 1,000 Cashback.",
+      "summary": "Up to Rs. 1,000 Cashback.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to RS 5000 Instant Discount",
+      "summary": "Up to RS 5000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-16-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 16,000 Instant Discount",
+      "summary": "Up to Rs 16,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_hdfc_bank_money_back_credit_cards",
+    "card_name": "HDFC MoneyBack Credit Card – Suitable for New to Credit Customers",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "hdfc-moneyback-credit-card-suitable-for-new-to-credit-customers",
+    "card_network": "RuPay",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Fuel",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/hdfc-moneyback-credit-card-suitable-for-new-to-credit-customers.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#337BB8",
+      "secondary_hex": "#4251BD",
+      "wash_hex": "#E2EAEF",
+      "soft_bg_hex": "#EDF3F9",
+      "border_hex": "#D2E2EF",
+      "ink_on_soft_hex": "#2B679A",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Manage%20Your%20Credit%20Cards%20PDFs/MITC%201.64.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 25000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "customers",
+      "entry",
+      "fd",
+      "for",
+      "fuel",
+      "hdfc",
+      "level",
+      "moneyback",
+      "new",
+      "secured",
+      "suitable",
+      "to"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 0.33,
+    "accelerated_reward_rate_pct": 0.67,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "2 reward points for every Rs. 150 spent across all categories",
+      "4 reward points per Rs. 150 spent on online transactions",
+      "1 reward point is equal to Rs. 0.20, i.e., 100 reward points are equivalent to Rs. 20 cashback",
+      "A minimum balance of 2,500 reward points is required to redeem reward points against the statement balance",
+      "The points will be converted into cashback only in multiples of 500",
+      "You want to earn rewards that can be converted into cashback"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.67,
+      "amazon_flipkart_myntra": 0.33,
+      "dining_swiggy_zomato": 0.33,
+      "groceries_quick_commerce": 0.33,
+      "travel_flights_hotels": 0.33,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.8,
+      "offline_general_other": 0.33
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": []
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from HDFC Bank suited for cashback users.",
+    "highlights": [
+      "2 reward points for every Rs. 150 spent across all categories",
+      "4 reward points per Rs. 150 spent on online transactions",
+      "1 reward point is equal to Rs. 0.20, i.e., 100 reward points are equivalent to Rs. 20 cashback",
+      "A minimum balance of 2,500 reward points is required to redeem reward points against the statement balance",
+      "The points will be converted into cashback only in multiples of 500"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "How can I apply for HDFC MoneyBack Credit Card?",
+        "a": "+- You can apply for HDFC MoneyBack Credit Card via both online and offline modes. If you want to apply offline, then you can visit the nearest branch of the bank to fill out the application form. However, to apply online, you can visit the official website of HDFC Bank."
+      },
+      {
+        "q": "What is HDFC MoneyBack Credit Card Limit?",
+        "a": "+- The credit limit is decided by the bank on several factors, such as credit score, annual income and cardholder’s age. It is disclosed only after applying for the credit card. Once you apply for the credit card and your application is approved, the bank will communicate the credit limit to you."
+      },
+      {
+        "q": "How can I redeem HDFC MoneyBack Credit Card reward points into cash?",
+        "a": "+- You can redeem your earned reward points into cash via internet banking. Under the redemption portal after logging in, you will see an option of converting reward points into cash. You can click on that to redeem your reward points against cashback. The cash credit is usually credited within 7 working days."
+      },
+      {
+        "q": "What is the interest-free period offered on HDFC MoneyBack Credit Card?",
+        "a": "+- The bank offers an interest-free credit period of up to **50 days** on HDFC MoneyBack Credit Card. The interest-free period is offered from the date of purchase and subject to the submission of charge by the merchant."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.22,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for cashback users.",
+    "pros": [
+      "Targeted rewards structure backed by HDFC Bank",
+      "Backed by HDFC Bank digital card controls, EMI conversion & merchant offers"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from HDFC Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.22,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HDFC Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "indian_bank_indian_bank_bharat_credit_card",
+      "card_name": "Indian Bank Bharat Credit Card",
+      "bank": "Indian Bank",
+      "bank_slug": "indian-bank",
+      "card_slug": "indian-bank-bharat-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.43,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Super-Premium with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "icici_bank_accelero_credit_card",
+      "card_name": "ICICI Bank Accelero Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-accelero-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 3.68,
+      "reason": "Direct competitor from ICICI Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_first_bank_hello_cashback_credit_card",
+      "card_name": "Hello Cashback Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "hello-cashback-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.16,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.16/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Top-rated Cashback card in market with rating 4.82/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 25000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": "The applicant must fulfill the below-mentioned eligibility criteria to apply for HDFC MoneyBack Credit Card:"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

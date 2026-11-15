@@ -1,0 +1,739 @@
+{
+  "identity": {
+    "card_id": "bobcard_assam_rifles_sentinel_credit_card",
+    "card_name": "Assam Rifles The SENTINEL BOBCARD",
+    "bank": "BOBCARD (Bank of Baroda)",
+    "bank_slug": "bobcard-bank-of-baroda",
+    "card_slug": "assam-rifles-the-sentinel-bobcard",
+    "card_network": "RuPay",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Airport Lounge",
+      "Lifetime Free",
+      "RuPay & UPI",
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/assam-rifles-the-sentinel-bobcard.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#9B8750",
+      "secondary_hex": "#782122",
+      "wash_hex": "#EFEBE2",
+      "soft_bg_hex": "#F6F4EF",
+      "border_hex": "#E9E5D8",
+      "ink_on_soft_hex": "#73643B",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.bobcard.co.in/credit-cards",
+    "mitc_pdf_url": "https://media.bobcard.co.in//media/4qfbv2ka/bobcard-one-mitc-5.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "BOBCARD (Bank of Baroda) — Bobcard Lounge Blog",
+        "url": "https://www.bobcard.co.in/blogs/choose-the-best-credit-card-for-lounge-access",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "RuPay Credit Card Airport Lounge Access Directory",
+        "url": "https://www.rupay.co.in/",
+        "source_type": "official_network_page"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "assam",
+      "bank",
+      "baroda",
+      "bobcard",
+      "cashback",
+      "dining",
+      "free",
+      "fuel",
+      "groceries",
+      "lifetime",
+      "lifetime-free",
+      "lounge",
+      "ltf",
+      "miles",
+      "movies",
+      "of",
+      "online",
+      "rifles",
+      "rupay",
+      "scan-and-pay",
+      "sentinel",
+      "shopping",
+      "the",
+      "travel",
+      "upi",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 2.5,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X, i.e. 10 reward points on every Rs. 100 spent on departmental stores and movies, capped at 1,000 points per month",
+      "2 reward points on every Rs. 100 spent on other spending categories, including UPI",
+      "1 reward point = Rs. 0.25",
+      "Base reward rate of 2 reward points per Rs. 100 on monthly spends made on 5X rewards categories after reaching the capping of 1,000 points",
+      "Fuel spends, wallet loading transactions and other select MCCs are excluded from rewards program",
+      "500 reward points on making Rs. 5,000 card spends within 60 days of card issuance"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 2.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "dining_swiggy_zomato": 250,
+      "groceries_quick_commerce": 250
+    },
+    "monthly_capping_rules": [
+      "5X, i.e. 10 reward points on every Rs. 100 spent on departmental stores and movies, capped at 1,000 points per month",
+      "Base reward rate of 2 reward points per Rs. 100 on monthly spends made on 5X rewards categories after reaching the capping of 1,000 points"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Fuel transactions (reward points excluded)",
+      "Wallet loads"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "2 reward points on every Rs. 100 spent on other spending categories, including UPI",
+        "Base reward rate of 2 reward points per Rs. 100 on monthly spends made on 5X rewards categories after reaching the capping of 1,000 points",
+        "500 reward points on making Rs. 5,000 card spends within 60 days of card issuance"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Rs. 20,000 in previous quarter",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "8 complimentary domestic airport lounge visits/year (2/quarter) subject to Rs. 20,000 spend in previous quarter"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "page_bobcard_lounge_blog",
+        "title": "BOBCARD (Bank of Baroda) — Bobcard Lounge Blog",
+        "url": "https://www.bobcard.co.in/blogs/choose-the-best-credit-card-for-lounge-access",
+        "secondary_url": null,
+        "source_type": "official_bank_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "page_rupay_lounge_directory",
+        "title": "RuPay Credit Card Airport Lounge Access Directory",
+        "url": "https://www.rupay.co.in/",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agartala",
+        "lounge_name": "Airport Agartala Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Silver Lounge-International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "Airport Allahabad / Prayagraj Zesto Execustive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ayodhya",
+        "lounge_name": "Kailash Parbat",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bagdogra",
+        "lounge_name": "International Airport Bagdogra Take off Bar",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 International Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Arrival",
+        "terminal": "Arrival Terminal 2",
+        "terminal_type": "International/ Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 1",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 2",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - East",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "Raja Bhoj Bhopal Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge A",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kochi",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "International Airport Coimbatore BlackBerry Restaurant & Bar",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "Mohanbari Dibrugarh Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Mopa)",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "Airport Gwalior Paahun Executive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "International Airport Jaipur The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "Airport Jammu Paahun - The Executive Lounge and Restaurant",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Budweiser",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "International Madurai Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Mandarin Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 1 (T1D)",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "Birsa Munda Ranchi The Airr Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "Paahun The Executive Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      }
+    ],
+    "participating_lounges_count": 44
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.49,
+    "apr_annual_pct": 41.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from BOBCARD (Bank of Baroda) suited for travel & miles users with 8 domestic lounge visits/yr.",
+    "highlights": [
+      "5X, i.e. 10 reward points on every Rs. 100 spent on departmental stores and movies, capped at 1,000 points per month",
+      "2 reward points on every Rs. 100 spent on other spending categories, including UPI",
+      "1 reward point = Rs. 0.25",
+      "Base reward rate of 2 reward points per Rs. 100 on monthly spends made on 5X rewards categories after reaching the capping of 1,000 points",
+      "Fuel spends, wallet loading transactions and other select MCCs are excluded from rewards program"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "2 reward points on every Rs. 100 spent on other spending categories, including UPI",
+      "Base reward rate of 2 reward points per Rs. 100 on monthly spends made on 5X rewards categories after reaching the capping of 1,000 points",
+      "500 reward points on making Rs. 5,000 card spends within 60 days of card issuance"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "5X, i.e. 10 reward points on every Rs. 100 spent on departmental stores and movies, capped at 1,000 points per month"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.57,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from BOBCARD (Bank of Baroda) suited for travel & miles users with 8 domestic lounge visits/yr.",
+    "pros": [
+      "Lifetime Free card with zero annual fee commitment",
+      "8 complimentary domestic airport lounge visits/year",
+      "RuPay network supports Scan & Pay merchant UPI transactions"
+    ],
+    "cons": [
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "Lifetime Free option from BOBCARD (Bank of Baroda) suited for travel & miles users with 8 domestic lounge visits/yr."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.57,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around BOBCARD (Bank of Baroda) Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "5X, i.e. 10 reward points on every Rs. 100 spent on departmental stores and movies, capped at 1,000 points per month"
+    ],
+    "optimization_tips": [
+      "Focus spends on groceries & quick-commerce (2.5% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "bobcard_indian_coast_guard_rakshamah_credit_card",
+      "card_name": "Indian Coast Guard Rakshamah BOBCARD Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "indian-coast-guard-rakshamah-bobcard-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Direct competitor from ICICI Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.07/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "bobcard-bank-of-baroda-get-instant-discount-up-to-600-get-instant-d",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Get Instant Discount Up to ₹600 Get Instant Discount Up to ₹600 on Air India Express u",
+      "summary": "New Get Instant Discount Up to ₹600 Get Instant Discount Up to ₹600 on Air India Express using Visa BOBCARD Valid till: 30-11-2026 Copy code : VISAFLY",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/travel/get-instant-discount-up-to-600-on-air-india-express",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-flat-4000-off-on-yatra-flat-4000-off-on-yat",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Flat ₹4000 Off on Yatra Flat ₹4000 Off on Yatra using Visa Infinite Credit Card Valid",
+      "summary": "New Flat ₹4000 Off on Yatra Flat ₹4000 Off on Yatra using Visa Infinite Credit Card Valid till: 31-01-2027 Copy code : VISAINFINITE",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/travel/flat-4000-off-on-yatra",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-500-off-on-lifestyle-500-off-on-order-value",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "₹500 Off on Lifestyle ₹500 off on order value ₹2499 and above on RuPay BOBCARD Valid t",
+      "summary": "New ₹500 Off on Lifestyle ₹500 off on order value ₹2499 and above on RuPay BOBCARD Valid till: 31-07-2027 Copy code : RUPAYINS500",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/fashion-and-beauty/500-off-on-lifestyle",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-50-discount-in-making-charge-in-diamond-jewe",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "50% discount in making charge in diamond jewellery 50% discount in making charge in di",
+      "summary": "New 50% discount in making charge in diamond jewellery 50% discount in making charge in diamond jewellery on RuPay BOBCARD Valid till: 31-07-2027 Copy code : RUPAYSENCODIA",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/fashion-and-beauty/50-discount-in-making-charge-in-diamond-jewellery",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-flat-175-off-on-swiggy-instamart-offer-valid",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Flat ₹175 Off on Swiggy Instamart Offer valid on Friday, Saturday & Sunday | Till 27th",
+      "summary": "New Flat ₹175 Off on Swiggy Instamart Offer valid on Friday, Saturday & Sunday | Till 27th Dec 2026 Valid till: 27-12-2026 Copy code : BOBCARD75",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/grocery/flat-75-off-on-swiggy-instamart",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-bobcard-instant-merchant-discounts-fuel-d",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "BOBCARD Instant Merchant Discounts & Fuel / Dining Offers",
+      "summary": "Seasonal 10% instant discounts on Amazon, Flipkart, JioMart & utility payments alongside unlimited/tiered domestic lounge perks on Eterna & Tiara.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.bobcard.co.in/offers",
+      "scope": "targeted"
+    }
+  ]
+}

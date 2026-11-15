@@ -1,0 +1,45 @@
+{
+  "bank": "Tamilnad Mercantile Bank",
+  "bank_slug": "tamilnad-mercantile-bank",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_cards": 2,
+  "ltf_count": 2,
+  "rupay_upi_count": 0,
+  "domestic_lounge_count": 0,
+  "international_lounge_count": 0,
+  "railway_lounge_count": 0,
+  "golf_count": 0,
+  "zero_or_low_forex_count": 0,
+  "with_image_count": 2,
+  "official_lounge_programs": [],
+  "cards": [
+    {
+      "card_id": "tamilnad_mercantile_bank_platinum_credit_card",
+      "card_name": "TMB Platinum Credit Card",
+      "card_slug": "tmb-platinum-credit-card",
+      "primary_category": "Lifetime Free",
+      "card_network": "Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.31,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/tamilnad-mercantile-bank/tmb-platinum-credit-card.webp",
+      "json_file": "tmb-platinum-credit-card.json",
+      "md_file": "tmb-platinum-credit-card.md"
+    },
+    {
+      "card_id": "tamilnad_mercantile_bank_titanium_credit_card",
+      "card_name": "TMB Titanium Credit Card",
+      "card_slug": "tmb-titanium-credit-card",
+      "primary_category": "Lifetime Free",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.31,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/tamilnad-mercantile-bank/tmb-titanium-credit-card.webp",
+      "json_file": "tmb-titanium-credit-card.json",
+      "md_file": "tmb-titanium-credit-card.md"
+    }
+  ]
+}

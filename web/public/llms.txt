@@ -1,0 +1,20 @@
+# Cards by cogify (card.cogify.me)
+
+> A product of [cogify.me](https://cogify.me) — independent Indian credit card intelligence engine: math-first reward rates, monthly cap deductions, airport & railway lounge access, golf privileges, MITC charges, pro community optimization tips, and 2024–2026 issuer devaluation tracking.
+
+## Core Pages
+- [Home](https://card.cogify.me/): Overview of 506 active Indian credit cards across 38 banks, issuer filters, LTF & no-spend lounge shortcuts, and top editorial picks.
+- [All Cards Directory](https://card.cogify.me/cards): Search and filter all active Indian credit cards by annual fee, RuPay UPI, zero/low forex, CIBIL, income, golf, and lounge access.
+- [Category Study Tables](https://card.cogify.me/categories): Side-by-side live comparison study tables and playbook tricks across 18 verticals (Insurance, Utilities, Cashback, Travel & Miles, Lounge, Fuel, Dining, Groceries, RuPay UPI, Zero Forex, Shopping, Gold, Entry Level).
+- [12-Category Cashback Calculator](https://card.cogify.me/calculator): Compute post-cap, post-forex, post-GST annual INR value and airmiles/hotel conversion potential across custom monthly spends.
+- [Personalized Card Advisor & 2-Card Combo Builder](https://card.cogify.me/advisor): Rank eligible cards by monthly salary/ITR, CIBIL score, and fee-waiver fit, plus optimize two-card wallet pairs.
+- [Airport Lounge, Railway Lounge & Golf Directory](https://card.cogify.me/lounges): Terminal-wise Indian airport lounge index, spend conditions, golf clubs, and No-Spend lounge cards.
+- [Airport Lounge QR Claim Guide & Portal Mapping](https://card.cogify.me/lounges/guide): Portal-to-terminal directory (LoungeOne.ai, HOI LMS, TFS, Priority Pass fees inside India) and 4-step cardless QR entry steps.
+- [Devaluation Tracker (2024–2026)](https://card.cogify.me/devaluations): Issuer risk scores, reward/lounge cut timelines, and per-card devaluation alert summaries.
+- [Side-by-Side Card Comparison](https://card.cogify.me/compare): Compare up to 3 Indian credit cards across fees, real return %, lounges, eligibility, and pros/cons.
+- [Credit Card Issuers](https://card.cogify.me/banks): Directory of active Indian credit card issuers and official bank lounge/MITC links.
+- [Bank Helplines, L1/L2/L3 PNO & RBI Escalation](https://card.cogify.me/help): 24x7 customer care numbers, card blocking helplines, L1 support, L2 Nodal Officers, L3 Principal Nodal Officers (PNO), and Governance emails for all 38 Indian issuers.
+
+## Canonical URL Formats
+- Card Dossier: `https://card.cogify.me/<bank-slug>/<card-slug>` (e.g., `https://card.cogify.me/hdfc-bank/hdfc-infinia-metal-edition-credit-card`, `https://card.cogify.me/hsbc-bank/hsbc-live-credit-card`)
+- Bank Helpline & PNO Escalation Desk: `https://card.cogify.me/help/<bank-slug>` (e.g., `https://card.cogify.me/help/hdfc-bank`, `https://card.cogify.me/help/sbi-card`)

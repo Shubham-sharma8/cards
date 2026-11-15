@@ -1,0 +1,696 @@
+{
+  "identity": {
+    "card_id": "punjab_national_bank_pnb_easemytrip_credit_card",
+    "card_name": "PNB EMT RuPay Platinum Credit Card",
+    "bank": "Punjab National Bank",
+    "bank_slug": "punjab-national-bank",
+    "card_slug": "pnb-emt-rupay-platinum-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Premium",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "RuPay & UPI"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/punjab-national-bank/pnb-emt-rupay-platinum-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#154970",
+      "secondary_hex": "#223181",
+      "wash_hex": "#DFE4E6",
+      "soft_bg_hex": "#EAEFF2",
+      "border_hex": "#CCD7E0",
+      "ink_on_soft_hex": "#154970",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.pnbcard.in/credit_card.html",
+    "mitc_pdf_url": "https://pnbcard.in/PDF/MITC.PDF",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "RuPay Credit Card Airport Lounge Access Directory",
+        "url": "https://www.rupay.co.in/",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 1,000 - 2,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "emt",
+      "lounge",
+      "miles",
+      "national",
+      "platinum",
+      "pnb",
+      "punjab",
+      "rupay",
+      "scan-and-pay",
+      "travel",
+      "upi"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "10% off up to Rs. 1,000 on domestic flight bookings via EaseMyTrip1",
+      "10% off up to Rs. 5,000 on international flight bookings through EaseMyTrip1",
+      "20% off up to Rs. 5,000 on domestic hotel bookings via EaseMyTrip1",
+      "20% off up to Rs. 10,000 on international hotel bookings via EaseMyTrip1",
+      "300+ Reward Points on card activation",
+      "10% off up to Rs. 5,000 on international flight bookings made via EaseMyTrip"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 2000,
+      "annual_fee_inr": 2000,
+      "annual_fee_with_gst_inr": 2360.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Welcome Voucher worth Rs. 3,000: Flights Rs. 500, Hotels Rs. 1,000, Holidays Rs. 1,500",
+        "Annual fee will be waived off on spending min. Rs. 1 Lakh in the previous year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 4,
+      "visits_per_quarter": 1,
+      "spend_criteria": "See issuer T&C",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "Complimentary domestic airport lounge visits"
+    },
+    "international": {
+      "program": "RuPay Platinum",
+      "visits_per_year": 2,
+      "spend_criteria": "See issuer T&C",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "Complimentary international airport lounge visits"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "page_rupay_lounge_directory",
+        "title": "RuPay Credit Card Airport Lounge Access Directory",
+        "url": "https://www.rupay.co.in/",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agartala",
+        "lounge_name": "Airport Agartala Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Silver Lounge-International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "Airport Allahabad / Prayagraj Zesto Execustive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ayodhya",
+        "lounge_name": "Kailash Parbat",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bagdogra",
+        "lounge_name": "International Airport Bagdogra Take off Bar",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 International Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Arrival",
+        "terminal": "Arrival Terminal 2",
+        "terminal_type": "International/ Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 1",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 2",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - East",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "Raja Bhoj Bhopal Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge A",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kochi",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "International Airport Coimbatore BlackBerry Restaurant & Bar",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "Mohanbari Dibrugarh Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Mopa)",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "Airport Gwalior Paahun Executive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "International Airport Jaipur The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "Airport Jammu Paahun - The Executive Lounge and Restaurant",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Budweiser",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "International Madurai Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Mandarin Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 1 (T1D)",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "Birsa Munda Ranchi The Airr Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "Paahun The Executive Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      }
+    ],
+    "participating_lounges_count": 44
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 2000,
+    "annual_fee_inr": 2000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 2.95,
+    "apr_annual_pct": 35.89,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 1,000",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from Punjab National Bank suited for rupay & upi users.",
+    "highlights": [
+      "10% off up to Rs. 1,000 on domestic flight bookings via EaseMyTrip1",
+      "10% off up to Rs. 5,000 on international flight bookings through EaseMyTrip1",
+      "20% off up to Rs. 5,000 on domestic hotel bookings via EaseMyTrip1"
+    ],
+    "welcome_benefit": "Welcome Voucher worth Rs. 3,000: Flights Rs. 500, Hotels Rs. 1,000, Holidays Rs. 1,500",
+    "milestone_benefits": [
+      "Welcome Voucher worth Rs. 3,000: Flights Rs. 500, Hotels Rs. 1,000, Holidays Rs. 1,500",
+      "Annual fee will be waived off on spending min. Rs. 1 Lakh in the previous year"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Insurance coverage of up to Rs. 2 Lakh for accidental death and personal total disability"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You travel frequently travel and want to avail a card that offers airport lounge visits",
+      "You often book hotel tickets via EaseMyTrip and want to save on your bookings",
+      "You can spend Rs. 1 Lakh in a year to waive off the annual fee"
+    ],
+    "faqs": [
+      {
+        "q": "What are the welcome benefits of the PNB EMT RuPay Platinum Credit Card?",
+        "a": "On activation, this card offers a welcome voucher worth Rs. 3,000 split across flights (Rs. 500), hotels (Rs. 1,000), and holidays (Rs. 1,500), along with 300+ reward points credited to your account immediately after card issuance."
+      },
+      {
+        "q": "How can I save on flight and hotel bookings using this card?",
+        "a": "You get 10% off up to Rs. 1,000 on domestic flights and 10% off up to Rs. 5,000 on international flights via EaseMyTrip. Hotel discounts include 20% off up to Rs. 5,000 domestically and 20% off up to Rs. 10,000 internationally."
+      },
+      {
+        "q": "Does the PNB EMT RuPay Platinum Credit Card provide lounge access?",
+        "a": "Yes, the card offers complimentary access to both domestic and international airport lounges, making it ideal for frequent travellers."
+      },
+      {
+        "q": "How can the annual fee be waived for this card?",
+        "a": "The annual fee of Rs. 2,000 plus taxes can be waived if you spend a minimum of Rs. 1 Lakh in the previous year, making it cost-effective for frequent travelers with high annual spending."
+      },
+      {
+        "q": "Are there any insurance benefits with this credit card?",
+        "a": "Yes, cardholders receive insurance coverage of up to Rs. 2 Lakh for accidental death and personal total disability, providing financial protection alongside travel perks and discounts."
+      },
+      {
+        "q": "Who should consider getting the PNB EMT RuPay Platinum Credit Card?",
+        "a": "This card is best suited for consumers who frequently travel, book flights, hotels, or holidays through EaseMyTrip, want airport lounge access, and can meet the spending requirement to avail fee waivers."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.33,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Lounge Access": 3.0,
+      "Welcome Benefits": 2.5,
+      "travel": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Punjab National Bank suited for rupay & upi users.",
+    "pros": [
+      "Up to Rs. 10,000 on international hotel bookings via EaseMyTrip",
+      "Complimentary domestic and international airport lounge visits",
+      "10% off up to Rs. 5,000 on international flight bookings made via EaseMyTrip"
+    ],
+    "cons": [
+      "No reward points on any categories",
+      "Does not offer lifestyle related benefits",
+      "High forex markup fee"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "option from Punjab National Bank suited for rupay & upi users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.33,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Punjab National Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "csb_bank_edge_plus_csb_rupay_credit_card",
+      "card_name": "Edge+ CSB Bank RuPay Credit Card",
+      "bank": "CSB Bank",
+      "bank_slug": "csb-bank",
+      "card_slug": "edge-csb-bank-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.26,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+      "card_name": "YES BANK PaisaSave Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-paisasave-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from YES BANK at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "amex_bank_membership_rewards_credit_card",
+      "card_name": "American Express Membership Rewards® Credit Card",
+      "bank": "American Express",
+      "bank_slug": "american-express",
+      "card_slug": "american-express-membership-rewards-credit-card",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.12,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.12/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_phonepe_ultimo_credit_card",
+      "card_name": "PhonePe HDFC Bank Ultimo Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "phonepe-hdfc-bank-ultimo-credit-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.62,
+      "reason": "Top-rated Cashback card in market with rating 4.62/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

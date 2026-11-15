@@ -1,0 +1,509 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_irctc_hdfc_bank_credit_card",
+    "card_name": "IRCTC HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "irctc-hdfc-bank-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/irctc-hdfc-bank-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#3D7DAE",
+      "secondary_hex": "#4B5BB4",
+      "wash_hex": "#E3EAED",
+      "soft_bg_hex": "#EEF3F8",
+      "border_hex": "#D4E2ED",
+      "ink_on_soft_hex": "#336992",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC IRCTC Executive Railway Lounge List",
+        "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/irctc-credit-card/lounge.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "HDFC Bank — Dreamfolks Hdfc Irctc",
+        "url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
+        "source_type": "official_partner_page"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 15000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "hdfc",
+      "irctc",
+      "miles",
+      "railway",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5 reward points per Rs. 100 spent on Rail Connect app and IRCTC website",
+      "1 reward point on every Rs. 100 spent on all other categories",
+      "Redeem reward points against train bookings through the SmartBuy portal at a value of 1 Reward Point = Rs. 1",
+      "Additional 5% cashback on booking IRCTC train tickets using HDFC Bank SmartBuy",
+      "1% transaction charges are waived off on IRCTC website and app, capped at Rs. 1,000 in a month",
+      "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 250 in a month"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 5.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "travel_flights_hotels": 1000,
+      "fuel": 250
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": 150000,
+      "monthly_spend_for_waiver_inr": 12500,
+      "milestone_slabs": [
+        "1% transaction charges are waived off on IRCTC website and app, capped at Rs. 1,000 in a month",
+        "Gift voucher of Rs. 500 on activating the card within 30 days of card issuance",
+        "Gift voucher worth Rs. 500 on spending Rs. 30,000 in a quarter",
+        "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 250 in a month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "summary": "8 complimentary visits/year to select IRCTC Executive Railway Lounges (max 2 per quarter)"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "hdfc_irctc_railway",
+        "title": "HDFC IRCTC Executive Railway Lounge List",
+        "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/irctc-credit-card/lounge.pdf",
+        "secondary_url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 12,
+        "local_pdf_path": "data/raw/lounges/pdfs/hdfc_irctc_railway.pdf"
+      },
+      {
+        "program_id": "page_dreamfolks_hdfc_irctc",
+        "title": "HDFC Bank — Dreamfolks Hdfc Irctc",
+        "url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
+        "secondary_url": null,
+        "source_type": "official_partner_page",
+        "parsed_lounges_count": 12,
+        "local_pdf_path": null
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agra",
+        "lounge_name": "| 1 | Agra Cantonment Railway Station | Executive Lounge | Platform 1 | Near Cloak Room | Agra | India | Railways Lounge | Operational |",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "| 5 | Bhopal Railway Station | The Stuti Luxury Lounge | Platform 1 | Main entrance of first floor | Bhopal | India | Railways Lounge | Oper",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "| 6 | Chennai Central Railway Station | Executive Lounge | Platform 6 -7 | Concourse Area Near Platform No - 6 & 7, opposite Apollo Pharmacy",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "| 7 | Old Delhi Railway Station | IRCTC Lounge | Platform 5 | Near Gate No.2, Towards entry for Platform no. 5 from Chandni Chowk side, Near",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "| 9 | Jaipur Railway Station | IRCTC Executive Lounge | Platform 1 | Platform number 1, First AC waiting room Near by Lift | Jaipur | India ",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "| 10 | Sealdah Railway Station | IRCTC Executive Lounge | Platform 8 | Metro Exit & Entry gate Near Enquiry Counter | Kolkata | India | Rail",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Agra",
+        "lounge_name": "Executive Lounge",
+        "terminal": "Platform 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "The Stuti Luxury Lounge",
+        "terminal": "Platform 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "Executive Lounge",
+        "terminal": "Platform 6 -7",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "IRCTC Lounge",
+        "terminal": "Platform 5",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "IRCTC Executive Lounge",
+        "terminal": "Platform 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "IRCTC Executive Lounge",
+        "terminal": "Platform 8",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      }
+    ],
+    "participating_lounges_count": 12
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 150000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "IRCTC HDFC Bank Credit Card is a co-branded travel credit card designed for frequent travellers who prefer to travel by train and make bookings through IRCTC. Cardholders can earn 5% value back through reward points on train ticket bookings via IRCTC, along with an additional 5% cashback on IRCTC bookings made through the SmartBuy portal. > Your credit card doesn’t have airport lounge benefits?",
+    "highlights": [
+      "5 reward points per Rs. 100 spent on Rail Connect app and IRCTC website",
+      "1 reward point on every Rs. 100 spent on all other categories",
+      "Redeem reward points against train bookings through the SmartBuy portal at a value of 1 Reward Point = Rs. 1"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1% transaction charges are waived off on IRCTC website and app, capped at Rs. 1,000 in a month",
+      "Gift voucher of Rs. 500 on activating the card within 30 days of card issuance",
+      "Gift voucher worth Rs. 500 on spending Rs. 30,000 in a quarter",
+      "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 250 in a month"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "Additional 5% cashback on booking IRCTC train tickets using HDFC Bank SmartBuy",
+      "5X rewards & 5% cashback on IRCTC train ticket bookings",
+      "Redemption of rewards against train ticket bookings at a 1:1 ratio"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently travel via train and prefer to make bookings through IRCTC",
+      "You want to earn reward points on railway ticket bookings and other everyday spends",
+      "You prefer redeeming accumulated reward points for train ticket bookings to maximize benefits"
+    ],
+    "faqs": [
+      {
+        "q": "Does IRCTC HDFC Bank Credit Card offer an annual fee waiver?",
+        "a": "Yes, IRCTC HDFC Bank Credit Card charges an annual fee of Rs. 500. You can avail annual fee waiver by spending Rs. 1.5 Lakh in a year."
+      },
+      {
+        "q": "What is the eligibility criteria for IRCTC HDFC Credit Card?",
+        "a": "To apply for this credit card, your age must be between 21 and 65 years. Besides this, if you are a salaried individual, you must have a monthly income of Rs. 15,000. For self-employed individuals, the annual income requirement is Rs. 6 LPA."
+      },
+      {
+        "q": "Does IRCTC HDFC Bank Credit Card offer a transaction charge waiver for train ticket bookings?",
+        "a": "Yes, you can avail 1% transaction charge waiver for ticket bookings made through the IRCTC website and app. The maximum waiver you can avail in a month is Rs. 1,000."
+      },
+      {
+        "q": "How can I apply for IRCTC HDFC Credit Card?",
+        "a": "You can apply for this card online by visiting the official website of HDFC Bank and navigating to the card page. You are required to fill out the application form and attach all the relevant documents while applying for the card. If you wish to apply offline, you can visit the nearest HDFC Bank branch and submit the application form in person."
+      },
+      {
+        "q": "Can I earn reward points on UPI spends with IRCTC HDFC Bank Credit Card?",
+        "a": "Yes, IRCTC HDFC Bank Credit Card is also available on the RuPay network. Therefore, you can link this credit card to a UPI app and earn rewards on UPI spends as well."
+      },
+      {
+        "q": "Does IRCTC HDFC Credit Card offer lounge access benefits?",
+        "a": "Yes, HDFC Bank Credit Card offers 8 complimentary visits to select IRCTC Executive Lounges every year, with a maximum of 2 visits per quarter."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.67,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.0,
+      "branded Benefits": 3.5,
+      "travel": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for travel & miles users.",
+    "pros": [
+      "5X rewards & 5% cashback on IRCTC train ticket bookings",
+      "Complimentary railway lounge visits every year",
+      "Redemption of rewards against train ticket bookings at a 1:1 ratio"
+    ],
+    "cons": [
+      "Low reward rate on non-IRCTC spends",
+      "No complimentary airport lounge access",
+      "Limited benefits for those who do not frequently travel by train"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from HDFC Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.67,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HDFC Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Focus spends on flights & hotel bookings (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹150,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "csb_bank_edge_plus_csb_rupay_credit_card",
+      "card_name": "Edge+ CSB Bank RuPay Credit Card",
+      "bank": "CSB Bank",
+      "bank_slug": "csb-bank",
+      "card_slug": "edge-csb-bank-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.26,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+      "card_name": "YES BANK PaisaSave Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-paisasave-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from YES BANK at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "axis_bank_axis_bank_cashback_credit_card",
+      "card_name": "Axis Bank Cashback Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-cashback-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.2,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.2/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "sbi_bank_flipkart_sbi_credit_card",
+      "card_name": "Flipkart SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "flipkart-sbi-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.24,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.24/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 15000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "To apply for this credit card, your age must be between 21 and 65 years. Besides this, if you are a salaried individual, you must have a monthly income of Rs. 15,000. For self-employed individuals, the annual income requirement is Rs. 6 LPA."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "card_id": "csb_bank_edge_plus_csb_rupay_credit_card",
+    "card_name": "Edge+ CSB Bank RuPay Credit Card",
+    "bank": "CSB Bank",
+    "bank_slug": "csb-bank",
+    "card_slug": "edge-csb-bank-rupay-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "RuPay & UPI",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/csb-bank/edge-csb-bank-rupay-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#C5262B",
+      "secondary_hex": "#C96F36",
+      "wash_hex": "#F4E0DE",
+      "soft_bg_hex": "#FAEBEC",
+      "border_hex": "#F2CFD0",
+      "ink_on_soft_hex": "#B82428",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.csb.bank.in/credit-card",
+    "mitc_pdf_url": "https://www.csb.bank.in/pdf/edge-csb-bank-ruPay-credit-card-mitc_2025.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "csb",
+      "edge",
+      "lifetime-free",
+      "ltf",
+      "miles",
+      "online",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "travel",
+      "upi",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "10% cashback on top shopping brands such as Amazon, Flipkart, Myntra, Tata Cliq, Ajio, Nykaa, Croma, Reliance Digital, Trent Retail / Tata Retail, Reliance Retail (Category capped at Rs. 1,500 per month, Merchant capped at Rs. 500 per month)1",
+      "5% cashback on top travel brands like MakeMyTrip, Yatra, EazeMyTrip, and ClearTrip",
+      "1% cashback on all online & offline spends, capped at Rs. 1,000 per month",
+      "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 3,000, capped at Rs. 100 every month",
+      "10% cashback on top shopping brands",
+      "5% cashback on top travel brands"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 10.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 5.0,
+      "upi_scan_and_pay": 1.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "amazon_flipkart_myntra": 1500,
+      "travel_flights_hotels": 1000,
+      "online_shopping_general": 1000,
+      "upi_scan_and_pay": 1000
+    },
+    "monthly_capping_rules": [
+      "10% cashback on Amazon/Flipkart/Myntra/Tata/Reliance shopping brands (category cap Rs. 1,500/mo, Rs. 500/merchant); 5% on top travel OTAs (cap Rs. 1,000/mo); 1% on general/UPI spends (cap Rs. 1,000/mo)."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1% cashback on all online & offline spends, capped at Rs. 1,000 per month",
+        "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 3,000, capped at Rs. 100 every month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free via Jupiter app",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver on Rs. 400–Rs. 3,000 (max Rs. 100/mo)",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "5% of the outstanding amount due, subject to a minimum of Rs. 250 and a maximum of Rs. 2,000"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Edge+ CSB Bank RuPay Credit Card is a cashback-focused credit card that offers rewards across shopping, travel, and everyday spends. It offers 10% cashback on select major retail and e-commerce brands like Amazon, Flipkart, Myntra, Tata Cliq, Ajio, Nykaa, Croma, and Reliance Digital, with monthly caps (category cap of Rs. 1,500 and merchant cap of Rs. 500). It also offers 5% cashback on travel bookings through platforms such as MakeMyTrip, Yatra, EaseMyTrip, and Cleartrip, and 1% cashback on all other online and offline spends, capped at Rs. 1,000 per month.",
+    "highlights": [
+      "10% cashback on top shopping brands such as Amazon, Flipkart, Myntra, Tata Cliq, Ajio, Nykaa, Croma, Reliance Digital, Trent Retail / Tata Retail, Reliance Retail (Category capped at Rs. 1,500 per month, Merchant capped at Rs. 500 per month)1",
+      "5% cashback on top travel brands like MakeMyTrip, Yatra, EazeMyTrip, and ClearTrip",
+      "1% cashback on all online & offline spends, capped at Rs. 1,000 per month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1% cashback on all online & offline spends, capped at Rs. 1,000 per month",
+      "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 3,000, capped at Rs. 100 every month"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Personal accident and total permanent disability cover up to Rs. 2 Lakh"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for an entry-level card that offers cashback on your day-to-day spends",
+      "You shop frequently via Amazon, Flipkart, Myntra, Tata Cliq, Ajio, Nykaa, Croma, Reliance Digital, Trent Retail / Tata Retail, and Reliance Retail, and want to save on them",
+      "You travel often and want to own a card that offers cashback on top travel brands such as MakeMyTrip, Yatra, EazeMyTrip, and ClearTrip"
+    ],
+    "faqs": [
+      {
+        "q": "What is the cashback on this card, and how does it work?",
+        "a": "Edge+ CSB Bank RuPay Credit Card offers 10% cashback on select shopping brands (Amazon, Flipkart, Myntra, Tata Cliq, Ajio, Nykaa, Croma, Reliance Digital, etc.). This is capped at Rs. 1,500 per month for the category and Rs. 500 per merchant. It also offers 5% cashback on travel bookings and 1% cashback on all other eligible spends."
+      },
+      {
+        "q": "Is there any annual fee on this card?",
+        "a": "No, the annual fee is nil. However, there is a one-time joining fee of Rs. 999 + taxes."
+      },
+      {
+        "q": "What are the fuel benefits on this card?",
+        "a": "It offers a 1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 3,000, with a maximum benefit of Rs. 100 per month."
+      },
+      {
+        "q": "Are there any monthly limits on cashback earnings?",
+        "a": "Yes. The 10% shopping cashback is capped at Rs. 1,500 per month overall, with a sub-limit of Rs. 500 per merchant. The 1% general cashback on all spends is capped at Rs. 1,000 per month. The 5% travel cashback follows the same eligible partner platforms but does not have a separate high-value unlimited structure."
+      },
+      {
+        "q": "Do offline spends also earn rewards on this card?",
+        "a": "Yes, the card offers 1% cashback on both online and offline transactions, as long as the spend is eligible."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.26,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Cashback": 3.0,
+      "Online Shopping": 3.0,
+      "travel": 3.0,
+      "cashback": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from CSB Bank suited for rupay & upi users.",
+    "pros": [
+      "Entry-level credit card with zero annual fee",
+      "10% cashback on top shopping brands",
+      "5% cashback on top travel brands",
+      "1% cashback on all online & offline spends"
+    ],
+    "cons": [
+      "No complimentary airport lounge visit"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "option from CSB Bank suited for rupay & upi users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.26,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around CSB Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "10% cashback on Amazon/Flipkart/Myntra/Tata/Reliance shopping brands (category cap Rs. 1,500/mo, Rs. 500/merchant); 5% on top travel OTAs (cap Rs. 1,000/mo); 1% on general/UPI spends (cap Rs. 1,000/mo)."
+    ],
+    "optimization_tips": [
+      "Focus spends on Amazon/Flipkart/Myntra checkouts (10.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbi_bank_phonepe_purple_credit_card",
+      "card_name": "PhonePe SBI Card PURPLE",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "phonepe-sbi-card-purple",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.18,
+      "reason": "Direct competitor from SBI Card at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_fd_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-fd-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.28,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.28/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.28/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

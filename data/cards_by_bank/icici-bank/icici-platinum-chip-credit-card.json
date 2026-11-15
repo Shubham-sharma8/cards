@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "card_id": "icici_bank_icici_platinum_chip_visa_credit_cards",
+    "card_name": "ICICI Platinum Chip Credit Card",
+    "bank": "ICICI Bank",
+    "bank_slug": "icici-bank",
+    "card_slug": "icici-platinum-chip-credit-card",
+    "card_network": "Visa",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Lifetime Free",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/icici-bank/icici-platinum-chip-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#A28A49",
+      "secondary_hex": "#607AA9",
+      "wash_hex": "#EFECE1",
+      "soft_bg_hex": "#F7F4EF",
+      "border_hex": "#EBE5D7",
+      "ink_on_soft_hex": "#736234",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+    "mitc_pdf_url": "https://www.icicibank.com/managed-assets/docs/personal/cards/mitc_cc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "chip",
+      "credit",
+      "dining",
+      "free",
+      "groceries",
+      "icici",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "miles",
+      "movies",
+      "platinum",
+      "travel",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "6X to 12X reward points on travel spends via iShop",
+      "2 Reward Points: On retail spends",
+      "1 Reward Point: On insurance and utility payments",
+      "Monthly Capping: Reward points earnings are capped on utility spends of Rs. 40,000, insurance spends of Rs. 40,000, and grocery and departmental store purchases worth Rs. 20,000.",
+      "Rewards Redemption: Card users can redeem their reward points on ICICI Bank Rewards platform against lifestyle products, travel and movie vouchers, and other options available in the catalogue.",
+      "1% fuel surcharge waiver is available at HPCL petrol pumps on fuel transactions worth Rs. 400 to Rs. 4,000"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 3.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Monthly Capping: Reward points earnings are capped on utility spends of Rs. 40,000, insurance spends of Rs. 40,000, and grocery and departmental store purchases worth Rs. 20,000."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Monthly Capping: Reward points earnings are capped on utility spends of Rs. 40,000, insurance spends of Rs. 40,000, and grocery and departmental store purchases worth Rs. 20,000.",
+        "Rewards Redemption: Card users can redeem their reward points on ICICI Bank Rewards platform against lifestyle products, travel and movie vouchers, and other options available in the catalogue.",
+        "1% fuel surcharge waiver is available at HPCL petrol pumps on fuel transactions worth Rs. 400 to Rs. 4,000"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 100 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "ICICI Platinum Chip is a **lifetime-free entry-level credit card** , ideal for individuals who are beginning their credit journey. With **no joining or annual fee** , this card can be used to build up your credit profile while earning reward points on every card spend, including utility bills and insurance payments. Cardholders can earn **2X rewards on retail purchases** , making it a suitable choice to save on everyday purchases. Moreover, the card provides a **1% fuel surcharge waiver** and **exclusive dining discounts** which add to the overall value-back.",
+    "highlights": [
+      "6X to 12X reward points on travel spends via iShop",
+      "2 Reward Points: On retail spends",
+      "1 Reward Point: On insurance and utility payments"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Monthly Capping: Reward points earnings are capped on utility spends of Rs. 40,000, insurance spends of Rs. 40,000, and grocery and departmental store purchases worth Rs. 20,000.",
+      "Rewards Redemption: Card users can redeem their reward points on ICICI Bank Rewards platform against lifestyle products, travel and movie vouchers, and other options available in the catalogue.",
+      "1% fuel surcharge waiver is available at HPCL petrol pumps on fuel transactions worth Rs. 400 to Rs. 4,000"
+    ],
+    "dining_benefits": [
+      "Dining discount offers across a wide range of restaurants"
+    ],
+    "movie_benefits": [
+      "Rewards Redemption: Card users can redeem their reward points on ICICI Bank Rewards platform against lifestyle products, travel and movie vouchers, and other options available in the catalogue.",
+      "No accelerated benefits on popular lifestyle-related categories, like travel, shopping, movies, etc."
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "1 Reward Point: On insurance and utility payments",
+      "Monthly Capping: Reward points earnings are capped on utility spends of Rs. 40,000, insurance spends of Rs. 40,000, and grocery and departmental store purchases worth Rs. 20,000."
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are new to credit and are looking for an entry-level card to build your credit profile",
+      "You prefer to get a basic rewards credit card, over a cashback one",
+      "You want a card without any annual fee"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for ICICI Platinum Chip Credit Card?",
+        "a": "You can apply for this credit card through both online and offline modes. To apply online through Issuer / Market, you can simply enter your mobile number in the form available on this page and carry out the application process, or you can also visit the official bank website. Apart from this, you can visit any of the nearest branches of ICICI bank to apply offline."
+      },
+      {
+        "q": "I don’t have a credit score, so can I apply for ICICI Platinum Chip Credit Card?",
+        "a": "Yes, people who do not have a credit score or are new to the credit journey can apply for this credit card. This is an entry-level credit card that is designed for people who want to avail basic benefits without any annual fees."
+      },
+      {
+        "q": "I have a salary account with ICICI Bank. Can I get ICICI Platinum Chip Credit Card?",
+        "a": "Yes, anyone can apply for this credit card regardless of whether you have an account with the bank or not."
+      },
+      {
+        "q": "I have already applied for ICICI Platinum Chip Credit Card. How can I check the application status?",
+        "a": "You can check the application status through online and offline modes. You can visit the official website of the bank and check the application status by entering your application number. Apart from this, you can also call on the ICICI Credit Card customer care number and ask the representative about the application status."
+      },
+      {
+        "q": "What is the cash advance fee charged on ICICI Platinum Chip Credit Card?",
+        "a": "The bank charges a cash advance fee of 2.5% of the transacted amount or a minimum of Rs. 500 on every such transaction made using ICICI Platinum Chip Credit Card. In addition to this fee, an interest rate of 3.75% per month (45% per annum) is also applicable on the withdrawn amount from the date of cash withdrawal till the full repayment of card dues. Therefore, it is advisable not to withdraw cash using a credit card as it incurs high charges."
+      },
+      {
+        "q": "What is the forex markup on ICICI Platinum Chip Credit Card?",
+        "a": "ICICI Platinum Chip Credit Card charges a 3.5% forex markup fee on foreign currency transactions. Applicable taxes are charged over and above the forex markup."
+      },
+      {
+        "q": "Does ICICI Platinum Chip Credit Card offer a fuel surcharge waiver?",
+        "a": "Yes. ICICI Platinum Chip Credit Card offers a 1% fuel surcharge waiver on eligible fuel transactions at HPCL petrol pumps. The eligible transaction amount is Rs. 400 to Rs. 4,000 per transaction."
+      },
+      {
+        "q": "Does ICICI Platinum Chip Credit Card give rewards on UPI payments?",
+        "a": "No, currently ICICI Plaitnum Chip Credit Card is not available on the RuPay network. Therefore, no reward points will be offered on UPI transactions."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.42,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 2.5,
+      "Dining Benefits": 2.5,
+      "rewards": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from ICICI Bank suited for travel & miles users.",
+    "pros": [
+      "Up to 2X rewards earnings on card spends",
+      "Dining discount offers across a wide range of restaurants"
+    ],
+    "cons": [
+      "Low reward rate",
+      "No accelerated benefits on popular lifestyle-related categories, like travel, shopping, movies, etc."
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "Lifetime Free option from ICICI Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.42,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around ICICI Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Monthly Capping: Reward points earnings are capped on utility spends of Rs. 40,000, insurance spends of Rs. 40,000, and grocery and departmental store purchases worth Rs. 20,000."
+    ],
+    "optimization_tips": [
+      "Focus spends on flights & hotel bookings (3.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "High",
+    "devaluation_risk_score": 7,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Heavy 2024 Rs. 75k/qtr lounge spend cuts + Nov 2026 insurance/INOX cuts across Core/Sapphiro; ONLY Amazon Pay & EPM stay strong."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "icici-bank-up-to-75-off-on-tax-filing-plans-and-service",
+      "bank": "ICICI Bank",
+      "title": "Up to 75% off on tax filing plans and services",
+      "summary": "Up to 75% off on tax filing plans and services.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.icicibank.com/offers/categories/credit-card",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "icici-bank-20-off-on-all-tax-related-services",
+      "bank": "ICICI Bank",
+      "title": "20% off on all tax related services",
+      "summary": "20% off on all tax related services",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.icicibank.com/offers/categories/credit-card",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "icici-bank-ishop-travel-portal-instant-merchant-discou",
+      "bank": "ICICI Bank",
+      "title": "iShop Travel Portal & Instant Merchant Discounts",
+      "summary": "Accelerated rewards up to 12X/6X via ICICI iShop flights & hotels, plus 10% instant discount across Amazon, Flipkart & MakeMyTrip.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.icicibank.com/offers/categories/credit-card",
+      "scope": "targeted"
+    }
+  ]
+}

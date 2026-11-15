@@ -1,0 +1,1069 @@
+{
+  "identity": {
+    "card_id": "hsbc_bank_live_plus_credit_card",
+    "card_name": "HSBC Live+ Credit Card",
+    "bank": "HSBC Bank",
+    "bank_slug": "hsbc-bank",
+    "card_slug": "hsbc-live-credit-card",
+    "card_network": "Visa Platinum",
+    "card_tier": "Entry-to-Mid",
+    "primary_category": "Dining, Groceries & Movies",
+    "categories": [
+      "Dining, Groceries & Movies",
+      "Cashback",
+      "Zero/Low Forex"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-live-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#AF3C47",
+      "secondary_hex": "#3C77AC",
+      "wash_hex": "#F1E2E1",
+      "soft_bg_hex": "#F8EDEE",
+      "border_hex": "#EDD4D7",
+      "ink_on_soft_hex": "#A93A45",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hsbc.bank.in/credit-cards/",
+    "mitc_pdf_url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-cards/live-plus-credit-card-services-guide.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HSBC India Airport Lounge List & Terms",
+        "url": "https://www.hsbc.bank.in/content/dam/hsbc/in/documents/lounge-list-tnc.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "HSBC Bank — Hsbc Lounge Page",
+        "url": "https://www.hsbc.bank.in/credit-cards/airport-lounge-access-credit-card/",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "HSBC Bank — Hsbc Travelone Lk",
+        "url": "https://www.loungekey.com/en/hsbctravelone",
+        "source_type": "official_partner_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": true,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Households spending up to Rs. 12,000",
+      "mo on dining",
+      "groceries (incl. offline D-Mart",
+      "supermarkets)",
+      "Zomato",
+      "Swiggy"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "forex",
+      "groceries",
+      "hsbc",
+      "live",
+      "lounge",
+      "low",
+      "low-forex",
+      "movies",
+      "zero"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Direct Statement Cashback",
+    "base_reward_rate_pct": 1.5,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "10% cashback on Dining, Food Delivery, Groceries (incl. Blinkit/Zepto/Swiggy/Zomato/D-Mart), Eligible Shopping (excl. Amazon & Flipkart) & Utility Bill Payments — combined cap Rs. 1,200/month (Rs. 12,000 monthly spend)",
+      "1.5% UNLIMITED cashback on Amazon, Flipkart & other eligible domestic retail spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 10.0,
+      "amazon_flipkart_myntra": 1.5,
+      "dining_swiggy_zomato": 10.0,
+      "groceries_quick_commerce": 10.0,
+      "travel_flights_hotels": 1.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 10.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -0.85,
+      "offline_general_other": 1.5
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 1200,
+      "dining_swiggy_zomato": 1200,
+      "groceries_quick_commerce": 1200,
+      "utilities_bills_telecom": 1200
+    },
+    "monthly_capping_rules": [
+      "10% cashback across dining, food delivery, groceries, eligible shopping (excl. Amazon & Flipkart) & utility bills (MCC 4900) — combined shared cap of Rs. 1,200/month (up to Rs. 12,000 monthly spend); 1.5% uncapped after cap or on Amazon/Flipkart/travel.",
+      "r/CreditCardsIndia caveat: Direct govt/state electricity boards billed under MCC 9399 yield 0%/1.5%; pay via Paytm/Airtel/Amazon Pay utility channels (MCC 4900) where eligible."
+    ],
+    "category_caveats": {
+      "dining_swiggy_zomato": "10% across Dining, Food Delivery, Groceries & Eligible Shopping (₹1,200/mo combined cap; ₹12,000 spend)",
+      "groceries_quick_commerce": "10% across Zepto/Blinkit/Instamart/DMart & Dining (₹1,200/mo combined cap; 1.5% after)",
+      "amazon_flipkart_myntra": "1.5% base cashback directly on Amazon, Flipkart & Myntra (excluded from 10% tier)",
+      "utilities_bills_telecom": "10% eligible utility MCC (shared ₹1,200/mo cap) or route via Zepto Apay Gift Cards → Amazon Pay",
+      "insurance": "0% direct insurer MCC — Pro Hack: buy Amazon Pay Gift Cards on Zepto (10% up to ₹1,200/mo) → pay via Amazon Pay / Policybazaar"
+    },
+    "excluded_categories": [
+      "Amazon & Flipkart excluded from 10% tier (earn 1.5% base). Nov 2026 devaluation: 1.5% international cashback discontinued, Hospitals (MCC 8062) & Local Transport (MCC 4111) excluded; fuel, rent, wallet, govt & insurance excluded"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 999,
+      "annual_fee_inr": 999,
+      "annual_fee_with_gst_inr": 1178.82,
+      "fee_waiver_spend_inr": 200000,
+      "monthly_spend_for_waiver_inr": 16667,
+      "milestone_slabs": [
+        "Rs. 250 cashback on contactless fuel spends above Rs. 10,000 per quarter",
+        "1,000 cashback on downloading and logging in to the HSBC India Mobile Banking app and spending Rs. 25,000 within the first 30 days of card issuance",
+        "Voucher worth Rs. 750 for Amazon Pay, Zomato and Swiggy on activating the card and making a single transaction of Rs. 300 or more",
+        "Amazon eGift voucher worth Rs. 250 on applying online, verifying by video and receiving of the card"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 2,
+      "visits_per_quarter": 1,
+      "spend_criteria": "No spend criteria (cut in Nov 2026 from 4/yr to 2/yr max 1 per 6 months!)",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "2 complimentary domestic lounges/year (max 1 per 6 months, updated Nov 2026)"
+    },
+    "international": {
+      "program": "LoungeKey / Diners",
+      "visits_per_year": 1,
+      "spend_criteria": "See issuer T&C",
+      "add_on_allowed": false,
+      "guest_fee": "USD 27+GST (typical Priority Pass)",
+      "summary": "It also offers 1 complimentary international airport lounge visit every year."
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": true,
+    "applicable_lounge_links": [
+      {
+        "program_id": "hsbc_lounge_tnc",
+        "title": "HSBC India Airport Lounge List & Terms",
+        "url": "https://www.hsbc.bank.in/content/dam/hsbc/in/documents/lounge-list-tnc.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 7,
+        "local_pdf_path": "data/raw/lounges/pdfs/hsbc_lounge_tnc.pdf"
+      },
+      {
+        "program_id": "page_hsbc_lounge_page",
+        "title": "HSBC Bank — Hsbc Lounge Page",
+        "url": "https://www.hsbc.bank.in/credit-cards/airport-lounge-access-credit-card/",
+        "secondary_url": null,
+        "source_type": "official_bank_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "visa_india_lounges",
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 99,
+        "local_pdf_path": "data/raw/lounges/pdfs/visa_india_lounges.pdf"
+      },
+      {
+        "program_id": "page_visa_lounge_offer",
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "page_hsbc_travelone_lk",
+        "title": "HSBC Bank — Hsbc Travelone Lk",
+        "url": "https://www.loungekey.com/en/hsbctravelone",
+        "secondary_url": null,
+        "source_type": "official_partner_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Calicut",
+        "lounge_name": "Bird Lounge Calicut Airport Calicut Terminal 1 Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hsbc_lounge_tnc"
+      },
+      {
+        "city": "Dehradun",
+        "lounge_name": "Bird Lounge Jolly Grant Airport Dehradun Terminal 1 Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hsbc_lounge_tnc"
+      },
+      {
+        "city": "Vadodara",
+        "lounge_name": "Premium Lounge Vadodara Airport Vadodara",
+        "terminal": "",
+        "terminal_type": "Domestic",
+        "source_program_id": "hsbc_lounge_tnc"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "Primus Lounge Agartala Airport Agartala",
+        "terminal": "",
+        "terminal_type": "Domestic",
+        "source_program_id": "hsbc_lounge_tnc"
+      },
+      {
+        "city": "Allahabad",
+        "lounge_name": "Zesto Lounge Allahabad Airport Allahabad Terminal 1 Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hsbc_lounge_tnc"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "Executive Lounge Jammu Airport Jammu Terminal 1 Departure",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hsbc_lounge_tnc"
+      },
+      {
+        "city": "Visakhapatnam",
+        "lounge_name": "Airr Lounge Visakhapatnam Airport Visakhapatnam",
+        "terminal": "",
+        "terminal_type": "Domestic",
+        "source_program_id": "hsbc_lounge_tnc"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "1 Agartala Airport Agartala Primus Lounge IXA1 Domestic Domestic Terminal Airside - Domestic Departures, Ground Level, after Security Hold A",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "2 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD01 Domestic Terminal 1 Terminal 1 (Near Boarding Gate No. 1) 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "3 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Silver Lounge-International AMD02 International Terminal 2 Terminal 2 Depar",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "4 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD04 Domestic Terminal 2 Terminal 2 Departure area First Floor 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "5 Prayagraj Airport Allahabad / Prayagraj Zesto Execustive Lounge IXD Domestic Domestic Terminal Airside - Prayagraj Airport, Domestic Depar",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "9 Sri Guru Ram Dass Jee International Airport Amritsar Primus Lounge ATQ Domestic NA Airside - Domestic Departures. After Security Checks pr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "10 Sri Guru Ram Dass Jee International Airport Amritsar The Airr Lounge ATQ6 International International Terminal Airside - International De",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "13 Kempegowda International Airport Bengaluru 080 Domestic Lounge BLR9 Domestic Terminal 2 Airside - Domestic and in transit Departures. Aft",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "14 Kempegowda International Airport Bengaluru 080 International Lounge BLR10 International Terminal 2 Airside - International Departures. Af",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "15 Kempegowda International Airport Bengaluru 080 Arrival BLR12 International/ Domestic Arrival Terminal 2 Landside - Ground Level, Arrivals",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "16 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 1 BLR101 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "17 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 2 BLR102 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "18 Kempegowda International Airport Bengaluru 080 Domestic Lounge - East BLR104 Domestic Terminal 1 Domestic Departure Terminal 1, Opposite ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "19 Bhopal Raja Bhoj Bhopal Primus Lounge BHO Domestic Domestic Terminal Airside - Domestic Departures, Level 1, after Security Hold Area. 24",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "20 Chandigarh International Airport Chandigarh Primus Lounge IXC6 Domestic Domestic Terminal Airside - Domestic Departures. After Security H",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "24 Chennai International Airport Chennai Travel Club Lounge - T2 Terminal MAA02 International Terminal 1 New International Departure,Termina",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "26 Cochin International Airport Cochin Travel Club Lounge COK2 International Terminal 3",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "27 Cochin International Airport Cochin Travel Club Lounge COK1 Domestic Terminal 1 2nd Floor, Domestic Security Holding Area 04:00 - 23:30 d",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "29 Dibrugarh Mohanbari Dibrugarh Primus Lounge DIB Domestic NA Airside: Dibrugarh airport, SHA, 1st floor, opposite gate 3 and 4 24 hours da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "30 Manohar International Airport Goa Encalm Lounge GOX01 International Terminal 1 Encalm Lounge Dom T1 Departure, Level 2 24 Hours",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "31 Manohar International Airport Goa Encalm Lounge GOX02 Domestic Terminal 1 Encalm Lounge Dom T1 Departure, Level 2 24 Hours",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "32 Goa International Airport - Dabolim Goa Travel Club Lounge Domestic GOI01 Domestic Terminal 1 Domestic Departure, After SHA, 2nd Floor, o",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "33 Goa International Airport - Dabolim Goa Travel Club Lounge International GOI02 International Terminal 1 Domestic Departure, After SHA, 2n",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "Guwahati The Lounge GAU01 Domestic Terminal 1 GROUND FLOOR, AFTER SECURITY CHECK 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "Guwahati The Lounge GAU02 Domestic Terminal 1 1ST FLOOR, AFTER SECURITY CHECK 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "36 Gwalior Airport Gwalior Paahun Executive Lounge GWL Domestic Domestic Terminal Airside - Domestic Departures. 1st Floor. 06:00 - 08:00 da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "37 Rajiv Gandhi International Airport Hyderabad Encalm Lounge HYD01 Domestic Terminal 1 Encalm Lounge Domestic T1 Departure, Encalm Hospital",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "38 Rajiv Gandhi International Airport Hyderabad Encalm Lounge HYD02 International Terminal 1 Encalm Lounge International T1 Departure, Encal",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "39 Devi Ahilya Bai Holkar Airport Indore Primus Lounge IDR Domestic NA Airside - After Security Checks proceed to the 1st Floor. 24 hours da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "40 Jaipur International Airport Jaipur The Lounge JAI01 Domestic Terminal 2 In-Front of M1 gate, near KFC 24Hrs",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "IXJ Domestic Domestic Terminal Airside - Jammu Airport Domestic Departures. The lounge is located on the 1st Floor, near Gate 5. 06:30 - 21:",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "42 Kannur International Kannaur Pearl Lounge Domestic CNN Domestic Domestic Terminal Airside - after Security Hold Area 108, near Gate 1A. 1",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "43 Kannur International Kannaur Pearl Lounge International CNN1 International International Terminal Airside - After Security Hold Area 113,",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "44 Netaji Subhas Chandra Bose International Airport Kolkata Travel Club Lounge Domestic CCU01 Domestic Terminal 1 Mezzanine floor, after sec",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "46 Netaji Subhas Chandra Bose International Airport Kolkata Travel Club Lounge Annex Domestic CCU03 Domestic Terminal 1 Mezzanine floor, aft",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "48 Chaudhary Charan Singh International Airport Lucknow Adani Lounge LKO01 Domestic Terminal 3 Domestic Departure hall ; Zone- Airside after",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "50 Madurai International Madurai Primus Lounge IXM1 International NA Airside - Madurai Airport, After Security Hold Area, 1st Floor, near th",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Travel Club BOM01 Domestic Terminal 1C T1 DEPARTURE | OPPOSITE GATE NO 22 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Adani Lounge BOM02 Domestic Terminal 1B T1 DEPARTURE | FIRST FLOOR OPPOSITE TO MACDONALD 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Travel Club BOM04 Domestic Terminal 2 Near Gate 44 Post SHA T2 DEPARTURE| NEAR BY STARBUCKS 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Aviserv East Lounge BOM07 Arrival Terminal 2 Next to Exit Gate-”A”, & Gate \"C\".Level P-6 Arrival 24Hrs",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Aviserv West Lounge BOM08 Arrival Terminal 2 Next to Exit Gate-”A”, & Gate \"C\".Level P-6 Arrival 24Hrs",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "58 Dr. Ambedkar International Airport Nagpur Mandarin Lounge NAG3 Domestic NA Landside - Domestic Departures, before Security Checks, 1st Fl",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "59 Dr. Ambedkar International Airport Nagpur The Airr Lounge NAG5 Domestic Domestic Terminal Airside - Domestic Departures, 1st Floor, near ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "60 Indira Gandhi International Airport New Delhi Encalm Lounge DEL01 Domestic Terminal 1 Encalm Lounge Dom T1 Departure, Mezzanine level 24 ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "61 Indira Gandhi International Airport New Delhi Encalm Lounge DEL02 Domestic Terminal 1 Encalm lounge Dom t2 Departure, Mezzanine level 24 ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "62 Indira Gandhi International Airport New Delhi Encalm Lounge DEL03 Domestic Terminal 3 Encalm Lounge Dom T3 Departure, Mezzanine level 24 ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "63 Indira Gandhi International Airport New Delhi Encalm Lounge DEL04 International Terminal 3 Encalm Lounge Intl T3 Departure, Mezzanine lev",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "64 Indira Gandhi International Airport New Delhi Encalm Lounge DEL05 Domestic Terminal 3 Encalm Lounge Dom T3 Arrival, Ground level, Arrival",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "65 Pune International Airport Pune Elysian Lounge PNQ3 Domestic New Integrated Bldg",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "66 Ranchi Birsa Munda Ranchi The Airr Lounge IXR2 Domestic Terminal 1 Airside - Domestic Departures. After Security Hold Area, Level 1, near",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "67 Sheikh Ul-Alam International Airport Srinagar Paahun The Executive Lounge SXR1 International Terminal 1 Airside - 1st Floor, near Gate 1.",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "68 Thiruvananthapuram International Airport Thiruvananthapuram The Lounge TRV01 International Terminal 2 ZONE AIRSIDE,1st floor, gate 6 & 7 ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "69 Thiruvananthapuram International Airport Thiruvananthapuram The Lounge TRV02 Domestic Terminal 1 ZONE AIRSIDE, SHA Domestic Termal Airsid",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Tiruchirappalli",
+        "lounge_name": "70 Tiruchirappalli International Airport Tiruchirappalli O’Vetra Domestic Departure Lounge TRZ1 Domestic Terminal 1 Airside - Domestic Depar",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Vadodara",
+        "lounge_name": "72 Vadodara Airport Vadodara Premium Lounge BDQ1 Domestic NA Airside - after Security Checks, the lounge is located on the 1st Floor. 06:00 ",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Raipur",
+        "lounge_name": "75 Swami Vivekanada Airport Raipur The Airr Lounge RPR1 Domestic Terminal 1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "78 Navi Mumbai International Airport Navi Mumbai Adani Lounge NMI01 Domestic Domestic Terminal Airside - (After security check) , Domestic D",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Patna",
+        "lounge_name": "80 Jayaprakash Narayan Patna Uttham Lounge PAT1 Domestic Main Terminal Airside - Departures,After security checks,1st Floor 06:00 - 23:00 da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "2 Prayagraj Airport Allahabad / Prayagraj Zesto Execustive Lounge IXD Domestic Domestic Terminal Airside - Prayagraj Airport, Domestic Depar",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "5 Sri Guru Ram Dass Jee International Airport Amritsar Primus Lounge ATQ Domestic NA Airside - Domestic Departures. After Security Checks pr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "7 Kempegowda International Airport Bengaluru 080 Domestic Lounge BLR9 Domestic Terminal 2 Airside - Domestic and in transit Departures. Afte",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "8 Bhopal Raja Bhoj Bhopal Primus Lounge BHO Domestic Domestic Terminal Airside - Domestic Departures, Level 1, after Security Hold Area. 24 ",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "9 Chandigarh International Airport Chandigarh Primus Lounge IXC6 Domestic Domestic Terminal Airside - Domestic Departures. After Security Ho",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "10 Cochin International Airport Cochin Travel Club COK1 Domestic Terminal 1 2nd Floor, Domestic Security Holding Area 24 hours daily",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "12 Dibrugarh Mohanbari Dibrugarh Primus Lounge DIB Domestic NA Airside: Dibrugarh airport, SHA, 1st floor, opposite gate 3 and 4 24 hours da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "13 Gwalior Airport Gwalior Paahun Executive Lounge GWL Domestic Domestic Terminal Airside - Domestic Departures. 1st Floor. 06:00 - 08:00 da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "14 Devi Ahilya Bai Holkar Airport Indore Primus Lounge IDR Domestic NA Airside. After Security Checks proceed to the 1st Floor. 24 hours dai",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "16 Kannur International Kannaur Pearl Lounge Domestic CNN Domestic Domestic Terminal Airside - after Security Hold Area 108, near Gate 1A. 1",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "17 Madurai International Madurai Primus Lounge IXM1 International NA Airside - Madurai Airport, After Security Hold Area, 1st Floor, near th",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "18 Dr. Ambedkar International Airport Nagpur Mandarin Lounge NAG3 Domestic NA Landside - Domestic Departures, before Security Checks, 1st Fl",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "19 Dr. Ambedkar International Airport Nagpur The Airr Lounge NAG5 Domestic Domestic Terminal Airside - Domestic Departures, 1st Floor, near ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "20 Pune International Airport Pune Elysian Lounge PNQ3 Domestic New Integrated Bldg",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      }
+    ],
+    "participating_lounges_count": 80
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 999,
+    "annual_fee_inr": 999,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 200000,
+    "joining_fee_waiver": "Rs. 1,000 cashback on Rs. 20k spend in 30 days (app dependent)",
+    "forex_markup_pct": 1.99,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "100% of the minimum payment due (subject to a min. of Rs. 250 & max. Rs. 1,200 per month)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Apart from cashback, HSBC Live+ Credit Card offers several lifestyle and travel benefits, including complimentary domestic & international airport lounge visits, low forex markup fee of 1.99%, dining discounts at 200+ partner restaurants, movie offers and exclusive Visa Infinite privilege. Overall, it can be a suitable option for consumers who want a card offering cashback on everyday spends, along with decent travel and lifestyle privileges.",
+    "highlights": [
+      "10% cashback, up to Rs. 1,200 per month, on food, dining, grocery, shopping and utility bill payments",
+      "Unlimited 1.5% cashback on other spends",
+      "Rs. 250 cashback on contactless fuel spends above Rs. 10,000 per quarter"
+    ],
+    "welcome_benefit": "Multiple welcome benefits worth more than Rs. 3,000",
+    "milestone_benefits": [
+      "Rs. 250 cashback on contactless fuel spends above Rs. 10,000 per quarter",
+      "1,000 cashback on downloading and logging in to the HSBC India Mobile Banking app and spending Rs. 25,000 within the first 30 days of card issuance",
+      "Voucher worth Rs. 750 for Amazon Pay, Zomato and Swiggy on activating the card and making a single transaction of Rs. 300 or more",
+      "Amazon eGift voucher worth Rs. 250 on applying online, verifying by video and receiving of the card"
+    ],
+    "dining_benefits": [
+      "10% cashback, up to Rs. 1,200 per month, on food, dining, grocery, shopping and utility bill payments",
+      "Voucher worth Rs. 750 for Amazon Pay, Zomato and Swiggy on activating the card and making a single transaction of Rs. 300 or more",
+      "Up to 10% off on dining bills at 200+ partner restaurants via Live+ Dining Programme"
+    ],
+    "movie_benefits": [
+      "Buy 1 Get 1 offer on movie tickets, up to Rs. 200 on 2nd ticket via District app by Zomato",
+      "Buy 1 Get 1 offer on cinema tickets (Up to Rs. 200 for 2nd ticket)4, along with 10% off on live events (Up to Rs. 1,000 per month)5 with BookMyShow"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [
+      "24×7 Visa Infinite concierge services"
+    ],
+    "get_this_card_if": [
+      "You spend regularly on food, dining, grocery, shopping and utility bill payments",
+      "You frequently travel and want domestic and international airport lounge access",
+      "You make international transactions and want a credit card with a low forex markup fee",
+      "You are looking a credit card with decent cashback, travel and lifestyle benefits."
+    ],
+    "faqs": [
+      {
+        "q": "What is the cashback rate offered by HSBC Live+ Credit Card?",
+        "a": "HSBC Live+ Credit Card offers 10% cashback on eligible food, dining, grocery, shopping and utility bill payments, up to Rs. 1,200 per month. It also offers unlimited 1.5% cashback on other eligible spends."
+      },
+      {
+        "q": "What is the maximum cashback I can earn on HSBC Live+ Credit Card?",
+        "a": "You can earn up to Rs. 1,200 cashback per month on the eligible 10% cashback categories. In addition, you can earn unlimited 1.5% cashback on other eligible spends."
+      },
+      {
+        "q": "Does HSBC Live+ Credit Card offer airport lounge access?",
+        "a": "Yes. The card offers up to 2 complimentary domestic airport lounge visits per year, with a maximum of 1 visit in six months. It also offers 1 complimentary international airport lounge visit every year."
+      },
+      {
+        "q": "Does HSBC Live+ Credit Card offer movie discounts?",
+        "a": "Yes. Cardholders can avail Buy 1 Get 1 offers on movie and live event tickets through District and BookMyShow as per the applicable terms and conditions."
+      },
+      {
+        "q": "Is HSBC Live+ Credit Card suitable for international travel?",
+        "a": "It can be a suitable option for international travellers as it offers a 1.99% forex markup fee, 1 complimentary international airport lounge visit annually and a complimentary 1GB Global eSIM with discounted top-ups."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.76,
+    "editorial_rating": 4.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Cashback": 4.0,
+      "Dining Benefits": 4.0,
+      "Lifestyle Benefits": 4.0,
+      "travel": 3.0,
+      "cashback": 4.0,
+      "lifestyle_benefits": 4.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Still India's #1 offline + online Dining, Grocery, Shopping & Utility cashback card (10% up to Rs. 1,200/mo + 1.5% unlimited base) even after Nov 2026 lounge trims.",
+    "pros": [
+      "10% cashback on food, dining, grocery, shopping and utility bill payments",
+      "Low forex markup fee of 1.99%",
+      "Complimentary domestic and international airport lounge visits",
+      "Multiple welcome benefits worth more than Rs. 3,000",
+      "Additional travel and lifestyle privileges through Visa Infinite"
+    ],
+    "cons": [
+      "10% cashback is capped at Rs. 1,200 per month",
+      "Low frequency of complimentary international lounge visits",
+      "Limited value to consumers who do not spend significantly on the accelerated cashback categories"
+    ],
+    "best_for_whom": "Households spending up to Rs. 12,000/mo on dining, groceries (incl. offline D-Mart/supermarkets), Zomato, Swiggy, Blinkit, utility bills & eligible shopping plus everyday 1.5% base spends",
+    "not_ideal_for": "Users living in non-HSBC serviceable pincodes, heavy Amazon/Flipkart shoppers wanting >1.5%, or frequent lounge flyers",
+    "recommended_monthly_spend_inr": "Rs. 15,000 – Rs. 40,000",
+    "verdict": "Still India's #1 offline + online Dining, Grocery, Shopping & Utility cashback card (10% up to Rs. 1,200/mo + 1.5% unlimited base) even after Nov 2026 lounge trims."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.92,
+    "reddit_mentions": 10,
+    "sentiment_summary": "Community discussions around HSBC Bank Dining, Groceries & Movies cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "10% cashback across dining, food delivery, groceries, eligible shopping (excl. Amazon & Flipkart) & utility bills (MCC 4900) — combined shared cap of Rs. 1,200/month (up to Rs. 12,000 monthly spend); 1.5% uncapped after cap or on Amazon/Flipkart/travel."
+    ],
+    "optimization_tips": [
+      "Zepto → Amazon Pay Insurance Hack: Buy Amazon Pay Gift Cards on Zepto using HSBC Live+ (codes as Grocery MCC = 10% cashback up to ₹1,200/month on ₹12k spend), add to your Amazon Pay balance, then pay LIC/term/health insurance via Amazon Pay or Policybazaar (choose Amazon Pay wallet) at an effective 10% return.",
+      "Track the shared ₹1,200/month cap: Dining, Swiggy/Zomato food delivery, Blinkit/Zepto/Instamart groceries, DMart, and eligible shopping share one ₹12,000/month 10% pool — excess spends earn 1.5% uncapped.",
+      "Never use directly on Amazon.in, Flipkart, or Myntra for 10% (those drop to 1.5% base); save direct marketplace checkouts for SBI Cashback or Amazon Pay ICICI."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": "2026-11",
+    "devaluation_history": [
+      "2026-11: Domestic lounges cut 4/yr -> 2/yr (1 per 6 months); 1.5% cashback on international spends ended (offset by forex cut 3.5% -> 1.99%); Hospitals & Local Transport excluded"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "indian_overseas_bank_iob_zet_credit_card",
+      "card_name": "IOB ZET Credit Card",
+      "bank": "Indian Overseas Bank",
+      "bank_slug": "indian-overseas-bank",
+      "card_slug": "iob-zet-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.7,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Direct competitor from Federal Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hsbc_bank_rupay_cashback_credit_card",
+      "card_name": "HSBC RuPay Cashback Credit Card",
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "card_slug": "hsbc-rupay-cashback-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.22,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.22/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age Requirement: 25 to 65 Years"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hsbc-bank-enjoy-2x-reward-points-on-newly-launched-appl",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 2X reward points on newly launched Apple products and up to 6X reward points on existing",
+      "summary": "Enjoy 2X reward points on newly launched Apple products and up to 6X reward points on existing Apple products with select HSBC credit cards on purchases via the HSBC Unicorn portal.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-enjoy-5-cashback-up-to-inr15-000-per-calend",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 5% cashback, up to INR15,000 per calendar month, 0% forex mark-up and 0% dynamic currency",
+      "summary": "Enjoy 5% cashback, up to INR15,000 per calendar month, 0% forex mark-up and 0% dynamic currency conversion charges on HSBC RuPay Credit Card international point-of-sale transactions.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-get-up-to-10x-accelerated-reward-points-when",
+      "bank": "HSBC Bank",
+      "title": "Get up to 10X accelerated reward points when you spend over INR10,000",
+      "summary": "Get up to 10X accelerated reward points when you spend over INR10,000.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-enjoy-10-off-up-to-inr-1-000-on-nykaa-beauty",
+      "bank": "HSBC Bank",
+      "title": "Enjoy 10% off up to INR 1,000 on Nykaa Beauty and Nykaa Fashion",
+      "summary": "Enjoy 10% off up to INR 1,000 on Nykaa Beauty and Nykaa Fashion.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "hsbc-bank-live-dining-weekend-merchant-cashback-offe",
+      "bank": "HSBC Bank",
+      "title": "Live+ Dining & Weekend Merchant Cashback Offers",
+      "summary": "Up to 10% accelerated cashback on dining, food delivery & groceries, plus Saturday/Sunday travel and BookMyShow BOGO offers.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hsbc.co.in/credit-cards/offers/",
+      "scope": "targeted"
+    }
+  ]
+}

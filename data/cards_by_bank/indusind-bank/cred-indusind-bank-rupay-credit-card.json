@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+    "card_name": "CRED IndusInd Bank RuPay Credit Card",
+    "bank": "IndusInd Bank",
+    "bank_slug": "indusind-bank",
+    "card_slug": "cred-indusind-bank-rupay-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "RuPay & UPI",
+      "Online Shopping",
+      "Cashback",
+      "Lifetime Free"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/indusind-bank/cred-indusind-bank-rupay-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#C53E26",
+      "secondary_hex": "#C98A36",
+      "wash_hex": "#F4E3DD",
+      "soft_bg_hex": "#FAEEEB",
+      "border_hex": "#F2D5CF",
+      "ink_on_soft_hex": "#B23822",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+    "mitc_pdf_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "cred",
+      "credit",
+      "free",
+      "indusind",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "online",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "upi",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5% cashback on e-commerce shopping via CRED Pay / accelerated online merchants (monthly cap Rs. 1,000)",
+      "1% cashback on offline & RuPay Scan & Pay UPI transactions (monthly cap Rs. 500)",
+      "Fuel, rent, wallet loads & government spends excluded from rewards"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 5.0,
+      "amazon_flipkart_myntra": 2.0,
+      "dining_swiggy_zomato": 1.5,
+      "groceries_quick_commerce": 1.5,
+      "travel_flights_hotels": 2.0,
+      "upi_scan_and_pay": 1.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 1000,
+      "upi_scan_and_pay": 500
+    },
+    "monthly_capping_rules": [
+      "5% cashback on CRED Pay e-commerce checkouts (cap Rs. 1,000/mo); 1% on RuPay UPI & offline retail (cap Rs. 500/mo); fuel/utilities/rent excluded."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Rent payments",
+      "Fuel transactions (reward points excluded)",
+      "Wallet loads",
+      "Government / tax payments"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Fuel Benefit: 1% fuel surcharge waiver, up to Rs. 300 per month, on fuel spends worth Rs. 500 to Rs. 5,000"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.95,
+    "apr_annual_pct": 47.4,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "From Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "From Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 350"
+      },
+      {
+        "statement_balance_slab": "From Rs. 1,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 550"
+      },
+      {
+        "statement_balance_slab": "From Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "From Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "CRED IndusInd Bank RuPay Credit Card** is an **entry-level co-branded card** that offers accelerated value-back on **online and co-branded spends**. Moreover, with **5% value-back** on UPI spends made through CRED app, this credit card manages to hold its place among the cards offering the highest savings on UPI transactions. The rewards on card spends are credited in the form of CRED Points which can later be redeemed against travel bookings or bill payments on CRED app in 1:1 and 2:1 redemption ratios, respectively.",
+    "highlights": [
+      "5 CRED Points: On e-commerce, CRED pay, CRED travel, CRED store and CRED UPI spends",
+      "1 CRED Point: On all other transactions, including UPI Scan & Pay, utilities and insurance spends made on CRED and all international transactions",
+      "5 CRED Points per Rs. 100 spent are capped at 5,000 points per month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Fuel Benefit: 1% fuel surcharge waiver, up to Rs. 300 per month, on fuel spends worth Rs. 500 to Rs. 5,000"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "1 CRED Point: On all other transactions, including UPI Scan & Pay, utilities and insurance spends made on CRED and all international transactions",
+      "Card Liability Cover: Applicable in case of counterfeit fraud or unauthorised transactions due to card loss or theft",
+      "No rewards on UPI, insurance and utility spends made outside CRED app"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You prefer to use CRED app for majority of your purchases and bill payments",
+      "You can maximise your value-back by redeeming CRED Points against travel bookings on CRED in 1:1 ratio",
+      "You want an entry-level RuPay credit card with low annual fee"
+    ],
+    "faqs": [
+      {
+        "q": "Are there any reward redemption charges applicable on CRED IndusInd Bank RuPay Credit Card?",
+        "a": "No, you can redeem the earned CRED Points on CRED app without paying any redemption fee within 24 months of accrual."
+      },
+      {
+        "q": "Can I use CRED IndusInd RuPay Credit Card on UPI apps other than CRED?",
+        "a": "Yes, you can use CRED IndusInd RuPay Credit Card on non-CRED UPI apps like PhonePe, Google Pay, etc. However, you will not accrue any CRED reward points on those transactions. CRED Points on UPI spends are only credited if you use CRED platform to make those payments."
+      },
+      {
+        "q": "Is there any fee waiver condition on CRED IndusInd Bank RuPay Credit Card?",
+        "a": "No, there is no fee waiver facility available on this IndusInd Bank credit card. Even though there is no joining fee charged, you will have to pay an annual fee of Rs. 499 plus taxes."
+      },
+      {
+        "q": "Can I use CRED IndusInd Bank RuPay Credit Card for international purchases?",
+        "a": "Yes, you can make international purchases using this co-branded credit card and earn 1 CRED Point on every Rs. 100 spent. However, a forex mark-up fee of 3.5% will also apply on such spends."
+      },
+      {
+        "q": "Do the accrued CRED Points expire?",
+        "a": "Yes, the earned CRED Points expire after 24 months of their accrual."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.2,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.5,
+      "Online Shopping": 3.5,
+      "branded Benefits": 3.5,
+      "rewards": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IndusInd Bank suited for rupay & upi users.",
+    "pros": [
+      "5% rewards on all online spends without merchant restrictions",
+      "Up to 5% savings on co-branded spends, including UPI transactions",
+      "Up to 1:1 rewards redemption ratio",
+      "No joining fee charged"
+    ],
+    "cons": [
+      "No rewards on UPI, insurance and utility spends made outside CRED app",
+      "Rewards can only be redeemed on CRED app",
+      "No lifestyle benefits beyond the rewards program",
+      "No option to waive off renewal fee"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "option from IndusInd Bank suited for rupay & upi users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.2,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IndusInd Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "5% cashback on CRED Pay e-commerce checkouts (cap Rs. 1,000/mo); 1% on RuPay UPI & offline retail (cap Rs. 500/mo); fuel/utilities/rent excluded."
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low",
+    "devaluation_risk_score": 3,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "utkarsh_bank_utkarsh_supermoney_rupay_credit_card",
+      "card_name": "Utkarsh SuperCard RuPay Credit Card",
+      "bank": "Utkarsh Small Finance Bank",
+      "bank_slug": "utkarsh-small-finance-bank",
+      "card_slug": "utkarsh-supercard-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.1,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "csb_bank_jupiter_edge_csb_rupay_credit_card",
+      "card_name": "Jupiter Edge CSB Bank RuPay Credit Card",
+      "bank": "CSB Bank",
+      "bank_slug": "csb-bank",
+      "card_slug": "jupiter-edge-csb-bank-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.1,
+      "reason": "Direct competitor from CSB Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.82/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "indusind-bank-make-the-most-out-of-your-reward-points-by-us",
+      "bank": "IndusInd Bank",
+      "title": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you",
+      "summary": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you shop.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "indusind-bank-eazydiner-culinary-treats-flight-movie-priv",
+      "bank": "IndusInd Bank",
+      "title": "EazyDiner Culinary Treats & Flight/Movie Privileges",
+      "summary": "Guaranteed dining discounts at EazyDiner partner restaurants, BOGO movie perks via BookMyShow, and zero-markup forex promos on Tiger/Avios.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

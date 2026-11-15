@@ -1,0 +1,1028 @@
+{
+  "identity": {
+    "card_id": "axis_bank_atlas_credit_card",
+    "card_name": "Axis Bank Atlas Credit Card",
+    "bank": "Axis Bank",
+    "bank_slug": "axis-bank",
+    "card_slug": "axis-bank-atlas-credit-card",
+    "card_network": "Visa Infinite",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "Super-Premium"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/axis-bank/axis-bank-atlas-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#6F1D3C",
+      "secondary_hex": "#802E2B",
+      "wash_hex": "#E9DFE0",
+      "soft_bg_hex": "#F2EBED",
+      "border_hex": "#DFCDD4",
+      "ink_on_soft_hex": "#6F1D3C",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.axis.bank.in/cards/credit-card",
+    "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "Axis Bank Airport Lounge Access Program PDF",
+        "url": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-bank-airport-lounge-access-program.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Axis Bank Complimentary Lounge Access Terms & Airport List",
+        "url": "https://www.axis.bank.in/docs/default-source/default-document-library/terms_conditions_complimentary_lounge_access.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Axis Bank — Axis Lounge Page",
+        "url": "https://www.axis.bank.in/cards/credit-card/airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 3,000 - 9,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 100000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Airline flyers redeeming SQ KrisFlyer",
+      "United",
+      "Air India directly from airline & hotel websites with guest lounge access",
+      "Rs. 40,000 – Rs. 1,25,000"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "atlas",
+      "axis",
+      "bank",
+      "card",
+      "credit",
+      "lounge",
+      "miles",
+      "premium",
+      "super",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Axis EDGE Miles",
+    "base_reward_rate_pct": 4.0,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 2.0,
+    "point_value_inr_matrix": {
+      "axis_travel_edge": "** Redeem to book flights, hotels and experiences via Axis Travel EDGE platform in the ratio of **1:1 (1 EDGE mile = Rs. 1)**"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5 EDGE Miles per Rs. 100 on direct airline, hotel & Axis Travel EDGE spends (up to Rs. 2L/mo cap)",
+      "2 EDGE Miles per Rs. 100 on regular eligible retail spends",
+      "1:2 Partner Transfer Ratio (Group A capped 30k EM/yr incl. SQ/United/Air India; Group B 1.2L EM/yr) — Accor REMOVED in 2026 devaluation!"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 4.0,
+      "amazon_flipkart_myntra": 4.0,
+      "dining_swiggy_zomato": 4.0,
+      "groceries_quick_commerce": 4.0,
+      "travel_flights_hotels": 10.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -0.13,
+      "offline_general_other": 4.0
+    },
+    "monthly_category_caps_inr": {
+      "travel_flights_hotels": 20000
+    },
+    "monthly_capping_rules": [
+      "2 EDGE Miles/Rs.100 (~4% Accor / airline partner value at 1:2 Group A transfer) uncapped base; 5 EDGE Miles/Rs.100 (~10% value) on direct airlines/hotels/Travel EDGE up to Rs. 2L spend/month.",
+      "30,000 Group A annual transfer limit/year; excludes utilities, rent, gold, wallet, govt, fuel, insurance."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Gold/jewelry, rent, wallet, utilities, govt, insurance, fuel excluded (per Axis KFS Oct 8, 2026)"
+    ],
+    "transfer_partners": [
+      "Singapore Airlines KrisFlyer",
+      "United",
+      "Air India",
+      "ITC",
+      "Marriott Bonvoy",
+      "Air France-KLM",
+      "Ethiopian"
+    ],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 5000,
+      "annual_fee_inr": 5000,
+      "annual_fee_with_gst_inr": 5900.0,
+      "fee_waiver_spend_inr": 0,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "5 EDGE Miles per Rs. 100 spent on monthly travel spends up to Rs. 2 Lakh",
+        "2 EDGE Miles per Rs. 100 spent across monthly travel spends above Rs. 2 Lakh",
+        "Silver Tier: On spending Rs. 3 Lakh",
+        "Gold Tier: On spending Rs. 7.5 Lakh"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 8,
+      "spend_criteria": "Rs. 5 Lakh in a year",
+      "add_on_allowed": true,
+      "shared_limit": true,
+      "summary": "8 domestic lounges/yr (Spend condition: Rs. 5 Lakh in a year)"
+    },
+    "international": {
+      "program": "Priority Pass / Visa LoungeKey",
+      "visits_per_year": 4,
+      "spend_criteria": "No spend criteria (Silver 4; Gold 6; Platinum 12)",
+      "add_on_allowed": true,
+      "guest_fee": "Counted against annual guest/total quota",
+      "summary": "4 international lounges/yr (Silver) with NO spend criteria"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "axis_lounge_program",
+        "title": "Axis Bank Airport Lounge Access Program PDF",
+        "url": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-bank-airport-lounge-access-program.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 24,
+        "local_pdf_path": "data/raw/lounges/pdfs/axis_lounge_program.pdf"
+      },
+      {
+        "program_id": "axis_lounge_tnc",
+        "title": "Axis Bank Complimentary Lounge Access Terms & Airport List",
+        "url": "https://www.axis.bank.in/docs/default-source/default-document-library/terms_conditions_complimentary_lounge_access.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 9,
+        "local_pdf_path": "data/raw/lounges/pdfs/axis_lounge_tnc.pdf"
+      },
+      {
+        "program_id": "page_axis_lounge_page",
+        "title": "Axis Bank — Axis Lounge Page",
+        "url": "https://www.axis.bank.in/cards/credit-card/airport-lounge-access-credit-card",
+        "secondary_url": null,
+        "source_type": "official_bank_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "visa_india_lounges",
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 99,
+        "local_pdf_path": "data/raw/lounges/pdfs/visa_india_lounges.pdf"
+      },
+      {
+        "program_id": "page_visa_lounge_offer",
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Bengaluru",
+        "lounge_name": "Bengaluru BLR Domestic Lounge Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "Bengaluru 080 Domestic Lounge Domestic Departure T2",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "Chennai Travel Club Lounge A/B Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "Chennai Travel Club Lounge Domestic Departure T4",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Travel Club Lounge Domestic Departure T1c",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Adani Lounge* Domestic Departure T2",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Kolkata Travel Club Lounge Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Hyderabad Encalm Lounge Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "New Delhi Encalm Lounge Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "New Delhi Encalm Lounge Domestic Departure T2",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "New Delhi Encalm Lounge Domestic Departure T3",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Ahmedabad The Lounge Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "Bengaluru BLR Domestic Lounge* Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "Coimbatore Blackberry Lounge Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Dehradun",
+        "lounge_name": "Dehradun Bird Lounge Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "Goa (Manohar International) Encalm Lounge Domestic Departure T1",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "Jaipur The Lounge Domestic Departure T2",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Kochi",
+        "lounge_name": "Kochi Earth Lounge Domestic Departure T1",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Adani Lounge** Domestic Departure T2",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Adani Lounge Domestic Departure T1B",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Vadodara",
+        "lounge_name": "Vadodara Premium Lounge Domestic Departure Main",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "* Olympus, Primus, and Horizon Credit Cards are not eligible for the BLR Domestic Lounge in Bengaluru Domestic",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "Departure T1 . Instead, they are eligible for 080 Domestic Lounge in Bengaluru Domestic Departure T1 .",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "➢ Of this, Chennai T4, Jaipur Adani, and Goa (Manohar International) domestic departure lounges",
+        "terminal": "T4",
+        "terminal_type": "International",
+        "source_program_id": "axis_lounge_program"
+      },
+      {
+        "city": "Calicut",
+        "lounge_name": "Port Lounge, Calicut",
+        "terminal": "",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "13 Cochin Earth Domestic",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "14 Cochin Earth International",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "17 Delhi Plaza premium Domestic T1D",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "18 Delhi Plaza premium Domestic T3",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "19 Delhi Plaza premium(A) International T3",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "20 Delhi Plaza premium(B) International Terminal 3",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "23 Hyderabad Plaza premium Domestic Level E, Domestic Departures, Rajiv Gandhi International Airport (near Gate 28), Hyderabad. Near Gate no",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "24 Hyderabad Plaza premium International Level E, International Departures, Rajiv Gandhi International Airport (near Gate 32 A/B), Hyderabad",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "axis_lounge_tnc"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "1 Agartala Airport Agartala Primus Lounge IXA1 Domestic Domestic Terminal Airside - Domestic Departures, Ground Level, after Security Hold A",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "2 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD01 Domestic Terminal 1 Terminal 1 (Near Boarding Gate No. 1) 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "3 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Silver Lounge-International AMD02 International Terminal 2 Terminal 2 Depar",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "4 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD04 Domestic Terminal 2 Terminal 2 Departure area First Floor 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "5 Prayagraj Airport Allahabad / Prayagraj Zesto Execustive Lounge IXD Domestic Domestic Terminal Airside - Prayagraj Airport, Domestic Depar",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "9 Sri Guru Ram Dass Jee International Airport Amritsar Primus Lounge ATQ Domestic NA Airside - Domestic Departures. After Security Checks pr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "10 Sri Guru Ram Dass Jee International Airport Amritsar The Airr Lounge ATQ6 International International Terminal Airside - International De",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "13 Kempegowda International Airport Bengaluru 080 Domestic Lounge BLR9 Domestic Terminal 2 Airside - Domestic and in transit Departures. Aft",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "14 Kempegowda International Airport Bengaluru 080 International Lounge BLR10 International Terminal 2 Airside - International Departures. Af",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "15 Kempegowda International Airport Bengaluru 080 Arrival BLR12 International/ Domestic Arrival Terminal 2 Landside - Ground Level, Arrivals",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "16 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 1 BLR101 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "17 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 2 BLR102 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "18 Kempegowda International Airport Bengaluru 080 Domestic Lounge - East BLR104 Domestic Terminal 1 Domestic Departure Terminal 1, Opposite ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "19 Bhopal Raja Bhoj Bhopal Primus Lounge BHO Domestic Domestic Terminal Airside - Domestic Departures, Level 1, after Security Hold Area. 24",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "20 Chandigarh International Airport Chandigarh Primus Lounge IXC6 Domestic Domestic Terminal Airside - Domestic Departures. After Security H",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "24 Chennai International Airport Chennai Travel Club Lounge - T2 Terminal MAA02 International Terminal 1 New International Departure,Termina",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "26 Cochin International Airport Cochin Travel Club Lounge COK2 International Terminal 3",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "27 Cochin International Airport Cochin Travel Club Lounge COK1 Domestic Terminal 1 2nd Floor, Domestic Security Holding Area 04:00 - 23:30 d",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "29 Dibrugarh Mohanbari Dibrugarh Primus Lounge DIB Domestic NA Airside: Dibrugarh airport, SHA, 1st floor, opposite gate 3 and 4 24 hours da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "30 Manohar International Airport Goa Encalm Lounge GOX01 International Terminal 1 Encalm Lounge Dom T1 Departure, Level 2 24 Hours",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "31 Manohar International Airport Goa Encalm Lounge GOX02 Domestic Terminal 1 Encalm Lounge Dom T1 Departure, Level 2 24 Hours",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "32 Goa International Airport - Dabolim Goa Travel Club Lounge Domestic GOI01 Domestic Terminal 1 Domestic Departure, After SHA, 2nd Floor, o",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "33 Goa International Airport - Dabolim Goa Travel Club Lounge International GOI02 International Terminal 1 Domestic Departure, After SHA, 2n",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "Guwahati The Lounge GAU01 Domestic Terminal 1 GROUND FLOOR, AFTER SECURITY CHECK 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "Guwahati The Lounge GAU02 Domestic Terminal 1 1ST FLOOR, AFTER SECURITY CHECK 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "36 Gwalior Airport Gwalior Paahun Executive Lounge GWL Domestic Domestic Terminal Airside - Domestic Departures. 1st Floor. 06:00 - 08:00 da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "37 Rajiv Gandhi International Airport Hyderabad Encalm Lounge HYD01 Domestic Terminal 1 Encalm Lounge Domestic T1 Departure, Encalm Hospital",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "38 Rajiv Gandhi International Airport Hyderabad Encalm Lounge HYD02 International Terminal 1 Encalm Lounge International T1 Departure, Encal",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "39 Devi Ahilya Bai Holkar Airport Indore Primus Lounge IDR Domestic NA Airside - After Security Checks proceed to the 1st Floor. 24 hours da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "40 Jaipur International Airport Jaipur The Lounge JAI01 Domestic Terminal 2 In-Front of M1 gate, near KFC 24Hrs",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "IXJ Domestic Domestic Terminal Airside - Jammu Airport Domestic Departures. The lounge is located on the 1st Floor, near Gate 5. 06:30 - 21:",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "42 Kannur International Kannaur Pearl Lounge Domestic CNN Domestic Domestic Terminal Airside - after Security Hold Area 108, near Gate 1A. 1",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "43 Kannur International Kannaur Pearl Lounge International CNN1 International International Terminal Airside - After Security Hold Area 113,",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "44 Netaji Subhas Chandra Bose International Airport Kolkata Travel Club Lounge Domestic CCU01 Domestic Terminal 1 Mezzanine floor, after sec",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "46 Netaji Subhas Chandra Bose International Airport Kolkata Travel Club Lounge Annex Domestic CCU03 Domestic Terminal 1 Mezzanine floor, aft",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "48 Chaudhary Charan Singh International Airport Lucknow Adani Lounge LKO01 Domestic Terminal 3 Domestic Departure hall ; Zone- Airside after",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "50 Madurai International Madurai Primus Lounge IXM1 International NA Airside - Madurai Airport, After Security Hold Area, 1st Floor, near th",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Travel Club BOM01 Domestic Terminal 1C T1 DEPARTURE | OPPOSITE GATE NO 22 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Adani Lounge BOM02 Domestic Terminal 1B T1 DEPARTURE | FIRST FLOOR OPPOSITE TO MACDONALD 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Travel Club BOM04 Domestic Terminal 2 Near Gate 44 Post SHA T2 DEPARTURE| NEAR BY STARBUCKS 24Hrs",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Aviserv East Lounge BOM07 Arrival Terminal 2 Next to Exit Gate-”A”, & Gate \"C\".Level P-6 Arrival 24Hrs",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Mumbai Aviserv West Lounge BOM08 Arrival Terminal 2 Next to Exit Gate-”A”, & Gate \"C\".Level P-6 Arrival 24Hrs",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "58 Dr. Ambedkar International Airport Nagpur Mandarin Lounge NAG3 Domestic NA Landside - Domestic Departures, before Security Checks, 1st Fl",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "59 Dr. Ambedkar International Airport Nagpur The Airr Lounge NAG5 Domestic Domestic Terminal Airside - Domestic Departures, 1st Floor, near ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "60 Indira Gandhi International Airport New Delhi Encalm Lounge DEL01 Domestic Terminal 1 Encalm Lounge Dom T1 Departure, Mezzanine level 24 ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "61 Indira Gandhi International Airport New Delhi Encalm Lounge DEL02 Domestic Terminal 1 Encalm lounge Dom t2 Departure, Mezzanine level 24 ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "62 Indira Gandhi International Airport New Delhi Encalm Lounge DEL03 Domestic Terminal 3 Encalm Lounge Dom T3 Departure, Mezzanine level 24 ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      }
+    ],
+    "participating_lounges_count": 80
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 5000,
+    "annual_fee_inr": 5000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "2,500 EDGE Miles welcome benefit",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,200"
+      },
+      {
+        "statement_balance_slab": "Greater than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "While the card delivers an excellent reward rate on travel, certain limitations exist, such as the categorization of transfer partners into Group A and Group B, along with capping for each. Moreover, accelerated reward earnings on travel are limited to monthly spends of Rs. 2 Lakh. While this may suffice for moderate spenders, travellers with higher monthly expenses might find it restrictive. Moreover, despite being a travel-focused card, Axis Atlas carries a high forex mark-up fee of 3.5%, which can be a drawback for international travellers. Here is all you need to know about Axis Atlas Credit Card.",
+    "highlights": [
+      "5 EDGE Miles per Rs. 100 spent on monthly travel spends up to Rs. 2 Lakh",
+      "2 EDGE Miles per Rs. 100 spent across monthly travel spends above Rs. 2 Lakh",
+      "2 EDGE Miles per Rs. 100 spent across all categories,2",
+      "Axis Travel EDGE: Redeem to book flights, hotels and experiences via Axis Travel EDGE platform in the ratio of 1:1 (1 EDGE mile = Rs. 1)"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "5 EDGE Miles per Rs. 100 spent on monthly travel spends up to Rs. 2 Lakh",
+      "2 EDGE Miles per Rs. 100 spent across monthly travel spends above Rs. 2 Lakh",
+      "Silver Tier: On spending Rs. 3 Lakh",
+      "Gold Tier: On spending Rs. 7.5 Lakh"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You do not want to limit your benefits to a particular brand, instead seek good value across all travel spends",
+      "You do not seek benefits across other categories like lifestyle, shopping, etc.",
+      "You mostly travel within India and can easily maximize the benefits",
+      "Your annual spends would be sufficient to upgrade to Gold and Platinum Tier and avail higher benefits"
+    ],
+    "faqs": [
+      {
+        "q": "How many tier memberships are available with the Axis Atlas Credit Card?",
+        "a": "Axis Atlas Credit Card offers three tier-based memberships: Silver, Gold, and Platinum, based on the spending criteria. Cardholders can achieve the Silver tier by spending Rs. 3 Lakh, and the Gold tier by spending Rs. 7.5 Lakh, and the Platinum tier by spending Rs. 15 Lakh. With higher tiers, cardholders can access enhanced benefits such as a higher number of complimentary airport lounge visits and increased bonus reward points through milestone and annual benefits."
+      },
+      {
+        "q": "What is the difference between Axis Atlas Credit Card and Axis Select Credit Card?",
+        "a": "Axis Atlas is a travel-focused credit card that offers EDGE Miles, which can be redeemed against partner air miles or hotel loyalty points at a 1:2 ratio or for travel bookings through the Travel EDGE portal at a 1:1 ratio. On the other hand, the Axis Select Credit Card offers EDGE reward points, redeemable through the rewards catalogue at a value of Rs. 0.20 per point and against partner air miles and hotel loyalty points at a 10:1 ratio."
+      },
+      {
+        "q": "Is Axis Atlas Credit Card worth it for a spend of Rs. 4-5 Lakh?",
+        "a": "By spending Rs. 5 Lakh in a year, cardholders can achieve the Platinum tier, which offers up to 12 domestic lounge visits and 6 international lounge visits annually. They can also earn up to 5,000 EDGE Miles as milestone and annual benefits, worth Rs. 10,000 when redeemed against partner airlines or hotel loyalty points at a 1:2 ratio. Furthermore, cardholders earn 2 EDGE Miles for every Rs. 100 spent on travel and other categories. This makes the card especially beneficial for frequent travellers who can maximize its features and save on travel spends."
+      },
+      {
+        "q": "What are the milestone benefits of Axis Atlas Credit Card?",
+        "a": "Axis Atlas Credit Card offers milestone benefits tied to its tier structure. Cardholders who achieve the Silver tier by spending Rs. 3 Lakh receive 2,500 EDGE Miles as milestone benefits. At the Gold tier, achieved by spending Rs. 7.5 Lakh, they receive 2,500 EDGE Miles as milestone benefits and an additional 2,500 EDGE Miles as annual benefits. At the highest level, the Platinum tier, achieved by spending Rs. 15 Lakh, cardholders earn 5,000 EDGE Miles as milestone benefits and 5,000 EDGE Miles as annual benefits."
+      },
+      {
+        "q": "What is the eligibility criteria for Axis Atlas Credit Card?",
+        "a": "To be eligible for Axis Atlas Credit Card, applicants must be between 18 and 70 years old. Both salaried and self-employed individuals can apply. Salaried individuals must have an annual income of Rs. 12 Lakh, while self-employed individuals must meet the annual income requirement of Rs. 15 Lakh."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.72,
+    "editorial_rating": 4.0,
+    "aggregator_rating": 4.8,
+    "category_sub_ratings": {
+      "Travel": 4.0,
+      "Rewards": 4.0,
+      "Lounge Access": 3.5,
+      "travel": 4.0,
+      "rewards": 4.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Still strong for airline miles & guest lounges, but 2026 Accor exit means HSBC TravelOne now wins head-to-head for flexible travel miles.",
+    "pros": [
+      "1:2 redemption value against partner airline and hotels",
+      "Accelerated reward benefits (2.5X EDGE Miles) on travel spends",
+      "Milestone benefits of up to 10,000 EDGE Miles every year",
+      "Decent number of international and domestic lounge visits"
+    ],
+    "cons": [
+      "High forex markup fee of 3.5%",
+      "Complicated tier-based benefit structure",
+      "High annual fee of Rs. 5,000",
+      "Reward points cannot be redeemed against cashback"
+    ],
+    "best_for_whom": "Airline flyers redeeming SQ KrisFlyer / United / Air India directly from airline & hotel websites with guest lounge access",
+    "not_ideal_for": "Accor loyalists (partner removed in 2026) or OTA bookers (MMT/Goibibo excluded from 5X)",
+    "recommended_monthly_spend_inr": "Rs. 40,000 – Rs. 1,25,000",
+    "verdict": "Still strong for airline miles & guest lounges, but 2026 Accor exit means HSBC TravelOne now wins head-to-head for flexible travel miles."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.96,
+    "reddit_mentions": 13,
+    "sentiment_summary": "Community discussions around Axis Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
+      "High 3.5% (+GST) forex markup makes international swipes net negative."
+    ],
+    "optimization_tips": [
+      "Group A 30,000 Miles/Year Cap: Transfer Axis EDGE Miles strategically to Group A partners (Air India, Flying Blue, Accor 1:2 Ratio) before hitting the 30k annual Group A ceiling; optimize ₹7.5L & ₹15L annual milestones."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "High",
+    "devaluation_risk_score": 8,
+    "last_devalued_on": "2026 (Accor transfer partner dropped; Oct 8 2026 KFS exclusions)",
+    "devaluation_history": [
+      "2024-04: Group A 30k EM/yr cap introduced + gold/rent/utilities excluded + direct OTA (MMT/ClearTrip) removed from 5X",
+      "2026: Dropped Accor Live Limitless transfer partner (halving hotel value for many); HSBC TravelOne dethroned it as #1 mid-tier travel card"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "axis_bank_burgundy_private_credit_card",
+      "card_name": "Axis Bank Burgundy Private Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-burgundy-private-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "yes_bank_marquee_credit_card",
+      "card_name": "YES BANK Marquee Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-marquee-credit-card",
+      "annual_fee_inr": 4999,
+      "overall_rating": 4.4,
+      "reason": "Direct competitor from YES BANK at similar fee tier (Rs. 4,999/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "18 to 70 years",
+    "min_monthly_income_salaried_inr": 100000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 1200000,
+    "min_cibil_score": 730,
+    "approval_notes": "To be eligible for Axis Atlas Credit Card, applicants must be between 18 and 70 years old. Both salaried and self-employed individuals can apply. Salaried individuals must have an annual income of Rs. 12 Lakh, while self-employed individuals must meet the annual income requirement of Rs. 15 Lakh."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "axis-bank-grab-deals-eazydiner-dining-delights-up-to",
+      "bank": "Axis Bank",
+      "title": "Grab Deals & EazyDiner Dining Delights (Up to 30%–40% Off)",
+      "summary": "Extra Reward Points / cashback via Axis Grab Deals plus Dining Delights discounts of 15%–40% at partner restaurants across India.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.axis.bank.in/grab-deals/online-offers",
+      "scope": "targeted"
+    }
+  ]
+}

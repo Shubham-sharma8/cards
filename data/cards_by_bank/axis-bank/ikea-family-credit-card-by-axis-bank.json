@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "card_id": "axis_bank_ikea_family_credit_card",
+    "card_name": "IKEA Family Credit Card by Axis Bank",
+    "bank": "Axis Bank",
+    "bank_slug": "axis-bank",
+    "card_slug": "ikea-family-credit-card-by-axis-bank",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Lifetime Free",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/axis-bank/ikea-family-credit-card-by-axis-bank.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#911C4B",
+      "secondary_hex": "#246AA2",
+      "wash_hex": "#EDDEE1",
+      "soft_bg_hex": "#F5EBEF",
+      "border_hex": "#E7CDD7",
+      "ink_on_soft_hex": "#911C4B",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.axis.bank.in/cards/credit-card",
+    "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Axis Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Any (LTF keeper)"
+    ],
+    "requirement_keywords": [
+      "axis",
+      "bank",
+      "by",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "family",
+      "free",
+      "groceries",
+      "ikea",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "movies",
+      "online",
+      "shopping",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "3 EDGE reward points for every Rs. 100 spent at IKEA stores, app or website",
+      "2 EDGE reward points for every Rs. 100 spent on dining",
+      "1 EDGE reward point for every Rs. 100 spent on other categories",
+      "1 EDGE reward point = Re. 0.20",
+      "Fuel Surcharge Waiver:",
+      "Accelerated reward points on IKEA spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": []
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.6,
+    "apr_annual_pct": 52.86,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "From Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "From Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Greater than Rs. 10,000",
+        "late_fee_inr": "Rs. 1,200"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "IKEA Family Credit Card by Axis Bank is a co-branded card that offers accelerated benefits on IKEA spends. It is a lifetime-free card that primarily offers value back in the form of reward points, and minimal benefits beyond that. Despite reward points being its main feature, this credit card falls short compared to other lifetime-free or shopping cards like IDFC FIRST Select or Amazon ICICI due to its lower reward rate. Overall, this card offers a maximum reward rate of 0.6% on IKEA spends, which can drop to 0.2% on other categories.",
+    "highlights": [
+      "3 EDGE reward points for every Rs. 100 spent at IKEA stores, app or website",
+      "2 EDGE reward points for every Rs. 100 spent on dining",
+      "1 EDGE reward point for every Rs. 100 spent on other categories"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [],
+    "dining_benefits": [
+      "2 EDGE reward points for every Rs. 100 spent on dining",
+      "Dining discount of up to 15%"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "How do I activate my IKEA Axis Bank Credit Card?",
+        "a": "You can activate your IKEA Axis Bank Credit card via Mobile banking, Internet banking or through the Axis Bank customer care."
+      },
+      {
+        "q": "Is IKEA Axis Bank Credit Card lifetime free?",
+        "a": "Yes, IKEA Axis Bank Credit Card is lifetime free."
+      },
+      {
+        "q": "Does this card offer reward points on utility spends?",
+        "a": "No, utility bill payments are excluded from the rewards program."
+      },
+      {
+        "q": "Can I convert all transactions into EMIs with this credit card?",
+        "a": "Yes, you can convert transactions above Rs. 2,500 to EMIs for a tenure of 3,6,9,12,18 and 24 months."
+      },
+      {
+        "q": "What is the EazyDiner offer on this credit card?",
+        "a": "The card offers up to 15% off (up to Rs. 500), on dining transactions above Rs. 2,500, once per card, per month."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.24,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 2.5,
+      "Dining Benefits": 2.5,
+      "branded Benefits": 3.0,
+      "rewards": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from Axis Bank suited for cashback users.",
+    "pros": [
+      "Accelerated reward points on IKEA spends",
+      "Redemption of rewards against IKEA spends, travel bookings, etc.",
+      "Dining discount of up to 15%"
+    ],
+    "cons": [
+      "Very low base reward rate of 0.2%",
+      "No travel related benefits like complimentary lounge access",
+      "Low redemption value of 1 RP = Re. 0.20"
+    ],
+    "best_for_whom": "Axis Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Any (LTF keeper)",
+    "verdict": "Lifetime Free option from Axis Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.24,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Axis Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Very High",
+    "devaluation_risk_score": 8,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbm_bank_zet_credit_card",
+      "card_name": "SBM ZET Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-zet-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.8,
+      "reason": "Direct competitor from SBM Bank India at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "axis_bank_ace_credit_card",
+      "card_name": "Axis Bank ACE Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-ace-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.26,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.26/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "axis-bank-grab-deals-eazydiner-dining-delights-up-to",
+      "bank": "Axis Bank",
+      "title": "Grab Deals & EazyDiner Dining Delights (Up to 30%–40% Off)",
+      "summary": "Extra Reward Points / cashback via Axis Grab Deals plus Dining Delights discounts of 15%–40% at partner restaurants across India.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.axis.bank.in/grab-deals/online-offers",
+      "scope": "targeted"
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "identity": {
+    "card_id": "bobcard_bobcard_cashback_credit_card",
+    "card_name": "BOBCARD Cashback",
+    "bank": "BOBCARD (Bank of Baroda)",
+    "bank_slug": "bobcard-bank-of-baroda",
+    "card_slug": "bobcard-cashback",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Fuel",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-cashback.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#855F2E",
+      "secondary_hex": "#C32B2E",
+      "wash_hex": "#ECE7DE",
+      "soft_bg_hex": "#F4F1EC",
+      "border_hex": "#E4DCD1",
+      "ink_on_soft_hex": "#7F5B2C",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.bobcard.co.in/credit-cards",
+    "mitc_pdf_url": "https://www.bobcard.co.in/most-important-terms-and-condition/bobcard-mitc",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 25000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "BOBCARD (Bank of Baroda) customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "baroda",
+      "bobcard",
+      "cashback",
+      "fuel",
+      "of",
+      "online",
+      "shopping"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5% Cashback: On select domestic online spends as 4% accelerated with 1% base cashback rate",
+      "1% Cashback: On all other card spends (Unlimited)",
+      "Capping: Accelerated cashback of 4% is capped at Rs. 1,500 per month",
+      "Fuel Benefits: 1% fuel surcharge waiver, up to Rs. 250 per month, on fuel spends of Rs. 400 to Rs. 5,000 at all fuel stations across India",
+      "Up to 5% cashback on online spends",
+      "Unlimited base cashback rate on other spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 5.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 250,
+      "online_shopping_general": 1500
+    },
+    "monthly_capping_rules": [
+      "1% Cashback: On all other card spends (Unlimited)",
+      "Capping: Accelerated cashback of 4% is capped at Rs. 1,500 per month",
+      "Up to 5% cashback on online spends",
+      "Unlimited base cashback rate on other spends",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 49,
+      "annual_fee_inr": 49,
+      "annual_fee_with_gst_inr": 57.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Fuel Benefits: 1% fuel surcharge waiver, up to Rs. 250 per month, on fuel spends of Rs. 400 to Rs. 5,000 at all fuel stations across India"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 49,
+    "annual_fee_inr": 49,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 100 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 950"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "BOBCARD Cashback** comes with **up to 5% cashback** benefits on card spends. It offers accelerated cashback earnings of 4% on online purchases in addition to the base cashback rate of 1%, making it a good option for frequent online shoppers. Though these accelerated **4% savings are limited to Rs. 1,500 for every month** , i.e. up to Rs. 37,500 monthly online spends, a low to average spender would still be able to maximise the benefits without much restriction. On the other hand, **offline spends come with unlimited 1% cashback**. The earned **cashback is credited to the account automatically** which makes the value-back process simpler for the card user. Read on to know in detail about the features, benefits and fee structure of BOBCARD Cashback.",
+    "highlights": [
+      "5% Cashback: On select domestic online spends as 4% accelerated with 1% base cashback rate",
+      "1% Cashback: On all other card spends (Unlimited)",
+      "Capping: Accelerated cashback of 4% is capped at Rs. 1,500 per month",
+      "Fuel Benefits: 1% fuel surcharge waiver, up to Rs. 250 per month, on fuel spends of Rs. 400 to Rs. 5,000 at all fuel stations across India"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Fuel Benefits: 1% fuel surcharge waiver, up to Rs. 250 per month, on fuel spends of Rs. 400 to Rs. 5,000 at all fuel stations across India"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Zero Lost Card Liability: No liability on any fraudulent transactions on reporting loss of card immediately"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You prefer online mode of shopping over making offline purchases",
+      "You are looking for a low annual fee credit card with cashback earnings",
+      "You wish to avoid the hassle of reward redemption and prefer to get direct cashback on your spends"
+    ],
+    "faqs": [
+      {
+        "q": "What is the annual fee of BOBCARD Cashback Credit Card?",
+        "a": "BOBCARD Cashback comes with an annual fee of Rs. 499. However, cardholders can also choose the monthly fee plan of Rs. 49 per month."
+      },
+      {
+        "q": "Can I change the fee plan for BOBCARD Cashback?",
+        "a": "Yes, BOBCARD allows you to change the fee plan between annual and monthly fee payments once during the Cashback credit card’s lifecycle."
+      },
+      {
+        "q": "Why can I not earn 5% cashback on my online spends using BOBCARD Cashback Credit Card?",
+        "a": "5% cashback is offered on select domestic online spends only if you have made at least 4 card transactions in that month. Moreover, this accelerated cashback is also capped at cashback of up to Rs. 1,500 for every month. You will also not earn any cashback on excluded spending categories, as mentioned on this page."
+      },
+      {
+        "q": "What is the income eligibility criteria for BOBCARD Cashback?",
+        "a": "To be eligible for BOBCARD Cashback, the salaried applicant must have a minimum net annual salary of Rs. 3 lakh and a self-employed applicant must have a min. net annual income of Rs. 3.5 lakh."
+      },
+      {
+        "q": "What is the minimum age requirement for BOBCARD Cashback?",
+        "a": "To get BOBCARD Cashback, salaried individuals must be 21 to 60 years old and self-employed must be 24 to 65 years old. However, add-on cardholders can be 18 years and above."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.67,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 3.0,
+      "Online Shopping": 3.5,
+      "cashback": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from BOBCARD (Bank of Baroda) suited for cashback users.",
+    "pros": [
+      "Up to 5% cashback on online spends",
+      "Unlimited base cashback rate on other spends",
+      "Effortless savings experience with auto-credited cashback",
+      "Low annual fee with the flexibility to opt for annual or monthly payment plan"
+    ],
+    "cons": [
+      "Capping on accelerated cashback rate",
+      "No option to waive off the card’s annual fee"
+    ],
+    "best_for_whom": "BOBCARD (Bank of Baroda) customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from BOBCARD (Bank of Baroda) suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.67,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around BOBCARD (Bank of Baroda) Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "1% Cashback: On all other card spends (Unlimited)",
+      "Capping: Accelerated cashback of 4% is capped at Rs. 1,500 per month"
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Direct competitor from Federal Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "amex_bank_membership_rewards_credit_card",
+      "card_name": "American Express Membership Rewards® Credit Card",
+      "bank": "American Express",
+      "bank_slug": "american-express",
+      "card_slug": "american-express-membership-rewards-credit-card",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.12,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.12/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Top-rated Cashback card in market with rating 4.82/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 25000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "To be eligible for BOBCARD Cashback, the salaried applicant must have a minimum net annual salary of Rs. 3 lakh and a self-employed applicant must have a min. net annual income of Rs. 3.5 lakh."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "bobcard-bank-of-baroda-get-instant-discount-up-to-600-get-instant-d",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Get Instant Discount Up to ₹600 Get Instant Discount Up to ₹600 on Air India Express u",
+      "summary": "New Get Instant Discount Up to ₹600 Get Instant Discount Up to ₹600 on Air India Express using Visa BOBCARD Valid till: 30-11-2026 Copy code : VISAFLY",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/travel/get-instant-discount-up-to-600-on-air-india-express",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-flat-4000-off-on-yatra-flat-4000-off-on-yat",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Flat ₹4000 Off on Yatra Flat ₹4000 Off on Yatra using Visa Infinite Credit Card Valid",
+      "summary": "New Flat ₹4000 Off on Yatra Flat ₹4000 Off on Yatra using Visa Infinite Credit Card Valid till: 31-01-2027 Copy code : VISAINFINITE",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/travel/flat-4000-off-on-yatra",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-500-off-on-lifestyle-500-off-on-order-value",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "₹500 Off on Lifestyle ₹500 off on order value ₹2499 and above on RuPay BOBCARD Valid t",
+      "summary": "New ₹500 Off on Lifestyle ₹500 off on order value ₹2499 and above on RuPay BOBCARD Valid till: 31-07-2027 Copy code : RUPAYINS500",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/fashion-and-beauty/500-off-on-lifestyle",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-50-discount-in-making-charge-in-diamond-jewe",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "50% discount in making charge in diamond jewellery 50% discount in making charge in di",
+      "summary": "New 50% discount in making charge in diamond jewellery 50% discount in making charge in diamond jewellery on RuPay BOBCARD Valid till: 31-07-2027 Copy code : RUPAYSENCODIA",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/fashion-and-beauty/50-discount-in-making-charge-in-diamond-jewellery",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-flat-175-off-on-swiggy-instamart-offer-valid",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Flat ₹175 Off on Swiggy Instamart Offer valid on Friday, Saturday & Sunday | Till 27th",
+      "summary": "New Flat ₹175 Off on Swiggy Instamart Offer valid on Friday, Saturday & Sunday | Till 27th Dec 2026 Valid till: 27-12-2026 Copy code : BOBCARD75",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/grocery/flat-75-off-on-swiggy-instamart",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-bobcard-instant-merchant-discounts-fuel-d",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "BOBCARD Instant Merchant Discounts & Fuel / Dining Offers",
+      "summary": "Seasonal 10% instant discounts on Amazon, Flipkart, JioMart & utility payments alongside unlimited/tiered domestic lounge perks on Eterna & Tiara.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.bobcard.co.in/offers",
+      "scope": "targeted"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "card_id": "axis_bank_freecharge_plus_credit_card",
+    "card_name": "Axis Bank Freecharge Plus Credit Card",
+    "bank": "Axis Bank",
+    "bank_slug": "axis-bank",
+    "card_slug": "axis-bank-freecharge-plus-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/axis-bank/axis-bank-freecharge-plus-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#982E47",
+      "secondary_hex": "#904122",
+      "wash_hex": "#EEE1E1",
+      "soft_bg_hex": "#F6ECEE",
+      "border_hex": "#E8D1D7",
+      "ink_on_soft_hex": "#982E47",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.axis.bank.in/cards/credit-card",
+    "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": true,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "axis",
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "freecharge",
+      "groceries",
+      "miles",
+      "movies",
+      "plus",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5% cashback on freecharge spends",
+      "2% cashback on daily commute via Ola/Uber",
+      "1% cashback on all other spends,2",
+      "5% cashback on bill payments and recharges made via Freecharge",
+      "4% cashback on rides booked through Uber and Ola",
+      "Bill payments outside Freecharge are not eligible for cashback"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 5.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "5% cashback strictly on Freecharge App utility/bill/recharge spends (0% on utility payments made outside Freecharge App)."
+    ],
+    "category_caveats": {
+      "utilities_bills_telecom": "5% strictly inside Freecharge App only; external utility payments earn 0% per axis.bank.in."
+    },
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 350,
+      "annual_fee_inr": 350,
+      "annual_fee_with_gst_inr": 413.0,
+      "fee_waiver_spend_inr": 50000,
+      "monthly_spend_for_waiver_inr": 4167,
+      "milestone_slabs": [
+        "Annual fee waiver on spending Rs. 50,000 in a year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 350,
+    "annual_fee_inr": 350,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 50000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 55.55,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,200"
+      },
+      {
+        "statement_balance_slab": "Greater than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Axis Bank Freecharge Plus Credit Card is an entry-level co-branded credit card, primarily designed to offer accelerated benefits on bill payments and recharges via Freecharge. This is an **invite-only card** , and eligible consumers can see the application banner on their Freecharge app. With this card, cardholders can earn **5% cashback on spends made on Freecharge**. Additionally, it offers **2% cashback on Uber and Ola** rides, making it a suitable option for daily commuters. Apart from these categories, cardholders can earn a base cashback of**1% on other eligible spends**. Additional benefits, such as **up to Rs. 500 discount on dining** and annual fee waiver, further add to the card’s value. Overall, this card is best suited for consumers who prefer making payments via Freecharge, as bill payments made outside the Freecharge app do not earn any cashback.",
+    "highlights": [
+      "5% cashback on freecharge spends",
+      "2% cashback on daily commute via Ola/Uber",
+      "1% cashback on all other spends,2",
+      "Up to Rs. 500 off on dining at partner restaurants via EazyDiner through Axis Bank Dining Delights Program"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Annual fee waiver on spending Rs. 50,000 in a year"
+    ],
+    "dining_benefits": [
+      "Up to Rs. 500 off on dining at partner restaurants via EazyDiner through Axis Bank Dining Delights Program",
+      "Dining discounts at partner restaurants via EazyDiner"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "No cashback on wallet loads, rent payments, insurance, fuel, or education spends"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently use Freecharge for bill payments and recharges",
+      "You commute on a daily basis using Uber or Ola",
+      "You’re looking for an entry-level card with straightforward cashback benefits",
+      "You frequently dine out and prefer to pay via EazyDiner"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for Axis Bank Freecharge Plus Credit Card?",
+        "a": "This is an invite-only card offered to select Axis Bank customers. The eligible consumers will see an application banner on their Freecharge app to apply online. You can also contact the bank’s customer service and check your eligibility with a representative."
+      },
+      {
+        "q": "Does Axis Bank Freecharge Plus Credit Card offer cashback on fuel spends?",
+        "a": "No, this card does not offer cashback on certain categories, including fuel spends, wallet loads, cash withdrawals, gold purchases, EMI transactions, rent payments, government spends, insurance and education payments, utility payments outside of Freecharge, and purchases converted to EMI after the transaction."
+      },
+      {
+        "q": "What are the renewal benefits offered by Axis Bank Freecharge Plus Credit Card?",
+        "a": "Axis Bank Freecharge Plus Credit Card does not offer any specific renewal benefits. However, you can avail an annual fee waiver by spending Rs. 50,000 or more in a year."
+      },
+      {
+        "q": "Can I earn cashback on bill payments via Paytm through Axis Bank Freecharge Plus Credit Card?",
+        "a": "No, the card offers 5% cashback only on bill payments and recharges made via Freecharge. Bill payments through other platforms, such as Paytm, are not eligible for cashback."
+      },
+      {
+        "q": "Is there any minimum transaction value required to earn cashback via Axis Bank Freecharge Plus Credit Card?",
+        "a": "Yes, cashback is offered only on transactions of Rs. 100 or above. Transactions below Rs. 100 are not eligible for cashback."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.5,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.5,
+      "Dining Benefits": 3.0,
+      "branded Benefits": 3.5,
+      "rewards": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Axis Bank suited for travel & miles users.",
+    "pros": [
+      "5% cashback on bill payments and recharges made via Freecharge",
+      "4% cashback on rides booked through Uber and Ola",
+      "Low annual fee of Rs. 350, making it affordable for beginners",
+      "Dining discounts at partner restaurants via EazyDiner"
+    ],
+    "cons": [
+      "No lounge access or other travel benefits",
+      "Bill payments outside Freecharge are not eligible for cashback",
+      "No cashback on wallet loads, rent payments, insurance, fuel, or education spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from Axis Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.5,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Axis Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "5% cashback strictly on Freecharge App utility/bill/recharge spends (0% on utility payments made outside Freecharge App)."
+    ],
+    "optimization_tips": [
+      "Focus spends on utility & telecom bill payments (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹50,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Very High",
+    "devaluation_risk_score": 8,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+      "card_name": "YES BANK PaisaSave Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-paisasave-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from YES BANK at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "axis_bank_axis_bank_cashback_credit_card",
+      "card_name": "Axis Bank Cashback Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-cashback-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.2,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.2/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Top-rated Super-Premium card in market with rating 4.9/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "axis-bank-grab-deals-eazydiner-dining-delights-up-to",
+      "bank": "Axis Bank",
+      "title": "Grab Deals & EazyDiner Dining Delights (Up to 30%–40% Off)",
+      "summary": "Extra Reward Points / cashback via Axis Grab Deals plus Dining Delights discounts of 15%–40% at partner restaurants across India.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.axis.bank.in/grab-deals/online-offers",
+      "scope": "targeted"
+    }
+  ]
+}

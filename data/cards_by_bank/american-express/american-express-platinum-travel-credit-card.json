@@ -1,0 +1,649 @@
+{
+  "identity": {
+    "card_id": "amex_bank_american_express_platinum_travel_credit_cards",
+    "card_name": "American Express Platinum Travel Credit Card",
+    "bank": "American Express",
+    "bank_slug": "american-express",
+    "card_slug": "american-express-platinum-travel-credit-card",
+    "card_network": "American Express",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Airport Lounge"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/american-express/american-express-platinum-travel-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#1C5F94",
+      "secondary_hex": "#2B3CA3",
+      "wash_hex": "#DFE7EA",
+      "soft_bg_hex": "#EBF1F5",
+      "border_hex": "#CDDCE7",
+      "ink_on_soft_hex": "#1C5F94",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.americanexpress.com/in/credit-cards/",
+    "mitc_pdf_url": "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Platinum_Travel_General_Tnc1.pdf",
+    "aggregator_urls": [
+      "https://www.cardexpert.in/american-express-platinum-charge-card-review-india/"
+    ],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "American Express Platinum & Lounge Collection Directory",
+        "url": "https://www.americanexpress.com/in/charge-cards/platinum-card/",
+        "source_type": "official_bank_page"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 3,000 - 9,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Users with exactly ~Rs. 4,00,000",
+      "year in non-rewarding spends (tax",
+      "insurance",
+      "jewelry",
+      "education",
+      "rent) turning dead spends into 48k MR + Rs. 10k Taj voucher"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "american",
+      "card",
+      "credit",
+      "express",
+      "lounge",
+      "miles",
+      "platinum",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Membership Rewards Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 8.0,
+    "point_value_inr_default": 0.5,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.50"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "0% convenience fee on fuel purchases less than Rs. 5,000 at HPCL Petrol Pumps",
+      "1% convenience fee on fuel purchases of Rs. 5,000 and above at HPCL Petrol Pumps"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 1.0,
+      "fuel": 0.0,
+      "insurance": 1.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "True ~7.5%–10% return is unlocked on exact Rs. 4,00,000 annual spend (40,000 bonus MR Points + Rs. 10,000 Taj Stay voucher + 8,000 base MR); counts toward insurance, NPS/tax exclusion workaround via Reward Multiplier vouchers."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 5000,
+      "annual_fee_inr": 5000,
+      "annual_fee_with_gst_inr": 5900.0,
+      "fee_waiver_spend_inr": 0,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Rs. 1.9L spend: 15,000 MR bonus",
+        "Rs. 4.0L spend: 25,000 MR bonus + Rs. 10,000 Taj Stay Voucher (~48,000 total MR + Rs. 10k Taj on Rs. 4L spend = ~8–10% return even on tax/insurance/exclusions!)"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "spend_criteria": "Rs. 1,00,000+ spend in previous year (max 2 visits/quarter)",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "8 complimentary domestic airport lounge visits/year (max 2/quarter) on spending Rs. 1 Lakh+ in previous year"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "page_amex_platinum_lounge",
+        "title": "American Express Platinum & Lounge Collection Directory",
+        "url": "https://www.americanexpress.com/in/charge-cards/platinum-card/",
+        "secondary_url": null,
+        "source_type": "official_bank_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agartala",
+        "lounge_name": "Airport Agartala Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Silver Lounge-International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "Airport Allahabad / Prayagraj Zesto Execustive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ayodhya",
+        "lounge_name": "Kailash Parbat",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bagdogra",
+        "lounge_name": "International Airport Bagdogra Take off Bar",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 International Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Arrival",
+        "terminal": "Arrival Terminal 2",
+        "terminal_type": "International/ Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 1",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 2",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - East",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "Raja Bhoj Bhopal Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge A",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kochi",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "International Airport Coimbatore BlackBerry Restaurant & Bar",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "Mohanbari Dibrugarh Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Mopa)",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "Airport Gwalior Paahun Executive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "International Airport Jaipur The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "Airport Jammu Paahun - The Executive Lounge and Restaurant",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Budweiser",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "International Madurai Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Mandarin Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 1 (T1D)",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "Birsa Munda Ranchi The Airr Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "Paahun The Executive Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      }
+    ],
+    "participating_lounges_count": 44
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 5000,
+    "annual_fee_inr": 5000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "3.5% (Minimum of Rs. 250)",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Unbeatable Rs. 4 Lakh/yr milestone card — park all jewelry/insurance/tax/general spends to hit Rs. 4L cleanly, then switch to another card.",
+    "highlights": [
+      "You can earn 10,000 bonus Membership Rewards points as a welcome benefit by spending Rs. 15,000 within 90 days of card membership.",
+      "The 10,000 Membership Rewards Points are redeemable for Pay with Points option in American Express® Travel Online platform worth Rs. 3,000.",
+      "Lounge Access: 8 complimentary visits per year to airport lounges across India, max. 2 visits per quarter on spending more than Rs. 1 lakh in the previous year",
+      "Complimentary Membership: Complimentary Priority Pass Membership, with the US$99 annual membership fee waived off",
+      "10,000 bonus Membership Rewards Points that redeemable via Platinum Travel Collection"
+    ],
+    "welcome_benefit": "You can earn 10,000 bonus Membership Rewards points as a welcome benefit by spending Rs. 15,000 within 90 days of card membership.",
+    "milestone_benefits": [
+      "Rs. 1.9L spend: 15,000 MR bonus",
+      "Rs. 4.0L spend: 25,000 MR bonus + Rs. 10,000 Taj Stay Voucher (~48,000 total MR + Rs. 10k Taj on Rs. 4L spend = ~8–10% return even on tax/insurance/exclusions!)"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "What is the validity of rewards points earned via American Express® Platinum Travel Credit Card?",
+        "a": "+- American Express® Platinum Travel Credit Card lets you earn Membership Rewards Points on your transactions, which never expire. You can redeem the reward points earned via this credit card till the card is active. However, in case of any card cancellation, the reward points will get forfeited within 30 days of the cancellation."
+      },
+      {
+        "q": "Can I convert my American Express® Platinum Travel Credit Card purchases into EMI?",
+        "a": "+- Yes, you can convert your purchases of Rs. 5,000 or above into easy EMIs. For offline transactions, you can ask the merchant for the EMI option at the point of sale before making the purchase. To avail this option on online purchases, you can select the EMI option while checking out."
+      },
+      {
+        "q": "Does American Express® Platinum Travel Credit Card allow contactless payment?",
+        "a": "+- Yes, you can tap and pay through this credit card without entering any OTP. However, this option is available only on your purchases below Rs. 5,000. All you need to do is touch your card at the POS machine to make a transaction. Also, to check whether your card has this feature or not, you can look for contactless symbol at the front or back of your card."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.45,
+    "editorial_rating": null,
+    "aggregator_rating": 4.3,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Unbeatable Rs. 4 Lakh/yr milestone card — park all jewelry/insurance/tax/general spends to hit Rs. 4L cleanly, then switch to another card.",
+    "pros": [
+      "Targeted rewards structure backed by American Express",
+      "8 complimentary domestic airport lounge visits/year"
+    ],
+    "cons": [
+      "High joining/annual fee (Rs. 5,000 + GST) if spend thresholds aren't met",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Users with exactly ~Rs. 4,00,000/year in non-rewarding spends (tax, insurance, jewelry, education, rent) turning dead spends into 48k MR + Rs. 10k Taj voucher",
+    "not_ideal_for": "Spenders above Rs. 4L (returns crash past milestone) or users needing wide Amex offline acceptance",
+    "recommended_monthly_spend_inr": "Rs. 33,333 (exactly Rs. 4L/yr sweet spot)",
+    "verdict": "Unbeatable Rs. 4 Lakh/yr milestone card — park all jewelry/insurance/tax/general spends to hit Rs. 4L cleanly, then switch to another card."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.88,
+    "reddit_mentions": 6,
+    "sentiment_summary": "Community discussions around American Express Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "True ~7.5%–10% return is unlocked on exact Rs. 4,00,000 annual spend (40,000 bonus MR Points + Rs. 10,000 Taj Stay voucher + 8,000 base MR); counts toward insurance, NPS/tax exclusion workaround via Reward Multiplier vouchers."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "MobiKwik wallet exit & Gold/Charge pressure, while Plat Travel Rs. 4L milestone & MR non-expiry stay valuable."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "au_small_finance_bank_ixigo_au_credit_card",
+      "card_name": "ixigo AU Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "ixigo-au-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.38,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "axis_bank_atlas_credit_card",
+      "card_name": "Axis Bank Atlas Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-atlas-credit-card",
+      "annual_fee_inr": 5000,
+      "overall_rating": 4.72,
+      "reason": "Direct competitor from Axis Bank at similar fee tier (Rs. 5,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "american-express-amex-reward-multiplier-dining-luxury-stay",
+      "bank": "American Express",
+      "title": "Amex Reward Multiplier & Dining / Luxury Stay Offers",
+      "summary": "3X–5X Membership Rewards via Amex Reward Multiplier (GyFTR vouchers, Flipkart, MakeMyTrip, Tata CLiQ) plus Taj/Marriott milestone perks.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.americanexpress.com/en-in/benefits/offers/",
+      "scope": "targeted"
+    }
+  ]
+}

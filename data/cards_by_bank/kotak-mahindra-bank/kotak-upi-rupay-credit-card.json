@@ -1,0 +1,459 @@
+{
+  "identity": {
+    "card_id": "kotak_mahindra_bank_upi_rupay_credit_card",
+    "card_name": "Kotak UPI RuPay Credit Card",
+    "bank": "Kotak Mahindra Bank",
+    "bank_slug": "kotak-mahindra-bank",
+    "card_slug": "kotak-upi-rupay-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "Lifetime Free",
+      "RuPay & UPI",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/kotak-mahindra-bank/kotak-upi-rupay-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#931C25",
+      "secondary_hex": "#355164",
+      "wash_hex": "#EEDEDD",
+      "soft_bg_hex": "#F5EBEB",
+      "border_hex": "#E7CDCF",
+      "ink_on_soft_hex": "#931C25",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+    "mitc_pdf_url": "https://www.kotak.bank.in/content/dam/Kotak/files/english-rcas.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "free",
+      "kotak",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "mahindra",
+      "online",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "upi",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.21,
+    "accelerated_reward_rate_pct": 0.21,
+    "point_value_inr_default": 0.07,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.07"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Uncapped 3 reward points on every Rs. 100 spent, including UPI, online and international transactions made virtually",
+      "1 Reward Point = Rs. 0.07",
+      "Accrued reward points are redeemable against the Kotak Rewards catalogue across varied categories, like travel, shopping, e-vouchers, recharges, movies and many more.",
+      "There is no reward point accrual on spends made on fuel, rent, wallet loading, education, govt., insurance, online gaming, railway, EMIs and balance transfers.",
+      "Rewards across online spending categories, including UPI transactions and international spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.21,
+      "amazon_flipkart_myntra": 0.21,
+      "dining_swiggy_zomato": 0.21,
+      "groceries_quick_commerce": 0.21,
+      "travel_flights_hotels": 0.21,
+      "upi_scan_and_pay": 1.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.92,
+      "offline_general_other": 0.21
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Uncapped 3 reward points on every Rs. 100 spent, including UPI, online and international transactions made virtually"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Rent payments",
+      "Fuel transactions (reward points excluded)",
+      "Wallet loads",
+      "Education fee payments",
+      "Insurance premium payments"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Accrued reward points are redeemable against the Kotak Rewards catalogue across varied categories, like travel, shopping, e-vouchers, recharges, movies and many more.",
+        "There is no reward point accrual on spends made on fuel, rent, wallet loading, education, govt., insurance, online gaming, railway, EMIs and balance transfers."
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 100 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,000"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,200"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from Kotak Mahindra Bank suited for rupay & upi users.",
+    "highlights": [
+      "Uncapped 3 reward points on every Rs. 100 spent, including UPI, online and international transactions made virtually",
+      "1 Reward Point = Rs. 0.07",
+      "Accrued reward points are redeemable against the Kotak Rewards catalogue across varied categories, like travel, shopping, e-vouchers, recharges, movies and many more."
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Accrued reward points are redeemable against the Kotak Rewards catalogue across varied categories, like travel, shopping, e-vouchers, recharges, movies and many more.",
+      "There is no reward point accrual on spends made on fuel, rent, wallet loading, education, govt., insurance, online gaming, railway, EMIs and balance transfers."
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "Accrued reward points are redeemable against the Kotak Rewards catalogue across varied categories, like travel, shopping, e-vouchers, recharges, movies and many more."
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "There is no reward point accrual on spends made on fuel, rent, wallet loading, education, govt., insurance, online gaming, railway, EMIs and balance transfers."
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "UPI is your preferred mode of payment for most of your everyday spends",
+      "You are looking for a credit card on RuPay network to earn rewards on UPI transactions",
+      "You do not wish to pay any annual fee and want a lifetime free card"
+    ],
+    "faqs": [
+      {
+        "q": "What is the eligibility criteria for Kotak UPI RuPay Credit Card?",
+        "a": "Only the existing Kotak credit card users who are at least 18 years old or above in age are eligible to apply for Kotak UPI RuPay Credit Card."
+      },
+      {
+        "q": "What is Kotak UPI RuPay Credit Card?",
+        "a": "Kotak UPI RuPay Credit Card is a lifetime-free virtual credit card that allows the Kotak credit cardholders to make online spends, including UPI transactions."
+      },
+      {
+        "q": "How can I apply for the Kotak UPI RuPay Credit Card?",
+        "a": "Since only the existing Kotak credit cardholders are eligible for this card, they can either contact their relationship manager, if any, visit their associated Kotak bank branch or call customer care to enquire about this card."
+      },
+      {
+        "q": "What if I change my mobile number, how can I link my Kotak Bank RuPay Credit Card on UPI app?",
+        "a": "If you change your mobile number, you must update it for your Kotak Bank UPI RuPay Credit Card as well. Once it is updated, you are required to re-register your card on the respective UPI apps."
+      },
+      {
+        "q": "How many transactions can I make from the linked Kotak RuPay Credit Card on UPI?",
+        "a": "There is no restriction on the number of transactions made using Kotak RuPay credit cards."
+      },
+      {
+        "q": "Can I make payment to any person or other credit card using the linked Kotak Credit Card on UPI?",
+        "a": "No, the linked Kotak RuPay Credit Card can only be used to make payment to merchant (P2M). No Peer to Peer (P2P) or Peer to Peer Merchant (P2PM) transactions are allowed."
+      },
+      {
+        "q": "Is there any spending limit on using my linked Kotak RuPay Credit card on UPI?",
+        "a": "Generally, a UPI amount limit of Rs. 1 lakh per day (or Rs. 2 lakh per day for certain special cases) is applicable for every card."
+      },
+      {
+        "q": "Will I be charged for linking or making any purchase using Kotak RuPay Credit Card on UPI?",
+        "a": "No, Kotak RuPay Credit Card does not come with any such transaction charges."
+      },
+      {
+        "q": "Will I earn any reward points for UPI spends using Kotak Bank UPI RuPay Credit Card?",
+        "a": "Yes, you can earn 3 reward points for every Rs. 100 spent on UPI transactions."
+      },
+      {
+        "q": "Is UPI facility available on Add-on Kotak UPI RuPay Credit Cards?",
+        "a": "Kotak UPI RuPay Credit Card does not come with any add-on card facility."
+      },
+      {
+        "q": "Is there a minimum spend required to earn rewards?",
+        "a": "Reward points are credited on every Kotak UPI RuPay card spend worth Rs. 100 or more."
+      },
+      {
+        "q": "Does Kotak RuPay Credit Card offer airport lounge access?",
+        "a": "No, Kotak UPI RuPay Credit Card does not offer any complimentary airport lounge access."
+      },
+      {
+        "q": "Can I use this card for international transactions?",
+        "a": "Yes, you can use your Kotak UPI RuPay Credit Card to make virtual international transactions. Such transactions can be enabled by logging into Kotak Mobile Banking app and going to the ‘Card Control’ tab under ‘Card Overview’ section."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.44,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Reward Rate": 2.5,
+      "Rewards Redemption Options": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from Kotak Mahindra Bank suited for rupay & upi users.",
+    "pros": [
+      "Rewards across online spending categories, including UPI transactions and international spends"
+    ],
+    "cons": [
+      "Low reward redemption value",
+      "No other lifestyle benefit or bonus besides the basic reward rate on card spends"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "Lifetime Free option from Kotak Mahindra Bank suited for rupay & upi users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.44,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Kotak Mahindra Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Uncapped 3 reward points on every Rs. 100 spent, including UPI, online and international transactions made virtually"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "RBI digital embargo recovery era + PVR/White/Myntra reward & lounge reductions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "cred-indusind-bank-rupay-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.2,
+      "reason": "Direct competitor from IndusInd Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_fd_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-fd-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.28,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.28/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Only the existing Kotak credit card users who are at least 18 years old or above in age are eligible to apply for Kotak UPI RuPay Credit Card."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "kotak-mahindra-bank-haute-sauce",
+      "bank": "Kotak Mahindra Bank",
+      "title": "Haute Sauce",
+      "summary": "Just Added Haute Sauce Get 20% off on a minimum purchase of ₹1499 Valid Till : 31 December 2026 Read More",
+      "category": "Cashback & Card Perks",
+      "valid_till": "31 December 2026",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-the-unstoppable-tour",
+      "bank": "Kotak Mahindra Bank",
+      "title": "The Unstoppable Tour",
+      "summary": "Just Added The Unstoppable Tour Enjoy an early pre-sale window for Kotak Credit Card customers from 2nd October 2026, 12:00PM to 4th October 2026, 12:00PM Valid Till : 27 March 2027 Read More",
+      "category": "Cashback & Card Perks",
+      "valid_till": "27 March 2027",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-the-bombay-sweet-shop",
+      "bank": "Kotak Mahindra Bank",
+      "title": "The Bombay Sweet Shop",
+      "summary": "Just Added The Bombay Sweet Shop Flat 30% off upto ₹15000 on any purchase on Kotak Solitaire Credit Card. Applicable on both online (www.bombaysweetshop.com, Swiggy, Zomato) and offline stores Valid Till : 30 November 2026 Read More",
+      "category": "Dining",
+      "valid_till": "30 November 2026",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-anantara-vacation-club",
+      "bank": "Kotak Mahindra Bank",
+      "title": "Anantara Vacation Club",
+      "summary": "Just Added Anantara Vacation Club Upto 80% instant discount at Anantara Vacation Club via Kotak Solitaire & White Reserve Credit Cards Valid Till : 20 December 2026 Read More",
+      "category": "Cashback & Card Perks",
+      "valid_till": "20 December 2026",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-district-dining",
+      "bank": "Kotak Mahindra Bank",
+      "title": "District Dining",
+      "summary": "Just Added District Dining 15% instant discount up to ₹750 on Min Bill Value of ₹3000 via Kotak Mahindra Bank Select Credit Cards Valid Till : 31 March 2027 Read More",
+      "category": "Dining",
+      "valid_till": "31 March 2027",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "kotak-mahindra-bank-kotak-merchant-cashback-dining-fuel-surch",
+      "bank": "Kotak Mahindra Bank",
+      "title": "Kotak Merchant Cashback & Dining / Fuel Surcharge Offers",
+      "summary": "Up to 10% instant discount on partner travel, electronics & Myntra shopping campaigns plus weekend dining perks.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/credit-card-offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

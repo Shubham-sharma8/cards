@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "card_id": "sbm_bank_sbm_gild_credit_card",
+    "card_name": "SBM Gild Credit Card",
+    "bank": "SBM Bank India",
+    "bank_slug": "sbm-bank-india",
+    "card_slug": "sbm-gild-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Zero/Low Forex",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbm-bank-india/sbm-gild-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#8B7A4E",
+      "secondary_hex": "#604839",
+      "wash_hex": "#EDEAE2",
+      "soft_bg_hex": "#F5F3EF",
+      "border_hex": "#E5E2D8",
+      "ink_on_soft_hex": "#726440",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbmbank.co.in/personal-banking/credit-cards.php",
+    "mitc_pdf_url": "https://www.sbmbank.co.in/aboutus/sbm-bank-india-mitc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "entry",
+      "fd",
+      "forex",
+      "gild",
+      "india",
+      "level",
+      "low",
+      "miles",
+      "sbm",
+      "secured",
+      "travel",
+      "zero"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.75,
+    "accelerated_reward_rate_pct": 2.49,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "0.75% back as Petals on all spends",
+      "Redeem petals from the Gild App to convert them to digital gold at a 1:1 ratio (24K 99.99% pure Digital gold)",
+      "Low forex markup fee of 2.49%",
+      "90% credit limit of the FD amount",
+      "100% cash withdrawal limit of the available credit limit"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.75,
+      "amazon_flipkart_myntra": 0.75,
+      "dining_swiggy_zomato": 0.75,
+      "groceries_quick_commerce": 0.75,
+      "travel_flights_hotels": 0.75,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -2.19,
+      "offline_general_other": 0.75
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "90% credit limit of the FD amount",
+      "100% cash withdrawal limit of the available credit limit"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Rent payments"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": []
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 2.49,
+    "apr_monthly_pct": 2.5,
+    "apr_annual_pct": 30.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "Rs. 299"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from SBM Bank India suited for travel & miles users.",
+    "highlights": [
+      "Features & Benefits",
+      "Eligibility Criteria",
+      "0.75% back as Petals on all spends",
+      "Petals can be adjusted for any refunds or non-settled transactions, excluding political parties, money transfers, rent, real estate, lotteries and casinos",
+      "Redeem petals from the Gild App to convert them to digital gold at a 1:1 ratio (24K 99.99% pure Digital gold)"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.27,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBM Bank India suited for travel & miles users.",
+    "pros": [
+      "Targeted rewards structure backed by SBM Bank India",
+      "Backed by SBM Bank India digital card controls, EMI conversion & merchant offers"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from SBM Bank India suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.27,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBM Bank India Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "90% credit limit of the FD amount",
+      "100% cash withdrawal limit of the available credit limit"
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "idfc_bank_idfc_first_wow_black_credit_card",
+      "card_name": "FIRST WOW! Black Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-wow-black-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 750,
+      "overall_rating": 4.22,
+      "reason": "Direct competitor from IDFC FIRST Bank at similar fee tier (Rs. 750/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "punjab_national_bank_pnb_luxura_visa_credit_card",
+      "card_name": "PNB LUXURA Visa Credit Card",
+      "bank": "Punjab National Bank",
+      "bank_slug": "punjab-national-bank",
+      "card_slug": "pnb-luxura-visa-credit-card",
+      "annual_fee_inr": 1999,
+      "overall_rating": 4.05,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.05/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.42/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

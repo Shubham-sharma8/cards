@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "card_id": "axis_bank_axis_supermoney_rupay_credit_card",
+    "card_name": "Axis Bank super.money RuPay Credit Card",
+    "bank": "Axis Bank",
+    "bank_slug": "axis-bank",
+    "card_slug": "axis-bank-super-money-rupay-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Entry-Level",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "RuPay & UPI",
+      "Cashback",
+      "Lifetime Free"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/axis-bank/axis-bank-super-money-rupay-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#1F156F",
+      "secondary_hex": "#7B1E6F",
+      "wash_hex": "#E0DEE6",
+      "soft_bg_hex": "#EBEAF2",
+      "border_hex": "#CECCDF",
+      "ink_on_soft_hex": "#1F156F",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.axis.bank.in/cards/credit-card",
+    "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Daily UPI users wanting straightforward 3% cashback LTF without complex point conversions",
+      "Rs. 5,000 – Rs. 20,000 on UPI"
+    ],
+    "requirement_keywords": [
+      "axis",
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "free",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "money",
+      "rupay",
+      "scan-and-pay",
+      "super",
+      "upi",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Direct Cashback (3% UPI via super.money app up to Rs. 500/mo on min Rs. 100 txns)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 3.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "3% Cashback: On QR transactions made on super.money app/platform",
+      "1% Cashback: On all other eligible card spends",
+      "Capping: Total cashback earnings are capped at Rs. 500 for every month",
+      "1% fuel surcharge waiver of up to Rs. 400 per month on fuel spends worth Rs. 400 to Rs. 4,000 made across India",
+      "Up to 3% cashback on UPI transactions",
+      "No hassle of rewards redemption as cashback is directly credited to the account"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 3.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "upi_scan_and_pay": 500
+    },
+    "monthly_capping_rules": [
+      "3% Scan & Pay UPI cashback via super.money app capped at Rs. 500/month (Rs. 16,667 UPI spend/month); 1% other eligible spends."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": 0,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1% fuel surcharge waiver of up to Rs. 400 per month on fuel spends worth Rs. 400 to Rs. 4,000 made across India"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No airport lounge access (pure UPI cashback card)"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 55.55,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,200"
+      },
+      {
+        "statement_balance_slab": "Greater than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "2026 community favorite LTF RuPay UPI card for crisp 3% merchant scan-and-pay cashback.",
+    "highlights": [
+      "3% Cashback: On QR transactions made on super.money app/platform",
+      "1% Cashback: On all other eligible card spends",
+      "Capping: Total cashback earnings are capped at Rs. 500 for every month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1% fuel surcharge waiver of up to Rs. 400 per month on fuel spends worth Rs. 400 to Rs. 4,000 made across India"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for an entry-level card that does not charge any annual fee",
+      "You prefer earning cashback on your credit card spends, instead of reward points",
+      "UPI is your favoured mode of payment due to which you want a Rupay credit card",
+      "You do not have any preference regarding UPI apps and can maximise your value-back by using the super.money app"
+    ],
+    "faqs": [
+      {
+        "q": "Can I link Axis SUPERMONEY Credit Card to any UPI app?",
+        "a": "Yes, Axis Bank SUPERMONEY card can be linked to any UPI app of your choice like all other RuPay credit cards."
+      },
+      {
+        "q": "Will Axis Bank SUPERMONEY Credit Card give 3% cashback on UPI apps like GPay, PhonePe and Paytm?",
+        "a": "Axis Bank SUPERMONEY RuPay Credit Card offers 3% cashback only on UPI transactions made through super.money app. UPI payments made using all other UPI apps will only earn 1% cashback."
+      },
+      {
+        "q": "Is there any capping on cashback on Axis Bank SUPERMONEY Credit Card?",
+        "a": "Yes, you can only earn cashback worth up to Rs. 500 every month through Axis SUPER MONEY Credit Card."
+      },
+      {
+        "q": "Are there any fees or charges associated with super.money app usage?",
+        "a": "No, you do not have to pay any fee to create your account on super.money or to use the app to make your payments."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.3,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 3.0,
+      "Shopping": 3.0,
+      "cashback": 3.0,
+      "shopping": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "2026 community favorite LTF RuPay UPI card for crisp 3% merchant scan-and-pay cashback.",
+    "pros": [
+      "Up to 3% cashback on UPI transactions",
+      "No card joining or annual fee",
+      "No hassle of rewards redemption as cashback is directly credited to the account"
+    ],
+    "cons": [
+      "Capping on monthly cashback earnings",
+      "No additional lifestyle benefits are offered apart from cashback"
+    ],
+    "best_for_whom": "Daily UPI users wanting straightforward 3% cashback LTF without complex point conversions",
+    "not_ideal_for": "Travel lounge or luxury perk seekers",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 on UPI",
+    "verdict": "2026 community favorite LTF RuPay UPI card for crisp 3% merchant scan-and-pay cashback."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.65,
+    "reddit_mentions": 5,
+    "sentiment_summary": "Community discussions around Axis Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "3% Scan & Pay UPI cashback via super.money app capped at Rs. 500/month (Rs. 16,667 UPI spend/month); 1% other eligible spends."
+    ],
+    "optimization_tips": [
+      "Focus spends on RuPay UPI Scan & Pay (3.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Very High",
+    "devaluation_risk_score": 8,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "yes_bank_klick_credit_card",
+      "card_name": "YES BANK Klick (Kiwi) RuPay Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-klick-kiwi-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "cred-indusind-bank-rupay-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.2,
+      "reason": "Direct competitor from IndusInd Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_phonepe_ultimo_credit_card",
+      "card_name": "PhonePe HDFC Bank Ultimo Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "phonepe-hdfc-bank-ultimo-credit-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.62,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.62/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "sbi_bank_phonepe_select_black_credit_card",
+      "card_name": "PhonePe SBI Card SELECT BLACK",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "phonepe-sbi-card-select-black",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.58,
+      "reason": "Top-rated RuPay & UPI card in market with rating 4.58/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "axis-bank-grab-deals-eazydiner-dining-delights-up-to",
+      "bank": "Axis Bank",
+      "title": "Grab Deals & EazyDiner Dining Delights (Up to 30%–40% Off)",
+      "summary": "Extra Reward Points / cashback via Axis Grab Deals plus Dining Delights discounts of 15%–40% at partner restaurants across India.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.axis.bank.in/grab-deals/online-offers",
+      "scope": "targeted"
+    }
+  ]
+}

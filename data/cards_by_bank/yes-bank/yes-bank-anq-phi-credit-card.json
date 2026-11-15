@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "card_id": "yes_bank_anq_pi_phi_credit_card",
+    "card_name": "YES Bank Anq Phi Credit Card",
+    "bank": "YES BANK",
+    "bank_slug": "yes-bank",
+    "card_slug": "yes-bank-anq-phi-credit-card",
+    "card_network": "RuPay / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "RuPay & UPI",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/yes-bank/yes-bank-anq-phi-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#59442C",
+      "secondary_hex": "#69673A",
+      "wash_hex": "#E7E3DE",
+      "soft_bg_hex": "#F0EEEC",
+      "border_hex": "#DAD6D1",
+      "ink_on_soft_hex": "#59442C",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+    "mitc_pdf_url": "https://www.yes.bank.in/pdf?name=ybl_mitc_pdf.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "RuPay Credit Card Airport Lounge Access Directory",
+        "url": "https://www.rupay.co.in/",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "anq",
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "groceries",
+      "lounge",
+      "miles",
+      "movies",
+      "online",
+      "phi",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "travel",
+      "upi",
+      "yes"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.25,
+    "accelerated_reward_rate_pct": 3.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "24 reward points per Rs. 200 spent: On groceries at supermarkets, department stores & more, on dining out, food delivery orders, and flights & hotels (including online booking sites)",
+      "2 reward points per Rs. 200 spent: On other spends",
+      "8 reward points per Rs. 200 spent: On UPI transactions worth more than Rs. 2,000 via UPI apps, like Google Pay, PhonePe, etc.",
+      "2 reward points per Rs. 200 spent: On all other online transactions made via Anq Pi card, including UPI transactions worth up to Rs. 2,000",
+      "Capping: Rewards earning on Pi UPI transactions is capped at 5,000 reward points per month",
+      "EMI Facility: Convert your UPI spends into flexible EMI"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 3.0,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 3.0,
+      "groceries_quick_commerce": 3.0,
+      "travel_flights_hotels": 3.0,
+      "upi_scan_and_pay": 1.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "upi_scan_and_pay": 1250
+    },
+    "monthly_capping_rules": [
+      "2 reward points per Rs. 200 spent: On all other online transactions made via Anq Pi card, including UPI transactions worth up to Rs. 2,000",
+      "Capping: Rewards earning on Pi UPI transactions is capped at 5,000 reward points per month"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": 120000,
+      "monthly_spend_for_waiver_inr": 10000,
+      "milestone_slabs": [
+        "2 reward points per Rs. 200 spent: On other spends",
+        "Gift vouchers worth up to Rs. 2,000 in a year as milestone benefits",
+        "Rs. 500 voucher each on achieving annual spends of Rs. 1.20 Lakh, Rs. 1.80 Lakh & Rs. 2.40 Lakh respectively",
+        "Cleartrip/ Yatra e-voucher of Rs. 2,000 each on reaching annual spending milestones of Rs. 1 lakh and Rs. 2 lakh"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "LoungeKey / Diners",
+      "visits_per_year": 3,
+      "spend_criteria": "See issuer T&C",
+      "add_on_allowed": false,
+      "guest_fee": "USD 27+GST (typical Priority Pass)",
+      "summary": "– Low number of complimentary lounge visits & restricted to international lounges"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "page_rupay_lounge_directory",
+        "title": "RuPay Credit Card Airport Lounge Access Directory",
+        "url": "https://www.rupay.co.in/",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 120000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.8,
+    "apr_annual_pct": 45.6,
+    "cash_advance_fee": "2.5% of the withdrawn amount or Rs. 300, whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from YES BANK suited for travel & miles users.",
+    "highlights": [
+      "Phi Credit Card Features & Benefits",
+      "Pi Credit Card Features & Benefits",
+      "Should You Get This Card?",
+      "Similar Cards to YES Bank Anq Cards",
+      "24 reward points per Rs. 200 spent: On groceries at supermarkets, department stores & more, on dining out, food delivery orders, and flights & hotels (including online booking sites)"
+    ],
+    "welcome_benefit": "500 CashPoints as welcome benefit after the payment of joining fee",
+    "milestone_benefits": [
+      "2 reward points per Rs. 200 spent: On other spends",
+      "Gift vouchers worth up to Rs. 2,000 in a year as milestone benefits",
+      "Rs. 500 voucher each on achieving annual spends of Rs. 1.20 Lakh, Rs. 1.80 Lakh & Rs. 2.40 Lakh respectively",
+      "Cleartrip/ Yatra e-voucher of Rs. 2,000 each on reaching annual spending milestones of Rs. 1 lakh and Rs. 2 lakh"
+    ],
+    "dining_benefits": [
+      "24 reward points per Rs. 200 spent: On groceries at supermarkets, department stores & more, on dining out, food delivery orders, and flights & hotels (including online booking sites)"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Comprehensive Insurance Cover: Personal accident insurance & permanent disability cover of up to Rs. 2 lakh"
+    ],
+    "concierge_or_privilege": [
+      "24×7 Concierge Services: Avail 24×7 referral services, like travel assistance, hotel reservations and consultancy services"
+    ],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.6,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from YES BANK suited for travel & miles users.",
+    "pros": [
+      "Annual fee (Rs. 499) waived on spending Rs. 120,000/year",
+      "3 international lounge visits/year",
+      "RuPay network supports Scan & Pay merchant UPI transactions"
+    ],
+    "cons": [
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from YES BANK suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.6,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around YES BANK Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "2 reward points per Rs. 200 spent: On all other online transactions made via Anq Pi card, including UPI transactions worth up to Rs. 2,000",
+      "Capping: Rewards earning on Pi UPI transactions is capped at 5,000 reward points per month"
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (3.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹120,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "High",
+    "devaluation_risk_score": 7,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Repeated lounge & RP devaluations (up to Rs. 1L/qtr spend for domestic lounges; Nov 2026 Reserve/First cut)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "bobcard_assam_rifles_sentinel_credit_card",
+      "card_name": "Assam Rifles The SENTINEL BOBCARD",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "assam-rifles-the-sentinel-bobcard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_indian_coast_guard_rakshamah_credit_card",
+      "card_name": "Indian Coast Guard Rakshamah BOBCARD Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "indian-coast-guard-rakshamah-bobcard-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_fd_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-fd-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.28,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.28/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "yes-bank-yes-rewards-bookmyshow-upi-merchant-perks",
+      "bank": "YES BANK",
+      "title": "YES Rewards & BookMyShow / UPI Merchant Perks",
+      "summary": "Up to 25% off on BookMyShow movie tickets, accelerated reward points on online shopping, and UPI Scan & Pay offers on Kiwi / ACE.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

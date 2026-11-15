@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "card_id": "federal_bank_federal_starbiz_credit_card",
+    "card_name": "Federal StarBiz Credit Card",
+    "bank": "Federal Bank",
+    "bank_slug": "federal-bank",
+    "card_slug": "federal-starbiz-credit-card",
+    "card_network": "RuPay / Visa",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Business & Tax",
+    "categories": [
+      "Cashback",
+      "RuPay & UPI",
+      "Business & Tax",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/federal-bank/federal-starbiz-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#978345",
+      "secondary_hex": "#2E5C7E",
+      "wash_hex": "#EEEBE1",
+      "soft_bg_hex": "#F6F4EE",
+      "border_hex": "#E8E4D6",
+      "ink_on_soft_hex": "#726334",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.federal.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.federal.bank.in/documents/d/guest/mitc_fed_starbiz-1-",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 25000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Proprietors",
+      "MSMEs & self-employed professionals separating GST",
+      "vendor expenses",
+      "Rs. 50,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "business",
+      "card",
+      "cashback",
+      "credit",
+      "federal",
+      "online",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "starbiz",
+      "tax",
+      "upi"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Does not offer reward points, cashback, or milestone benefits",
+      "No travel, lifestyle, or fuel-related benefits"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 275,
+      "annual_fee_inr": 275,
+      "annual_fee_with_gst_inr": 324.5,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Offers a safer payment experience for both online and offline business spends"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 275,
+    "annual_fee_inr": 275,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "Nil"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from Federal Bank suited for business & tax users.",
+    "highlights": [
+      "Linked to the existing Overdraft (OD) or Cash Credit (CC) account with limits up to Rs. 50 Lakh",
+      "No separate credit card bill or statement, as all transactions are reflected in the linked OD/CC account",
+      "Can be used for POS, online, and contactless (Tap & Pay) transactions"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Offers a safer payment experience for both online and offline business spends"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You already have a Federal Bank Overdraft or Cash Credit account",
+      "You want to access your OD/CC limit conveniently through a business credit card",
+      "You are looking for a simple payment solution for business expenses without managing a separate credit card bill",
+      "You frequently make POS, online, or contactless business transactions"
+    ],
+    "faqs": [
+      {
+        "q": "What is Federal StarBiz Credit Card?",
+        "a": "Federal StarBiz Credit Card is a business credit card offered to Federal Bank customers who have an Overdraft (OD) or Cash Credit (CC) account with the bank. The card is linked to the existing OD/CC account instead of offering a separate credit limit."
+      },
+      {
+        "q": "Who is eligible for Federal StarBiz Credit Card?",
+        "a": "Applicants must have a Federal Bank Overdraft (OD) or Cash Credit (CC) account with a sanctioned limit between Rs. 3 Lakh and Rs. 50 Lakh to be eligible for this card."
+      },
+      {
+        "q": "Does Federal StarBiz Credit Card have a separate credit limit?",
+        "a": "No. The card uses the available limit of the linked Overdraft or Cash Credit account. It does not provide a separate credit limit like a regular business credit card."
+      },
+      {
+        "q": "What types of transactions can I make using Federal StarBiz Credit Card?",
+        "a": "The card can be used for POS, online (e-commerce), and contactless (Tap & Pay) transactions at merchants accepting RuPay and Visa cards."
+      },
+      {
+        "q": "What is the daily transaction limit on Federal StarBiz Credit Card?",
+        "a": "Cardholders can make transactions of up to Rs. 3 Lakh per day or up to the available limit in the linked OD/CC account, whichever is lower."
+      },
+      {
+        "q": "What happens if the sanctioned limit on the linked OD/CC account exceeds Rs. 50 Lakh?",
+        "a": "If the sanctioned limit on the linked Overdraft or Cash Credit account exceeds Rs. 50 Lakh, Federal StarBiz Credit Card linked to the account will be automatically cancelled by the bank after notifying the cardholder."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.26,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Lifestyle Benefits": 2.5,
+      "lifestyle_benefits": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Federal Bank suited for business & tax users.",
+    "pros": [
+      "Linked directly to the existing OD/CC account, eliminating the need for a separate credit limit",
+      "Supports POS, online, and Tap & Pay transactions for business payments",
+      "No separate card statement, making account management simpler",
+      "High daily transaction limit of up to Rs. 3 Lakh"
+    ],
+    "cons": [
+      "Available only to customers with a Federal Bank Overdraft or Cash Credit account",
+      "Does not offer reward points, cashback, or milestone benefits",
+      "No travel, lifestyle, or fuel-related benefits",
+      "Transaction limit depends on the available balance in the linked OD/CC account"
+    ],
+    "best_for_whom": "Proprietors, MSMEs & self-employed professionals separating GST/tax/vendor expenses",
+    "not_ideal_for": "Salaried individuals with strictly personal spends",
+    "recommended_monthly_spend_inr": "Rs. 50,000+",
+    "verdict": "option from Federal Bank suited for business & tax users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.26,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Federal Bank Business & Tax cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "csb_bank_edge_plus_csb_rupay_credit_card",
+      "card_name": "Edge+ CSB Bank RuPay Credit Card",
+      "bank": "CSB Bank",
+      "bank_slug": "csb-bank",
+      "card_slug": "edge-csb-bank-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.26,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hsbc_bank_rupay_cashback_credit_card",
+      "card_name": "HSBC RuPay Cashback Credit Card",
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "card_slug": "hsbc-rupay-cashback-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.22,
+      "reason": "Direct competitor from HSBC Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "cred-indusind-bank-rupay-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.2,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.2/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Top-rated Cashback card in market with rating 4.82/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 25000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Applicants must have a Federal Bank Overdraft (OD) or Cash Credit (CC) account with a sanctioned limit between Rs. 3 Lakh and Rs. 50 Lakh"
+  },
+  "latest_offers": []
+}

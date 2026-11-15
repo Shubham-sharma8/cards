@@ -1,0 +1,744 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_marriott_bonvoy_hdfc_credit_card",
+    "card_name": "Marriott Bonvoy HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "marriott-bonvoy-hdfc-bank-credit-card",
+    "card_network": "Diners Club",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Airport Lounge",
+    "categories": [
+      "Airport Lounge",
+      "Travel & Miles",
+      "Golf"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/marriott-bonvoy-hdfc-bank-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#77663A",
+      "secondary_hex": "#7E8649",
+      "wash_hex": "#EAE7DF",
+      "soft_bg_hex": "#F3F1ED",
+      "border_hex": "#E1DDD4",
+      "ink_on_soft_hex": "#726237",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/mitc-in-english.pdf",
+    "aggregator_urls": [
+      "https://www.cardexpert.in/hdfc-marriott-bonvoy-credit-card-review/"
+    ],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 3,000 - 9,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": true,
+    "has_golf": true,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 100000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Travelers wanting 12 domestic + 12 international NO-SPEND lounges AND a guaranteed annual Marriott Free Night worth >Rs. 8,000 for a Rs. 3,000 fee",
+      "Rs. 0 – Rs. 25,000 (keeper hotel + lounge card)"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "bank",
+      "bonvoy",
+      "card",
+      "credit",
+      "golf",
+      "hdfc",
+      "lounge",
+      "marriott",
+      "miles",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.8,
+      "amazon_flipkart_myntra": 0.8,
+      "dining_swiggy_zomato": 1.6,
+      "groceries_quick_commerce": 0.8,
+      "travel_flights_hotels": 3.2,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.8,
+      "fuel": 0.0,
+      "insurance": 0.8,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.33,
+      "offline_general_other": 0.8
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Exempt from HDFC July 2025 monthly insurance capping: earns uncapped 2 Bonvoy Points/Rs.150 (~0.8% at ~Rs.0.60/pt) on insurance & utilities AND counts toward Rs. 6L / Rs. 9L / Rs. 15L Free Night Award milestones; 4 pts/Rs.150 dining/travel; 8 pts/Rs.150 Marriott."
+    ],
+    "category_caveats": {
+      "insurance": "Uncapped (exempt from HDFC July 2025 monthly insurance cap per HDFC circular & r/CreditCardsIndia): earns ~0.8% Bonvoy points AND counts toward Free Night Award milestones (₹6L/₹9L/₹15L).",
+      "utilities_bills_telecom": "Uncapped 2 Bonvoy pts/Rs.150 (~0.8%) + counts toward Free Night Award milestones."
+    },
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 3000,
+      "annual_fee_inr": 3000,
+      "annual_fee_with_gst_inr": 3540.0,
+      "fee_waiver_spend_inr": 0,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1 Free Night Award on spending 6 lakh in an anniversary year",
+        "1 Free Night Award on spending Rs. 9 lakh in an anniversary year",
+        "1 Free Night Award on spending Rs. 15 lakh in an anniversary year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 12,
+      "visits_per_quarter": 12,
+      "spend_criteria": "No spend criteria",
+      "add_on_allowed": true,
+      "shared_limit": true,
+      "summary": "12 complimentary domestic lounges/yr with ZERO spend criteria (shared with add-ons)"
+    },
+    "international": {
+      "program": "Diners Club Airport Lounge Program",
+      "visits_per_year": 12,
+      "spend_criteria": "No spend criteria",
+      "add_on_allowed": true,
+      "guest_fee": "Chargeable",
+      "summary": "12 complimentary international lounges/yr with ZERO spend criteria"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": true,
+    "applicable_lounge_links": [
+      {
+        "program_id": "page_hdfc_lounge_guide",
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "secondary_url": null,
+        "source_type": "official_bank_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agartala",
+        "lounge_name": "Airport Agartala Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Silver Lounge-International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "Airport Allahabad / Prayagraj Zesto Execustive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ayodhya",
+        "lounge_name": "Kailash Parbat",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bagdogra",
+        "lounge_name": "International Airport Bagdogra Take off Bar",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 International Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Arrival",
+        "terminal": "Arrival Terminal 2",
+        "terminal_type": "International/ Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 1",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 2",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - East",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "Raja Bhoj Bhopal Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge A",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kochi",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "International Airport Coimbatore BlackBerry Restaurant & Bar",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "Mohanbari Dibrugarh Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Mopa)",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "Airport Gwalior Paahun Executive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "International Airport Jaipur The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "Airport Jammu Paahun - The Executive Lounge and Restaurant",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Budweiser",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "International Madurai Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Mandarin Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 1 (T1D)",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "Birsa Munda Ranchi The Airr Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "Paahun The Executive Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      }
+    ],
+    "participating_lounges_count": 44
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 3000,
+    "annual_fee_inr": 3000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "1 Free Night Award (up to 15,000 Bonvoy pts) + Marriott Silver Elite every year",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% of amount withdrawn or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Marriott Bonvoy HDFC Bank Credit Card is India’s first credit card co-branded with a hotel chain. Offering multiple benefits across Marriott properties worldwide, this card is ideal for Marriott loyalists.",
+    "highlights": [
+      "1 Free Night Award (up to a value of 15,000 Marriott Bonvoy Points) on levy of joining fee",
+      "Complimentary Marriott Bonvoy Silver Elite Status for free (otherwise offered on completing 10 nights a year at Marriott hotels)",
+      "10 Elite Night Credits (that can be used for room and membership upgrade) under the Marriott Bonvoy Program for primary cardholder",
+      "8 Marriott Bonvoy Points per Rs. 150 spent at hotels participating in Marriott Bonvoy"
+    ],
+    "welcome_benefit": "Free Night Stays at Marriott as welcome and milestone benefits",
+    "milestone_benefits": [
+      "1 Free Night Award on spending 6 lakh in an anniversary year",
+      "1 Free Night Award on spending Rs. 9 lakh in an anniversary year",
+      "1 Free Night Award on spending Rs. 15 lakh in an anniversary year"
+    ],
+    "dining_benefits": [
+      "4 Marriott Bonvoy Points per Rs. 150 spent on travel, dining & entertainment"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [
+      "2 complimentary golf access per quarter across the world (Green Fee Waiver)"
+    ],
+    "golf_summary": {
+      "has_golf": true,
+      "complimentary_access": "2 games + 2 lessons / quarter",
+      "eligible_courses": "Domestic & International",
+      "spend_condition": "None",
+      "extra_notes": "Domestic & international games + domestic lessons"
+    },
+    "insurance_cover": [
+      "Zero lost card liability in case of fraudulent transactions made on the credit card"
+    ],
+    "concierge_or_privilege": [
+      "Exclusive 24/7 concierge services"
+    ],
+    "get_this_card_if": [
+      "You prefer Marriott and other participating hotels in Marriott Bonvoy for hotel stays",
+      "You want luxury hotel benefits at a comparatively affordable fee of Rs. 3,000",
+      "You wish to avail lounge access within and outside India",
+      "You own other credit cards with additional travel benefits like low forex mark-up, offers with other premium hotels, etc."
+    ],
+    "faqs": [
+      {
+        "q": "What is the benefit of Marriott Bonvoy Silver Elite Status?",
+        "a": "Silver Elite is the base membership of the Marriott Bonvoy Loyalty Program. Members get 10% more points on every eligible hotel stay booking, member-only room rates, and other benefits like priority late checkout, complimentary in-room internet access, etc. Though this membership is offered on completing 10 nights per year at participating hotels, you get it complimentary with the Marriott Bonvoy HDFC Bank Credit Card."
+      },
+      {
+        "q": "Is HDFC Marriott Bonvoy Credit Card worth it?",
+        "a": "Since it is a co-branded card, it is perfect for travellers who prefer staying at Marriott Properties. However, consumers who do not wish to limit their benefits to Marriott should consider cards that extend benefits with multiple hotel chains like Axis Reserve or American Express Platinum (Charge) Card."
+      },
+      {
+        "q": "How can I redeem Marriott Bonvoy Points? What is the value for each point?",
+        "a": "Marriott Bonvoy Points can be used to book a stay at select Marriott Properties that are a part of Marriott Bonvoy and Marriott Bonvoy Moments™ experiences. The value you get out of your accumulated MB Points will vary as per the hotel, type of room, booking date, etc."
+      },
+      {
+        "q": "What are Free Night Awards? How to use them?",
+        "a": "Free Night Awards can be considered as free stay vouchers which can be redeemed at the time of booking your stay with participating Marriott properties. If you have Free Night Awards in your Marriott Bonvoy account, it will be preselected at the time of making a booking. You can also combine up to 15,000 MB Points to save more."
+      },
+      {
+        "q": "Are there any terms and conditions associated with this credit card’s lounge access benefit?",
+        "a": "No. there are no spend-based conditions applicable to the lounge access benefit."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.8,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Welcome Benefits": 3.0,
+      "Lifestyle Benefits": 2.5,
+      "branded Benefits": 4.0,
+      "travel": 3.0,
+      "lifestyle_benefits": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Underrated keeper card: pays for itself on day 1 with the 15k-point Free Night Award + 24 spend-free global/domestic lounges.",
+    "pros": [
+      "Exclusive privileges on Marriott hotel bookings",
+      "Access to both international and domestic airport lounges",
+      "Complimentary Marriott Bonvoy Silver Elite Status",
+      "Free Night Stays at Marriott as welcome and milestone benefits"
+    ],
+    "cons": [
+      "No general travel benefits",
+      "Features are limited to co-branded hotel bookings",
+      "Base reward rate is low",
+      "No Priority Pass membership"
+    ],
+    "best_for_whom": "Travelers wanting 12 domestic + 12 international NO-SPEND lounges AND a guaranteed annual Marriott Free Night worth >Rs. 8,000 for a Rs. 3,000 fee",
+    "not_ideal_for": "Day-to-day cashback earners",
+    "recommended_monthly_spend_inr": "Rs. 0 – Rs. 25,000 (keeper hotel + lounge card)",
+    "verdict": "Underrated keeper card: pays for itself on day 1 with the 15k-point Free Night Award + 24 spend-free global/domestic lounges."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.06,
+    "reddit_mentions": 1,
+    "sentiment_summary": "Community discussions around HDFC Bank Airport Lounge cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Exempt from HDFC July 2025 monthly insurance capping: earns uncapped 2 Bonvoy Points/Rs.150 (~0.8% at ~Rs.0.60/pt) on insurance & utilities AND counts toward Rs. 6L / Rs. 9L / Rs. 15L Free Night Award milestones; 4 pts/Rs.150 dining/travel; 8 pts/Rs.150 Marriott."
+    ],
+    "optimization_tips": [
+      "Focus spends on flights & hotel bookings (3.2% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "indusind_bank_tiger_credit_card",
+      "card_name": "IndusInd Bank Tiger Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "indusind-bank-tiger-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.36,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Airport Lounge with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hsbc_bank_travelone_credit_card",
+      "card_name": "HSBC TravelOne Credit Card",
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "card_slug": "hsbc-travelone-credit-card",
+      "annual_fee_inr": 4999,
+      "overall_rating": 4.6,
+      "reason": "Direct competitor from HSBC Bank at similar fee tier (Rs. 4,999/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "21 to 60 years (65 years for self-employed)",
+    "min_monthly_income_salaried_inr": 100000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 100000,
+    "min_cibil_score": 730,
+    "approval_notes": "Occupation: Salaried or Self-employed"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

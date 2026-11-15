@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_freedom_credit_card",
+    "card_name": "HDFC Freedom Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "hdfc-freedom-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Entry-Level & Secured (FD)",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/hdfc-freedom-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#2266A6",
+      "secondary_hex": "#333FB4",
+      "wash_hex": "#E0E7EC",
+      "soft_bg_hex": "#EBF1F7",
+      "border_hex": "#CEDDEB",
+      "ink_on_soft_hex": "#2266A6",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "entry",
+      "fd",
+      "freedom",
+      "fuel",
+      "groceries",
+      "hdfc",
+      "level",
+      "miles",
+      "movies",
+      "online",
+      "secured",
+      "shopping",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Air Miles / Travel Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.15,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.15"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "10X CashPoints on spends at BigBasket, BookMyShow, OYO, Swiggy & Uber, up to 2,500 CashPoints per month",
+      "1 CashPoint for every Rs. 200 spent on other categories, including UPI spends",
+      "10% additional discount on Swiggy Dineout, capped at Rs. 2004",
+      "Up to 20% off on dining bills at partner restaurants via Swiggy Dineout",
+      "Complimentary Amazon Gift voucher on completing online journey (without any HDFC Bank staff assistance) and spending a min. of Rs. 500 within 14 days from credit card issuance",
+      "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 250 in a month"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "dining_swiggy_zomato": 375,
+      "groceries_quick_commerce": 375,
+      "fuel": 250
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": 50000,
+      "monthly_spend_for_waiver_inr": 4167,
+      "milestone_slabs": [
+        "1 CashPoint for every Rs. 200 spent on other categories, including UPI spends",
+        "Products & vouchers through the rewards catalogue",
+        "Annual fee waiver on spending Rs. 50,000 in a year",
+        "Complimentary Amazon Gift voucher on completing online journey (without any HDFC Bank staff assistance) and spending a min. of Rs. 500 within 14 days from credit card issuance"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 50000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from HDFC Bank suited for travel & miles users.",
+    "highlights": [
+      "10X CashPoints on spends at BigBasket, BookMyShow, OYO, Swiggy & Uber, up to 2,500 CashPoints per month",
+      "1 CashPoint for every Rs. 200 spent on other categories, including UPI spends",
+      "Products & vouchers through the rewards catalogue",
+      "Hotels & flight bookings through the SmartBuy portal"
+    ],
+    "welcome_benefit": "Welcome or renewal benefits in the form of bonus reward points",
+    "milestone_benefits": [
+      "1 CashPoint for every Rs. 200 spent on other categories, including UPI spends",
+      "Products & vouchers through the rewards catalogue",
+      "Annual fee waiver on spending Rs. 50,000 in a year",
+      "Complimentary Amazon Gift voucher on completing online journey (without any HDFC Bank staff assistance) and spending a min. of Rs. 500 within 14 days from credit card issuance"
+    ],
+    "dining_benefits": [
+      "10X CashPoints on spends at BigBasket, BookMyShow, OYO, Swiggy & Uber, up to 2,500 CashPoints per month",
+      "10% additional discount on Swiggy Dineout, capped at Rs. 2004",
+      "Up to 20% off on dining bills at partner restaurants via Swiggy Dineout"
+    ],
+    "movie_benefits": [
+      "10X CashPoints on spends at BigBasket, BookMyShow, OYO, Swiggy & Uber, up to 2,500 CashPoints per month"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for an entry-level credit card with basic benefits",
+      "You regularly spend on brands like BigBasket, Swiggy, and Uber",
+      "You want a low annual fee card with multiple reward redemption options",
+      "You can spend Rs. 50,000 in a year to avail annual fee waiver"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for HDFC Freedom Credit Card?",
+        "a": "You can apply for this credit card online through the official website of the bank. All you need to do is open the page of this credit card and click on ‘Apply Now’ to fill out the application form. You can also apply offline for this credit card by visiting the nearest branch of the bank and submitting a duly-filled application form."
+      },
+      {
+        "q": "How can I redeem my HDFC Freedom Credit Card reward points?",
+        "a": "You can redeem your earned reward points online via internet banking. You can log in to the internet banking portal and go to the ‘Online Redemption’ and choose the products as per your choice to redeem your reward points. Additionally, you can also redeem your earned reward points offline by posting the rewards redemption form to the HDFC card division."
+      },
+      {
+        "q": "Can I check my HDFC Freedom Credit Card statement online?",
+        "a": "Yes, you can check your credit card statement online by visiting the official website of HDFC Bank. Log in to your account and go to ‘Cards’ section and select the ‘Enquire’ option to view your statement. You can also use HDFC mobile banking app to download your billed statement."
+      },
+      {
+        "q": "What is the interest rate on HDFC Freedom Credit Card?",
+        "a": "In case of default payments, the card charges an annual interest rate of 45%. Besides this, in case of late payments, you have to pay up to Rs. 1,300 as late payment charges according to the outstanding balance."
+      },
+      {
+        "q": "Should I apply for HDFC Freedom Credit Card as my first credit card?",
+        "a": "Yes, HDFC Freedom is an entry-level card designed for consumers who are planning to start their credit journey. You can apply for this card and save on popular brands like Swiggy, BookMyShow, OYO, and Uber."
+      },
+      {
+        "q": "What are the benefits of choosing the HDFC Freedom Card over other HDFC cards like Millennia?",
+        "a": "HDF Freedom is a rewards credit card offering value back in the form of rewards, which you can redeem against multiple categories, along with cash redemption at a value of Rs. 0.15 per point. On the other hand, HDFC Millennia is a cashback card, allowing you to redeem earned CashPoints against cashback at a 1:1 ratio."
+      },
+      {
+        "q": "What is the annual fee of HDFC Freedom Credit Card?",
+        "a": "HDFC Freedom Credit Card charges an annual fee of Rs. 500 + applicable taxes. However, this fee is waived if you spend Rs. 50,000 or more in a year."
+      },
+      {
+        "q": "Who is eligible for HDFC Freedom Credit Card?",
+        "a": "All Indian nationals above the age of 21, whether salaried or self-employed, can apply for this credit card, provided that they meet the income criteria and other card-specific requirements. The maximum age requirement to apply for this credit card is 60 years for salaried applicants and 65 years for self-employed applicants."
+      },
+      {
+        "q": "What are the benefits of HDFC Freedom Credit Card?",
+        "a": "HDFC Freedom is an entry-level credit card that offers basic benefits such as 10X CashPoints on spends made at BigBasket, BookMyShow, OYO, Swiggy, and Uber, and 1 CashPoint for every Rs. 150 spent on other categories. Additionally, the card offers dining discounts through Eazydiner and an additional 10% discount on Swiggy Dineout."
+      },
+      {
+        "q": "How to redeem HDFC Freedom Credit Card points?",
+        "a": "To redeem HDFC Freedom Credit Card reward points, you can log in to your net banking account using your User ID and password. Then, navigate to the Credit Cards section and click on “Redeem Now” to redeem your accumulated reward points from the available options as per your preferences."
+      },
+      {
+        "q": "What is HDFC Freedom Credit Card?",
+        "a": "HDFC Freedom Credit Card is an entry-level card designed for everyday expenses such as dining, groceries, travel, shopping and more. It offers value-back in the form of reward points, which can be redeemed across multiple categories as per your needs."
+      },
+      {
+        "q": "Is this card suitable for students or first-time credit users?",
+        "a": "Yes, HDFC Freedom Credit Card is well-suited for students or first-time users as it has a low annual fee, basic benefits, and relaxed eligibility criteria. It helps you build your credit history while offering savings on everyday expenses."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.27,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Dining Benefits": 3.0,
+      "Online Shopping": 3.5,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for travel & miles users.",
+    "pros": [
+      "Accelerated reward points on popular brands",
+      "Redemption of reward points against multiple categories",
+      "Easily achievable spending milestone for annual fee waiver",
+      "Welcome or renewal benefits in the form of bonus reward points",
+      "Exclusive dining benefits through Swiggy Dineout"
+    ],
+    "cons": [
+      "Low reward redemption value of 1 RP = Rs. 0.15",
+      "No travel benefits like lounge access",
+      "No reward points on rent payments and government related transactions"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from HDFC Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.5,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HDFC Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹50,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "kotak_mahindra_bank_urbane_gold_credit_card",
+      "card_name": "Kotak Urbane Gold Credit Card",
+      "bank": "Kotak Mahindra Bank",
+      "bank_slug": "kotak-mahindra-bank",
+      "card_slug": "kotak-urbane-gold-credit-card",
+      "annual_fee_inr": 199,
+      "overall_rating": 3.33,
+      "reason": "Direct competitor from Kotak Mahindra Bank at similar fee tier (Rs. 199/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.07/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "axis_bank_axis_bank_cashback_credit_card",
+      "card_name": "Axis Bank Cashback Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-cashback-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.2,
+      "reason": "Top-rated Cashback card in market with rating 4.2/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age: 21 to 65 years"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

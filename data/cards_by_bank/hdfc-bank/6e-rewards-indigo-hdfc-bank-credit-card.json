@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_6e_rewards_indigo_hdfc_bank_credit_card",
+    "card_name": "6E Rewards IndiGo HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "6e-rewards-indigo-hdfc-bank-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/6e-rewards-indigo-hdfc-bank-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#3B74AF",
+      "secondary_hex": "#4A51B5",
+      "wash_hex": "#E3E9ED",
+      "soft_bg_hex": "#EDF2F8",
+      "border_hex": "#D4E0ED",
+      "ink_on_soft_hex": "#336598",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "6e",
+      "bank",
+      "card",
+      "credit",
+      "hdfc",
+      "indigo",
+      "miles",
+      "rewards",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 2.5,
+    "accelerated_reward_rate_pct": 2.6,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Up to 2.6% value-back as 6E Rewards on card spends, including generally excluded categories like fuel, insurance and utility payments"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.5,
+      "amazon_flipkart_myntra": 2.5,
+      "dining_swiggy_zomato": 2.6,
+      "groceries_quick_commerce": 2.6,
+      "travel_flights_hotels": 2.6,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -1.63,
+      "offline_general_other": 2.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Up to 2.6% value-back as 6E Rewards on card spends, including generally excluded categories like fuel, insurance and utility payments"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Fuel transactions (reward points excluded)",
+      "Utility bill payments",
+      "Insurance premium payments"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": []
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from HDFC Bank suited for travel & miles users.",
+    "highlights": [
+      "6E Rewards IndiGo Credit Card",
+      "2.5 6E Rewards: On flight bookings made on IndiGo web or app",
+      "2 6E Rewards: On dining, grocery and entertainment spends",
+      "1 6E Reward: On other spends"
+    ],
+    "welcome_benefit": "Welcome benefit worth up to Rs. 2,599 as free air ticket and complimentary services under free 6E Prime Add-on",
+    "milestone_benefits": [],
+    "dining_benefits": [
+      "2 6E Rewards: On dining, grocery and entertainment spends"
+    ],
+    "movie_benefits": [
+      "Welcome benefit worth up to Rs. 2,599 as free air ticket and complimentary services under free 6E Prime Add-on"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Lost Card Liability Cover:",
+      "Up to 2.6% value-back as 6E Rewards on card spends, including generally excluded categories like fuel, insurance and utility payments"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are a frequent traveller and loyal to IndiGo airlines for your travel bookings",
+      "You want a co-branded travel credit card, but at a low annual fee",
+      "You are looking for a card that offers decent rewards on card spends, including fuel, insurance and utility categories which are generally excluded from credit card rewards program"
+    ],
+    "faqs": [
+      {
+        "q": "What is 6E Rewards Program?",
+        "a": "6E Rewards Program has been started by IndiGo in association with HDFC Bank in which a cardholder can earn rewards on making all purchases. These reward points can be redeemed to avail special privileges across travel and other partner brands."
+      },
+      {
+        "q": "Is 6E Rewards Program an alternative to the Frequent Flyer Program?",
+        "a": "6E Rewards Program is not a frequent flyer program. You can use these reward points to get discounts on IndiGo flight tickets."
+      },
+      {
+        "q": "Where can I redeem the 6E Reward Points?",
+        "a": "You can redeem the 6E Rewards by logging into the membership program. You will have to verify your mobile number and email id to make purchases through the IndiGo portal."
+      },
+      {
+        "q": "What is the validity of reward points earned under the 6E Rewards Program?",
+        "a": "Reward Points earned under the 6E Rewards Program are valid for a duration of 2 years from the date of accrual."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.71,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.5,
+      "Welcome Benefits": 3.0,
+      "travel": 3.0,
+      "rewards": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for travel & miles users.",
+    "pros": [
+      "Up to 2.6% value-back as 6E Rewards on card spends, including generally excluded categories like fuel, insurance and utility payments",
+      "1:1 rewards redemption ratio",
+      "Welcome benefit worth up to Rs. 2,599 as free air ticket and complimentary services under free 6E Prime Add-on"
+    ],
+    "cons": [
+      "No complimentary airport lounge access or milestone bonus",
+      "Rewards redemption limited to just IndiGo flight bookings"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from HDFC Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.71,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HDFC Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Up to 2.6% value-back as 6E Rewards on card spends, including generally excluded categories like fuel, insurance and utility payments"
+    ],
+    "optimization_tips": [
+      "Focus spends on dining & food delivery (2.6% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "au_small_finance_bank_ixigo_au_credit_card",
+      "card_name": "ixigo AU Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "ixigo-au-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.38,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Direct competitor from IDFC FIRST Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "21 to 65 years (up to 60 years for salaried)",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age: 21 to 65 years (up to 60 years for salaried)"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

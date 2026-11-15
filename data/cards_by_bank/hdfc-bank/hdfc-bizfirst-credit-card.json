@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_biz_first_credit_card",
+    "card_name": "HDFC BizFirst Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "hdfc-bizfirst-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Business & Tax",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "RuPay & UPI",
+      "Dining, Groceries & Movies",
+      "Business & Tax"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/hdfc-bizfirst-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#348AB6",
+      "secondary_hex": "#4360BC",
+      "wash_hex": "#E2ECEE",
+      "soft_bg_hex": "#EDF4F8",
+      "border_hex": "#D2E5EF",
+      "ink_on_soft_hex": "#286A8C",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Proprietors",
+      "MSMEs & self-employed professionals separating GST",
+      "vendor expenses",
+      "Rs. 50,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "bizfirst",
+      "business",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "groceries",
+      "hdfc",
+      "miles",
+      "movies",
+      "rupay",
+      "scan-and-pay",
+      "tax",
+      "travel",
+      "upi"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "3% CashPoints, up to 1,000 CashPoints per month, on EMI spends",
+      "2% CashPoints, up to 500 CashPoints per month, on electronics, utility bills, SmartPay and Payzapp transactions",
+      "1% CashPoints, up to 500 CashPoints per month, on all other spends including UPI spends",
+      "Up to Rs. 0.15 redeem as cashback against statement",
+      "40% savings on your Business travel and software purchase",
+      "Up to 5% CashBack on travel/online shopping on SmartBuy"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 5.0,
+      "amazon_flipkart_myntra": 5.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 5.0,
+      "upi_scan_and_pay": 1.0,
+      "utilities_bills_telecom": 2.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "utilities_bills_telecom": 125,
+      "upi_scan_and_pay": 125,
+      "online_shopping_general": 1500,
+      "amazon_flipkart_myntra": 1500,
+      "travel_flights_hotels": 1500
+    },
+    "monthly_capping_rules": [
+      "2% CashPoints, up to 500 CashPoints per month, on electronics, utility bills, SmartPay and Payzapp transactions",
+      "1% CashPoints, up to 500 CashPoints per month, on all other spends including UPI spends",
+      "Up to Rs. 0.15 redeem as cashback against statement",
+      "Up to 5% CashBack on travel/online shopping on SmartBuy",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": 50000,
+      "monthly_spend_for_waiver_inr": 4167,
+      "milestone_slabs": [
+        "Low annual fee (waived on just Rs. 50,000 annual spends)"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 50000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 100 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "HDFC BizFirst is a business credit card designed for small businesses, people who are self-employed, MSMEs and entrepreneurs. The card comes at a nominal fee of Rs. 500 and is best suited for businesses that make regular spends on EMIs, utility bills, software tools and travel bookings. Consumers can save on their business travel expenses like hotels and flights by availing discounts through MMT MyBiz. Since business owners spend a huge portion of their income on such costs. This entry level business card will help you save a lot on your spends.",
+    "highlights": [
+      "3% CashPoints, up to 1,000 CashPoints per month, on EMI spends",
+      "2% CashPoints, up to 500 CashPoints per month, on electronics, utility bills, SmartPay and Payzapp transactions",
+      "1% CashPoints, up to 500 CashPoints per month, on all other spends including UPI spends"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Low annual fee (waived on just Rs. 50,000 annual spends)"
+    ],
+    "dining_benefits": [
+      "Up to 20% discount on restaurant bill payments via Swiggy Dineout"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Fire and burglary insurance: Up to Rs. 5 Lakh",
+      "Electronic equipment insurance: Up to Rs. 50,000",
+      "Cardholders can also get a higher insurance cover by choosing an insurance plan and paying the premium",
+      "Cash in safe/transit: Up to Rs. 25,000",
+      "Hospital Cash: Up to Rs. 1,000 per day (Accident only)"
+    ],
+    "concierge_or_privilege": [
+      "No concierge service"
+    ],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "Will I earn CashPoints on UPI transactions with HDFC BizFirst credit card?",
+        "a": "Yes! You will earn **1% CashPoints on UPI transactions**(capped to 500 CashPoints per month."
+      },
+      {
+        "q": "What is the interest-free credit period on HDFC BizFirst Credit Card?",
+        "a": "HDFC BizFirst Credit Card offers up to**55 days of interest free period.**"
+      },
+      {
+        "q": "What are the best offers I will get on SmartBuy Biz deals?",
+        "a": "On SAAS tools up to 40% off on productivity tools like Office 365, Tally, AWS and more. Get up to 3% off on flights and hotel bookings via MMT MyBiz."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.85,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.5,
+      "Milestone Benefits": 3.0,
+      "travel": 3.0,
+      "rewards": 3.5,
+      "milestone_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for business & tax users.",
+    "pros": [
+      "Low annual fee (waived on just Rs. 50,000 annual spends)",
+      "CashPoints earned on UPI transactions",
+      "Up to 40% off on business software tools",
+      "Business insurance package included",
+      "MMT MyBiz travel discounts"
+    ],
+    "cons": [
+      "No airport lounge access",
+      "CashPoints capped at 15,000/cycle",
+      "Minimum 2,500 CashPoints required for redemption",
+      "No concierge service"
+    ],
+    "best_for_whom": "Proprietors, MSMEs & self-employed professionals separating GST/tax/vendor expenses",
+    "not_ideal_for": "Salaried individuals with strictly personal spends",
+    "recommended_monthly_spend_inr": "Rs. 50,000+",
+    "verdict": "option from HDFC Bank suited for business & tax users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.85,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HDFC Bank Business & Tax cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "2% CashPoints, up to 500 CashPoints per month, on electronics, utility bills, SmartPay and Payzapp transactions",
+      "1% CashPoints, up to 500 CashPoints per month, on all other spends including UPI spends"
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹50,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+      "card_name": "YES BANK PaisaSave Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-paisasave-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from YES BANK at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_bank_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.44,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.44/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "axis_bank_airtel_axis_bank_credit_card",
+      "card_name": "Airtel Axis Bank Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "airtel-axis-bank-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.3,
+      "reason": "Top-rated Cashback card in market with rating 4.3/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Self-employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": "Occupation: Self-employed"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

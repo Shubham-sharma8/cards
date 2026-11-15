@@ -1,0 +1,47 @@
+# Dependencies & Build Artifacts
+node_modules/
+*/node_modules/
+.next/
+*/.next/
+.open-next/
+*/.open-next/
+.wrangler/
+*/.wrangler/
+.expo/
+*/.expo/
+dist/
+*/dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+
+# Apple / Xcode Build & Signing Secrets
+mobile/ios/build/
+mobile/ios/Pods/
+mobile/ios/DerivedData/
+*.ipa
+*.mobileprovision
+*.p8
+*.p12
+*.cer
+*.keystore
+*.jks
+*.pem
+*.tsbuildinfo
+
+# Environment & Secrets (public templates allowed)
+.env
+.env.*
+*.env.local
+.dev.vars
+.dev.vars.*
+!.env.example
+!.env.cloudflare.example
+
+# Large raw scrapes & OS noise
+data/raw/
+.DS_Store
+**/.DS_Store
+tmp/
+*.log

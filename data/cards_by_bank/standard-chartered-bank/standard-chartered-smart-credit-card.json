@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "card_id": "standard_chartered_bank_smart_credit_card",
+    "card_name": "Standard Chartered Smart Credit Card",
+    "bank": "Standard Chartered Bank",
+    "bank_slug": "standard-chartered-bank",
+    "card_slug": "standard-chartered-smart-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/standard-chartered-bank/standard-chartered-smart-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#549692",
+      "secondary_hex": "#6667A3",
+      "wash_hex": "#E6EDEA",
+      "soft_bg_hex": "#F0F6F5",
+      "border_hex": "#D9E8E7",
+      "ink_on_soft_hex": "#3B6A67",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sc.bank.in/credit-cards/",
+    "mitc_pdf_url": "https://av.sc.com/in/content/docs/in-smartcard-most-important-terms-and-conditions.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Standard Chartered Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 10,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "chartered",
+      "credit",
+      "online",
+      "shopping",
+      "smart",
+      "standard"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 2.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "2% cashback on online transactions (up to Rs. 1,000 per month)",
+      "1% cashback on other transactions (up to Rs. 500 per month)",
+      "Convert purchases above Rs. 2,000 into EMIs at a special interest rate of 0.99% per month, along with zero processing fee",
+      "2X cashback on online spends",
+      "No brand restrictions on earning cashback",
+      "Inclusion of utility bills (Gas, Electricity, Water, Telecom) in the cashback program"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 1000
+    },
+    "monthly_capping_rules": [
+      "2% cashback on online transactions (up to Rs. 1,000 per month)",
+      "1% cashback on other transactions (up to Rs. 500 per month)"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": 120000,
+      "monthly_spend_for_waiver_inr": 10000,
+      "milestone_slabs": []
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 120000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 700"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 10,000",
+        "late_fee_inr": "Rs. 1,200"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "However, despite charging a joining and annual fee, the card does not provide any welcome or renewal benefit to compensate for the same. Also, it lacks milestone benefits and fuel surcharge waiver–perks offered by other entry-level cards, making it strictly a cashback credit card without any additional benefits.",
+    "highlights": [
+      "2% cashback on online transactions (up to Rs. 1,000 per month)",
+      "1% cashback on other transactions (up to Rs. 500 per month)",
+      "Interest-free credit period for first 90 days after the issuance of the card"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You prefer online shopping over store visits, without preference for any specific brand",
+      "You are looking for a card that rewards you on utilities, gas, electricity and more",
+      "You do not wish to pay a high annual fee",
+      "You already have other cards offering travel, dining, or all-round benefits"
+    ],
+    "faqs": [
+      {
+        "q": "Which transactions are not eligible for cashback?",
+        "a": "You can earn cashback on online spends and offline spends except fuel, cash withdrawal and returns and exchange transactions."
+      },
+      {
+        "q": "Is there any fee charged on the redemption of cashback?",
+        "a": "No, there is no fee charged on the redemption of cashback earned via the Standard Chartered Smart Credit Card."
+      },
+      {
+        "q": "Is the extended interest-free credit period also applicable on cash transactions?",
+        "a": "No, the extended interest-free credit period of 90 days is not applicable on cash transactions done on the Standard Chartered Smart Credit Card. Cash transactions are charged at an interest rate of 3.75% per month."
+      },
+      {
+        "q": "Can I avail the interest-free credit period on Loan against credit card, EMI and balance transfer facility?",
+        "a": "No, the interest-free credit period is only applicable on retail transactions done via this credit card. The payments for these services- Loan, EMI and balance transfer are serviced separately."
+      },
+      {
+        "q": "Are there any transactions thresholds for earning cashback ?",
+        "a": "There are no minimum transaction value or minimum spends requirement for earning cashback."
+      },
+      {
+        "q": "What are the benefits of Standard Chartered Smart Credit Card?",
+        "a": "Standard Chartered Smart Credit Card is a cashback card that offers 2% cashback on online spends and 1% cashback on offline spends. In addition, the card offers an interest-free period of up to 90 days and a low-interest EMI facility."
+      },
+      {
+        "q": "What is the annual fee for Standard Chartered Smart Card?",
+        "a": "Standard Chartered Smart Credit Card charges a joining and annual fee of Rs. 499 plus applicable taxes. However, the annual fee can be waived off by spending Rs. 1.2 Lakh or more in a year."
+      },
+      {
+        "q": "Does Standard Chartered Smart Card provide lounge access?",
+        "a": "No, Standard Chartered Smart Credit Card does not offer domestic or international lounge access benefits."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.44,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 3.0,
+      "Online Shopping": 3.0,
+      "cashback": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Standard Chartered Bank suited for cashback users.",
+    "pros": [
+      "2X cashback on online spends",
+      "No brand restrictions on earning cashback",
+      "Low annual fee",
+      "Inclusion of utility bills (Gas, Electricity, Water, Telecom) in the cashback program"
+    ],
+    "cons": [
+      "No travel benefits",
+      "Capping on cashback earning is quite low",
+      "Despite being a cashback card, redemption is not straightforward"
+    ],
+    "best_for_whom": "Standard Chartered Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 10,000+",
+    "verdict": "option from Standard Chartered Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.44,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Standard Chartered Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "2% cashback on online transactions (up to Rs. 1,000 per month)",
+      "1% cashback on other transactions (up to Rs. 500 per month)"
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (2.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹120,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Cashback with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Direct competitor from SBI Card at similar fee tier (Rs. 999/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_millennia_credit_card",
+      "card_name": "HDFC Millennia Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-millennia-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.28,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.28/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "axis_bank_ace_credit_card",
+      "card_name": "Axis Bank ACE Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-ace-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.26,
+      "reason": "Top-rated Cashback card in market with rating 4.26/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

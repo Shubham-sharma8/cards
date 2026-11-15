@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_swiggy_ornge_hdfc_credit_card",
+    "card_name": "Swiggy Ornge HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "swiggy-ornge-hdfc-bank-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Dining, Groceries & Movies",
+      "Online Shopping",
+      "Golf"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/swiggy-ornge-hdfc-bank-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#C55526",
+      "secondary_hex": "#C99F36",
+      "wash_hex": "#F4E5DD",
+      "soft_bg_hex": "#FAF0EB",
+      "border_hex": "#F2DACF",
+      "ink_on_soft_hex": "#A54720",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-ornge-hdfc-bank-credit-card/pdf/mitc-in-english-4th-march-2026.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": true,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 20000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "golf",
+      "groceries",
+      "hdfc",
+      "movies",
+      "online",
+      "ornge",
+      "shopping",
+      "swiggy"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5% Cashback: On Swiggy app (food orders, Instamart and Dineout) and select online spends,2 (MOV Rs. 249)",
+      "1% Cashback: On other eligible spends (MOV Rs. 100)",
+      "Rs. 1,500 per month for 5% cashback",
+      "Rs. 1,000 per month for 1% cashback",
+      "Cashback is credited directly to the account as statement credit"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 5.0,
+      "amazon_flipkart_myntra": 5.0,
+      "dining_swiggy_zomato": 5.0,
+      "groceries_quick_commerce": 5.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 1500,
+      "amazon_flipkart_myntra": 1500,
+      "dining_swiggy_zomato": 1500,
+      "groceries_quick_commerce": 1500,
+      "travel_flights_hotels": 1000,
+      "offline_general_other": 1000
+    },
+    "monthly_capping_rules": [
+      "5% cashback on Swiggy & select online partners combined capped at Rs. 1,500/month; 1% on other eligible spends capped at Rs. 1,000/month."
+    ],
+    "category_caveats": {
+      "dining_swiggy_zomato": "5%–10% on Swiggy App only (min order ₹249, tiered cap)",
+      "groceries_quick_commerce": "Swiggy Instamart app-specific rate · 1% offline/other"
+    },
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": 150000,
+      "monthly_spend_for_waiver_inr": 12500,
+      "milestone_slabs": [
+        "5% Cashback: On Swiggy app (food orders, Instamart and Dineout) and select online spends,2 (MOV Rs. 249)",
+        "1% Cashback: On other eligible spends (MOV Rs. 100)",
+        "Renewal fee waived on reaching Rs. 1.5 lakh annual spends in the previous year",
+        "Joining bonus of Swiggy membership worth more than the joining fee amount"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 150000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "This card is suitable for those looking for a low annual fee card with high savings on Swiggy food deliveries, everyday spends on Instamart and dining bills via Dineout, along with their online purchases. Furthermore, the direct cashback feature makes value-back management quick and hassle-free. Read on to know more about Swiggy Ornge HDFC Credit Card’s fees, features and benefits.",
+    "highlights": [
+      "5% Cashback: On Swiggy app (food orders, Instamart and Dineout) and select online spends,2 (MOV Rs. 249)",
+      "1% Cashback: On other eligible spends (MOV Rs. 100)",
+      "Rs. 1,500 per month for 5% cashback"
+    ],
+    "welcome_benefit": "Joining bonus of Swiggy membership worth more than the joining fee amount",
+    "milestone_benefits": [
+      "5% Cashback: On Swiggy app (food orders, Instamart and Dineout) and select online spends,2 (MOV Rs. 249)",
+      "1% Cashback: On other eligible spends (MOV Rs. 100)",
+      "Renewal fee waived on reaching Rs. 1.5 lakh annual spends in the previous year",
+      "Joining bonus of Swiggy membership worth more than the joining fee amount"
+    ],
+    "dining_benefits": [
+      "5% Cashback: On Swiggy app (food orders, Instamart and Dineout) and select online spends,2 (MOV Rs. 249)",
+      "Complimentary 12 months Swiggy One membership on card activation"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [
+      "12 free golf lessons per year",
+      "Free golf lessons and green fee waiver benefits via Mastercard"
+    ],
+    "golf_summary": {
+      "has_golf": true,
+      "complimentary_access": "12 free golf lessons per year",
+      "eligible_courses": "Domestic",
+      "spend_condition": "None / Network rules apply",
+      "extra_notes": "Free golf lessons and green fee waiver benefits via Mastercard"
+    },
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are a Swiggy loyalist who frequently uses its food delivery, Instamart and Dineout facilities",
+      "You prefer shopping online and wish to save on those spends",
+      "You are looking for a credit card with direct cashback to avoid the hassle of reward redemption",
+      "You can maximise your savings by availing Cleartrip and Nykaa discounts, along with accelerated cashback"
+    ],
+    "faqs": [
+      {
+        "q": "What is the monthly cashback capping on Swiggy Ornge HDFC Credit Card?",
+        "a": "You can earn up to Rs. 2,500 cashback every month using Swiggy Ornge HDFC credit card where 5% cashback is capped at Rs. 1,500 and 1% at Rs. 1,000 per month."
+      },
+      {
+        "q": "Will I get Swiggy One membership with Swiggy Ornge Credit Card if I have an existing Swiggy membership?",
+        "a": "Yes, all cardholders get a 12 month Swiggy One membership on card activation. If a card user is an existing member, then their membership is extended by 12 months with Swiggy One benefits."
+      },
+      {
+        "q": "Why didn’t I earn any cashback on my online purchase using Swiggy Ornge HDFC Credit Card?",
+        "a": "This can happen in case you have reached the cashback capped limit in that month or if your purchase value is less than Rs. 249. Also confirm that the online spend category is not excluded from the cashback benefit."
+      },
+      {
+        "q": "Will I get the Swiggy One membership with Swiggy Ornge HDFC Credit Card every year?",
+        "a": "No, the complimentary Swiggy One membership is only given after card activation in the first card membership year."
+      },
+      {
+        "q": "Does Swiggy Ornge HDFC Credit Card give cashback on UPI transactions?",
+        "a": "No, since Swiggy Ornge HDFC Bank Credit Card is only offered on Mastercard network, and not on RuPay, it cannot be used to pay UPI payments and hence does not offer any cashback on such transactions."
+      },
+      {
+        "q": "Does Swiggy Ornge HDFC Credit Card offer any airport lounge privileges?",
+        "a": "No, Swiggy Ornge HDFC Bank Credit Card does not offer any complimentary airport lounge access to its cardholders."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.25,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 3.0,
+      "Online Shopping": 3.5,
+      "branded Benefits": 3.5,
+      "cashback": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for cashback users.",
+    "pros": [
+      "Up to 5% cashback on co-branded and online spends",
+      "Low spending condition for renewal fee waiver",
+      "Up to 19% off on Cleartrip and 5% off on Nykaa",
+      "Free golf lessons and green fee waiver benefits via Mastercard",
+      "Joining bonus of Swiggy membership worth more than the joining fee amount"
+    ],
+    "cons": [
+      "Capping on cashback earnings",
+      "Minimum transaction value of Rs. 249 for 5% cashback benefit",
+      "Select Swiggy and online spends excluded from 5% cashback benefit"
+    ],
+    "best_for_whom": "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from HDFC Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.84,
+    "reddit_mentions": 18,
+    "sentiment_summary": "Community discussions around HDFC Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "5% cashback on Swiggy & select online partners combined capped at Rs. 1,500/month; 1% on other eligible spends capped at Rs. 1,000/month."
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹150,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "yes_bank_byoc_credit_card",
+      "card_name": "YES Bank BYOC Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-byoc-credit-card",
+      "annual_fee_inr": 249,
+      "overall_rating": 3.48,
+      "reason": "Direct competitor from YES BANK at similar fee tier (Rs. 249/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_swiggy_credit_card",
+      "card_name": "Swiggy HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "swiggy-hdfc-bank-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.66,
+      "reason": "Top-rated Cashback card in market with rating 4.66/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 20000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age (Salaried): 21 to 60 years"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    }
+  ]
+}

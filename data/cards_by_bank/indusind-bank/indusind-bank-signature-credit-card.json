@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "card_id": "indusind_bank_indusind_bank_signature_credit_card",
+    "card_name": "IndusInd Bank Signature Credit Card",
+    "bank": "IndusInd Bank",
+    "bank_slug": "indusind-bank",
+    "card_slug": "indusind-bank-signature-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Super-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Super-Premium",
+      "Travel & Miles",
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Zero/Low Forex",
+      "Online Shopping",
+      "Golf"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/indusind-bank/indusind-bank-signature-credit-card.webp",
+    "image_source": "cardledger_studio_render",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+    "mitc_pdf_url": "https://www.indusind.bank.in/content/dam/indusind-platform-images/pdfs/credit-card/MITC_Premium.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": true,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "forex",
+      "fuel",
+      "golf",
+      "groceries",
+      "indusind",
+      "low",
+      "low-forex",
+      "miles",
+      "movies",
+      "online",
+      "premium",
+      "shopping",
+      "signature",
+      "super",
+      "travel",
+      "zero"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "On every ₹ 100 spent via this card, you receive 1.5 reward points.",
+      "1% fuel surcharge waiver of up to Rs. 500 per month for customers across all petrol pumps in India on fuel spends of Rs. 500 to Rs. 4,000.",
+      "Address proof like Passport, Voter Card, Utility bills, Aadhaar Card etc."
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -1.86,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 500
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "The cash points collected on this card can be used to redeem vouchers of flight tickets or hotel reservation at Oberoi or luxury shopping or simply as cash credit.",
+        "1% fuel surcharge waiver of up to Rs. 500 per month for customers across all petrol pumps in India on fuel spends of Rs. 500 to Rs. 4,000."
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 2.0,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from IndusInd Bank suited for travel & miles users.",
+    "highlights": [
+      "On every ₹ 100 spent via this card, you receive 1.5 reward points.",
+      "This card provides complimentary access to 600+ airport lounges across the world.",
+      "The cardholders are covered under Travel Plus program for loss of baggage, passport, ticket or missing of connecting flight.",
+      "The card offers a dedicated 247 concierge team to look after your flights and hotel reservations, pre-plan your trips, send flowers and gifts to loved ones living at any corner of the world.",
+      "Signature Auto Assist guarantees that you can travel anywhere without worry as they provide immediate help in case of accidents, flat tyre, engine breakdown, lost keys, etc."
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "The cash points collected on this card can be used to redeem vouchers of flight tickets or hotel reservation at Oberoi or luxury shopping or simply as cash credit.",
+      "1% fuel surcharge waiver of up to Rs. 500 per month for customers across all petrol pumps in India on fuel spends of Rs. 500 to Rs. 4,000."
+    ],
+    "dining_benefits": [
+      "Special discounts available under this card membership on dining at some of the famous restaurants across India."
+    ],
+    "movie_benefits": [
+      "The cardholders are covered under Travel Plus program for loss of baggage, passport, ticket or missing of connecting flight.",
+      "The cash points collected on this card can be used to redeem vouchers of flight tickets or hotel reservation at Oberoi or luxury shopping or simply as cash credit.",
+      "‘Buy 1 Get 1’ offer on movie tickets purchased from Bookmyshow app or Sathyam Cinemas in Chennai. Customers can avail up to 3 free tickets in a month."
+    ],
+    "golf_benefits": [
+      "Complimentary golf games and training sessions available for the cardholder at some of the leading golf clubs in the country."
+    ],
+    "golf_summary": {
+      "has_golf": true,
+      "complimentary_access": "Complimentary golf games and training sessions available for the cardholder at some of the leading golf clubs in the cou",
+      "eligible_courses": "Domestic",
+      "spend_condition": "None / Network rules apply",
+      "extra_notes": "Complimentary golf games and training sessions available for the cardholder at some of the leading golf clubs in the country."
+    },
+    "insurance_cover": [
+      "The cardholders are covered under Travel Plus program for loss of baggage, passport, ticket or missing of connecting flight.",
+      "Personal air accident insurance up to ₹ 25 Lakhs is provided to the cardholder."
+    ],
+    "concierge_or_privilege": [
+      "The card offers a dedicated 247 concierge team to look after your flights and hotel reservations, pre-plan your trips, send flowers and gifts to loved ones living at any corner of the world."
+    ],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.55,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IndusInd Bank suited for travel & miles users.",
+    "pros": [
+      "Backed by IndusInd Bank digital card controls, EMI conversion & merchant offers",
+      "Contactless Tap & Pay + zero lost-card liability protection"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from IndusInd Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.55,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IndusInd Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low",
+    "devaluation_risk_score": 3,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "axis_bank_burgundy_private_credit_card",
+      "card_name": "Axis Bank Burgundy Private Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-burgundy-private-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "icici_bank_icici_bank_visa_signature_credit_card",
+      "card_name": "ICICI Bank Visa Signature Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-visa-signature-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 3.15,
+      "reason": "Direct competitor from ICICI Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "au_small_finance_bank_zenith_plus_credit_card",
+      "card_name": "AU Zenith+ Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "au-zenith-credit-card",
+      "annual_fee_inr": 4999,
+      "overall_rating": 4.18,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.18/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Top-rated Super-Premium card in market with rating 4.9/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "This card is available for people who fulfil the following norms:"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "indusind-bank-make-the-most-out-of-your-reward-points-by-us",
+      "bank": "IndusInd Bank",
+      "title": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you",
+      "summary": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you shop.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "indusind-bank-eazydiner-culinary-treats-flight-movie-priv",
+      "bank": "IndusInd Bank",
+      "title": "EazyDiner Culinary Treats & Flight/Movie Privileges",
+      "summary": "Guaranteed dining discounts at EazyDiner partner restaurants, BOGO movie perks via BookMyShow, and zero-markup forex promos on Tiger/Avios.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

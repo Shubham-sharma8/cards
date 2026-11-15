@@ -1,0 +1,1037 @@
+{
+  "identity": {
+    "card_id": "au_small_finance_bank_ixigo_au_credit_card",
+    "card_name": "ixigo AU Credit Card",
+    "bank": "AU Small Finance Bank",
+    "bank_slug": "au-small-finance-bank",
+    "card_slug": "ixigo-au-credit-card",
+    "card_network": "Visa / RuPay",
+    "card_tier": "Entry-to-Mid",
+    "primary_category": "Zero/Low Forex",
+    "categories": [
+      "Zero/Low Forex",
+      "Lifetime Free",
+      "Airport Lounge",
+      "Travel & Miles",
+      "RuPay & UPI"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/au-small-finance-bank/ixigo-au-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#5C2E80",
+      "secondary_hex": "#8E3D8F",
+      "wash_hex": "#E7E1E8",
+      "soft_bg_hex": "#F0ECF4",
+      "border_hex": "#DBD1E3",
+      "ink_on_soft_hex": "#5C2E80",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.au.bank.in/personal-banking/credit-cards",
+    "mitc_pdf_url": "https://www.aubank.in/SOC_CC-MITC\\(with-Schedule-of-Charges\\).pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "AU Small Finance Bank — Hoi Au Cards",
+        "url": "https://lms.hoi.in/lounge-list/au-credit-card",
+        "source_type": "official_partner_page"
+      },
+      {
+        "title": "RuPay Credit Card Airport Lounge Access Directory",
+        "url": "https://www.rupay.co.in/",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": true,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Budget & train+flight travelers wanting 0% forex",
+      "10% ixigo discounts",
+      "8 railway lounges",
+      "and 8 domestic lounges on an LTF card",
+      "Rs. 10,000+"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "au",
+      "bank",
+      "card",
+      "credit",
+      "finance",
+      "forex",
+      "free",
+      "irctc",
+      "ixigo",
+      "lifetime",
+      "lifetime-free",
+      "lounge",
+      "low",
+      "low-forex",
+      "ltf",
+      "miles",
+      "railway",
+      "rupay",
+      "scan-and-pay",
+      "small",
+      "travel",
+      "upi",
+      "zero",
+      "zero-fee",
+      "zero-forex"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "10% off on bus bookings up to Rs. 300, once per month",
+      "10% discount on flight bookings up to Rs. 3,000 on Ixigo platform, once per month",
+      "10% off on hotel bookings up to Rs. 3,000 via Ixigo, once per month",
+      "2.5% rewards, i.e. 5 reward points for every Rs. 200 spent online, offline or via UPI1",
+      "Monthly reward earnings are capped at 10,000 reward points"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.25,
+      "amazon_flipkart_myntra": 1.25,
+      "dining_swiggy_zomato": 1.25,
+      "groceries_quick_commerce": 1.25,
+      "travel_flights_hotels": 2.5,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.5,
+      "fuel": 0.0,
+      "insurance": 0.5,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 0.0,
+      "offline_general_other": 1.25
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "TRUE 0% forex markup + no-spend international Priority Pass (1/yr) & 8+ domestic/railway lounges; 2.5% online / 1.25% offline."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": 0,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "8 complimentary domestic airport lounge visits every year, max. 2 per quarter on spending Rs. 50,000 in a quarter",
+        "E-vouchers of top brands"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "spend_criteria": "Check AU spend-based updates (select tiers moved to spend criteria)",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "8 domestic airport lounge visits/yr (2/quarter)"
+    },
+    "international": {
+      "program": "Priority Pass",
+      "visits_per_year": 1,
+      "spend_criteria": "1/year",
+      "add_on_allowed": false,
+      "guest_fee": "Chargeable",
+      "summary": "1 complimentary international lounge visit/year"
+    },
+    "railway": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "summary": "8 IRCTC railway lounge visits/year (2/quarter)"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "page_hoi_au_cards",
+        "title": "AU Small Finance Bank — Hoi Au Cards",
+        "url": "https://lms.hoi.in/lounge-list/au-credit-card",
+        "secondary_url": null,
+        "source_type": "official_partner_page",
+        "parsed_lounges_count": 89,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "page_rupay_lounge_directory",
+        "title": "RuPay Credit Card Airport Lounge Access Directory",
+        "url": "https://www.rupay.co.in/",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "visa_india_lounges",
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 99,
+        "local_pdf_path": "data/raw/lounges/pdfs/visa_india_lounges.pdf"
+      },
+      {
+        "program_id": "page_visa_lounge_offer",
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Bengaluru",
+        "lounge_name": "Kempegowda International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "Jaipur International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Chhatrapati Shivaji Maharaj International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Chaudhary Charan Singh Airport",
+        "terminal": "T3",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "Birsa Munda Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Sri Guru Ram Dass Ji International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Dr. Babasaheb Ambedkar International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "Coimbatore International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "Cochin International Airport",
+        "terminal": "T3",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "Pune Airport",
+        "terminal": "T2",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "Manohar International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "Indira Gandhi International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Rajiv Gandhi International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "Srinagar Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "Jammu Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "Rajmata Vijaya Raje Scindia Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "Kannur International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "Raja Bhoj Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "Devi Ahilya Bai Holkar Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "Shaheed Bhagat Singh International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "Dr. Bhupen Hazarika Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "Madurai Airport",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "Maharaja Bir Bikram Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bagdogra",
+        "lounge_name": "Bagdogra International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Varanasi",
+        "lounge_name": "Lal Bahadur Shastri Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Sardar Vallabhbhai Patel International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Trivandrum",
+        "lounge_name": "Trivandrum International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "Lokpriya Gopinath Bordoloi International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Tiruchirappalli",
+        "lounge_name": "Tiruchirappalli International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "Chennai International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Netaji Subhas Chandra Bose International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "Goa International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Arrival | Kempegowda International Airport | T2 | International | Arrival | Bengaluru | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Domestic Lounge East | Kempegowda International Airport | T1 | Domestic | Departure | Bengaluru | India |",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Domestic Lounge VIP | Kempegowda International Airport | T2 | International | Departure | Bengaluru | India |",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Domestic Lounge West PH1 | Kempegowda International Airport | T1 | Domestic | Departure | Bengaluru | India |",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Domestic Lounge West PH2 | Kempegowda International Airport | T1 | Domestic | Departure | Bengaluru | India |",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 International Lounge | Kempegowda International Airport | T2 | International | Departure | Bengaluru | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Lounge | Kempegowda International Airport | T2 | Domestic | Departure | Bengaluru | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 VIP Arrival | Kempegowda International Airport | T2 | International | Arrival | Bengaluru | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 VIP International Lounge | Kempegowda International Airport | T2 | International | Departure | Bengaluru | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "| Adani Lounge | Jaipur International Airport | T1 | Domestic | Departure | Jaipur | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| Adani Lounge | Chhatrapati Shivaji Maharaj International Airport | T2 | Domestic | Departure | Mumbai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "| Adani Lounge (Domestic) | Chaudhary Charan Singh Airport | T3 | Domestic | Departure | Lucknow | India |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| Adani Lounge (erstwhile Oasis Lounge) | Chhatrapati Shivaji Maharaj International Airport | T1 | Domestic | Departure | Mumbai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| Adani Silver Lounge | Chhatrapati Shivaji Maharaj International Airport | T2 | International | Departure | Mumbai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "| Airr Lounge | Birsa Munda Airport | T1 | Domestic | Departure | Ranchi | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "| Airr Lounge | Sri Guru Ram Dass Ji International Airport | T2 | International | Departure | Amritsar | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "| Airr Lounge | Dr. Babasaheb Ambedkar International Airport | T1 | Domestic | Departure | Nagpur | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "| Blackberry Lounge | Coimbatore International Airport | T1 | Domestic | Departure | Coimbatore | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "| Earth Lounge | Cochin International Airport | T3 | International | Departure | Kochi | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "| Elysian Lounge | Pune Airport | T2 | Domestic | Departure | Pune | India |",
+        "terminal": "T2",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "| Elysian Lounge | Pune Airport | T1 | Domestic | Arrival | Pune | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "| Encalm Lounge | Manohar International Airport | T1 | Domestic | Departure | North Goa | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "| Encalm Lounge | Indira Gandhi International Airport | T2 | Domestic | Departure | Delhi | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "| Encalm Lounge | Rajiv Gandhi International Airport | T1 | Domestic | Departure | Hyderabad | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "| Mandarin Lounge | Dr. Babasaheb Ambedkar International Airport | T1 | Domestic | Departure | Nagpur | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "| Pahun Lounge | Srinagar Airport | T1 | Domestic | Departure | Srinagar | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "| Pahun Lounge | Jammu Airport | T1 | Domestic | Departure | Jammu | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "| Pahun Lounge | Rajmata Vijaya Raje Scindia Airport | T1 | Domestic | Departure | Gwalior | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "| Pearl Lounge | Kannur International Airport | T1 | Domestic | Departure | Kannur | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "| Primus Lounge | Raja Bhoj Airport | T1 | Domestic | Departure | Bhopal | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "| Primus Lounge | Devi Ahilya Bai Holkar Airport | T1 | Domestic | Departure | Indore | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "| Primus Lounge | Shaheed Bhagat Singh International Airport | T1 | Domestic | Departure | Chandigarh | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "| Primus Lounge | Dr. Bhupen Hazarika Airport | T1 | Domestic | Departure | Dibrugarh | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "| Primus Lounge | Madurai Airport | Main Terminal | International | Departure | Madurai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "| Primus Lounge | Maharaja Bir Bikram Airport | T1 | Domestic | Departure | Agartala | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Varanasi",
+        "lounge_name": "| Take off Bar and Lounge | Lal Bahadur Shastri Airport | T1 | Domestic | Departure | Varanasi | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "| The Lounge | Sardar Vallabhbhai Patel International Airport | T1 | Domestic | Departure | Ahmedabad | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "| The Lounge (International) | Sardar Vallabhbhai Patel International Airport | T2 | International | Departure | Ahmedabad | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Trivandrum",
+        "lounge_name": "| The Lounge (International) | Trivandrum International Airport | T1 | International | Departure | Thiruvananthapuram | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "| The Lounge GF | Lokpriya Gopinath Bordoloi International Airport | T1 | Domestic | Departure | Guwahati | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Tiruchirappalli",
+        "lounge_name": "| Tirchy Lounge | Tiruchirappalli International Airport | T1 | Domestic | Departure | Tiruchirappalli | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "| Travel Club | Chennai International Airport | T1 | Domestic | Departure | Chennai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "| Travel Club | Netaji Subhas Chandra Bose International Airport | T2 | International | Departure | Kolkata | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "| Travel Club | Goa International Airport | T1 | Domestic | Departure | Goa | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| Travel Club | Chhatrapati Shivaji Maharaj International Airport | T1 | Domestic | Departure | Mumbai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "| Travel Club Lounge | Cochin International Airport | T1 | Domestic | Departure | Kochi | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_hoi_au_cards"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "1 Agartala Airport Agartala Primus Lounge IXA1 Domestic Domestic Terminal Airside - Domestic Departures, Ground Level, after Security Hold A",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "2 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD01 Domestic Terminal 1 Terminal 1 (Near Boarding Gate No. 1) 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      }
+    ],
+    "participating_lounges_count": 80
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Frequently offered LTF via ixigo/AU campaign; base fee Rs. 999",
+    "forex_markup_pct": 0.0,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 100 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 500 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,000 to Rs. 10,000",
+        "late_fee_inr": "Rs. 700"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,000 to Rs. 20,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Rs. 20,000 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Ixigo AU is a co-branded travel credit card which focuses on offering benefits across train, bus, flight and hotel bookings. After MakeMyTrip, Yatra.com and EaseMyTrip, Ixigo stepped into the credit card market to offer co-branded and other travel benefits to users. The card offers direct discount to Ixigo users on flight, hotel and bus bookings, and accelerated rewards on railway ticket bookings. Besides, you also get 5 rewards per Rs. 200 on all transactions, including UPI. This enables savings potential via travel benefits beyond Ixigo, when you make your travel bookings offline or online through third-party portals or directly from hotel or airline websites. If you are an Ixigo loyalist and a beginner, this card can be a great choice, even when you do not own any other credit card since you get a decent reward rate on general spends. Besides, it can be a best suited choice for domestic travellers who prefer railways over airways due to accelerated savings on railway bookings and good number of free railway lounge visits in a year. However, the card lacks significantly in offering overall international travel benefits even when it charges zero forex markup fee. Read on to find out more.",
+    "highlights": [
+      "No payment gateway charges on train bookings, valid twice per month",
+      "10% off on bus bookings up to Rs. 300, once per month",
+      "10% discount on flight bookings up to Rs. 3,000 on Ixigo platform, once per month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "8 complimentary domestic airport lounge visits every year, max. 2 per quarter on spending Rs. 50,000 in a quarter",
+      "E-vouchers of top brands"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently travel within India and prefer railways over airways",
+      "You don’t mind sticking to Ixigo for your travel bookings to utilize the Ixigo money vouchers",
+      "You do not have any other credit card offering great number of complimentary railway lounge access",
+      "You are comfortable with the maximum discount capping on hotel and flight bookings"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for Ixigo AU Credit Card?",
+        "a": "You can apply for Ixigo AU Credit Card by visiting the official website of AU Small Finance Bank. You need to fill out the application form and submit the required documents. Alternatively, you can visit the nearest AU Bank branch and apply manually by submitting a duly filled application form."
+      },
+      {
+        "q": "Is Ixigo AU Credit Card lifetime free?",
+        "a": "Yes, Ixigo AU Credit Card is a lifetime free credit card. AU bank is offering it without any joining or annual fee."
+      },
+      {
+        "q": "What is the reward rate of Ixigo AU Credit Card?",
+        "a": "With Ixigo AU Credit Card, you earn 2.5% reward points per Rs. 200 spent, that is 5 reward points on every spend of Rs. 200. This reward rate is applicable on all online, offline and UPI spends. However, no reward points are earned on spends related to fuel, rent, insurance, jewellery, international transactions, and wallets."
+      },
+      {
+        "q": "Does Ixigo AU Credit Card offer lounge access benefits?",
+        "a": "Yes, this card offers extensive lounge access benefits. Cardholders can avail 16 complimentary domestic airport lounge visits per year, along with 1 complimentary international airport lounge visit in a year. Additionally, the card offers 16 complimentary railway lounge visits annually, making it ideal for frequent domestic travellers."
+      },
+      {
+        "q": "How much can I save on travel bookings with Ixigo AU Credit Card?",
+        "a": "With this credit card, you can save 10% on bus bookings, with a maximum discount of Rs. 300 per month. On flight and hotel bookings, you can save 10% per transaction, with a capping of Rs. 3,000 per month on each category."
+      },
+      {
+        "q": "Is Ixigo AU Credit Card good for international travel?",
+        "a": "Ixigo AU Credit Card charges zero forex markup fee and offers 1 complimentary international airport lounge access per year. However, it does not offer any additional benefits for international travel, such as discounts on foreign transactions or international hotel stays, or even any reward points. If you frequently travel abroad, you may want to consider other credit cards that offer better savings on international spends."
+      },
+      {
+        "q": "How much is the interest free credit period with ixigo AU credit card?",
+        "a": "AU ixigo credit card offers up to 48 days of interest-free credit period to its cardholders."
+      },
+      {
+        "q": "Are there any charges for the add-on cards of the ixigo AU credit card?",
+        "a": "The add-on cards of AU ixigo credit cards do not come with any additional annual fee."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.38,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 4.0,
+      "Rewards": 3.5,
+      "Lounge Access": 3.5,
+      "travel": 4.0,
+      "rewards": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Arguably the most versatile LTF 0%-forex + train + flight card for middle-class Indian travelers.",
+    "pros": [
+      "Zero forex markup fee",
+      "Direct discount on travel bookings via ixigo",
+      "No payment gateway charges on train bookings on ixigo",
+      "High frequency of domestic airport and railway lounge visits",
+      "Decent reward rate on general online spends"
+    ],
+    "cons": [
+      "Maximum capping on travel bookings via Ixigo",
+      "Only 1 complimentary international lounge access in a year",
+      "Lacks in offering overall international travel benefits"
+    ],
+    "best_for_whom": "Budget & train+flight travelers wanting 0% forex, 10% ixigo discounts, 8 railway lounges, and 8 domestic lounges on an LTF card",
+    "not_ideal_for": "Ultra-premium hotel/business-class miles collectors",
+    "recommended_monthly_spend_inr": "Rs. 10,000+",
+    "verdict": "Arguably the most versatile LTF 0%-forex + train + flight card for middle-class Indian travelers."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.22,
+    "reddit_mentions": 5,
+    "sentiment_summary": "Community discussions around AU Small Finance Bank Zero/Low Forex cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Not really a traveller but might look into it as well. AU Ixigo looks good as an LTF card but I guess the discount of 10% on flights is quite basic and can be received on any other card on MMT or other travel websites. For trains I have bee",
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "TRUE 0% forex markup + no-spend international Priority Pass (1/yr) & 8+ domestic/railway lounges; 2.5% online / 1.25% offline."
+    ],
+    "optimization_tips": [
+      "Train Zero-PG Fee + 0% Forex Hack: Enjoy Lifetime Free 0% forex markup abroad, 8 domestic + 1 international Priority Pass visits, and zero payment-gateway fees on ixigo train bookings (up to twice monthly)."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Tightened LIT, Zenith, Vetta & ixigo spend criteria after rapid 2023–2024 customer acquisition."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "federal_bank_scapia_credit_card",
+      "card_name": "Federal Bank Scapia Credit Card",
+      "bank": "Federal Bank / Scapia",
+      "bank_slug": "federal-bank-scapia",
+      "card_slug": "federal-bank-scapia-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.46,
+      "reason": "Direct competitor from Federal Bank / Scapia at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.42/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "au-small-finance-bank-au-swag-deals-travel-upi-cashback-promos",
+      "bank": "AU Small Finance Bank",
+      "title": "AU Swag Deals & Travel / UPI Cashback Promos",
+      "summary": "Zero forex markup & instant flight/train/hotel discounts on ixigo AU plus customisable milestone boosts on AU LIT & Zenith+.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.au.bank.in/personal-banking/offers",
+      "scope": "targeted"
+    }
+  ]
+}

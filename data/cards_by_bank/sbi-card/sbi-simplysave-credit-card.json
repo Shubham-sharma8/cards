@@ -1,0 +1,469 @@
+{
+  "identity": {
+    "card_id": "sbi_bank_sbi_simply_save_credit_card",
+    "card_name": "SBI SimplySAVE Credit Card",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "sbi-simplysave-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Dining, Groceries & Movies",
+    "categories": [
+      "Dining, Groceries & Movies",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/sbi-simplysave-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#2B5AA1",
+      "secondary_hex": "#3E3CAF",
+      "wash_hex": "#E1E6EC",
+      "soft_bg_hex": "#ECF0F7",
+      "border_hex": "#D0DBEA",
+      "ink_on_soft_hex": "#2B5AA1",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+    "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "SBI Card customers seeking dining",
+      "groceries & movies rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "card",
+      "credit",
+      "dining",
+      "entry",
+      "fd",
+      "groceries",
+      "level",
+      "movies",
+      "sbi",
+      "secured",
+      "simplysave"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.17,
+    "accelerated_reward_rate_pct": 1.67,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "10 reward points on every Rs. 150 spent on dining, movies, grocery and departmental store purchases",
+      "1 reward point per Rs. 150 spent on other categories",
+      "4 reward points = Rs. 1",
+      "Welcome Benefit: 2,000 reward points on spending Rs. 2,000 within 60 days of credit card issuance.",
+      "Fuel Surcharge Waiver: 1% fuel surcharge waiver on your transactions between Rs. 500 to Rs. 3,000 at any petrol pump in India. You can avail a maximum waiver of Rs. 100 per statement cycle.",
+      "10X reward points on dining, movies, grocery and departmental store spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.17,
+      "amazon_flipkart_myntra": 0.17,
+      "dining_swiggy_zomato": 1.7,
+      "groceries_quick_commerce": 1.7,
+      "travel_flights_hotels": 0.17,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.96,
+      "offline_general_other": 0.17
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 100
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": 100000,
+      "monthly_spend_for_waiver_inr": 8333,
+      "milestone_slabs": [
+        "Welcome Benefit: 2,000 reward points on spending Rs. 2,000 within 60 days of credit card issuance.",
+        "Annual Fee Reversal: Annual membership fee reversal from the second year on spending Rs. 1 lakh in the previous year.",
+        "Fuel Surcharge Waiver: 1% fuel surcharge waiver on your transactions between Rs. 500 to Rs. 3,000 at any petrol pump in India. You can avail a maximum waiver of Rs. 100 per statement cycle.",
+        "Annual fee waiver condition of Rs. 1 Lakh in a year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 100000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 500 to Rs. 1,000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,000 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,000 to Rs. 25,000",
+        "late_fee_inr": "Rs. 950"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,000 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from SBI Card suited for dining, groceries & movies users.",
+    "highlights": [
+      "10 reward points on every Rs. 150 spent on dining, movies, grocery and departmental store purchases",
+      "1 reward point per Rs. 150 spent on other categories",
+      "4 reward points = Rs. 1",
+      "Welcome Benefit: 2,000 reward points on spending Rs. 2,000 within 60 days of credit card issuance."
+    ],
+    "welcome_benefit": "Welcome Benefit: 2,000 reward points on spending Rs. 2,000 within 60 days of credit card issuance.",
+    "milestone_benefits": [
+      "Welcome Benefit: 2,000 reward points on spending Rs. 2,000 within 60 days of credit card issuance.",
+      "Annual Fee Reversal: Annual membership fee reversal from the second year on spending Rs. 1 lakh in the previous year.",
+      "Fuel Surcharge Waiver: 1% fuel surcharge waiver on your transactions between Rs. 500 to Rs. 3,000 at any petrol pump in India. You can avail a maximum waiver of Rs. 100 per statement cycle.",
+      "Annual fee waiver condition of Rs. 1 Lakh in a year"
+    ],
+    "dining_benefits": [
+      "10 reward points on every Rs. 150 spent on dining, movies, grocery and departmental store purchases",
+      "10X reward points on dining, movies, grocery and departmental store spends"
+    ],
+    "movie_benefits": [
+      "10 reward points on every Rs. 150 spent on dining, movies, grocery and departmental store purchases",
+      "10X reward points on dining, movies, grocery and departmental store spends"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "How can I redeem reward points on my SBI SimplySAVE Credit Card?",
+        "a": "You can redeem SBI Credit Card reward points through online and offline modes. To redeem your reward points online, you can download the SBI Card mobile app or visit the internet banking portal of the bank. Apart from this, you can also call on the customer care number and the executive will help you with the redemption process."
+      },
+      {
+        "q": "Can I avail fuel surcharge waiver on every transaction via SBI Simply SAVE Credit Card?",
+        "a": "No, you can avail fuel surcharge waiver on your transactions between Rs. 500 to Rs 3,000 across any petrol pump in India. Also, you can avail a maximum waiver of Rs. 100 per statement cycle."
+      },
+      {
+        "q": "What is SBI Simply Save credit card reward points value in rupees?",
+        "a": "Every reward point earned using SBI Simply Save credit card holds the value of Rs. 0.25."
+      },
+      {
+        "q": "Is SBI Simply Save credit card good?",
+        "a": "SBI SimplySAVE credit card is a good option for those looking for a low annual fee rewards credit card. It is suitable for those who want accelerated savings on dining, movies, grocery and departmental store spends."
+      },
+      {
+        "q": "What is the limit of SBI Simply Save credit card?",
+        "a": "The credit limit of SBI SimplySAVE credit card depends on the individual’s credit history, income, and credit score, among other factors as per the card provider’s internal policies. So, there is no common fixed credit limit associated with any credit card."
+      },
+      {
+        "q": "Does SBI Simply SAVE Credit Card offer airport lounge access?",
+        "a": "No, SBI SimplySAVE Credit Card does not offer any airport lounge access facility to the cardholders."
+      },
+      {
+        "q": "What is SBI SimplySAVE Credit Card interest rate?",
+        "a": "The current finance charges are up to 3.50% p.m i.e 42% annually. The charges are applicable from the transaction date and are subject to change as per the discretion of SBI Card."
+      },
+      {
+        "q": "How can I check my SBI Simply SAVE Credit Card limit?",
+        "a": "Both total credit limit and available credit limit can be seen via the SBI Card app and on your monthly credit card statement."
+      },
+      {
+        "q": "How to upgrade SBI Simply Save credit card?",
+        "a": "You can upgrade your existing SBI credit card by first logging in to your SBI Card account and then select the ‘Upgrade Now’ option to upgrade to the card offered to you."
+      },
+      {
+        "q": "How can I check the status of my application after applying?",
+        "a": "You can check your application status for SBI Simply Save Credit Card on SBI Card’s official website by entering your application reference number."
+      },
+      {
+        "q": "What are the 10X reward categories for SBI Simply Save Credit Card?",
+        "a": "SBI Simply Save Credit Card offers 10X rewards on movies, dining, groceries and departmental store spends."
+      },
+      {
+        "q": "Can I use SBI Simply Save Card for international transactions?",
+        "a": "Yes. SBI Simply Save Credit Card can be used for international spends."
+      },
+      {
+        "q": "What is the difference between SBI SimplySAVE and SBI SimplyCLICK Credit Cards?",
+        "a": "While SBI SimplySAVE offers category-specific benefits across dining, movies, groceries and departmental store spends, SBI SimplyCLICK Credit Card is better for online spends. Moreover, Simply CLICK provides the highest value-back on select merchants so consumers who frequently shop with these brands can avail maximum savings."
+      },
+      {
+        "q": "Can I transfer outstanding balances from other credit cards to my SBI SimplySAVE Card?",
+        "a": "Yes, you can transfer the outstanding balance of your credit cards from other banks to your SBI SimplySAVE Credit Card and pay back in EMIs. You can avail this facility of balance transfer by logging in to your SBI Card account using user ID and password. However, this may vary on case-to-case basis."
+      },
+      {
+        "q": "What eligibility criteria and documents are required to apply for SBI SimplySAVE Credit Card?",
+        "a": "To be eligible for an SBI credit card, you must either be salaried or self-employed with a stable source of income and within the age group of 21 to 70 years with a good credit score. Additionally, documents as proof of identity, address, and income are also required. These may include documents like PAN card, Aadhaar card or other government-issued address proof, along with salary slips or income tax returns (ITR), as applicable."
+      },
+      {
+        "q": "Can my family members use the SimplySAVE SBI Card at the same time?",
+        "a": "Yes, you can get add-on cards, along with your primary SimplySAVE SBI Card, for your family members which include your parents, spouse, siblings and children above the age of 18 years."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.26,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Dining Benefits": 3.0,
+      "Welcome Benefits": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBI Card suited for dining, groceries & movies users.",
+    "pros": [
+      "10X reward points on dining, movies, grocery and departmental store spends",
+      "Entry-level credit card with low annual fee and easier eligibility terms",
+      "Annual fee waiver condition of Rs. 1 Lakh in a year"
+    ],
+    "cons": [
+      "Reward redemption options are limited to select brand vouchers only",
+      "No significant benefits other than the rewards program",
+      "Low reward rate as compared to some entry-level cashback cards"
+    ],
+    "best_for_whom": "SBI Card customers seeking dining, groceries & movies rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from SBI Card suited for dining, groceries & movies users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.26,
+    "reddit_mentions": 1,
+    "sentiment_summary": "Community discussions around SBI Card Dining, Groceries & Movies cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹100,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium-High",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "punjab_national_bank_pnb_luxura_visa_credit_card",
+      "card_name": "PNB LUXURA Visa Credit Card",
+      "bank": "Punjab National Bank",
+      "bank_slug": "punjab-national-bank",
+      "card_slug": "pnb-luxura-visa-credit-card",
+      "annual_fee_inr": 1999,
+      "overall_rating": 4.05,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.05/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Top-rated Super-Premium card in market with rating 4.9/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "To be eligible for an SBI credit card, you must either be salaried or self-employed with a stable source of income and within the age group of 21 to 70 years with a good credit score. Additionally, documents as proof of identity, address, and income are also required. These may include documents like PAN card, Aadhaar card or other government-issued address proof, along with salary slips or income tax returns (ITR), as applicable."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-extra-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Extra Cashback",
+      "summary": "Up to Rs 1500 Extra Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Instant Discount",
+      "summary": "Up to Rs 1500 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 5,000 Instant Discount",
+      "summary": "Up to Rs 5,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1-000-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs. 1,000 Cashback.",
+      "summary": "Up to Rs. 1,000 Cashback.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to RS 5000 Instant Discount",
+      "summary": "Up to RS 5000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-16-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 16,000 Instant Discount",
+      "summary": "Up to Rs 16,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    }
+  ]
+}

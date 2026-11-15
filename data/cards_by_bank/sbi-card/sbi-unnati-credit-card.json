@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "card_id": "sbi_bank_unnati_credit_card",
+    "card_name": "SBI Unnati Credit Card",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "sbi-unnati-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / Secured",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Fuel",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/sbi-unnati-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#C58426",
+      "secondary_hex": "#C7C936",
+      "wash_hex": "#F4EBDD",
+      "soft_bg_hex": "#FAF4EB",
+      "border_hex": "#F2E4CF",
+      "ink_on_soft_hex": "#8B5D1B",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+    "mitc_pdf_url": "https://www.sbicard.com/en/most-important-terms-and-conditions.page",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": true,
+    "is_fd_backed": true,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "card",
+      "cashback",
+      "credit",
+      "entry",
+      "fd",
+      "fuel",
+      "level",
+      "miles",
+      "sbi",
+      "secured",
+      "travel",
+      "unnati"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 0.25,
+    "accelerated_reward_rate_pct": 0.25,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "Reward Program: 1 Reward Point for every Rs. 100 spent",
+      "Milestone Benefit: Rs. 500 cashback within 15 days of spending Rs. 50,000 per year",
+      "Fuel Surcharge Waiver: 1% surcharge waiver on all fuel spends of Rs. 500 to Rs. 3,000, up to Rs. 100 per month",
+      "1 Reward Point on every Rs. 100 spent",
+      "Save Rs. 1,200 on fuel spends every year"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.25,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 0.25,
+      "groceries_quick_commerce": 0.25,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 100
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Milestone Benefit: Rs. 500 cashback within 15 days of spending Rs. 50,000 per year",
+        "Fuel Surcharge Waiver: 1% surcharge waiver on all fuel spends of Rs. 500 to Rs. 3,000, up to Rs. 100 per month",
+        "Save Rs. 1,200 on fuel spends every year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 500 to Rs. 1,000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,000 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,000 to Rs. 25,000",
+        "late_fee_inr": "Rs. 950"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,000 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from SBI Card suited for travel & miles users.",
+    "highlights": [
+      "Reward Program: 1 Reward Point for every Rs. 100 spent",
+      "Milestone Benefit: Rs. 500 cashback within 15 days of spending Rs. 50,000 per year",
+      "Fuel Surcharge Waiver: 1% surcharge waiver on all fuel spends of Rs. 500 to Rs. 3,000, up to Rs. 100 per month",
+      "No Annual Fee: No joining and annual fee for the first 4 years of card membership"
+    ],
+    "welcome_benefit": "No welcome benefits are offered",
+    "milestone_benefits": [
+      "Milestone Benefit: Rs. 500 cashback within 15 days of spending Rs. 50,000 per year",
+      "Fuel Surcharge Waiver: 1% surcharge waiver on all fuel spends of Rs. 500 to Rs. 3,000, up to Rs. 100 per month",
+      "Save Rs. 1,200 on fuel spends every year"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are new to credit card and not eligible for unsecured cards",
+      "You want to build or improve your credit score while saving on everyday spends",
+      "You are looking for a low annual fee card with basic benefits"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a savings account with SBI to get an SBI Unnati Credit Card?",
+        "a": "No, you don’t need a savings account with SBI to avail this card. SBI Unnati is issued against fixed deposit of Rs. 25,000 or more. Hence, even if you don’t have a savings account with SBI, you can open an FD with SBI and apply for this card."
+      },
+      {
+        "q": "Is it possible to increase my credit limit on SBI Unnati Credit Card?",
+        "a": "Yes, you can increase your credit limit by increasing your fixed deposit amount. Visit your nearest SBI branch, top up or create a new FD at a higher amount and request for credit enhancement against the revised FD."
+      },
+      {
+        "q": "What all documents do I need to apply for SBI Unnati Credit Card?",
+        "a": "You need ID proof such as PAN, Aadhaar, or Passport and address proof. Additionally, you will need a fixed deposit receipt or certificate of Rs. 25,000 or more with SBI. You do not require any income proof since this card is backed by a fixed deposit."
+      },
+      {
+        "q": "Do I need a credit score to apply for SBI Unnati Credit Card?",
+        "a": "No, you do not need credit score to apply for the SBI Unnati Credit Card as it is specifically designed for individuals with no credit history or a low credit score. The FD acts as a security, which eliminates the need for a credit check making it an ideal credit-building tool for those who are new to credit."
+      },
+      {
+        "q": "If I close my fixed deposit account, will my SBI Unnati Credit Card also stop functioning?",
+        "a": "Since this is a secured card that is offered against a fixed deposit. Hence, if you close your FD, you will no longer be able to use your SBI Unnati Credit Card."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.19,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Fuel Benefits": 2.0,
+      "Milestone Benefits": 2.0,
+      "rewards": 3.0,
+      "milestone_benefits": 2.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBI Card suited for travel & miles users.",
+    "pros": [
+      "1 Reward Point on every Rs. 100 spent",
+      "Save Rs. 1,200 on fuel spends every year",
+      "No annual fee charged for the first 4 years"
+    ],
+    "cons": [
+      "No lifestyle, shopping or travel-related benefits",
+      "No welcome benefits are offered"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "option from SBI Card suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.19,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBI Card Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium-High",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "amex_bank_membership_rewards_credit_card",
+      "card_name": "American Express Membership Rewards® Credit Card",
+      "bank": "American Express",
+      "bank_slug": "american-express",
+      "card_slug": "american-express-membership-rewards-credit-card",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.12,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.12/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.42/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-extra-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Extra Cashback",
+      "summary": "Up to Rs 1500 Extra Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Instant Discount",
+      "summary": "Up to Rs 1500 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 5,000 Instant Discount",
+      "summary": "Up to Rs 5,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1-000-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs. 1,000 Cashback.",
+      "summary": "Up to Rs. 1,000 Cashback.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to RS 5000 Instant Discount",
+      "summary": "Up to RS 5000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-16-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 16,000 Instant Discount",
+      "summary": "Up to Rs 16,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    }
+  ]
+}

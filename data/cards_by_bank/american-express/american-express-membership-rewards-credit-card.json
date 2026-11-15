@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "card_id": "amex_bank_membership_rewards_credit_card",
+    "card_name": "American Express Membership Rewards® Credit Card",
+    "bank": "American Express",
+    "bank_slug": "american-express",
+    "card_slug": "american-express-membership-rewards-credit-card",
+    "card_network": "American Express",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Fuel",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/american-express/american-express-membership-rewards-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#9E8C4D",
+      "secondary_hex": "#96A55A",
+      "wash_hex": "#EFECE2",
+      "soft_bg_hex": "#F6F5EF",
+      "border_hex": "#EAE6D8",
+      "ink_on_soft_hex": "#706336",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.americanexpress.com/in/credit-cards/",
+    "mitc_pdf_url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Lending_MITC_English.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 3,000 - 9,999",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "american",
+      "card",
+      "cashback",
+      "credit",
+      "express",
+      "fuel",
+      "membership",
+      "miles",
+      "online",
+      "rewards",
+      "shopping",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "100% Renewal fee waiver on spending 1.50 Lakh or above in the previous year of card membership",
+      "50% Renewal fee waiver on spending between Rs. 90,000 to Rs. 1.49 Lakh in the previous year of card membership",
+      "0% convenience fee on fuel purchases less than Rs. 5,000 at HPCL Petrol Pumps",
+      "1% convenience fee on fuel purchases of Rs. 5,000 and above at HPCL Petrol Pumps",
+      "You put most spends on credit cards and can accumulate substantial reward points",
+      "You frequently shop with Flipkart, Amazon, Shoppers Stop, etc. and would prefer redemption against these brands"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "4 transactions of Rs. 1,500+ in a calendar month earn 1,000 Bonus MR Points; Rs. 20,000+ monthly spend earns another 1,000 Bonus MR Points (~5%-8% effective return via 18K/24K Gold Collection)."
+    ],
+    "category_caveats": {
+      "online_shopping_general": "Use Amex Reward Multiplier (GyFTR) for 2X–3X bonus MR points on brand vouchers; base 1 MR/₹50",
+      "fuel": "0 MR points on fuel; 0% HPCL surcharge waiver only up to ₹5,000 transaction size"
+    },
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 1000,
+      "annual_fee_inr": 4500,
+      "annual_fee_with_gst_inr": 5310.0,
+      "fee_waiver_spend_inr": 150000,
+      "monthly_spend_for_waiver_inr": 12500,
+      "milestone_slabs": [
+        "100% Renewal fee waiver on spending 1.50 Lakh or above in the previous year of card membership",
+        "50% Renewal fee waiver on spending between Rs. 90,000 to Rs. 1.49 Lakh in the previous year of card membership",
+        "You will be able to spend Rs. 1.5 Lakh in a year to get the annual fee completely waived off"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 1000,
+    "annual_fee_inr": 4500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 150000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "3.5% (Minimum of Rs. 250)",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from American Express suited for travel & miles users.",
+    "highlights": [
+      "100% Renewal fee waiver on spending 1.50 Lakh or above in the previous year of card membership",
+      "50% Renewal fee waiver on spending between Rs. 90,000 to Rs. 1.49 Lakh in the previous year of card membership",
+      "0% convenience fee on fuel purchases less than Rs. 5,000 at HPCL Petrol Pumps",
+      "1% convenience fee on fuel purchases of Rs. 5,000 and above at HPCL Petrol Pumps",
+      "You put most spends on credit cards and can accumulate substantial reward points"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "100% Renewal fee waiver on spending 1.50 Lakh or above in the previous year of card membership",
+      "50% Renewal fee waiver on spending between Rs. 90,000 to Rs. 1.49 Lakh in the previous year of card membership",
+      "You will be able to spend Rs. 1.5 Lakh in a year to get the annual fee completely waived off"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "Can I apply offline for American Express Membership Rewards® Credit Card?",
+        "a": "+- No, you can only apply through the official website of American Express®. You are required to fill out an application form and submit it online along with required documents. After this, the bank will verify your details and process credit card request."
+      },
+      {
+        "q": "Can I withdraw cash using my American Express Membership Rewards® Credit Card?",
+        "a": "+- Yes, you can withdraw cash using your American Express Membership Rewards® Credit Card. However, a cash advance fee of 3.5% will be charged for withdrawing cash. In addition to this, finance charges will start accruing until you pay off the withdrawn amount in full. Therefore, it is advisable not to withdraw cash using your credit card as it incur high charges."
+      },
+      {
+        "q": "How can I redeem my reward points earned via American Express Membership Rewards® Credit Card?",
+        "a": "+- This credit card lets you earn Membership Rewards Points on your purchases. You can redeem the earned reward points against gift vouchers of top brands by logging in to your rewards account online. All you need to do is select a plan between 18 karat or 24 karat and redeem the reward points against the vouchers."
+      },
+      {
+        "q": "How can I report my lost or damaged American Express Membership Rewards® Credit Card?",
+        "a": "+- You must report to the customer care of American Express as soon as you notice the loss of your card. To do so, you can call on the 24-hour cardmember helpline number. Also, if your card is damaged, you can send a request for a replacement card simply by logging in to your American Express account."
+      },
+      {
+        "q": "How can I pay my American Express Membership Rewards® Credit Card bill?",
+        "a": "+- You can pay your credit card bill online through the facilities like NEFT and UPI. Apart from this, if you want to pay your bills offline, you are required to send a cheque or draft to the head office of American Express at Gurugram."
+      },
+      {
+        "q": "What should I do if my American Express Membership Rewards® Credit Card is declined for a transaction?",
+        "a": "+- Your card may be declined due to several reasons; the most common being insufficient credit limit. If you have enough amount for the purchase and it is still declined, you must contact the customer care of American Express to know the reason for such decline and get it fixed."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.12,
+    "editorial_rating": null,
+    "aggregator_rating": 4.7,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from American Express suited for travel & miles users.",
+    "pros": [
+      "Annual fee (Rs. 4,500) waived on spending Rs. 150,000/year",
+      "Backed by American Express digital card controls, EMI conversion & merchant offers"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from American Express suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.88,
+    "reddit_mentions": 8,
+    "sentiment_summary": "Community discussions around American Express Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
+      "High 3.5% (+GST) forex markup makes international swipes net negative."
+    ],
+    "optimization_tips": [
+      "Double Monthly Milestone Formula: Complete 4 transactions of ₹1,500+ every calendar month (+1,000 Bonus MR pts) AND spend ₹20,000 total/month (+1,000 Bonus MR pts) — generating 2,400+ MR pts/month (~5%–8% effective return).",
+      "Redeem Only via 18K/24K Gold Collection: Avoid ₹0.25 statement cash credit; redeem at 18,000 or 24,000 MR pts Gold Collection vouchers (Taj/Flipkart) or Marriott transfer bonuses for ₹0.50–₹0.80+/pt."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "MobiKwik wallet exit & Gold/Charge pressure, while Plat Travel Rs. 4L milestone & MR non-expiry stay valuable."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Direct competitor from Federal Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_first_bank_mayura_credit_card",
+      "card_name": "Mayura Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "mayura-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 5999,
+      "overall_rating": 4.26,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.26/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.42/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": "The applicant must be an Indian resident and have a savings or current account in Indian or multinational bank to be eligible for this card. A good score with no payment defaults is also a pre-requisite for getting approved. Besides this, you must fulfil the below-mentioned eligibility criteria to apply for this credit card:"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "american-express-amex-reward-multiplier-dining-luxury-stay",
+      "bank": "American Express",
+      "title": "Amex Reward Multiplier & Dining / Luxury Stay Offers",
+      "summary": "3X–5X Membership Rewards via Amex Reward Multiplier (GyFTR vouchers, Flipkart, MakeMyTrip, Tata CLiQ) plus Taj/Marriott milestone perks.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.americanexpress.com/en-in/benefits/offers/",
+      "scope": "targeted"
+    }
+  ]
+}

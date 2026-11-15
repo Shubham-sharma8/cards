@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_biz_grow_credit_card",
+    "card_name": "HDFC Biz Grow Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "hdfc-biz-grow-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Business & Tax",
+    "categories": [
+      "Travel & Miles",
+      "Dining, Groceries & Movies",
+      "Business & Tax"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/hdfc-biz-grow-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#195382",
+      "secondary_hex": "#273692",
+      "wash_hex": "#DFE5E8",
+      "soft_bg_hex": "#EAF0F4",
+      "border_hex": "#CCD9E4",
+      "ink_on_soft_hex": "#195382",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Proprietors",
+      "MSMEs & self-employed professionals separating GST",
+      "vendor expenses",
+      "Rs. 50,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "biz",
+      "business",
+      "card",
+      "credit",
+      "dining",
+      "groceries",
+      "grow",
+      "hdfc",
+      "miles",
+      "movies",
+      "tax",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 4.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "10X Cash Points on select business spends",
+      "4% savings on Grocery, electronics, stationery & other purchases at Dmart",
+      "4% savings on mobile recharge, electricity, Gas, DTH & more via PayZapp",
+      "Redeem Cash Points at a value of 1 Cash Point = Re. 0.25 against cashback, SmartBuy purchases & product catalogue",
+      "4% off on flights and hotel bookings via MyBiz",
+      "1% fuel surcharge waiver at all fuel stations across India on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 250 per month"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 4.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 4.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 250,
+      "groceries_quick_commerce": 1500,
+      "utilities_bills_telecom": 1500
+    },
+    "monthly_capping_rules": [
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": 100000,
+      "monthly_spend_for_waiver_inr": 8333,
+      "milestone_slabs": [
+        "2 Cash Points on every Rs. 200 on business spends",
+        "Gift voucher worth Rs. 250 on the first transaction within 37 days of card issuance",
+        "2,000 Cash Points every quarter on quarterly spends of Rs. 1 Lakh",
+        "Annual fee waiver on annual spends of Rs. 1 Lakh"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 100000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 100 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from HDFC Bank suited for business & tax users.",
+    "highlights": [
+      "2 Cash Points on every Rs. 200 on business spends",
+      "10X Cash Points on select business spends",
+      "4% savings on Grocery, electronics, stationery & other purchases at Dmart"
+    ],
+    "welcome_benefit": "Welcome benefits equivalent to the joining fee",
+    "milestone_benefits": [
+      "2 Cash Points on every Rs. 200 on business spends",
+      "Gift voucher worth Rs. 250 on the first transaction within 37 days of card issuance",
+      "2,000 Cash Points every quarter on quarterly spends of Rs. 1 Lakh",
+      "Annual fee waiver on annual spends of Rs. 1 Lakh"
+    ],
+    "dining_benefits": [
+      "Up to 10% discount on restaurant bill payments via Swiggy Dineout"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Fire & burglary insurance: Up to Rs. 5 Lakh",
+      "Electronic equipment insurance: Up to Rs. 50,000"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "Which HDFC credit card is best Biz Grow or Biz First?",
+        "a": "HDFC Biz Grow and Biz First - both offer decent value-backs to the cardholders. Biz First offers accelerated CashPoints on EMI, electronics, utility bills, SmartPay and Payzapp spends, while Bix Grow focuses more on business-related spends, like bill & tax payments, and MMT travel bookings among others. Both cards also offer other benefits, discounts and offers in addition to the CashPoints. However, in order to pick the better card between these two options, your individual needs and spending patterns must be considered. The card that allows you to maximise your savings without overspending would be the most-suited one for you."
+      },
+      {
+        "q": "What will be the interest free credit period for HDFC Biz Grow credit card?",
+        "a": "HDFC Biz Grow credit card offers an interest-free credit period of up to 55 days."
+      },
+      {
+        "q": "What are the two types of loans available on HDFC Biz Grow Credit Card?",
+        "a": "With HDFC Biz Grow credit card, you can avail Insta loan against your card’s credit limit. Additionally, for bigger loans, you can avail the Jumbo loan against your credit card beyond the credit limit offered on the card."
+      },
+      {
+        "q": "How can a customer redeem Cash Points earned on Biz Grow Credit Card and what is the reward point value?",
+        "a": "Cardholders can redeem reward points against cashback, SmartBuy purchases, and the product catalogue at a value of 1 Cash Point = Rs. 0.25. Additionally, reward points can be redeemed against the business catalogue at a value of 1 Cash Point = Rs. 0.30."
+      },
+      {
+        "q": "How does the card offer convenience in my daily business operations?",
+        "a": "HDFC Biz Grow is a business credit card designed for entrepreneurs and professionals. It offers accelerated rewards, including 10X Cash Points on select business spends and a base earning rate of 2 Cash Points per Rs. 150 spent on other business-related expenses. In addition, this card also offers discounts on select business-related spending needs, as mentioned on the page above, along with business insurance covers."
+      },
+      {
+        "q": "How does the card protect me and my business from financial risk?",
+        "a": "HDFC Biz Grow Credit Card comes with business insurance coverage for Fire & burglary worth up to Rs. 5 Lakh, Cash in safe/transit of up to Rs. 25,000, electronic equipment worth up to Rs. 50,000 and hospital cash worth up to Rs. 1,000 per day each for accident and illness."
+      },
+      {
+        "q": "Is BizGrow credit card good or bad?",
+        "a": "HDFC Biz Grow Credit Card can be a good option for you if you are a business owner who travels frequently and is looking for a card to save on business and travel-related spends."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.62,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.0,
+      "Welcome Benefits": 3.0,
+      "travel": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for business & tax users.",
+    "pros": [
+      "Welcome benefits equivalent to the joining fee",
+      "10X Cash Points on select business expenses",
+      "Accelerated value back on everyday expenses through Dmart"
+    ],
+    "cons": [
+      "10X Cash Points capped at 1,500 points per month",
+      "Low redemption value for reward points",
+      "No reward points on rent and fuel transactions"
+    ],
+    "best_for_whom": "Proprietors, MSMEs & self-employed professionals separating GST/tax/vendor expenses",
+    "not_ideal_for": "Salaried individuals with strictly personal spends",
+    "recommended_monthly_spend_inr": "Rs. 50,000+",
+    "verdict": "option from HDFC Bank suited for business & tax users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.62,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HDFC Bank Business & Tax cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "optimization_tips": [
+      "Focus spends on groceries & quick-commerce (4.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹100,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_business_gold_credit_card",
+      "card_name": "ICICI Bank Business Gold Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-business-gold-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.21,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Business & Tax with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "central_bank_of_india_central_bank_india_aspire_credit_card",
+      "card_name": "Central Bank of India Aspire Credit Card",
+      "bank": "Central Bank Of India",
+      "bank_slug": "central-bank-of-india",
+      "card_slug": "central-bank-of-india-aspire-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.74,
+      "reason": "Direct competitor from Central Bank Of India at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Self-employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": "Occupation: Self-employed"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

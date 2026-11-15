@@ -1,0 +1,45 @@
+{
+  "bank": "DBS Bank",
+  "bank_slug": "dbs-bank",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_cards": 2,
+  "ltf_count": 0,
+  "rupay_upi_count": 0,
+  "domestic_lounge_count": 2,
+  "international_lounge_count": 1,
+  "railway_lounge_count": 0,
+  "golf_count": 0,
+  "zero_or_low_forex_count": 1,
+  "with_image_count": 2,
+  "official_lounge_programs": [],
+  "cards": [
+    {
+      "card_id": "dbs_bank_dbs_spark_credit_card",
+      "card_name": "DBS Spark Credit Card",
+      "card_slug": "dbs-spark-credit-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "American Express",
+      "annual_fee_inr": 499,
+      "overall_rating": 3.7,
+      "has_domestic_lounge": true,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/dbs-bank/dbs-spark-credit-card.webp",
+      "json_file": "dbs-spark-credit-card.json",
+      "md_file": "dbs-spark-credit-card.md"
+    },
+    {
+      "card_id": "dbs_bank_dbs_vantage_credit_card",
+      "card_name": "DBS Vantage Credit Card",
+      "card_slug": "dbs-vantage-credit-card",
+      "primary_category": "Zero/Low Forex",
+      "card_network": "Visa Infinite",
+      "annual_fee_inr": 50000,
+      "overall_rating": 3.41,
+      "has_domestic_lounge": true,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/dbs-bank/dbs-vantage-credit-card.webp",
+      "json_file": "dbs-vantage-credit-card.json",
+      "md_file": "dbs-vantage-credit-card.md"
+    }
+  ]
+}

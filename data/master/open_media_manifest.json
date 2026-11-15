@@ -1,0 +1,166 @@
+{
+  "topics": {
+    "credit-cards": [
+      "/open-media/credit-cards-2.jpg",
+      "/open-media/credit-cards-3.jpg",
+      "/open-media/credit-cards-4.jpg"
+    ],
+    "airport-lounge": [
+      "/open-media/airport-lounge-1.jpg",
+      "/open-media/airport-lounge-2.jpg",
+      "/open-media/airport-lounge-3.jpg"
+    ],
+    "golf-course": [
+      "/open-media/golf-course-1.jpg",
+      "/open-media/golf-course-2.jpg",
+      "/open-media/golf-course-3.jpg"
+    ],
+    "indian-dining": [
+      "/open-media/indian-dining-1.jpg",
+      "/open-media/indian-dining-2.jpg",
+      "/open-media/indian-dining-3.jpg"
+    ],
+    "airline-business": [
+      "/open-media/airline-business-1.jpg",
+      "/open-media/airline-business-2.jpg",
+      "/open-media/airline-business-3.jpg"
+    ],
+    "luxury-hotel": [
+      "/open-media/luxury-hotel-1.jpg",
+      "/open-media/luxury-hotel-2.jpg",
+      "/open-media/luxury-hotel-3.jpg"
+    ],
+    "retail-shopping": [
+      "/open-media/retail-shopping-1.jpg",
+      "/open-media/retail-shopping-2.jpg",
+      "/open-media/retail-shopping-3.jpg"
+    ],
+    "fuel-station": [
+      "/open-media/fuel-station-1.jpg",
+      "/open-media/fuel-station-2.jpg",
+      "/open-media/fuel-station-3.jpg"
+    ]
+  },
+  "bank_mitc": {
+    "American Express": [
+      "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf",
+      "https://www.americanexpress.com/in/legal-disclosures/most-important-terms-and-conditions/"
+    ],
+    "HDFC Bank": [
+      "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+      "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/faq-swiggy-card-upgrade-final.pdf"
+    ],
+    "ICICI Bank": [
+      "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/personal/cards/MITC_cc.pdf",
+      "https://www.icicibank.com/personal-banking/cards/credit-card/mitc"
+    ],
+    "Axis Bank": [
+      "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf",
+      "https://www.axisbank.com/retail/cards/credit-card/most-important-terms-and-conditions"
+    ],
+    "SBI Card": [
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/most-important-terms-and-conditions.pdf",
+      "https://www.sbicard.com/en/most-important-terms-and-conditions.page"
+    ],
+    "HSBC Bank": [
+      "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-cards/mitc.pdf",
+      "https://www.hsbc.co.in/credit-cards/terms-and-conditions/"
+    ],
+    "IDFC FIRST Bank": [
+      "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/credit-card/MITC-Credit-Card.pdf",
+      "https://www.idfcfirstbank.com/credit-card/mitc"
+    ],
+    "YES BANK": [
+      "https://www.yesbank.in/pdf/credit_card_mitc_pdf",
+      "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards"
+    ],
+    "Kotak Mahindra Bank": [
+      "https://www.kotak.com/content/dam/Kotak/Customer-Service/Important-Customer-Information/most-important-terms-and-conditions-credit-card.pdf",
+      "https://www.kotak.com/en/personal-banking/cards/credit-cards.html"
+    ],
+    "AU Small Finance Bank": [
+      "https://www.aubank.in/credit-card-mitc",
+      "https://www.aubank.in/personal-banking/credit-cards"
+    ],
+    "IndusInd Bank": [
+      "https://www.indusind.com/content/dam/indusind-corporate/Other/credit-card-mitc.pdf",
+      "https://www.indusind.com/in/en/personal/cards/credit-card.html"
+    ],
+    "BOBCARD": [
+      "https://www.bobcard.co.in/pdfs/MITC.pdf",
+      "https://www.bobcard.co.in/most-important-terms-and-conditions"
+    ],
+    "RBL Bank": [
+      "https://www.rblbank.com/static-assets/pdfs/credit-cards/mitc-credit-card.pdf",
+      "https://www.rblbank.com/personal-banking/cards/credit-cards"
+    ],
+    "Standard Chartered Bank": [
+      "https://av.sc.com/in/content/docs/in-credit-card-mitc.pdf",
+      "https://www.sc.com/in/credit-cards/"
+    ],
+    "Federal Bank": [
+      "https://www.federalbank.co.in/documents/10180/45777/MITC+Credit+Card.pdf",
+      "https://www.federalbank.co.in/credit-cards"
+    ],
+    "OneCard / Co-branded": [
+      "https://www.getonecard.app/legal/mitc/",
+      "https://www.getonecard.app/terms/"
+    ],
+    "Bank of India": [
+      "https://bankofindia.co.in/documents/20121/36794/MITC-Credit-Card.pdf",
+      "https://bankofindia.co.in/credit-card"
+    ],
+    "Bank of Maharashtra": [
+      "https://bankofmaharashtra.in/credit-card",
+      "https://bankofmaharashtra.in/credit-card"
+    ],
+    "Canara Bank": [
+      "https://www.canarabank.bank.in/documents/20126/97492/CLOSURE+OF+CREDIT+CARD211022.pdf",
+      "https://www.canarabank.bank.in/credit-cards"
+    ],
+    "Central Bank Of India": [
+      "https://www.centralbankofindia.co.in/en/credit-card-mitc",
+      "https://www.centralbank.bank.in/en"
+    ],
+    "DBS Bank": [
+      "https://www.dbs.bank.in/iwov-resources/images/in/credit-card/bajaj-dbs-mitc.pdf",
+      "https://www.dbs.bank.in/digibank/in/default.page"
+    ],
+    "IDBI Bank": [
+      "https://www.idbibank.in/pdf/credit-card/MITC-Credit-Card.pdf",
+      "https://www.idbibank.in/credit-cards.asp"
+    ],
+    "Indian Bank": [
+      "https://www.indianbank.bank.in/departments/credit-cards/",
+      "https://www.indianbank.bank.in/departments/credit-cards/"
+    ],
+    "Indian Overseas Bank": [
+      "https://www.iob.in/Credit_Card_MITC",
+      "https://www.iob.bank.in/en/"
+    ],
+    "Karur Vysya Bank": [
+      "https://www.kvb.co.in/docs/credit-card-mitc.pdf",
+      "https://www.kvb.bank.in/personal/cards/credit-cards/"
+    ],
+    "SBM Bank India": [
+      "https://www.sbmbank.co.in/aboutus/sbm-bank-india-mitc.pdf",
+      "https://www.sbmbank.co.in/personal-banking/credit-cards.php"
+    ],
+    "South Indian Bank": [
+      "https://www.southindianbank.com/content/personal-banking/credit-cards",
+      "https://www.southindianbank.com/content/personal-banking/credit-cards"
+    ],
+    "Tamilnad Mercantile Bank": [
+      "https://www.tmbnet.in/credit-card/",
+      "https://www.tmbnet.in/credit-card/"
+    ],
+    "UCO Bank": [
+      "https://www.uco.bank.in/en/credit-cards",
+      "https://www.uco.bank.in/en/"
+    ],
+    "Union Bank of India": [
+      "https://www.unionbankofindia.bank.in/pdf/Credit-Card-MITC.pdf",
+      "https://www.unionbankofindia.bank.in/en/home"
+    ]
+  }
+}

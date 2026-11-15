@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "card_id": "indusind_bank_indusind_bank_legend_credit_card",
+    "card_name": "IndusInd Bank Legend Credit Card",
+    "bank": "IndusInd Bank",
+    "bank_slug": "indusind-bank",
+    "card_slug": "indusind-bank-legend-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Lifetime Free",
+      "Dining, Groceries & Movies",
+      "Zero/Low Forex"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/indusind-bank/indusind-bank-legend-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#7A242C",
+      "secondary_hex": "#8A4F33",
+      "wash_hex": "#EBDFDE",
+      "soft_bg_hex": "#F3EBEC",
+      "border_hex": "#E2CFD1",
+      "ink_on_soft_hex": "#7A242C",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+    "mitc_pdf_url": "https://www.indusind.com/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "forex",
+      "free",
+      "groceries",
+      "indusind",
+      "legend",
+      "lifetime",
+      "lifetime-free",
+      "low",
+      "low-forex",
+      "ltf",
+      "miles",
+      "movies",
+      "travel",
+      "zero",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.35,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.5,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.50"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "2 reward points for every Rs. 100 spent on weekends (Sat-Sun)",
+      "1 reward point for every Rs. 100 spent on weekdays (Mon-Fri)",
+      "1 reward point for every Rs. 100 spent on on medical, automobiles & telecom transactions (on weekdays and weekends)",
+      "0.70 reward points on every Rs. 100 spent on utility bill payments, insurance premium payments, government services/charges/payments, education institute fees and rental payments (on weekdays & weekends)",
+      "3,000 bonus reward points on spending Rs. 5 lakh in a year as milestone benefit",
+      "Exclusion of fuel from rewards program"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.35,
+      "amazon_flipkart_myntra": 0.35,
+      "dining_swiggy_zomato": 0.35,
+      "groceries_quick_commerce": 0.35,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.5,
+      "fuel": 0.0,
+      "insurance": 0.35,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -2.01,
+      "offline_general_other": 0.35
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "3,000 bonus reward points on spending Rs. 5 lakh in a year as milestone benefit"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 2.0,
+    "apr_monthly_pct": 3.95,
+    "apr_annual_pct": 47.4,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 101 and Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 501 and Rs. 1,000",
+        "late_fee_inr": "Rs. 350"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 1,001 and Rs. 10,000",
+        "late_fee_inr": "Rs. 550"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 10,001 and Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 25,001 and Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "The IndusInd Legend Credit Card is a**rewards and travel-focused card, offering accelerated earning on weekend spends and a good redemption value on transferring points to air miles**. It can be a good option for frequent travelers as the forex mark-up charge is low (1.8%), and the accumulated rewards can be transferred to partner airline loyalty programs in a 1:1 ratio. Complimentary movie tickets, a dedicated concierge service, auto-assist, and complimentary insurance add to the card’s benefits.",
+    "highlights": [
+      "2 reward points for every Rs. 100 spent on weekends (Sat-Sun)",
+      "1 reward point for every Rs. 100 spent on weekdays (Mon-Fri)",
+      "1 reward point for every Rs. 100 spent on on medical, automobiles & telecom transactions (on weekdays and weekends)",
+      "0.70 reward points on every Rs. 100 spent on utility bill payments, insurance premium payments, government services/charges/payments, education institute fees and rental payments (on weekdays & weekends)"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "3,000 bonus reward points on spending Rs. 5 lakh in a year as milestone benefit"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "Lost Ticket: Rs. 25,000"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "0.70 reward points on every Rs. 100 spent on utility bill payments, insurance premium payments, government services/charges/payments, education institute fees and rental payments (on weekdays & weekends)",
+      "Rewards on often excluded categories (bill payments, insurance and rent payments)"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently travel with partner airlines and can utilize the 1:1 redemption",
+      "You own another credit card with good frequency of lounge access",
+      "You frequently spend on weekends"
+    ],
+    "faqs": [
+      {
+        "q": "Is the IndusInd Legend card lifetime free?",
+        "a": "Yes, IndusInd Bank Legend is a lifetime free credit card."
+      },
+      {
+        "q": "When do the reward points on the IndusInd Legend credit card expire?",
+        "a": "The reward points you earn through the IndusInd Bank Legend credit card never expire."
+      },
+      {
+        "q": "How to get free movie tickets on the Legend credit card?",
+        "a": "The card offers a Buy One Get One benefit on bookings via BookMyShow with savings of up to Rs. 200 in a month. To avail this benefit, log on to www.bookmyshow.com."
+      },
+      {
+        "q": "Who can apply for this credit card?",
+        "a": "Indian citizens who are over 18 years of age but below 65 years of age can apply for this credit card. Also, customers must have a clean credit history."
+      },
+      {
+        "q": "Does IndusInd Bank Legend Credit Card offer lounge access?",
+        "a": "No, with effect from 7 March, 2025 the complimentary lounge access benefit on the card has been discontinued."
+      },
+      {
+        "q": "How can we contact the customer care of IndusInd Bank?",
+        "a": "You can contact the customer care of IndusInd Bank for issues related to credit cards at 1860 267 7777."
+      },
+      {
+        "q": "How to redeem Legend credit card points?",
+        "a": "You can redeem the accumulated reward points on the IndusInd Bank Legend credit card against cash credit (1 RP = Rs. 0.5), KrisFlyer Miles(4:1), or for non-cash redemption/Pay with Points (1 RP = up to Rs. 0.75)."
+      },
+      {
+        "q": "How to activate an IndusInd Legend credit card?",
+        "a": "You can activate your IndusInd Bank Legend Credit Card through the bank’s official website or the mobile banking app. Alternatively, you can contact the IndusInd Bank Credit Card Customer Care."
+      },
+      {
+        "q": "How to close the IndusInd Legend card?",
+        "a": "To close the IndusInd Bank Legend Credit Card, you can contact the bank’s customer care at 1860 267 7777."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.44,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Movies": 3.0,
+      "Travel": 3.0,
+      "Rewards": 3.5,
+      "movies": 3.0,
+      "travel": 3.0,
+      "rewards": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from IndusInd Bank suited for travel & miles users.",
+    "pros": [
+      "Accelerated rewards on weekend spends",
+      "Rewards on often excluded categories (bill payments, insurance and rent payments)",
+      "1:1 redemption against airlines",
+      "Multiple redemption options",
+      "Low forex markup fee"
+    ],
+    "cons": [
+      "Low base rewards rate for weekday spends",
+      "No complimentary lounge access benefits",
+      "Limited lifestyle benefits",
+      "Exclusion of fuel from rewards program"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "Lifetime Free option from IndusInd Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.44,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IndusInd Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low",
+    "devaluation_risk_score": 3,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "au_small_finance_bank_zenith_plus_credit_card",
+      "card_name": "AU Zenith+ Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "au-zenith-credit-card",
+      "annual_fee_inr": 4999,
+      "overall_rating": 4.18,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.18/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "au_small_finance_bank_ixigo_au_credit_card",
+      "card_name": "ixigo AU Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "ixigo-au-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.38,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.38/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "indusind-bank-make-the-most-out-of-your-reward-points-by-us",
+      "bank": "IndusInd Bank",
+      "title": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you",
+      "summary": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you shop.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "indusind-bank-eazydiner-culinary-treats-flight-movie-priv",
+      "bank": "IndusInd Bank",
+      "title": "EazyDiner Culinary Treats & Flight/Movie Privileges",
+      "summary": "Guaranteed dining discounts at EazyDiner partner restaurants, BOGO movie perks via BookMyShow, and zero-markup forex promos on Tiger/Avios.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

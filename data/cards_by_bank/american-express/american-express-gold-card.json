@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "card_id": "amex_bank_american_express_gold_credit_card",
+    "card_name": "American Express® Gold Card",
+    "bank": "American Express",
+    "bank_slug": "american-express",
+    "card_slug": "american-express-gold-card",
+    "card_network": "American Express",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/american-express/american-express-gold-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#A19149",
+      "secondary_hex": "#95A857",
+      "wash_hex": "#EFEDE1",
+      "soft_bg_hex": "#F7F5EF",
+      "border_hex": "#EAE7D7",
+      "ink_on_soft_hex": "#726634",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.americanexpress.com/in/credit-cards/",
+    "mitc_pdf_url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/charge-english-mitc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 3,000 - 9,999",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "american",
+      "card",
+      "cashback",
+      "dining",
+      "express",
+      "gold",
+      "groceries",
+      "miles",
+      "movies",
+      "online",
+      "shopping",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X Membership Rewards Points on every purchase through Reward Multiplier",
+      "1 Membership Rewards Point for every Rs. 50 spent on utility payments – capped at 10,000 Membership Rewards Points in a calendar month",
+      "0% convenience fee on fuel purchases less than Rs. 5,000 at HPCL Petrol Pumps",
+      "1% convenience fee on fuel purchases of Rs. 5,000 and above at HPCL Petrol Pumps",
+      "You are looking for a card that offers reward points on utility bill payments",
+      "You are more inclined toward rewards instead of cashback"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 5.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 1.0,
+      "fuel": 0.0,
+      "insurance": 1.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "amazon_flipkart_myntra": 1000
+    },
+    "monthly_capping_rules": [
+      "High Rs. 4,500+GST renewal fee (hard to justify after Rs. 1k/mo 6xRs.1,000 bonus & GyFTR Reward Multiplier cap); best only if transferring Gold Collection MR to Marriott."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 1000,
+      "annual_fee_inr": 4500,
+      "annual_fee_with_gst_inr": 5310.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1 Membership Rewards Point for every Rs. 50 spent except for spends at insurance and cash transactions"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 1000,
+    "annual_fee_inr": 4500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "3.5% (Minimum of Rs. 250)",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from American Express suited for travel & miles users.",
+    "highlights": [
+      "Features and Benefits",
+      "Eligibility and Documentation",
+      "Should you apply for this card?",
+      "Other Similar Credit Cards",
+      "5X Membership Rewards Points on every purchase through Reward Multiplier"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1 Membership Rewards Point for every Rs. 50 spent except for spends at insurance and cash transactions"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "1 Membership Rewards Point for every Rs. 50 spent except for spends at insurance and cash transactions"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 4.05,
+    "editorial_rating": null,
+    "aggregator_rating": 4.6,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from American Express suited for travel & miles users.",
+    "pros": [
+      "Targeted rewards structure backed by American Express",
+      "Backed by American Express digital card controls, EMI conversion & merchant offers"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from American Express suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.05,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around American Express Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
+      "High 3.5% (+GST) forex markup makes international swipes net negative."
+    ],
+    "optimization_tips": [
+      "Focus spends on Amazon/Flipkart/Myntra checkouts (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "MobiKwik wallet exit & Gold/Charge pressure, while Plat Travel Rs. 4L milestone & MR non-expiry stay valuable."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "axis_bank_axis_bank_cashback_credit_card",
+      "card_name": "Axis Bank Cashback Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-cashback-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.2,
+      "reason": "Direct competitor from Axis Bank at similar fee tier (Rs. 1,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "american-express-amex-reward-multiplier-dining-luxury-stay",
+      "bank": "American Express",
+      "title": "Amex Reward Multiplier & Dining / Luxury Stay Offers",
+      "summary": "3X–5X Membership Rewards via Amex Reward Multiplier (GyFTR vouchers, Flipkart, MakeMyTrip, Tata CLiQ) plus Taj/Marriott milestone perks.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.americanexpress.com/en-in/benefits/offers/",
+      "scope": "targeted"
+    }
+  ]
+}

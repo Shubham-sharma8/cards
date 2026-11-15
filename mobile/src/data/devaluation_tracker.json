@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-11-14",
+  "issuer_devaluation_profiles": {
+    "Axis Bank": {
+      "frequency": "Very High",
+      "risk_score": 8.5,
+      "note": "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions).",
+      "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf",
+      "devaluation_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
+      "bank_page_url": "https://www.axisbank.com/retail/cards/credit-card/most-important-terms-and-conditions"
+    },
+    "ICICI Bank": {
+      "frequency": "High",
+      "risk_score": 7.5,
+      "note": "Heavy 2024 Rs. 75k/qtr lounge spend cuts + Nov 2026 insurance/INOX cuts across Core/Sapphiro; ONLY Amazon Pay & EPM stay strong.",
+      "mitc_pdf_url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/personal/cards/MITC_cc.pdf",
+      "devaluation_pdf_url": "https://www.icicibank.com/personal-banking/cards/credit-card/mitc",
+      "bank_page_url": "https://www.icicibank.com/personal-banking/cards/credit-card/mitc"
+    },
+    "YES BANK": {
+      "frequency": "High",
+      "risk_score": 7.5,
+      "note": "Repeated lounge & RP devaluations (up to Rs. 1L/qtr spend for domestic lounges; Nov 2026 Reserve/First cut).",
+      "mitc_pdf_url": "https://www.yesbank.in/pdf/credit_card_mitc_pdf",
+      "devaluation_pdf_url": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
+      "bank_page_url": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    "SBI Card": {
+      "frequency": "Medium-High",
+      "risk_score": 6.5,
+      "note": "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions.",
+      "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/most-important-terms-and-conditions.pdf",
+      "devaluation_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/kfs/key-fact-statement.pdf",
+      "bank_page_url": "https://www.sbicard.com/en/most-important-terms-and-conditions.page"
+    },
+    "HDFC Bank": {
+      "frequency": "Medium",
+      "risk_score": 5.5,
+      "note": "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack.",
+      "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+      "devaluation_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/faq-swiggy-card-upgrade-final.pdf",
+      "bank_page_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    "Kotak Mahindra Bank": {
+      "frequency": "Medium",
+      "risk_score": 5.5,
+      "note": "RBI digital embargo recovery era + PVR/White/Myntra reward & lounge reductions.",
+      "mitc_pdf_url": "https://www.kotak.com/content/dam/Kotak/Customer-Service/Important-Customer-Information/most-important-terms-and-conditions-credit-card.pdf",
+      "devaluation_pdf_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "bank_page_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html"
+    },
+    "AU Small Finance Bank": {
+      "frequency": "Medium",
+      "risk_score": 5.5,
+      "note": "Tightened LIT, Zenith, Vetta & ixigo spend criteria after rapid 2023–2024 customer acquisition.",
+      "mitc_pdf_url": "https://www.aubank.in/credit-card-mitc",
+      "devaluation_pdf_url": "https://www.aubank.in/personal-banking/credit-cards",
+      "bank_page_url": "https://www.aubank.in/credit-card-mitc"
+    },
+    "HSBC Bank": {
+      "frequency": "Low-Medium",
+      "risk_score": 4.5,
+      "note": "Nov 2026 Live+ lounge/MCC trim paired with positive 1.99% forex cut; TravelOne & Premier remain flagship strongholds.",
+      "mitc_pdf_url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-cards/mitc.pdf",
+      "devaluation_pdf_url": "https://www.hsbc.co.in/credit-cards/terms-and-conditions/",
+      "bank_page_url": "https://www.hsbc.co.in/credit-cards/terms-and-conditions/"
+    },
+    "IDFC FIRST Bank": {
+      "frequency": "Low-Medium",
+      "risk_score": 4.0,
+      "note": "Per-Rs.-200 rounding (<Rs. 200 = 0 RP), offset by positive 0% forex upgrades on Wealth/Select.",
+      "mitc_pdf_url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/credit-card/MITC-Credit-Card.pdf",
+      "devaluation_pdf_url": "https://www.idfcfirstbank.com/credit-card/mitc",
+      "bank_page_url": "https://www.idfcfirstbank.com/credit-card/mitc"
+    },
+    "American Express": {
+      "frequency": "Low-Medium",
+      "risk_score": 4.0,
+      "note": "MobiKwik wallet exit & Gold/Charge pressure, while Plat Travel Rs. 4L milestone & MR non-expiry stay valuable.",
+      "mitc_pdf_url": "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf",
+      "devaluation_pdf_url": "https://www.americanexpress.com/in/legal-disclosures/most-important-terms-and-conditions/",
+      "bank_page_url": "https://www.americanexpress.com/in/legal-disclosures/most-important-terms-and-conditions/"
+    },
+    "IndusInd Bank": {
+      "frequency": "Low",
+      "risk_score": 3.5,
+      "note": "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!).",
+      "mitc_pdf_url": "https://www.indusind.com/content/dam/indusind-corporate/Other/credit-card-mitc.pdf",
+      "devaluation_pdf_url": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "bank_page_url": "https://www.indusind.com/in/en/personal/cards/credit-card.html"
+    },
+    "BOBCARD": {
+      "frequency": "Low",
+      "risk_score": 3.0,
+      "note": "Relatively stable; actively expanding with Eterna LTF & Etihad 0% forex.",
+      "mitc_pdf_url": "https://www.bobcard.co.in/pdfs/MITC.pdf",
+      "devaluation_pdf_url": "https://www.bobcard.co.in/most-important-terms-and-conditions",
+      "bank_page_url": "https://www.bobcard.co.in/most-important-terms-and-conditions"
+    },
+    "RBL Bank": {
+      "frequency": "Medium",
+      "risk_score": 5.5,
+      "note": "Monthly caps on Play/Shoprite/World Safari + surcharge & utility exclusions reviewed yearly.",
+      "mitc_pdf_url": "https://www.rblbank.com/static-assets/pdfs/credit-cards/mitc-credit-card.pdf",
+      "devaluation_pdf_url": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "bank_page_url": "https://www.rblbank.com/personal-banking/cards/credit-cards"
+    },
+    "Federal Bank": {
+      "frequency": "Low-Medium",
+      "risk_score": 4.0,
+      "note": "Scapia & Celesta domestic lounge spend thresholds raised to Rs. 15k–20k/cycle; core cashback stays clean.",
+      "mitc_pdf_url": "https://www.federalbank.co.in/documents/10180/45777/MITC+Credit+Card.pdf",
+      "devaluation_pdf_url": "https://www.federalbank.co.in/credit-cards",
+      "bank_page_url": "https://www.federalbank.co.in/credit-cards"
+    },
+    "Standard Chartered Bank": {
+      "frequency": "Medium",
+      "risk_score": 5.0,
+      "note": "Ultimate & Smart reward exclusions on tax/utilities tightened; direct cashback T&C stable.",
+      "mitc_pdf_url": "https://av.sc.com/in/content/docs/in-credit-card-mitc.pdf",
+      "devaluation_pdf_url": "https://www.sc.com/in/credit-cards/",
+      "bank_page_url": "https://www.sc.com/in/credit-cards/"
+    },
+    "OneCard / Co-branded": {
+      "frequency": "Medium",
+      "risk_score": 4.5,
+      "note": "5X top-category rotation & 1% forex pass adjustments; partner bank MITC governs fee terms.",
+      "mitc_pdf_url": "https://www.getonecard.app/legal/mitc/",
+      "devaluation_pdf_url": "https://www.getonecard.app/terms/",
+      "bank_page_url": "https://www.getonecard.app/legal/mitc/"
+    }
+  },
+  "timeline_2024_2026": [
+    {
+      "date": "2026-11",
+      "issuer": "ICICI Bank",
+      "cards_affected": [
+        "Emeralde Private Metal",
+        "Times Black",
+        "Emeralde",
+        "Sapphiro",
+        "Rubyx",
+        "Coral",
+        "MMT",
+        "HPCL"
+      ],
+      "severity": "Medium",
+      "summary": "Eff Dec 15, 2026: Air Accident Insurance & CFAR travel cancellation discontinued across premium lineup; INOX movie offer dropped on Rubyx/Coral/MMT/HPCL; Rs. 300 card/PP replacement fee eff Dec 11.",
+      "source_ref": "ICICI Bank T&C",
+      "pdf_url": "https://www.icicibank.com/personal-banking/cards/credit-card/mitc",
+      "mitc_pdf_url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/personal/cards/MITC_cc.pdf"
+    },
+    {
+      "date": "2026-11",
+      "issuer": "HSBC Bank",
+      "cards_affected": [
+        "HSBC Live+"
+      ],
+      "severity": "Medium",
+      "summary": "Domestic airport lounges cut from 4/yr to 2/yr (max 1 per 6 months); 1.5% international cashback discontinued (partially offset by forex markup reduction 3.5% -> 1.99%); Hospitals (MCC 8062) & Local Transport (MCC 4111) excluded.",
+      "source_ref": "Official Issuer MITC / Circular",
+      "pdf_url": "https://www.hsbc.co.in/credit-cards/terms-and-conditions/",
+      "mitc_pdf_url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-cards/mitc.pdf"
+    },
+    {
+      "date": "2026-11",
+      "issuer": "YES BANK",
+      "cards_affected": [
+        "YES First Exclusive",
+        "YES Reserve",
+        "YES Marquee"
+      ],
+      "severity": "High",
+      "summary": "Revaluation of YES First/Reserve & Marquee lounge gating raised up to Rs. 1,00,000 quarterly spend for domestic lounge access.",
+      "source_ref": "Official Issuer MITC / Circular",
+      "pdf_url": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
+      "mitc_pdf_url": "https://www.yesbank.in/pdf/credit_card_mitc_pdf"
+    },
+    {
+      "date": "2026-10",
+      "issuer": "Axis Bank",
+      "cards_affected": [
+        "Axis Portfolio (Atlas, Magnus, Select, Privilege, etc.)"
+      ],
+      "severity": "Medium",
+      "summary": "Key Fact Sheet updated Oct 8, 2026: Gift Cards excluded from annual fee waiver calculation eff Aug 28, 2026; strict exclusions/caps on rent (1% fee), third-party edu (1%), wallet >=Rs. 10k, utility >=Rs. 25k, fuel >=Rs. 50k.",
+      "source_ref": "axis_sosc-credit-cards_pdf.txt (Oct 8, 2026)",
+      "pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
+      "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf"
+    },
+    {
+      "date": "2026-07",
+      "issuer": "Axis Bank",
+      "cards_affected": [
+        "Axis Magnus (Standard)",
+        "Axis Atlas"
+      ],
+      "severity": "High",
+      "summary": "Axis Atlas dropped Accor Live Limitless transfer partner; Regular Magnus fee waiver tied to Rs. 25L or Burgundy Salary eff Jul 1, 2026.",
+      "source_ref": "axis_sosc-credit-cards_pdf.txt",
+      "pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
+      "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf"
+    },
+    {
+      "date": "2026-04",
+      "issuer": "Axis Bank",
+      "cards_affected": [
+        "Airtel Axis Bank"
+      ],
+      "severity": "High",
+      "summary": "Eff April 12, 2026: 25% Airtel & 10% Utility cashback caps unlock ONLY via matching 1% base retail spend in the same month (Rs. 25,000/mo retail required for full Rs. 500 utility+Airtel cap; Rs. 0 base spend = Rs. 0 cashback); all 4 domestic lounge visits discontinued; Swiggy & BigBasket replaced by Zomato, Blinkit & District Movies (Rs. 499 MOV, Rs. 200/partner cap).",
+      "source_ref": "Axis Bank Airtel Card MITC Update (Eff April 12, 2026)",
+      "pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
+      "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf"
+    },
+    {
+      "date": "2026-04",
+      "issuer": "SBI Card",
+      "cards_affected": [
+        "Cashback SBI Card",
+        "PhonePe SBI Select Black"
+      ],
+      "severity": "Medium",
+      "summary": "Cashback SBI Card combined monthly cap tightened to Rs. 5,000/statement cycle across BOTH 5% online and 1% offline spends; PhonePe SBI Select Black cap scrutiny.",
+      "source_ref": "CardExpert 2026",
+      "pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/kfs/key-fact-statement.pdf",
+      "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/most-important-terms-and-conditions.pdf"
+    },
+    {
+      "date": "2026-03",
+      "issuer": "American Express",
+      "cards_affected": [
+        "Amex Charge Cards",
+        "MRCC",
+        "Gold Charge",
+        "Platinum Travel"
+      ],
+      "severity": "Medium",
+      "summary": "MobiKwik wallet load acceptance discontinued March 2026; ongoing community chatter on Amex Charge MR changes vs Platinum Reserve Accor Plus refresh.",
+      "source_ref": "Official Issuer MITC / Circular",
+      "pdf_url": "https://www.americanexpress.com/in/legal-disclosures/most-important-terms-and-conditions/",
+      "mitc_pdf_url": "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf"
+    },
+    {
+      "date": "2026-02",
+      "issuer": "HDFC Bank",
+      "cards_affected": [
+        "HDFC Regalia Gold",
+        "HDFC Millennia",
+        "Swiggy HDFC (split BLCK/Ornge)",
+        "Tata Neu"
+      ],
+      "severity": "Medium-High",
+      "summary": "Regalia Gold domestic lounges moved to Rs. 60,000/quarter spend criteria; Swiggy HDFC split into BLCK & Ornge with Rs. 249 min order; Millennia direct lounge removed (Rs. 1k milestone voucher @ Rs. 1L/qtr) & wallet excluded; Tata Neu domestic lounges spend-gated.",
+      "source_ref": "HDFC Bank MITC",
+      "pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/faq-swiggy-card-upgrade-final.pdf",
+      "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+    },
+    {
+      "date": "2026-01",
+      "issuer": "IDFC FIRST Bank",
+      "cards_affected": [
+        "IDFC Wealth",
+        "IDFC Select",
+        "IDFC Millennia",
+        "IDFC WOW"
+      ],
+      "severity": "Mixed (Devaluation + Positive Forex Reform)",
+      "summary": "Rewards standardized to per Rs. 200 (<Rs. 200 earns 0 points) with 24-month promo expiry, BUT IDFC Wealth & Select received massive positive upgrade to 0% forex markup WITH reward earnings.",
+      "source_ref": "idfc_Wealth-CC-Rewards-Structure-TnC-28-05-25-copy_pdf.txt",
+      "pdf_url": "https://www.idfcfirstbank.com/credit-card/mitc",
+      "mitc_pdf_url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/credit-card/MITC-Credit-Card.pdf"
+    },
+    {
+      "date": "2025-11",
+      "issuer": "Federal Bank / Scapia",
+      "cards_affected": [
+        "Scapia Credit Card (Visa/RuPay)"
+      ],
+      "severity": "Medium",
+      "summary": "Domestic airport lounge & airport privilege unlock raised from Rs. 5,000/Rs. 10,000 to Rs. 20,000/billing cycle on Visa (Rs. 15,000 RuPay).",
+      "source_ref": "Federal Bank / Scapia MITC",
+      "pdf_url": "https://www.federalbank.co.in/credit-cards",
+      "mitc_pdf_url": "https://www.federalbank.co.in/documents/10180/45777/MITC+Credit+Card.pdf"
+    },
+    {
+      "date": "2024-11",
+      "issuer": "ICICI Bank",
+      "cards_affected": [
+        "Sapphiro",
+        "Rubyx",
+        "Coral",
+        "MakeMyTrip",
+        "Mine"
+      ],
+      "severity": "High",
+      "summary": "Mandatory Rs. 75,000/quarter spend gating imposed across ICICI mid-tier domestic lounges; spa benefits cut; annual fee waiver thresholds hiked.",
+      "source_ref": "Bank T&C",
+      "pdf_url": "https://www.icicibank.com/personal-banking/cards/credit-card/mitc",
+      "mitc_pdf_url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/personal/cards/MITC_cc.pdf"
+    },
+    {
+      "date": "2024-04",
+      "issuer": "Axis Bank",
+      "cards_affected": [
+        "Axis Magnus",
+        "Axis Atlas",
+        "Axis Reserve"
+      ],
+      "severity": "Very High",
+      "summary": "Landmark Great Axis Devaluation: Group A transfer cap introduced (Atlas 30k EM/yr), gold/jewelry/rent/utilities/govt/insurance excluded from rewards & fee waivers; direct OTA excluded from Atlas 5X.",
+      "source_ref": "CardExpert",
+      "pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
+      "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf"
+    }
+  ]
+}

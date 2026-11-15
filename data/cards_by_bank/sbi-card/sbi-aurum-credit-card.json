@@ -1,0 +1,1099 @@
+{
+  "identity": {
+    "card_id": "sbi_bank_aurum_credit_card",
+    "card_name": "SBI Aurum Credit Card",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "sbi-aurum-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Super-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Super-Premium",
+      "Travel & Miles",
+      "Airport Lounge",
+      "Dining, Groceries & Movies",
+      "Zero/Low Forex",
+      "Golf"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/sbi-aurum-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#B09436",
+      "secondary_hex": "#A3B946",
+      "wash_hex": "#F1EDDF",
+      "soft_bg_hex": "#F8F5ED",
+      "border_hex": "#EEE7D3",
+      "ink_on_soft_hex": "#756324",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+    "mitc_pdf_url": "https://www.sbicard.com/en/most-important-terms-and-conditions.page",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "SBI Card ELITE Domestic Airport Lounge List",
+        "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/elite-lounge-list.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "SBI Card — Sbi Lounge Page",
+        "url": "https://www.sbicard.com/en/personal/benefits/airport-lounge-access.page",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "Mastercard Participating Domestic Airport Lounges India PDF",
+        "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 3,000 - 9,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": true,
+    "has_golf": true,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 100,000+"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "aurum",
+      "card",
+      "credit",
+      "dining",
+      "forex",
+      "golf",
+      "groceries",
+      "lounge",
+      "low",
+      "low-forex",
+      "miles",
+      "movies",
+      "premium",
+      "sbi",
+      "super",
+      "travel",
+      "zero"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Reward Structure: The card offers 4 reward points on every Rs. 100 spent with the following redemption values:",
+      "Value of 1 reward point = Rs. 0.25",
+      "5 reward points = 1 Maharaja Club Air India",
+      "4 reward points = 1 Air Asia Point",
+      "5 reward points = 1 Green Points (Club ITC)",
+      "5 reward points = 1 Avios (Qatar AIrways)"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 1.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -1.35,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "4 RP/Rs.100 (1% effective at Rs.0.25/RP) + up to Rs. 1.5L/mo spend milestones (Taj/Tata CLiQ/Movie vouchers); Govt & Rent earn 0%."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 9999,
+      "annual_fee_inr": 9999,
+      "annual_fee_with_gst_inr": 11798.82,
+      "fee_waiver_spend_inr": 1200000,
+      "monthly_spend_for_waiver_inr": 100000,
+      "milestone_slabs": [
+        "Monthly Milestone Benefit :Tata Cliq Fashion voucher worth Rs. 1,500 every month on spending Rs. 1 Lakh",
+        "Waiver: Annual fee waiver on spending Rs. 12 Lakh",
+        "Fuel : 1 % fuel surcharge waiver up to Rs. 250 on transactions ranging between Rs. 500 and Rs. 4,000"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 16,
+      "visits_per_quarter": 4,
+      "spend_criteria": "No spend criteria",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "16 complimentary domestic airport lounge visits per year (4 per quarter)"
+    },
+    "international": {
+      "program": "Priority Pass / LoungeKey",
+      "visits_per_year": 999,
+      "spend_criteria": "No spend criteria",
+      "add_on_allowed": false,
+      "guest_fee": "USD 27+GST (typical Priority Pass)",
+      "summary": "Unlimited complimentary international airport lounge visits + complimentary guest access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": true,
+    "applicable_lounge_links": [
+      {
+        "program_id": "sbi_elite",
+        "title": "SBI Card ELITE Domestic Airport Lounge List",
+        "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/elite-lounge-list.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/sbi_elite.pdf"
+      },
+      {
+        "program_id": "page_sbi_lounge_page",
+        "title": "SBI Card — Sbi Lounge Page",
+        "url": "https://www.sbicard.com/en/personal/benefits/airport-lounge-access.page",
+        "secondary_url": null,
+        "source_type": "official_bank_page",
+        "parsed_lounges_count": 72,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "visa_india_lounges",
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 99,
+        "local_pdf_path": "data/raw/lounges/pdfs/visa_india_lounges.pdf"
+      },
+      {
+        "program_id": "page_visa_lounge_offer",
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "mastercard_india_lounges_pdf",
+        "title": "Mastercard Participating Domestic Airport Lounges India PDF",
+        "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "The Lounge",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bangalore",
+        "lounge_name": "080 Domestic Lounge - West PH 2",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bangalore",
+        "lounge_name": "080 International Lounge",
+        "terminal": "International T2",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "Travel Club Lounge -T1 Lounge B",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "Travel Club Lounge - T2 Terminal",
+        "terminal": "International T2",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Domestic",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge International",
+        "terminal": "International T1",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Domestic T1B",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Travel Club",
+        "terminal": "Domestic T2",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Adani East Lounge",
+        "terminal": "International T2",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "Elysian Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Silver Lounge-International",
+        "terminal": "International T2",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bangalore",
+        "lounge_name": "080 Domestic Lounge",
+        "terminal": "Domestic T2",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bhubaneswar",
+        "lounge_name": "Bird Lounge",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "Earth Lounge",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "BlackBerry Restaurant & Bar",
+        "terminal": "Domestic NA",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Domestic T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Domestic NA",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "Paahun The Executive Lounge",
+        "terminal": "International T1",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Vadodara",
+        "lounge_name": "Premium Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "| 1 | Ahmedabad | The Lounge | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bangalore",
+        "lounge_name": "| 2 | Bangalore | 080 Domestic Lounge - West PH 2 | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bangalore",
+        "lounge_name": "| 3 | Bangalore | 080 International Lounge | International T2 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "| 4 | Chennai | Travel Club Lounge -T1 Lounge B | Domestic T1 |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "| 5 | Chennai | Travel Club Lounge - T2 Terminal | International T2 |",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "| 6 | Hyderabad | Encalm Lounge | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "| 7 | Hyderabad | Encalm Lounge | International T1 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "| 8 | Kolkata | Travel Club Lounge Domestic | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "| 9 | Kolkata | Travel Club Lounge International | International T1 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| 10 | Mumbai | Adani Lounge | Domestic T1B |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| 11 | Mumbai | Travel Club | Domestic T2 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| 12 | Mumbai | Adani East Lounge | International T2 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "| 13 | New Delhi | Encalm Lounge | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "| 14 | New Delhi | Encalm Lounge | Domestic T3 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "| 15 | New Delhi | Encalm Lounge | International T3 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "| 16 | Pune | Elysian Lounge | Domestic Terminal |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "| 2 | Ahmedabad | Adani Silver Lounge-International | International T2 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bangalore",
+        "lounge_name": "| 3 | Bangalore | 080 Domestic Lounge - West PH 2 | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bangalore",
+        "lounge_name": "| 4 | Bangalore | 080 Domestic Lounge | Domestic T2 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bangalore",
+        "lounge_name": "| 5 | Bangalore | 080 International Lounge | International T2 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Bhubaneswar",
+        "lounge_name": "| 6 | Bhubaneswar | Bird Lounge | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "| 7 | Chandigarh | Primus Lounge | Domestic Terminal |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "| 8 | Chandigarh | Primus Lounge | International Terminal |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "| 9 | Chennai | Travel Club Lounge -T1 Lounge B | Domestic T1 |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "| 10 | Chennai | Travel Club Lounge - T2 Terminal | International T2 |",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "| 11 | Cochin | Earth Lounge | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "| 12 | Cochin | Earth Lounge | International T3 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "| 14 | Goa | Encalm Lounge | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "| 15 | Hyderabad | Encalm Lounge | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "| 16 | Hyderabad | Encalm Lounge | International T1 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "| 17 | Indore | Primus Lounge | Domestic NA |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "| 18 | Jaipur | The Lounge | Terminal 2 |",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "| 19 | Kolkata | Travel Club Lounge Domestic | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "| 20 | Kolkata | Travel Club Lounge International | International T1 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| 21 | Mumbai | Adani Lounge | Domestic T1B |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| 22 | Mumbai | Travel Club | Domestic T2 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| 23 | Mumbai | Adani East Lounge | International T2 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "| 24 | New Delhi | Encalm Lounge | Domestic T1 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "| 25 | New Delhi | Encalm Lounge | Domestic T3 |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "| 26 | New Delhi | Encalm Lounge | International T3 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "| 27 | Pune | Elysian Lounge | Domestic Terminal |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "| 28 | Srinagar | Paahun The Executive Lounge | International T1 |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Vadodara",
+        "lounge_name": "| 29 | Vadodara | Premium Lounge | Domestic Terminal |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "page_sbi_lounge_page"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "1 Agartala Airport Agartala Primus Lounge IXA1 Domestic Domestic Terminal Airside - Domestic Departures, Ground Level, after Security Hold A",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "2 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD01 Domestic Terminal 1 Terminal 1 (Near Boarding Gate No. 1) 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "3 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Silver Lounge-International AMD02 International Terminal 2 Terminal 2 Depar",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "4 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD04 Domestic Terminal 2 Terminal 2 Departure area First Floor 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "5 Prayagraj Airport Allahabad / Prayagraj Zesto Execustive Lounge IXD Domestic Domestic Terminal Airside - Prayagraj Airport, Domestic Depar",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "9 Sri Guru Ram Dass Jee International Airport Amritsar Primus Lounge ATQ Domestic NA Airside - Domestic Departures. After Security Checks pr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "10 Sri Guru Ram Dass Jee International Airport Amritsar The Airr Lounge ATQ6 International International Terminal Airside - International De",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "13 Kempegowda International Airport Bengaluru 080 Domestic Lounge BLR9 Domestic Terminal 2 Airside - Domestic and in transit Departures. Aft",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "14 Kempegowda International Airport Bengaluru 080 International Lounge BLR10 International Terminal 2 Airside - International Departures. Af",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "15 Kempegowda International Airport Bengaluru 080 Arrival BLR12 International/ Domestic Arrival Terminal 2 Landside - Ground Level, Arrivals",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "16 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 1 BLR101 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "17 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 2 BLR102 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "18 Kempegowda International Airport Bengaluru 080 Domestic Lounge - East BLR104 Domestic Terminal 1 Domestic Departure Terminal 1, Opposite ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      }
+    ],
+    "participating_lounges_count": 80
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 9999,
+    "annual_fee_inr": 9999,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 1200000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 2.0,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Waived",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Rs.0 - Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 501- Rs. 1000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001- Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 - Rs. 25,000",
+        "late_fee_inr": "Rs. 950"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 - Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Greater than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "SBI Aurum is the most premium offering of SBI Card, designed for the ultra-elites. The card offers some exclusive privileges like **AURUM’s Secretarial Access** , complimentary **membership to Inflection Point Venture (IPV)** , and digital subscriptions to The Wall Street Journal and Mint. Such perks complement the high-end lifestyle and are comparably distinct as offered by other premium cards like HDFC Infinia and ICICI Emeralde Private. Beyond these, Aurum also offers some expected premium features like unlimited international airport lounge access, low forex markup fees, and air miles conversion, among others. However, despite these advantages, Aurum fails to match up to its competitors due to two basic yet important features. 1. Reward Rate: For a premium credit card, the card offers a very low reward rate of just 1%, in comparison to other cards like Infinia (3.33%-33%) and Emeralde Private (3%). 2. Lounge Access: While the lounge access benefits are unlimited for international lounges, domestic lounge access is limited to 16 in a year (4 per quarter).",
+    "highlights": [
+      "Reward Structure: The card offers 4 reward points on every Rs. 100 spent with the following redemption values:",
+      "Value of 1 reward point = Rs. 0.25",
+      "5 reward points = 1 Maharaja Club Air India"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Monthly Milestone Benefit :Tata Cliq Fashion voucher worth Rs. 1,500 every month on spending Rs. 1 Lakh",
+      "Waiver: Annual fee waiver on spending Rs. 12 Lakh",
+      "Fuel : 1 % fuel surcharge waiver up to Rs. 250 on transactions ranging between Rs. 500 and Rs. 4,000"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "Movies : 4 movie tickets worth Rs. 1,000 per month via BookMyShow",
+      "4 free movie tickets every month"
+    ],
+    "golf_benefits": [
+      "Golf : 16 complimentary golf rounds per year (4 per quarter) and 12 lessons per year"
+    ],
+    "golf_summary": {
+      "has_golf": true,
+      "complimentary_access": "4 rounds/quarter + 12 lessons/year",
+      "eligible_courses": "Domestic",
+      "spend_condition": "None",
+      "extra_notes": "16 rounds + 12 coaching sessions/yr via Aureate concierge"
+    },
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want to maximize only on the exclusive high-end privileges (but most of these are only for the first year).",
+      "You own another card with a high reward rate (but check if you can manage multiple cards with high fees).",
+      "You prefer SBI cards over other issuers and would like to stick to Aurum for high-end benefits.",
+      "16 domestic lounge accesses and a 1% reward rate are enough for you, as you do not frequently spend or travel."
+    ],
+    "faqs": [
+      {
+        "q": "What is Aurum credit card limit?",
+        "a": "The credit limit offered on the SBI Aurum credit card is subjective, based on the cardholder’s profile on factors like credit history, existing loans, monthly income, etc."
+      },
+      {
+        "q": "Which is better, HDFC Infinia or SBI Aurum?",
+        "a": "Both HDFC Infinia and SBI Aurum have their own shares of pros and cons. While Infinia is a good choice for its reward rate, Aurum is suitable for users seeking premium memberships. However, most of the privileges on SBI Aurum are valid for the first year only, marking Infinia as a better choice for overall savings in the long run."
+      },
+      {
+        "q": "How to avail free movie tickets with an SBI Aurum credit card?",
+        "a": "You can avail free movie tickets on the SBI Aurum Credit Card by using it for booking tickets via BookMyShow."
+      },
+      {
+        "q": "What is the minimum income requirement for this credit card?",
+        "a": "SBI Aurum is offered to high net-worth individuals only. To be eligible for this card, you must have an annual gross income of Rs. 40 lakh or more."
+      },
+      {
+        "q": "Will I get an Amazon Prime membership with the SBI Aurum Credit Card?",
+        "a": "No, post feature update, the card does not offer Amazon Prime membership."
+      },
+      {
+        "q": "What is the cash advance fee charged on the SBI Aurum Credit Card?",
+        "a": "The cash advance fee for the SBI Aurum Credit Card is 2.5% of the transaction amount or Rs. 500, whichever is higher."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.18,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Movies": 4.0,
+      "Travel": 3.5,
+      "Rewards": 3.0,
+      "Milestone Benefits": 4.0,
+      "movies": 4.0,
+      "travel": 3.5,
+      "rewards": 3.0,
+      "milestone_benefits": 4.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBI Card suited for travel & miles users with 16 domestic lounge visits/yr.",
+    "pros": [
+      "Premium complimentary memberships",
+      "4 free movie tickets every month",
+      "Unlimited international lounge access with free guest visits",
+      "Low forex markup fee",
+      "Activation benefits worth the joining fee",
+      "Monthly and annual milestone benefits"
+    ],
+    "cons": [
+      "Low reward redemption value",
+      "Limited partners in miles transfer program",
+      "Limited domestic lounge access",
+      "Membership benefits limited for first year only"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 100,000+",
+    "verdict": "option from SBI Card suited for travel & miles users with 16 domestic lounge visits/yr."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.18,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBI Card Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "4 RP/Rs.100 (1% effective at Rs.0.25/RP) + up to Rs. 1.5L/mo spend milestones (Taj/Tata CLiQ/Movie vouchers); Govt & Rent earn 0%."
+    ],
+    "optimization_tips": [
+      "Track ₹1,200,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count.",
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium-High",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "axis_bank_burgundy_private_credit_card",
+      "card_name": "Axis Bank Burgundy Private Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-burgundy-private-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "au_small_finance_bank_zenith_plus_credit_card",
+      "card_name": "AU Zenith+ Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "au-zenith-credit-card",
+      "annual_fee_inr": 4999,
+      "overall_rating": 4.18,
+      "reason": "Direct competitor from AU Small Finance Bank at similar fee tier (Rs. 4,999/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-extra-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Extra Cashback",
+      "summary": "Up to Rs 1500 Extra Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Instant Discount",
+      "summary": "Up to Rs 1500 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 5,000 Instant Discount",
+      "summary": "Up to Rs 5,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1-000-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs. 1,000 Cashback.",
+      "summary": "Up to Rs. 1,000 Cashback.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to RS 5000 Instant Discount",
+      "summary": "Up to RS 5000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-16-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 16,000 Instant Discount",
+      "summary": "Up to Rs 16,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    }
+  ]
+}

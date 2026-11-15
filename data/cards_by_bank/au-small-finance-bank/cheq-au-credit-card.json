@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "card_id": "au_small_finance_bank_cheq_au_credit_card",
+    "card_name": "CheQ AU Credit Card",
+    "bank": "AU Small Finance Bank",
+    "bank_slug": "au-small-finance-bank",
+    "card_slug": "cheq-au-credit-card",
+    "card_network": "RuPay / Visa",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Lifetime Free",
+      "RuPay & UPI",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/au-small-finance-bank/cheq-au-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#2B5A3F",
+      "secondary_hex": "#396A63",
+      "wash_hex": "#E1E6E0",
+      "soft_bg_hex": "#ECF0EE",
+      "border_hex": "#D0DBD5",
+      "ink_on_soft_hex": "#2B5A3F",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.au.bank.in/personal-banking/credit-cards",
+    "mitc_pdf_url": "https://www.au.bank.in/credit-cards/mitc\\(with-schedule-of-charges\\).pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "au",
+      "bank",
+      "card",
+      "cheq",
+      "credit",
+      "dining",
+      "finance",
+      "free",
+      "groceries",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "miles",
+      "movies",
+      "online",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "small",
+      "travel",
+      "upi",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5% Rewards: 10 CheQ Points per Rs. 200 spent across other online shopping, travel, food delivery and online grocery spends via CheQ UPI using RuPay variant and via Visa variant",
+      "2.5% Rewards: 5 CheQ Points per Rs. 200 spent on UPI transactions made through the CheQ App using RuPay card variant",
+      "1% Rewards: 2 CheQ Points per Rs. 200 spent on all other eligible categories",
+      "Utility bill payments: 4 CheQ Points = Rs. 1",
+      "Fuel Benefit: 1% fuel surcharge waiver up to Rs. 150 per month across all fuel spends",
+      "UPI Benefits: Use your card to make UPI payments at small shops or kirana stores by scanning QR code"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 5.0,
+      "amazon_flipkart_myntra": 5.0,
+      "dining_swiggy_zomato": 5.0,
+      "groceries_quick_commerce": 5.0,
+      "travel_flights_hotels": 5.0,
+      "upi_scan_and_pay": 5.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 150,
+      "online_shopping_general": 1500,
+      "amazon_flipkart_myntra": 1500,
+      "dining_swiggy_zomato": 1500,
+      "groceries_quick_commerce": 1500,
+      "travel_flights_hotels": 1500,
+      "upi_scan_and_pay": 1500
+    },
+    "monthly_capping_rules": [
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 999,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "5% Rewards: 10 CheQ Points per Rs. 200 spent across other online shopping, travel, food delivery and online grocery spends via CheQ UPI using RuPay variant and via Visa variant",
+        "Fuel Benefit: 1% fuel surcharge waiver up to Rs. 150 per month across all fuel spends"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 999,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% of amount withdrawn or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of Total Amount Due (Minimum Rs. 10, Maximum Rs. 1,300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from AU Small Finance Bank suited for travel & miles users.",
+    "highlights": [
+      "5% Rewards: 10 CheQ Points per Rs. 200 spent across other online shopping, travel, food delivery and online grocery spends via CheQ UPI using RuPay variant and via Visa variant",
+      "2.5% Rewards: 5 CheQ Points per Rs. 200 spent on UPI transactions made through the CheQ App using RuPay card variant",
+      "1% Rewards: 2 CheQ Points per Rs. 200 spent on all other eligible categories"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "5% Rewards: 10 CheQ Points per Rs. 200 spent across other online shopping, travel, food delivery and online grocery spends via CheQ UPI using RuPay variant and via Visa variant",
+      "Fuel Benefit: 1% fuel surcharge waiver up to Rs. 150 per month across all fuel spends"
+    ],
+    "dining_benefits": [
+      "Accelerated rewards on everyday brands like Amazon, Flipkart, Zomato and more"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You shop online very often and want a card that offers higher value-back on top brands, travel bookings and utility bill payments",
+      "You want a RuPay Credit Card that offers benefits on UPI spends",
+      "You frequently shop products from the associated brands like Amazon, Flipkart, Bigbasket, Zomato, etc. to optimize the accelerated rewards value",
+      "You can maximise your value-back by using CheQ app for travel bookings, online shopping, brand gift cards and utility bills"
+    ],
+    "faqs": [
+      {
+        "q": "What are CheQ Points?",
+        "a": "CheQ Points are the reward currency for the CheQ AU Credit Card. You earn 24 CheQ Points per Rs. 200 on Amazon, Flipkart, Zomato, CheQ Travel, and utility bill payments; 10 points per Rs. 200 on several everyday categories; 5 points per Rs. 200 on UPI spends; and 2 points per Rs. 200 on other spends."
+      },
+      {
+        "q": "How can I redeem CheQ Points?",
+        "a": "CheQ Points can be redeemed on the CheQ App for flights and hotels (2:1), shopping across 30+ brands (2:1), and utility bill payments (4:1)."
+      },
+      {
+        "q": "What is the LED Card feature?",
+        "a": "CheQ App is India’s first LED credit card that glows green when you tap the card for payment. To get a card with LED feature, you have to pay a one-time additional fee of Rs. 999."
+      },
+      {
+        "q": "I don’t make bill payments via CheQ App. Should I get this card?",
+        "a": "Since value-back is offered in the form of CheQ Points which can only be redeemed on the CheQ App and utiltiy bill payments accrue accelearted rewards on this app, those who do not use the app will not be able to maximise the benefits. However, CheQ app allows you to make your bill payments, travel bookings and shop from a wide range of popular brands and platforms, thus not limiting you to only a few features or categories. So, you can use this app as a complete solution to your spending needs and maximise your savings. In case, you don’t wish to use CheQ, you can explore other cards that align better with your needs."
+      },
+      {
+        "q": "Do I get any benefits on fuel transactions using this card",
+        "a": "While fuel spends do not earn any rewards, you can save up to Rs. 150 per month in the form of fuel surcharge waiver."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.94,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.5,
+      "Online Shopping": 4.0,
+      "travel": 3.0,
+      "rewards": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from AU Small Finance Bank suited for travel & miles users.",
+    "pros": [
+      "Accelerated rewards on everyday brands like Amazon, Flipkart, Zomato and more",
+      "UPI-enabled RuPay credit card for seamless UPI payments and reward earning on UPI spends",
+      "Up to 2:1 redemption ratio on CheQ App for travel bookings and shopping",
+      "LED green glow experience on every card tap"
+    ],
+    "cons": [
+      "No reward accrual on UPI transactions made on third party apps other than CheQ app"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "Lifetime Free option from AU Small Finance Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.94,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around AU Small Finance Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Tightened LIT, Zenith, Vetta & ixigo spend criteria after rapid 2023–2024 customer acquisition."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_fd_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-fd-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.28,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.28/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "au-small-finance-bank-au-swag-deals-travel-upi-cashback-promos",
+      "bank": "AU Small Finance Bank",
+      "title": "AU Swag Deals & Travel / UPI Cashback Promos",
+      "summary": "Zero forex markup & instant flight/train/hotel discounts on ixigo AU plus customisable milestone boosts on AU LIT & Zenith+.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.au.bank.in/personal-banking/offers",
+      "scope": "targeted"
+    }
+  ]
+}

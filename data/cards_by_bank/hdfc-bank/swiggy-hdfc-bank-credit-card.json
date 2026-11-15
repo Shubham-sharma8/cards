@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_swiggy_credit_card",
+    "card_name": "Swiggy HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "swiggy-hdfc-bank-credit-card",
+    "card_network": "Mastercard World",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Dining, Groceries & Movies",
+      "Golf"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/swiggy-hdfc-bank-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#C57B26",
+      "secondary_hex": "#1E4589",
+      "wash_hex": "#F4EADD",
+      "soft_bg_hex": "#FAF3EB",
+      "border_hex": "#F2E2CF",
+      "ink_on_soft_hex": "#8B571B",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [
+      "https://www.cardexpert.in/hdfc-swiggy-credit-card-review/"
+    ],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": true,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 15000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 16,666+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "golf",
+      "groceries",
+      "hdfc",
+      "movies",
+      "swiggy"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "10% cashback (with monthly capping of up to Rs. 1,500) on the Swiggy app for transactions related to food ordering, Instamart, Dineout and Genie",
+      "5% Cashback on online spends across various categories (with monthly capping of up to Rs. 1,500).",
+      "1% Cashback on all other spends, including offline transactions, with monthly capping of up to Rs. 500.",
+      "6% discount on domestic & international flight and intercity bus bookings via Paytm Travel",
+      "10% cashback across all Swiggy platforms, including food ordering, Instamart, Dineout, and Genie"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 5.0,
+      "amazon_flipkart_myntra": 5.0,
+      "dining_swiggy_zomato": 5.5,
+      "groceries_quick_commerce": 5.5,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "dining_swiggy_zomato": 1500,
+      "groceries_quick_commerce": 1500,
+      "online_shopping_general": 1500,
+      "amazon_flipkart_myntra": 1500,
+      "offline_general_other": 500
+    },
+    "monthly_capping_rules": [
+      "10% strictly on Swiggy Food, Instamart & Dineout (capped Rs. 1,500/cycle — Zomato & offline dining earn 1%); 5% on Amazon/Flipkart/Myntra/apparel online MCCs (capped Rs. 1,500/cycle); 1% other (capped Rs. 500/cycle)."
+    ],
+    "category_caveats": {
+      "dining_swiggy_zomato": "10% on Swiggy Food/Dineout only (₹1,500/mo cap) · 1% non-Swiggy",
+      "groceries_quick_commerce": "10% on Swiggy Instamart only (₹1,500/mo cap) · 1% non-Swiggy",
+      "online_shopping_general": "5% select online MCCs (₹1,500/mo cap); excl. utility/wallet",
+      "amazon_flipkart_myntra": "5% on eligible Amazon/Flipkart/Myntra MCCs (shared ₹1,500 cap)",
+      "offline_general_other": "1% base cashback capped at ₹500/statement cycle"
+    },
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": 200000,
+      "monthly_spend_for_waiver_inr": 16667,
+      "milestone_slabs": [
+        "5% Cashback on online spends across various categories (with monthly capping of up to Rs. 1,500).",
+        "1% Cashback on all other spends, including offline transactions, with monthly capping of up to Rs. 500."
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 200000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "As statement credit | As Amazon Pay balance | As statement credit",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "The card is a good option for consumers who transact on Swiggy frequently, and spend a significant amount on the brand’s platforms every month. For instance, those who use Instamart for monthly staples and groceries or use food delivery services several times a month can easily recover the Rs. 500 annual fee and also earn decent cashback. Cardholders who spend **Rs. 15,000 every month** on Swiggy platforms can earn an **annual cashback of Rs. 18,000** from Swiggy platforms alone. Cashback is directly credited into the card statement and adjusted against the outstanding due.",
+    "highlights": [
+      "10% cashback (with monthly capping of up to Rs. 1,500) on the Swiggy app for transactions related to food ordering, Instamart, Dineout and Genie",
+      "5% Cashback on online spends across various categories (with monthly capping of up to Rs. 1,500).",
+      "1% Cashback on all other spends, including offline transactions, with monthly capping of up to Rs. 500.",
+      "6% discount on domestic & international flight and intercity bus bookings via Paytm Travel"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "5% Cashback on online spends across various categories (with monthly capping of up to Rs. 1,500).",
+      "1% Cashback on all other spends, including offline transactions, with monthly capping of up to Rs. 500."
+    ],
+    "dining_benefits": [
+      "10% cashback (with monthly capping of up to Rs. 1,500) on the Swiggy app for transactions related to food ordering, Instamart, Dineout and Genie",
+      "10% cashback across all Swiggy platforms, including food ordering, Instamart, Dineout, and Genie"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [
+      "Complimentary golf rounds and lessons with the Mastercard variant"
+    ],
+    "golf_summary": {
+      "has_golf": true,
+      "complimentary_access": "4 green fee rounds + 1 lesson / year",
+      "eligible_courses": "Domestic",
+      "spend_condition": "Mastercard World tier",
+      "extra_notes": "50% off green fees beyond complimentary rounds via Mastercard"
+    },
+    "insurance_cover": [
+      "5% cashback on other online spends, covering day-to-day categories"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You prefer to earn direct cashback over reward points",
+      "You frequently order food/groceries as well as dine out and would be able to maximize the accelerated cashback",
+      "You prefer online shopping over store visits and can maximize the higher value offered on online spends"
+    ],
+    "faqs": [
+      {
+        "q": "Is Swiggy HDFC Bank Credit Card free?",
+        "a": "No, Swiggy HDFC Credit Card charges a joining and annual fee of Rs. 500. However, you can avail annual fee waiver on spending Rs. 2 Lakh in a year. Additionally, the card offers a complimentary 3-month Swiggy One membership upon activation."
+      },
+      {
+        "q": "Can I use HDFC Swiggy Credit Card for online shopping?",
+        "a": "Yes, you can use Swiggy HDFC Credit Card for online shopping and earn 5% cashback on select partner categories, including apparel, department stores, entertainment, electronics, home décor, and more. However, the maximum cashback you can earn in this category is Rs. 1,500 per month."
+      },
+      {
+        "q": "How do I apply for Swiggy HDFC Credit Card?",
+        "a": "You can apply for this credit card online by visiting the official website of HDFC Bank and submitting the duly filled application form along with the required documents. Additionally, you can apply offline by visiting the nearest HDFC Bank branch and applying in person."
+      },
+      {
+        "q": "Can I use HDFC Swiggy Credit Card for EMI transactions?",
+        "a": "Yes, you can use this credit card for EMI transactions. However, before making an EMI payment, you should check whether the respective brand or e-commerce website offers an EMI option for this card."
+      },
+      {
+        "q": "Does Swiggy HDFC Credit Card offer lounge access?",
+        "a": "No, Swiggy HDFC Bank Credit Card does not offer any lounge access benefits."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.66,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 3.5,
+      "Welcome Benefits": 3.0,
+      "branded Benefits": 4.5,
+      "cashback": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from HDFC Bank suited for cashback users.",
+    "pros": [
+      "10% cashback across all Swiggy platforms, including food ordering, Instamart, Dineout, and Genie",
+      "5% cashback on other online spends, covering day-to-day categories",
+      "Complimentary 3-month Swiggy One membership",
+      "Complimentary golf rounds and lessons with the Mastercard variant"
+    ],
+    "cons": [
+      "Maximum cashback capping of Rs. 3,500 across all categories",
+      "No complimentary lounge access benefits",
+      "No cashback benefits on select Swiggy spends—Swiggy Money Wallet, Swiggy Minis, and Swiggy Liquor"
+    ],
+    "best_for_whom": "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 16,666+",
+    "verdict": "option from HDFC Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.84,
+    "reddit_mentions": 34,
+    "sentiment_summary": "Community discussions around HDFC Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "10% strictly on Swiggy Food, Instamart & Dineout (capped Rs. 1,500/cycle — Zomato & offline dining earn 1%); 5% on Amazon/Flipkart/Myntra/apparel online MCCs (capped Rs. 1,500/cycle); 1% other (capped Rs. 500/cycle)."
+    ],
+    "optimization_tips": [
+      "Swiggy-Exclusive 10% Rule: 10% (₹1,500/cycle cap = ₹15,000 spend) works strictly on Swiggy Food, Instamart & Dineout; Zomato, Zepto, Blinkit, Swiggy Money Wallet, and Swiggy Liquor earn 1% or 0%.",
+      "Use the secondary 5% bucket (₹1,500/cycle cap = ₹30,000 spend) across Amazon, Flipkart, Myntra & eligible apparel sites; overflow goes to 1% (₹500/cycle cap)."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "unity_small_finance_bank_roar_bank_rupay_credit_card",
+      "card_name": "Roarbank RuPay Credit Card by Unity SFB",
+      "bank": "Unity Small Finance Bank",
+      "bank_slug": "unity-small-finance-bank",
+      "card_slug": "roarbank-rupay-credit-card-by-unity-sfb",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.14,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "yes_bank_byoc_credit_card",
+      "card_name": "YES Bank BYOC Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-byoc-credit-card",
+      "annual_fee_inr": 249,
+      "overall_rating": 3.48,
+      "reason": "Direct competitor from YES BANK at similar fee tier (Rs. 249/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_swiggy_ornge_hdfc_credit_card",
+      "card_name": "Swiggy Ornge HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "swiggy-ornge-hdfc-bank-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.25,
+      "reason": "Top-rated Cashback card in market with rating 4.25/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "21 to 60 years",
+    "min_monthly_income_salaried_inr": 15000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age: 21 to 60 years"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    }
+  ]
+}

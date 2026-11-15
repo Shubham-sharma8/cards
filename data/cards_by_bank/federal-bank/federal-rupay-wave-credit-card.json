@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "card_id": "federal_bank_rupay_wave_credit_card",
+    "card_name": "Federal RuPay Wave Credit Card",
+    "bank": "Federal Bank",
+    "bank_slug": "federal-bank",
+    "card_slug": "federal-rupay-wave-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Lifetime Free",
+      "RuPay & UPI"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/federal-bank/federal-rupay-wave-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#15496F",
+      "secondary_hex": "#223180",
+      "wash_hex": "#DFE4E6",
+      "soft_bg_hex": "#EAEFF2",
+      "border_hex": "#CCD7DF",
+      "ink_on_soft_hex": "#15496F",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.federal.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.federal.bank.in/credit-cards",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+      "Rs. 10,000 – Rs. 35,000 on UPI & retail"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "federal",
+      "free",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "miles",
+      "rupay",
+      "scan-and-pay",
+      "travel",
+      "upi",
+      "wave",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.12,
+    "accelerated_reward_rate_pct": 6.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "10% cashback on first 5 UPI transactions",
+      "1 reward point for every Rs. 200 spent",
+      "1,000 bonus reward points on spending Rs. 50,000 in a quarter"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.25,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 0.25,
+      "groceries_quick_commerce": 0.25,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "upi_scan_and_pay": 250
+    },
+    "monthly_capping_rules": [
+      "10% cashback is an introductory promo on only the first 5 UPI txns; ongoing earn is ~0.125%–0.25% base (1 RP/Rs.200) + 1,000 bonus RP per Rs. 50k quarterly milestone."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1,000 bonus reward points on spending Rs. 50,000 in a quarter"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 0.69,
+    "apr_annual_pct": 8.28,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 250",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 25,001",
+        "late_fee_inr": "Rs. 1,250"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from Federal Bank suited for rupay & upi users.",
+    "highlights": [
+      "10% cashback on first 5 UPI transactions",
+      "1 reward point for every Rs. 200 spent",
+      "1,000 bonus reward points on spending Rs. 50,000 in a quarter",
+      "The applicant must be an existing Federal Bank credit cardholder",
+      "Minimum Age Requirement: 18 years"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1,000 bonus reward points on spending Rs. 50,000 in a quarter"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.28,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from Federal Bank suited for rupay & upi users.",
+    "pros": [
+      "Lifetime Free card with zero annual fee commitment",
+      "RuPay network supports Scan & Pay merchant UPI transactions"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Everyday UPI Scan & Pay spenders wanting credit-line convenience on merchant QRs",
+    "not_ideal_for": "Travel flyers seeking high-value airline/hotel miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 35,000 on UPI & retail",
+    "verdict": "Lifetime Free option from Federal Bank suited for rupay & upi users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.28,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Federal Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "10% cashback is an introductory promo on only the first 5 UPI txns; ongoing earn is ~0.125%–0.25% base (1 RP/Rs.200) + 1,000 bonus RP per Rs. 50k quarterly milestone."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "kotak_mahindra_bank_811_super_money_credit_card",
+      "card_name": "Kotak811 Super Money Credit Card",
+      "bank": "Kotak Mahindra Bank",
+      "bank_slug": "kotak-mahindra-bank",
+      "card_slug": "kotak811-super-money-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.85,
+      "reason": "Direct competitor from Kotak Mahindra Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+      "card_name": "YES BANK PaisaSave Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-paisasave-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.28,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.28/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "au_small_finance_bank_ixigo_au_credit_card",
+      "card_name": "ixigo AU Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "ixigo-au-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.38,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.38/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

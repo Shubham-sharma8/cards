@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "card_id": "union_bank_of_india_union_bank_of_india_visa_international_signature_credit_card",
+    "card_name": "Union Bank of India Visa International Signature Credit Card",
+    "bank": "Union Bank of India",
+    "bank_slug": "union-bank-of-india",
+    "card_slug": "union-bank-of-india-visa-international-signature-credit-card",
+    "card_network": "Visa",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Fuel",
+    "categories": [
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/union-bank-of-india/union-bank-of-india-visa-international-signature-credit-card.webp",
+    "image_source": "cardledger_studio_render",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#205892",
+      "secondary_hex": "#3038A1",
+      "wash_hex": "#E0E6EA",
+      "soft_bg_hex": "#EBF0F5",
+      "border_hex": "#CEDAE7",
+      "ink_on_soft_hex": "#205892",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.unionbankofindia.bank.in/en/home",
+    "mitc_pdf_url": "https://www.unionbankofindia.bank.in/pdf/Credit-Card-MITC.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Regular petrol",
+      "diesel commuters matching the card's partner pump brand (BPCL",
+      "IOCL",
+      "HPCL)",
+      "Rs. 4,000 – Rs. 15,000 fuel/month"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "entry",
+      "fd",
+      "fuel",
+      "groceries",
+      "india",
+      "international",
+      "level",
+      "movies",
+      "of",
+      "secured",
+      "signature",
+      "union",
+      "visa"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Transactions of ₹ 400 to ₹ 4,000 on fuel done through the credit card will not attract any surcharge.",
+      "On every ₹ 100 spent with the credit card, 4 Reward Points will be given worth ₹ 1.",
+      "You will get an instant 10% discount on the dining bills at 1,200 restaurants partners if payment is made through the credit card.",
+      "You will get a discount of 5-10% on car rentals outside India."
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 3.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 250,
+      "annual_fee_inr": 250,
+      "annual_fee_with_gst_inr": 295.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "There is a joining and annual fee on the card of ₹ 250 but it can be waived off if the previous year’s transaction on the card amount is more than ₹ 1 Lakh."
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 250,
+    "annual_fee_inr": 250,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from Union Bank of India suited for fuel users.",
+    "highlights": [
+      "There is a joining and annual fee on the card of ₹ 250 but it can be waived off if the previous year’s transaction on the card amount is more than ₹ 1 Lakh.",
+      "You will get 50 days of interest-free credit period, wherein no interest on the outstanding amount will be charged for 50 days.",
+      "The outstanding amount on the credit card can be paid by cash, cheque or online payment.",
+      "Transactions of ₹ 400 to ₹ 4,000 on fuel done through the credit card will not attract any surcharge.",
+      "All the transactions through the card are intimated to you via SMS or email. The transactions are also secured through the platform of VISA."
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "There is a joining and annual fee on the card of ₹ 250 but it can be waived off if the previous year’s transaction on the card amount is more than ₹ 1 Lakh."
+    ],
+    "dining_benefits": [
+      "You will get an instant 10% discount on the dining bills at 1,200 restaurants partners if payment is made through the credit card."
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "This credit card also offers Accidental death insurance of ₹ 6 Lakh and air accident insurance of ₹ 10 Lakh."
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.44,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Union Bank of India suited for fuel users.",
+    "pros": [
+      "Targeted rewards structure backed by Union Bank of India",
+      "Backed by Union Bank of India digital card controls, EMI conversion & merchant offers"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
+    "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",
+    "recommended_monthly_spend_inr": "Rs. 4,000 – Rs. 15,000 fuel/month",
+    "verdict": "option from Union Bank of India suited for fuel users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.44,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Union Bank of India Fuel cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Focus spends on partner fuel pump swipes (3.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "indian_bank_onecard_credit_card",
+      "card_name": "Indian Bank OneCard Credit Card",
+      "bank": "Indian Bank",
+      "bank_slug": "indian-bank",
+      "card_slug": "indian-bank-onecard-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.5,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "kotak_mahindra_bank_kotak_cashback_plus_prime_credit_card",
+      "card_name": "Kotak Cashback+ Prime Credit Card",
+      "bank": "Kotak Mahindra Bank",
+      "bank_slug": "kotak-mahindra-bank",
+      "card_slug": "kotak-cashback-prime-credit-card",
+      "annual_fee_inr": 750,
+      "overall_rating": 4.15,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.15/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Top-rated Super-Premium card in market with rating 4.9/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

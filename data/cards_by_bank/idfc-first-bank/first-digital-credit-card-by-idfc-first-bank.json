@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "card_id": "idfc_first_bank_idfc_rupay_credit_card",
+    "card_name": "FIRST Digital Credit Card by IDFC FIRST Bank",
+    "bank": "IDFC FIRST Bank",
+    "bank_slug": "idfc-first-bank",
+    "card_slug": "first-digital-credit-card-by-idfc-first-bank",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "RuPay & UPI"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/idfc-first-bank/first-digital-credit-card-by-idfc-first-bank.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#9E753D",
+      "secondary_hex": "#457949",
+      "wash_hex": "#EFE9E0",
+      "soft_bg_hex": "#F6F3EE",
+      "border_hex": "#EAE1D4",
+      "ink_on_soft_hex": "#7D5C30",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.idfcfirst.bank.in/credit-card",
+    "mitc_pdf_url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "IDFC FIRST Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "by",
+      "card",
+      "cashback",
+      "credit",
+      "digital",
+      "first",
+      "idfc",
+      "rupay",
+      "scan-and-pay",
+      "upi"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 0.17,
+    "accelerated_reward_rate_pct": 0.5,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "3 reward points per Rs. 150 on UPI spends above Rs. 2,0001-3",
+      "1 reward point per Rs. 150 on UPI spends below Rs. 2,0001-3",
+      "1 reward point per Rs. 150 spent on utilities & insurance payments",
+      "Redeem reward points at a value of 1 RP = Rs. 0.25",
+      "100% cashback, up to Rs. 200 on the first four UPI spends done within 15 days of card generation4",
+      "Up to 3X rewards on UPI spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.17,
+      "amazon_flipkart_myntra": 0.17,
+      "dining_swiggy_zomato": 0.17,
+      "groceries_quick_commerce": 0.17,
+      "travel_flights_hotels": 0.17,
+      "upi_scan_and_pay": 0.51,
+      "utilities_bills_telecom": 0.17,
+      "fuel": 0.0,
+      "insurance": 0.17,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.96,
+      "offline_general_other": 0.17
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "100% cashback, up to Rs. 200 on the first four UPI spends done within 15 days of card generation4",
+      "Up to 3X rewards on UPI spends"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 199,
+      "annual_fee_inr": 199,
+      "annual_fee_with_gst_inr": 234.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "3 reward points per Rs. 150 on UPI spends above Rs. 2,0001-3",
+        "1 reward point per Rs. 150 on UPI spends below Rs. 2,0001-3",
+        "100% cashback, up to Rs. 200 on the first four UPI spends done within 15 days of card generation4"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 199,
+    "annual_fee_inr": 199,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.99,
+    "apr_annual_pct": 47.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "IDFC FIRST RuPay Credit Card is a digital card that is issued against an existing IDFC FIRST Credit Card. Cardholders can link this card with UPI apps like Paytm, GPay, Slice, etc., and earn up to **3X reward points on their UPI spends**. The card offers 3X rewards on UPI spends above Rs. 2,000 and a base reward rate of **1 point per Rs. 150 on UPI spends below Rs. 2,000**. Additional, it also offers the base reward rate on usually excluded categories such as utility and insurance payments. Currently, existing IDFC FIRST Classic, FIRST Millennia, FIRST WOW!, FIRST Select, FIRST Wealth, FIRST Private, FIRST SWYP, Ashva, and Mayura credit cardholders can apply for this digital credit card and earn benefits on their UPI spends. Overall, existing IDFC cardholders looking for a card with decent benefits on UPI spends at an affordable annual fee, this card can be a suitable option.",
+    "highlights": [
+      "3 reward points per Rs. 150 on UPI spends above Rs. 2,0001-3",
+      "1 reward point per Rs. 150 on UPI spends below Rs. 2,0001-3",
+      "1 reward point per Rs. 150 spent on utilities & insurance payments"
+    ],
+    "welcome_benefit": "Welcome benefits worth Rs. 200",
+    "milestone_benefits": [
+      "3 reward points per Rs. 150 on UPI spends above Rs. 2,0001-3",
+      "1 reward point per Rs. 150 on UPI spends below Rs. 2,0001-3",
+      "100% cashback, up to Rs. 200 on the first four UPI spends done within 15 days of card generation4"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "1 reward point per Rs. 150 spent on utilities & insurance payments",
+      "Base reward rate on utility & insurance payments"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You prefer managing your credit card digitally",
+      "You are an existing IDFC Credit cardholder looking to earn accelerated rewards on UPI spends",
+      "You are looking for a low annual fee card with basic rewards on utility & insurance payments",
+      "You can spend above Rs. 2,000 on UPI to maximize rewards program"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for IDFC FIRST Digital RuPay Credit Card?",
+        "a": "IDFC FIRST RuPay Credit Card is offered only to existing IDFC FIRST credit cardholders. You can apply for this card online by visiting the card page on the bank’s official website and clicking on “Apply Now.” You’ll be required to submit basic details and complete the application process. Upon approval, you will receive the digital card instantly."
+      },
+      {
+        "q": "Can I register IDFC FIRST Digital RuPay Credit Card on the GPay app?",
+        "a": "Yes, you can link your IDFC FIRST RuPay Credit Card with all major UPI apps, such as GPay, Paytm, Slice, Freecharge, CRED, PhonePe, Mobikwik, and more."
+      },
+      {
+        "q": "How can I pay my IDFC FIRST Digital RuPay Credit Card bill?",
+        "a": "The payment for this digital credit card is combined with your primary card and reflected in the primary card’s account. You can pay your credit card bill through the IDFC FIRST Bank app, net banking, NEFT, or cheque."
+      },
+      {
+        "q": "What is the credit limit offered on IDFC FIRST Digital RuPay Credit Card?",
+        "a": "The credit limit on this IDFC RuPay Credit Card is shared with your primary card. It remains the same and this card does not come with an additional or separate credit limit."
+      },
+      {
+        "q": "Will I receive the physical IDFC FIRST RuPay Credit Card after application?",
+        "a": "No, this is a digital credit card and is issued exclusively online. You will not receive any physical card."
+      },
+      {
+        "q": "Which IDFC FIRST Bank Credit Cards are eligible for obtaining FIRST Digital RuPay Credit Card?",
+        "a": "Currently, select existing IDFC FIRST Bank Credit Card customers are eligible to get the FIRST Digital RuPay Credit Card. The eligibility is determined by the bank based on your credit profile and card usage history."
+      },
+      {
+        "q": "What are the benefits of IDFC RuPay Credit Card?",
+        "a": "IDFC FIRST Digital RuPay Credit Card offers benefits like UPI linkage for convenient payments, cashback/rewards on transactions, and seamless online usage."
+      },
+      {
+        "q": "Is there any joining/annual fee for FIRST Digital RuPay Credit Card?",
+        "a": "Yes, IDFC FIRST Digital RuPay Credit Card comes with a joining and annual fee of Rs. 199 plus applicable taxes."
+      },
+      {
+        "q": "Are there cashback/rewards on UPI transactions with FIRST Digital RuPay Card?",
+        "a": "Yes, you can earn reward points on eligible UPI transactions made through the FIRST Digital RuPay Credit Card. The card offers 3 reward points per Rs. 150 on UPI spends above Rs. 2,000 and 1 reward point per Rs. 150 on UPI spends below Rs. 2,000."
+      },
+      {
+        "q": "On which UPI apps can I register my FIRST Digital RuPay Credit Card?",
+        "a": "You can link your FIRST Digital RuPay Credit Card on popular UPI apps like BHIM, Google Pay, PhonePe, and Paytm, provided your mobile number is registered with IDFC FIRST Bank."
+      },
+      {
+        "q": "Can I use my IDFC Digital RuPay Credit Card for international online purchases?",
+        "a": "Currently, IDFC Digital RuPay Credit Card is primarily designed for domestic transactions, including UPI payments. International usage may not be supported as RuPay’s global acceptance is limited compared to Visa or Mastercard."
+      },
+      {
+        "q": "Does IDFC RuPay Credit Card have lounge access?",
+        "a": "No, IDFC FIRST Digital RuPay Credit Card does not offer airport lounge access. It focuses on digital convenience and UPI-based rewards rather than premium travel benefits."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.2,
+    "editorial_rating": 3.0,
+    "aggregator_rating": 4.47,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Welcome Benefits": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IDFC FIRST Bank suited for cashback users.",
+    "pros": [
+      "Up to 3X rewards on UPI spends",
+      "Welcome benefits worth Rs. 200",
+      "Low annual fee of Rs. 199",
+      "Base reward rate on utility & insurance payments"
+    ],
+    "cons": [
+      "Spend-based rewards program",
+      "No travel & lifestyle related benefits",
+      "Low reward redemption value of Rs. 0.25 per point",
+      "Eligibility is limited to existing IDFC FIRST credit cardholders"
+    ],
+    "best_for_whom": "IDFC FIRST Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from IDFC FIRST Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.2,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IDFC FIRST Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "100% cashback, up to Rs. 200 on the first four UPI spends done within 15 days of card generation4",
+      "Up to 3X rewards on UPI spends"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Per-Rs.-200 rounding (<Rs. 200 = 0 RP), offset by positive 0% forex upgrades on Wealth/Select."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "yes_bank_klick_credit_card",
+      "card_name": "YES BANK Klick (Kiwi) RuPay Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-klick-kiwi-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_phonepe_ultimo_credit_card",
+      "card_name": "PhonePe HDFC Bank Ultimo Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "phonepe-hdfc-bank-ultimo-credit-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.62,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 999/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "sbi_bank_phonepe_select_black_credit_card",
+      "card_name": "PhonePe SBI Card SELECT BLACK",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "phonepe-sbi-card-select-black",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.58,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.58/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_bank_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.44,
+      "reason": "Top-rated RuPay & UPI card in market with rating 4.44/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-1-cashback-499",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual 1% Cashback ₹499",
+      "summary": "FIRST EARN Virtual 1% Cashback ₹499",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-fd-backed-1-cashback",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "summary": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-zero-forex-promos-weekend-movie-tripstacc",
+      "bank": "IDFC FIRST Bank",
+      "title": "Zero Forex Promos & Weekend Movie / Tripstacc Benefits",
+      "summary": "Buy-1-Get-1 movie ticket perks on District/BookMyShow plus instant flight/hotel discounts via Tripstacc and IDFC FIRST Reward offers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "targeted"
+    }
+  ]
+}

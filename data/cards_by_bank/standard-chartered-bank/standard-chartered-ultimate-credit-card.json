@@ -1,0 +1,726 @@
+{
+  "identity": {
+    "card_id": "standard_chartered_bank_ultimate_credit_card",
+    "card_name": "Standard Chartered Ultimate Credit Card",
+    "bank": "Standard Chartered Bank",
+    "bank_slug": "standard-chartered-bank",
+    "card_slug": "standard-chartered-ultimate-credit-card",
+    "card_network": "Mastercard World",
+    "card_tier": "Super-Premium",
+    "primary_category": "Super-Premium",
+    "categories": [
+      "Super-Premium",
+      "Dining, Groceries & Movies",
+      "Golf"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/standard-chartered-bank/standard-chartered-ultimate-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#775A28",
+      "secondary_hex": "#C22A2F",
+      "wash_hex": "#EAE6DD",
+      "soft_bg_hex": "#F3F0EC",
+      "border_hex": "#E1DBD0",
+      "ink_on_soft_hex": "#775A28",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sc.bank.in/credit-cards/",
+    "mitc_pdf_url": "https://av.sc.com/in/content/docs/in-ultimate-credit-card-tnc.pdf",
+    "aggregator_urls": [
+      "https://www.cardexpert.in/standard-chartered-ultimate-review/"
+    ],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "Mastercard Participating Domestic Airport Lounges India PDF",
+        "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 3,000 - 9,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": true,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Users with heavy Insurance",
+      "Income Tax",
+      "Govt & School Fee spends earning a rare 2% even on excluded categories + 3.3% general",
+      "Rs. 50,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "chartered",
+      "credit",
+      "dining",
+      "golf",
+      "groceries",
+      "lounge",
+      "low-forex",
+      "movies",
+      "premium",
+      "standard",
+      "super",
+      "ultimate"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "SC Reward Points (1 RP = Rs. 1 vouchers)",
+    "base_reward_rate_pct": 3.3,
+    "accelerated_reward_rate_pct": 3.3,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5 RP per Rs. 150 (3.3%) on regular retail",
+      "3 RP per Rs. 150 (2.0%!) on Utilities, Supermarkets, Insurance, Schools & Govt per SC Ultimate TnC PDF (huge advantage for tax/insurance payers!)"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 3.33,
+      "amazon_flipkart_myntra": 3.33,
+      "dining_swiggy_zomato": 3.33,
+      "groceries_quick_commerce": 3.33,
+      "travel_flights_hotels": 3.33,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 2.0,
+      "fuel": 0.0,
+      "insurance": 2.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 1.33,
+      "offline_general_other": 3.33
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "3.33% flat value (5 RP/Rs.150 @ Rs.1/RP) with 2% forex markup; utilities, supermarkets & insurance earn reduced 2% (3 RP/Rs.150 = ~2% uncapped on most retail MCCs per sc.bank.in); Rent excluded."
+    ],
+    "category_caveats": {
+      "insurance": "Reduced rate 3 RP/Rs.150 (2%) per sc.bank.in; check current rewards catalogue.",
+      "utilities_bills_telecom": "Reduced rate 2% per sc.bank.in.",
+      "education_rent_govt": "Rent excluded from reward accrual."
+    },
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 5000,
+      "annual_fee_inr": 5000,
+      "annual_fee_with_gst_inr": 5900.0,
+      "fee_waiver_spend_inr": 0,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Value of 1 reward point = Rs. 1 (redeemable through Standard Chartered Bank’s 360° rewards portal, against products and vouchers)",
+        "6,000 bonus reward points worth Rs. 6,000 on card activation",
+        "Cashback : 5% cashback on duty-free spends (up to Rs. 1,000 per statement cycle)",
+        "1 free lounge visit per month on spending Rs. 20,000 in the previous billing cycle"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 16,
+      "visits_per_quarter": 4,
+      "spend_criteria": "No strict high threshold",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "4 domestic airport lounge visits/quarter"
+    },
+    "international": {
+      "program": "Priority Pass",
+      "visits_per_year": 12,
+      "spend_criteria": "No spend criteria (1/month)",
+      "add_on_allowed": false,
+      "guest_fee": "Chargeable",
+      "summary": "1 international Priority Pass visit per month (12/year)"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "mastercard_india_lounges_pdf",
+        "title": "Mastercard Participating Domestic Airport Lounges India PDF",
+        "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agartala",
+        "lounge_name": "Airport Agartala Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Adani Silver Lounge-International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "Airport Allahabad / Prayagraj Zesto Execustive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ayodhya",
+        "lounge_name": "Kailash Parbat",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bagdogra",
+        "lounge_name": "International Airport Bagdogra Take off Bar",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 International Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Arrival",
+        "terminal": "Arrival Terminal 2",
+        "terminal_type": "International/ Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 1",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - West PH 2",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "080 Domestic Lounge - East",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "Raja Bhoj Bhopal Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge A",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kochi",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "International Airport Coimbatore BlackBerry Restaurant & Bar",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "Mohanbari Dibrugarh Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Mopa)",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Gwalior",
+        "lounge_name": "Airport Gwalior Paahun Executive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "International Airport Jaipur The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Jammu",
+        "lounge_name": "Airport Jammu Paahun - The Executive Lounge and Restaurant",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kannur",
+        "lounge_name": "International Kannaur Pearl Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Travel Club Lounge Annex International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Budweiser",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Madurai",
+        "lounge_name": "International Madurai Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Mandarin Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "New Delhi",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 1 (T1D)",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Ranchi",
+        "lounge_name": "Birsa Munda Ranchi The Airr Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "Paahun The Executive Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "source_program_id": "baseline_india_airports"
+      }
+    ],
+    "participating_lounges_count": 44
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 5000,
+    "annual_fee_inr": 5000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "6,000 Reward Points (worth Rs. 6,000 vouchers) on fee payment",
+    "forex_markup_pct": 2.0,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 15,000",
+        "late_fee_inr": "Rs. 700"
+      },
+      {
+        "statement_balance_slab": "Rs. 15,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 25,000",
+        "late_fee_inr": "Rs. 1,200"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Standard Chartered Ultimate is a premium credit card offering **3.33% value-back** across multiple spending categories, matching top premium cards like **HDFC Diners Club Black** and **HDFC Infinia**. It also provides notable travel benefits, including **5% cashback on duty-free purchases** and a **low forex mark-up of 2%**. Up to **12 complimentary rounds annually** at premier golf courses in India further add to its benefits. However, the card falls short on **lounge access** , offering **12 free visits per year** with a **spend-based condition**. Additionally, its **lifestyle perks** in categories like **dining and entertainment** are limited. Despite lacking on additional benefits, the card’s core rewards program is strong. It stands out for its broad reward coverage, including utilities, insurance, and education—categories often excluded by other cards. If you are a high-spender and do not seek air mile conversion and prefer redemption through vouchers and merchandise, this card can be a great fit.",
+    "highlights": [
+      "5 reward points for every Rs. 150 spent",
+      "3 reward points for every Rs. 150 spent on utilities, supermarkets, insurance, property management, schools & government payments",
+      "Value of 1 reward point = Rs. 1 (redeemable through Standard Chartered Bank’s 360° rewards portal, against products and vouchers)",
+      "6,000 bonus reward points worth Rs. 6,000 on card activation"
+    ],
+    "welcome_benefit": "Welcome benefit compensates for the joining fee",
+    "milestone_benefits": [
+      "Value of 1 reward point = Rs. 1 (redeemable through Standard Chartered Bank’s 360° rewards portal, against products and vouchers)",
+      "6,000 bonus reward points worth Rs. 6,000 on card activation",
+      "Cashback : 5% cashback on duty-free spends (up to Rs. 1,000 per statement cycle)",
+      "1 free lounge visit per month on spending Rs. 20,000 in the previous billing cycle"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [
+      "Golf Benefits: 1 complimentary golf game per month across premier golf courses in India.",
+      "12 complimentary golf games in a year at leading golf courses in India"
+    ],
+    "golf_summary": {
+      "has_golf": true,
+      "complimentary_access": "1 game + 1 coaching session / month",
+      "eligible_courses": "Domestic",
+      "spend_condition": "None",
+      "extra_notes": "12 complimentary domestic games + 12 lessons/yr"
+    },
+    "insurance_cover": [
+      "3 reward points for every Rs. 150 spent on utilities, supermarkets, insurance, property management, schools & government payments",
+      "Insurance: Air travel accident coverage of up to Rs. 1 Crore and medical insurance worth $25000",
+      "Reward rate of 3.33% across all spends including insurance and utilities"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want a card that offers a good reward rate across all spends without charging a high annual fee",
+      "You play golf a few times in a year and complimentary access to premier golf courses would be a valuable benefit for you",
+      "You already own a card that offers good lounge access benefit",
+      "You are looking for a card that helps you save on utilities, insurance, etc."
+    ],
+    "faqs": [
+      {
+        "q": "What are the additional benefits on Standard Chartered Ultimate credit card?",
+        "a": "The additional benefits offered on Standard Chartered Ultimate credit card include digital payment solutions, online banking, and conversion of transactions above Rs. 5,000 to EMI. Apart from that, the card also offers dial-a-loan facility for a loan up to Rs. 5 Lakh for tenures ranging between 12 to 60 months."
+      },
+      {
+        "q": "Can I transfer my outstanding balance on any other bank’s credit card with Ultimate credit card?",
+        "a": "Yes, Standard Chartered Ultimate credit card provides the facility of ‘Balance Transfer’ via which you can transfer your outstanding balance on any other bank’s credit card. You can transfer card balance up to Rs. 5 lakh to Standard Chartered Ultimate Credit Card. However, this may vary as per your credit limit."
+      },
+      {
+        "q": "Will I be charged if I use my card overseas?",
+        "a": "Yes, a foreign exchange mark-up fee of 2% (plus 18% GST) will be applicable on all transactions made in foreign currency."
+      },
+      {
+        "q": "When are the bonus reward points credited to my card account?",
+        "a": "The bonus 6,000 reward points on card activation are credited within 60 days of receiving of joining fee payment by the issuer."
+      },
+      {
+        "q": "What are options to redeem my reward points?",
+        "a": "Accumulated reward points can be redeemed for vouchers and merchandise purchase from Standard Chartered Bank’s 360° Rewards Portal."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.14,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.5,
+      "Rewards": 4.0,
+      "Welcome Benefits": 4.0,
+      "Lifestyle Benefits": 3.0,
+      "travel": 3.5,
+      "rewards": 4.0,
+      "lifestyle_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Best card for 2% uncapped on Government/Tax/Insurance/Schools when most banks give 0%; just note sparse voucher catalogue.",
+    "pros": [
+      "Reward rate of 3.33% across all spends including insurance and utilities",
+      "1:1 rewards redemption ratio",
+      "12 complimentary golf games in a year at leading golf courses in India",
+      "Welcome benefit compensates for the joining fee",
+      "Low forex mark-up fee of 2% on international spends",
+      "5% cashback on duty-free spends"
+    ],
+    "cons": [
+      "Lounge access is spend-based",
+      "Capping on cashback earning",
+      "Limited lifestyle benefits"
+    ],
+    "best_for_whom": "Users with heavy Insurance, Income Tax/Govt & School Fee spends earning a rare 2% even on excluded categories + 3.3% general",
+    "not_ideal_for": "Air-miles transfer chasers (SC rewards redeem into gift vouchers/catalog, not airline miles)",
+    "recommended_monthly_spend_inr": "Rs. 50,000+",
+    "verdict": "Best card for 2% uncapped on Government/Tax/Insurance/Schools when most banks give 0%; just note sparse voucher catalogue."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.14,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Standard Chartered Bank Super-Premium cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "3.33% flat value (5 RP/Rs.150 @ Rs.1/RP) with 2% forex markup; utilities, supermarkets & insurance earn reduced 2% (3 RP/Rs.150 = ~2% uncapped on most retail MCCs per sc.bank.in); Rent excluded."
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (3.3% effective return) before hitting monthly category caps.",
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "axis_bank_burgundy_private_credit_card",
+      "card_name": "Axis Bank Burgundy Private Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-burgundy-private-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "au_small_finance_bank_zenith_plus_credit_card",
+      "card_name": "AU Zenith+ Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "au-zenith-credit-card",
+      "annual_fee_inr": 4999,
+      "overall_rating": 4.18,
+      "reason": "Direct competitor from AU Small Finance Bank at similar fee tier (Rs. 4,999/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

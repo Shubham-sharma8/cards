@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "card_id": "idfc_bank_idfc_first_wow_credit_card",
+    "card_name": "IDFC FIRST WOW! Credit Card",
+    "bank": "IDFC FIRST Bank",
+    "bank_slug": "idfc-first-bank",
+    "card_slug": "idfc-first-wow-credit-card",
+    "card_network": "Visa Infinite / RuPay",
+    "card_tier": "Entry-Level / Secured",
+    "primary_category": "Entry-Level & Secured (FD)",
+    "categories": [
+      "Entry-Level & Secured (FD)",
+      "Lifetime Free",
+      "Zero/Low Forex"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/idfc-first-bank/idfc-first-wow-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#6F191D",
+      "secondary_hex": "#804827",
+      "wash_hex": "#E9DEDC",
+      "soft_bg_hex": "#F2EAEB",
+      "border_hex": "#DFCCCD",
+      "ink_on_soft_hex": "#6F191D",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.idfcfirst.bank.in/credit-card",
+    "mitc_pdf_url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": true,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": true,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit (NTC) applicants",
+      "and travelers wanting an FD-backed 0% forex card with zero income proof & zero CIBIL",
+      "Rs. 5,000 – Rs. 25,000"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "entry",
+      "fd",
+      "first",
+      "forex",
+      "free",
+      "idfc",
+      "level",
+      "lifetime",
+      "lifetime-free",
+      "low",
+      "low-forex",
+      "ltf",
+      "rupay",
+      "scan-and-pay",
+      "secured",
+      "upi",
+      "wow",
+      "zero",
+      "zero-fee",
+      "zero-forex"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "IDFC Reward Points (4 RP per Rs. 200 online/offline/intl; 0 on txns < Rs. 200 per WOW PDF)",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "4X reward points on online, offline and international spends",
+      "1X reward point on insurance premium payments, FASTag recharge, railway spends and utility bill payments",
+      "10% bonus rewards on hotels and 5% on flight bookings on ‘Travel & Shop’ on IDFC FIRST app",
+      "1X = 1 reward point on every Rs. 200 spent",
+      "3 reward points per Rs. 150 on UPI spends above Rs. 2,000",
+      "1 reward point per Rs. 150 on UPI spends below Rs. 2,000"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.0,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 10.0,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 0.5,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "travel_flights_hotels": 1000
+    },
+    "monthly_capping_rules": [
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": 0,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "10% bonus rewards on hotels and 5% on flight bookings on ‘Travel & Shop’ on IDFC FIRST app",
+        "3 reward points per Rs. 150 on UPI spends above Rs. 2,000",
+        "1 reward point per Rs. 150 on UPI spends below Rs. 2,000",
+        "100% cashback, up to Rs. 200 (Rs. 50 each on first four UPI spends)"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 0.0,
+    "apr_monthly_pct": 3.85,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of the total amount due (Min. Rs. 100 and Max. Rs. 1,300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "#1 Secured FD Credit Card in India for students & credit-score builders — 0% forex + LTF + instant FD approval.",
+    "highlights": [
+      "4X reward points on online, offline and international spends",
+      "1X reward point on insurance premium payments, FASTag recharge, railway spends and utility bill payments",
+      "10% bonus rewards on hotels and 5% on flight bookings on ‘Travel & Shop’ on IDFC FIRST app",
+      "1X = 1 reward point on every Rs. 200 spent"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "10% bonus rewards on hotels and 5% on flight bookings on ‘Travel & Shop’ on IDFC FIRST app",
+      "3 reward points per Rs. 150 on UPI spends above Rs. 2,000",
+      "1 reward point per Rs. 150 on UPI spends below Rs. 2,000",
+      "100% cashback, up to Rs. 200 (Rs. 50 each on first four UPI spends)"
+    ],
+    "dining_benefits": [
+      "Exclusive deals and discounts across 1,500+ retailers and restaurants"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "1X reward point on insurance premium payments, FASTag recharge, railway spends and utility bill payments",
+      "Up to Rs. 25,000 coverage for card liability",
+      "Personal accident insurance of Rs. 2 Lakh"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for a lifetime free credit card with zero joining and annual fees",
+      "You are new to credit, or you prefer an FD-backed credit card",
+      "You shop frequently and are looking for a card that offer reward points on online, offline, and international spends",
+      "You often travel overseas and are seeking a zero-forex markup credit card for your international spends"
+    ],
+    "faqs": [
+      {
+        "q": "What are the rewards on IDFC FIRST WOW! Credit Card?",
+        "a": "The card offers 4X reward points on online, offline, and international spends. For all other spends, you earn 1 reward point per Rs. 200. Insurance premiums, FASTag recharge, railway bookings, and utility bill payments also earn 1X reward points."
+      },
+      {
+        "q": "How can I redeem my reward points?",
+        "a": "Reward points can be redeemed at a rate of 1 Reward Point = Rs. 0.25. Points accumulated from eligible transactions can be used for various purchases or discounts as per the card’s reward redemption program."
+      },
+      {
+        "q": "Are there any forex charges when I use this card internationally?",
+        "a": "No, the IDFC FIRST WOW! Credit Card has a zero-forex markup fee, making it suitable for international transactions. You can use it for overseas shopping or travel without worrying about additional foreign currency conversion charges."
+      },
+      {
+        "q": "Does this card provide any fuel benefits?",
+        "a": "Yes, the card offers a 1% fuel surcharge waiver on fuel transactions, with savings of up to Rs. 200 per month. Over a year, you can save up to Rs. 2,400 on fuel payments while enjoying the card’s regular rewards."
+      },
+      {
+        "q": "What are the fees and charges associated with this card?",
+        "a": "This is a lifetime free credit card with no joining or annual fees. Finance charges range from 0.71% to 3.85% per month (8.5%–46.2% annually), and late payment fees are 15% of the outstanding amount, with a minimum of Rs. 100 and maximum of Rs. 1,300."
+      },
+      {
+        "q": "Who is eligible to apply for this credit card?",
+        "a": "Applicants must be 18 years or older and can be salaried or self-employed. A fixed deposit of at least Rs. 20,000 is required to get this FD-backed credit card, making it ideal for beginners or those looking for secured credit."
+      },
+      {
+        "q": "What are the main pros and cons of the card?",
+        "a": "Pros include zero-forex markup fees, 4X reward points, fuel surcharge savings, and lifetime free usage. Cons are the low reward redemption value (1RP = Rs. 0.25) and no travel perks like domestic or international lounge access."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.19,
+    "editorial_rating": 3.0,
+    "aggregator_rating": 4.47,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.0,
+      "travel": 3.0,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "#1 Secured FD Credit Card in India for students & credit-score builders — 0% forex + LTF + instant FD approval.",
+    "pros": [
+      "Zero forex markup fee",
+      "4X reward points on online, offline and international spends",
+      "Exclusive deals & discounts at partner merchants"
+    ],
+    "cons": [
+      "Low reward redemption value of 1 RP = Rs. 0.25",
+      "Does not offer travel benefits like domestic and international airport lounge visits"
+    ],
+    "best_for_whom": "Students, New-to-Credit (NTC) applicants, and travelers wanting an FD-backed 0% forex card with zero income proof & zero CIBIL",
+    "not_ideal_for": "Reward maximizers or frequent lounge travelers (no complimentary lounge)",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 25,000",
+    "verdict": "#1 Secured FD Credit Card in India for students & credit-score builders — 0% forex + LTF + instant FD approval."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.06,
+    "reddit_mentions": 1,
+    "sentiment_summary": "Community discussions around IDFC FIRST Bank Entry-Level & Secured (FD) cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "optimization_tips": [
+      "Focus spends on flights & hotel bookings (10.0% effective return) before hitting monthly category caps.",
+      "Low 0.0% forex markup makes this practical for international travel and USD/SaaS subscriptions."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Per-Rs.-200 rounding (<Rs. 200 = 0 RP), offset by positive 0% forex upgrades on Wealth/Select."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "indian_overseas_bank_iob_zet_credit_card",
+      "card_name": "IOB ZET Credit Card",
+      "bank": "Indian Overseas Bank",
+      "bank_slug": "indian-overseas-bank",
+      "card_slug": "iob-zet-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.7,
+      "reason": "Direct competitor from Indian Overseas Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_bank_idfc_first_wow_black_credit_card",
+      "card_name": "FIRST WOW! Black Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-wow-black-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 750,
+      "overall_rating": 4.22,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.22/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_scapia_credit_card",
+      "card_name": "Federal Bank Scapia Credit Card",
+      "bank": "Federal Bank / Scapia",
+      "bank_slug": "federal-bank-scapia",
+      "card_slug": "federal-bank-scapia-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.46,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.46/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Resident: Indian"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-1-cashback-499",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual 1% Cashback ₹499",
+      "summary": "FIRST EARN Virtual 1% Cashback ₹499",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-fd-backed-1-cashback",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "summary": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-zero-forex-promos-weekend-movie-tripstacc",
+      "bank": "IDFC FIRST Bank",
+      "title": "Zero Forex Promos & Weekend Movie / Tripstacc Benefits",
+      "summary": "Buy-1-Get-1 movie ticket perks on District/BookMyShow plus instant flight/hotel discounts via Tripstacc and IDFC FIRST Reward offers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "targeted"
+    }
+  ]
+}

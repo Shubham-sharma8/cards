@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "card_id": "utkarsh_bank_utkarsh_eternal_credit_card",
+    "card_name": "Utkarsh Eternal Credit Card",
+    "bank": "Utkarsh Small Finance Bank",
+    "bank_slug": "utkarsh-small-finance-bank",
+    "card_slug": "utkarsh-eternal-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Fuel",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/utkarsh-small-finance-bank/utkarsh-eternal-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#A17C4A",
+      "secondary_hex": "#A8A757",
+      "wash_hex": "#EFEAE1",
+      "soft_bg_hex": "#F7F3EF",
+      "border_hex": "#EAE2D7",
+      "ink_on_soft_hex": "#7C6039",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.utkarsh.bank.in/personal/cards/credit-cards",
+    "mitc_pdf_url": "https://www.utkarsh.bank.in/xsite/assests/personal_credit_card/Credit_Card_MITC.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": true,
+    "is_fd_backed": true,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 1,000 - 2,999",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "entry",
+      "eternal",
+      "fd",
+      "finance",
+      "fuel",
+      "level",
+      "miles",
+      "secured",
+      "small",
+      "travel",
+      "utkarsh"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 1.25,
+    "accelerated_reward_rate_pct": 1.25,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "1.25% cashback on other eligible spends",
+      "Low forex markup fee of 3%",
+      "1% off on fuel surcharge waiver on all fuel spends on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 400",
+      "Save up to Rs. 5,200 on fuel spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.25,
+      "amazon_flipkart_myntra": 1.25,
+      "dining_swiggy_zomato": 1.25,
+      "groceries_quick_commerce": 1.25,
+      "travel_flights_hotels": 1.25,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -2.88,
+      "offline_general_other": 1.25
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 1999,
+      "annual_fee_with_gst_inr": 2358.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1% off on fuel surcharge waiver on all fuel spends on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 400",
+        "Annual fee will be waived on spending min. Rs. 1.5 Lakh in an anniversary year",
+        "Save up to Rs. 5,200 on fuel spends"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 1999,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.0,
+    "apr_annual_pct": 36.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "Rs. 500, along with interest payable on the remaining outstanding card balance"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Utkarsh Eternal Credit Card is available in both secured and unsecured variants. Cardholders who are not eligible for the unsecured card can apply for the secured version by opening a fixed deposit of Rs. 25,000. The card offers 1.25% cashback on eligible spends and charges a forex markup fee of 3% on international transactions. It also offers fuel surcharge benefits that can help cardholders save on fuel costs over time. However, aside from these features, the card offers few additional benefits or lifestyle perks. Overall, it is a basic credit card suitable for those looking to start their credit journey.",
+    "highlights": [
+      "1.25% cashback on other eligible spends",
+      "Low forex markup fee of 3%",
+      "1% off on fuel surcharge waiver on all fuel spends on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 400"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1% off on fuel surcharge waiver on all fuel spends on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 400",
+      "Annual fee will be waived on spending min. Rs. 1.5 Lakh in an anniversary year",
+      "Save up to Rs. 5,200 on fuel spends"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are new-to-credit and want to earn cashback on your daily spends",
+      "You are not eligible for an unsecured credit card, and you want to start your journey with a basic secured credit card",
+      "You want to avail a low forex markup fee card for your international spends",
+      "You want to save on your fuel spends"
+    ],
+    "faqs": [
+      {
+        "q": "Does the card offer cashback on all transactions?",
+        "a": "The card offers 1.25% cashback on eligible spends. However, not all transactions may qualify for cashback. Categories such as fuel purchases, cash withdrawals, balance transfers, or other excluded transactions may not earn rewards."
+      },
+      {
+        "q": "Is the Utkarsh Eternal Credit Card suitable for international usage?",
+        "a": "The card can be used for international transactions and carries a forex markup fee of 3% on foreign currency spends."
+      },
+      {
+        "q": "How does the fuel surcharge waiver benefit work?",
+        "a": "Cardholders can get a 1% fuel surcharge waiver on fuel transactions between Rs. 400 and Rs. 5,000. The maximum benefit is capped at Rs. 400. Fuel purchases below or above the eligible transaction range may not qualify for the surcharge waiver benefit."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.33,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 2.5,
+      "Fuel Benefits": 2.5,
+      "Lounge Access": 2.5,
+      "cashback": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from Utkarsh Small Finance Bank suited for travel & miles users.",
+    "pros": [
+      "1.25% cashback on other eligible spends",
+      "Low forex markup fee of 3%",
+      "Available in both secured and unsecured variants",
+      "Save up to Rs. 5,200 on fuel spends"
+    ],
+    "cons": [
+      "No airport lounge benefits",
+      "High annual fee"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "option from Utkarsh Small Finance Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.33,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Utkarsh Small Finance Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "amex_bank_membership_rewards_credit_card",
+      "card_name": "American Express Membership Rewards® Credit Card",
+      "bank": "American Express",
+      "bank_slug": "american-express",
+      "card_slug": "american-express-membership-rewards-credit-card",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.12,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.12/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.42/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

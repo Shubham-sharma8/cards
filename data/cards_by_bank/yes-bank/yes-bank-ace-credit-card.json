@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "card_id": "yes_bank_prosperity_reward_plus_credit_card",
+    "card_name": "YES BANK ACE Credit Card",
+    "bank": "YES BANK",
+    "bank_slug": "yes-bank",
+    "card_slug": "yes-bank-ace-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Fuel",
+    "categories": [
+      "Fuel",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/yes-bank/yes-bank-ace-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#408691",
+      "secondary_hex": "#50739F",
+      "wash_hex": "#E4EBEA",
+      "soft_bg_hex": "#EEF4F5",
+      "border_hex": "#D5E4E7",
+      "ink_on_soft_hex": "#346D76",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+    "mitc_pdf_url": "https://www.yesbank.in/pdf?name=ybl_mitc_pdf.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 62500,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Regular petrol",
+      "diesel commuters matching the card's partner pump brand (BPCL",
+      "IOCL",
+      "HPCL)",
+      "Rs. 4,000 – Rs. 15,000 fuel/month"
+    ],
+    "requirement_keywords": [
+      "ace",
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "fuel",
+      "groceries",
+      "movies",
+      "online",
+      "shopping",
+      "yes"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "2X reward points on online spends",
+      "3X reward points on offline spends & select categories",
+      "3X reward points on online spends at dining, travel, fashion and healthcare",
+      "5X reward points on offline spends at dining, travel, fashion and healthcare",
+      "1% fuel surcharge waiver, up to Rs. 125 per month, on fuel spends worth Rs. 400 to Rs. 5,000",
+      "4X reward points on online spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 2.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 2.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 3.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 125,
+      "online_shopping_general": 1250
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 499,
+      "annual_fee_with_gst_inr": 588.82,
+      "fee_waiver_spend_inr": 50000,
+      "monthly_spend_for_waiver_inr": 4167,
+      "milestone_slabs": [
+        "2 YES Rewardz Points per Rs. 200 on select merchant spends",
+        "Joining fee reversed on spending Rs. 5,000 within one month of card setup",
+        "Annual fee reversed on spending Rs. 50,000 in a year",
+        "1% fuel surcharge waiver, up to Rs. 125 per month, on fuel spends worth Rs. 400 to Rs. 5,000"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 50000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.99,
+    "apr_annual_pct": 47.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 100 to Rs. 500",
+        "late_fee_inr": "Rs. 150"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 500 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 5,000 to Rs. 20,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 20,000",
+        "late_fee_inr": "Rs. 1,000"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "YES Bank ACE Credit Card is an entry-level credit card best suited for earning reward points on everyday spends. The card offers **4X rewards (8 points per Rs. 200 spent) on online shopping**. Besides this, cardholders can earn 2 points per Rs. 200 on select merchant spends and **2X reward points on other offline spends**. What sets this card apart is that, in addition to the regular rewards program, cardholders can earn **up to 5X reward points on their spends through subscription plans**. Although these subscription plans charge an annual fee of up to Rs. 2,000, they can help you save significantly on your everyday expenses. Additional benefits like joining and annual fee reversal and a fuel surcharge waiver further add to the card’s overall value. This card is a suitable option for new to credit individuals who are looking to maximize their benefits on both online and offline spends.",
+    "highlights": [
+      "8 YES Rewardz Points per Rs. 200 spent on online shopping, up to 5,000 points per month",
+      "4 YES Rewardz Points per Rs. 200 spent on offline shopping",
+      "2 YES Rewardz Points per Rs. 200 on select merchant spends",
+      "Annual Fee: Rs. 1,000"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "2 YES Rewardz Points per Rs. 200 on select merchant spends",
+      "Joining fee reversed on spending Rs. 5,000 within one month of card setup",
+      "Annual fee reversed on spending Rs. 50,000 in a year",
+      "1% fuel surcharge waiver, up to Rs. 125 per month, on fuel spends worth Rs. 400 to Rs. 5,000"
+    ],
+    "dining_benefits": [
+      "3X reward points on online spends at dining, travel, fashion and healthcare",
+      "5X reward points on offline spends at dining, travel, fashion and healthcare"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for an entry-level credit card primarily focused on reward points",
+      "You frequently shop online and want to maximize benefits through accelerated rewards",
+      "You can spend Rs. 50,000 in a year to avail the annual fee waiver",
+      "You want to earn accelerated rewards on everyday spends via subscription plans"
+    ],
+    "faqs": [
+      {
+        "q": "My credit score is 350. Can I apply for YES Bank ACE Credit Card?",
+        "a": "If your credit score is above 750, then there are high chances that your application for YES Bank ACE Credit Card will be approved. But if your credit score is 350, which is considered to be poor, some issuers might reject your application."
+      },
+      {
+        "q": "Is there a fuel surcharge fee on YES Bank ACE Credit Card?",
+        "a": "No, YES Bank ACE Credit Card does not charge a fuel surcharge fee on your fuel spends between Rs. 400 and Rs. 5,000. You can avail a maximum waiver of Rs. 125 per month."
+      },
+      {
+        "q": "How can I apply for YES Bank ACE Credit Card?",
+        "a": "You can apply online by visiting the official website of YES Bank and submitting a duly filled application form along with relevant documents. You can also apply offline by visiting the nearest branch of the bank and submitting the application form in person."
+      },
+      {
+        "q": "How much cash advance fee is charged on YES Bank ACE Credit Card?",
+        "a": "If you have YES Bank ACE Credit Card, you will have to pay a cash advance fee of 2.5% of the transacted amount or a minimum of Rs. 300 (whichever is higher) which will be billed in the next monthly statement. The transaction fee is subject to change at the sole discretion of the bank."
+      },
+      {
+        "q": "Can I make YES Bank ACE Credit Card bill payment via net banking?",
+        "a": "Yes, if you are a YES Bank account holder, you can easily make credit card bill payment through net banking."
+      },
+      {
+        "q": "I am 20 years old. Am I eligible to apply for YES Bank ACE Credit Card?",
+        "a": "No, to apply for YES ACE Credit Card, you must be between 21 to 60 years old."
+      },
+      {
+        "q": "What are the benefits of YES Bank ACE Credit Card?",
+        "a": "YES Bank ACE Credit Card is primarily a rewards-focused credit card. It offers 3X rewards on online spends, 2X rewards on offline spends, and a base reward rate of 2 points per Rs. 200 spent on select merchant categories. In addition to this, the card comes with basic benefits such as joining & annual fee waiver, fuel surcharge waiver, and more."
+      },
+      {
+        "q": "Does YES Bank ACE Credit Card offer lounge access benefits?",
+        "a": "No, YES Bank ACE Credit Card does not offer any lounge access benefits. However, it allows you to save on your online travel spends by offering accelerated reward points on online transactions."
+      },
+      {
+        "q": "Is YES Bank ACE Credit Card available in RuPay or Visa?",
+        "a": "YES Bank ACE Credit Card is available in both RuPay and Visa variants. You can choose the variant based on your eligibility & preference and earn benefits on both online & offline transactions."
+      },
+      {
+        "q": "What is the minimum credit limit of YES Bank ACE Credit Card?",
+        "a": "The credit limit for YES Bank ACE Credit Card is determined by the bank after assessing several factors, such as your monthly income, credit score, repayment history, and more. The final credit limit will be communicated to you once your application is approved."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.41,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Shopping": 3.5,
+      "Lifestyle Benefits": 3.0,
+      "rewards": 3.0,
+      "shopping": 3.5,
+      "lifestyle_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from YES BANK suited for fuel users.",
+    "pros": [
+      "4X reward points on online spends",
+      "Additional reward points through subscription plans",
+      "Joining and annual fee reversal with easily achievable spending milestone"
+    ],
+    "cons": [
+      "No travel or lifestyle-related benefits",
+      "No reward points on rent, fuel, and UPI transactions"
+    ],
+    "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
+    "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",
+    "recommended_monthly_spend_inr": "Rs. 4,000 – Rs. 15,000 fuel/month",
+    "verdict": "option from YES BANK suited for fuel users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.41,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around YES BANK Fuel cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Focus spends on partner fuel pump swipes (3.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹50,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "High",
+    "devaluation_risk_score": 7,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Repeated lounge & RP devaluations (up to Rs. 1L/qtr spend for domestic lounges; Nov 2026 Reserve/First cut)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Direct competitor from Federal Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_swiggy_ornge_hdfc_credit_card",
+      "card_name": "Swiggy Ornge HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "swiggy-ornge-hdfc-bank-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.25,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.25/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.42/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 62500,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age Requirement: 21 to 60 years"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "yes-bank-yes-rewards-bookmyshow-upi-merchant-perks",
+      "bank": "YES BANK",
+      "title": "YES Rewards & BookMyShow / UPI Merchant Perks",
+      "summary": "Up to 25% off on BookMyShow movie tickets, accelerated reward points on online shopping, and UPI Scan & Pay offers on Kiwi / ACE.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "card_id": "rbl_bank_shoprite_credit_card",
+    "card_name": "RBL Shoprite Credit Card",
+    "bank": "RBL Bank",
+    "bank_slug": "rbl-bank",
+    "card_slug": "rbl-shoprite-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Dining, Groceries & Movies",
+    "categories": [
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/rbl-bank/rbl-shoprite-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#194585",
+      "secondary_hex": "#292895",
+      "wash_hex": "#DFE3E8",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CCD6E4",
+      "ink_on_soft_hex": "#194585",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+    "mitc_pdf_url": "https://webassets.rbl.bank.in/document/credit-cards/tnc-shoprite-credit-card.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "RBL Bank customers seeking dining",
+      "groceries & movies rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "groceries",
+      "movies",
+      "online",
+      "rbl",
+      "shopping",
+      "shoprite"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.25,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "20 reward points for every Rs. 100 spent on grocery shopping",
+      "Capped at maximum 1,000 reward points per month",
+      "1 reward point for every Rs. 100 on other spends",
+      "Value of 1 reward point = Rs. 0.25",
+      "Accumulated reward points are redeemable at https://www.rblrewards.com",
+      "Fuel Surcharge Waiver :"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.25,
+      "amazon_flipkart_myntra": 5.0,
+      "dining_swiggy_zomato": 0.25,
+      "groceries_quick_commerce": 5.0,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 250,
+      "amazon_flipkart_myntra": 250,
+      "dining_swiggy_zomato": 250,
+      "groceries_quick_commerce": 250,
+      "travel_flights_hotels": 250,
+      "upi_scan_and_pay": 250,
+      "utilities_bills_telecom": 250
+    },
+    "monthly_capping_rules": [
+      "Capped at maximum 1,000 reward points per month"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1 reward point for every Rs. 100 on other spends"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.99,
+    "apr_annual_pct": 47.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "12.5% of the outstanding amount (Min. Rs. 5"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "RBL Bank Shoprite Credit Card is an entry-level card with a low annual fee of Rs. 500. It covers some everyday categories, like groceries, movies and shopping in its reward program, making it a suitable choice for beginners looking for multi-category benefits. Card users can save up to 5% on grocery shopping and 10% on BookMyShow movie tickets multiple times a year. Thus, a good choice if you majorly spend on these categories. However, due to a low overall reward rate, it might not be a suitable choice for people who like spending beyond the accelerated categories and are looking for a high-reward rate card for all-round benefits.",
+    "highlights": [
+      "20 reward points for every Rs. 100 spent on grocery shopping",
+      "Capped at maximum 1,000 reward points per month",
+      "1 reward point for every Rs. 100 on other spends"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1 reward point for every Rs. 100 on other spends"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "Discount on movie ticket bookings"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently spend on grocery shopping",
+      "You frequently go out for movies",
+      "You own another credit card with a high reward rate"
+    ],
+    "faqs": [
+      {
+        "q": "What are the benefits of RBL Shoprite credit card?",
+        "a": "RBL Shoprite credit card offers up to 20 reward points on every Rs. 100 spent, along with up to 10% off on BookMyShow movie tickets, 1% fuel surcharge waiver and spend-based annual fee waiver. You can also avail a joining bonus of 2,000 reward points using this card."
+      },
+      {
+        "q": "Is RBL Shoprite credit card lifetime free?",
+        "a": "No, RBL Shoprite credit card is not lifetime free. It charges an annual fee of Rs. 500."
+      },
+      {
+        "q": "Is Shoprite credit card Rupay or Visa?",
+        "a": "RBL Shoprite credit card is available in RuPay, Mastercard as well as Visa network variants."
+      },
+      {
+        "q": "Does the RBL Shoprite credit card offers lounge access?",
+        "a": "No, RBL Shoprite credit card does not offer any complimentary airport lounge access to the cardholders."
+      },
+      {
+        "q": "Is RBL Shoprite credit card good or bad?",
+        "a": "RBL Shoprite credit card is a good option for those looking for a low annual fee rewards credit card with accelerated savings on grocery spends and movie discount offers. However, if you wish to get a card with benefits inclined towards other spending categories like travel, dining, etc. then this one might not be the right choice for you."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.59,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Movies": 3.0,
+      "Rewards": 2.5,
+      "movies": 3.0,
+      "rewards": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from RBL Bank suited for dining, groceries & movies users.",
+    "pros": [
+      "Accelerated rewards on grocery shopping",
+      "Discount on movie ticket bookings"
+    ],
+    "cons": [
+      "General reward rate is low",
+      "Capping on accelerated benefits",
+      "Limited lifestyle benefits"
+    ],
+    "best_for_whom": "RBL Bank customers seeking dining, groceries & movies rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from RBL Bank suited for dining, groceries & movies users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.59,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around RBL Bank Dining, Groceries & Movies cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Capped at maximum 1,000 reward points per month"
+    ],
+    "optimization_tips": [
+      "Focus spends on Amazon/Flipkart/Myntra checkouts (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "indusind_bank_eazy_diner_indusind_bank_credit_card",
+      "card_name": "EazyDiner IndusInd Bank Signature Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "eazydiner-indusind-bank-signature-credit-card",
+      "annual_fee_inr": 2999,
+      "overall_rating": 4.25,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.25/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "axis_bank_ace_credit_card",
+      "card_name": "Axis Bank ACE Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-ace-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.26,
+      "reason": "Top-rated Cashback card in market with rating 4.26/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "rbl-bank-rbl-travel-dining-bookmyshow-weekend-offer",
+      "bank": "RBL Bank",
+      "title": "RBL Travel, Dining & BookMyShow Weekend Offers",
+      "summary": "Zero forex markup travel benefits on World Safari plus monthly BookMyShow discounts and fuel surcharge waivers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.rblbank.com/personal-banking/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

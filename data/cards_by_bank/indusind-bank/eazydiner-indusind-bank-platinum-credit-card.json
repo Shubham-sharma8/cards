@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "card_id": "indusind_bank_eazy_diner_indusind_platinum_credit_card",
+    "card_name": "EazyDiner IndusInd Bank Platinum Credit Card",
+    "bank": "IndusInd Bank",
+    "bank_slug": "indusind-bank",
+    "card_slug": "eazydiner-indusind-bank-platinum-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Lifetime Free",
+    "categories": [
+      "Lifetime Free",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/indusind-bank/eazydiner-indusind-bank-platinum-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#C54126",
+      "secondary_hex": "#D38E36",
+      "wash_hex": "#F4E3DD",
+      "soft_bg_hex": "#FAEEEB",
+      "border_hex": "#F2D5CF",
+      "ink_on_soft_hex": "#B23B22",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+    "mitc_pdf_url": "https://www.indusind.com/content/dam/indusind-corporate/Other/welcomekit/EazyDiner-platinum-MITC.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "IndusInd Bank customers seeking lifetime free rewards & bank-specific discount offers",
+      "Any (LTF keeper)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "eazydiner",
+      "free",
+      "groceries",
+      "indusind",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "movies",
+      "platinum",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.14,
+    "accelerated_reward_rate_pct": 0.4,
+    "point_value_inr_default": 0.2,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.20"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "3 months EazyDiner Prime membership worth Rs. 1,095 with discount of up to 50% on dining at 2,000+ partner restaurants on joining",
+      "2X EazyPoints on EazyDiner spends via EazyDiner Prime membership, redeemable against hotel stays, meals & exclusive restaurant events",
+      "Extra 20% off up to Rs. 500 on payment via PayEazy (valid for up to three times every month)",
+      "2 reward points per Rs. 100 spent, except fuel, insurance, rent, utility and government spends",
+      "0.7 reward points per Rs. 100 on insurance, rent, utility and Government spends.",
+      "1 Reward Point = Rs. 0.20, valid up to 1 year and redeemable via PayEazy for restaurant bills"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.14,
+      "amazon_flipkart_myntra": 0.14,
+      "dining_swiggy_zomato": 3.0,
+      "groceries_quick_commerce": 0.14,
+      "travel_flights_hotels": 0.28,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.4,
+      "fuel": 0.4,
+      "insurance": 0.4,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.99,
+      "offline_general_other": 0.14
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "1 Reward Point = Rs. 0.20, valid up to 1 year and redeemable via PayEazy for restaurant bills"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "2X EazyPoints on EazyDiner spends via EazyDiner Prime membership, redeemable against hotel stays, meals & exclusive restaurant events",
+        "3-month EazyDiner Prime membership renewal on spending Rs. 30,000 in every 90 days.",
+        "2 reward points per Rs. 100 spent, except fuel, insurance, rent, utility and government spends",
+        "0.7 reward points per Rs. 100 on insurance, rent, utility and Government spends."
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.83,
+    "apr_annual_pct": 46.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 350"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 550"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "EazyDiner IndusInd Bank Platinum Credit Card is the base variant of the co-branded credit cards IndusInd Bank offers with EazyDiner—the other one being EazyDiner IndusInd Bank Signature Credit Card. While both cards are designed to enhance the dining experience through complimentary EazyDiner Membership and additional discounts at 2,000+ partner restaurants, the base variant is a more suitable option for beginners seeking a lifetime free credit card with dining benefits. For a zero annual fee, the card offers exceptional benefits for those who dine out several times in a month. Cardholders can save up to 50% on their dining bills and can earn extra via 2x EazyPoints, redeemable against free meals and hotel bookings. Note that the primary features on the card are centered around dining with limited benefits on other categories. Thus, it cannot be the sole card to rely on to derive overall savings on your lifestyle. However, it can be a good add-on to your wallet to save on your dining expenses if you have other existing credit cards to cover up for where the card lacks. The good part, however, is that it covers some often excluded categories in its rewards program, like rent, utility, insurance, and government services.",
+    "highlights": [
+      "3 months EazyDiner Prime membership worth Rs. 1,095 with discount of up to 50% on dining at 2,000+ partner restaurants on joining",
+      "500 bonus EazyPoints as joining benefit",
+      "2X EazyPoints on EazyDiner spends via EazyDiner Prime membership, redeemable against hotel stays, meals & exclusive restaurant events"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "2X EazyPoints on EazyDiner spends via EazyDiner Prime membership, redeemable against hotel stays, meals & exclusive restaurant events",
+      "3-month EazyDiner Prime membership renewal on spending Rs. 30,000 in every 90 days.",
+      "2 reward points per Rs. 100 spent, except fuel, insurance, rent, utility and government spends",
+      "0.7 reward points per Rs. 100 on insurance, rent, utility and Government spends."
+    ],
+    "dining_benefits": [
+      "3 months EazyDiner Prime membership worth Rs. 1,095 with discount of up to 50% on dining at 2,000+ partner restaurants on joining",
+      "2X EazyPoints on EazyDiner spends via EazyDiner Prime membership, redeemable against hotel stays, meals & exclusive restaurant events"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "2 reward points per Rs. 100 spent, except fuel, insurance, rent, utility and government spends",
+      "0.7 reward points per Rs. 100 on insurance, rent, utility and Government spends.",
+      "Insurance : Complimentary Total Protect insurance cover."
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently dine out",
+      "You do not mind sticking to EazyDiner to maximize the benefits",
+      "You own another credit card with non-dining benefits"
+    ],
+    "faqs": [
+      {
+        "q": "What is the credit limit on this credit card?",
+        "a": "The card offers a minimum credit limit of Rs. 30,000, which may exceed as per the consumer’s profile."
+      },
+      {
+        "q": "Is EazyDiner membership offered to add-on cardholders?",
+        "a": "No, the EazyDiner membership on the card is offered only to primary credit cardholders."
+      },
+      {
+        "q": "How much can I save via the dining discount on PayEazy?",
+        "a": "The card offers an additional discount of 20% off up to Rs. 500 on payment of dining bills via PayEazy. This is valid for up to three times every month, implying a savings of Rs. 18,000 every year. This is valid on dine-in and take-away as well."
+      },
+      {
+        "q": "Does the card offer any benefits on fuel?",
+        "a": "The card offers a 1% fuel surcharge waiver on transactions ranging between Rs. 400 and Rs. 4,000. However, fuel transactions are excluded from rewards program."
+      },
+      {
+        "q": "What transactions are not considered for milestone and renewal benefits?",
+        "a": "Transactions such as ATM cash withdrawals, fees, interest and charges are not considered for calculation of these benefits."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.48,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Dining Benefits": 3.5,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from IndusInd Bank suited for lifetime free users.",
+    "pros": [
+      "Rewards on often excluded categories",
+      "No capping on discount earning",
+      "Up to 50% off on dining bills",
+      "Redemption against free meals",
+      "Lifetime free"
+    ],
+    "cons": [
+      "EazyDiner membership is spend-based",
+      "Low redemption value",
+      "Limited lifestyle benefits"
+    ],
+    "best_for_whom": "IndusInd Bank customers seeking lifetime free rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Any (LTF keeper)",
+    "verdict": "Lifetime Free option from IndusInd Bank suited for lifetime free users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.48,
+    "reddit_mentions": 2,
+    "sentiment_summary": "Community discussions around IndusInd Bank Lifetime Free cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "| Indusind EazyDiner Devaluation is here | u/Aaryan_manutf |",
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "1 Reward Point = Rs. 0.20, valid up to 1 year and redeemable via PayEazy for restaurant bills"
+    ],
+    "optimization_tips": [
+      "Focus spends on dining & food delivery (3.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low",
+    "devaluation_risk_score": 3,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "indusind-bank-make-the-most-out-of-your-reward-points-by-us",
+      "bank": "IndusInd Bank",
+      "title": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you",
+      "summary": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you shop.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "indusind-bank-eazydiner-culinary-treats-flight-movie-priv",
+      "bank": "IndusInd Bank",
+      "title": "EazyDiner Culinary Treats & Flight/Movie Privileges",
+      "summary": "Guaranteed dining discounts at EazyDiner partner restaurants, BOGO movie perks via BookMyShow, and zero-markup forex promos on Tiger/Avios.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

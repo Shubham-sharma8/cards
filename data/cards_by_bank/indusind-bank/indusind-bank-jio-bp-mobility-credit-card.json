@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "card_id": "indusind_bank_indusind_jio_bp_mobility_plus_credit_card",
+    "card_name": "IndusInd Bank Jio-bp Mobility+ Credit Card",
+    "bank": "IndusInd Bank",
+    "bank_slug": "indusind-bank",
+    "card_slug": "indusind-bank-jio-bp-mobility-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "RuPay & UPI",
+      "Fuel"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/indusind-bank/indusind-bank-jio-bp-mobility-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#303255",
+      "secondary_hex": "#394E60",
+      "wash_hex": "#E2E1E3",
+      "soft_bg_hex": "#ECEDF0",
+      "border_hex": "#D1D2DA",
+      "ink_on_soft_hex": "#303255",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+    "mitc_pdf_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "bp",
+      "card",
+      "credit",
+      "fuel",
+      "indusind",
+      "jio",
+      "miles",
+      "mobility",
+      "rupay",
+      "scan-and-pay",
+      "travel",
+      "upi"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Air Miles / Travel Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "step_2": "** Enter the number of Smiles you wish to redeem"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "The accrued Smiles are redeemable at Jio-bp fuel stations, where 1 Smile = Rs. 0.25.",
+      "500 Smiles on the 1st Jio-bp fuel spend made within 30 days of card setup",
+      "24X7 service for roadside repair, vehicle towing and emergency assistance",
+      "1% fuel surcharge waiver across all Jio-bp fuel stations in India",
+      "Up to 4% value-back on fuel spends as rewards and surcharge waiver",
+      "Capping on reward earnings on Jio-bp fuel spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Capping on reward earnings on Jio-bp fuel spends"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "No joining fee is charged on spending min. Rs. 10,000 within 90 days of card setup",
+        "Rs. 200 wildbean cafe coupon on the 1st spend on wildbean cafe within 30 days of card setup",
+        "200 bonus Smiles on spending min. Rs. 4,000 on Jio-bp ecosystem in a month",
+        "2,000 bonus Smiles on reaching Rs. 1 lakh spends in a year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 0,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Rs. 499 + applicable taxes (Nil on spending min. Rs. 10,000 within 90 days of card setup)",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.95,
+    "apr_annual_pct": 47.4,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 101 and Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 501 and Rs. 1,000",
+        "late_fee_inr": "Rs. 350"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 1,001 and Rs. 10,000",
+        "late_fee_inr": "Rs. 550"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 10,001 and Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 25,001 and Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from IndusInd Bank suited for travel & miles users.",
+    "highlights": [
+      "12 Smiles: On Jio-bp, including diesel, petrol, Castrol lubes, wildbean cafe and Jio-bp convenience store, up to 1,200 Smiles per month",
+      "5 Smiles: On groceries, supermarket and dining",
+      "2 Smiles: On all other eligible spends"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "No joining fee is charged on spending min. Rs. 10,000 within 90 days of card setup",
+      "Rs. 200 wildbean cafe coupon on the 1st spend on wildbean cafe within 30 days of card setup",
+      "200 bonus Smiles on spending min. Rs. 4,000 on Jio-bp ecosystem in a month",
+      "2,000 bonus Smiles on reaching Rs. 1 lakh spends in a year"
+    ],
+    "dining_benefits": [
+      "5 Smiles: On groceries, supermarket and dining",
+      "Accelerated rewards on grocery, dining and supermarket"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for a co-branded fuel credit card offering reward redemption against fuel purchases",
+      "You spend considerably on fuel purchase every month and prefer to get Jio-bp fuel",
+      "You want a credit card without any annual fee to minimise card cost",
+      "You can maximise your savings by meeting the spending conditions for milestone benefits"
+    ],
+    "faqs": [
+      {
+        "q": "How can I avail complimentary roadside assistance service using IndusInd Jio-bp Mobility+ Credit Card?",
+        "a": "You can avail the free roadside assistance service with IndusInd Bank Jio-bp Mobility+ Credit Card by calling on the 24X7 toll free number 18005713981."
+      },
+      {
+        "q": "Can I earn reward points on all fuel spends using IndusInd Jio-bp Mobility+ Credit Card?",
+        "a": "No, you can earn reward points, i.e. Smiles, only on fuel purchased at Jio-bp fuel stations using this IndusInd Bank fuel credit card."
+      },
+      {
+        "q": "Can I make international purchases using IndusInd Bank Jio-bp Mobility+ Credit Card?",
+        "a": "Yes, you can use IndusInd Jio-bp Mobility+ Credit Card for international spends by enabling international transactions. However, take note that a forex mark-up fee of 3.5% will also apply on such transactions."
+      },
+      {
+        "q": "How can I check my earned Smiles (reward points) balance using IndusInd Jio-bp Mobility+ Credit Card?",
+        "a": "You can check your accrued Smiles balance by either sending ‘Hi’ to 83560 17100 on WhatsApp using your registered mobile number or on the My Jio-bp App."
+      },
+      {
+        "q": "What is Jio-bp loyalty program?",
+        "a": "Jio-bp loyalty program is called Jio-bp 4ever Loyalty Program under which you can earn loyalty reward points called Smiles on every spend made at Jio-bp fuel stations, including spends on fuel, convenience store, wildbean cafe, etc. These Smiles can be redeemed at Jio-bp fuel stations up to 36 months from their accrual."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.41,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Fuel Benefits": 3.5,
+      "Milestone Benefits": 3.0,
+      "rewards": 3.0,
+      "milestone_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IndusInd Bank suited for travel & miles users.",
+    "pros": [
+      "Up to 4% value-back on fuel spends as rewards and surcharge waiver",
+      "Accelerated rewards on grocery, dining and supermarket",
+      "Up to 200 bonus Smiles every month",
+      "Up to 4,000 extra Smiles as annual milestone bonus",
+      "No annual fee charged"
+    ],
+    "cons": [
+      "Low reward redemption value",
+      "Capping on reward earnings on Jio-bp fuel spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from IndusInd Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.41,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IndusInd Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Capping on reward earnings on Jio-bp fuel spends"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low",
+    "devaluation_risk_score": 3,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "union_bank_of_india_rupay_select_credit_card",
+      "card_name": "Union Bank of India Rupay Select Credit Card",
+      "bank": "Union Bank of India",
+      "bank_slug": "union-bank-of-india",
+      "card_slug": "union-bank-of-india-rupay-select-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 3.69,
+      "reason": "Direct competitor from Union Bank of India at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.42/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "sbi_bank_sbi_bpcl_credit_card_octane",
+      "card_name": "BPCL SBI Card Octane",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "bpcl-sbi-card-octane",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.4,
+      "reason": "Top-rated Fuel card in market with rating 4.4/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "indusind-bank-make-the-most-out-of-your-reward-points-by-us",
+      "bank": "IndusInd Bank",
+      "title": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you",
+      "summary": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you shop.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "indusind-bank-eazydiner-culinary-treats-flight-movie-priv",
+      "bank": "IndusInd Bank",
+      "title": "EazyDiner Culinary Treats & Flight/Movie Privileges",
+      "summary": "Guaranteed dining discounts at EazyDiner partner restaurants, BOGO movie perks via BookMyShow, and zero-markup forex promos on Tiger/Avios.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

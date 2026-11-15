@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "card_id": "au_small_finance_bank_altura_plus_credit_card",
+    "card_name": "AU Altura Plus Credit Card",
+    "bank": "AU Small Finance Bank",
+    "bank_slug": "au-small-finance-bank",
+    "card_slug": "au-altura-plus-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Lifetime Free",
+      "Fuel",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/au-small-finance-bank/au-altura-plus-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#184381",
+      "secondary_hex": "#272691",
+      "wash_hex": "#DFE3E8",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CCD6E3",
+      "ink_on_soft_hex": "#184381",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.au.bank.in/personal-banking/credit-cards",
+    "mitc_pdf_url": "https://www.au.bank.in/content/dam/aubank/in/en/pdf/credit-card/MITC\\(with-Schedule-of-Charges\\).pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "altura",
+      "au",
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "finance",
+      "free",
+      "fuel",
+      "irctc",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "miles",
+      "online",
+      "plus",
+      "railway",
+      "shopping",
+      "small",
+      "travel",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.5,
+    "accelerated_reward_rate_pct": 1.5,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "1.5% cashback on offline spends, capped at Rs. 100 per month",
+      "1 Reward Point on every Rs. 100 spent on retail purchases (Excluding fuel) via POS, once you reach the maximum cashback limit",
+      "2X Reward Points (i.e., 2 Reward Points for every Rs. 100) on all online transactions",
+      "1 Reward Point for every Rs. 100 spent on utility, telecom, and insurance category purchases",
+      "500 bonus Reward Points on every retail spend of Rs. 20,000 or more every month",
+      "1% fuel surcharge waiver up to Rs. 150 on a transaction between Rs. 400 and Rs. 5,000 on all fuel stations"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.5,
+      "amazon_flipkart_myntra": 1.5,
+      "dining_swiggy_zomato": 1.5,
+      "groceries_quick_commerce": 1.5,
+      "travel_flights_hotels": 1.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.25,
+      "fuel": 0.0,
+      "insurance": 0.25,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -2.63,
+      "offline_general_other": 1.5
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 100,
+      "amazon_flipkart_myntra": 100,
+      "dining_swiggy_zomato": 100,
+      "groceries_quick_commerce": 100,
+      "travel_flights_hotels": 100,
+      "upi_scan_and_pay": 100,
+      "utilities_bills_telecom": 100
+    },
+    "monthly_capping_rules": [
+      "1.5% cashback on offline spends, capped at Rs. 100 per month",
+      "1 Reward Point on every Rs. 100 spent on retail purchases (Excluding fuel) via POS, once you reach the maximum cashback limit"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Fuel transactions (reward points excluded)"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": 80000,
+      "monthly_spend_for_waiver_inr": 6667,
+      "milestone_slabs": [
+        "1.5% cashback on offline spends, capped at Rs. 100 per month",
+        "500 bonus Reward Points on every retail spend of Rs. 20,000 or more every month",
+        "Joining fee will be waived for a minimum retail spend of Rs. 20,000 within 90 days of card activation",
+        "Annual fee will be waived for a minimum retail spend of Rs. 80,000 in the previous year"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "summary": "8 complimentary railway lounge visits per year (2 per quarter)"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": 80000,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of Total Amount Due ( Minimum Rs. 10, Maximum Rs. 1,300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from AU Small Finance Bank suited for travel & miles users.",
+    "highlights": [
+      "1.5% cashback on offline spends, capped at Rs. 100 per month",
+      "1 Reward Point on every Rs. 100 spent on retail purchases (Excluding fuel) via POS, once you reach the maximum cashback limit",
+      "2X Reward Points (i.e., 2 Reward Points for every Rs. 100) on all online transactions"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1.5% cashback on offline spends, capped at Rs. 100 per month",
+      "500 bonus Reward Points on every retail spend of Rs. 20,000 or more every month",
+      "Joining fee will be waived for a minimum retail spend of Rs. 20,000 within 90 days of card activation",
+      "Annual fee will be waived for a minimum retail spend of Rs. 80,000 in the previous year"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "1 Reward Point for every Rs. 100 spent on utility, telecom, and insurance category purchases"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You regularly spend on retail and online shopping",
+      "You travel frequently and could benefit from railway lounge access",
+      "You want to earn rewards and cashback, especially on offline retail purchases"
+    ],
+    "faqs": [
+      {
+        "q": "What rewards does the AU Altura+ Credit Card offer?",
+        "a": "The card provides 1.5% cashback on offline retail spends, 2 Reward Points per Rs. 100 on online transactions, and 1 Reward Point per Rs. 100 on utility, telecom, and insurance payments."
+      },
+      {
+        "q": "Are there any milestone benefits?",
+        "a": "Yes, cardholders receive 500 bonus Reward Points for monthly retail spends of Rs. 20,000 or more. Milestone rewards are applied automatically after meeting the minimum spend requirement each month."
+      },
+      {
+        "q": "What are the lounge visits offered by AU Altura+ Credit Card?",
+        "a": "The card includes eight complimentary railway lounge visits per year. Access is limited to railway lounges and is not applicable to airport lounges or other travel facilities."
+      },
+      {
+        "q": "What are the fees and charges of AU Altura+ Credit Card?",
+        "a": "Joining and annual fees are Rs. 499 each, plus taxes. Finance charges are 3.75% per month, and late payment fees range from Rs. 10 to Rs. 1,300 depending on the outstanding amount."
+      },
+      {
+        "q": "Are there any fee waivers?",
+        "a": "The joining fee is waived for Rs. 20,000 spent within 90 days of activation, and the annual fee is waived if Rs. 80,000 was spent in the previous year."
+      },
+      {
+        "q": "Who is the AU Altura+ Credit Card suitable for?",
+        "a": "AU Altura+ Credit Card suits consumers who shop both online and offline, travel by train occasionally, and want basic cashback and reward points. It requires regular usage to fully utilize milestone benefits."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.62,
+    "editorial_rating": 3.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.5,
+      "Milestone Benefits": 3.0,
+      "rewards": 3.5,
+      "milestone_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from AU Small Finance Bank suited for travel & miles users.",
+    "pros": [
+      "2 Reward Points for every Rs. 100 spent on all online transactions",
+      "Comes with a low annual and joining fee of Rs. 499",
+      "8 complimentary railway lounge visits annually"
+    ],
+    "cons": [
+      "No complimentary airport lounge visits",
+      "1.5% cashback is capped at Rs. 100 per month",
+      "Milestone benefits apply on a min. spend at least Rs. 20,000 every month"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "Lifetime Free option from AU Small Finance Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.62,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around AU Small Finance Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "1.5% cashback on offline spends, capped at Rs. 100 per month",
+      "1 Reward Point on every Rs. 100 spent on retail purchases (Excluding fuel) via POS, once you reach the maximum cashback limit"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Tightened LIT, Zenith, Vetta & ixigo spend criteria after rapid 2023–2024 customer acquisition."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_assam_rifles_sentinel_credit_card",
+      "card_name": "Assam Rifles The SENTINEL BOBCARD",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "assam-rifles-the-sentinel-bobcard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.57,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "amex_bank_membership_rewards_credit_card",
+      "card_name": "American Express Membership Rewards® Credit Card",
+      "bank": "American Express",
+      "bank_slug": "american-express",
+      "card_slug": "american-express-membership-rewards-credit-card",
+      "annual_fee_inr": 4500,
+      "overall_rating": 4.12,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.12/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "au-small-finance-bank-au-swag-deals-travel-upi-cashback-promos",
+      "bank": "AU Small Finance Bank",
+      "title": "AU Swag Deals & Travel / UPI Cashback Promos",
+      "summary": "Zero forex markup & instant flight/train/hotel discounts on ixigo AU plus customisable milestone boosts on AU LIT & Zenith+.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.au.bank.in/personal-banking/offers",
+      "scope": "targeted"
+    }
+  ]
+}

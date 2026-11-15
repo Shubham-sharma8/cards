@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "card_id": "au_small_finance_bank_au_xcite_credit_card",
+    "card_name": "AU Xcite Credit Card",
+    "bank": "AU Small Finance Bank",
+    "bank_slug": "au-small-finance-bank",
+    "card_slug": "au-xcite-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/au-small-finance-bank/au-xcite-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#17677B",
+      "secondary_hex": "#204D84",
+      "wash_hex": "#DFE7E7",
+      "soft_bg_hex": "#EAF1F3",
+      "border_hex": "#CCDEE2",
+      "ink_on_soft_hex": "#17677B",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.au.bank.in/personal-banking/credit-cards",
+    "mitc_pdf_url": "https://www.au.bank.in/credit-cards/mitc\\(with-schedule-of-charges\\).pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "au",
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "finance",
+      "groceries",
+      "irctc",
+      "miles",
+      "movies",
+      "online",
+      "railway",
+      "shopping",
+      "small",
+      "travel",
+      "xcite"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.25,
+    "accelerated_reward_rate_pct": 3.75,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "15 Reward Points on every Rs. 100 spent on dining, movies, grocery, and departmental stores",
+      "3 Reward Points on every Rs. 100 spent online and offline",
+      "2 Reward Points on retail spend from the first month",
+      "1 Reward Point on every Rs. 100 on insurance, utility, and telecom",
+      "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 200 per month",
+      "15 Reward Points on every Rs. 100 spent on dining, movies, and more"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.75,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 3.75,
+      "groceries_quick_commerce": 3.75,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.25,
+      "fuel": 0.0,
+      "insurance": 0.25,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 200
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 249,
+      "annual_fee_with_gst_inr": 293.82,
+      "fee_waiver_spend_inr": 100000,
+      "monthly_spend_for_waiver_inr": 8333,
+      "milestone_slabs": [
+        "2 Reward Points on retail spend from the first month",
+        "Annual fee will be waived for spending Rs. 1 Lakh in a calendar year",
+        "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 200 per month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 0,
+      "summary": "Instead, it offers 8 complimentary railway lounge visits per year, with a maximum of 2 visits per quarter."
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 249,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 100000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of Total Amount Due (Minimum Rs. 10, Maximum Rs. 1300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "AU Xcite Credit Card is the entry-level card in the Xcite credit card range, designed for individuals looking for a rewards credit card with a low annual fee. The card offers 15 Reward Points per Rs. 100 spent on dining, grocery, departmental stores, and movies, 3 Reward Points per Rs. 100 on online and offline spends, and 2 Reward Points per Rs. 100 on other retail transactions. It also offers 8 complimentary railway lounge visits per year, making it suitable for those who frequently travel by train. Also, consumers can opt for the AU Xcite ACE Credit Card as it is suitable for individuals who regularly spend across everyday categories and want to earn more reward points while availing additional travel-related benefits.",
+    "highlights": [
+      "15 Reward Points on every Rs. 100 spent on dining, movies, grocery, and departmental stores",
+      "3 Reward Points on every Rs. 100 spent online and offline",
+      "2 Reward Points on retail spend from the first month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "2 Reward Points on retail spend from the first month",
+      "Annual fee will be waived for spending Rs. 1 Lakh in a calendar year",
+      "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 200 per month"
+    ],
+    "dining_benefits": [
+      "15 Reward Points on every Rs. 100 spent on dining, movies, grocery, and departmental stores",
+      "15 Reward Points on every Rs. 100 spent on dining, movies, and more"
+    ],
+    "movie_benefits": [
+      "15 Reward Points on every Rs. 100 spent on dining, movies, grocery, and departmental stores",
+      "15 Reward Points on every Rs. 100 spent on dining, movies, and more"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "1 Reward Point on every Rs. 100 on insurance, utility, and telecom"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for an entry-level credit card to build your credit history",
+      "You spend heavily on dining, movies, groceries, and departmental stores and want to earn reward points on them",
+      "You travel frequently via railways and want to own a card that offers railway lounge access"
+    ],
+    "faqs": [
+      {
+        "q": "Which spending categories earn the highest reward points on the AU Xcite Credit Card?",
+        "a": "Consumers can earn 15 Reward Points for every Rs. 100 spent on dining, grocery shopping, movies, and departmental stores. These are the cards highest reward categories, making it a good option for everyday spends."
+      },
+      {
+        "q": "How can I get the annual fee waived on AU Xcite Credit Card?",
+        "a": "The annual fee of Rs. 249 + taxes is waived if you spend Rs. 1 lakh or more in a calendar year using the card."
+      },
+      {
+        "q": "Does the AU Xcite Credit Card offer airport lounge access?",
+        "a": "No. The card does not offer complimentary airport lounge access. Instead, it offers 8 complimentary railway lounge visits per year, with a maximum of 2 visits per quarter."
+      },
+      {
+        "q": "Are insurance and utility bill payments eligible for reward points?",
+        "a": "Yes. Consumers can earn 1 Reward Point per Rs. 100 spent on eligible insurance premium payments, utility bills, and telecom transactions."
+      },
+      {
+        "q": "Can I convert large purchases into EMIs with AU Xcite Credit Card?",
+        "a": "Yes. Transactions worth Rs. 2,000 or more can be converted into EMIs. You can also club up to 20 billed or unbilled transactions for EMI conversion, subject to the banks terms and conditions."
+      },
+      {
+        "q": "Is AU Xcite Credit Card a good option for first-time credit card users?",
+        "a": "Yes. With its low annual fee, accelerated rewards on daily spending categories, railway lounge access, fuel surcharge waiver, and fee waiver milestone, AU Xcite Credit Card is a suitable option for first-time cardholders looking for value without paying a high annual fee."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.45,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Shopping": 3.0,
+      "Dining Benefits": 3.0,
+      "rewards": 3.0,
+      "shopping": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from AU Small Finance Bank suited for travel & miles users.",
+    "pros": [
+      "Low annual fee of Rs. 249",
+      "15 Reward Points on every Rs. 100 spent on dining, movies, and more",
+      "3 Reward Points on every Rs. 100 spent online and offline",
+      "8 complimentary railway lounge access every year"
+    ],
+    "cons": [
+      "No airport lounge visits"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from AU Small Finance Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.45,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around AU Small Finance Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Focus spends on dining & food delivery (3.8% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹100,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Tightened LIT, Zenith, Vetta & ixigo spend criteria after rapid 2023–2024 customer acquisition."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "axis_bank_axis_bank_cashback_credit_card",
+      "card_name": "Axis Bank Cashback Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-cashback-credit-card",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.2,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.2/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Top-rated Super-Premium card in market with rating 4.9/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "au-small-finance-bank-au-swag-deals-travel-upi-cashback-promos",
+      "bank": "AU Small Finance Bank",
+      "title": "AU Swag Deals & Travel / UPI Cashback Promos",
+      "summary": "Zero forex markup & instant flight/train/hotel discounts on ixigo AU plus customisable milestone boosts on AU LIT & Zenith+.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.au.bank.in/personal-banking/offers",
+      "scope": "targeted"
+    }
+  ]
+}

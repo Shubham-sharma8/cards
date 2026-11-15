@@ -1,0 +1,45 @@
+{
+  "bank": "OneCard / Co-branded",
+  "bank_slug": "onecard-co-branded",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_cards": 2,
+  "ltf_count": 1,
+  "rupay_upi_count": 0,
+  "domestic_lounge_count": 1,
+  "international_lounge_count": 1,
+  "railway_lounge_count": 0,
+  "golf_count": 1,
+  "zero_or_low_forex_count": 1,
+  "with_image_count": 2,
+  "official_lounge_programs": [],
+  "cards": [
+    {
+      "card_id": "credit_card_axis_bank_reserve_credit_card",
+      "card_name": "Axis Bank Reserve Credit Card",
+      "card_slug": "axis-bank-reserve-credit-card",
+      "primary_category": "Super-Premium",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 50000,
+      "overall_rating": 3.66,
+      "has_domestic_lounge": true,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/onecard-co-branded/axis-bank-reserve-credit-card.webp",
+      "json_file": "axis-bank-reserve-credit-card.json",
+      "md_file": "axis-bank-reserve-credit-card.md"
+    },
+    {
+      "card_id": "credit_card_onecard",
+      "card_name": "OneCard Credit Card",
+      "card_slug": "onecard-credit-card",
+      "primary_category": "Lifetime Free",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.5,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/onecard-co-branded/onecard-credit-card.webp",
+      "json_file": "onecard-credit-card.json",
+      "md_file": "onecard-credit-card.md"
+    }
+  ]
+}

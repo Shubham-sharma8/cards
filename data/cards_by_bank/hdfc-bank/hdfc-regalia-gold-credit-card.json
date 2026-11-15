@@ -1,0 +1,1079 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_hdfc_regalia_gold_credit_card",
+    "card_name": "HDFC Regalia Gold Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "hdfc-regalia-gold-credit-card",
+    "card_network": "Visa Signature / Mastercard",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/hdfc-regalia-gold-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#644321",
+      "secondary_hex": "#75702F",
+      "wash_hex": "#E8E3DC",
+      "soft_bg_hex": "#F1EEEB",
+      "border_hex": "#DDD6CE",
+      "ink_on_soft_hex": "#644321",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [
+      "https://www.cardexpert.in/hdfc-regalia-gold-credit-card-review/"
+    ],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC Regalia Gold Participating Airport Lounge List",
+        "url": "https://lms.hoi.in/lounge-list/hdfc-regalia-gold",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "source_type": "official_network_page"
+      },
+      {
+        "title": "Mastercard Participating Domestic Airport Lounges India PDF",
+        "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 1,000 - 2,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": 150000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "HDFC Imperia",
+      "Preferred customers climbing toward Infinia",
+      "DCB who spend Rs. 4L–8L",
+      "year incl. Myntra",
+      "Nykaa",
+      "Reliance Digital"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "gold",
+      "groceries",
+      "hdfc",
+      "lounge",
+      "low-forex",
+      "miles",
+      "movies",
+      "regalia",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "HDFC Reward Points",
+    "base_reward_rate_pct": 1.33,
+    "accelerated_reward_rate_pct": 6.66,
+    "point_value_inr_default": 0.5,
+    "point_value_inr_matrix": {
+      "gold_catalogue": "Rs. 0.65",
+      "flights_and_hotel_bookings": "Rs. 0.50",
+      "air_mile_conversion": "0.5 Air Mile",
+      "product_and_voucher_purchase": "Rs. 0.35",
+      "statement_credit": "Rs. 0.20"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5 reward points per Rs. 200 spent across all categories including insurance, utilities and education",
+      "5X reward points on spends at Nykaa, Myntra, Marks & Spencer and Reliance Digital, capped at 5,000 points per month across all brands",
+      "Up to 10X reward points on SmartBuy spends (Capped at 3,000 points per month for brand voucher purchases on SmartBuy and capped at 4,000 points per month overall, including brand vouchers)",
+      "Complimentary Swiggy One Membership with dining offers on credit card",
+      "5X rewards on Nykaa, Myntra, Marks & Spencer, and Reliance Digital"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.33,
+      "amazon_flipkart_myntra": 6.66,
+      "dining_swiggy_zomato": 1.33,
+      "groceries_quick_commerce": 1.33,
+      "travel_flights_hotels": 6.66,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 1.33,
+      "fuel": 0.0,
+      "insurance": 1.33,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -1.03,
+      "offline_general_other": 1.33
+    },
+    "monthly_category_caps_inr": {
+      "amazon_flipkart_myntra": 2500,
+      "travel_flights_hotels": 2000,
+      "utilities_bills_telecom": 2000,
+      "insurance": 2500
+    },
+    "monthly_capping_rules": [
+      "Base ~1.33% (4 RP/Rs.150 at Rs.0.50 SmartBuy travel); 5X on Myntra/Nykaa/M&S/Reliance Digital (cap 5,000 RP/mo); up to 10X SmartBuy (cap 4,000 RP/mo); Rent & Govt/Tax earn 0%."
+    ],
+    "category_caveats": {
+      "education_rent_govt": "0% on Rent and Government/Tax transactions per HDFC MITC.",
+      "insurance": "1.33% base RPs capped at 5,000 RP/month (~₹2,500 flight value) + 2,000 RP/day."
+    },
+    "excluded_categories": [],
+    "transfer_partners": [
+      "Accor (2:1)",
+      "Singapore Airlines (2:1)",
+      "British Airways (2:1)",
+      "Club ITC (2:1)",
+      "Air India (2:1)"
+    ],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 2500,
+      "annual_fee_inr": 2500,
+      "annual_fee_with_gst_inr": 2950.0,
+      "fee_waiver_spend_inr": 400000,
+      "monthly_spend_for_waiver_inr": 33333,
+      "milestone_slabs": [
+        "Up to 10X reward points on SmartBuy spends (Capped at 3,000 points per month for brand voucher purchases on SmartBuy and capped at 4,000 points per month overall, including brand vouchers)",
+        "Product and Voucher Purchase: Rs. 0.35",
+        "3 complimentary domestic lounge visits per quarter on min. Rs. 60,000 spends in the last quarter",
+        "Spend Rs. 1.5 Lakh in a quarter and get Rs. 1,500 vouchers from Marks and Spencer, Reliance Digital, Myntra or Marriott"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 12,
+      "visits_per_quarter": 3,
+      "spend_criteria": "Rs. 60,000 spend in previous calendar quarter (2026 devaluation from spend-free)",
+      "add_on_allowed": true,
+      "shared_limit": true,
+      "summary": "Up to 12 domestic lounge visits/yr subject to Rs. 60,000 quarterly spend requirement (updated 2026)"
+    },
+    "international": {
+      "program": "Priority Pass",
+      "visits_per_year": 6,
+      "spend_criteria": "Unlocked only after completing 4 retail transactions on card",
+      "add_on_allowed": true,
+      "guest_fee": "USD 27 + GST",
+      "summary": "6 complimentary international Priority Pass visits per year (unlocked post 4 txns)"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "hdfc_regalia_gold",
+        "title": "HDFC Regalia Gold Participating Airport Lounge List",
+        "url": "https://lms.hoi.in/lounge-list/hdfc-regalia-gold",
+        "secondary_url": "https://lms.hoi.in/lounge-list/hdfc-regalia-gold",
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 68,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "page_hdfc_lounge_guide",
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "secondary_url": null,
+        "source_type": "official_bank_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "visa_india_lounges",
+        "title": "Visa Participating Airport Lounges India PDF",
+        "url": "https://www.visa.co.in/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 99,
+        "local_pdf_path": "data/raw/lounges/pdfs/visa_india_lounges.pdf"
+      },
+      {
+        "program_id": "page_visa_lounge_offer",
+        "title": "Visa Network — Visa Lounge Offer",
+        "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
+        "secondary_url": null,
+        "source_type": "official_network_page",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "mastercard_india_lounges_pdf",
+        "title": "Mastercard Participating Domestic Airport Lounges India PDF",
+        "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": null
+      },
+      {
+        "program_id": "priority_pass_directory",
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "secondary_url": null,
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 0,
+        "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Bengaluru",
+        "lounge_name": "Kempegowda International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Navi Mumbai International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "Chhatrapati Shivaji Maharaj International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "Jaipur International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "Sardar Vallabhbhai Patel International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "Chaudhary Charan Singh Airport",
+        "terminal": "T3",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "Dr. Babasaheb Ambedkar International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Raipur",
+        "lounge_name": "Swami Vivekananda Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "Coimbatore International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Dehradun",
+        "lounge_name": "Jolly Grant Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "Cochin International Airport",
+        "terminal": "T3",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "Pune Airport",
+        "terminal": "T2",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "Indira Gandhi International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "Rajiv Gandhi International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "Manohar International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Bhubaneswar",
+        "lounge_name": "Biju Patnaik International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "Srinagar Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "Shaheed Bhagat Singh International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "Devi Ahilya Bai Holkar Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "Sri Guru Ram Dass Ji International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Varanasi",
+        "lounge_name": "Lal Bahadur Shastri Airport",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Trivandrum",
+        "lounge_name": "Trivandrum International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "Lokpriya Gopinath Bordoloi International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "Netaji Subhas Chandra Bose International Airport",
+        "terminal": "T2",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "Chennai International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "Goa International Airport",
+        "terminal": "T1",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Domestic Lounge East | Kempegowda International Airport | T1 | Domestic | Departure | Bengaluru | India |",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Domestic Lounge West PH1 | Kempegowda International Airport | T1 | Domestic | Departure | Bengaluru | India |",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Domestic Lounge West PH2 | Kempegowda International Airport | T1 | Domestic | Departure | Bengaluru | India |",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 International Lounge | Kempegowda International Airport | T2 | International | Departure | Bengaluru | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "| 080 Lounge | Kempegowda International Airport | T2 | Domestic | Departure | Bengaluru | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| Adani Lounge | Navi Mumbai International Airport | T1 | Domestic | Departure | Navi Mumbai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| Adani Lounge | Chhatrapati Shivaji Maharaj International Airport | T2 | Domestic | Departure | Mumbai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "| Adani Lounge | Jaipur International Airport | T1 | Domestic | Departure | Jaipur | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "| Adani Lounge - Domestic | Sardar Vallabhbhai Patel International Airport | T1 | Domestic | Departure | Ahmedabad | India |",
+        "terminal": "Domestic",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Lucknow",
+        "lounge_name": "| Adani Lounge (Domestic) | Chaudhary Charan Singh Airport | T3 | Domestic | Departure | Lucknow | India |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| Adani Lounge (erstwhile Oasis Lounge) | Chhatrapati Shivaji Maharaj International Airport | T1 | Domestic | Departure | Mumbai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Mumbai",
+        "lounge_name": "| Adani Silver Lounge | Chhatrapati Shivaji Maharaj International Airport | T2 | International | Departure | Mumbai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "| Airr Lounge | Dr. Babasaheb Ambedkar International Airport | T1 | Domestic | Departure | Nagpur | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Raipur",
+        "lounge_name": "| Airr Lounge - Domestic | Swami Vivekananda Airport | T1 | Domestic | Departure | Raipur | India |",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Coimbatore",
+        "lounge_name": "| Blackberry Lounge | Coimbatore International Airport | T1 | Domestic | Departure | Coimbatore | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Dehradun",
+        "lounge_name": "| Carnations lounge | Jolly Grant Airport | T1 | Domestic | Departure | Dehradun | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "| Earth Lounge | Cochin International Airport | T3 | International | Departure | Kochi | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Pune",
+        "lounge_name": "| Elysian Lounge | Pune Airport | T2 | Domestic | Departure | Pune | India |",
+        "terminal": "T2",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "| Encalm Lounge | Indira Gandhi International Airport | T2 | Domestic | Departure | Delhi | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Hyderabad",
+        "lounge_name": "| Encalm Lounge | Rajiv Gandhi International Airport | T1 | International | Departure | Hyderabad | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "| Encalm Lounge | Manohar International Airport | T1 | Domestic | Departure | North Goa | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Nagpur",
+        "lounge_name": "| Mandarin Lounge | Dr. Babasaheb Ambedkar International Airport | T1 | Domestic | Departure | Nagpur | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Srinagar",
+        "lounge_name": "| Pahun Lounge | Srinagar Airport | T1 | Domestic | Departure | Srinagar | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "| Primus Lounge | Shaheed Bhagat Singh International Airport | T2 | International | Departure | Chandigarh | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Indore",
+        "lounge_name": "| Primus Lounge | Devi Ahilya Bai Holkar Airport | T1 | Domestic | Departure | Indore | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "| Primus Lounge | Sri Guru Ram Dass Ji International Airport | T1 | Domestic | Departure | Amritsar | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Varanasi",
+        "lounge_name": "| Take off Bar and Lounge | Lal Bahadur Shastri Airport | T1 | Domestic | Departure | Varanasi | India |",
+        "terminal": "T1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "| The Lounge | Sardar Vallabhbhai Patel International Airport | T1 | Domestic | Departure | Ahmedabad | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Trivandrum",
+        "lounge_name": "| The Lounge (International) | Trivandrum International Airport | T1 | International | Departure | Thiruvananthapuram | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Guwahati",
+        "lounge_name": "| The Lounge GF | Lokpriya Gopinath Bordoloi International Airport | T1 | Domestic | Departure | Guwahati | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "| Travel Club | Netaji Subhas Chandra Bose International Airport | T2 | International | Departure | Kolkata | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "| Travel Club | Chennai International Airport | T1 | Domestic | Departure | Chennai | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "| Travel Club | Goa International Airport | T1 | Domestic | Departure | Goa | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "| Travel Club Lounge | Cochin International Airport | T1 | Domestic | Departure | Kochi | India |",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "hdfc_regalia_gold"
+      },
+      {
+        "city": "Agartala",
+        "lounge_name": "1 Agartala Airport Agartala Primus Lounge IXA1 Domestic Domestic Terminal Airside - Domestic Departures, Ground Level, after Security Hold A",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "2 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD01 Domestic Terminal 1 Terminal 1 (Near Boarding Gate No. 1) 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "3 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Silver Lounge-International AMD02 International Terminal 2 Terminal 2 Depar",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Ahmedabad",
+        "lounge_name": "4 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD04 Domestic Terminal 2 Terminal 2 Departure area First Floor 24Hr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Prayagraj",
+        "lounge_name": "5 Prayagraj Airport Allahabad / Prayagraj Zesto Execustive Lounge IXD Domestic Domestic Terminal Airside - Prayagraj Airport, Domestic Depar",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "9 Sri Guru Ram Dass Jee International Airport Amritsar Primus Lounge ATQ Domestic NA Airside - Domestic Departures. After Security Checks pr",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Amritsar",
+        "lounge_name": "10 Sri Guru Ram Dass Jee International Airport Amritsar The Airr Lounge ATQ6 International International Terminal Airside - International De",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "13 Kempegowda International Airport Bengaluru 080 Domestic Lounge BLR9 Domestic Terminal 2 Airside - Domestic and in transit Departures. Aft",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "14 Kempegowda International Airport Bengaluru 080 International Lounge BLR10 International Terminal 2 Airside - International Departures. Af",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "15 Kempegowda International Airport Bengaluru 080 Arrival BLR12 International/ Domestic Arrival Terminal 2 Landside - Ground Level, Arrivals",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "16 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 1 BLR101 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "17 Kempegowda International Airport Bengaluru 080 Domestic Lounge - West PH 2 BLR102 Domestic Terminal 1 Domestic Departure Terminal 1, Oppo",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bengaluru",
+        "lounge_name": "18 Kempegowda International Airport Bengaluru 080 Domestic Lounge - East BLR104 Domestic Terminal 1 Domestic Departure Terminal 1, Opposite ",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "19 Bhopal Raja Bhoj Bhopal Primus Lounge BHO Domestic Domestic Terminal Airside - Domestic Departures, Level 1, after Security Hold Area. 24",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chandigarh",
+        "lounge_name": "20 Chandigarh International Airport Chandigarh Primus Lounge IXC6 Domestic Domestic Terminal Airside - Domestic Departures. After Security H",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "24 Chennai International Airport Chennai Travel Club Lounge - T2 Terminal MAA02 International Terminal 1 New International Departure,Termina",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "26 Cochin International Airport Cochin Travel Club Lounge COK2 International Terminal 3",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Cochin",
+        "lounge_name": "27 Cochin International Airport Cochin Travel Club Lounge COK1 Domestic Terminal 1 2nd Floor, Domestic Security Holding Area 04:00 - 23:30 d",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Dibrugarh",
+        "lounge_name": "29 Dibrugarh Mohanbari Dibrugarh Primus Lounge DIB Domestic NA Airside: Dibrugarh airport, SHA, 1st floor, opposite gate 3 and 4 24 hours da",
+        "terminal": "Domestic",
+        "terminal_type": "Domestic",
+        "source_program_id": "visa_india_lounges"
+      },
+      {
+        "city": "Goa",
+        "lounge_name": "30 Manohar International Airport Goa Encalm Lounge GOX01 International Terminal 1 Encalm Lounge Dom T1 Departure, Level 2 24 Hours",
+        "terminal": "International",
+        "terminal_type": "International",
+        "source_program_id": "visa_india_lounges"
+      }
+    ],
+    "participating_lounges_count": 80
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 2500,
+    "annual_fee_inr": 2500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 400000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 2.0,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% of amount withdrawn or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Nil",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Solid core HDFC travel stepper toward Infinia, though HSBC TravelOne now beats it for pure miles & spend-free lounges.",
+    "highlights": [
+      "5 reward points per Rs. 200 spent across all categories including insurance, utilities and education",
+      "5X reward points on spends at Nykaa, Myntra, Marks & Spencer and Reliance Digital, capped at 5,000 points per month across all brands",
+      "Up to 10X reward points on SmartBuy spends (Capped at 3,000 points per month for brand voucher purchases on SmartBuy and capped at 4,000 points per month overall, including brand vouchers)"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Up to 10X reward points on SmartBuy spends (Capped at 3,000 points per month for brand voucher purchases on SmartBuy and capped at 4,000 points per month overall, including brand vouchers)",
+      "Product and Voucher Purchase: Rs. 0.35",
+      "3 complimentary domestic lounge visits per quarter on min. Rs. 60,000 spends in the last quarter",
+      "Spend Rs. 1.5 Lakh in a quarter and get Rs. 1,500 vouchers from Marks and Spencer, Reliance Digital, Myntra or Marriott"
+    ],
+    "dining_benefits": [
+      "Complimentary Swiggy One Membership with dining offers on credit card"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "5 reward points per Rs. 200 spent across all categories including insurance, utilities and education",
+      "Accidental air death cover worth Rs. 1 Crore",
+      "Credit Liability cover of up to Rs. 9 Lakh",
+      "Emergency overseas hospitalization of up to Rs. 15 Lakh"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are a high-spender and can make the most of rewards as well as milestone benefits",
+      "You frequently shop at Nykaa, Myntra, Marks & Spencer and Reliance Digital",
+      "You want versatile reward redemption options like air miles, products, vouchers, etc.",
+      "You value travel perks like lounge access, flight vouchers, MMT membership, etc.",
+      "You are looking for a card that offers good value-back on both online and offline spends"
+    ],
+    "faqs": [
+      {
+        "q": "How long are my reward points valid?",
+        "a": "HDFC Regalia Gold reward points are valid for 2 years from the date of accrual."
+      },
+      {
+        "q": "How can I avail the complimentary memberships?",
+        "a": "Once you pay the joining fee and meet other eligibility requirements, you can claim the complimentary memberships through SmartBuy (for Regalia Gold)."
+      },
+      {
+        "q": "Are there any restrictions on redeeming points for flights or hotels?",
+        "a": "Points can be redeemed for flights and hotel bookings through SmartBuy, but they must be redeemed for bookings within India and with participating airlines and hotel chains. HDFC Bank regularly updates the list of partner airlines and hotels, hence consumers must check beforehand."
+      },
+      {
+        "q": "What happens if I do not meet the spend requirements for milestone benefits?",
+        "a": "If you do not meet the spend requirements for milestone benefits (like vouchers or fee waiver), you will not be eligible for those specific benefits, but you will still earn reward points on regular spending."
+      },
+      {
+        "q": "Does HDFC Bank provide lounge access to add-on cardholders on the Regalia Gold Credit Card?",
+        "a": "Add-on cardholders of HDFC Regalia Gold Credit Card can get their own Priority Pass by calling the HDFC Bank phone banking numbers 1800 1600 or 1800 2600 (toll-free) and avail complimentary airport lounge access using it."
+      },
+      {
+        "q": "What is the limit for HDFC Regalia Gold credit card?",
+        "a": "The credit limit you get with your HDFC Regalia Credit Card depends on your income, current debts, maximum limit on your existing credit cards, and several other factors. You will get to know the limit offered to you only after you receive your credit card."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.34,
+    "editorial_rating": 4.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 4.0,
+      "Rewards": 4.0,
+      "Lifestyle Benefits": 3.5,
+      "Milestone Benefits": 3.5,
+      "travel": 4.0,
+      "rewards": 4.0,
+      "lifestyle_benefits": 3.5,
+      "milestone_benefits": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Solid core HDFC travel stepper toward Infinia, though HSBC TravelOne now beats it for pure miles & spend-free lounges.",
+    "pros": [
+      "5X rewards on Nykaa, Myntra, Marks & Spencer, and Reliance Digital",
+      "Rewards on generally-excluded categories like insurance, utilities and education",
+      "Multiple redemption options with good redemption value",
+      "Travel benefits like Priority Pass Membership, complimentary lounge access, flight vouchers, etc.",
+      "Vouchers worth Rs. 16,000 in a year as milestone benefits"
+    ],
+    "cons": [
+      "Accelerated earning is limited to select brands only",
+      "Low redemption value on product/voucher purchase and cash conversion",
+      "High spending threshold to make the most of milestone benefits"
+    ],
+    "best_for_whom": "HDFC Imperia/Preferred customers climbing toward Infinia/DCB who spend Rs. 4L–8L/year incl. Myntra/Nykaa/Reliance Digital/M&S",
+    "not_ideal_for": "Low spenders wanting no-spend domestic lounge access (cut by Rs. 60k/qtr rule in 2026)",
+    "recommended_monthly_spend_inr": "Rs. 35,000 – Rs. 75,000",
+    "verdict": "Solid core HDFC travel stepper toward Infinia, though HSBC TravelOne now beats it for pure miles & spend-free lounges."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.97,
+    "reddit_mentions": 20,
+    "sentiment_summary": "Community discussions around HDFC Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Base ~1.33% (4 RP/Rs.150 at Rs.0.50 SmartBuy travel); 5X on Myntra/Nykaa/M&S/Reliance Digital (cap 5,000 RP/mo); up to 10X SmartBuy (cap 4,000 RP/mo); Rent & Govt/Tax earn 0%."
+    ],
+    "optimization_tips": [
+      "Chase ₹1.5L Quarterly & ₹5L/₹7.5L Annual Milestones: Earn ₹1,500 Myntra/Nykaa/Reliance/Marriott vouchers each ₹1.5L quarter plus ₹5,000 Flight Vouchers at ₹5L & ₹7.5L annual spend alongside 5X partner retail multipliers.",
+      "Direct insurance earns 4 RP/₹150 capped at 2,000 RP/month; verify ₹60,000 preceding-quarter spend rules where applicable for domestic lounge access."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": "2026",
+    "devaluation_history": [
+      "2026: Introduced Rs. 60,000/quarter spend requirement to unlock domestic lounge visits (previously spend-free)"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Direct competitor from Federal Bank at similar fee tier (Rs. 2,000/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-employed",
+    "age_range": "21 to 60 years (65 years for self-employed)",
+    "min_monthly_income_salaried_inr": 150000,
+    "govt_employee_income_note": "Rs. 1 Lakh per month",
+    "min_annual_itr_self_employed_inr": 1800000,
+    "min_cibil_score": 730,
+    "approval_notes": "Occupation: Salaried or Self-employed"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

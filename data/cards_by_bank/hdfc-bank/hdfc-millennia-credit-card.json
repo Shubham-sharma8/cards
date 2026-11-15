@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_millennia_credit_card",
+    "card_name": "HDFC Millennia Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "hdfc-millennia-credit-card",
+    "card_network": "Visa / Mastercard / Diners / RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/hdfc-millennia-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#254F84",
+      "secondary_hex": "#343693",
+      "wash_hex": "#E0E5E8",
+      "soft_bg_hex": "#EBEFF4",
+      "border_hex": "#CFD8E4",
+      "ink_on_soft_hex": "#254F84",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 1,000 - 2,999",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 35000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Young salaried users wanting an easy Rs. 1L waiver core HDFC card for Amazon",
+      "Flipkart",
+      "Swiggy",
+      "Zomato",
+      "Uber (up to Rs. 20k",
+      "mo) & HDFC sales"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "hdfc",
+      "millennia",
+      "online",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "upi"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "CashPoints (1 CP = Rs. 1 statement cashback; Rs. 50+GST redemption fee)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5% Cashback (cap 1,000 CP/mo) on Amazon, Flipkart, BookMyShow, Cult.fit, Myntra, SonyLIV, Swiggy, Tata CLiQ, Uber, Zomato",
+      "1% Cashback (cap 1,000 CP/mo) on offline & other online spends (wallet loads excluded 2026)"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 5.0,
+      "dining_swiggy_zomato": 5.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 1.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "amazon_flipkart_myntra": 1000,
+      "dining_swiggy_zomato": 1000
+    },
+    "monthly_capping_rules": [
+      "5% CashPoints strictly on Amazon, Flipkart, Myntra, Swiggy, Zomato, BookMyShow, Tata CLiQ, Uber, SonyLIV & Cult.fit (shared ₹1,000/month cap = ₹20k spend); 1% on offline dining & general spends."
+    ],
+    "category_caveats": {
+      "amazon_flipkart_myntra": "5% on Amazon, Flipkart, Myntra, Tata CLiQ & SonyLIV (shared ₹1,000/mo CashPoints cap across all 5% merchants).",
+      "dining_swiggy_zomato": "5% applies strictly on Swiggy & Zomato (plus Uber/Cult.fit); direct offline restaurants earn 1%."
+    },
+    "excluded_categories": [
+      "Wallet loads"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 1000,
+      "annual_fee_inr": 1000,
+      "annual_fee_with_gst_inr": 1180.0,
+      "fee_waiver_spend_inr": 100000,
+      "monthly_spend_for_waiver_inr": 8333,
+      "milestone_slabs": [
+        "Rs. 1,000 gift voucher on Rs. 1,00,000 spend per calendar quarter"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Quarterly milestone voucher option (Rs. 1,00,000/qtr spend)",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No direct card-swipe domestic lounge access; choice of 1 DreamFolks lounge voucher or Rs. 1,000 voucher per Rs. 1 Lakh quarterly spend"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 1000,
+    "annual_fee_inr": 1000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 100000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Cashback statement credit | Flights, hotels, vouchers, SmartBuy",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "If you are not eligible for HDFC Millennia Credit Card, you can explore other entry-level cards such as:",
+    "highlights": [],
+    "welcome_benefit": "Welcome & Renewal Bonus: 1,000 CashPoints on payment of the joining and annual fees",
+    "milestone_benefits": [
+      "Rs. 1,000 gift voucher on Rs. 1,00,000 spend per calendar quarter"
+    ],
+    "dining_benefits": [
+      "5% cashback: On popular everyday brands, including Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber and Zomato; max. 1,000 CashPoints per statement cycle",
+      "Dining Discount: Up to 10% additional savings on dining bill via Swiggy Dineout"
+    ],
+    "movie_benefits": [
+      "5% cashback: On popular everyday brands, including Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber and Zomato; max. 1,000 CashPoints per statement cycle"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "Most of your monthly spends are online",
+      "You want a card that offers accelerated value-back on multiple brand and platforms",
+      "You would be able to spend Rs. 1 Lakh in every quarter to utilise the milestone benefits"
+    ],
+    "faqs": [
+      {
+        "q": "I already have an HDFC Credit Card. Can I apply for HDFC Millennia Credit Card?",
+        "a": "HDFC Bank allows you to have two different HDFC Credit Cards in very rare cases, as in general, it does not allow the same. If you are keen to avail HDFC Millennia Credit Card, you can put forth a card upgrade request. For more details, you can contact the HDFC Bank Customer Care."
+      },
+      {
+        "q": "How can I apply for HDFC Millennia Credit Card?",
+        "a": "You can apply for this credit card through online as well as offline modes. You can apply online by visiting the official website of the bank. If you want to apply offline, you can visit the nearest branch of the bank to fill out the application form. You can also apply for HDFC Millennia Credit card, with Issuer / Market."
+      },
+      {
+        "q": "What is the credit limit offered on HDFC Millennia Credit Card?",
+        "a": "The credit limit is decided by the bank after scrutinizing your application. The bank considers various factors like credit score, repayment capacity, income and more while deciding your credit limit. You will get to know your credit limit only after applying for the credit card."
+      },
+      {
+        "q": "I have just started with my new job. Will I be eligible for HDFC Millennia Credit Card?",
+        "a": "To be eligible for any credit card, you should be employed in your current organization for at least 6 months. Also, the minimum income requirement to apply for this credit card is Rs. 35,000 per month. However, if you have a salary account with HDFC Bank, the eligibility criteria may be relaxed."
+      },
+      {
+        "q": "What is the cash advance fee charged on HDFC Millennia Credit Card?",
+        "a": "The cash advance fee charged on HDFC Millennia Credit Card is 2.5% of the withdrawn amount or Rs. 500 (whichever is higher). Therefore, you should not withdraw cash using your credit card as it comes with additional charges."
+      },
+      {
+        "q": "How can I see offers on my HDFC Millennia Credit Card?",
+        "a": "You can see all the available offers on your credit card by logging in to the HDFC net banking. All you need to do is log in to the net banking portal and click on the ‘Offers’ section. Under this section, you’ll be able to see all the available offers on your credit card."
+      },
+      {
+        "q": "How can I check the status of my HDFC Millennia Credit Card?",
+        "a": "You can check the status of your credit card through the official website of the bank. You need to click on ‘Credit Card’ under the ‘Products’ tab and then click on the ‘Track your Credit Card Application Status’ option. Enter the asked details and the status of your application will be shown on the screen."
+      },
+      {
+        "q": "What is the annual fee for HDFC Bank Millennia credit card?",
+        "a": "The HDFC Millennia credit card comes with a joining and annual fee of Rs. 1,000 + applicable taxes. However, if you spends Rs. 1,00,000 in the previous year, the renewal fee will be waived."
+      },
+      {
+        "q": "Does HDFC Millennia Credit Card give cashback on UPI (RuPay variant)?",
+        "a": "Cashback on UPI can only be availed on Rupay variant. However, HDFC Millennia Credit Card is currently not available on RuPay variant. Hence, you cannot avail cashback benefits on the same."
+      },
+      {
+        "q": "Why does HDFC reject Millennia applications even with good CIBIL scores?",
+        "a": "A good credit score cannot be the only factor to get a credit card. There are other eligibility criteria that you need to meet for the application to be approved. Your application might have been rejected due to other reasons like insufficient income, a high-debt to income ratio, too many credit card applications among others."
+      },
+      {
+        "q": "What is the customer care number for HDFC Millennia Credit Card?",
+        "a": "For credit card related queries, cardholders can call HDFC Bank’s toll-free number **1800 1600** or **1800 2600**. If you are travelling abroad, you can call at **022-61606160**. To contact the team via email, you can write to the bank at customerservices.cards@hdfc.bank.in."
+      },
+      {
+        "q": "Can I use WhatsApp or SMS to contact HDFC Bank for Millennia Credit Card issues?",
+        "a": "Yes. You can use both the channels. * To WhatsApp your queries, save the number 70700 22222 in your contacts and send a WhatsApp message saying ‘Hi’ from your registered mobile number. * You can also send your query via SMS to 5676712 from your registered mobile number."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.28,
+    "editorial_rating": 3.5,
+    "aggregator_rating": 4.8,
+    "category_sub_ratings": {
+      "Cashback": 3.5,
+      "Welcome Benefits": 3.0,
+      "Milestone Benefits": 3.0,
+      "Rewards Flexibility": 3.5,
+      "cashback": 3.5,
+      "milestone_benefits": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Great core HDFC starter card for building HDFC upgrade history and top-10 merchant 5% cashback, even after losing direct lounge access.",
+    "pros": [
+      "Up to 5% cashback on major lifestyle-related online spends",
+      "Bonus points worth the joining fee on activation",
+      "Multiple redemption options with redemption value of up to 1:1",
+      "Annual fee waiver condition is quite easily achievable"
+    ],
+    "cons": [
+      "Monthly capping on cashback earning",
+      "Low cashback rate for non-accelerated category",
+      "Exclusion of major everyday spends like utilities and rent from cashback earning",
+      "Lounge access benefit is optional and spend-based"
+    ],
+    "best_for_whom": "Young salaried users wanting an easy Rs. 1L waiver core HDFC card for Amazon/Flipkart/Swiggy/Zomato/Uber (up to Rs. 20k/mo) & HDFC sales",
+    "not_ideal_for": "Travelers seeking direct airport lounge access or spends >Rs. 20k/mo on 5% brands",
+    "recommended_monthly_spend_inr": "Rs. 15,000 – Rs. 35,000",
+    "verdict": "Great core HDFC starter card for building HDFC upgrade history and top-10 merchant 5% cashback, even after losing direct lounge access."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.03,
+    "reddit_mentions": 15,
+    "sentiment_summary": "Community discussions around HDFC Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "5% CashPoints strictly on Amazon, Flipkart, Myntra, Swiggy, Zomato, BookMyShow, Tata CLiQ, Uber, SonyLIV & Cult.fit (shared ₹1,000/month cap = ₹20k spend); 1% on offline dining & general spends."
+    ],
+    "optimization_tips": [
+      "₹20,000 Monthly Sweet Spot: 5% cashback across Amazon, Flipkart, Swiggy, Zomato, BookMyShow, Tata CLiQ & Uber caps at ₹1,000/month — shift additional online spend once you cross ₹20k unless chasing the ₹1L/quarter ₹1,000 voucher."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": "2026-09",
+    "devaluation_history": [
+      "2023-12: Direct complimentary lounge visits tied to Rs. 1L/quarter spend",
+      "2026: Wallet loads excluded from 1% CashPoints; direct domestic lounge listed N/A (replaced by Rs. 1k voucher)"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Cashback with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Direct competitor from SBI Card at similar fee tier (Rs. 999/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "sbi_bank_phonepe_select_black_credit_card",
+      "card_name": "PhonePe SBI Card SELECT BLACK",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "phonepe-sbi-card-select-black",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.58,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.58/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "axis_bank_ace_credit_card",
+      "card_name": "Axis Bank ACE Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-ace-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.26,
+      "reason": "Top-rated Cashback card in market with rating 4.26/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "Min 21 yrs & Max 40 Yrs",
+    "min_monthly_income_salaried_inr": 35000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": "Age: Min 21 yrs & Max 40 Yrs"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

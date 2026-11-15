@@ -1,0 +1,73 @@
+{
+  "bank": "Indian Bank",
+  "bank_slug": "indian-bank",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_cards": 4,
+  "ltf_count": 2,
+  "rupay_upi_count": 1,
+  "domestic_lounge_count": 0,
+  "international_lounge_count": 0,
+  "railway_lounge_count": 0,
+  "golf_count": 0,
+  "zero_or_low_forex_count": 4,
+  "with_image_count": 4,
+  "official_lounge_programs": [],
+  "cards": [
+    {
+      "card_id": "indian_bank_onecard_credit_card",
+      "card_name": "Indian Bank OneCard Credit Card",
+      "card_slug": "indian-bank-onecard-credit-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "RuPay / Visa",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.5,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/indian-bank/indian-bank-onecard-credit-card.webp",
+      "json_file": "indian-bank-onecard-credit-card.json",
+      "md_file": "indian-bank-onecard-credit-card.md"
+    },
+    {
+      "card_id": "indian_bank_indian_bank_bharat_credit_card",
+      "card_name": "Indian Bank Bharat Credit Card",
+      "card_slug": "indian-bank-bharat-credit-card",
+      "primary_category": "Super-Premium",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.43,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/indian-bank/indian-bank-bharat-credit-card.webp",
+      "json_file": "indian-bank-bharat-credit-card.json",
+      "md_file": "indian-bank-bharat-credit-card.md"
+    },
+    {
+      "card_id": "indian_bank_indian_bank_global_classic_credit_card",
+      "card_name": "Indian Bank Global Classic Credit Card",
+      "card_slug": "indian-bank-global-classic-credit-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "Visa",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.43,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/indian-bank/indian-bank-global-classic-credit-card.webp",
+      "json_file": "indian-bank-global-classic-credit-card.json",
+      "md_file": "indian-bank-global-classic-credit-card.md"
+    },
+    {
+      "card_id": "indian_bank_global_gold_credit_card",
+      "card_name": "Indian Bank Global Gold Credit Card",
+      "card_slug": "indian-bank-global-gold-credit-card",
+      "primary_category": "Cashback",
+      "card_network": "Visa",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.43,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/indian-bank/indian-bank-global-gold-credit-card.webp",
+      "json_file": "indian-bank-global-gold-credit-card.json",
+      "md_file": "indian-bank-global-gold-credit-card.md"
+    }
+  ]
+}

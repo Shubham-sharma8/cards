@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "card_id": "idfc_first_bank_indigo_idfc_first_dual_fd_credit_card",
+    "card_name": "IndiGo IDFC First Dual FD Credit Card",
+    "bank": "IDFC FIRST Bank",
+    "bank_slug": "idfc-first-bank",
+    "card_slug": "indigo-idfc-first-dual-fd-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Super-Premium",
+    "primary_category": "Super-Premium",
+    "categories": [
+      "Super-Premium",
+      "Travel & Miles",
+      "Zero/Low Forex",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/idfc-first-bank/indigo-idfc-first-dual-fd-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#A63035",
+      "secondary_hex": "#C69D43",
+      "wash_hex": "#F0E1DF",
+      "soft_bg_hex": "#F7ECED",
+      "border_hex": "#EBD1D3",
+      "ink_on_soft_hex": "#A63035",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.idfcfirst.bank.in/credit-card",
+    "mitc_pdf_url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": true,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 3,000 - 9,999",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": true,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "credit",
+      "dual",
+      "entry",
+      "fd",
+      "first",
+      "forex",
+      "idfc",
+      "indigo",
+      "level",
+      "low",
+      "low-forex",
+      "miles",
+      "premium",
+      "secured",
+      "super",
+      "travel",
+      "zero",
+      "zero-forex"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Unlike most cards, it offers BluChip rewards even on UPI payments and some excluded categories such as rent, utilities, and wallet top-ups"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 2.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 0.5,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Rent payments",
+      "Wallet loads",
+      "Utility bill payments"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 100000,
+      "annual_fee_inr": 4999,
+      "annual_fee_with_gst_inr": 5898.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": []
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 100000,
+    "annual_fee_inr": 4999,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 0.0,
+    "apr_monthly_pct": 3.85,
+    "apr_annual_pct": 46.2,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of total amount due, subject to a minimum of Rs. 100 and a maximum of Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "The **IndiGo First Dual Credit Card Against FD** is a **co-branded secured credit card** issued against a Fixed Deposit (FD). This card is best suited for individuals who are new to credit or have limited credit history and may otherwise face difficulties to qualify for feature-rich travel credit cards.",
+    "highlights": [
+      "6 BluChips if you pay with your IDFC FIRST IndiGo Credit Card",
+      "8 BluChips as an IndiGo BluChip member benefit",
+      "4 BluChips as a bonus for booking through the IndiGo app or website"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Benefit from trip cancellation coverage that renews annually for added travel security"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You have never had a credit card before or have a low/no credit score that makes it difficult for you to qualify for unsecured card",
+      "You frequently travel with IndiGo Airlines and would like to earn value-back in the form of BluChips",
+      "You want additional travel benefits like zero forex mark-up and trip cancellation cover",
+      "You want to build or repair your credit score while earning benefits on travel"
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum fixed deposit required to get this card?",
+        "a": "Rs. 1 Lakh is the minimum fixed deposit required to get IDFC FIRST Dual Credit Card Against FD."
+      },
+      {
+        "q": "Is there any annual fee on this card?",
+        "a": "Yes. You will be charged Rs. 4,999 + applicable taxes from 2nd year onwards on this card. For the first year there is no annual or joining fee."
+      },
+      {
+        "q": "How is IndiGo IDFC FIRST Dual Credit Card Against FD different from its regular variant IndiGo IDFC FIRST Dual Credit Cards?",
+        "a": "The main difference between both the card lies in issued and joining fee. The FD-backed variant is a secured credit card which is issued against a fixed deposit of Rs. 1 Lakh or more and comes with zero joining fee. Whereas the regular variant is an unsecured credit card that comes with a joining fee of Rs. 4,999. However, all other features and benefits remain the same."
+      },
+      {
+        "q": "Will my fixed deposit continue to earn interest after it is placed for the card?",
+        "a": "Yes. The fixed deposit will continue to earn interest. It simply serves as a security deposit for the credit card."
+      },
+      {
+        "q": "My fixed deposit is of Rs. 1 Lakh, will I get a credit limit of Rs. 1 Lakh only on my card?",
+        "a": "Typically, limit on a secured credit card is set as a percentage of the fixed deposit. However, the exact limit is decided by the bank at the time of card issuance."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.32,
+    "editorial_rating": 4.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 4.0,
+      "Rewards": 3.5,
+      "branded Benefits": 4.0,
+      "travel": 4.0,
+      "rewards": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from IDFC FIRST Bank suited for super-premium users and low 0% forex markup.",
+    "pros": [
+      "Up to 22 BluChips per Rs.100 on IndiGo flight booking which makes it highly rewarding for frequernt flyers",
+      "Unlike most cards, it offers BluChip rewards even on UPI payments and some excluded categories such as rent, utilities, and wallet top-ups",
+      "Up to 25,000 bonus BluChips annually through milestone-based spending rewards",
+      "Zero forex markup and annual fee payment bonus credited every year",
+      "Benefit from trip cancellation coverage that renews annually for added travel security"
+    ],
+    "cons": [
+      "No complimentary airport lounge access which is a notable gap for a travel-friendly card",
+      "Rewards outside of travel spending are limited, with the little to no lifestyle perks for everyday non-travel purchases",
+      "No annual fee waiver option regardless of spending level"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "option from IDFC FIRST Bank suited for super-premium users and low 0% forex markup."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.32,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IDFC FIRST Bank Super-Premium cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Verify quarterly spend threshold before relying on complimentary lounge entry.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Focus spends on flights & hotel bookings (2.5% effective return) before hitting monthly category caps.",
+      "Low 0.0% forex markup makes this practical for international travel and USD/SaaS subscriptions."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Per-Rs.-200 rounding (<Rs. 200 = 0 RP), offset by positive 0% forex upgrades on Wealth/Select."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "axis_bank_burgundy_private_credit_card",
+      "card_name": "Axis Bank Burgundy Private Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-burgundy-private-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "icici_bank_cashback_black_credit_card",
+      "card_name": "ICICI Bank Cashback Black Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-cashback-black-card",
+      "annual_fee_inr": 1500,
+      "overall_rating": 3.16,
+      "reason": "Direct competitor from ICICI Bank at similar fee tier (Rs. 1,500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "sbi_bank_aurum_credit_card",
+      "card_name": "SBI Aurum Credit Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "sbi-aurum-credit-card",
+      "annual_fee_inr": 9999,
+      "overall_rating": 4.18,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.18/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "yes_bank_marquee_credit_card",
+      "card_name": "YES BANK Marquee Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-marquee-credit-card",
+      "annual_fee_inr": 4999,
+      "overall_rating": 4.4,
+      "reason": "Top-rated Super-Premium card in market with rating 4.4/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-1-cashback-499",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual 1% Cashback ₹499",
+      "summary": "FIRST EARN Virtual 1% Cashback ₹499",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-first-earn-virtual-fd-backed-1-cashback",
+      "bank": "IDFC FIRST Bank",
+      "title": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "summary": "FIRST EARN Virtual FD-Backed 1% Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "idfc-first-bank-zero-forex-promos-weekend-movie-tripstacc",
+      "bank": "IDFC FIRST Bank",
+      "title": "Zero Forex Promos & Weekend Movie / Tripstacc Benefits",
+      "summary": "Buy-1-Get-1 movie ticket perks on District/BookMyShow plus instant flight/hotel discounts via Tripstacc and IDFC FIRST Reward offers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.idfcfirstbank.com/credit-card/offers",
+      "scope": "targeted"
+    }
+  ]
+}

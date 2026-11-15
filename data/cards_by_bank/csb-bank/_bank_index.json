@@ -1,0 +1,45 @@
+{
+  "bank": "CSB Bank",
+  "bank_slug": "csb-bank",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_cards": 2,
+  "ltf_count": 2,
+  "rupay_upi_count": 2,
+  "domestic_lounge_count": 0,
+  "international_lounge_count": 0,
+  "railway_lounge_count": 0,
+  "golf_count": 0,
+  "zero_or_low_forex_count": 0,
+  "with_image_count": 2,
+  "official_lounge_programs": [],
+  "cards": [
+    {
+      "card_id": "csb_bank_edge_plus_csb_rupay_credit_card",
+      "card_name": "Edge+ CSB Bank RuPay Credit Card",
+      "card_slug": "edge-csb-bank-rupay-credit-card",
+      "primary_category": "RuPay & UPI",
+      "card_network": "RuPay",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.26,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/csb-bank/edge-csb-bank-rupay-credit-card.webp",
+      "json_file": "edge-csb-bank-rupay-credit-card.json",
+      "md_file": "edge-csb-bank-rupay-credit-card.md"
+    },
+    {
+      "card_id": "csb_bank_jupiter_edge_csb_rupay_credit_card",
+      "card_name": "Jupiter Edge CSB Bank RuPay Credit Card",
+      "card_slug": "jupiter-edge-csb-bank-rupay-credit-card",
+      "primary_category": "RuPay & UPI",
+      "card_network": "RuPay",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.1,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/csb-bank/jupiter-edge-csb-bank-rupay-credit-card.webp",
+      "json_file": "jupiter-edge-csb-bank-rupay-credit-card.json",
+      "md_file": "jupiter-edge-csb-bank-rupay-credit-card.md"
+    }
+  ]
+}

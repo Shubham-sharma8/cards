@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "card_id": "au_small_finance_bank_au_magnifi_credit_card",
+    "card_name": "AU Fi MagniFi Credit Card",
+    "bank": "AU Small Finance Bank",
+    "bank_slug": "au-small-finance-bank",
+    "card_slug": "au-fi-magnifi-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Lifetime Free",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/au-small-finance-bank/au-fi-magnifi-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#603C24",
+      "secondary_hex": "#716532",
+      "wash_hex": "#E8E2DD",
+      "soft_bg_hex": "#F1EDEB",
+      "border_hex": "#DCD4CF",
+      "ink_on_soft_hex": "#603C24",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.au.bank.in/personal-banking/credit-cards",
+    "mitc_pdf_url": "https://www.au.bank.in/SOC_CC-MITC\\(with-Schedule-of-Charges\\).pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "AU Small Finance Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Any (LTF keeper)"
+    ],
+    "requirement_keywords": [
+      "au",
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "fi",
+      "finance",
+      "free",
+      "groceries",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "magnifi",
+      "movies",
+      "online",
+      "shopping",
+      "small",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Air Miles / Travel Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5% back on all weekend spends online & in-store as 20 Fi-Points per Rs. 100 spent, capped at 2,000 Fi-Points",
+      "0.5% back on weekday spends on online & instore as 2 Fi-Points per Rs. 100 spent , capped at 2,000 Fi-Points",
+      "Redeem Fi-Points against the card bill, convert to airmiles at a value of 1 Fi-Point = Rs. 0.25, or avail 50% off on gift vouchers via the Fi money app",
+      "20% off (Up to Rs. 100) on BookMyShow, Amazon, Zepto & Zomato food orders, on a minimum value of Rs. 500 on weekends",
+      "Accelerated 5% value-back on weekend spends",
+      "20% discount on Zomato, BookMyShow, Amazon, and Zepto per month"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 5.0,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 1500
+    },
+    "monthly_capping_rules": [
+      "5% back on all weekend spends online & in-store as 20 Fi-Points per Rs. 100 spent, capped at 2,000 Fi-Points",
+      "0.5% back on weekday spends on online & instore as 2 Fi-Points per Rs. 100 spent , capped at 2,000 Fi-Points",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "5% back on all weekend spends online & in-store as 20 Fi-Points per Rs. 100 spent, capped at 2,000 Fi-Points",
+        "0.5% back on weekday spends on online & instore as 2 Fi-Points per Rs. 100 spent , capped at 2,000 Fi-Points",
+        "Redeem Fi-Points against the card bill, convert to airmiles at a value of 1 Fi-Point = Rs. 0.25, or avail 50% off on gift vouchers via the Fi money app",
+        "Convert spends of Rs. 500 or above into EMI with a total value of Rs. 2,000, by clubbing up to 20 billed or unbilled transactions together for conversion"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of Total Amount Due (Minimum Rs. 10, Maximum Rs. 1,300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "AU Fi MagniFi is a lifetime free credit card that offers accelerated benefits on weekend spends. It offers 5% value-back on all online and in-store weekend spends as well as 20% discounts on popular brands like Zomato, BookMyShow, Amazon, and Zepto during weekends. Besides this, it offers a low reward rate of 0.5% weekday spends.",
+    "highlights": [
+      "5% back on all weekend spends online & in-store as 20 Fi-Points per Rs. 100 spent, capped at 2,000 Fi-Points",
+      "0.5% back on weekday spends on online & instore as 2 Fi-Points per Rs. 100 spent , capped at 2,000 Fi-Points",
+      "Redeem Fi-Points against the card bill, convert to airmiles at a value of 1 Fi-Point = Rs. 0.25, or avail 50% off on gift vouchers via the Fi money app"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "5% back on all weekend spends online & in-store as 20 Fi-Points per Rs. 100 spent, capped at 2,000 Fi-Points",
+      "0.5% back on weekday spends on online & instore as 2 Fi-Points per Rs. 100 spent , capped at 2,000 Fi-Points",
+      "Redeem Fi-Points against the card bill, convert to airmiles at a value of 1 Fi-Point = Rs. 0.25, or avail 50% off on gift vouchers via the Fi money app",
+      "Convert spends of Rs. 500 or above into EMI with a total value of Rs. 2,000, by clubbing up to 20 billed or unbilled transactions together for conversion"
+    ],
+    "dining_benefits": [
+      "20% off (Up to Rs. 100) on BookMyShow, Amazon, Zepto & Zomato food orders, on a minimum value of Rs. 500 on weekends",
+      "20% discount on Zomato, BookMyShow, Amazon, and Zepto per month"
+    ],
+    "movie_benefits": [
+      "20% off (Up to Rs. 100) on BookMyShow, Amazon, Zepto & Zomato food orders, on a minimum value of Rs. 500 on weekends",
+      "20% discount on Zomato, BookMyShow, Amazon, and Zepto per month"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want to start your credit journey with a lifetime free credit card",
+      "You prefer to spend on weekends and are looking for a card with accelerated benefits on weekend spends",
+      "You frequently use partner brands, including Zomato, BookMyShow, Amazon, and Zepto"
+    ],
+    "faqs": [
+      {
+        "q": "Are there any special discounts on AU Fi MagniFi Credit Card?",
+        "a": "Yes, AU Fi MagniFi Credit Card offers 20% off (up to Rs. 100 per month) on BookMyShow, Amazon, Zepto, and Zomato food orders, with a minimum spend of Rs. 500, applicable only on weekends, making it ideal for weekend entertainment, dining, and online shopping."
+      },
+      {
+        "q": "How can I redeem my Fi-Points?",
+        "a": "With the AU Fi MagniFi Credit Card, 1 Fi-Point equals Rs. 0.25. Fi-Points can be redeemed to pay your card bill, convert into air miles, or get up to 50% off on gift vouchers via the Fi Money app, giving you flexible ways to use your rewards for shopping, travel, or everyday expenses."
+      },
+      {
+        "q": "Can I convert purchases into EMI?",
+        "a": "Yes, transactions of Rs. 500 or more can be converted into EMI by clubbing up to 20 billed or unbilled transactions, with a total EMI value up to Rs. 2,000, making it easier to manage larger or multiple purchases."
+      },
+      {
+        "q": "Does AU Fi MagniFi Credit Card offer lounge access or premium travel benefits?",
+        "a": "No, this card does not provide airport lounge access or premium travel perks. It is primarily designed for everyday spends."
+      },
+      {
+        "q": "Are there any exclusions on rewards?",
+        "a": "Yes, you cannot earn rewards on EMI, fuel, rent, insurance, government, and educational spends."
+      },
+      {
+        "q": "Who should get the AU Fi MagniFi Credit Card?",
+        "a": "AU Fi MagniFi Credit Card is a lifetime-free card ideal for weekend spenders and frequent Zepto or Amazon shoppers, offering high weekend rewards and flexible Fi-Point redemptions, making it a practical choice for everyday spending, dining, entertainment, and online shopping."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.63,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Shopping": 3.0,
+      "Dining Benefits": 3.0,
+      "rewards": 3.0,
+      "shopping": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from AU Small Finance Bank suited for cashback users.",
+    "pros": [
+      "Lifetime free card with zero joining and annual fees",
+      "Accelerated 5% value-back on weekend spends",
+      "20% discount on Zomato, BookMyShow, Amazon, and Zepto per month",
+      "Redemption of Fi-Coins against the card bill or airmiles"
+    ],
+    "cons": [
+      "No travel benefits like complimentary lounge visits",
+      "Accelerated reward points and discounts are only limited to weekend spends",
+      "Low reward redemption ratio of 1 Fi-Coin = Rs. 0.25"
+    ],
+    "best_for_whom": "AU Small Finance Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Any (LTF keeper)",
+    "verdict": "Lifetime Free option from AU Small Finance Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.63,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around AU Small Finance Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "5% back on all weekend spends online & in-store as 20 Fi-Points per Rs. 100 spent, capped at 2,000 Fi-Points",
+      "0.5% back on weekday spends on online & instore as 2 Fi-Points per Rs. 100 spent , capped at 2,000 Fi-Points"
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Tightened LIT, Zenith, Vetta & ixigo spend criteria after rapid 2023–2024 customer acquisition."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbm_bank_zet_credit_card",
+      "card_name": "SBM ZET Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-zet-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.8,
+      "reason": "Direct competitor from SBM Bank India at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "axis_bank_ace_credit_card",
+      "card_name": "Axis Bank ACE Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-ace-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.26,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.26/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried & Self-employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Occupation: Salaried & Self-employed"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "au-small-finance-bank-au-swag-deals-travel-upi-cashback-promos",
+      "bank": "AU Small Finance Bank",
+      "title": "AU Swag Deals & Travel / UPI Cashback Promos",
+      "summary": "Zero forex markup & instant flight/train/hotel discounts on ixigo AU plus customisable milestone boosts on AU LIT & Zenith+.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.au.bank.in/personal-banking/offers",
+      "scope": "targeted"
+    }
+  ]
+}

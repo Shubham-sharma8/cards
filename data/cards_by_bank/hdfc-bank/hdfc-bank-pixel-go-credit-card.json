@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "card_id": "hdfc_bank_pixel_go_credit_card",
+    "card_name": "HDFC Bank PIXEL Go Credit Card",
+    "bank": "HDFC Bank",
+    "bank_slug": "hdfc-bank",
+    "card_slug": "hdfc-bank-pixel-go-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Lifetime Free",
+      "Dining, Groceries & Movies",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/hdfc-bank/hdfc-bank-pixel-go-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#2696C5",
+      "secondary_hex": "#3660C9",
+      "wash_hex": "#E1EDF0",
+      "soft_bg_hex": "#EBF6FA",
+      "border_hex": "#CFE8F2",
+      "ink_on_soft_hex": "#1B6A8B",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Any (LTF keeper)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "free",
+      "go",
+      "groceries",
+      "hdfc",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "movies",
+      "online",
+      "pixel",
+      "shopping",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "1% unlimited cashback on all eligible transactions-4",
+      "5% cashback on Smartbuy (500 points per month)",
+      "1% cashback on all UPI Spends (with RuPay variant- capped at 500 points per month)",
+      "Cashback5 is credited in the form of PIXEL Cashpoints in the Payzapp wallet that can be used for the purchase of brand vouchers, at the rate of 1 CashPoint = Rs. 1 PayZapp Cash point",
+      "Up to 10% discount on partner restaurants via Swiggy Dineout",
+      "1% fuel surcharge waiver6 at all fuel stations across India (on minimum transaction of Rs. 400 & maximum transaction of Rs. 5,000 up to Rs. 250 per month)"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.13,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "upi_scan_and_pay": 500,
+      "fuel": 250
+    },
+    "monthly_capping_rules": [
+      "1% unlimited cashback on all eligible transactions-4",
+      "5% cashback on Smartbuy (500 points per month)",
+      "1% cashback on all UPI Spends (with RuPay variant- capped at 500 points per month)"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Cashback5 is credited in the form of PIXEL Cashpoints in the Payzapp wallet that can be used for the purchase of brand vouchers, at the rate of 1 CashPoint = Rs. 1 PayZapp Cash point",
+        "1% fuel surcharge waiver6 at all fuel stations across India (on minimum transaction of Rs. 400 & maximum transaction of Rs. 5,000 up to Rs. 250 per month)",
+        "Joining fee waiver on spending Rs. 10,000 within 90 days of card issuance7",
+        "Annual fee waiver on spending Rs. 50,000 or more in the previous year7"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.6,
+    "apr_annual_pct": 43.2,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,001 to Rs. 5,000",
+        "late_fee_inr": "Rs. 600"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 900"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Furthermore, note that though the card is a good choice for such benefits on Smartbuy, it cannot be the only consideration to own the card. If you are willing to pay a comparatively high annual fee, you can earn accelerated benefits on Smartbuy spends along with benefits on travel and lifestyle on many other HDFC Bank credit cards as well. However, if you want such benefits at a low fee and you are satisfied with limited benefits on this card, you can stick to the HDFC Bank PIXEL Go Credit Card.",
+    "highlights": [
+      "1% unlimited cashback on all eligible transactions-4",
+      "5% cashback on Smartbuy (500 points per month)",
+      "1% cashback on all UPI Spends (with RuPay variant- capped at 500 points per month)"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "Cashback5 is credited in the form of PIXEL Cashpoints in the Payzapp wallet that can be used for the purchase of brand vouchers, at the rate of 1 CashPoint = Rs. 1 PayZapp Cash point",
+      "1% fuel surcharge waiver6 at all fuel stations across India (on minimum transaction of Rs. 400 & maximum transaction of Rs. 5,000 up to Rs. 250 per month)",
+      "Joining fee waiver on spending Rs. 10,000 within 90 days of card issuance7",
+      "Annual fee waiver on spending Rs. 50,000 or more in the previous year7"
+    ],
+    "dining_benefits": [
+      "Up to 10% discount on partner restaurants via Swiggy Dineout"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are new to credit and want to build your credit score",
+      "You are comfortable maximizing rewards on Smartbuy"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for this credit card?",
+        "a": "You can apply for the HDFC Bank Pixel Go credit card through the PayZapp app."
+      },
+      {
+        "q": "Do I earn cashback on insurance transactions?",
+        "a": "Yes, you can earn cashback on insurance payments as per the base rate of 1% on the card. However, cashpoints on insurance transactions are capped at 2,000 per day."
+      },
+      {
+        "q": "What is the dining benefit on this card?",
+        "a": "The card offers a dining discount of up to 10% via Swiggy Dineout."
+      },
+      {
+        "q": "What are the benefits of HDFC Pixel Go credit card?",
+        "a": "HDFC Bank Pixel Go credit card offers 5% cashback on spends across Smartbuy. Plus, users can earn a 1% return on retail and UPI spends. It also offers up to 10% discount on partner restaurants via Swiggy Dineout."
+      },
+      {
+        "q": "Can I link my Pixel Go RuPay card to UPI apps?",
+        "a": "Yes, you can link your HDFC Bank Pixel Go RuPay credit card to third-party apps like Gpay, PhonePe, Paytm, etc for UPI linked credit card benefits."
+      },
+      {
+        "q": "What is a Pixel Go credit card?",
+        "a": "The HDFC Bank Pixel Go Credit Card is a digital credit card with cashback benefits. It comes at a low annual fee of Rs. 250."
+      },
+      {
+        "q": "How to close my HDFC Pixel Go credit card?",
+        "a": "To close your Pixel Go credit card, you can contact HDFC Bank credit card customer care at 1800 1600 / 1800 2600."
+      },
+      {
+        "q": "HDFC Pixel Play vs Pixel Go credit card?",
+        "a": "HDFC Pixel Play and Pixel Go are digital credit cards that offer cashback benefits at a fee of Rs. 500 and Rs. 250, respectively. The base variant Pixel Go offers a straightforward cashback of up to 5% on Smartbuy and other retail spends. On the other hand, Pixel Play offers additional benefits to E-commerce merchants and popular brands. With the latter, cardholders can choose between the choice of brands to earn accelerated benefits."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.46,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 3.0,
+      "Online Shopping": 3.0,
+      "cashback": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from HDFC Bank suited for cashback users.",
+    "pros": [
+      "Accelerated benefits on Smartbuy",
+      "Decent base cashback rate",
+      "UPI linked benefits on RuPay variant"
+    ],
+    "cons": [
+      "Benefits on Smartbuy can be restrictive for some users",
+      "No basic travel benefits",
+      "Redemption circled around PayZapp app",
+      "Capping on cashback earning"
+    ],
+    "best_for_whom": "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Any (LTF keeper)",
+    "verdict": "Lifetime Free option from HDFC Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.46,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around HDFC Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "1% unlimited cashback on all eligible transactions-4",
+      "5% cashback on Smartbuy (500 points per month)"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "hdfc_bank_hdfc_pixel_play_fd_credit_card",
+      "card_name": "HDFC PIXEL Play FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-pixel-play-fd-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.94,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbm_bank_zet_credit_card",
+      "card_name": "SBM ZET Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-zet-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.8,
+      "reason": "Direct competitor from SBM Bank India at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "axis_bank_ace_credit_card",
+      "card_name": "Axis Bank ACE Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-ace-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.26,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.26/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "Min 21 yrs & Max 60 Yrs (65 for self employed)",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "Age: Min 21 yrs & Max 60 Yrs (65 for self employed)"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

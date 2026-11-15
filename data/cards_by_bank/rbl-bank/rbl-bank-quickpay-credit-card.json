@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "card_id": "rbl_bank_rbl_quickpay_credit_card",
+    "card_name": "RBL Bank QuickPay Credit Card",
+    "bank": "RBL Bank",
+    "bank_slug": "rbl-bank",
+    "card_slug": "rbl-bank-quickpay-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/rbl-bank/rbl-bank-quickpay-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#194384",
+      "secondary_hex": "#2A2794",
+      "wash_hex": "#DFE3E8",
+      "soft_bg_hex": "#EAEEF4",
+      "border_hex": "#CCD6E4",
+      "ink_on_soft_hex": "#194384",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+    "mitc_pdf_url": "https://webassets.rbl.bank.in/document/Credit%20Cards/RBL-MITC-final.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "RBL Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Rs. 12,500+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "quickpay",
+      "rbl"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 20.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "statement_cashback": "Rs. 1.00 per ₹1 cashback"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "1 reward point per Rs. 200 spent on eligible transactions",
+      "1 reward point per Rs. 200 spent via UPI, excluding offline UPI spends under Rs. 2,000",
+      "Redeem reward points against multiple categories through the RBL Bank rewards portal",
+      "20% cashback on first 2 UPI transactions done within 15 days of card activation, capped at Rs. 50",
+      "20% cashback on first 2 UPI transactions",
+      "Reward points on day-to-day UPI transactions"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.25,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 0.25,
+      "groceries_quick_commerce": 0.25,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.25,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "upi_scan_and_pay": 500
+    },
+    "monthly_capping_rules": [
+      "1 RP/Rs.200 (~0.25%); '20% cashback capped Rs. 50' is a one-time welcome offer on the first 2 UPI txns only."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 99,
+      "annual_fee_inr": 99,
+      "annual_fee_with_gst_inr": 116.82,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1 reward point per Rs. 200 spent via UPI, excluding offline UPI spends under Rs. 2,000"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 99,
+    "annual_fee_inr": 99,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.99,
+    "apr_annual_pct": 47.88,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "12.5% of total outstanding amount (Ranges from Rs. 5 to Rs. 1,300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from RBL Bank suited for cashback users.",
+    "highlights": [
+      "1 reward point per Rs. 200 spent on eligible transactions",
+      "1 reward point per Rs. 200 spent via UPI, excluding offline UPI spends under Rs. 2,000",
+      "Redeem reward points against multiple categories through the RBL Bank rewards portal"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1 reward point per Rs. 200 spent via UPI, excluding offline UPI spends under Rs. 2,000"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are new-to-credit and are looking for an entry-level card with basic benefits",
+      "You frequently spend via UPI and want to earn value-back on everyday transactions"
+    ],
+    "faqs": [
+      {
+        "q": "What is the RBL QuickPay Credit Card?",
+        "a": "It’s an entry-level credit card with a low annual fee, designed for individuals new to credit. Offers basic rewards and limited welcome benefits for simple credit-building."
+      },
+      {
+        "q": "What rewards and cashback does it offer?",
+        "a": "Consumers can earn 1 reward point per Rs. 100 spent on eligible transactions. Get 20% cashback on your first two UPI transactions within 15 days, capped at Rs. 50."
+      },
+      {
+        "q": "What are the fees and charges?",
+        "a": "No joining fee. Annual fee is Rs. 99 + taxes. Finance charges: 3.99% p.m. Late payment fee ranges from Rs. 5 to Rs. 1,300."
+      },
+      {
+        "q": "Who should apply for this card?",
+        "a": "The card is ideal for credit beginners seeking an entry-level card with low annual fees, basic reward points, and welcome benefits. Not suitable for those wanting travel or lifestyle perks."
+      },
+      {
+        "q": "Are there any restrictions on rewards?",
+        "a": "Rewards exclude fuel, utilities, insurance, railways, real estate/rent, wallet services, and miscellaneous spends. Cashback benefits apply only to first two UPI transactions within 15 days."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.19,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 2.5,
+      "Cashback": 2.5,
+      "Welcome Benefits": 2.0,
+      "rewards": 2.5,
+      "cashback": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from RBL Bank suited for cashback users.",
+    "pros": [
+      "Low annual fee of Rs. 99",
+      "20% cashback on first 2 UPI transactions",
+      "Reward points on day-to-day UPI transactions"
+    ],
+    "cons": [
+      "No travel and lifestyle benefits",
+      "Low reward rate across all spends"
+    ],
+    "best_for_whom": "RBL Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Rs. 12,500+",
+    "verdict": "option from RBL Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.19,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around RBL Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "1 RP/Rs.200 (~0.25%); '20% cashback capped Rs. 50' is a one-time welcome offer on the first 2 UPI txns only."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Cashback with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Direct competitor from SBI Card at similar fee tier (Rs. 999/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hsbc_bank_live_plus_credit_card",
+      "card_name": "HSBC Live+ Credit Card",
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "card_slug": "hsbc-live-credit-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.76,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.76/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_swiggy_credit_card",
+      "card_name": "Swiggy HDFC Bank Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "swiggy-hdfc-bank-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.66,
+      "reason": "Top-rated Cashback card in market with rating 4.66/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "rbl-bank-rbl-travel-dining-bookmyshow-weekend-offer",
+      "bank": "RBL Bank",
+      "title": "RBL Travel, Dining & BookMyShow Weekend Offers",
+      "summary": "Zero forex markup travel benefits on World Safari plus monthly BookMyShow discounts and fuel surcharge waivers.",
+      "category": "Entertainment",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.rblbank.com/personal-banking/cards/credit-cards/offers",
+      "scope": "targeted"
+    }
+  ]
+}

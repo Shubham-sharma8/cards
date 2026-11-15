@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "card_id": "sbm_bank_sbm_bank_onecard_lite_credit_card",
+    "card_name": "SBM Bank OneCard Lite",
+    "bank": "SBM Bank India",
+    "bank_slug": "sbm-bank-india",
+    "card_slug": "sbm-bank-onecard-lite",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / Secured",
+    "primary_category": "Lifetime Free",
+    "categories": [
+      "Lifetime Free",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbm-bank-india/sbm-bank-onecard-lite.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#364760",
+      "secondary_hex": "#444372",
+      "wash_hex": "#E2E4E4",
+      "soft_bg_hex": "#EDEEF1",
+      "border_hex": "#D3D7DC",
+      "ink_on_soft_hex": "#364760",
+      "is_dark_card": true,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbmbank.co.in/personal-banking/credit-cards.php",
+    "mitc_pdf_url": "https://www.sbmbank.co.in/aboutus/sbm-bank-india-mitc.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": true,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "entry",
+      "fd",
+      "free",
+      "india",
+      "level",
+      "lifetime",
+      "lifetime-free",
+      "lite",
+      "low-forex",
+      "ltf",
+      "onecard",
+      "sbm",
+      "secured",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 0.5,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "1 reward point for every Rs. 50 spent",
+      "5X reward points on top 2 spend categories",
+      "To qualify for 5X rewards, you must make purchases across at least 3 categories in a month. From these, the top 2 categories would be eligible for 5X rewards.",
+      "Redeem earned reward points without any charges",
+      "Reward points do not expire and have lifetime validity",
+      "110% credit limit of the fixed deposit amount, subject to a minimum credit limit of Rs. 11,000 and a maximum credit limit of Rs. 1.10 Lakh"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -0.68,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "110% credit limit of the fixed deposit amount, subject to a minimum credit limit of Rs. 11,000 and a maximum credit limit of Rs. 1.10 Lakh"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": []
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 1.0,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "2.5% of total amount due (Max. Rs. 1,000)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from SBM Bank India suited for lifetime free users.",
+    "highlights": [
+      "Features & Benefits",
+      "Eligibility Criteria",
+      "1 reward point for every Rs. 50 spent",
+      "5X reward points on top 2 spend categories",
+      "To qualify for 5X rewards, you must make purchases across at least 3 categories in a month. From these, the top 2 categories would be eligible for 5X rewards."
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.5,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from SBM Bank India suited for lifetime free users.",
+    "pros": [
+      "Lifetime Free card with zero annual fee commitment",
+      "Secured against Fixed Deposit — easy approval without income proof or high CIBIL"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Requires locking funds in a Fixed Deposit as collateral",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "Lifetime Free option from SBM Bank India suited for lifetime free users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.91,
+    "reddit_mentions": 3,
+    "sentiment_summary": "Community discussions around SBM Bank India Lifetime Free cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "2. Onecard: LTF and might get good deals on Dmart and Reliance S Mart.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "110% credit limit of the fixed deposit amount, subject to a minimum credit limit of Rs. 11,000 and a maximum credit limit of Rs. 1.10 Lakh"
+    ],
+    "optimization_tips": [
+      "Low 1.0% forex markup makes this practical for international travel and USD/SaaS subscriptions."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "idfc_bank_idfc_first_wow_credit_card",
+      "card_name": "IDFC FIRST WOW! Credit Card",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "idfc-first-wow-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.19,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Entry-Level & Secured (FD) with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "utkarsh_bank_utkarsh_supermoney_rupay_credit_card",
+      "card_name": "Utkarsh SuperCard RuPay Credit Card",
+      "bank": "Utkarsh Small Finance Bank",
+      "bank_slug": "utkarsh-small-finance-bank",
+      "card_slug": "utkarsh-supercard-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.1,
+      "reason": "Direct competitor from Utkarsh Small Finance Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_fd_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-fd-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.28,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.28/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": []
+}

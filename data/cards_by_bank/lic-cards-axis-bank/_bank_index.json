@@ -1,0 +1,64 @@
+{
+  "bank": "LIC Cards (Axis Bank)",
+  "bank_slug": "lic-cards-axis-bank",
+  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "total_cards": 2,
+  "ltf_count": 2,
+  "rupay_upi_count": 0,
+  "domestic_lounge_count": 1,
+  "international_lounge_count": 0,
+  "railway_lounge_count": 0,
+  "golf_count": 0,
+  "zero_or_low_forex_count": 0,
+  "with_image_count": 2,
+  "official_lounge_programs": [
+    {
+      "program_id": "axis_lounge_program",
+      "title": "Axis Bank Airport Lounge Access Program PDF",
+      "url": "https://www.axis.bank.in/docs/default-source/default-document-library/axis-bank-airport-lounge-access-program.pdf",
+      "parsed_lounges_count": 24
+    },
+    {
+      "program_id": "axis_lounge_tnc",
+      "title": "Axis Bank Complimentary Lounge Access Terms & Airport List",
+      "url": "https://www.axis.bank.in/docs/default-source/default-document-library/terms_conditions_complimentary_lounge_access.pdf",
+      "parsed_lounges_count": 9
+    },
+    {
+      "program_id": "page_axis_lounge_page",
+      "title": "Axis Bank — Axis Lounge Page",
+      "url": "https://www.axis.bank.in/cards/credit-card/airport-lounge-access-credit-card",
+      "parsed_lounges_count": 0
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "lic_cards_lic_signature_credit_card",
+      "card_name": "LIC Axis Bank Signature Credit Card",
+      "card_slug": "lic-axis-bank-signature-credit-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.35,
+      "has_domestic_lounge": true,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/lic-cards-axis-bank/lic-axis-bank-signature-credit-card.webp",
+      "json_file": "lic-axis-bank-signature-credit-card.json",
+      "md_file": "lic-axis-bank-signature-credit-card.md"
+    },
+    {
+      "card_id": "lic_cards_lic_platinum_credit_card",
+      "card_name": "LIC Axis Bank Platinum Credit Card",
+      "card_slug": "lic-axis-bank-platinum-credit-card",
+      "primary_category": "Travel & Miles",
+      "card_network": "Visa / Mastercard",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.27,
+      "has_domestic_lounge": false,
+      "has_railway_lounge": false,
+      "local_image_path": "data/assets/card_images/lic-cards-axis-bank/lic-axis-bank-platinum-credit-card.webp",
+      "json_file": "lic-axis-bank-platinum-credit-card.json",
+      "md_file": "lic-axis-bank-platinum-credit-card.md"
+    }
+  ]
+}

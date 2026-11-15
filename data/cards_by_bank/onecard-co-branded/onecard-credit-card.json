@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "card_id": "credit_card_onecard",
+    "card_name": "OneCard Credit Card",
+    "bank": "OneCard / Co-branded",
+    "bank_slug": "onecard-co-branded",
+    "card_slug": "onecard-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / Secured",
+    "primary_category": "Lifetime Free",
+    "categories": [
+      "Lifetime Free",
+      "Fuel",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/onecard-co-branded/onecard-credit-card.webp",
+    "image_source": "enrichment_p2",
+    "match_confidence": 0.98,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#364760",
+      "secondary_hex": "#444372",
+      "wash_hex": "#E2E4E4",
+      "soft_bg_hex": "#EDEEF1",
+      "border_hex": "#D3D7DC",
+      "ink_on_soft_hex": "#364760",
+      "is_dark_card": false,
+      "source": "issuer_fallback"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.getonecard.app/",
+    "mitc_pdf_url": "https://www.getonecard.app/legal/mitc/",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": true,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "branded",
+      "card",
+      "co",
+      "credit",
+      "entry",
+      "fd",
+      "free",
+      "fuel",
+      "level",
+      "lifetime",
+      "lifetime-free",
+      "low-forex",
+      "ltf",
+      "onecard",
+      "secured",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "1% forex mark-up fee",
+      "1 Reward Point on every Rs. 50 spent",
+      "5X Reward Points on the top 2 spend categories every month",
+      "1% fuel surcharge waiver of up to Rs. 400 per month"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -0.68,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 400
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "1% fuel surcharge waiver of up to Rs. 400 per month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 1.0,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from OneCard / Co-branded suited for lifetime free users.",
+    "highlights": [
+      "Metal card with digital onboarding process",
+      "Zero joining, annual and rewards redemption fees",
+      "1% forex mark-up fee",
+      "1 Reward Point on every Rs. 50 spent",
+      "5X Reward Points on the top 2 spend categories every month"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "1% fuel surcharge waiver of up to Rs. 400 per month"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "What is OneCard?",
+        "a": "+- OneCard is a lifetime free metal credit card suitable for beginners. It offers up to 5x rewards on selected categories. The card is offered in partnership with several providers, such as SBM Bank, South Indian Bank, Federal Bank, BOB Financial, Indian Bank, and CSB Bank."
+      },
+      {
+        "q": "Does OneCard have lounge access?",
+        "a": "+- No, OneCard does not offer any complimentary lounge access."
+      },
+      {
+        "q": "How much time does OneCard take to activate?",
+        "a": "+- You can start your card application via a completely digital onboarding process. It takes less than 5 minutes to activate the card."
+      },
+      {
+        "q": "Who is eligible for OneCard?",
+        "a": "+- Individuals, whether salaried or self-employed, aged above 18 years can apply for the OneCard."
+      },
+      {
+        "q": "Is one card lifetime free?",
+        "a": "+- Yes, the OneCard credit card is a lifetime free credit card."
+      },
+      {
+        "q": "What are OneCard benefits?",
+        "a": "+- OneCard comes with perks like zero joining and annual fee, a low forex markup fee of 1%, and up to 5x rewards on everyday spending."
+      },
+      {
+        "q": "How much FD is required for One Credit Card?",
+        "a": "+- SBM Bank, in collaboration with One Card, offers a secured variant called SBM Bank OneCard Lite Credit Card, which requires a fixed deposit (FD) as collateral. The minimum FD amount required is not officially disclosed by the bank, but once approved, the credit limit can be up to 110% of the FD amount (Max. Rs. 1.10 Lakh)."
+      },
+      {
+        "q": "Which bank offers One Credit Card?",
+        "a": "+- One Credit Card is issued in partnership with multiple banks, including SBM Bank, South Indian Bank, BoB Financial (Bank of Baroda), Federal Bank, Indian Bank, and CSB Bank."
+      },
+      {
+        "q": "What is the One Card Credit Card customer care number?",
+        "a": "+- For any queries related to OneCard, you can contact customer service viathe toll-free number at 1800 210 9111, or you can drop an email at help@getonecard.app. Additionally, you can reach out to the respective bank that issued your OneCard regarding any query."
+      },
+      {
+        "q": "What is the use of One Card Credit Card?",
+        "a": "+- OneCard is a metallic credit card that is offered in collaboration with several banks including SBM Bank, South Indian Bank, Federal Bank, BOB Financial and others. This is an entry-level credit card that provides basic benefits to its users such as reward points, EMI conversion and more."
+      },
+      {
+        "q": "How can I apply for One Credit Card?",
+        "a": "+- You can apply for One Card online by visiting the official website of OneCard. Applicants can also download its mobile app and apply through it."
+      },
+      {
+        "q": "Is there any rewards redemption fee for One Card Credit Card?",
+        "a": "+- No, OneCard does not charge any reward redemption fee from its users. You can earn reward points and redeem them without any charges."
+      },
+      {
+        "q": "Which documents are required to apply for OneCard Credit Card?",
+        "a": "+- At the time of application, the applicant has to submit valid identity proof, address proof and income proof (if any). These are the basic documents that an applicant has to submit while applying for any of the OneCard credit cards. However, the partner bank can also ask for any other document, if required."
+      },
+      {
+        "q": "What is the forex markup fee for OneCard Credit Card?",
+        "a": "+- OneCard comes with a lower forex markup fee as compared to the other credit cards available in the market. The forex markup fee charged by OneCard is just 1%, which makes it easier for you to make transactions in foreign currency."
+      },
+      {
+        "q": "Can I build my credit score using OneCard Credit Card?",
+        "a": "+- Yes, OneCard Credit Card is suitable for people who are new to credit. You can apply for this credit card and start building your credit score by using it efficiently. In order to build your credit score, make sure you make your payments timely and in full."
+      },
+      {
+        "q": "Can students or individuals without a credit history apply for OneCard?",
+        "a": "+- Yes, in comparison to other cards, OneCard comes with comparatively relaxed eligibility requirements, making it a suitable choice for people who are new to credit. However, the other eligibility requirements may vary as per the partner bank."
+      },
+      {
+        "q": "How can I increase the credit limit on OneCard?",
+        "a": "+- To increase the credit limit on your OneCard you can contact your partner bank. Credit limit is decided based on factors like your monthly income and credit profile. View All FAQ's"
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.5,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from OneCard / Co-branded suited for lifetime free users.",
+    "pros": [
+      "Lifetime Free card with zero annual fee commitment",
+      "Secured against Fixed Deposit — easy approval without income proof or high CIBIL"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Requires locking funds in a Fixed Deposit as collateral",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "Lifetime Free option from OneCard / Co-branded suited for lifetime free users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.91,
+    "reddit_mentions": 3,
+    "sentiment_summary": "Community discussions around OneCard / Co-branded Lifetime Free cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "2. Onecard: LTF and might get good deals on Dmart and Reliance S Mart.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Low 1.0% forex markup makes this practical for international travel and USD/SaaS subscriptions."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "indian_bank_onecard_credit_card",
+      "card_name": "Indian Bank OneCard Credit Card",
+      "bank": "Indian Bank",
+      "bank_slug": "indian-bank",
+      "card_slug": "indian-bank-onecard-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.5,
+      "reason": "Direct competitor from Indian Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.09/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "One Card credit cards come with relaxed eligibility so any individual who is new to credit can also apply for this card. However, the eligibility may vary as per the partner bank. Below-mentioned are some of the common eligibility criteria:"
+  },
+  "latest_offers": [
+    {
+      "offer_id": "onecard-co-branded-onecard-around-you-dining-grocery-fuel-app",
+      "bank": "OneCard / Co-branded",
+      "title": "OneCard Around-You Dining, Grocery & Fuel App Offers",
+      "summary": "Location-aware instant valueback offers in the OneCard app across supermarkets, restaurants, pharmacies, and partner online brands.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.getonecard.app/",
+      "scope": "targeted"
+    }
+  ]
+}

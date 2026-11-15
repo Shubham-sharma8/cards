@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "card_id": "csb_bank_jupiter_edge_csb_rupay_credit_card",
+    "card_name": "Jupiter Edge CSB Bank RuPay Credit Card",
+    "bank": "CSB Bank",
+    "bank_slug": "csb-bank",
+    "card_slug": "jupiter-edge-csb-bank-rupay-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Entry-to-Mid",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "RuPay & UPI",
+      "Lifetime Free",
+      "Online Shopping",
+      "Cashback"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/csb-bank/jupiter-edge-csb-bank-rupay-credit-card.webp",
+    "image_source": "cardledger_studio_render",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#D64550",
+      "secondary_hex": "#1D2939",
+      "wash_hex": "#FDECEE",
+      "soft_bg_hex": "#FFF5F6",
+      "border_hex": "#F6CCD0",
+      "ink_on_soft_hex": "#A32934",
+      "is_dark_card": false,
+      "source": "issuer_curated"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.csb.bank.in/credit-card",
+    "mitc_pdf_url": "https://www.csb.bank.in/credit-card",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 25000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Jupiter app users wanting an LTF RuPay UPI credit card with 2% rewards on one primary spend category",
+      "Rs. 8,000 – Rs. 25,000"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "csb",
+      "edge",
+      "free",
+      "jupiter",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "online",
+      "rupay",
+      "scan-and-pay",
+      "shopping",
+      "upi",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback (Jewels)",
+    "base_reward_rate_pct": 0.4,
+    "accelerated_reward_rate_pct": 2.0,
+    "point_value_inr_default": 0.2,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.20"
+    },
+    "point_expiry": "Does not expire",
+    "reward_earning_rules": [
+      "2% value back as Jewels on selected accelerated category: Shopping, Travel or Dining (monthly cap Rs. 500/category; Rs. 1,500 combined cap)",
+      "0.4% base rewards (2 Jewels per Rs. 100) on other retail & RuPay UPI Scan & Pay spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.0,
+      "amazon_flipkart_myntra": 2.0,
+      "dining_swiggy_zomato": 0.4,
+      "groceries_quick_commerce": 0.4,
+      "travel_flights_hotels": 0.4,
+      "upi_scan_and_pay": 0.4,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.73,
+      "offline_general_other": 0.4
+    },
+    "monthly_category_caps_inr": {
+      "online_shopping_general": 500,
+      "amazon_flipkart_myntra": 500
+    },
+    "monthly_capping_rules": [
+      "LTF Edge CSB variant: 2% Jewels on 1 chosen boost category (Shopping, Travel or Dining — cap Rs. 500/mo); 0.4% base on UPI & other retail."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Fuel transactions",
+      "Rent payments",
+      "Wallet loads",
+      "Utilities & govt spends"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "2% return as Jewels on chosen category — Shopping (Amazon/Flipkart/Myntra), Travel, or Dining (1% on Edge base vs 10%/5% on paid Edge+ variant)",
+        "Redeem Jewels 5:1 (5 Jewels = Rs. 1) as instant cash/digital gold/bills inside Jupiter app"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free — Rs. 0 joining & Rs. 0 annual fee",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 min",
+    "fuel_surcharge_waiver": "1% waiver on Rs. 400–Rs. 3,000 (max Rs. 100/mo)",
+    "redemption_fee": "Rs. 0 on Jupiter Jewels -> Cash/Digital Gold",
+    "add_on_card_fee": "Not Applicable",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Simple LTF co-branded fintech RuPay card from CSB Bank & Jupiter.",
+    "highlights": [
+      "Lifetime Free (Rs. 0 joining & Rs. 0 annual fee forever)",
+      "2% cashback as Jewels on your picked boost category (Shopping, Travel or Dining)",
+      "0.4% base cashback on standard RuPay UPI QR transactions"
+    ],
+    "welcome_benefit": "Lifetime Free RuPay UPI credit card managed natively in the Jupiter app",
+    "milestone_benefits": [
+      "2% return as Jewels on chosen category — Shopping (Amazon/Flipkart/Myntra), Travel, or Dining (1% on Edge base vs 10%/5% on paid Edge+ variant)",
+      "Redeem Jewels 5:1 (5 Jewels = Rs. 1) as instant cash/digital gold/bills inside Jupiter app"
+    ],
+    "dining_benefits": [
+      "2% Jewels when Dining boost is active"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Personal accident cover up to Rs. 2 Lakh per CSB Bank T&C"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 4.1,
+    "editorial_rating": 4.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 4.0,
+      "RuPay & UPI": 4.1,
+      "Online Shopping": 4.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Simple LTF co-branded fintech RuPay card from CSB Bank & Jupiter.",
+    "pros": [
+      "Instant Jewels redemption into cash or digital gold in the Jupiter app",
+      "Flexible 2% category selector (Shopping / Travel / Dining)"
+    ],
+    "cons": [
+      "Lower 0.4% base rate outside chosen 2% category (Edge+ offers higher 10%/5% brand rates)",
+      "No airport lounge access"
+    ],
+    "best_for_whom": "Jupiter app users wanting an LTF RuPay UPI credit card with 2% rewards on one primary spend category",
+    "not_ideal_for": "Users wanting high flat cashback (check Edge+ CSB Bank or Kiwi Yes Bank)",
+    "recommended_monthly_spend_inr": "Rs. 8,000 – Rs. 25,000",
+    "verdict": "Simple LTF co-branded fintech RuPay card from CSB Bank & Jupiter."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.0,
+    "reddit_mentions": 24,
+    "sentiment_summary": "Community discussions around CSB Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "LTF Edge CSB variant: 2% Jewels on 1 chosen boost category (Shopping, Travel or Dining — cap Rs. 500/mo); 0.4% base on UPI & other retail."
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (2.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Edge base variant remains LTF; higher 10%/5% shopping/travel rates moved into Edge+ CSB Bank variant."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "cred-indusind-bank-rupay-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.2,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "utkarsh_bank_utkarsh_supermoney_rupay_credit_card",
+      "card_name": "Utkarsh SuperCard RuPay Credit Card",
+      "bank": "Utkarsh Small Finance Bank",
+      "bank_slug": "utkarsh-small-finance-bank",
+      "card_slug": "utkarsh-supercard-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.1,
+      "reason": "Direct competitor from Utkarsh Small Finance Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hsbc_bank_rupay_cashback_credit_card",
+      "card_name": "HSBC RuPay Cashback Credit Card",
+      "bank": "HSBC Bank",
+      "bank_slug": "hsbc-bank",
+      "card_slug": "hsbc-rupay-cashback-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.22,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.22/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Top-rated Cashback card in market with rating 4.56/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": 25000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 360000,
+    "min_cibil_score": 730,
+    "approval_notes": "Instant digital onboarding inside Jupiter app (upgradable to Edge+ CSB Bank variant)."
+  },
+  "latest_offers": []
+}

@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "card_id": "sbm_bank_sbm_credilio_credit_card",
+    "card_name": "SBM novio Credit Card",
+    "bank": "SBM Bank India",
+    "bank_slug": "sbm-bank-india",
+    "card_slug": "sbm-novio-credit-card",
+    "card_network": "RuPay / Visa",
+    "card_tier": "Entry-Level / Secured",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "Lifetime Free",
+      "RuPay & UPI",
+      "Fuel",
+      "Zero/Low Forex",
+      "Entry-Level & Secured (FD)"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbm-bank-india/sbm-novio-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#3D2460",
+      "secondary_hex": "#D3A836",
+      "wash_hex": "#E3DFE4",
+      "soft_bg_hex": "#EEEBF1",
+      "border_hex": "#D4CFDC",
+      "ink_on_soft_hex": "#3D2460",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbmbank.co.in/personal-banking/credit-cards.php",
+    "mitc_pdf_url": "https://www.sbm.bank.in/pdf/terms-conditions/SBM-Secured-Credit-Card-T&C.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": true,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Students",
+      "New-to-Credit applicants",
+      "or low-CIBIL users building credit history via a Fixed Deposit",
+      "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)"
+    ],
+    "requirement_keywords": [
+      "airport",
+      "bank",
+      "card",
+      "credit",
+      "entry",
+      "fd",
+      "forex",
+      "free",
+      "fuel",
+      "india",
+      "level",
+      "lifetime",
+      "lifetime-free",
+      "lounge",
+      "low",
+      "low-forex",
+      "ltf",
+      "miles",
+      "novio",
+      "rupay",
+      "sbm",
+      "scan-and-pay",
+      "secured",
+      "travel",
+      "upi",
+      "zero",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 2.49,
+    "accelerated_reward_rate_pct": 2.49,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "10 Novio Coins for every Rs. 100 spent on fuel via UPI, capped at 400 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "1 Novio Coin for every Rs. 100 spent on fuel, capped at 40 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "5 Novio Coins for every Rs. 100 spent on other categories, including UPI transactions",
+      "Redeem reward points through Novio app against brand vouchers",
+      "Low forex markup fee of 2.49%",
+      "Credit limit of 90% of the FD amount"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.49,
+      "amazon_flipkart_myntra": 2.49,
+      "dining_swiggy_zomato": 2.49,
+      "groceries_quick_commerce": 2.49,
+      "travel_flights_hotels": 2.49,
+      "upi_scan_and_pay": 2.49,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 0.13,
+      "offline_general_other": 2.49
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "10 Novio Coins for every Rs. 100 spent on fuel via UPI, capped at 400 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "1 Novio Coin for every Rs. 100 spent on fuel, capped at 40 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "Credit limit of 90% of the FD amount"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "10 Novio Coins for every Rs. 100 spent on fuel via UPI, capped at 400 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+        "1 Novio Coin for every Rs. 100 spent on fuel, capped at 40 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+        "Redeem reward points through Novio app against brand vouchers",
+        "Up to 16.7% bonus reward points on travel bookings via IDFC FIRST app"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No complimentary domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 2.0,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "Rs. 499"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "It offers value-back in the form of Novio Coins, which can be redeemed for brand vouchers via Novio app. Cardholders can earn up to **10X Novio Coins on their fuel spends** and 5X Novio Coins on other categories, including UPI transactions. Additionally, the card charges a **comparatively low forex markup fee of 2.49%,** making it a suitable option for international spends.",
+    "highlights": [
+      "10 Novio Coins for every Rs. 100 spent on fuel via UPI, capped at 400 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "1 Novio Coin for every Rs. 100 spent on fuel, capped at 40 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "5 Novio Coins for every Rs. 100 spent on other categories, including UPI transactions",
+      "Redeem reward points through Novio app against brand vouchers"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "10 Novio Coins for every Rs. 100 spent on fuel via UPI, capped at 400 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "1 Novio Coin for every Rs. 100 spent on fuel, capped at 40 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "Redeem reward points through Novio app against brand vouchers",
+      "Up to 16.7% bonus reward points on travel bookings via IDFC FIRST app"
+    ],
+    "dining_benefits": [
+      "Up to 20% off on Zomato, BookMyShow, Swiggy and Instamart"
+    ],
+    "movie_benefits": [
+      "Up to 20% off on Zomato, BookMyShow, Swiggy and Instamart",
+      "25% off, up to Rs. 100, on movie tickets, once a month"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You are looking for a lifetime free credit card with zero joining and annual fees",
+      "You are new to credit and want to start your credit journey",
+      "You are comfortable in redeeming the accumulated rewards via Novio app"
+    ],
+    "faqs": [
+      {
+        "q": "How does SBM novio Credit Card\\\\\\\\\\'s rewards program work?",
+        "a": "You can earn Novio Coins as value-back on their spends. The card offers up to 10 Coins per Rs. 100 spent on fuel and 5 Coins per Rs. 100 spent on other categories, including UPI transactions. These Coins can be redeemed for brand vouchers through the Novio app."
+      },
+      {
+        "q": "What is the credit limit offered on SBM novio Credit Card?",
+        "a": "The credit limit on SBM novio Credit Card is 90% of the fixed deposit amount. For example, if your FD is Rs. 10,000, your available credit limit will be Rs. 9,000."
+      },
+      {
+        "q": "Are there any fees associated with SBM novio Credit Card?",
+        "a": "This card has no joining or annual fees. However, finance charges are 3.5% per month (42% p.a.), and late payment fee is Rs. 499. The card also has a low forex markup fee of 2.49%, making it suitable for international spends."
+      },
+      {
+        "q": "What is the eligibility criteria for this card?",
+        "a": "The applicants must be Indian residents aged 18 years or above. The minimum FD required is Rs. 5,000 to apply for this credit card."
+      },
+      {
+        "q": "Can I use SBM novio Credit Card for international transactions?",
+        "a": "Yes, SBM novio Credit Card charges a low forex markup fee of 2.49%, which is lower than many standard credit cards. This makes it a practical option for international spends."
+      },
+      {
+        "q": "Is SBM novio suitable for everyday spending?",
+        "a": "Yes, the card offers rewards on everyday categories including UPI transactions and accelerated rewards on fuel spends, making it useful for day-to-day purchases while helping you build a strong credit profile."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.0,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 2.5,
+      "Fuel Benefits": 3.0,
+      "travel": 3.0,
+      "rewards": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from SBM Bank India suited for travel & miles users with 8 domestic lounge visits/yr.",
+    "pros": [
+      "Low forex markup fee of 2.49%",
+      "Up to 10X reward points on fuel spends",
+      "5X reward points on UPI transactions",
+      "Lifetime free credit card with no joining and annual fee"
+    ],
+    "cons": [
+      "Reward redemption can only be done via Novio app",
+      "No complimentary international/domestic lounge visits"
+    ],
+    "best_for_whom": "Students, New-to-Credit applicants, or low-CIBIL users building credit history via a Fixed Deposit",
+    "not_ideal_for": "Established salaried professionals eligible for unsecured cashback/travel cards",
+    "recommended_monthly_spend_inr": "Rs. 5,000 – Rs. 20,000 (<30% FD utilization)",
+    "verdict": "Lifetime Free option from SBM Bank India suited for travel & miles users with 8 domestic lounge visits/yr."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.0,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBM Bank India Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "10 Novio Coins for every Rs. 100 spent on fuel via UPI, capped at 400 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "1 Novio Coin for every Rs. 100 spent on fuel, capped at 40 Coins per month, on fuel spends between Rs. 400 and Rs. 4,000",
+      "Credit limit of 90% of the FD amount"
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (2.5% effective return) before hitting monthly category caps."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "indian_bank_onecard_credit_card",
+      "card_name": "Indian Bank OneCard Credit Card",
+      "bank": "Indian Bank",
+      "bank_slug": "indian-bank",
+      "card_slug": "indian-bank-onecard-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.5,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "au_small_finance_bank_ixigo_au_credit_card",
+      "card_name": "ixigo AU Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "ixigo-au-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.38,
+      "reason": "Direct competitor from AU Small Finance Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_bank_idfc_first_wow_black_credit_card",
+      "card_name": "FIRST WOW! Black Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-wow-black-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 750,
+      "overall_rating": 4.22,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.22/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_scapia_credit_card",
+      "card_name": "Federal Bank Scapia Credit Card",
+      "bank": "Federal Bank / Scapia",
+      "bank_slug": "federal-bank-scapia",
+      "card_slug": "federal-bank-scapia-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.46,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.46/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": "The applicants must be Indian residents aged 18 years or above. The minimum FD required is Rs. 5,000 to apply for this credit card."
+  },
+  "latest_offers": []
+}

@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "card_id": "indusind_bank_platinum_aura_edge_credit_card",
+    "card_name": "IndusInd Platinum Aura Edge Credit Card",
+    "bank": "IndusInd Bank",
+    "bank_slug": "indusind-bank",
+    "card_slug": "indusind-platinum-aura-edge-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Lifetime Free",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/indusind-bank/indusind-platinum-aura-edge-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#2B275E",
+      "secondary_hex": "#6B472E",
+      "wash_hex": "#E1E0E4",
+      "soft_bg_hex": "#ECECF1",
+      "border_hex": "#D0CFDC",
+      "ink_on_soft_hex": "#2B275E",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+    "mitc_pdf_url": "https://www.indusind.com/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "aura",
+      "bank",
+      "card",
+      "credit",
+      "edge",
+      "free",
+      "indusind",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "miles",
+      "online",
+      "platinum",
+      "shopping",
+      "travel",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 0.401,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.40"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "Redeem reward points against cash credit at a value of 1 RP = Rs. 0.401",
+      "Convert reward points into KrisFlyer Miles at a value of 400 Reward Points = 100 KrisFlyer Miles",
+      "1% fuel surcharge waiver, up to Rs. 100 per billing cycle, across all petrol pumps in India on transactions between Rs. 500 and Rs. 3,000",
+      "Customizable reward points based on your lifestyle",
+      "Capping on reward points redemption, which may limit value for high spenders"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "utilities_bills_telecom": 100,
+      "fuel": 100
+    },
+    "monthly_capping_rules": [
+      "Capping on reward points redemption, which may limit value for high spenders"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Vouchers of top brands, including EaseMyTrip, Bath & Body Works, Ixigo, Domino’s, Marks & Spencer, Nykaa, MakeMyTrip and more on the payment of joining fee",
+        "1% fuel surcharge waiver, up to Rs. 100 per billing cycle, across all petrol pumps in India on transactions between Rs. 500 and Rs. 3,000",
+        "Complimentary vouchers from top brands as welcome benefits",
+        "Capping on reward points redemption, which may limit value for high spenders"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.95,
+    "apr_annual_pct": 47.4,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Up to Rs. 100",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 101 to Rs. 500",
+        "late_fee_inr": "Rs. 100"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 501 to Rs. 1,000",
+        "late_fee_inr": "Rs. 350"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 1,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 550"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 10,001 to Rs. 25,000",
+        "late_fee_inr": "Rs. 800"
+      },
+      {
+        "statement_balance_slab": "Between Rs. 25,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "IndusInd Platinum Aura Edge Credit Card is an entry-level credit card that offers benefits primarily through its rewards program. It comes with a unique reward structure by offering points across four different plans—**Home, Shop, Travel, and Party** —each catering to different spending categories. Cardholders have the flexibility to choose a plan based on their lifestyle and maximize their rewards accordingly. The card offers a reward rate of up to **4 points per Rs. 100 spent on everyday categories** such as groceries, travel bookings, and departmental stores. However, for other spends, the base reward rate is quite low at **0.5 points per Rs. 100 spent**. The card allows reward redemption across multiple options, including cash credit, conversion into air miles (limited to KrisFlyer Miles), and ‘Pay with Points’ at partner merchants. However, one limitation is that cardholders must select a rewards plan at the time of activation and can only change it after 6 months, which may be inconvenient for some users. Apart from the rewards program, the card also offers**complimentary vouchers of top brands** as welcome benefits, a fuel surcharge waiver, and insurance coverage, further enhancing its value. Overall, this is a basic entry-level credit card best suited for consumers who want to maximize their everyday spends through reward points.",
+    "highlights": [
+      "4 Savings Points per Rs. 100 spent on shopping at departmental stores",
+      "2 Savings Points per Rs. 100 spent on purchase of consumer durable or electronic items",
+      "1.5 Savings Points per Rs. 100 spent on restaurant bills & books"
+    ],
+    "welcome_benefit": "Complimentary vouchers from top brands as welcome benefits",
+    "milestone_benefits": [
+      "Vouchers of top brands, including EaseMyTrip, Bath & Body Works, Ixigo, Domino’s, Marks & Spencer, Nykaa, MakeMyTrip and more on the payment of joining fee",
+      "1% fuel surcharge waiver, up to Rs. 100 per billing cycle, across all petrol pumps in India on transactions between Rs. 500 and Rs. 3,000",
+      "Complimentary vouchers from top brands as welcome benefits",
+      "Capping on reward points redemption, which may limit value for high spenders"
+    ],
+    "dining_benefits": [
+      "1.5 Savings Points per Rs. 100 spent on restaurant bills & books",
+      "4 Savings Points per Rs. 100 spent on restaurant bills"
+    ],
+    "movie_benefits": [
+      "2.5 Savings Points per Rs. 100 spent on flight tickets",
+      "1.5 Savings Points per Rs. 100 spent on car rentals & train tickets",
+      "1.5 Savings Points per Rs. 100 spent on movie tickets"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "1.4 Savings Points per Rs. 100 spent on insurance, cellphone & electricity bills",
+      "Air Accident Insurance: Rs. 25 Lakh"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want customizable reward points based on your lifestyle",
+      "You want multiple reward point redemption options such as cash credit, air miles, or pay with points",
+      "You are looking for a lifetime free card with basic benefits"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for IndusInd Platinum Aura Edge Credit Card?",
+        "a": "You can apply for this credit card through our Platform by filling out the application form. Besides this, you can also apply online by visiting the official website of the bank. All you need to do is look for this credit card and submit the application form. You can also visit any of the nearest branches of the bank to apply for this card in person."
+      },
+      {
+        "q": "Are there any fuel benefits offered on IndusInd Platinum Aura Edge Credit Card?",
+        "a": "Yes, this credit card offers a fuel surcharge waiver of 1% on your fuel expenses. However, this is applicable only on your transactions between Rs. 500 and Rs. 3,000."
+      },
+      {
+        "q": "What should I do if I lose my IndusInd Platinum Aura Edge Credit Card?",
+        "a": "As soon as you notice the loss of your card or a fraudulent transaction, you must inform the bank by calling on the customer care number – 1860 267 7777. The representative will ask a few questions for confirmation and block your card."
+      },
+      {
+        "q": "How can I check the application status of my IndusInd Platinum Aura Edge Credit Card?",
+        "a": "You can check the application status of your card by visiting the official website of the bank. You are required to enter the application number to track your status. Besides this, the bank also sends a text on your registered mobile number regarding your application status."
+      },
+      {
+        "q": "What is the credit limit offered on IndusInd Platinum Aura Edge Credit Card?",
+        "a": "The credit limit varies from applicant to applicant. The bank decides your credit limit after scrutinizing your application form. Your credit limit is decided based on your income, payment history, debt and more. Therefore, you will get to know about your credit limit when you receive your credit card."
+      },
+      {
+        "q": "What is the forex markup fee charged on IndusInd Platinum Aura Edge Credit Card?",
+        "a": "IndusInd Platinum Aura Edge Credit Card charges a forex markup fee of 3.5% on your foreign currency transactions."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.41,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.0,
+      "Rewards": 3.0,
+      "Shopping": 3.5,
+      "travel": 3.0,
+      "rewards": 3.0,
+      "shopping": 3.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from IndusInd Bank suited for travel & miles users.",
+    "pros": [
+      "Customizable reward points based on your lifestyle",
+      "No joining or annual fee (lifetime free)",
+      "Complimentary vouchers from top brands as welcome benefits",
+      "Multiple reward redemption options – cash credit, air miles, and more"
+    ],
+    "cons": [
+      "Low base reward rate on general spends",
+      "No travel or lifestyle benefits like lounge access, free movie tickets, etc.",
+      "Capping on reward points redemption, which may limit value for high spenders"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "Lifetime Free option from IndusInd Bank suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.41,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around IndusInd Bank Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Capping on reward points redemption, which may limit value for high spenders"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low",
+    "devaluation_risk_score": 3,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Generally stable once acquired (Tiger LTF even improved with Air India 1:1 transfer in June 2026!)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "axis_bank_burgundy_private_credit_card",
+      "card_name": "Axis Bank Burgundy Private Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-burgundy-private-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from Axis Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.42/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.28/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "indusind-bank-make-the-most-out-of-your-reward-points-by-us",
+      "bank": "IndusInd Bank",
+      "title": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you",
+      "summary": "Make the most out of your reward points by using Pay With Rewards. Save maximum every time you shop.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "indusind-bank-eazydiner-culinary-treats-flight-movie-priv",
+      "bank": "IndusInd Bank",
+      "title": "EazyDiner Culinary Treats & Flight/Movie Privileges",
+      "summary": "Guaranteed dining discounts at EazyDiner partner restaurants, BOGO movie perks via BookMyShow, and zero-markup forex promos on Tiger/Avios.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.indusind.bank.in/in/en/personal/offers.html",
+      "scope": "targeted"
+    }
+  ]
+}

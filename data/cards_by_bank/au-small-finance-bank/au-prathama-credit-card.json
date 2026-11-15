@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "card_id": "au_small_finance_bank_au_prathama_credit_card",
+    "card_name": "AU Prathama Credit Card",
+    "bank": "AU Small Finance Bank",
+    "bank_slug": "au-small-finance-bank",
+    "card_slug": "au-prathama-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Fuel",
+    "categories": [
+      "Fuel"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/au-small-finance-bank/au-prathama-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#A3484F",
+      "secondary_hex": "#323B67",
+      "wash_hex": "#F0E4E2",
+      "soft_bg_hex": "#F7EFEF",
+      "border_hex": "#EBD7D8",
+      "ink_on_soft_hex": "#9E464C",
+      "is_dark_card": true,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.au.bank.in/personal-banking/credit-cards",
+    "mitc_pdf_url": "https://www.au.bank.in/credit-cards/mitc%28with-schedule-of-charges%29.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Regular petrol",
+      "diesel commuters matching the card's partner pump brand (BPCL",
+      "IOCL",
+      "HPCL)",
+      "Rs. 4,000 – Rs. 15,000 fuel/month"
+    ],
+    "requirement_keywords": [
+      "au",
+      "bank",
+      "card",
+      "credit",
+      "finance",
+      "fuel",
+      "prathama",
+      "small"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.25,
+    "accelerated_reward_rate_pct": 0.5,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "2 reward points per Rs. 100 spent on contactless transactions",
+      "1 reward point per Rs. 100 spent on all other spends,2",
+      "2X reward points on incremental monthly spends beyond Rs. 5,000 in a statement cycle",
+      "Redeem reward points through AU Rewardz at a value of 1 Reward Point = Rs. 0.25",
+      "1% fuel surcharge waiver on fuel transactions, up to Rs. 100 per statement cycle",
+      "2X reward points on all incremental and contactless spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.25,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 0.25,
+      "groceries_quick_commerce": 0.25,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 3.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 100
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 100,
+      "annual_fee_inr": 100,
+      "annual_fee_with_gst_inr": 118.0,
+      "fee_waiver_spend_inr": 75000,
+      "monthly_spend_for_waiver_inr": 6250,
+      "milestone_slabs": [
+        "1 reward point per Rs. 100 spent on all other spends,2",
+        "2X reward points on incremental monthly spends beyond Rs. 5,000 in a statement cycle",
+        "1% fuel surcharge waiver on fuel transactions, up to Rs. 100 per statement cycle",
+        "Annual fee waiver on spends of Rs. 75,000 per annum"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 100,
+    "annual_fee_inr": 100,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 75000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of total amount due (Minimum Rs. 10 and Maximum Rs. 100)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "AU Prathama Credit Card is an entry-level card designed for spenders looking to earn rewards on their everyday purchases. The card stands out primarily due to its very **low annual fee of Rs. 100** , along with benefits on day-to-day spends. The card comes with a base reward rate of **1 point per Rs. 100 spent**. However, consumers can earn **2X reward points on incremental spends** above Rs. 5,000 in a month, along with contactless payments. Cardholders can redeem the accumulated reward points at a value of **Rs. 0.25 per point**. Apart from the rewards program, the card also offers other basic perks, such as a fuel surcharge waiver and **500 bonus reward points** on the setup of a standing instruction or recurring transaction. Here is all you need to know about the AU Prathama Credit Card.",
+    "highlights": [
+      "2 reward points per Rs. 100 spent on contactless transactions",
+      "1 reward point per Rs. 100 spent on all other spends,2",
+      "500 bonus points on every standing instruction setup"
+    ],
+    "welcome_benefit": "No additional perks or welcome benefits",
+    "milestone_benefits": [
+      "1 reward point per Rs. 100 spent on all other spends,2",
+      "2X reward points on incremental monthly spends beyond Rs. 5,000 in a statement cycle",
+      "1% fuel surcharge waiver on fuel transactions, up to Rs. 100 per statement cycle",
+      "Annual fee waiver on spends of Rs. 75,000 per annum"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": [
+      {
+        "q": "Does the card offer any welcome benefits or cashback?",
+        "a": "No. AU Prathama Credit Card does not offer any welcome benefit upon joining, and there is no cashback on any spend category."
+      },
+      {
+        "q": "I am a beginner, can I apply for AU Prathama Credit Card?",
+        "a": "Yes, this card is an entry-level credit card and is well-suited for first-time credit card users."
+      },
+      {
+        "q": "How can I get annual fee waived on the AU Prathama Credit Card?",
+        "a": "If your **total spends cross Rs. 75,000 in a year** , the annual fee of Rs. 100 + GST will be waived off automatically."
+      },
+      {
+        "q": "What is the value of 1 reward point on the AU Prathama Credit Card?",
+        "a": "Each reward point on the card is worth **Rs.0.25** which means **100 reward points = Rs. 25**."
+      },
+      {
+        "q": "What are the insurance benefits on offered with the AU Prathama Credit Card?",
+        "a": "The card comes offers card liability cover, credit shield, and device protection plan."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.34,
+    "editorial_rating": 2.5,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 2.5,
+      "Fuel Benefits": 2.0,
+      "rewards": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from AU Small Finance Bank suited for fuel users.",
+    "pros": [
+      "2X reward points on all incremental and contactless spends",
+      "500 bonus points per standing instruction setup",
+      "Annual fee waiver on spends of Rs. 75,000 per annum"
+    ],
+    "cons": [
+      "Low reward rate on spends below Rs. 5,000 p.m.",
+      "No category-specific accelerated rewards structure except contactless spends",
+      "No additional perks or welcome benefits"
+    ],
+    "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
+    "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",
+    "recommended_monthly_spend_inr": "Rs. 4,000 – Rs. 15,000 fuel/month",
+    "verdict": "option from AU Small Finance Bank suited for fuel users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.34,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around AU Small Finance Bank Fuel cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Focus spends on partner fuel pump swipes (3.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹75,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Tightened LIT, Zenith, Vetta & ixigo spend criteria after rapid 2023–2024 customer acquisition."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "sbm_bank_sbm_credilio_credit_card",
+      "card_name": "SBM novio Credit Card",
+      "bank": "SBM Bank India",
+      "bank_slug": "sbm-bank-india",
+      "card_slug": "sbm-novio-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.0,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "idfc_first_bank_idfc_first_hpcl_power_plus_credit_card",
+      "card_name": "FIRST Power+ Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-power-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.42,
+      "reason": "Direct competitor from IDFC FIRST Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "sbi_bank_sbi_bpcl_credit_card_octane",
+      "card_name": "BPCL SBI Card Octane",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "bpcl-sbi-card-octane",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.4,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.4/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "rbl_bank_indianoil_rbl_xtra_credit_card",
+      "card_name": "IndianOil RBL Bank XTRA Credit Card",
+      "bank": "RBL Bank",
+      "bank_slug": "rbl-bank",
+      "card_slug": "indianoil-rbl-bank-xtra-credit-card",
+      "annual_fee_inr": 1500,
+      "overall_rating": 4.35,
+      "reason": "Top-rated Fuel card in market with rating 4.35/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "au-small-finance-bank-au-swag-deals-travel-upi-cashback-promos",
+      "bank": "AU Small Finance Bank",
+      "title": "AU Swag Deals & Travel / UPI Cashback Promos",
+      "summary": "Zero forex markup & instant flight/train/hotel discounts on ixigo AU plus customisable milestone boosts on AU LIT & Zenith+.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.au.bank.in/personal-banking/offers",
+      "scope": "targeted"
+    }
+  ]
+}

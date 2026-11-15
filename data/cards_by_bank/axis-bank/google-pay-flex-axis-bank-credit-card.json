@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "card_id": "axis_bank_gpay_flex_axis_bank_credit_card",
+    "card_name": "Google Pay Flex Axis Bank Credit Card",
+    "bank": "Axis Bank",
+    "bank_slug": "axis-bank",
+    "card_slug": "google-pay-flex-axis-bank-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Lifetime Free",
+    "categories": [
+      "Lifetime Free",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/axis-bank/google-pay-flex-axis-bank-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#B13A5F",
+      "secondary_hex": "#1C7D49",
+      "wash_hex": "#F1E2E4",
+      "soft_bg_hex": "#F8EDF1",
+      "border_hex": "#EED4DC",
+      "ink_on_soft_hex": "#AB385C",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.axis.bank.in/cards/credit-card",
+    "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Axis Bank customers seeking lifetime free rewards & bank-specific discount offers",
+      "Any (LTF keeper)"
+    ],
+    "requirement_keywords": [
+      "axis",
+      "bank",
+      "card",
+      "credit",
+      "dining",
+      "flex",
+      "free",
+      "google",
+      "groceries",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "movies",
+      "pay",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "2X stars (2 stars for every Rs. 500 spent) in the current cycle on spending at least Rs. 100 in the previous cycle",
+      "4X stars (4 stars for every Rs. 500 spent), if you are already at 2X and spend more than Rs. 15,000 in the same period",
+      "8X stars (8 stars for every Rs. 500 spent), if you are already at 2X and spend more than Rs. 30,000 in the same period",
+      "Redeem stars on UPI payments via Google Pay using this card at a value of 1 star = Rs. 1",
+      "Up to 15% off (Max. Rs. 500 per month) on dining via EazyDiner",
+      "Redemption of rewards against UPI spends at a 1:1 ratio"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.5,
+      "amazon_flipkart_myntra": 0.5,
+      "dining_swiggy_zomato": 0.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 0.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.63,
+      "offline_general_other": 0.5
+    },
+    "monthly_category_caps_inr": {
+      "dining_swiggy_zomato": 500
+    },
+    "monthly_capping_rules": [
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "2X stars (2 stars for every Rs. 500 spent) in the current cycle on spending at least Rs. 100 in the previous cycle",
+        "4X stars (4 stars for every Rs. 500 spent), if you are already at 2X and spend more than Rs. 15,000 in the same period",
+        "8X stars (8 stars for every Rs. 500 spent), if you are already at 2X and spend more than Rs. 30,000 in the same period",
+        "Gift card worth Rs. 250 and bonus 250 stars on Google Pay"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 55.54,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 501 to Rs. 5,000",
+        "late_fee_inr": "Rs. 500"
+      },
+      {
+        "statement_balance_slab": "Rs. 5,001 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,001 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,200"
+      },
+      {
+        "statement_balance_slab": "Greater than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Lifetime Free option from Axis Bank suited for lifetime free users.",
+    "highlights": [
+      "1 star for every Rs. 500 spent",
+      "2X stars (2 stars for every Rs. 500 spent) in the current cycle on spending at least Rs. 100 in the previous cycle",
+      "4X stars (4 stars for every Rs. 500 spent), if you are already at 2X and spend more than Rs. 15,000 in the same period"
+    ],
+    "welcome_benefit": "Welcome benefits worth Rs. 500",
+    "milestone_benefits": [
+      "2X stars (2 stars for every Rs. 500 spent) in the current cycle on spending at least Rs. 100 in the previous cycle",
+      "4X stars (4 stars for every Rs. 500 spent), if you are already at 2X and spend more than Rs. 15,000 in the same period",
+      "8X stars (8 stars for every Rs. 500 spent), if you are already at 2X and spend more than Rs. 30,000 in the same period",
+      "Gift card worth Rs. 250 and bonus 250 stars on Google Pay"
+    ],
+    "dining_benefits": [
+      "Up to 15% off (Max. Rs. 500 per month) on dining via EazyDiner"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You prefer to make UPI payments through Google Pay",
+      "You are looking for a lifetime free credit card with basic benefits on everyday online spends",
+      "You want the choice to pay full bill or convert spends into EMIs directly via Google Pay",
+      "You can spend up to Rs. 30,000 in a month to maximize reward benefits"
+    ],
+    "faqs": [
+      {
+        "q": "How can I apply for Google Pay Flex Axis Bank Credit Card?",
+        "a": "You can apply online through the Google Pay app. The application is paperless, and once approved, your card will be linked directly within the app for instant use."
+      },
+      {
+        "q": "Can I earn reward points on rent payments via Google Pay Flex Axis Bank Credit Card?",
+        "a": "No, this credit card does not offer reward points on select categories, including rental payments, cash withdrawals, financial institution payments, insurance premium payments, educational institutions and services, government and government institutions payments and fees, payment of card fees and charges, wallet spends, clock, jewellery, watch & silverware stores."
+      },
+      {
+        "q": "Does Google Pay Flex Axis Bank Credit Card offer a fuel surcharge waiver?",
+        "a": "No, this entry-level credit card does not offer fuel surcharge waiver. However, you can earn reward points on your fuel spends and redeem them against UPI spends via Google Pay."
+      },
+      {
+        "q": "What is the flexible repayment option with Google Pay Flex Axis Bank Credit Card?",
+        "a": "The card allows you to either pay the full bill or convert your spends into easy EMIs directly within the Google Pay app. This option depends on your eligibility and the bill amount, offering flexibility for managing larger expenses."
+      },
+      {
+        "q": "Does Google Pay Flex Axis Bank Credit Card offer lounge access benefits?",
+        "a": "No, this card does not offer complimentary airport lounge access or other premium travel perks. It focuses on everyday digital spends and rewards rather than luxury benefits."
+      },
+      {
+        "q": "How can I redeem accumulated reward points on Google Pay Flex Axis Bank Credit Card?",
+        "a": "You can redeem accumulated stars directly via Google Pay for UPI payments. Each star is equivalent to Rs. 1, allowing instant cashback redemption against your future payments."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.21,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Rewards": 3.0,
+      "Dining Benefits": 3.0,
+      "Welcome Benefits": 3.5,
+      "rewards": 3.0
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from Axis Bank suited for lifetime free users.",
+    "pros": [
+      "No joining and annual fees",
+      "Welcome benefits worth Rs. 500",
+      "Up to 8X rewards on every spend",
+      "Redemption of rewards against UPI spends at a 1:1 ratio",
+      "Flexible repayment options for monthly bill payments"
+    ],
+    "cons": [
+      "Low base reward rate of 1 star per Rs. 500 spent",
+      "Complicated monthly spend-based reward structure",
+      "Reward redemption is only limited to Google Pay app",
+      "No travel & lifestyle benefits, such as complimentary lounge visits"
+    ],
+    "best_for_whom": "Axis Bank customers seeking lifetime free rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Any (LTF keeper)",
+    "verdict": "Lifetime Free option from Axis Bank suited for lifetime free users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.21,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around Axis Bank Lifetime Free cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Subject to monthly category/accelerated caps and standard MCC exclusions under issuer T&C."
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Very High",
+    "devaluation_risk_score": 8,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from BOBCARD (Bank of Baroda) at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "hdfc_bank_infinia_credit_card",
+      "card_name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-infinia-metal-edition-credit-card",
+      "annual_fee_inr": 12500,
+      "overall_rating": 4.9,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.9/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "icici_bank_emeralde_private_metal_credit_card",
+      "card_name": "ICICI Bank Emeralde Private Metal Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-bank-emeralde-private-metal-credit-card",
+      "annual_fee_inr": 12499,
+      "overall_rating": 4.86,
+      "reason": "Top-rated Super-Premium card in market with rating 4.86/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "axis-bank-grab-deals-eazydiner-dining-delights-up-to",
+      "bank": "Axis Bank",
+      "title": "Grab Deals & EazyDiner Dining Delights (Up to 30%–40% Off)",
+      "summary": "Extra Reward Points / cashback via Axis Grab Deals plus Dining Delights discounts of 15%–40% at partner restaurants across India.",
+      "category": "Dining",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.axis.bank.in/grab-deals/online-offers",
+      "scope": "targeted"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "card_id": "slice_bank_slice_rupay_credit_card",
+    "card_name": "Slice RuPay Credit Card",
+    "bank": "Slice Small Finance Bank",
+    "bank_slug": "slice-small-finance-bank",
+    "card_slug": "slice-rupay-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Entry-to-Mid",
+    "primary_category": "RuPay & UPI",
+    "categories": [
+      "RuPay & UPI",
+      "Lifetime Free",
+      "Zero & Low Forex",
+      "Cashback"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/slice-small-finance-bank/slice-rupay-credit-card.webp",
+    "image_source": "cardledger_studio_render",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#6E2B91",
+      "secondary_hex": "#9D4EDD",
+      "wash_hex": "#F3EAFB",
+      "soft_bg_hex": "#FAF5FF",
+      "border_hex": "#E0C9F5",
+      "ink_on_soft_hex": "#5B217A",
+      "is_dark_card": false,
+      "source": "issuer_curated"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sliceit.com/",
+    "mitc_pdf_url": "https://www.sliceit.com/",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": true,
+    "min_income_salaried_inr": 20000,
+    "min_cibil_score": 720,
+    "best_for_tags": [
+      "Gen-Z & salaried UPI spenders wanting an LTF RuPay UPI card with 0% forex and simple cashback",
+      "Rs. 10,000 – Rs. 30,000 on UPI & online spends"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "finance",
+      "forex",
+      "free",
+      "lifetime",
+      "lifetime-free",
+      "low",
+      "low-forex",
+      "ltf",
+      "rupay",
+      "scan-and-pay",
+      "slice",
+      "small",
+      "upi",
+      "zero",
+      "zero-fee",
+      "zero-forex"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback (Slice Monies)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 3.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "Does not expire",
+    "reward_earning_rules": [
+      "Up to 3% cashback as Slice Monies on Slice Spark & RuPay UPI merchant QR payments (tiered up to Rs. 1,000/mo)",
+      "1% base cashback on everyday online shopping, dining, groceries & POS spends",
+      "0% forex markup on international spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.0,
+      "amazon_flipkart_myntra": 1.0,
+      "dining_swiggy_zomato": 1.0,
+      "groceries_quick_commerce": 1.0,
+      "travel_flights_hotels": 1.0,
+      "upi_scan_and_pay": 2.0,
+      "utilities_bills_telecom": 0.5,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 1.0,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {
+      "upi_scan_and_pay": 750
+    },
+    "monthly_capping_rules": [
+      "LTF Slice SFB RuPay card: up to 3% Slice Monies on Spark & UPI tiers (blended ~2% capped Rs. 750/mo); 1% base retail & 0% forex markup."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [
+      "Fuel transactions",
+      "Rent payments",
+      "Wallet loads",
+      "Government / tax payments"
+    ],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "Up to 3% cashback as Slice Monies on UPI Scan & Pay & eligible Spark partner spends",
+        "1% base reward rate on online, dining, groceries & offline retail spends",
+        "0% forex markup on international card/online spends (up to monthly limits per T&C)"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free — Rs. 0 joining & Rs. 0 annual fee",
+    "forex_markup_pct": 0.0,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 min",
+    "fuel_surcharge_waiver": "1% waiver on eligible slabs",
+    "redemption_fee": "Rs. 0 (instant Slice Monies redemption)",
+    "add_on_card_fee": "Not Applicable",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Clean LTF + 0% forex RuPay UPI card backed by Slice Small Finance Bank.",
+    "highlights": [
+      "Lifetime Free (Rs. 0 joining & annual fee)",
+      "Up to 3% cashback as Slice Monies on RuPay UPI & Slice Spark partner offers",
+      "0% forex markup fee on international transactions",
+      "Instant UPI Scan & Pay credit line inside the Slice app"
+    ],
+    "welcome_benefit": "Instant virtual RuPay UPI activation via Slice SFB app with Rs. 0 annual fee",
+    "milestone_benefits": [
+      "Up to 3% cashback as Slice Monies on UPI Scan & Pay & eligible Spark partner spends",
+      "1% base reward rate on online, dining, groceries & offline retail spends",
+      "0% forex markup on international card/online spends (up to monthly limits per T&C)"
+    ],
+    "dining_benefits": [
+      "1% base rewards + Spark merchant partner discounts on food delivery & cafes"
+    ],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [
+      "Zero lost-card liability coverage per RBI & RuPay guidelines"
+    ],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 4.18,
+    "editorial_rating": 4.1,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Cashback": 4.1,
+      "RuPay & UPI": 4.3,
+      "Zero Forex": 4.2
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Clean LTF + 0% forex RuPay UPI card backed by Slice Small Finance Bank.",
+    "pros": [
+      "Lifetime Free (Rs. 0 fee) with 0% forex markup",
+      "Works seamlessly on RuPay UPI Scan & Pay with up to 3% Slice Monies rewards",
+      "Clean Slice app UI with instant virtual issuance"
+    ],
+    "cons": [
+      "No complimentary airport or railway lounge access",
+      "3% accelerated Slice Monies tier capped cleanly for everyday spends"
+    ],
+    "best_for_whom": "Gen-Z & salaried UPI spenders wanting an LTF RuPay UPI card with 0% forex and simple cashback",
+    "not_ideal_for": "Airport lounge seekers or high-spend flyers optimizing airline miles",
+    "recommended_monthly_spend_inr": "Rs. 10,000 – Rs. 30,000 on UPI & online spends",
+    "verdict": "Clean LTF + 0% forex RuPay UPI card backed by Slice Small Finance Bank."
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.1,
+    "reddit_mentions": 18,
+    "sentiment_summary": "Community discussions around Slice Small Finance Bank RuPay & UPI cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "LTF Slice SFB RuPay card: up to 3% Slice Monies on Spark & UPI tiers (blended ~2% capped Rs. 750/mo); 1% base retail & 0% forex markup."
+    ],
+    "optimization_tips": [
+      "Focus spends on RuPay UPI Scan & Pay (2.0% effective return) before hitting monthly category caps.",
+      "Low 0.0% forex markup makes this practical for international travel and USD/SaaS subscriptions."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 4,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Issued under Slice Small Finance Bank license post-NEFB merger (2025–2026)."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "yes_bank_klick_credit_card",
+      "card_name": "YES BANK Klick (Kiwi) RuPay Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-klick-kiwi-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in RuPay & UPI with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "axis_bank_axis_supermoney_rupay_credit_card",
+      "card_name": "Axis Bank super.money RuPay Credit Card",
+      "bank": "Axis Bank",
+      "bank_slug": "axis-bank",
+      "card_slug": "axis-bank-super-money-rupay-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.3,
+      "reason": "Direct competitor from Axis Bank at similar fee tier (Rs. 0/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "cred-indusind-bank-rupay-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.2,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.2/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "hdfc_bank_phonepe_ultimo_credit_card",
+      "card_name": "PhonePe HDFC Bank Ultimo Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "phonepe-hdfc-bank-ultimo-credit-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.62,
+      "reason": "Top-rated Cashback card in market with rating 4.62/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 60 years",
+    "min_monthly_income_salaried_inr": 20000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 300000,
+    "min_cibil_score": 720,
+    "approval_notes": "Issued digitally via Slice Small Finance Bank app after KYC."
+  },
+  "latest_offers": []
+}

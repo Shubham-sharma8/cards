@@ -1,0 +1,538 @@
+{
+  "identity": {
+    "card_id": "sbi_bank_sbi_irctc_credit_card",
+    "card_name": "IRCTC SBI Platinum Credit Card",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "irctc-sbi-platinum-credit-card",
+    "card_network": "RuPay / Visa",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "RuPay & UPI"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/irctc-sbi-platinum-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#26A4C5",
+      "secondary_hex": "#6E66A3",
+      "wash_hex": "#E1EFF0",
+      "soft_bg_hex": "#EBF7FA",
+      "border_hex": "#CFEBF2",
+      "ink_on_soft_hex": "#1A6F85",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+    "mitc_pdf_url": "https://www.sbicard.com/en/most-important-terms-and-conditions.page",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC IRCTC Executive Railway Lounge List",
+        "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/irctc-credit-card/lounge.pdf",
+        "source_type": "official_pdf"
+      },
+      {
+        "title": "HDFC Bank — Dreamfolks Hdfc Irctc",
+        "url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
+        "source_type": "official_partner_page"
+      }
+    ]
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "card",
+      "credit",
+      "irctc",
+      "miles",
+      "platinum",
+      "railway",
+      "rupay",
+      "sbi",
+      "scan-and-pay",
+      "travel",
+      "upi"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.8,
+    "accelerated_reward_rate_pct": 6.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "10% value-back, through reward points, upon booking AC1, AC2, AC3, Executive Chair Car and Chair Car tickets via IRCTC website",
+      "Waiver of 1% transaction charges on railway ticket bookings",
+      "1 reward point for every Rs. 125 spent including railway ticket purchases done via IRCTC website or mobile application",
+      "350 bonus reward points (Rs. 350) on activation i.e. post first successful transaction of Rs. 500 or more. (1 reward point = Rs. 1)",
+      "500 reward points on the payment of renewal fee",
+      "1% fuel surcharge waiver is provided which is capped at Rs. 100 per month"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.8,
+      "amazon_flipkart_myntra": 0.8,
+      "dining_swiggy_zomato": 0.8,
+      "groceries_quick_commerce": 0.8,
+      "travel_flights_hotels": 10.0,
+      "upi_scan_and_pay": 0.8,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.8,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.33,
+      "offline_general_other": 0.8
+    },
+    "monthly_category_caps_inr": {
+      "fuel": 100,
+      "travel_flights_hotels": 1000
+    },
+    "monthly_capping_rules": [
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 500,
+      "annual_fee_inr": 500,
+      "annual_fee_with_gst_inr": 590.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "350 bonus reward points (Rs. 350) on activation i.e. post first successful transaction of Rs. 500 or more. (1 reward point = Rs. 1)",
+        "1% fuel surcharge waiver is provided which is capped at Rs. 100 per month"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 4,
+      "visits_per_quarter": 1,
+      "summary": "4 complimentary railway lounge visits per year (1 per quarter)"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [
+      {
+        "program_id": "hdfc_irctc_railway",
+        "title": "HDFC IRCTC Executive Railway Lounge List",
+        "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/irctc-credit-card/lounge.pdf",
+        "secondary_url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
+        "source_type": "official_pdf",
+        "parsed_lounges_count": 12,
+        "local_pdf_path": "data/raw/lounges/pdfs/hdfc_irctc_railway.pdf"
+      },
+      {
+        "program_id": "page_dreamfolks_hdfc_irctc",
+        "title": "HDFC Bank — Dreamfolks Hdfc Irctc",
+        "url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
+        "secondary_url": null,
+        "source_type": "official_partner_page",
+        "parsed_lounges_count": 12,
+        "local_pdf_path": null
+      }
+    ],
+    "participating_lounges_matched": [
+      {
+        "city": "Agra",
+        "lounge_name": "| 1 | Agra Cantonment Railway Station | Executive Lounge | Platform 1 | Near Cloak Room | Agra | India | Railways Lounge | Operational |",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "| 5 | Bhopal Railway Station | The Stuti Luxury Lounge | Platform 1 | Main entrance of first floor | Bhopal | India | Railways Lounge | Oper",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "| 6 | Chennai Central Railway Station | Executive Lounge | Platform 6 -7 | Concourse Area Near Platform No - 6 & 7, opposite Apollo Pharmacy",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "| 7 | Old Delhi Railway Station | IRCTC Lounge | Platform 5 | Near Gate No.2, Towards entry for Platform no. 5 from Chandni Chowk side, Near",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "| 9 | Jaipur Railway Station | IRCTC Executive Lounge | Platform 1 | Platform number 1, First AC waiting room Near by Lift | Jaipur | India ",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "| 10 | Sealdah Railway Station | IRCTC Executive Lounge | Platform 8 | Metro Exit & Entry gate Near Enquiry Counter | Kolkata | India | Rail",
+        "terminal": "",
+        "terminal_type": "Railway",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Agra",
+        "lounge_name": "Executive Lounge",
+        "terminal": "Platform 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Bhopal",
+        "lounge_name": "The Stuti Luxury Lounge",
+        "terminal": "Platform 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Chennai",
+        "lounge_name": "Executive Lounge",
+        "terminal": "Platform 6 -7",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Delhi",
+        "lounge_name": "IRCTC Lounge",
+        "terminal": "Platform 5",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Jaipur",
+        "lounge_name": "IRCTC Executive Lounge",
+        "terminal": "Platform 1",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      },
+      {
+        "city": "Kolkata",
+        "lounge_name": "IRCTC Executive Lounge",
+        "terminal": "Platform 8",
+        "terminal_type": "Domestic",
+        "source_program_id": "hdfc_irctc_railway"
+      }
+    ],
+    "participating_lounges_count": 12
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 500,
+    "annual_fee_inr": 500,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "Less than Rs. 500",
+        "late_fee_inr": "Nil"
+      },
+      {
+        "statement_balance_slab": "Rs. 500 to Rs. 1,000",
+        "late_fee_inr": "Rs. 400"
+      },
+      {
+        "statement_balance_slab": "Rs. 1,000 to Rs. 10,000",
+        "late_fee_inr": "Rs. 750"
+      },
+      {
+        "statement_balance_slab": "Rs. 10,000 to Rs. 25,000",
+        "late_fee_inr": "Rs. 950"
+      },
+      {
+        "statement_balance_slab": "Rs. 25,000 to Rs. 50,000",
+        "late_fee_inr": "Rs. 1,100"
+      },
+      {
+        "statement_balance_slab": "Above Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from SBI Card suited for travel & miles users.",
+    "highlights": [
+      "10% value-back, through reward points, upon booking AC1, AC2, AC3, Executive Chair Car and Chair Car tickets via IRCTC website",
+      "Waiver of 1% transaction charges on railway ticket bookings",
+      "4 complimentary railway lounge access in a year",
+      "1 reward point for every Rs. 125 spent including railway ticket purchases done via IRCTC website or mobile application"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "350 bonus reward points (Rs. 350) on activation i.e. post first successful transaction of Rs. 500 or more. (1 reward point = Rs. 1)",
+      "1% fuel surcharge waiver is provided which is capped at Rs. 100 per month"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [
+      "10% value-back, through reward points, upon booking AC1, AC2, AC3, Executive Chair Car and Chair Car tickets via IRCTC website",
+      "Waiver of 1% transaction charges on railway ticket bookings",
+      "1 reward point for every Rs. 125 spent including railway ticket purchases done via IRCTC website or mobile application"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently travel via train and would like to save on this expense",
+      "You are not looking for benefits on other spending categories",
+      "You specifically seek a low annual fee travel credit card"
+    ],
+    "faqs": [
+      {
+        "q": "How to redeem SBI IRCTC credit card reward points in cash?",
+        "a": "You cannot redeem the accrued reward points as cash or statement balance. However, you can use the reward points earned via SBI IRCTC Platinum card for IRCTC bookings in 1:1 redemption ratio. To redeem, you have to first link the IRCTC loyalty number as per your card to your IRCTC login ID and then proceed with the bookings."
+      },
+      {
+        "q": "Will I get reward points for tickets booked through the mobile application?",
+        "a": "Yes, SBI IRCTC Platinum credit cardholders can earn up to 10% value back as reward points on IRCTC ticket bookings made via the IRCTC mobile app."
+      },
+      {
+        "q": "What are the annual charges of the SBI IRCTC credit card?",
+        "a": "You have to pay a joining fee of Rs. 500 + GST in the first card membership year and an annual fee of Rs. 300 + GST from 2nd year onwards."
+      },
+      {
+        "q": "Does the SBI IRCTC credit card have airport lounge access?",
+        "a": "No, SBI IRCTC Platinum credit card does not offer any complimentary airport lounge access."
+      },
+      {
+        "q": "Should I opt for SBI IRCTC Platinum Card or SBI IRCTC Premier Card?",
+        "a": "IRCTC Platinum Card is the base variant whereas IRCTC SBI Premier Card is the premium variant, available at a higher annual fee of Rs. 1,499. While the savings on train tickets is the same on both variants, the Premier Variant offers accelerated rewards on dining, bonus reward points and some other perks which are not available on the base variant. You should assess your spending patterns and choose a card that better aligns with your needs."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.93,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Travel": 3.5,
+      "Rewards": 2.5,
+      "branded Benefits": 3.0,
+      "travel": 3.5,
+      "rewards": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from SBI Card suited for travel & miles users.",
+    "pros": [
+      "Good value on train ticket bookings via IRCTC",
+      "Complimentary railway lounge access",
+      "Transaction charge waiver on railway ticket booking via IRCTC"
+    ],
+    "cons": [
+      "Benefits on no other spending category apart from train travel",
+      "Base reward rate stands quite low at 0.8%"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from SBI Card suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.93,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around SBI Card Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "Conservative monthly cap estimate (Rs. 1,000-1,500/mo) applied on accelerated categories pending explicit issuer cap verification."
+    ],
+    "optimization_tips": [
+      "Focus spends on flights & hotel bookings (10.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium-High",
+    "devaluation_risk_score": 6,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Periodic cap tightening (Cashback SBI Apr 2026 Rs. 5k combined cap), surcharge hikes, and category exclusions."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "au_small_finance_bank_ixigo_au_credit_card",
+      "card_name": "ixigo AU Credit Card",
+      "bank": "AU Small Finance Bank",
+      "bank_slug": "au-small-finance-bank",
+      "card_slug": "ixigo-au-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.38,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Zero/Low Forex with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_tata_neu_infinity_hdfc_fd_credit_card",
+      "card_name": "Tata Neu Infinity HDFC Bank FD Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "tata-neu-infinity-hdfc-bank-fd-credit-card",
+      "annual_fee_inr": 1499,
+      "overall_rating": 4.28,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 1,499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "idfc_bank_idfc_first_wow_black_credit_card",
+      "card_name": "FIRST WOW! Black Credit Card by IDFC FIRST Bank",
+      "bank": "IDFC FIRST Bank",
+      "bank_slug": "idfc-first-bank",
+      "card_slug": "first-wow-black-credit-card-by-idfc-first-bank",
+      "annual_fee_inr": 750,
+      "overall_rating": 4.22,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.22/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "bobcard_bobcard_uni_goldx_credit_card",
+      "card_name": "BOBCARD Uni GoldX Credit Card",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "bank_slug": "bobcard-bank-of-baroda",
+      "card_slug": "bobcard-uni-goldx-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.28,
+      "reason": "Top-rated Zero/Low Forex card in market with rating 4.28/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-extra-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Extra Cashback",
+      "summary": "Up to Rs 1500 Extra Cashback",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1500-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 1500 Instant Discount",
+      "summary": "Up to Rs 1500 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 5,000 Instant Discount",
+      "summary": "Up to Rs 5,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-1-000-cashback",
+      "bank": "SBI Card",
+      "title": "Up to Rs. 1,000 Cashback.",
+      "summary": "Up to Rs. 1,000 Cashback.",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-5000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to RS 5000 Instant Discount",
+      "summary": "Up to RS 5000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "sbi-card-up-to-rs-16-000-instant-discount",
+      "bank": "SBI Card",
+      "title": "Up to Rs 16,000 Instant Discount",
+      "summary": "Up to Rs 16,000 Instant Discount",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.sbicard.com/en/personal/offers.page",
+      "scope": "bank_wide"
+    }
+  ]
+}

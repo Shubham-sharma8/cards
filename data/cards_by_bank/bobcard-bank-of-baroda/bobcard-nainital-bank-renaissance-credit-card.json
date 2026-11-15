@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "card_id": "bobcard_nainital_bank_renaissance_credit_card",
+    "card_name": "BOBCARD Nainital Bank RENAISSANCE Credit Card",
+    "bank": "BOBCARD (Bank of Baroda)",
+    "bank_slug": "bobcard-bank-of-baroda",
+    "card_slug": "bobcard-nainital-bank-renaissance-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Cashback",
+      "Travel & Miles",
+      "Fuel",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-nainital-bank-renaissance-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#34715F",
+      "secondary_hex": "#45613A",
+      "wash_hex": "#E2E9E4",
+      "soft_bg_hex": "#EDF2F1",
+      "border_hex": "#D2E0DC",
+      "ink_on_soft_hex": "#326C5B",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.bobcard.co.in/credit-cards",
+    "mitc_pdf_url": "https://media.bobcard.co.in//media/4qfbv2ka/bobcard-one-mitc-5.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,000",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Domestic & international flyers value-optimizing airline",
+      "hotel loyalty points and lounge access",
+      "Rs. 25,000+"
+    ],
+    "requirement_keywords": [
+      "bank",
+      "baroda",
+      "bobcard",
+      "card",
+      "cashback",
+      "credit",
+      "dining",
+      "fuel",
+      "groceries",
+      "miles",
+      "movies",
+      "nainital",
+      "of",
+      "renaissance",
+      "travel"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.25,
+    "accelerated_reward_rate_pct": 6.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X reward points per Rs. 100 spent on departmental stores and movies, up to 1,000 reward points per month",
+      "Unlimited 1 reward point per Rs. 100 spent on all other categories, along with movies and departmental store spends beyond the monthly rewards capping, except select MCCs and fuel spends",
+      "UPI spends will earn base rewards rate of 1 reward point per Rs. 100, up to 500 points per month",
+      "1 Reward Point = Rs. 0.25",
+      "6% cashback is capped at Rs. 3,000 per month, post which 1% cashback will apply",
+      "Earned reward points can be redeemed as statement credit in 1:1 ratio at zero redemption fee"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.25,
+      "amazon_flipkart_myntra": 0.25,
+      "dining_swiggy_zomato": 0.25,
+      "groceries_quick_commerce": 1.25,
+      "travel_flights_hotels": 0.25,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.25,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.88,
+      "offline_general_other": 0.25
+    },
+    "monthly_category_caps_inr": {
+      "dining_swiggy_zomato": 250,
+      "groceries_quick_commerce": 250,
+      "upi_scan_and_pay": 125,
+      "fuel": 250
+    },
+    "monthly_capping_rules": [
+      "5X reward points per Rs. 100 spent on departmental stores and movies, up to 1,000 reward points per month",
+      "Unlimited 1 reward point per Rs. 100 spent on all other categories, along with movies and departmental store spends beyond the monthly rewards capping, except select MCCs and fuel spends",
+      "UPI spends will earn base rewards rate of 1 reward point per Rs. 100, up to 500 points per month",
+      "6% cashback is capped at Rs. 3,000 per month, post which 1% cashback will apply"
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 250,
+      "annual_fee_with_gst_inr": 295.0,
+      "fee_waiver_spend_inr": 120000,
+      "monthly_spend_for_waiver_inr": 10000,
+      "milestone_slabs": [
+        "Unlimited 1 reward point per Rs. 100 spent on all other categories, along with movies and departmental store spends beyond the monthly rewards capping, except select MCCs and fuel spends",
+        "UPI spends will earn base rewards rate of 1 reward point per Rs. 100, up to 500 points per month",
+        "Renewal fee waived off on reaching Rs. 1.2 lakh annual spends",
+        "1% fuel surcharge waiver, up to Rs. 250 per month, on all fuel spends worth Rs. 500 to Rs. 3,000"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 250,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 120000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.6,
+    "apr_annual_pct": 43.2,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "More than Rs. 50,000",
+        "late_fee_inr": "Rs. 1,300"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "option from BOBCARD (Bank of Baroda) suited for travel & miles users.",
+    "highlights": [
+      "5X reward points per Rs. 100 spent on departmental stores and movies, up to 1,000 reward points per month",
+      "Unlimited 1 reward point per Rs. 100 spent on all other categories, along with movies and departmental store spends beyond the monthly rewards capping, except select MCCs and fuel spends",
+      "UPI spends will earn base rewards rate of 1 reward point per Rs. 100, up to 500 points per month",
+      "1 Reward Point = Rs. 0.25",
+      "6% cashback is capped at Rs. 3,000 per month, post which 1% cashback will apply"
+    ],
+    "welcome_benefit": "500 CashPoints as welcome benefit after the payment of joining fee",
+    "milestone_benefits": [
+      "Unlimited 1 reward point per Rs. 100 spent on all other categories, along with movies and departmental store spends beyond the monthly rewards capping, except select MCCs and fuel spends",
+      "UPI spends will earn base rewards rate of 1 reward point per Rs. 100, up to 500 points per month",
+      "Renewal fee waived off on reaching Rs. 1.2 lakh annual spends",
+      "1% fuel surcharge waiver, up to Rs. 250 per month, on all fuel spends worth Rs. 500 to Rs. 3,000"
+    ],
+    "dining_benefits": [
+      "Activation benefits worth Rs. 600 from Flipkart and Swiggy",
+      "5X reward points on dining and fuel spends"
+    ],
+    "movie_benefits": [
+      "5X reward points per Rs. 100 spent on departmental stores and movies, up to 1,000 reward points per month",
+      "Unlimited 1 reward point per Rs. 100 spent on all other categories, along with movies and departmental store spends beyond the monthly rewards capping, except select MCCs and fuel spends"
+    ],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [],
+    "faqs": []
+  },
+  "ratings": {
+    "overall_market_rating": 3.25,
+    "editorial_rating": null,
+    "aggregator_rating": null,
+    "category_sub_ratings": {}
+  },
+  "pros_and_cons": {
+    "editorial_summary": "option from BOBCARD (Bank of Baroda) suited for travel & miles users.",
+    "pros": [
+      "Annual fee (Rs. 250) waived on spending Rs. 120,000/year",
+      "Backed by BOBCARD (Bank of Baroda) digital card controls, EMI conversion & merchant offers"
+    ],
+    "cons": [
+      "No complimentary domestic or international airport lounge access",
+      "High 3.5% (+GST) foreign currency markup — poor for overseas spends",
+      "Check latest issuer exclusions on rent, utilities, education & wallet loads before high spends"
+    ],
+    "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
+    "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
+    "recommended_monthly_spend_inr": "Rs. 25,000+",
+    "verdict": "option from BOBCARD (Bank of Baroda) suited for travel & miles users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.25,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around BOBCARD (Bank of Baroda) Travel & Miles cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "5X reward points per Rs. 100 spent on departmental stores and movies, up to 1,000 reward points per month",
+      "Unlimited 1 reward point per Rs. 100 spent on all other categories, along with movies and departmental store spends beyond the monthly rewards capping, except select MCCs and fuel spends"
+    ],
+    "optimization_tips": [
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹120,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Standard bank portfolio T&C updates"
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_bank_icici_mine_credit_card",
+      "card_name": "ICICI Mine Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "icici-mine-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.73,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Travel & Miles with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "hdfc_bank_hdfc_business_freedom_credit_card",
+      "card_name": "HDFC Business Freedom Credit Card",
+      "bank": "HDFC Bank",
+      "bank_slug": "hdfc-bank",
+      "card_slug": "hdfc-business-freedom-credit-card",
+      "annual_fee_inr": 500,
+      "overall_rating": 4.09,
+      "reason": "Direct competitor from HDFC Bank at similar fee tier (Rs. 500/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "federal_bank_amplifi_fi_federal_credit_card",
+      "card_name": "AmpliFi Fi-Federal Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "amplifi-fi-federal-credit-card",
+      "annual_fee_inr": 2000,
+      "overall_rating": 4.07,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.07/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "yes_bank_paisabazaar_paisasave_credit_card",
+      "card_name": "YES BANK PaisaSave Credit Card",
+      "bank": "YES BANK",
+      "bank_slug": "yes-bank",
+      "card_slug": "yes-bank-paisasave-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.28,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.28/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "bobcard-bank-of-baroda-get-instant-discount-up-to-600-get-instant-d",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Get Instant Discount Up to ₹600 Get Instant Discount Up to ₹600 on Air India Express u",
+      "summary": "New Get Instant Discount Up to ₹600 Get Instant Discount Up to ₹600 on Air India Express using Visa BOBCARD Valid till: 30-11-2026 Copy code : VISAFLY",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/travel/get-instant-discount-up-to-600-on-air-india-express",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-flat-4000-off-on-yatra-flat-4000-off-on-yat",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Flat ₹4000 Off on Yatra Flat ₹4000 Off on Yatra using Visa Infinite Credit Card Valid",
+      "summary": "New Flat ₹4000 Off on Yatra Flat ₹4000 Off on Yatra using Visa Infinite Credit Card Valid till: 31-01-2027 Copy code : VISAINFINITE",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/travel/flat-4000-off-on-yatra",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-500-off-on-lifestyle-500-off-on-order-value",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "₹500 Off on Lifestyle ₹500 off on order value ₹2499 and above on RuPay BOBCARD Valid t",
+      "summary": "New ₹500 Off on Lifestyle ₹500 off on order value ₹2499 and above on RuPay BOBCARD Valid till: 31-07-2027 Copy code : RUPAYINS500",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/fashion-and-beauty/500-off-on-lifestyle",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-50-discount-in-making-charge-in-diamond-jewe",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "50% discount in making charge in diamond jewellery 50% discount in making charge in di",
+      "summary": "New 50% discount in making charge in diamond jewellery 50% discount in making charge in diamond jewellery on RuPay BOBCARD Valid till: 31-07-2027 Copy code : RUPAYSENCODIA",
+      "category": "Cashback & Card Perks",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/fashion-and-beauty/50-discount-in-making-charge-in-diamond-jewellery",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-flat-175-off-on-swiggy-instamart-offer-valid",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "Flat ₹175 Off on Swiggy Instamart Offer valid on Friday, Saturday & Sunday | Till 27th",
+      "summary": "New Flat ₹175 Off on Swiggy Instamart Offer valid on Friday, Saturday & Sunday | Till 27th Dec 2026 Valid till: 27-12-2026 Copy code : BOBCARD75",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing / Check Issuer Portal",
+      "offer_url": "https://www.bobcard.co.in/offers-info/grocery/flat-75-off-on-swiggy-instamart",
+      "scope": "bank_wide"
+    },
+    {
+      "offer_id": "bobcard-bank-of-baroda-bobcard-instant-merchant-discounts-fuel-d",
+      "bank": "BOBCARD (Bank of Baroda)",
+      "title": "BOBCARD Instant Merchant Discounts & Fuel / Dining Offers",
+      "summary": "Seasonal 10% instant discounts on Amazon, Flipkart, JioMart & utility payments alongside unlimited/tiered domestic lounge perks on Eterna & Tiara.",
+      "category": "Shopping & Electronics",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.bobcard.co.in/offers",
+      "scope": "targeted"
+    }
+  ]
+}

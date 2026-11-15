@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "card_id": "au_small_finance_bank_au_kosmo_credit_card",
+    "card_name": "AU Kosmo Credit Card",
+    "bank": "AU Small Finance Bank",
+    "bank_slug": "au-small-finance-bank",
+    "card_slug": "au-kosmo-credit-card",
+    "card_network": "Visa / Mastercard",
+    "card_tier": "Entry-Level / LTF",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Lifetime Free",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-14T16:00:26.769663+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/au-small-finance-bank/au-kosmo-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 1.0,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#83B338",
+      "secondary_hex": "#5CB847",
+      "wash_hex": "#ECF1DF",
+      "soft_bg_hex": "#F4F8ED",
+      "border_hex": "#E4EED3",
+      "ink_on_soft_hex": "#506D22",
+      "is_dark_card": false,
+      "source": "image"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.au.bank.in/personal-banking/credit-cards",
+    "mitc_pdf_url": "https://www.au.bank.in/credit-cards/mitc\\(with-schedule-of-charges\\).pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": []
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": true,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Free (LTF)",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": null,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "AU Small Finance Bank customers seeking cashback rewards & bank-specific discount offers",
+      "Any (LTF keeper)"
+    ],
+    "requirement_keywords": [
+      "au",
+      "bank",
+      "card",
+      "cashback",
+      "credit",
+      "finance",
+      "free",
+      "kosmo",
+      "lifetime",
+      "lifetime-free",
+      "ltf",
+      "online",
+      "shopping",
+      "small",
+      "zero-fee"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points (RP)",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 0.25,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 0.25"
+    },
+    "point_expiry": "Check issuer T&C (typically 2-3 years)",
+    "reward_earning_rules": [
+      "5% cashback on a min. spend of Rs. 100 on UPI Scan & Pay transactions via Kiwi app",
+      "5% cashback on online payments via Kiwi app",
+      "5% cashback on offline & online shopping",
+      "1% fuel surcharge waiver (Up to Rs. 100) on fuel spends between Rs. 400 and Rs. 5,000 across all fuel stations",
+      "Contactless payments of up to Rs. 5,000 without entering any UPI PIN",
+      "1.5% cashback on UPI Scan & Pay transactions through the Kiwi app"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.5,
+      "amazon_flipkart_myntra": 1.5,
+      "dining_swiggy_zomato": 1.5,
+      "groceries_quick_commerce": 1.5,
+      "travel_flights_hotels": 1.5,
+      "upi_scan_and_pay": 2.5,
+      "utilities_bills_telecom": 0.5,
+      "fuel": 0.0,
+      "insurance": 0.5,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -2.63,
+      "offline_general_other": 1.5
+    },
+    "monthly_category_caps_inr": {
+      "upi_scan_and_pay": 1500,
+      "online_shopping_general": 1500
+    },
+    "monthly_capping_rules": [
+      "1.5% base on Kiwi Scan & Pay (scales to 5% on Rs. 1.5L/yr Kiwi Neon milestones); monthly cashback capped relative to credit limit."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 0,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0.0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": [
+        "5% cashback on a min. spend of Rs. 100 on UPI Scan & Pay transactions via Kiwi app",
+        "1% fuel surcharge waiver (Up to Rs. 100) on fuel spends between Rs. 400 and Rs. 5,000 across all fuel stations",
+        "1% fuel surcharge waiver on fuel spends between Rs. 400 and Rs. 5,000.",
+        "Fuel surcharge waiver is capped at Rs. 100"
+      ]
+    }
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "shared_limit": false,
+      "summary": "No domestic airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Not Applicable",
+      "add_on_allowed": false,
+      "guest_fee": "Not Applicable",
+      "summary": "No international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No railway lounge access"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 0,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": "Lifetime Free",
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.75,
+    "apr_annual_pct": 45.0,
+    "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver on select slabs",
+    "redemption_fee": "Check issuer T&C",
+    "add_on_card_fee": "Nil / Per issuer T&C",
+    "late_payment_slabs": [
+      {
+        "statement_balance_slab": "All Statement Balances",
+        "late_fee_inr": "15% of Total Amount Due (Minimum Rs. 10, and Maximum Rs. 1,300)"
+      }
+    ]
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "In addition to cashback benefits, the card allows eligible transactions of Rs. 500 and above to be converted into EMI, subject to the minimum total value requirement of Rs. 2,000. Overall, AU Kosmo Credit Card can be a suitable option for consumers looking for a lifetime free card with cashback on UPI, and other online/offline spends.",
+    "highlights": [
+      "5% cashback on a min. spend of Rs. 100 on UPI Scan & Pay transactions via Kiwi app",
+      "5% cashback on online payments via Kiwi app",
+      "5% cashback on offline & online shopping"
+    ],
+    "welcome_benefit": null,
+    "milestone_benefits": [
+      "5% cashback on a min. spend of Rs. 100 on UPI Scan & Pay transactions via Kiwi app",
+      "1% fuel surcharge waiver (Up to Rs. 100) on fuel spends between Rs. 400 and Rs. 5,000 across all fuel stations",
+      "1% fuel surcharge waiver on fuel spends between Rs. 400 and Rs. 5,000.",
+      "Fuel surcharge waiver is capped at Rs. 100"
+    ],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You frequently make UPI Scan & Pay payments through the Kiwi app",
+      "You want a lifetime free credit card with no joining or annual fee",
+      "You regularly shop online or offline and want to earn cashback on these spends",
+      "You want the flexibility to convert eligible purchases into easy EMIs"
+    ],
+    "faqs": [
+      {
+        "q": "What is AU Kosmo Credit Card?",
+        "a": "AU Kosmo Credit Card is a lifetime free credit card offered by AU Small Finance Bank in partnership with Kiwi. It offers cashback on eligible UPI Scan & Pay, online payment, and shopping transactions, along with fuel and EMI-related benefits."
+      },
+      {
+        "q": "How much cashback can I earn on UPI payments with AU Kosmo Credit Card?",
+        "a": "Cardholders can earn 1.5% cashback on eligible UPI Scan & Pay transactions made through the Kiwi app, and 0.5% cashback on online payments via Kiwi app, along with other offline & online shopping spends."
+      },
+      {
+        "q": "Is the 1.5% cashback available on all UPI transactions?",
+        "a": "No. The 1.5% cashback rate is applicable to eligible UPI Scan & Pay transactions made through the Kiwi app. The cashback rate and eligibility may vary for other types of transactions."
+      },
+      {
+        "q": "Is AU Kosmo Credit Card suitable for regular UPI users?",
+        "a": "Yes. The card can be particularly useful for consumers who frequently make UPI Scan & Pay payments through the Kiwi app, as these transactions offer the highest cashback rate of 1.5% among the card\\'s listed cashback categories."
+      },
+      {
+        "q": "Can I convert AU Kosmo Credit Card transactions into EMI?",
+        "a": "Yes. Eligible transactions of Rs. 500 and above can be converted into EMI, subject to a minimum total transaction value of Rs. 2,000 and applicable terms and conditions."
+      },
+      {
+        "q": "Who should get AU Kosmo Credit Card?",
+        "a": "AU Kosmo Credit Card is best suited for consumers seeking a lifetime free credit card that offers cashback on UPI, online and shopping spends, along with basic benefits such as fuel surcharge waiver and EMI conversion."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.67,
+    "editorial_rating": 3.0,
+    "aggregator_rating": null,
+    "category_sub_ratings": {
+      "Shopping": 2.5,
+      "Online Shopping": 3.0,
+      "shopping": 2.5
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Lifetime Free option from AU Small Finance Bank suited for cashback users.",
+    "pros": [
+      "Lifetime free credit card with no joining or annual fees",
+      "1.5% cashback on UPI Scan & Pay transactions through the Kiwi app",
+      "0.5% cashback on online payments through the Kiwi app and on online & offline shopping",
+      "1% fuel surcharge waiver on fuel spends between Rs. 400 and Rs. 5,000."
+    ],
+    "cons": [
+      "The higher 1.5% cashback rate is offered only on eligible UPI Scan & Pay transactions through the Kiwi app",
+      "Cashback rate on online payments and shopping is limited to 0.5%",
+      "Fuel surcharge waiver is capped at Rs. 100"
+    ],
+    "best_for_whom": "AU Small Finance Bank customers seeking cashback rewards & bank-specific discount offers",
+    "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",
+    "recommended_monthly_spend_inr": "Any (LTF keeper)",
+    "verdict": "Lifetime Free option from AU Small Finance Bank suited for cashback users."
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.67,
+    "reddit_mentions": 0,
+    "sentiment_summary": "Community discussions around AU Small Finance Bank Cashback cards.",
+    "key_threads": [],
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
+      "1.5% base on Kiwi Scan & Pay (scales to 5% on Rs. 1.5L/yr Kiwi Neon milestones); monthly cashback capped relative to credit limit."
+    ],
+    "optimization_tips": [
+      "Focus spends on RuPay UPI Scan & Pay (2.5% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+    ]
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Medium",
+    "devaluation_risk_score": 5,
+    "last_devalued_on": null,
+    "devaluation_history": [
+      "Tightened LIT, Zenith, Vetta & ixigo spend criteria after rapid 2023–2024 customer acquisition."
+    ],
+    "watch_out_vectors": [
+      "Quarterly spend thresholds for domestic airport lounge access",
+      "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
+    ]
+  },
+  "alternate_options": [
+    {
+      "role": "better_ltf_alternative",
+      "card_id": "icici_amazon_pay_icici_bank_credit_card",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "bank": "ICICI Bank",
+      "bank_slug": "icici-bank",
+      "card_slug": "amazon-pay-icici-bank-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.56,
+      "reason": "Lifetime-free (Rs. 0 annual fee) alternative in Cashback with strong value retention."
+    },
+    {
+      "role": "same_tier_competitor",
+      "card_id": "indusind_bank_cred_indusind_rupay_credit_card",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "bank": "IndusInd Bank",
+      "bank_slug": "indusind-bank",
+      "card_slug": "cred-indusind-bank-rupay-credit-card",
+      "annual_fee_inr": 499,
+      "overall_rating": 4.2,
+      "reason": "Direct competitor from IndusInd Bank at similar fee tier (Rs. 499/yr)."
+    },
+    {
+      "role": "upgrade_alternative",
+      "card_id": "sbi_cashback_sbi_card",
+      "card_name": "Cashback SBI Card",
+      "bank": "SBI Card",
+      "bank_slug": "sbi-card",
+      "card_slug": "cashback-sbi-card",
+      "annual_fee_inr": 999,
+      "overall_rating": 4.82,
+      "reason": "Higher-reward / enhanced-lounge step-up option rated 4.82/5."
+    },
+    {
+      "role": "category_standout_alternative",
+      "card_id": "federal_bank_visa_celesta_credit_card",
+      "card_name": "Federal Celesta Credit Card",
+      "bank": "Federal Bank",
+      "bank_slug": "federal-bank",
+      "card_slug": "federal-celesta-credit-card",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.32,
+      "reason": "Top-rated Travel & Miles card in market with rating 4.32/5."
+    }
+  ],
+  "eligibility_detailed": {
+    "occupation": "Salaried or Self-Employed",
+    "age_range": "21 to 65 years",
+    "min_monthly_income_salaried_inr": null,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": null,
+    "min_cibil_score": 730,
+    "approval_notes": null
+  },
+  "latest_offers": [
+    {
+      "offer_id": "au-small-finance-bank-au-swag-deals-travel-upi-cashback-promos",
+      "bank": "AU Small Finance Bank",
+      "title": "AU Swag Deals & Travel / UPI Cashback Promos",
+      "summary": "Zero forex markup & instant flight/train/hotel discounts on ixigo AU plus customisable milestone boosts on AU LIT & Zenith+.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.au.bank.in/personal-banking/offers",
+      "scope": "targeted"
+    }
+  ]
+}
