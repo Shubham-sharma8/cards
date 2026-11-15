@@ -62,7 +62,9 @@
         "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
         "source_type": "official_network_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -160,7 +162,279 @@
         "Up to Rs. 1,000 back as rewards on shopping, dining and spa services at domestic airports on Rs. 20,000 monthly spends",
         "Fuel Surcharge Waiver: 1% surcharge waiver of up to Rs. 500 per month on fuel transactions worth up to Rs. 5,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Scapia Credit Card – At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Issuer",
+            "Federal Bank, BOBCARD and Axis Bank"
+          ],
+          [
+            "Card Network",
+            "Visa, RuPay and Mastercard (depending on issuer and card variant)"
+          ],
+          [
+            "Card Type",
+            "Lifetime Free Travel Credit Card"
+          ],
+          [
+            "Joining Fee",
+            "₹0"
+          ],
+          [
+            "Annual Fee",
+            "₹0"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Not Applicable"
+          ],
+          [
+            "Best For",
+            "International Travel, Zero Forex Spends, Airport Lounge Access and UPI Payments"
+          ],
+          [
+            "Forex Markup",
+            "0%"
+          ],
+          [
+            "Rewards",
+            "Up to 2% value back on eligible Visa spends, up to 1% on eligible RuPay spends"
+          ],
+          [
+            "Travel Booking Rewards",
+            "Up to 4% value back on eligible bookings through the Scapia app"
+          ],
+          [
+            "Reward Currency",
+            "Scapia Coins (5 Coins = ₹1)"
+          ],
+          [
+            "Reward Redemption",
+            "Travel bookings, experiences and Scapia Store through the app"
+          ],
+          [
+            "Domestic Airport Lounge Access",
+            "Unlimited access on spending ₹20,000 in the previous billing cycle"
+          ],
+          [
+            "Other Domestic Airport Benefits",
+            "Dining, shopping or spa benefits worth up to ₹1,000, subject to eligibility"
+          ],
+          [
+            "International Lounge Access",
+            "Not Available"
+          ],
+          [
+            "International Airport Benefits",
+            "Up to ₹2,000 in rewards on eligible airport spending after a ₹50,000 international flight booking through Scapia"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Scapia Credit Card Fees & Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹0"
+          ],
+          [
+            "Welcome Benefit",
+            "₹1000 off on 1st flight booking + Visa Poshvine offer for ₹500 voucher"
+          ],
+          [
+            "Annual Fee",
+            "₹0"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Not Applicable"
+          ],
+          [
+            "Forex Markup",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Scapia Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Effective Return"
+        ],
+        "rows": [
+          [
+            "Eligible Online & Offline Spends",
+            "10 Scapia Coins per ₹100",
+            "2%"
+          ],
+          [
+            "Travel Bookings on Scapia App",
+            "20 Scapia Coins per ₹100",
+            "4%"
+          ],
+          [
+            "Eligible UPI Spends (minimum ₹500)",
+            "5 Scapia Coins per ₹100",
+            "1%"
+          ],
+          [
+            "Reward Redemption",
+            "5 Scapia Coins = ₹1",
+            "–"
+          ],
+          [
+            "Reward Validity",
+            "36 months",
+            "–"
+          ],
+          [
+            "Reward Caps",
+            "No standard monthly earning or redemption cap",
+            "–"
+          ],
+          [
+            "Reward Exclusions",
+            "Fuel, rent, education, wallet loading, insurance, utilities, telecom, international transactions and other excluded categories",
+            "No Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-3",
+        "kind": "redemption_catalog",
+        "title": "Scapia Reward Redemption",
+        "headers": [
+          "Redemption Option",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Travel Bookings",
+            "Flights, hotels, trains, buses, visa services and experiences booked through the Scapia app"
+          ],
+          [
+            "Scapia Store",
+            "Redeem Rewards for eligible products available on the Scapia Store"
+          ],
+          [
+            "Redemption Value",
+            "5 Rewards = ₹1"
+          ],
+          [
+            "Minimum Redemption",
+            "No minimum redemption value"
+          ],
+          [
+            "Cash Redemption",
+            "Not Available"
+          ],
+          [
+            "Statement Credit",
+            "Not Available"
+          ],
+          [
+            "Airline & Hotel Transfer Partners",
+            "Not Available"
+          ],
+          [
+            "Reward Validity",
+            "36 months"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Scapia Airport Privileges & Lounge Access",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Eligibility",
+            "Spend ₹20,000 in the preceding billing cycle"
+          ],
+          [
+            "Domestic Lounge Access",
+            "Unlimited complimentary visits"
+          ],
+          [
+            "Dining Benefit",
+            "Get up to ₹1000 back in Scapia Rewards on dining at eligible outlets"
+          ],
+          [
+            "Shopping Benefit",
+            "Get up to ₹1000 back in Scapia Rewards on shopping at eligible stores"
+          ],
+          [
+            "Spa Benefit",
+            "Available at participating airports"
+          ],
+          [
+            "How It Works",
+            "Choose between lounge access and other eligible airport benefits"
+          ],
+          [
+            "International Airport Benefit",
+            "Up to ₹2,000 back in rewards on eligible airport spending after booking an international flight worth ₹50,000 or more through Scapia"
+          ],
+          [
+            "Activation",
+            "Activate Airport Privileges through the Scapia app before using them"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-5",
+        "kind": "reward_structure",
+        "title": "Scapia Credit Card Zero Forex Markup",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex Markup",
+            "0%"
+          ],
+          [
+            "Card Network",
+            "Visa and Mastercard"
+          ],
+          [
+            "Exchange Rate",
+            "Applicable Visa or Mastercard exchange rate"
+          ],
+          [
+            "International Acceptance",
+            "Accepted wherever the respective card network is supported"
+          ],
+          [
+            "Pay in",
+            "Choose the local currency when paying abroad"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -864,7 +1138,51 @@
       "You already have credit cards which focus on categories other than travel, like shopping or dining",
       "You do not mind making your travel bookings through the Scapia app"
     ],
-    "faqs": []
+    "faqs": [
+      {
+        "question": "Is the Scapia Credit Card lifetime free?",
+        "answer": "Yes. The Scapia Credit Card is lifetime free, with no joining or annual fees. It is available through Federal Bank, BOBCARD and Axis Bank."
+      },
+      {
+        "question": "Which banks issue the Scapia Credit Card?",
+        "answer": "Scapia has partnered with Federal Bank, BOBCARD and Axis Bank. The cards are available on Visa, Mastercard and RuPay networks, depending on the issuing bank and card variant."
+      },
+      {
+        "question": "Does the Scapia Credit Card have zero forex markup?",
+        "answer": "Yes. Scapia offers 0% forex markup on international transactions. The applicable Visa or Mastercard exchange rate is used for currency conversion. Always choose the local currency instead of INR when paying abroad to avoid Dynamic Currency Conversion (DCC) charges."
+      },
+      {
+        "question": "How much reward does the Scapia Credit Card offer?",
+        "answer": "Eligible Visa and Mastercard transactions earn 10 Scapia Coins per ₹100 spent, equivalent to 2% value back. Eligible RuPay transactions earn 5 Coins per ₹100, equivalent to 1%. Travel bookings through the Scapia app can earn up to 4% value back. Reward rates and exclusions depend on the card variant."
+      },
+      {
+        "question": "How can I redeem Scapia Coins?",
+        "answer": "Scapia Coins can be redeemed for flights, hotels, trains, buses, experiences and shopping on the Scapia Store. Every 5 Scapia Coins are worth ₹1, and Coins are valid for 36 months. They cannot be converted into statement credit or transferred to airline and hotel loyalty programmes."
+      },
+      {
+        "question": "How do I get airport lounge access with Scapia?",
+        "answer": "You need to spend ₹20,000 in the previous billing cycle to unlock Airport Privileges. Eligible cardholders can enjoy unlimited complimentary domestic lounge access or choose other airport benefits. Airport Privileges must be activated through the Scapia app before use."
+      },
+      {
+        "question": "Can I use Scapia Airport Privileges for dining and shopping?",
+        "answer": "Yes. Instead of visiting an airport lounge, you can use Airport Privileges for dining, shopping or spa services at participating airports. You can get up to ₹1,000 back in Scapia Coins on eligible spending, subject to the airport, outlet and card terms."
+      },
+      {
+        "question": "Does Scapia offer international airport lounge access?",
+        "answer": "No. Scapia does not currently offer complimentary international lounge access as a standard benefit. However, eligible international flight bookings of ₹50,000 or more through the Scapia app can unlock up to ₹2,000 back in rewards on dining or shopping at international terminals in India."
+      },
+      {
+        "question": "Does Scapia offer rewards on utility and insurance payments?",
+        "answer": "Reward exclusions depend on the issuing bank. Utility, telecom and insurance transactions are excluded from rewards on the Federal Bank variant under its revised terms. Check the latest reward terms for your Scapia card before making these payments."
+      },
+      {
+        "question": "Can I use the Scapia RuPay Credit Card for UPI payments?",
+        "answer": "Yes. Eligible Scapia RuPay credit cards support UPI payments to merchants. You can earn Scapia Coins on eligible transactions of ₹500 or more, subject to reward exclusions."
+      }
+    ],
+    "program_updates_2026": [
+      "Axis Bank partnership: Scapia launched its co-branded credit card with Axis Bank in September 2026. Scapia now has three banking partners: Federal Bank, BOBCARD, and Axis Bank."
+    ]
   },
   "ratings": {
     "overall_market_rating": 4.46,
@@ -885,13 +1203,18 @@
       "Up to 20% Scapia coins on card transactions without any capping",
       "Unlimited domestic airport lounge access with discount on airport spends",
       "Complimentary RuPay card with 5% rewards on UPI transactions",
-      "No joining or renewal charges"
+      "No joining or renewal charges",
+      "Lifetime free with no joining or annual fee.",
+      "0% forex markup on international transactions."
     ],
     "cons": [
       "Scapia coins redemption limited to just travel bookings on Scapia app",
       "Low Scapia coins redemption ratio of 5:1",
       "No reward points on international spends",
-      "No complimentary international airport lounge access"
+      "No complimentary international airport lounge access",
+      "₹20,000 spending requirement in the previous billing cycle to unlock Airport Privileges.",
+      "No option to transfer rewards to airline or hotel loyalty programmes.",
+      "Several categories, including education, rent and insurance, are excluded from rewards."
     ],
     "best_for_whom": "International travelers wanting pure 0% forex markup on LTF card, plus domestic flyers meeting Rs. 20k/cycle spend",
     "not_ideal_for": "Users wanting rewards on forex spends (IDFC Wealth/AU Ixigo give rewards ON forex) or international Priority Pass lounges",

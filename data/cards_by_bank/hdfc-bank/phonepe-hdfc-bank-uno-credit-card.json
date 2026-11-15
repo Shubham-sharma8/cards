@@ -39,7 +39,9 @@
     "bank_url": "https://www.hdfc.bank.in/credit-cards",
     "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -136,7 +138,86 @@
         "Renewal fee waiver on spending Rs. 1 Lakh in a year",
         "1% fuel surcharge waiver (Up to Rs. 250 per month) on fuel transactions between Rs. 400 and Rs. 5,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees and Charges",
+        "headers": [
+          "Fee/Charge",
+          "Amount / Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST ~₹589"
+          ],
+          [
+            "Welcome Benefit",
+            "Get ₹499 back as PhonePe Gift Cards. ₹249 after your first RuPay UPI transaction, and ₹250 in ₹25 increments on 10 more UPI transactions of ₹100 or more each."
+          ],
+          [
+            "Annual Renewal Fee",
+            "₹499 + GST ~₹589"
+          ],
+          [
+            "Renewal Fee Waiver",
+            "Spend ₹1,00,000 in previous year"
+          ],
+          [
+            "Finance Charges",
+            "Up to 3.6% per month (43.2% annually)"
+          ],
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "PhonePe (Recharges, Bills, Travel, Pincode via UPI)",
+            "2% Reward Points ~2% value back",
+            "500 Reward Points"
+          ],
+          [
+            "Select Online Platforms (Amazon, Flipkart, Swiggy, etc.) – MCC Based",
+            "1% Reward Points ~1% value back",
+            "500 Reward Points"
+          ],
+          [
+            "Scan & Pay via UPI (RuPay Credit Card)",
+            "1% Reward Points ~1% value back",
+            "500 Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-2",
+        "kind": "lounge_access",
+        "title": "Airport Lounge Access Benefit",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Complimentary Lounge Access",
+            "None"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -313,7 +394,10 @@
     "optimization_tips": [
       "Focus spends on flights & hotel bookings (2.0% effective return) before hitting monthly category caps.",
       "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
-      "Track ₹100,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+      "Track ₹100,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count.",
+      "PhonePe categories (Recharges, Bills, Travel, Pincode via UPI): Spend ₹25,000 to earn the full 500 reward points",
+      "Online platforms (Amazon, Flipkart, Myntra, Swiggy, Zomato, etc.): Spend ₹50,000 to earn the full 500 reward points",
+      "Scan & Pay via UPI (RuPay Credit Card): Spend ₹50,000 to earn the full 500 reward points"
     ]
   },
   "devaluation_analysis": {

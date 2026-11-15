@@ -66,7 +66,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -157,7 +159,187 @@
         "18 YES Rewardz Points per Rs. 200 on offline spends",
         "4 complimentary green fee waivers at select golf courses in India"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "YES BANK Marquee Credit Card Fees",
+        "headers": [
+          "Fee & Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹9999 + GST (≈ ₹11,799)"
+          ],
+          [
+            "Welcome Benefit",
+            "40,000 Reward Points (worth up to ₹10,000 on eligible flight bookings)"
+          ],
+          [
+            "Annual Fee",
+            "₹4999 + GST (≈ ₹5,899)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹10 lakh annual eligible spends"
+          ],
+          [
+            "Renewal Benefit",
+            "20,000 Reward Points (worth up to ₹5000 on eligible flight bookings)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "YES BANK Marquee Credit Card Rewards",
+        "headers": [
+          "Type of Spend",
+          "Reward Points",
+          "Approx. Return*"
+        ],
+        "rows": [
+          [
+            "Online spends (excluding select categories)",
+            "36 Reward Points per ₹200",
+            "4.5%"
+          ],
+          [
+            "Offline spends (excluding select categories)",
+            "18 Reward Points per ₹200",
+            "2.25%"
+          ],
+          [
+            "Utilities",
+            "10 Reward Points per ₹200",
+            "1.25%"
+          ],
+          [
+            "Insurance, Education, Government Services, Tax Payments, Rent, Wallet Loading, Fuel, Railways, Toll, Ferry, Jewellery, Marketing & Advertising, EMI Transactions",
+            "No Reward Points",
+            "—"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-2",
+        "kind": "redemption_catalog",
+        "title": "YES BANK Marquee Credit Card Reward Redemption",
+        "headers": [
+          "Redemption Option",
+          "Redemption Value"
+        ],
+        "rows": [
+          [
+            "Flights & Hotels (YES Rewardz Travel Portal)",
+            "Up to ₹0.25 per Reward Point"
+          ],
+          [
+            "Gift Vouchers",
+            "Typically ₹0.10–₹0.15 per Reward Point (varies by brand)"
+          ],
+          [
+            "Merchandise",
+            "Varies"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "YES BANK Marquee Credit Card Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "6 complimentary visits per quarter for primary and add-on cardholders"
+          ],
+          [
+            "Domestic Guest Lounge Access",
+            "2 complimentary guest visits per quarter"
+          ],
+          [
+            "Domestic Lounge Eligibility",
+            "Spend ₹1 lakh in the previous calendar quarter"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Unlimited for primary and add-on cardholders"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-5",
+        "kind": "other_table",
+        "title": "YES BANK Marquee Credit Card Golf Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Complimentary Green Fee Waivers",
+            "4 rounds per calendar year"
+          ],
+          [
+            "Complimentary Golf Lessons",
+            "1 lesson per calendar month"
+          ],
+          [
+            "Golf Course Availability",
+            "Varies based on whether you hold the Visa or Mastercard variant"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-6",
+        "kind": "other_table",
+        "title": "YES BANK Marquee Credit Card BookMyShow Offer",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Offer",
+            "Buy One Get One (BOGO) on movie tickets"
+          ],
+          [
+            "Maximum Discount",
+            "₹800 per free ticket"
+          ],
+          [
+            "Monthly Benefit",
+            "Up to 3 complimentary tickets per calendar month"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-7",
+        "kind": "fees_and_charges",
+        "title": "YES BANK Marquee Credit Card: Other Benefits & Charges",
+        "headers": [
+          "Benefit / Charge",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on fuel transactions between ₹400 and ₹5000 (maximum ₹1,000 per statement cycle)"
+          ],
+          [
+            "Foreign Currency Markup",
+            "1% + GST"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -864,7 +1046,26 @@
       {
         "q": "I already have YES First Preferred Credit Card. Can I upgrade it to Marquee?",
         "a": "You can get an upgrade on your existing credit card depending on your eligibility and other internal policies of YES Bank. You can contact your relationship manager or speak to a customer care representative to get more clarity on this."
+      },
+      {
+        "question": "Is the Yes Bank Marquee Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹9,999 + GST and the annual fee is ₹4,999 + GST. The annual fee is waived when you spend ₹10 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the Yes Bank Marquee Credit Card?",
+        "answer": "It's 1% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the Yes Bank Marquee Credit Card give airport lounge access?",
+        "answer": "Yes. You get 6 domestic visits a quarter once you spend ₹1,00,000 in the previous quarter, plus unlimited international visits."
+      },
+      {
+        "question": "How much can I earn with the Yes Bank Marquee Credit Card?",
+        "answer": "You earn about 1.25% back in reward points on regular spends, and up to 4.5% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
+    ],
+    "program_updates_2026": [
+      "To qualify for domestic lounge access, you must spend at least ₹1 lakh in the previous calendar quarter. From 1 April 2025, YES BANK follows the standard calendar quarter to determine eligibility."
     ]
   },
   "ratings": {

@@ -55,7 +55,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -142,7 +144,93 @@
       "utilities_bills_telecom": "3.33% capped at 2,000 RP/month."
     },
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Air Canada – AeroPlan",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Air Asia – airasia rewards",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "ALL – Accor Live Limitless",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Avianca LifeMiles",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "British Airways Executive Club",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Etihad Guest",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Finnair Plus",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Flying Blue",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Hainan Airlines – Fortune Wings Club",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "IHG One Rewards",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Vietnam Airlines – Lotusmiles Program",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Turkish Airlines – Miles&Smiles",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "United MileagePlus",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Wyndham Rewards",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Singapore Airlines – KrisFlyer",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Vistara Airlines – Club Vistara",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "InterMiles",
+        "ratio": "1:1",
+        "notes": ""
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 10000,
       "annual_fee_inr": 10000,
@@ -152,7 +240,446 @@
       "milestone_slabs": [
         "10,000 Bonus RP every calendar quarter on Rs. 4,00,000 quarterly spend (adds +2.5% effective bonus!)"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees and Welcome Benefits on DCB Metal Card",
+        "headers": [
+          "Charges",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹10,000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹10,000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹8 lakh annual spend"
+          ],
+          [
+            "Welcome Benefits",
+            "Complimentary memberships of Club Marriott, Amazon Prime and Swiggy One"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-1",
+        "kind": "other_table",
+        "title": "Card Acceptance",
+        "headers": [
+          "Category",
+          "Acceptance Level"
+        ],
+        "rows": [
+          [
+            "Network",
+            "Diners Club"
+          ],
+          [
+            "Domestic PoS Acceptance (Metro & Tier 1 Cities)",
+            "Very Good"
+          ],
+          [
+            "Domestic PoS Acceptance (Tier 2 & Smaller Cities)",
+            "Good"
+          ],
+          [
+            "International Acceptance",
+            "Moderate"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "HDFC Bank Diners Club Metal Edition Rewards",
+        "headers": [
+          "Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Base Rewards",
+            "5 RP per ₹150"
+          ],
+          [
+            "Weekend Dining",
+            "10 RP per ₹150"
+          ],
+          [
+            "Insurance Transactions",
+            "5 RP per ₹150"
+          ],
+          [
+            "Grocery Transactions",
+            "5 RP per ₹150"
+          ],
+          [
+            "Fuel, Wallet Loads, Rent & Government Payments",
+            "No Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Reward Caps",
+        "headers": [
+          "Category",
+          "Cap"
+        ],
+        "rows": [
+          [
+            "Total Reward Points per Statement Cycle",
+            "75,000 RP"
+          ],
+          [
+            "Weekend Dining",
+            "1000 RP per day"
+          ],
+          [
+            "Insurance Transactions",
+            "5000 RP per calendar month"
+          ],
+          [
+            "Grocery Transactions",
+            "2000 RP per calendar month"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-4",
+        "kind": "milestone_benefits",
+        "title": "Milestone Benefits",
+        "headers": [
+          "Milestone Spend",
+          "Bonus Benefit"
+        ],
+        "rows": [
+          [
+            "₹4 lakh in a calendar quarter",
+            "10,000 Bonus Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-5",
+        "kind": "accelerated_partners",
+        "title": "HDFC SmartBuy Rewards on DCB Metal",
+        "headers": [
+          "SmartBuy Category",
+          "Rewards",
+          "Approx. Reward Rate"
+        ],
+        "rows": [
+          [
+            "Hotels",
+            "10X",
+            "33%"
+          ],
+          [
+            "IGP",
+            "10X",
+            "33%"
+          ],
+          [
+            "Jockey",
+            "10X",
+            "33%"
+          ],
+          [
+            "PharmEasy",
+            "10X",
+            "33%"
+          ],
+          [
+            "Flights",
+            "5X",
+            "16.5%"
+          ],
+          [
+            "Buses",
+            "5X",
+            "16.5%"
+          ],
+          [
+            "Myntra",
+            "5X",
+            "16.5%"
+          ],
+          [
+            "MMT Holiday Packages",
+            "5X",
+            "16.5%"
+          ],
+          [
+            "Instant Vouchers",
+            "3X",
+            "10%"
+          ],
+          [
+            "Apple Imagine Tresor",
+            "3X",
+            "10%"
+          ],
+          [
+            "IRCTC / ConfirmTicket",
+            "3X",
+            "10%"
+          ],
+          [
+            "Duty Free – Adani One",
+            "5X",
+            "16.5%"
+          ],
+          [
+            "Drivado",
+            "5X",
+            "16.5%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-6",
+        "kind": "lounge_access",
+        "title": "Unlimited Airport Lounge Access",
+        "headers": [
+          "Lounge Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Lounge Access",
+            "Unlimited"
+          ],
+          [
+            "International Lounge Access",
+            "Unlimited"
+          ],
+          [
+            "Lounge Network",
+            "1000+ Lounges Worldwide"
+          ],
+          [
+            "Access Method",
+            "Direct access using the credit card"
+          ],
+          [
+            "Separate Priority Pass Required",
+            "No"
+          ],
+          [
+            "Add-on Card Lounge Access",
+            "Yes"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-7",
+        "kind": "fees_and_charges",
+        "title": "Other Charges and Benefits",
+        "headers": [
+          "Benefit / Charge",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex Markup Fee",
+            "2% + GST"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "Not Available"
+          ],
+          [
+            "Global Value Program",
+            "1% cashback on international spends after registration"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-8",
+        "kind": "accelerated_partners",
+        "title": "SmartBuy Flight & Hotel Redemptions",
+        "headers": [
+          "Redemption Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Flight & Hotel Redemption Value",
+            "1 RP = ₹1"
+          ],
+          [
+            "Maximum Booking Value Payable via RP",
+            "70%"
+          ],
+          [
+            "Monthly Redemption Limit",
+            "75,000 RP"
+          ],
+          [
+            "Best Use Case",
+            "Flights & Hotel Bookings"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-9",
+        "kind": "redemption_catalog",
+        "title": "Cashback & Voucher Redemptions",
+        "headers": [
+          "Redemption Option",
+          "Value of 1 RP"
+        ],
+        "rows": [
+          [
+            "SmartBuy Flights & Hotels",
+            "₹1"
+          ],
+          [
+            "Airline / Hotel Transfers",
+            "0.5 to 1 Mile/Point"
+          ],
+          [
+            "Gift Vouchers & Rewards Catalogue",
+            "20p to 50p"
+          ],
+          [
+            "Cashback",
+            "30p"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-10",
+        "kind": "transfer_partners",
+        "title": "Airline & Hotel Transfer Partners",
+        "headers": [
+          "Transfer Partner",
+          "Transfer Ratio (RP : Miles/Points)"
+        ],
+        "rows": [
+          [
+            "Singapore Airlines KrisFlyer",
+            "1:1"
+          ],
+          [
+            "Flying Blue",
+            "1:1"
+          ],
+          [
+            "AirAsia Rewards",
+            "1:1"
+          ],
+          [
+            "Finnair Plus",
+            "1:1"
+          ],
+          [
+            "IHG One Rewards",
+            "1:1"
+          ],
+          [
+            "Wyndham Rewards",
+            "1:1"
+          ],
+          [
+            "Radisson Rewards",
+            "1:1"
+          ],
+          [
+            "Air Canada Aeroplan",
+            "2:1"
+          ],
+          [
+            "Accor Live Limitless (ALL)",
+            "2:1"
+          ],
+          [
+            "Avianca LifeMiles",
+            "2:1"
+          ],
+          [
+            "British Airways Executive Club",
+            "2:1"
+          ],
+          [
+            "Etihad Guest",
+            "2:1"
+          ],
+          [
+            "Turkish Airlines Miles&Smiles",
+            "2:1"
+          ],
+          [
+            "United MileagePlus",
+            "2:1"
+          ],
+          [
+            "Marriott Bonvoy",
+            "2:1"
+          ],
+          [
+            "Air India Maharaja Club",
+            "2:1"
+          ],
+          [
+            "Qatar Airways Avios",
+            "2:1"
+          ],
+          [
+            "Club ITC",
+            "2:1"
+          ]
+        ]
+      },
+      {
+        "id": "hdfc-smartbuy-gyftr-caps-july-2026",
+        "kind": "accelerated_partners",
+        "title": "HDFC SmartBuy Monthly & GyFTR Voucher Caps (July 2026)",
+        "note": "Effective 1 July 2026, SmartBuy GyFTR & Woohoo brand vouchers carry a carved-out 3,000 Bonus RP/month sub-limit inside the overall SmartBuy monthly cap.",
+        "headers": [
+          "Card Variant",
+          "Overall SmartBuy Cap/Mo",
+          "GyFTR/Woohoo Cap",
+          "Max Spend for 3,000 Bonus RP"
+        ],
+        "rows": [
+          [
+            "HDFC Infinia / Infinia Metal",
+            "15,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month (5X)"
+          ],
+          [
+            "HDFC Diners Club Black Metal",
+            "10,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹45,000 / month (3X)"
+          ],
+          [
+            "HDFC BizBlack Metal",
+            "7,500–15,000 RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month"
+          ],
+          [
+            "HDFC Regalia Gold",
+            "4,000 RP (capped)",
+            "Sub-cap applies",
+            "5X via Instant Voucher / Myntra / Nykaa"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -638,7 +1165,30 @@
       {
         "q": "How does the golf benefit on HDFC Diners Club Black work?",
         "a": "With HDFC Diners Club Black Credit Card, you get 6 complimentary golf games in a quarter. You can book the same by calling their 24-hour Golf Concierge Assistance Service at Golf Concierge Assistance on the Toll free no.: 1800 118 887 (India) or on Landline – 022 42320226. Customers travelling overseas can call at Landline: 022-6171 7606."
+      },
+      {
+        "question": "Can I still apply for the HDFC Bank Diners Club Black Credit Card?",
+        "answer": "No. The HDFC Bank Diners Club Black Credit Card is no longer issued to new applicants. If you already have it, you can keep using it."
+      },
+      {
+        "question": "Is the HDFC Bank Diners Club Black Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹10,000 + GST and the annual fee is ₹10,000 + GST. The annual fee is waived when you spend ₹5 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the HDFC Bank Diners Club Black Credit Card?",
+        "answer": "It's 1.99% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the HDFC Bank Diners Club Black Credit Card give airport lounge access?",
+        "answer": "Yes. You get unlimited domestic visits, plus unlimited international visits."
       }
+    ],
+    "program_updates_2026": [
+      "1 July 2026 SmartBuy Update: GyFTR & Woohoo brand vouchers carry a separate 3,000 Bonus RP/month sub-cap (~₹30k spend on Infinia, ~₹45k on DCB Metal).",
+      "The HDFC Bank Diners Club Black Metal Edition Credit Card is now one of HDFC Bank’s best premium credit cards after Infinia . While the older Diners Club Black lost some value due to multiple devaluations, the Metal Edition improved the overall package with better milestone benefits and a higher SmartBuy rewards cap.",
+      "The biggest reason many users still prefer the Diners Club Black Metal is the HDFC SmartBuy platform. Even after recent devaluations, DCB Metal remains one of the most rewarding premium credit cards for travel and online shopping.",
+      "Cons Diners Club acceptance is still inconsistent in some places High annual fee of ₹10,000 + GST SmartBuy rewards have seen multiple devaluations No fuel surcharge waiver on the Metal Edition Premium eligibility requirements",
+      "SmartBuy rewards have seen multiple devaluations"
     ]
   },
   "ratings": {
@@ -662,11 +1212,16 @@
       "Unlimited domestic and international lounge visits for primary and add-on user",
       "6 complimentary golf games per quarter",
       "Multiple complimentary memberships",
-      "Low forex mark-up fee of 2%"
+      "Low forex mark-up fee of 2%",
+      "Excellent 3.33% base reward rate"
     ],
     "cons": [
       "Though forex mark-up fee of 2% is lower than the general 3.5% charged on most cards, it could have been lower, considering the card’s premium status",
-      "High annual fee of Rs. 10,000"
+      "High annual fee of Rs. 10,000",
+      "Diners Club acceptance is still inconsistent in some places",
+      "High annual fee of ₹10,000 + GST",
+      "SmartBuy rewards have seen multiple devaluations",
+      "No fuel surcharge waiver on the Metal Edition"
     ],
     "best_for_whom": "Heavy quarterly spenders (Rs. 4L/quarter) maximizing 5.83% effective base+milestone rate and unlimited global lounges",
     "not_ideal_for": "Merchants/cities where Diners Club network acceptance is weak",

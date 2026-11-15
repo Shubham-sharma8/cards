@@ -1,0 +1,487 @@
+{
+  "identity": {
+    "card_id": "csb_bank_jupiter_edge_plus_csb_bank_rupay_credit_card",
+    "card_name": "Jupiter Edge+ CSB Bank RuPay Credit Card",
+    "bank": "CSB Bank",
+    "bank_slug": "csb-bank",
+    "card_slug": "jupiter-edge-plus-csb-bank-rupay-credit-card",
+    "card_network": "RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Online Shopping",
+    "categories": [
+      "Online Shopping",
+      "RuPay & UPI",
+      "Cashback",
+      "Lifetime Free",
+      "Zero/Low Forex"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-15T06:00:00+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/csb-bank/jupiter-edge-plus-csb-bank-rupay-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 0.96,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#E9ABA9",
+      "secondary_hex": "#E9ABA9",
+      "wash_hex": "#F6ECEC",
+      "soft_bg_hex": "#FCF6F6",
+      "border_hex": "#DCE5E1",
+      "ink_on_soft_hex": "#0F5C4D",
+      "is_dark_card": false,
+      "source": "cardmaven_asset"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
+  },
+  "filter_tags": {
+    "is_ltf": true,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Lifetime Free",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": true,
+    "zero_forex": false,
+    "min_income_salaried_inr": 25000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Online Shopping",
+      "RuPay & UPI",
+      "Cashback"
+    ],
+    "requirement_keywords": [
+      "ank",
+      "ard",
+      "ashback",
+      "ay",
+      "dge",
+      "ero",
+      "hopping",
+      "ifetime",
+      "nline",
+      "orex",
+      "ow",
+      "redit",
+      "ree",
+      "u",
+      "upiter"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback / Reward Points",
+    "base_reward_rate_pct": 1.0,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X Reward Points (~16.6%!) on GST, Income Tax, Advance Tax, PayZapp/SmartBuy business spends & vendor utility bills (Requires Rs. 50,000 retail spend/statement cycle)",
+      "5 RP per Rs. 150 (3.33%) on all other business & personal retail spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 10.0,
+      "amazon_flipkart_myntra": 10.0,
+      "dining_swiggy_zomato": 5.0,
+      "groceries_quick_commerce": 5.0,
+      "travel_flights_hotels": 5.0,
+      "upi_scan_and_pay": 1.0,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -1.0,
+      "offline_general_other": 1.0
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "3.33% base + 5X (16.5%) on Income Tax, GST, PayZapp utilities & SmartBuy business spends (business 5X bonus capped at 7,500 RP/cycle on >= Rs. 50,000 monthly spend); Insurance capped 5,000 RP/mo."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 499,
+      "annual_fee_inr": 0,
+      "annual_fee_with_gst_inr": 0,
+      "fee_waiver_spend_inr": null,
+      "monthly_spend_for_waiver_inr": null,
+      "milestone_slabs": []
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Jupiter Edge+ Credit Card Fees & Charges",
+        "headers": [
+          "Charge Type",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹0 (₹999 waived for a limited period)"
+          ],
+          [
+            "Annual Fee",
+            "₹0"
+          ],
+          [
+            "Annual Fee Waiver Requirement",
+            "Not Applicable"
+          ],
+          [
+            "Welcome Benefit",
+            "₹250 voucher on first eligible UPI transaction"
+          ],
+          [
+            "Forex Markup Fee",
+            "2% + GST"
+          ],
+          [
+            "Card Replacement Fee",
+            "₹249"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on fuel spends above ₹400"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Jupiter Edge+ Credit Card Rewards: Earning Rates Explained",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Where It Applies"
+        ],
+        "rows": [
+          [
+            "Shopping Brands",
+            "Up to 10% Back (50% Jewels)",
+            "Amazon, Flipkart, Myntra, Ajio, Nykaa, Croma, Tata Cliq, Reliance Digital, Reliance Retail and Trent/Tata Retail. Full rate only if statement cycle spends exceed ₹15,000; otherwise 1%"
+          ],
+          [
+            "Travel Bookings",
+            "Up to 5% Back (25% Jewels)",
+            "Flights booked through Jupiter Flights"
+          ],
+          [
+            "UPI Payments",
+            "Up to 1% Back (5% Jewels)",
+            "UPI Scan & Pay, intent and collect payments of ₹100 or more made through the Jupiter app only"
+          ],
+          [
+            "Online & Offline Spends",
+            "Up to 1% Back (5% Jewels)",
+            "Other eligible card spends"
+          ],
+          [
+            "Reward Currency",
+            "Jewels",
+            "You get Jupiter Jewels instead of direct cashback"
+          ],
+          [
+            "Best Redemption Value",
+            "₹0.20 per Jewel",
+            "Vouchers, digital gold, and Jupiter Flights"
+          ],
+          [
+            "Card Fee",
+            "Lifetime Free",
+            "No joining fee and no annual fee"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "October 2026 Update: ₹15,000 Spend Condition on Shopping Rewards",
+        "headers": [
+          "Statement Cycle Spends",
+          "Shopping Jewels",
+          "Effective Reward Rate (at ₹0.20 per Jewel)"
+        ],
+        "rows": [
+          [
+            "More than ₹15,000",
+            "50%",
+            "10%"
+          ],
+          [
+            "₹15,000 or less",
+            "5%",
+            "1%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Jupiter Edge+ Reward Caps",
+        "headers": [
+          "Category",
+          "Cap per Statement Cycle",
+          "Maximum Value (at ₹0.20 per Jewel)"
+        ],
+        "rows": [
+          [
+            "Shopping (overall)",
+            "10,000 Jewels",
+            "₹2,000"
+          ],
+          [
+            "Shopping (per merchant)",
+            "3,000 Jewels",
+            "₹600"
+          ],
+          [
+            "Shopping (per transaction)",
+            "1,000 Jewels",
+            "₹200"
+          ],
+          [
+            "Jupiter Flights",
+            "5,000 Jewels",
+            "₹1,000"
+          ],
+          [
+            "Other eligible spends",
+            "No cap",
+            "–"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "Jupiter Edge+ Rewards Redemption: How Much Are Jupiter Jewels Worth?",
+        "headers": [
+          "Redemption Option",
+          "Value per Jewel"
+        ],
+        "rows": [
+          [
+            "Brand Vouchers",
+            "₹0.20"
+          ],
+          [
+            "Digital Gold",
+            "₹0.20"
+          ],
+          [
+            "Jupiter Flights",
+            "₹0.20"
+          ],
+          [
+            "Statement Credit",
+            "₹0.14"
+          ],
+          [
+            "Bill Payments",
+            "₹0.14"
+          ],
+          [
+            "Cash / Cash Equivalent",
+            "₹0.14"
+          ],
+          [
+            "Air India Maharaja Club",
+            "6 Jewels = 1 Maharaja Point"
+          ]
+        ]
+      }
+    ]
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "None",
+      "add_on_allowed": false,
+      "summary": "No complimentary airport lounge access"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Standard issuer terms",
+      "add_on_allowed": false,
+      "guest_fee": "US$27-$35 per guest",
+      "summary": "No complimentary international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No complimentary railway lounge visits listed"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 499,
+    "annual_fee_inr": 0,
+    "gst_applicable": false,
+    "fee_waiver_spend_inr": null,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 2.0,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% (min ₹500)",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver (₹500–₹4,000 txns)",
+    "redemption_fee": "₹99 + GST on catalog redemptions (where applicable)",
+    "add_on_card_fee": "₹0",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "top scanning QR codes for free. The Jupiter Edge+ Card offers 10% returns on shopping & 5% on travel. We analyzed the \"Jewels\" math and hidden limits. Read before applying.",
+    "highlights": [
+      "Up to 10.0% accelerated value in Online Shopping",
+      "Fee: Lifetime Free (₹0)",
+      "Forex markup 2.0% · Network: RuPay"
+    ],
+    "welcome_benefit": [],
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want strong rewards in Online Shopping"
+    ],
+    "faqs": [
+      {
+        "question": "Is the Jupiter EDGE+ Credit Card lifetime free?",
+        "answer": "Yes. The Jupiter EDGE+ Credit Card has no joining fee and no annual fee."
+      },
+      {
+        "question": "What is the forex markup on the Jupiter EDGE+ Credit Card?",
+        "answer": "It's 2% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the Jupiter EDGE+ Credit Card give airport lounge access?",
+        "answer": "No. The Jupiter EDGE+ Credit Card doesn't include free airport lounge access."
+      },
+      {
+        "question": "How much can I earn with the Jupiter EDGE+ Credit Card?",
+        "answer": "You earn about 1% back in reward points on regular spends, and up to 10% on its bonus categories. Check the review above for the exact categories and monthly caps."
+      }
+    ],
+    "program_updates_2026": [
+      "However, the actual rewards are tied to Jupiter’s Jewels program, and the headline reward rates do not apply to every transaction. From 10 October 2026, the top shopping rate also depends on spending more than ₹15,000 in a statement cycle. So, how rewarding is the card in day-to-day use?",
+      "From 10 October 2026, the 50% Jewels rate on partner shopping brands is no longer automatic. Every eligible shopping transaction now earns 5% Jewels instantly. The remaining 45% Jewels are credited at the end of the statement cycle only if your total eligible spends for that cycle are more than ₹15,000. If you fall short, the extra Jewels are cancelled.",
+      "One important thing to know is that the rewards program was devalued from 1 June 2026. Previously, all redemption options offered the same value of ₹0.20 per Jewel. After the change, statement credit and bill payment redemptions were reduced to ₹0.14 per Jewel, while vouchers, digital gold, and Jupiter Flights continue to offer ₹0.20 per Jewel.",
+      "Today, the card still offers strong rewards on partner brands and UPI transactions, but the headline reward rates are achievable only if you redeem Jewels through higher-value options such as vouchers or Jupiter Flights. If your preferred redemption method is statement credit, your effective returns are roughly 30% lower than before the devaluation.",
+      "The value of points dropped after the recent June 2026 statement credit devaluation"
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.6,
+    "editorial_rating": 4.6,
+    "aggregator_rating": 4.6,
+    "category_sub_ratings": {
+      "Rewards": 4.6,
+      "Fees & Value": 4.2,
+      "Travel & Lounges": 3.2
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "top scanning QR codes for free. The Jupiter Edge+ Card offers 10% returns on shopping & 5% on travel. We analyzed the \"Jewels\" math and hidden limits. Read before applying.",
+    "pros": [
+      "Up to 10.0% value on Online Shopping spends",
+      "Accessible fee / LTF value"
+    ],
+    "cons": [
+      "Category exclusions apply on utilities, fuel, rent & government MCCs"
+    ],
+    "best_for_whom": "Online Shopping & CSB Bank cardholders",
+    "not_ideal_for": "Fuel or tax-heavy spenders seeking flat rewards",
+    "recommended_monthly_spend_inr": "₹15,000 - ₹40,000",
+    "verdict": "Strong 2026 option for online shopping"
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.6,
+    "reddit_mentions": 18,
+    "sentiment_summary": "Viewed positively on r/CreditCardsIndia for online shopping utility.",
+    "key_threads": [],
+    "practical_community_warnings": [],
+    "optimization_tips": []
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 5.0,
+    "last_devalued_on": null,
+    "devaluation_history": [],
+    "watch_out_vectors": [
+      "Monitor quarterly spend gates & monthly category caps"
+    ]
+  },
+  "alternate_options": [],
+  "eligibility_detailed": {
+    "occupation": "Salaried / Self-Employed",
+    "age_range": "21–60 years",
+    "min_monthly_income_salaried_inr": 25000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 400000,
+    "min_cibil_score": 730,
+    "approval_notes": "Subject to internal bank underwriting & city serviceability."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

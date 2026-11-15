@@ -13,15 +13,15 @@ export const CATEGORY_PRO_TIPS: Record<string, CategoryProTip[]> = {
       cards: ["HSBC Live+"],
     },
     {
-      title: "SBI Cashback Apay Gift Card Route (5%)",
+      title: "SBI Cashback Apay Gift Card Route (5% up to ₹2,000/mo)",
       detail:
-        "Direct utility/insurance payments earn 0% on Cashback SBI. Buy Amazon Pay Gift Cards on Amazon.in for 5% cashback (shared ₹5,000/month cap), then settle policies via Amazon Pay.",
+        "Direct utility/insurance payments earn 0% on Cashback SBI. Buy Amazon Pay Gift Cards on Amazon.in for 5% cashback (Apr 2026 online cap ₹2,000/cycle = ₹40k spend), then settle policies via Amazon Pay.",
       cards: ["Cashback SBI Card"],
     },
     {
       title: "Tata Neu Infinity & PhonePe SBI In-App Routes",
       detail:
-        "Pay via Tata Pay inside Tata Neu app for 5% NeuCoins (cap 2,000/month; net ~3.3% where ~1.7% fee applies) OR inside PhonePe app with PhonePe SBI Select Black for 10% RP (cap 500 RP/month).",
+        "Pay via Tata Pay inside Tata Neu app for 5% NeuCoins (cap 2,000/month; net ~3.3% where ~1.7% fee applies) OR inside PhonePe app with PhonePe SBI Select Black for 10% RP (Jul 2026 sub-cap: 500 RP/month strictly for Insurance).",
       cards: ["Tata Neu Infinity HDFC", "PhonePe SBI Select Black"],
     },
   ],
@@ -29,7 +29,7 @@ export const CATEGORY_PRO_TIPS: Record<string, CategoryProTip[]> = {
     {
       title: "Amazon Pay Gift Card Stack (5%–16.5%)",
       detail:
-        "Load Amazon Pay Gift Cards via HDFC SmartBuy GyFTR (Infinia 5X ~12.3% net after fee), HSBC Live+ on Zepto (10% up to ₹1,200/mo), or Cashback SBI on Amazon (5%) before paying electricity, gas & FASTag bills.",
+        "Load Amazon Pay Gift Cards via HDFC SmartBuy GyFTR (Infinia 5X ~12.3% net; note July 2026 3,000 Bonus RP/mo voucher sub-cap), HSBC Live+ on Zepto (10% up to ₹1,200/mo), or Cashback SBI on Amazon (5% up to ₹2,000/mo) before paying electricity, gas & FASTag bills.",
       cards: ["HDFC Infinia Metal", "HSBC Live+", "Cashback SBI Card"],
     },
     {
@@ -71,9 +71,9 @@ export const CATEGORY_PRO_TIPS: Record<string, CategoryProTip[]> = {
   ],
   cashback: [
     {
-      title: "Pair Capped 10% Cards With Uncapped Amazon Pay ICICI",
+      title: "Pair Capped 10% / 5% Cards With Uncapped Amazon Pay ICICI",
       detail:
-        "Exhaust high-rate capped cards first (HSBC Live+ ₹1,200/mo, Swiggy HDFC ₹1,500/mo, Cashback SBI ₹5,000/mo), then route overflow online/Amazon orders to uncapped 5% Amazon Pay ICICI.",
+        "Exhaust high-rate capped cards first (HSBC Live+ ₹1,200/mo, Swiggy HDFC ₹1,500/mo, Cashback SBI ₹2,000/mo online cap effective Apr 2026), then route overflow online/Amazon orders to uncapped 5% Amazon Pay ICICI.",
       cards: ["Cashback SBI Card", "HSBC Live+", "Amazon Pay ICICI"],
     },
   ],
@@ -111,10 +111,16 @@ export const CATEGORY_PRO_TIPS: Record<string, CategoryProTip[]> = {
   ],
   lounge: [
     {
-      title: "Pre-Generate QR Before Walking to the Lounge Desk",
+      title: "Pre-Generate QR & Verify 2026 Spend Gates Before Travel",
       detail:
-        "Avoid queue surprises: link your card once on LoungeOne.ai, travelFoodServices, or lms.hoi.in to check live quota and generate a QR code. Verify quarterly spend gates (Regalia Gold / Tata Neu / Scapia ₹15k–₹20k) beforehand.",
+        "Link your card once on LoungeOne.ai, travelFoodServices, or lms.hoi.in to generate an instant QR pass. Check 2026 quarterly spend gates (HDFC Regalia Gold / DCP ₹60k/qtr, Scapia ₹15k–₹20k/mo); Airtel Axis lounges were discontinued Apr 2026.",
       cards: ["HDFC Regalia Gold", "Federal Scapia", "AU ixigo"],
+    },
+    {
+      title: "Railway Lounge & Boarding Edge Arrival Perks",
+      detail:
+        "Use IRCTC SBI Premier / IRCTC SBI Platinum for 8–4 complimentary IRCTC Executive Railway Lounge visits/year (₹2 auth), and unlock Regalia Gold Boarding Edge (2 free airport arrival perks/qtr).",
+      cards: ["IRCTC SBI Premier", "HDFC Regalia Gold"],
     },
   ],
   forex: [
@@ -135,10 +141,16 @@ export const CATEGORY_PRO_TIPS: Record<string, CategoryProTip[]> = {
   ],
   "business-tax": [
     {
-      title: "Use Commercial Cards for GST & Advance Tax",
+      title: "Use Commercial Cards for GST & Advance Income Tax",
       detail:
-        "Personal retail cards increasingly zero-out Govt/Tax MCCs (9311/9399). HDFC BizBlack gives 5X (~16.5% value up to 7,500 RP/mo) specifically on GST & Advance Tax via PayZapp/SmartPay.",
+        "Personal retail cards exclude Govt/Tax MCCs (9311/9399). HDFC BizBlack gives 5X (~16.5% value up to 7,500 RP/mo on ≥₹50k/cycle) on GST & Advance Tax via PayZapp/SmartPay; avoid triple-digit surcharge portals unless milestone-chasing.",
       cards: ["HDFC BizBlack Metal", "HDFC BizPower"],
+    },
+    {
+      title: "Avoid 1% Education Surcharges via Direct School Apps",
+      detail:
+        "Since HDFC/Axis/ICICI add 1% fees on third-party education platforms (CRED/NoBroker) for MCC 8211/8220, pay directly on school/college portals with milestone cards (HDFC Infinia/DCB for milestone or SBI Vistara/Amex Plat Travel where eligible).",
+      cards: ["HDFC Infinia Metal", "HDFC BizBlack Metal"],
     },
   ],
   golf: [

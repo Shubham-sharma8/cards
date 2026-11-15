@@ -48,7 +48,9 @@
         "url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
         "source_type": "official_partner_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -136,7 +138,77 @@
         "350 bonus reward points (Rs. 350) on activation i.e. post first successful transaction of Rs. 500 or more. (1 reward point = Rs. 1)",
         "1% fuel surcharge waiver is provided which is capped at Rs. 100 per month"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IRCTC RuPay SBI Card Fees",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST (~₹590)"
+          ],
+          [
+            "Welcome Benefit",
+            "350 Reward Points on a single transaction of ₹500 or more within 60 days of card issuance (~₹350 Value)"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST (~₹590)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "None"
+          ],
+          [
+            "Renewal Benefit",
+            "500 Reward Points on payment of the renewal fee (~₹500 Value)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards on AC and Chair Car Bookings",
+        "headers": [
+          "Spend Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "AC1, AC2, AC3, Executive Chair Car, and AC Chair Car",
+            "4% to 10% Value Back (Seasonal)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Rewards on Other Spends",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Approx. Return"
+        ],
+        "rows": [
+          [
+            "Regular Retail Spends",
+            "1 Reward Point per ₹125",
+            "~0.8%"
+          ],
+          [
+            "Rent, Wallet Loads, Fuel and Government Spends",
+            "No Rewards",
+            "NIL"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -360,6 +432,26 @@
       {
         "q": "Should I opt for SBI IRCTC Platinum Card or SBI IRCTC Premier Card?",
         "a": "IRCTC Platinum Card is the base variant whereas IRCTC SBI Premier Card is the premium variant, available at a higher annual fee of Rs. 1,499. While the savings on train tickets is the same on both variants, the Premier Variant offers accelerated rewards on dining, bonus reward points and some other perks which are not available on the base variant. You should assess your spending patterns and choose a card that better aligns with your needs."
+      },
+      {
+        "question": "Is the IRCTC RuPay SBI Card worth it?",
+        "answer": "Yes, the card is worth considering for frequent train travelers. It offers up to 10% value back on eligible AC train ticket bookings, railway lounge access, and waived IRCTC transaction charges at a low annual fee."
+      },
+      {
+        "question": "Does the IRCTC RuPay SBI Card offer railway lounge access?",
+        "answer": "Yes, the card offers 4 complimentary railway lounge visits per year, limited to 1 visit per calendar quarter."
+      },
+      {
+        "question": "What is the annual fee of the IRCTC RuPay SBI Card?",
+        "answer": "The card comes with a joining and annual fee of ₹500 plus GST."
+      },
+      {
+        "question": "How much reward does the IRCTC RuPay SBI Card offer on train bookings?",
+        "answer": "The card offers up to 10% value back on eligible AC class train ticket bookings made through IRCTC."
+      },
+      {
+        "question": "Does the IRCTC RuPay SBI Card offer fuel surcharge waiver?",
+        "answer": "Yes, cardholders get a 1% fuel surcharge waiver on transactions between ₹500 and ₹3,000, capped at ₹100 per statement cycle."
       }
     ]
   },

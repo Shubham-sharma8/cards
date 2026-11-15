@@ -61,7 +61,9 @@
         "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -164,7 +166,153 @@
         "3 reward points per Rs. 150 on UPI spends above Rs. 2,000",
         "1 reward point per Rs. 150 on UPI spends below Rs. 2,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IDFC FIRST Select Credit Card Fees and Welcome Benefits",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Nil"
+          ],
+          [
+            "Annual Fee",
+            "Nil"
+          ],
+          [
+            "Welcome Benefit",
+            "₹500 voucher on spending ₹5,000 within 30 days"
+          ],
+          [
+            "EMI Benefit",
+            "5% cashback up to ₹1,000 on the first EMI transaction within 30 days"
+          ],
+          [
+            "Card Network",
+            "Visa Signature"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "IDFC FIRST Select Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Points",
+          "Approx. Reward Rate*"
+        ],
+        "rows": [
+          [
+            "Dining, Travel & International Spends",
+            "10 RP per ₹200",
+            "~1.25%"
+          ],
+          [
+            "Regular Retail, Rent, Education, Government & Wallet Transactions",
+            "3 RP per ₹200",
+            "~0.38%"
+          ],
+          [
+            "Insurance, Utilities, Railways & FASTag",
+            "1 RP per ₹200",
+            "~0.13%"
+          ],
+          [
+            "Fuel, EMI & Cash Withdrawals",
+            "No Reward Points",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-2",
+        "kind": "lounge_access",
+        "title": "Airport Lounge Access and Travel Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "1 visit per quarter"
+          ],
+          [
+            "Spend Requirement",
+            "₹20,000 in the previous calendar month"
+          ],
+          [
+            "Forex Markup",
+            "Zero"
+          ],
+          [
+            "Trip Cancellation Cover",
+            "Up to ₹10,000"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Railway Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Railway Lounge Access",
+            "Complimentary"
+          ],
+          [
+            "Eligible Users",
+            "Primary and Add-on Cardholders"
+          ],
+          [
+            "Access Method",
+            "Credit Card + Valid Train Ticket"
+          ],
+          [
+            "Guest Access",
+            "Chargeable"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "Movie Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Offer Type",
+            "Buy 1 Get 1 Movie Ticket"
+          ],
+          [
+            "Maximum Discount",
+            "₹125"
+          ],
+          [
+            "Eligibility",
+            "Spend ₹20,000 in the previous calendar month"
+          ],
+          [
+            "Frequency",
+            "Once every month"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -881,7 +1029,20 @@
       {
         "q": "Is there an expiry date on the reward points accrued on my card?",
         "a": "The reward points earned using your IDFC FIRST Select Credit Card expire after 24 months."
+      },
+      {
+        "question": "Is the IDFC FIRST Select Credit Card lifetime free?",
+        "answer": "Yes, the IDFC FIRST Select Credit Card is a lifetime free credit card. It comes with no joining fee and no annual fee, with no minimum spending requirement for fee waiver."
+      },
+      {
+        "question": "What is the forex markup fee on the IDFC FIRST Select Credit Card?",
+        "answer": "The card charges a forex markup fee of 1.99% plus GST, making it cheaper than most credit cards that charge around 3% to 3.5% on international transactions."
       }
+    ],
+    "program_updates_2026": [
+      "Reward Points earned from the July 2026 statement cycle onwards are valid for 24 months from the date of credit. This replaces the earlier no-expiry rewards policy.",
+      "Do IDFC FIRST Select Reward Points expire? Yes. Reward Points earned from the July 2026 statement cycle onwards are valid for 24 months from the date of credit.",
+      "Yes. Reward Points earned from the July 2026 statement cycle onwards are valid for 24 months from the date of credit."
     ]
   },
   "ratings": {

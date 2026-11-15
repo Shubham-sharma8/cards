@@ -38,7 +38,9 @@
     "bank_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
     "mitc_pdf_url": "https://www.kotak.bank.in/content/dam/Kotak/files/english-rcas.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -128,7 +130,157 @@
         "Offers 3% cashback on fuel spends – which is generally excluded from rewards programs",
         "Low capping of Rs. 500 across all accelerated spends which limit the earning potential"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Kotak Cashback+ Credit Card Fees & Charges",
+        "headers": [
+          "Charges",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "NIL – Limited time offer"
+          ],
+          [
+            "Welcome Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee",
+            "₹750 + GST"
+          ],
+          [
+            "Annual Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹2 Lakh annual spends"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Kotak Cashback+ Credit Card Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Cashback"
+        ],
+        "rows": [
+          [
+            "Online Grocery",
+            "5% Cashback"
+          ],
+          [
+            "Food Delivery",
+            "5% Cashback"
+          ],
+          [
+            "Online Movie Tickets & OTT Subscriptions",
+            "5% Cashback"
+          ],
+          [
+            "Fuel Spends",
+            "3% Cashback"
+          ],
+          [
+            "Other Eligible Spends",
+            "0.5% Cashback"
+          ],
+          [
+            "Eligible UPI Transactions (RuPay Variant)",
+            "0.5% Cashback"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Kotak Cashback+ Credit Card Movie Offer",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Offer Type",
+            "Buy One Get One Movie Ticket"
+          ],
+          [
+            "Partner",
+            "PVR INOX"
+          ],
+          [
+            "Maximum Discount",
+            "₹250 per month"
+          ],
+          [
+            "Eligibility",
+            "Minimum 2 tickets per booking"
+          ],
+          [
+            "Offer Frequency",
+            "Once per month"
+          ],
+          [
+            "Valid Till",
+            "30 June 2026"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Kotak Cashback+ Credit Card vs SBI Cashback Card",
+        "headers": [
+          "Feature",
+          "Kotak Cashback+",
+          "SBI Cashback Card"
+        ],
+        "rows": [
+          [
+            "Online Cashback",
+            "5% on select categories",
+            "5% on most online spends"
+          ],
+          [
+            "Fuel Cashback",
+            "3% Cashback",
+            "No accelerated rewards"
+          ],
+          [
+            "Cashback Cap",
+            "750 points/month on accelerated categories",
+            "₹5000 cashback/month"
+          ],
+          [
+            "Base Cashback",
+            "0.5%",
+            "1%"
+          ],
+          [
+            "UPI Cashback",
+            "Available on RuPay variant",
+            "Not Available"
+          ],
+          [
+            "Lounge Access",
+            "No",
+            "No"
+          ],
+          [
+            "Annual Fee",
+            "₹750 + GST",
+            "₹999 + GST"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -257,6 +409,26 @@
       {
         "q": "What is Kotak Mahindra Bank’s credit card customer care number?",
         "a": "You can reach Kotak Credit Card customer care on 1860 266 2666."
+      },
+      {
+        "question": "Is the Kotak Cashback+ Credit Card lifetime free?",
+        "answer": "The card currently comes with a limited-time zero joining fee offer. However, the annual fee of ₹750 + GST is still applicable from the second year onwards."
+      },
+      {
+        "question": "What is the cashback cap on the Kotak Cashback+ Credit Card?",
+        "answer": "The combined cashback on 5% and 3% accelerated categories is capped at 750 reward points per billing cycle."
+      },
+      {
+        "question": "Does the Kotak Cashback+ Credit Card offer cashback on fuel?",
+        "answer": "Yes, the card offers 3% cashback on eligible fuel transactions."
+      },
+      {
+        "question": "Does the Kotak Cashback+ Credit Card offer airport lounge access?",
+        "answer": "No, the Kotak Cashback+ Credit Card does not provide airport lounge access benefits."
+      },
+      {
+        "question": "What is the forex markup fee on the Kotak Cashback+ Credit Card?",
+        "answer": "The forex markup fee is approximately 3.5% + GST, making the card less suitable for international spending."
       }
     ]
   },
@@ -276,12 +448,19 @@
     "pros": [
       "Accelerated value-back on everyday spends like grocery and food delivery",
       "Covers more ground in entertainment with benefits on OTT subscriptions and gaming",
-      "Offers 3% cashback on fuel spends – which is generally excluded from rewards programs"
+      "Offers 3% cashback on fuel spends – which is generally excluded from rewards programs",
+      "5% cashback on online grocery, food delivery, and entertainment",
+      "Simple cashback structure with no reward redemption confusion",
+      "Unlimited 0.5% cashback on regular eligible spends"
     ],
     "cons": [
       "Base rate of 0.5% is too low for a card that charges Rs. 750 annual fee",
       "Low capping of Rs. 500 across all accelerated spends which limit the earning potential",
-      "No added benefits like domestic lounge access, discounts, etc."
+      "No added benefits like domestic lounge access, discounts, etc.",
+      "750 points monthly cap on accelerated cashback",
+      "No airport lounge access",
+      "No milestone rewards or travel benefits",
+      "Many categories excluded from cashback"
     ],
     "best_for_whom": "Kotak Mahindra Bank customers seeking cashback rewards & bank-specific discount offers",
     "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",

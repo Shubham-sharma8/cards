@@ -60,7 +60,9 @@
         "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
         "source_type": "official_network_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -154,13 +156,256 @@
         "Unlimited complimentary domestic lounge access on spending Rs. 75,000 or more in the preceding quarter",
         "10,000 Reward Points: On spending Rs. 50,000 within the first 60 days"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Bank of Baroda Eterna Credit Card – At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Premium Lifestyle Credit Card"
+          ],
+          [
+            "Annual Fee",
+            "₹2499 + GST, waived on ₹2.5 lakh spend in the preceding card anniversary year"
+          ],
+          [
+            "Best For",
+            "Online Shopping, Travel & Dining"
+          ],
+          [
+            "Reward Rate",
+            "Up to 3.75% on Travel & Dining"
+          ],
+          [
+            "Airport Lounge Access",
+            "Unlimited Domestic Airport Lounge Access (Primary + Add-on Cardholders)"
+          ],
+          [
+            "Forex Markup",
+            "2%"
+          ],
+          [
+            "Key USP",
+            "First Year Free premium credit card with strong rewards and spend-based unlimited domestic lounge access"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Bank of Baroda Eterna Fee Waiver & Welcome Benefit",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "NIL – First Year Free"
+          ],
+          [
+            "Annual Fee",
+            "₹2499+GST"
+          ],
+          [
+            "Welcome Benefit",
+            "10,000 Reward Points on spending ₹50,000 within the first 60 days (worth approximately ₹2500)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹2.5 lakh in a membership year"
+          ],
+          [
+            "Forex Markup",
+            "2% on international transactions"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on fuel transactions between ₹400 and ₹5000 (maximum ₹250 per statement cycle)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Bank of Baroda Eterna Credit Card Rewards Structure",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Approx. Reward Value"
+        ],
+        "rows": [
+          [
+            "Online Shopping, Dining, Travel & International Spends",
+            "15 Reward Points per ₹100",
+            "Up to 3.75%"
+          ],
+          [
+            "Eligible spends after reaching the monthly accelerated reward cap",
+            "3 Reward Points per ₹100",
+            "0.75%"
+          ],
+          [
+            "Other eligible retail spends",
+            "3 Reward Points per ₹100",
+            "0.75%"
+          ],
+          [
+            "Fuel spends and excluded merchant categories",
+            "No Reward Points",
+            "–"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-3",
+        "kind": "other_table",
+        "title": "International Spending Value",
+        "headers": [
+          "Component",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Reward Rate on Eligible International Spends",
+            "Up to 3.75%"
+          ],
+          [
+            "Forex Markup",
+            "2.00%"
+          ],
+          [
+            "GST on Forex Markup",
+            "0.36%"
+          ],
+          [
+            "Effective Net Return",
+            "Up to 1.39%"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-4",
+        "kind": "milestone_benefits",
+        "title": "BoB Eterna Milestone Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Annual Milestone Reward",
+            "Earn 20,000 Reward Points on spending ₹5 lakh in a membership year (worth approximately ₹5000 when redeemed for travel)."
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "Bank of Baroda Eterna Airport Lounge Access",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Lounge Benefit",
+            "Unlimited Domestic Airport Lounge Access"
+          ],
+          [
+            "Eligible Cardholders",
+            "Primary and Add-on Cardholders"
+          ],
+          [
+            "Spend Requirement",
+            "₹75,000 in the preceding calendar quarter"
+          ],
+          [
+            "New Cardholders",
+            "Spend requirement is waived for the calendar quarter in which the card is issued"
+          ],
+          [
+            "Network",
+            "Visa, Mastercard & RuPay"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-6",
+        "kind": "other_table",
+        "title": "Other Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Movie Offer",
+            "Buy One Get One free movie ticket on District (up to ₹250 per month)"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% fuel surcharge waiver on transactions between ₹400 and ₹5,000 (maximum ₹250 per statement cycle)"
+          ],
+          [
+            "FitPass Pro Membership",
+            "Complimentary 6-month FitPass Pro membership"
+          ],
+          [
+            "Forex Markup",
+            "Low 2% forex markup on international transactions"
+          ],
+          [
+            "Add-on Card Benefits",
+            "Add-on cardholders enjoy the same domestic airport lounge access as the primary cardholder"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-7",
+        "kind": "eligibility",
+        "title": "Eligibility",
+        "headers": [
+          "Criteria",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Age",
+            "21 to 65 years"
+          ],
+          [
+            "Employment",
+            "Salaried or Self-Employed"
+          ],
+          [
+            "Minimum Annual Income",
+            "₹12 lakh"
+          ],
+          [
+            "Residency",
+            "Indian Resident"
+          ],
+          [
+            "Documents Required",
+            "PAN, Aadhaar, address proof and income proof"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
       "visits_per_year": 999,
       "visits_per_quarter": 999,
-      "spend_criteria": "Rs. 40,000 spend in previous quarter (for unlimited domestic lounge)",
+      "spend_criteria": "Revised spend-based eligibility effective 15 July 2026",
       "add_on_allowed": true,
       "shared_limit": false,
       "summary": "Unlimited domestic lounges subject to Rs. 40k/quarter spend"
@@ -890,7 +1135,24 @@
       {
         "q": "Is the Eterna card suitable for international transactions?",
         "a": "The card offers accelerated rewards on international transactions and a low forex markup fee of 2%, making it a suitable choice for international spends."
+      },
+      {
+        "question": "Is the Bank of Baroda Eterna Credit Card Lifetime Free?",
+        "answer": "No. The BOBCARD Eterna Credit Card is currently offered First Year Free (FYF). There is no joining or first-year fee, while an annual fee of ₹2499 applies from the second year onwards."
+      },
+      {
+        "question": "What is the annual fee of the BOBCARD Eterna Credit Card?",
+        "answer": "The BOBCARD Eterna Credit Card has no fee in the first year under the current offer. From the second year, the annual fee is ₹2499 plus applicable taxes. The fee is waived if you spend ₹2.5L in the preceding card anniversary year."
+      },
+      {
+        "question": "What is the reward rate of the BOBCARD Eterna Credit Card?",
+        "answer": "The card earns 15 Reward Points per ₹100 on eligible travel, dining, online shopping and international spends, giving a reward rate of 3.75% when redeemed for cashback. Other eligible spends earn 3 Reward Points per ₹100, worth 0.75%."
       }
+    ],
+    "program_updates_2026": [
+      "15 July 2026 Update: BOBCARD transitioned unlimited lounge visits on Eterna & Tiara to revised quarterly spend-based eligibility.",
+      "From 1 September 2026, Eterna is offered First Year Free, with no joining or first-year fee. From the second year, the annual fee is ₹2499, which is waived on spending ₹2.5L in the preceding card anniversary year.",
+      "Note: Accelerated rewards are capped at 5000 bonus Reward Points per statement cycle. Once this limit is reached, eligible spends earn the base reward rate of 3 Reward Points per ₹100."
     ]
   },
   "ratings": {
@@ -911,12 +1173,19 @@
       "Up to 10X extra rewards on travel spends",
       "5X rewards, i.e. 3.75% back on dining, online shopping, travel and international spends",
       "Unlimited domestic airport lounge access",
-      "Up to Rs. 3,000 savings on movies every year"
+      "Up to Rs. 3,000 savings on movies every year",
+      "First Year Free for eligible applicants",
+      "Up to 3.75% rewards on travel, dining, online shopping and international spends",
+      "Low 2% forex markup compared to the industry standard of 3.5%"
     ],
     "cons": [
       "Low reward redemption value",
       "No complimentary international airport lounge access",
-      "Monthly capping on 5X reward benefits"
+      "Monthly capping on 5X reward benefits",
+      "No international airport lounge access",
+      "Accelerated rewards are subject to a monthly bonus Reward Point cap",
+      "Base reward rate drops to 0.75% on most other eligible spends",
+      "Quarterly spend requirement applies for domestic lounge access"
     ],
     "best_for_whom": "Online/dining/movie spenders grabbing Eterna LTF for uncapped-merchant 3.75% rewards + 2% forex",
     "not_ideal_for": "Frequent flyers unwilling to hit Rs. 40k/qtr for lounge access",
@@ -936,7 +1205,10 @@
     "optimization_tips": [
       "Focus spends on online shopping (3.8% effective return) before hitting monthly category caps.",
       "Track ₹250,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count.",
-      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport.",
+      "Use the card for travel, dining, online shopping and international spends to earn the accelerated reward rate of up to 3.75%.",
+      "Stay within the monthly accelerated reward cap. Once you exhaust the 5,000 bonus Reward Point monthly limit, eligible spends earn only the base reward rate.",
+      "Spend ₹5 lakh in a membership year to earn the 20,000 Reward Point milestone bonus. This also qualifies you for the annual fee waiver."
     ]
   },
   "devaluation_analysis": {

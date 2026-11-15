@@ -117,11 +117,11 @@ export default function RootLayout({
           href="https://pub-8a560aaca6404206b9adcd66799b1cee.r2.dev"
         />
       </head>
-      <body className="min-h-full flex flex-col bg-[#FAF9F6] text-[#1A1D21]">
+      <body className="min-h-full flex flex-col bg-[#FAF9F6] text-[#1A1D21] overflow-x-clip">
         <JsonLd data={orgJsonLd} />
         <MotionShell>
           <SiteHeader />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 w-full min-w-0">{children}</main>
           <SiteFooter />
         </MotionShell>
       </body>

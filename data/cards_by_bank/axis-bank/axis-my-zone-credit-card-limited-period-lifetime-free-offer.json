@@ -72,7 +72,9 @@
         "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -168,7 +170,145 @@
         "Lounge Access: 1 complimentary domestic lounge visit per calendar quarter on spending Rs. 50,000 during the previous 3 months.",
         "Milestone Bonus: 1,000 reward points on spending Rs. 1.5 Lakh in a year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Axis Bank MY ZONE Credit Card Fees & Welcome Benefits",
+        "headers": [
+          "Particular",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Nil (currently lifetime free)"
+          ],
+          [
+            "Renewal Fee",
+            "Nil (currently lifetime free)"
+          ],
+          [
+            "Lifetime Free Offer",
+            "Yes, currently offered as lifetime free (standard fee ₹500 + GST)"
+          ],
+          [
+            "Welcome Benefit",
+            "Complimentary Sony LIV Premium annual subscription"
+          ],
+          [
+            "Welcome Benefit Condition",
+            "Make the first transaction within 30 days of card issuance"
+          ],
+          [
+            "Annual Spend Benefit",
+            "1,000 EDGE REWARD Points on spending ₹1.5 lakh in a card anniversary year"
+          ],
+          [
+            "Add-on Card Fee",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Axis Bank MY ZONE Credit Card Rewards",
+        "headers": [
+          "Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Regular Spends",
+            "4 EDGE REWARD Points per ₹200 (~0.4%)"
+          ],
+          [
+            "Reward Exclusions",
+            "Movies, Fuel, Insurance, Rent, Wallet Loads, Utilities, Education, Jewellery, Government Payments and EMI Transactions – No Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-2",
+        "kind": "other_table",
+        "title": "Axis Bank MY ZONE Credit Card Offers",
+        "headers": [
+          "Merchant",
+          "Offer",
+          "Key Terms"
+        ],
+        "rows": [
+          [
+            "Swiggy",
+            "₹120 off",
+            "Minimum spend ₹500; twice a month, code AXIS120"
+          ],
+          [
+            "District",
+            "Buy One Get One on movie tickets",
+            "100% off second ticket up to ₹200 once a month, code AXIS200"
+          ],
+          [
+            "Cleartrip Flights",
+            "7% off up to ₹2,000",
+            "Domestic & international flights once a month, code CTAXISMYZONE"
+          ],
+          [
+            "Cleartrip Hotels",
+            "18% off up to ₹4,000",
+            "Once a month, code CTAXISMYZONE"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Domestic Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Lounge Access",
+            "1 domestic lounge visit per quarter"
+          ],
+          [
+            "Annual Limit",
+            "4 visits"
+          ],
+          [
+            "Spend Requirement",
+            "₹50,000 in the previous 3 months"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-4",
+        "kind": "fees_and_charges",
+        "title": "Fuel Surcharge Waiver",
+        "headers": [
+          "Particular",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1%"
+          ],
+          [
+            "Transaction Value",
+            "₹400 to ₹4,000"
+          ],
+          [
+            "Maximum Waiver",
+            "₹400 per statement cycle"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -901,7 +1041,40 @@
       {
         "q": "What is the foreign currency transaction fee charged on Axis Bank My Zone Credit Card?",
         "a": "The foreign currency transaction fee charged on Axis Bank My Zone Credit Card is 3.5% of the transacted amount. Therefore, this is not an ideal credit card for foreign currency transactions as it incurs high charges."
+      },
+      {
+        "question": "Is Axis Bank MY ZONE Credit Card Lifetime Free?",
+        "answer": "Yes, MY ZONE is currently lifetime free, with no joining or annual fee. Its standard fee is ₹500 + GST, so confirm the lifetime free offer is still on when you apply."
+      },
+      {
+        "question": "What is the reward rate on Axis Bank MY ZONE Credit Card?",
+        "answer": "MY ZONE earns 4 EDGE REWARD Points per ₹200 on eligible spends. At ₹0.20 per point, the regular reward rate works out to around 0.4%."
+      },
+      {
+        "question": "What is the Swiggy offer on Axis Bank MY ZONE Credit Card?",
+        "answer": "You get ₹120 off on Swiggy on a minimum order of ₹500. The offer can be used twice every month with coupon code AXIS120."
+      },
+      {
+        "question": "Does Axis Bank MY ZONE Credit Card have a movie offer?",
+        "answer": "Yes. You get 100% off on the second movie ticket booked through District, capped at ₹200 once per month. From 1 November 2026, you need to spend ₹25,000 in the previous three calendar months to unlock the offer."
+      },
+      {
+        "question": "Does Axis Bank MY ZONE Credit Card have lounge access?",
+        "answer": "Yes. You get 1 domestic airport lounge visit per calendar quarter after spending ₹50,000 in the previous three calendar months."
+      },
+      {
+        "question": "What is the welcome benefit on Axis Bank MY ZONE Credit Card?",
+        "answer": "New cardholders get a complimentary Sony LIV Premium annual subscription after completing their first transaction within 30 days of card issuance."
+      },
+      {
+        "question": "Is Axis Bank MY ZONE Credit Card worth it?",
+        "answer": "MY ZONE is worth considering mainly for its Swiggy, District and other merchant offers. The regular reward rate is poor, so we would prefer getting the card Lifetime Free and using it only for the offers."
       }
+    ],
+    "program_updates_2026": [
+      "However, this changes from 1 November 2026. You will then need to spend ₹25,000 in the previous three months to unlock the movie offer. The requirement is waived for newly issued cards for the month of issuance and the following three calendar months.",
+      "Swiggy is the best benefit for us. The District BOGO is good as well, though the ₹25,000 spend requirement from November 2026 makes it less useful. Cleartrip offers are good to have whenever they work out cheaper.",
+      "Yes. You get 100% off on the second movie ticket booked through District, capped at ₹200 once per month. From 1 November 2026, you need to spend ₹25,000 in the previous three calendar months to unlock the offer."
     ]
   },
   "ratings": {

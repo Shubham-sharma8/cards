@@ -1,14 +1,13 @@
 {
   "bank": "Indian Overseas Bank",
   "bank_slug": "indian-overseas-bank",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 3,
   "ltf_count": 1,
   "rupay_upi_count": 0,
   "domestic_lounge_count": 0,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 2,
   "with_image_count": 3,
   "official_lounge_programs": [],
@@ -18,42 +17,30 @@
       "card_name": "IOB ZET Credit Card",
       "card_slug": "iob-zet-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.7,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/indian-overseas-bank/iob-zet-credit-card.webp",
-      "json_file": "iob-zet-credit-card.json",
-      "md_file": "iob-zet-credit-card.md"
-    },
-    {
-      "card_id": "indian_overseas_bank_classic_credit_card",
-      "card_name": "Indian Overseas Bank Classic Credit Card",
-      "card_slug": "indian-overseas-bank-classic-credit-card",
-      "primary_category": "Super-Premium",
-      "card_network": "Visa / Mastercard",
-      "annual_fee_inr": 0,
-      "overall_rating": 3.43,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/indian-overseas-bank/indian-overseas-bank-classic-credit-card.webp",
-      "json_file": "indian-overseas-bank-classic-credit-card.json",
-      "md_file": "indian-overseas-bank-classic-credit-card.md"
+      "json_path": "data/cards_by_bank/indian-overseas-bank/iob-zet-credit-card.json",
+      "md_path": "data/cards_by_bank/indian-overseas-bank/iob-zet-credit-card.md"
     },
     {
       "card_id": "indian_overseas_bank_gold_credit_card",
       "card_name": "Indian Overseas Bank Gold Credit Card",
       "card_slug": "indian-overseas-bank-gold-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.43,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/indian-overseas-bank/indian-overseas-bank-gold-credit-card.webp",
-      "json_file": "indian-overseas-bank-gold-credit-card.json",
-      "md_file": "indian-overseas-bank-gold-credit-card.md"
+      "json_path": "data/cards_by_bank/indian-overseas-bank/indian-overseas-bank-gold-credit-card.json",
+      "md_path": "data/cards_by_bank/indian-overseas-bank/indian-overseas-bank-gold-credit-card.md"
+    },
+    {
+      "card_id": "indian_overseas_bank_classic_credit_card",
+      "card_name": "Indian Overseas Bank Classic Credit Card",
+      "card_slug": "indian-overseas-bank-classic-credit-card",
+      "primary_category": "Super-Premium",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.43,
+      "json_path": "data/cards_by_bank/indian-overseas-bank/indian-overseas-bank-classic-credit-card.json",
+      "md_path": "data/cards_by_bank/indian-overseas-bank/indian-overseas-bank-classic-credit-card.md"
     }
   ]
 }

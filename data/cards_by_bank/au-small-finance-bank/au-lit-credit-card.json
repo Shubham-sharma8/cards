@@ -40,7 +40,9 @@
     "bank_url": "https://www.au.bank.in/personal-banking/credit-cards",
     "mitc_pdf_url": "https://www.au.bank.in/SOC_CC-MITC\\(with-Schedule-of-Charges\\).pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -140,7 +142,170 @@
         "5% additional cashback, up to Rs. 500 on min. Rs. 10,000 spends in a 30-day period, at Rs. 299 fee for 90 days",
         "2% additional cashback, up to Rs. 1,000 on min. Rs. 15,000 spends in 30-day period, at Rs. 199 fee for 90 days"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees and Charges",
+        "headers": [
+          "Fee Type",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹0"
+          ],
+          [
+            "Annual Fee",
+            "₹0"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-1",
+        "kind": "milestone_benefits",
+        "title": "Milestone Cashback Feature Packs",
+        "headers": [
+          "Feature",
+          "Fee",
+          "Minimum Spend",
+          "Maximum Cashback"
+        ],
+        "rows": [
+          [
+            "5% Additional Cashback",
+            "₹299",
+            "₹10,000",
+            "₹500 per 30-day cycle"
+          ],
+          [
+            "2% Additional Cashback",
+            "₹199",
+            "₹15,000",
+            "₹1000 per 30-day cycle"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Category Cashback Feature Packs",
+        "headers": [
+          "Feature",
+          "Fee",
+          "Maximum Cashback"
+        ],
+        "rows": [
+          [
+            "5% Grocery Cashback",
+            "₹299",
+            "₹500 per 30-day cycle"
+          ],
+          [
+            "5% Apparel Cashback",
+            "₹199",
+            "₹500 per 30-day cycle"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-3",
+        "kind": "accelerated_partners",
+        "title": "Accelerated Reward Point Feature Packs",
+        "headers": [
+          "Feature",
+          "Fee"
+        ],
+        "rows": [
+          [
+            "10X Reward Points on Online Spends",
+            "₹299"
+          ],
+          [
+            "5X Reward Points on Online Spends",
+            "₹199"
+          ],
+          [
+            "10X Reward Points on Offline Spends",
+            "₹299"
+          ],
+          [
+            "5X Reward Points on Offline Spends",
+            "₹199"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-4",
+        "kind": "fees_and_charges",
+        "title": "Maximizing Rewards with AU LIT Feature Packs",
+        "headers": [
+          "Spending Pattern",
+          "Feature Packs",
+          "Eligible Retail Spend (90 Days)",
+          "Total Value (Cashback + Reward Points)",
+          "Feature Fees",
+          "Estimated Net Value",
+          "Effective Return"
+        ],
+        "rows": [
+          [
+            "Online Fashion Shopping",
+            "5% Milestone Cashback + 5% Apparel Cashback + 10X Online Reward Points",
+            "₹30,000",
+            "₹3,600",
+            "₹797",
+            "₹2,803",
+            "9.34%"
+          ],
+          [
+            "Grocery Spending",
+            "5% Milestone Cashback + 5% Grocery Cashback + 10X Reward Points",
+            "₹30,000",
+            "₹3,600",
+            "₹897",
+            "₹2,703",
+            "9.01%"
+          ],
+          [
+            "General Online Spending",
+            "5% Milestone Cashback + 10X Online Reward Points",
+            "₹30,000",
+            "₹2,100",
+            "₹598",
+            "₹1,502",
+            "5.01%"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-5",
+        "kind": "fees_and_charges",
+        "title": "Optional Membership Benefits",
+        "headers": [
+          "Membership Benefit",
+          "Subscription Fee",
+          "Minimum Spend Requirement",
+          "Recovery Charge"
+        ],
+        "rows": [
+          [
+            "Amazon Prime Membership (3 Months)",
+            "₹299 per 90-day cycle",
+            "₹10,000 during the 90-day validity",
+            "₹299 + GST if the spending requirement is not met"
+          ],
+          [
+            "ZEE5 Membership (3 Months)",
+            "₹99 per 90-day cycle",
+            "₹5,000 during the 90-day validity",
+            "₹99 + GST if the spending requirement is not met"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -239,7 +404,23 @@
       {
         "q": "Who should apply for AU LIT Credit Card?",
         "a": "This card suits consumers who want customized benefits and are comfortable paying quarterly fees for selected features. Those preferring a simple, low-maintenance rewards card may find better alternatives."
+      },
+      {
+        "question": "Is the AU Bank LIT Credit Card lifetime free?",
+        "answer": "Yes. The AU Bank LIT Credit Card has no joining fee and no annual fee."
+      },
+      {
+        "question": "What is the forex markup on the AU Bank LIT Credit Card?",
+        "answer": "It's 3.49% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "How much can I earn with the AU Bank LIT Credit Card?",
+        "answer": "You earn about 0.2% back in reward points on regular spends, and up to 10% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
+    ],
+    "program_updates_2026": [
+      "Note: Selected transactions such as fuel, rent, cash withdrawals, government payments, BBPS and quasi-cash transactions are excluded. Refer to the latest AU Bank terms for the complete list of exclusions.",
+      "Note: We value AU Reward Points at ₹0.20 each while calculating reward rates in this review, as it is the most consistently achievable redemption value. Users redeeming points for eligible travel bookings may receive a higher value of up to ₹0.25 per Reward Point."
     ]
   },
   "ratings": {
@@ -261,12 +442,19 @@
       "Cardholders can customize features as per their requirements",
       "5% cashback on day-to-day categories",
       "Complimentary Amazon Prime & ZEE5 memberships",
-      "Accelerated rewards on online & offline spends"
+      "Accelerated rewards on online & offline spends",
+      "Genuine Lifetime Free credit card.",
+      "Unique Feature Pack model lets you pay only for benefits you need.",
+      "Optional cashback, Reward Points, airport lounge access and OTT memberships."
     ],
     "cons": [
       "No reward points on fuel & EMI spends",
       "Complicated feature-wise pricing structure",
-      "Penalty charges on not achieving spending milestones"
+      "Penalty charges on not achieving spending milestones",
+      "Requires active management through the AU 0101 app.",
+      "Feature Packs auto-renew by default.",
+      "Base reward rate is low without paid Feature Packs.",
+      "Reward redemption attracts a ₹99 + GST fee."
     ],
     "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
     "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",

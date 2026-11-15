@@ -66,7 +66,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -146,12 +148,66 @@
       "Rent, wallet loads, fuel, utilities capped as per HSBC T&C"
     ],
     "transfer_partners": [
-      "Accor Live Limitless (1:1)",
-      "British Airways",
-      "Singapore Airlines KrisFlyer",
-      "Air India",
-      "Etihad",
-      "Marriott Bonvoy"
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "AirAsia Rewards",
+        "ratio": "1:3",
+        "notes": ""
+      },
+      {
+        "partner": "Flying Blue",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "British Airways Club",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Etihad Guest",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "EVA Air Infinity MileageLands",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Japan Airlines Mileage Bank",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Singapore Airlines KrisFlyer",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Qantas Frequent Flyer",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Qatar Airways Privilege Club",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Thai Airways Royal Orchid Plus",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Vietnam Airlines Lotusmiles",
+        "ratio": "1:1",
+        "notes": ""
+      }
     ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 12000,
@@ -162,7 +218,430 @@
       "milestone_slabs": [
         "Annual Rs. 20,000 + GST fee WAIVED completely while qualifying for HSBC Premier banking status (Rs. 40L TRV / Rs. 3L+ net salary)"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HSBC Premier Credit Card Overview",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Super Premium Travel Credit Card"
+          ],
+          [
+            "Card Network",
+            "Mastercard"
+          ],
+          [
+            "Joining Fee",
+            "₹12,000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹20,000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Available for eligible HSBC Premier customers"
+          ],
+          [
+            "Welcome Benefit",
+            "20,000 Reward Points"
+          ],
+          [
+            "Reward Rate",
+            "3 Reward Points per ₹100 spent"
+          ],
+          [
+            "Reward Point Expiry",
+            "Never Expires"
+          ],
+          [
+            "Travel Portal Rewards",
+            "Up to 12X Reward Points"
+          ],
+          [
+            "Forex Markup",
+            "0.99%"
+          ],
+          [
+            "Domestic Lounge Access",
+            "Unlimited"
+          ],
+          [
+            "International Lounge Access",
+            "Unlimited"
+          ],
+          [
+            "Guest Lounge Access",
+            "8 International Guest Visits per Year"
+          ],
+          [
+            "Airport Lounge Program",
+            "Mastercard Airport Experiences & LoungeKey"
+          ],
+          [
+            "Dining Benefits",
+            "EazyDiner Discounts"
+          ],
+          [
+            "Movie Benefits",
+            "Buy One Get One on BookMyShow"
+          ],
+          [
+            "Travel Insurance",
+            "Available"
+          ],
+          [
+            "Best For",
+            "Frequent Travellers & International Spends"
+          ],
+          [
+            "Eligibility",
+            "HSBC Premier Banking Customers Only"
+          ],
+          [
+            "Apply Mode",
+            "Via HSBC Premier Banking Relationship"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-1",
+        "kind": "eligibility",
+        "title": "HSBC Premier Credit Card Eligibility",
+        "headers": [
+          "Eligibility Criteria",
+          "Requirement"
+        ],
+        "rows": [
+          [
+            "Total Relationship Balance (TRB)",
+            "Maintain a quarterly TRB of at least ₹50 Lakhs"
+          ],
+          [
+            "Salary Account",
+            "Net monthly salary credit of at least ₹3 Lakhs"
+          ],
+          [
+            "HSBC Home Loan",
+            "Mortgage of at least ₹1.15 Crore and meet the applicable TRB requirement within 12 months"
+          ],
+          [
+            "International Premier Status",
+            "Existing HSBC Premier customer in another country or region"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "HSBC Premier Credit Card Fees and Charges",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹12,000 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "20,000 Reward Points"
+          ],
+          [
+            "Annual Fee",
+            "₹20,000 + GST"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Waived for qualified HSBC Premier customers"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "HSBC Premier Credit Card Reward Structure",
+        "headers": [
+          "Category",
+          "Reward Rate",
+          "Cap / Exclusions"
+        ],
+        "rows": [
+          [
+            "Regular Retail Spends",
+            "3 Reward Points per ₹100",
+            "No Cap"
+          ],
+          [
+            "Insurance, Utilities, Education, Government Payments, Tax Payments, Wallet Loads, Jewellery & Real Estate",
+            "3 Reward Points per ₹100",
+            "Rewards applicable up to ₹1 Lakh cumulative spend per month"
+          ],
+          [
+            "Fuel",
+            "No Rewards",
+            "Excluded"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "HSBC Premier Credit Card on International Spends",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Reward Rate",
+            "3 Reward Points per ₹100 spent"
+          ],
+          [
+            "Forex Markup",
+            "0.99% + GST (~1.17%)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-5",
+        "kind": "reward_structure",
+        "title": "HSBC Travel With Points: Earn Up to 12X Rewards on Travel Bookings",
+        "headers": [
+          "Booking Type",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Flights",
+            "6X (18 Reward Points per ₹100)"
+          ],
+          [
+            "Hotels",
+            "12X (36 Reward Points per ₹100)"
+          ],
+          [
+            "Car Rentals",
+            "2X (6 Reward Points per ₹100)"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-6",
+        "kind": "redemption_catalog",
+        "title": "HSBC Premier Credit Card Redemption Options",
+        "headers": [
+          "Redemption Option",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Airline Miles Transfers",
+            "Up to 1:1 Transfer Ratio"
+          ],
+          [
+            "Hotel Loyalty Points Transfers",
+            "Up to 1:1 Transfer Ratio"
+          ],
+          [
+            "Apple Online Store",
+            "₹1 per Reward Point"
+          ],
+          [
+            "Gift Vouchers",
+            "Up to ₹0.50 per Reward Point"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-7",
+        "kind": "transfer_partners",
+        "title": "Airline Transfer Partners",
+        "headers": [
+          "Airline Loyalty Programme",
+          "Transfer Ratio"
+        ],
+        "rows": [
+          [
+            "Air India Maharaja Club",
+            "1:1"
+          ],
+          [
+            "AirAsia Rewards",
+            "1:3"
+          ],
+          [
+            "Flying Blue",
+            "1:1"
+          ],
+          [
+            "British Airways Club",
+            "1:1"
+          ],
+          [
+            "Etihad Guest",
+            "1:1"
+          ],
+          [
+            "EVA Air Infinity MileageLands",
+            "1:1"
+          ],
+          [
+            "Japan Airlines Mileage Bank",
+            "1:1"
+          ],
+          [
+            "Singapore Airlines KrisFlyer",
+            "1:1"
+          ],
+          [
+            "Qantas Frequent Flyer",
+            "1:1"
+          ],
+          [
+            "Qatar Airways Privilege Club",
+            "1:1"
+          ],
+          [
+            "Thai Airways Royal Orchid Plus",
+            "1:1"
+          ],
+          [
+            "Vietnam Airlines Lotusmiles",
+            "1:1"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-8",
+        "kind": "transfer_partners",
+        "title": "Hotel Transfer Partners",
+        "headers": [
+          "Hotel Loyalty Programme",
+          "Transfer Ratio"
+        ],
+        "rows": [
+          [
+            "Accor Live Limitless (ALL)",
+            "1:1"
+          ],
+          [
+            "Marriott Bonvoy",
+            "1:1"
+          ],
+          [
+            "IHG One Rewards",
+            "1:1"
+          ],
+          [
+            "Wyndham Rewards",
+            "1:1"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-9",
+        "kind": "other_table",
+        "title": "BookMyShow Offer on HSBC Premier Credit Card",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Offer Type",
+            "Buy 1 Get 1 Free"
+          ],
+          [
+            "Platform",
+            "BookMyShow"
+          ],
+          [
+            "Maximum Discount",
+            "₹750 per ticket"
+          ],
+          [
+            "Monthly Limit",
+            "2 times per month"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-10",
+        "kind": "lounge_access",
+        "title": "HSBC Premier Credit Card Airport Lounge Access",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Lounge Access",
+            "Unlimited"
+          ],
+          [
+            "International Lounge Access",
+            "Unlimited"
+          ],
+          [
+            "International Guest Visits",
+            "8 per year"
+          ],
+          [
+            "Domestic Lounge Program",
+            "Mastercard"
+          ],
+          [
+            "International Lounge Program",
+            "LoungeKey"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-11",
+        "kind": "eligibility",
+        "title": "Additional HSBC Premier Banking Benefits",
+        "headers": [
+          "Benefit",
+          "Premier Customers (TRB Route)",
+          "Premier Customers (Salary/Mortgage Route)"
+        ],
+        "rows": [
+          [
+            "Airport Meet & Greet",
+            "6 Visits per Year (4 Domestic + 2 International)",
+            "4 Visits per Year (2 Domestic + 2 International)"
+          ],
+          [
+            "Airport Transfers",
+            "2 Domestic Transfers per Year",
+            "Not Available"
+          ],
+          [
+            "Golf Benefits",
+            "24 Games + 12 Lessons per Year",
+            "6 Games + 2 Lessons per Year"
+          ],
+          [
+            "EazyDiner Dining Privileges",
+            "Available",
+            "Not Available"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -641,7 +1120,24 @@
       "Dedicated HSBC Premier RM & Mastercard World Elite concierge"
     ],
     "get_this_card_if": [],
-    "faqs": []
+    "faqs": [
+      {
+        "question": "Is the HSBC Premier Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹12,000 + GST and the annual fee is ₹20,000 + GST."
+      },
+      {
+        "question": "What is the forex markup on the HSBC Premier Credit Card?",
+        "answer": "It's 0.99% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the HSBC Premier Credit Card give airport lounge access?",
+        "answer": "Yes. You get unlimited domestic visits, plus unlimited international visits."
+      },
+      {
+        "question": "How much can I earn with the HSBC Premier Credit Card?",
+        "answer": "You earn about 3% back in reward points on regular spends. Check the review above for categories that earn less or nothing."
+      }
+    ]
   },
   "ratings": {
     "overall_market_rating": 4.5,

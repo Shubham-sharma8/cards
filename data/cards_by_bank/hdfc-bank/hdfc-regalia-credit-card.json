@@ -71,7 +71,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -158,7 +160,249 @@
         "10,000 bonus reward points on spending Rs. 5 Lakh in an anniversary year",
         "Additional 5,000 reward points on spending Rs. 8 Lakh in an anniversary year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HDFC Bank Regalia Credit Card Review: Fees and Charges (2026)",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Status",
+            "Discontinued (Existing holders can continue to use/renew)."
+          ],
+          [
+            "Joining Fee",
+            "₹2500 + GST (Applicable only if re-issued; originally FYF/LTF for many)."
+          ],
+          [
+            "Welcome Benefit",
+            "2500 Reward Points (Credited only if the joining fee is paid)."
+          ],
+          [
+            "Annual Fee",
+            "₹2500 + GST"
+          ],
+          [
+            "Renewal Benefit",
+            "2500 Reward Points (Credited only upon payment of the annual fee)."
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹3 Lakhs spend in a membership year"
+          ],
+          [
+            "Issued On",
+            "Visa, Mastercard, and Rupay"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Retail Spends",
+            "4 RP per ₹150 ~1.3% return"
+          ],
+          [
+            "EasyEMI, Wallets, Rent, Property Management, Packers & Movers, Government transactions",
+            "No rewards"
+          ],
+          [
+            "Grocery Spends",
+            "Capped at 2000 RP per calendar month"
+          ],
+          [
+            "Insurance Spends",
+            "Capped at 2000 RP per calendar month"
+          ],
+          [
+            "Utility & Telecom",
+            "Capped at 2000 RP per calendar month"
+          ],
+          [
+            "Rent & Government",
+            "No Rewards"
+          ],
+          [
+            "Education",
+            "Points are earned only if paid directly via the institution’s portal. Third-party apps (CRED, etc.) earn zero rewards."
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-2",
+        "kind": "milestone_benefits",
+        "title": "Milestone Benefits",
+        "headers": [
+          "Spend Level",
+          "Base Points (1.33%)",
+          "Cumulative Milestone Bonus",
+          "Total Points",
+          "Total Value (@ ₹0.50)",
+          "Effective ROI"
+        ],
+        "rows": [
+          [
+            "₹5 Lakhs",
+            "13,333 RP",
+            "10,000 RP",
+            "23,333 RP",
+            "₹11,666",
+            "2.33%"
+          ],
+          [
+            "₹8 Lakhs",
+            "21,333 RP",
+            "15,000 RP",
+            "36,333 RP",
+            "₹18,166",
+            "2.27%"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-3",
+        "kind": "accelerated_partners",
+        "title": "HDFC Bank Regalia Credit Card: SmartBuy Reward Rates",
+        "headers": [
+          "Partner / Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "IGP",
+            "13.3%"
+          ],
+          [
+            "Hotels (SmartBuy)",
+            "13.3%"
+          ],
+          [
+            "Jockey",
+            "13.3%"
+          ],
+          [
+            "PharmEasy",
+            "13.3%"
+          ],
+          [
+            "Flights (SmartBuy)",
+            "6.6%"
+          ],
+          [
+            "RedBus",
+            "6.6%"
+          ],
+          [
+            "Instant Vouchers",
+            "6.6%"
+          ],
+          [
+            "Apple (Imagine / Tresor)",
+            "6.6%"
+          ],
+          [
+            "Nykaa",
+            "6.6%"
+          ],
+          [
+            "Myntra",
+            "6.6%"
+          ],
+          [
+            "Zoomcar",
+            "6.6%"
+          ],
+          [
+            "MakeMyTrip (Holidays)",
+            "6.6%"
+          ],
+          [
+            "Adani Duty Free",
+            "6.6%"
+          ],
+          [
+            "IRCTC",
+            "3.9%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Complimentary Airport Lounge Access",
+        "headers": [
+          "Feature",
+          "Domestic (India)",
+          "International"
+        ],
+        "rows": [
+          [
+            "Visits",
+            "2 per calendar quarter",
+            "6 per calendar year"
+          ],
+          [
+            "Coverage",
+            "Domestic + international terminals within India",
+            "Global lounges"
+          ],
+          [
+            "Access Method",
+            "Access via voucher generated on SmartBuy after meeting spend criteria",
+            "Visa/Mastercard: Priority PassRuPay: Direct card access"
+          ],
+          [
+            "Spend Requirement",
+            "₹1,00,000 in previous calendar quarter (mandatory)",
+            "No spend requirement"
+          ],
+          [
+            "Activation Process",
+            "Generate voucher via SmartBuy before visit",
+            "Not required (direct access / Priority Pass)"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-5",
+        "kind": "redemption_catalog",
+        "title": "Rewards Redemption",
+        "headers": [
+          "Redemption Option",
+          "HDFC Bank Regalia Credit Card (Value of 1 RP)"
+        ],
+        "rows": [
+          [
+            "Smartbuy (Flights/Hotels)",
+            "50 paise"
+          ],
+          [
+            "Airmiles – Intermiles, Singapore Airlines (Krisflyer), Club Vistara",
+            "0.5 Airmiles"
+          ],
+          [
+            "Rewards Catalogue (Including Vouchers)",
+            "Up to 35 paise"
+          ],
+          [
+            "Cashback",
+            "20 paise"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -906,6 +1150,11 @@
         "q": "How can I check my HDFC Regalia Credit Card statement online?",
         "a": "You can check your credit card statement online by visiting the official website of HDFC Bank. All you need to do is log in to your account and go to ‘Cards’ and select the ‘Enquire’ option to view your statement. Apart from this, you can also use HDFC mobile banking app to download your billed statement."
       }
+    ],
+    "program_updates_2026": [
+      "Important: Regalia Card Lifecycle Update The classic version of the HDFC Bank Regalia Credit Card has been discontinued for new applicants. The bank has transitioned its premium offering to Regalia Gold . Existing users: Your card continues to work as usual with all rewards and benefits until expiry.",
+      "The classic version of the HDFC Bank Regalia Credit Card has been discontinued for new applicants. The bank has transitioned its premium offering to Regalia Gold . Existing users: Your card continues to work as usual with all rewards and benefits until expiry.",
+      "The classic version of the HDFC Bank Regalia Credit Card has been discontinued for new applicants. The bank has transitioned its premium offering to Regalia Gold ."
     ]
   },
   "ratings": {
@@ -950,7 +1199,10 @@
     "optimization_tips": [
       "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
       "Track ₹400,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count.",
-      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport.",
+      "Prioritise 10X categories first to maximise returns",
+      "Use 5X categories after exhausting high-value spends",
+      "Plan transactions around the 4,000 monthly and 2,000 daily reward caps"
     ]
   },
   "devaluation_analysis": {

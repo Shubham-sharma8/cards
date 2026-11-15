@@ -1,14 +1,13 @@
 {
   "bank": "IDBI Bank",
   "bank_slug": "idbi-bank",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 7,
   "ltf_count": 4,
   "rupay_upi_count": 2,
   "domestic_lounge_count": 0,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 1,
   "with_image_count": 7,
   "official_lounge_programs": [
@@ -31,98 +30,70 @@
       "card_name": "IDBI Bank Imperium Platinum Credit Card",
       "card_slug": "idbi-bank-imperium-platinum-credit-card",
       "primary_category": "Fuel",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 499,
       "overall_rating": 3.44,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/idbi-bank/idbi-bank-imperium-platinum-credit-card.webp",
-      "json_file": "idbi-bank-imperium-platinum-credit-card.json",
-      "md_file": "idbi-bank-imperium-platinum-credit-card.md"
+      "json_path": "data/cards_by_bank/idbi-bank/idbi-bank-imperium-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/idbi-bank/idbi-bank-imperium-platinum-credit-card.md"
     },
     {
       "card_id": "idbi_bank_idbi_bank_aspire_platinum_credit_card",
       "card_name": "IDBI Bank Aspire Platinum Credit Card",
       "card_slug": "idbi-bank-aspire-platinum-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa",
       "annual_fee_inr": 0,
       "overall_rating": 3.43,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/idbi-bank/idbi-bank-aspire-platinum-credit-card.webp",
-      "json_file": "idbi-bank-aspire-platinum-credit-card.json",
-      "md_file": "idbi-bank-aspire-platinum-credit-card.md"
+      "json_path": "data/cards_by_bank/idbi-bank/idbi-bank-aspire-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/idbi-bank/idbi-bank-aspire-platinum-credit-card.md"
     },
     {
       "card_id": "idbi_bank_lumine_platinum_credit_card",
       "card_name": "IDBI Bank Lumine Platinum Credit Card",
       "card_slug": "idbi-bank-lumine-platinum-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 3.41,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/idbi-bank/idbi-bank-lumine-platinum-credit-card.webp",
-      "json_file": "idbi-bank-lumine-platinum-credit-card.json",
-      "md_file": "idbi-bank-lumine-platinum-credit-card.md"
-    },
-    {
-      "card_id": "idbi_bank_eclat_select_credit_card",
-      "card_name": "IDBI Bank Eclat Select Credit Card",
-      "card_slug": "idbi-bank-eclat-select-credit-card",
-      "primary_category": "Travel & Miles",
-      "card_network": "RuPay",
-      "annual_fee_inr": 0,
-      "overall_rating": 3.31,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/idbi-bank/idbi-bank-eclat-select-credit-card.webp",
-      "json_file": "idbi-bank-eclat-select-credit-card.json",
-      "md_file": "idbi-bank-eclat-select-credit-card.md"
+      "json_path": "data/cards_by_bank/idbi-bank/idbi-bank-lumine-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/idbi-bank/idbi-bank-lumine-platinum-credit-card.md"
     },
     {
       "card_id": "idbi_bank_royale_signature_credit_card",
       "card_name": "IDBI Royale Signature Credit Card",
       "card_slug": "idbi-royale-signature-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa",
       "annual_fee_inr": 0,
       "overall_rating": 3.31,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/idbi-bank/idbi-royale-signature-credit-card.webp",
-      "json_file": "idbi-royale-signature-credit-card.json",
-      "md_file": "idbi-royale-signature-credit-card.md"
+      "json_path": "data/cards_by_bank/idbi-bank/idbi-royale-signature-credit-card.json",
+      "md_path": "data/cards_by_bank/idbi-bank/idbi-royale-signature-credit-card.md"
     },
     {
-      "card_id": "idbi_bank_euphoria_world_credit_card",
-      "card_name": "IDBI Euphoria World Credit Card",
-      "card_slug": "idbi-euphoria-world-credit-card",
+      "card_id": "idbi_bank_eclat_select_credit_card",
+      "card_name": "IDBI Bank Eclat Select Credit Card",
+      "card_slug": "idbi-bank-eclat-select-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
-      "annual_fee_inr": 1499,
-      "overall_rating": 3.18,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/idbi-bank/idbi-euphoria-world-credit-card.webp",
-      "json_file": "idbi-euphoria-world-credit-card.json",
-      "md_file": "idbi-euphoria-world-credit-card.md"
+      "annual_fee_inr": 0,
+      "overall_rating": 3.31,
+      "json_path": "data/cards_by_bank/idbi-bank/idbi-bank-eclat-select-credit-card.json",
+      "md_path": "data/cards_by_bank/idbi-bank/idbi-bank-eclat-select-credit-card.md"
     },
     {
       "card_id": "idbi_bank_winnings_credit_card",
       "card_name": "IDBI Winnings Credit Card",
       "card_slug": "idbi-winnings-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 899,
       "overall_rating": 3.18,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/idbi-bank/idbi-winnings-credit-card.webp",
-      "json_file": "idbi-winnings-credit-card.json",
-      "md_file": "idbi-winnings-credit-card.md"
+      "json_path": "data/cards_by_bank/idbi-bank/idbi-winnings-credit-card.json",
+      "md_path": "data/cards_by_bank/idbi-bank/idbi-winnings-credit-card.md"
+    },
+    {
+      "card_id": "idbi_bank_euphoria_world_credit_card",
+      "card_name": "IDBI Euphoria World Credit Card",
+      "card_slug": "idbi-euphoria-world-credit-card",
+      "primary_category": "Travel & Miles",
+      "annual_fee_inr": 1499,
+      "overall_rating": 3.18,
+      "json_path": "data/cards_by_bank/idbi-bank/idbi-euphoria-world-credit-card.json",
+      "md_path": "data/cards_by_bank/idbi-bank/idbi-euphoria-world-credit-card.md"
     }
   ]
 }

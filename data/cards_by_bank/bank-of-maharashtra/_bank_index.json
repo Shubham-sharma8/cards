@@ -1,14 +1,13 @@
 {
   "bank": "Bank of Maharashtra",
   "bank_slug": "bank-of-maharashtra",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 2,
   "ltf_count": 0,
   "rupay_upi_count": 0,
   "domestic_lounge_count": 1,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 0,
   "with_image_count": 2,
   "official_lounge_programs": [],
@@ -18,28 +17,20 @@
       "card_name": "Bank of Maharashtra SBI Credit Card",
       "card_slug": "bank-of-maharashtra-sbi-credit-card",
       "primary_category": "Cashback",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 499,
       "overall_rating": 3.31,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bank-of-maharashtra/bank-of-maharashtra-sbi-credit-card.webp",
-      "json_file": "bank-of-maharashtra-sbi-credit-card.json",
-      "md_file": "bank-of-maharashtra-sbi-credit-card.md"
+      "json_path": "data/cards_by_bank/bank-of-maharashtra/bank-of-maharashtra-sbi-credit-card.json",
+      "md_path": "data/cards_by_bank/bank-of-maharashtra/bank-of-maharashtra-sbi-credit-card.md"
     },
     {
       "card_id": "bank_of_maharashtra_bank_of_maharashtra_sbi_platinum_credit_card",
       "card_name": "Bank of Maharashtra SBI Platinum Credit Card",
       "card_slug": "bank-of-maharashtra-sbi-platinum-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 2999,
       "overall_rating": 3.05,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bank-of-maharashtra/bank-of-maharashtra-sbi-platinum-credit-card.webp",
-      "json_file": "bank-of-maharashtra-sbi-platinum-credit-card.json",
-      "md_file": "bank-of-maharashtra-sbi-platinum-credit-card.md"
+      "json_path": "data/cards_by_bank/bank-of-maharashtra/bank-of-maharashtra-sbi-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/bank-of-maharashtra/bank-of-maharashtra-sbi-platinum-credit-card.md"
     }
   ]
 }

@@ -39,7 +39,9 @@
     "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
     "mitc_pdf_url": "https://www.sbicard.com/en/most-important-terms-and-conditions.page",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -136,7 +138,167 @@
         "Redeem reward points against cashback or vouchers at a value of 1 Reward Point = Rs. 1",
         "Yatra voucher worth Rs. 3,000 on spending Rs. 3 Lakh in a year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "PhonePe SBI Card SELECT BLACK at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹3 lakh in the previous card membership year"
+          ],
+          [
+            "Welcome Benefit",
+            "₹1500 PhonePe e-Gift Voucher on payment of the membership fee"
+          ],
+          [
+            "PhonePe Rewards",
+            "10% on eligible PhonePe spends"
+          ],
+          [
+            "PhonePe Reward Cap",
+            "1500 RP/month on non-insurance spends + 500 RP/month on insurance spends"
+          ],
+          [
+            "Online Rewards",
+            "5% on eligible online spends"
+          ],
+          [
+            "Online Reward Cap",
+            "1000 RP/month"
+          ],
+          [
+            "Other Spends",
+            "1% on eligible spends"
+          ],
+          [
+            "Other Spend Cap",
+            "2000 RP/month"
+          ],
+          [
+            "UPI Rewards",
+            "1% on eligible Scan & Pay transactions through PhonePe"
+          ],
+          [
+            "Reward Point Value",
+            "1 RP = ₹1"
+          ],
+          [
+            "Milestone Benefit",
+            "₹5000 Yatra voucher on spending ₹5 lakh in a card membership year"
+          ],
+          [
+            "Domestic Lounge Access",
+            "4 complimentary visits per year, maximum 1 per quarter"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% on fuel transactions of ₹500-₹4000 capped at ₹250 per statement cycle"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "₹1500 PhonePe e-Gift Voucher"
+          ],
+          [
+            "Annual Renewal Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Renewal Fee Waiver",
+            "Spend ₹3 lakh in the previous card membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "PhonePe – Recharges, Utilities, Bill Payments & Travel",
+            "10%",
+            "1500 RP"
+          ],
+          [
+            "PhonePe – Insurance",
+            "10%",
+            "500 RP"
+          ],
+          [
+            "Eligible Online Spends",
+            "5%",
+            "1000 RP"
+          ],
+          [
+            "Other Eligible Spends",
+            "1%",
+            "2000 RP"
+          ],
+          [
+            "Scan & Pay through PhonePe",
+            "1%",
+            "No separate cap stated"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Airport Lounge Access Benefit",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Lounge Access",
+            "4 complimentary visits per year"
+          ],
+          [
+            "Quarterly Limit",
+            "1 visit per quarter"
+          ],
+          [
+            "Spend Requirement",
+            "None"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -259,7 +421,34 @@
       {
         "q": "Can I redeem accumulated reward points against cashback through PhonePe SBI Card PURPLE?",
         "a": "Yes, you can redeem the accumulated reward points against cashback and vouchers at a value of 1 Reward Point = Rs. 1."
+      },
+      {
+        "question": "Is PhonePe SBI Card SELECT BLACK worth getting?",
+        "answer": "Yes, if you regularly use PhonePe for utility bills, recharges, travel or insurance. The 10% reward rate on eligible PhonePe spends is the main reason to get this card."
+      },
+      {
+        "question": "How much cashback does PhonePe SBI Card SELECT BLACK give?",
+        "answer": "You get 10% rewards on eligible PhonePe spends, 5% on eligible online spends and 1% on other eligible spends. 1 Reward Point is worth ₹1."
+      },
+      {
+        "question": "What is the monthly cashback limit on PhonePe SBI Card SELECT BLACK?",
+        "answer": "You can earn up to 1500 RP on eligible PhonePe spends, 500 RP on PhonePe insurance, 1000 RP on online spends and 2000 RP on other eligible spends every month."
+      },
+      {
+        "question": "Does PhonePe SBI Card SELECT BLACK give 10% cashback on utility bills?",
+        "answer": "Yes. Utility bill payments made through PhonePe earn 10% rewards, subject to the monthly cap. Utility payments made outside PhonePe do not earn rewards."
+      },
+      {
+        "question": "Does PhonePe SBI Card SELECT BLACK give rewards on insurance payments?",
+        "answer": "Yes. Insurance payments made through PhonePe earn 10% rewards, capped at 500 RP per month."
       }
+    ],
+    "program_updates_2026": [
+      "The reward rates still look very good, but the card is not as generous as it was at launch. SBI Card reduced the monthly reward caps from 1 July 2026, which means you now need to use the card more selectively. For someone who already uses PhonePe regularly for bills and payments, there is still decent value here.",
+      "The reward rates on the PhonePe SBI Card SELECT BLACK still look very good but the lower monthly caps have taken away some of the shine. From 1 July 2026, the 10% PhonePe reward bucket has also been split between insurance and other eligible PhonePe spends.",
+      "The sweet spot is much simpler. Use the card for the 10% PhonePe categories and 5% online spends. A monthly spend of ₹40,000 across these buckets can earn up to 3000 RP or ₹3000 back. That is the part of the card that still makes sense after the July 2026 changes.",
+      "Lower monthly reward caps from July 2026",
+      "The PhonePe SBI Card SELECT BLACK is still a good card, but the July 2026 changes have reduced its overall value."
     ]
   },
   "ratings": {
@@ -280,12 +469,18 @@
       "Good reward redemption ratio of 1:1",
       "Milestone benefits worth Rs. 3,000 via Yatra voucher",
       "Easily achievable annual fee waiver spending milestone",
-      "Welcome benefits worth the joining fee without any spend-based condition"
+      "Welcome benefits worth the joining fee without any spend-based condition",
+      "10% rewards on eligible PhonePe spends",
+      "5% rewards on eligible online spends"
     ],
     "cons": [
       "Monthly capping on accumulated reward points",
       "No travel & lifestyle related benefits, such as lounge access",
-      "No reward benefits on utility & insurance payments made outside PhonePe app"
+      "No reward benefits on utility & insurance payments made outside PhonePe app",
+      "Lower monthly reward caps from July 2026",
+      "5% online rewards capped at 1000 RP per month",
+      "Several common categories are excluded",
+      "Utilities and insurance earn rewards only through PhonePe"
     ],
     "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
     "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",
@@ -304,7 +499,10 @@
     ],
     "optimization_tips": [
       "Focus spends on flights & hotel bookings (3.0% effective return) before hitting monthly category caps.",
-      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead."
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "₹15,000 on PhonePe recharges, utilities, bill payments and travel for 1500 RP",
+      "₹5000 on insurance through PhonePe for 500 RP",
+      "₹20,000 on eligible online spends for 1000 RP"
     ]
   },
   "devaluation_analysis": {

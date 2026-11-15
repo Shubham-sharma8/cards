@@ -71,7 +71,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-15"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -128,11 +130,9 @@
     },
     "point_expiry": "2–3 years (issuer T&C)",
     "reward_earning_rules": [
-      "5 reward points per Rs. 200 spent across all categories including insurance, utilities and education",
-      "5X reward points on spends at Nykaa, Myntra, Marks & Spencer and Reliance Digital, capped at 5,000 points per month across all brands",
-      "Up to 10X reward points on SmartBuy spends (Capped at 3,000 points per month for brand voucher purchases on SmartBuy and capped at 4,000 points per month overall, including brand vouchers)",
-      "Complimentary Swiggy One Membership with dining offers on credit card",
-      "5X rewards on Nykaa, Myntra, Marks & Spencer, and Reliance Digital"
+      "5 Reward Points per ₹200 retail spend (May 2026 revision; single transactions below ₹200 earn 0 RP).",
+      "5X Reward Points at Nykaa, Myntra, Marks & Spencer and Reliance Digital; up to 10X via SmartBuy Hotels/IGP.",
+      "Boarding Edge Program (Jul 2026): Upload flight boarding pass on SmartBuy to unlock 2 arrival perks/quarter (₹750 Uber voucher, spa, buffet, or room upgrade)."
     ],
     "effective_return_pct_by_category": {
       "online_shopping_general": 1.33,
@@ -155,7 +155,8 @@
       "insurance": 2500
     },
     "monthly_capping_rules": [
-      "Base ~1.33% (4 RP/Rs.150 at Rs.0.50 SmartBuy travel); 5X on Myntra/Nykaa/M&S/Reliance Digital (cap 5,000 RP/mo); up to 10X SmartBuy (cap 4,000 RP/mo); Rent & Govt/Tax earn 0%."
+      "Base ~1.25% (5 RP per ₹200 retail spend; ₹0.50 SmartBuy travel); 5X on Myntra/Nykaa/M&S/Reliance Digital (cap 5,000 RP/mo); up to 10X SmartBuy (cap 4,000 RP/mo incl. Jul 2026 3,000 RP GyFTR voucher cap); Rent & Govt/Tax earn 0%.",
+      "Domestic lounge visits require ₹60,000 spend in previous calendar quarter (effective 1 July 2026)."
     ],
     "category_caveats": {
       "education_rent_govt": "0% on Rent and Government/Tax transactions per HDFC MITC.",
@@ -163,11 +164,66 @@
     },
     "excluded_categories": [],
     "transfer_partners": [
-      "Accor (2:1)",
-      "Singapore Airlines (2:1)",
-      "British Airways (2:1)",
-      "Club ITC (2:1)",
-      "Air India (2:1)"
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "3:1",
+        "notes": ""
+      },
+      {
+        "partner": "British Airways Avios",
+        "ratio": "3:1",
+        "notes": ""
+      },
+      {
+        "partner": "Etihad Guest",
+        "ratio": "3:1",
+        "notes": ""
+      },
+      {
+        "partner": "United MileagePlus",
+        "ratio": "3:1",
+        "notes": ""
+      },
+      {
+        "partner": "Air Canada Aeroplan",
+        "ratio": "3:1",
+        "notes": ""
+      },
+      {
+        "partner": "Singapore KrisFlyer",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Flying Blue (Air France / KLM)",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Turkish Miles&Smiles",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Accor Live Limitless (ALL)",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Marriott Bonvoy",
+        "ratio": "3:1",
+        "notes": ""
+      },
+      {
+        "partner": "Wyndham Rewards",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "IHG One Rewards",
+        "ratio": "2:1",
+        "notes": ""
+      }
     ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 2500,
@@ -181,16 +237,578 @@
         "3 complimentary domestic lounge visits per quarter on min. Rs. 60,000 spends in the last quarter",
         "Spend Rs. 1.5 Lakh in a quarter and get Rs. 1,500 vouchers from Marks and Spencer, Reliance Digital, Myntra or Marriott"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "lounge_access-0",
+        "kind": "lounge_access",
+        "title": "HDFC Bank Regalia Gold Credit Card Review 2026: Fees & Lounge",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Best For",
+            "Travel & SmartBuy users"
+          ],
+          [
+            "Annual Fee",
+            "₹2500 + GST"
+          ],
+          [
+            "Lounge Access",
+            "Domestic + International"
+          ],
+          [
+            "Reward Style",
+            "Travel focused"
+          ],
+          [
+            "Cashback Value",
+            "Weak"
+          ],
+          [
+            "Overall Value",
+            "Strong for frequent travelers"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-1",
+        "kind": "eligibility",
+        "title": "Who Should Get the HDFC Regalia Gold? (Eligibility)",
+        "headers": [
+          "Applicant Type",
+          "Requirement"
+        ],
+        "rows": [
+          [
+            "Salaried (private sector)",
+            "₹1.5 lakh monthly net income"
+          ],
+          [
+            "Salaried (government)",
+            "₹1 lakh monthly net income"
+          ],
+          [
+            "Self Employed / Business Owner",
+            "ITR above ₹18 lakh"
+          ],
+          [
+            "Existing HDFC Credit Card User",
+            "Usually easier upgrade approval especially if your current limit is ₹3 lakh+"
+          ],
+          [
+            "Card to Card Applicants",
+            "Existing ₹3 lakh+ limit with another bank"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "HDFC Regalia Gold Fees & Charges",
+        "headers": [
+          "Charge Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹2500 + GST (₹2,950) or Zero(First Year Free)"
+          ],
+          [
+            "Welcome Benefit",
+            "Swiggy One + MMT Black Gold on ₹1 lakh spend within 90 days"
+          ],
+          [
+            "Annual Fee",
+            "₹2500 + GST (₹2,950)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹4 lakh annual spends"
+          ],
+          [
+            "Forex Markup Fee",
+            "2% + GST"
+          ],
+          [
+            "Complimentary Memberships",
+            "Swiggy One + MMT Black Gold"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "HDFC Regalia Gold Rewards Program",
+        "headers": [
+          "Spend Type",
+          "Reward Rate",
+          "Approx Reward Rate"
+        ],
+        "rows": [
+          [
+            "Regular Retail Spends",
+            "5 RP per ₹200",
+            "~1.25%"
+          ],
+          [
+            "Partner Brand Spends",
+            "25 RP per ₹200",
+            "~6.25%"
+          ],
+          [
+            "SmartBuy Travel Bookings",
+            "Accelerated rewards",
+            "~6.25% – ~12.5%"
+          ],
+          [
+            "Reward Excluded Categories – Rent, wallet loads, EMI, govt spends",
+            "No reward points",
+            "NIL"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-4",
+        "kind": "reward_structure",
+        "title": "HDFC Regalia Gold Rewards Program",
+        "headers": [
+          "Reward Category",
+          "Monthly Limit"
+        ],
+        "rows": [
+          [
+            "Accelerated Brand Rewards",
+            "5000 RP"
+          ],
+          [
+            "Grocery Transactions",
+            "2000 RP"
+          ],
+          [
+            "Insurance Transactions",
+            "2000 RP"
+          ],
+          [
+            "SmartBuy Bonus Rewards",
+            "4000 RP"
+          ],
+          [
+            "Total Base Reward Cap",
+            "50,000 RP per statement cycle"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-5",
+        "kind": "milestone_benefits",
+        "title": "HDFC Regalia Gold Milestone Benefits",
+        "headers": [
+          "Spend Milestone",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "₹1.5 lakh spend in a calendar quarter",
+            "₹1,500 Myntra/Nykaa voucher"
+          ],
+          [
+            "₹5 lakh annual spend",
+            "₹5000 SmartBuy flight voucher"
+          ],
+          [
+            "₹7.5 lakh annual spend",
+            "Additional ₹5,000 SmartBuy flight voucher"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-6",
+        "kind": "redemption_catalog",
+        "title": "HDFC Regalia Gold Rewards Redemption",
+        "headers": [
+          "Redemption Option",
+          "Approx Value Per RP"
+        ],
+        "rows": [
+          [
+            "Gold Catalogue",
+            "₹0.65"
+          ],
+          [
+            "SmartBuy Flights & Hotels",
+            "₹0.50"
+          ],
+          [
+            "Gift Vouchers",
+            "Up to ₹0.35"
+          ],
+          [
+            "Airmiles Conversion",
+            "Up to 0.5 airline miles"
+          ],
+          [
+            "Cashback Statement Credit",
+            "Up to ₹0.20"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-7",
+        "kind": "accelerated_partners",
+        "title": "HDFC Regalia Gold SmartBuy Benefits",
+        "headers": [
+          "Merchant / Category",
+          "Accelerated Rewards",
+          "Approx. Reward Rate*"
+        ],
+        "rows": [
+          [
+            "IGP.com",
+            "10X Reward Points",
+            "12.5%"
+          ],
+          [
+            "Hotels",
+            "10X Reward Points",
+            "12.5%"
+          ],
+          [
+            "Jockey",
+            "10X Reward Points",
+            "12.5%"
+          ],
+          [
+            "PharmEasy",
+            "10X Reward Points",
+            "12.5%"
+          ],
+          [
+            "Flights",
+            "5X Reward Points",
+            "6.25%"
+          ],
+          [
+            "Buses (RedBus)",
+            "5X Reward Points",
+            "6.25%"
+          ],
+          [
+            "Instant Voucher",
+            "5X Reward Points",
+            "6.25%"
+          ],
+          [
+            "Apple Imagine Tresor",
+            "5X Reward Points",
+            "6.25%"
+          ],
+          [
+            "Myntra",
+            "5X Reward Points",
+            "6.25%"
+          ],
+          [
+            "Nykaa",
+            "5X Reward Points",
+            "6.25%"
+          ],
+          [
+            "Zoom Car",
+            "5X Reward Points",
+            "6.25%"
+          ],
+          [
+            "MMT Holiday Packages",
+            "5X Reward Points",
+            "6.25%"
+          ],
+          [
+            "Trains – ConfirmTicket / MMT Train",
+            "3X Reward Points",
+            "3.75%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-8",
+        "kind": "lounge_access",
+        "title": "Complimentary Airport Lounge Access",
+        "headers": [
+          "Lounge Benefit",
+          "Current Benefit",
+          "Spend Requirement"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "12 visits per year",
+            "₹60,000 spend in previous calendar quarter"
+          ],
+          [
+            "International Airport Lounges",
+            "6 visits per year",
+            "No spend condition"
+          ],
+          [
+            "International Lounge Program",
+            "Priority Pass",
+            "Complimentary"
+          ],
+          [
+            "Add-on Cardholders",
+            "Shared domestic access",
+            "Separate Priority Pass available"
+          ],
+          [
+            "Priority Pass Enrollment",
+            "Apply through HDFC’s Priority Pass form",
+            "Visits beyond the 6 free ones cost US$27 + GST each"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-9",
+        "kind": "fees_and_charges",
+        "title": "Additional Benefits and Charges",
+        "headers": [
+          "Benefit / Charge",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex Markup Fee",
+            "2% + GST"
+          ],
+          [
+            "Effective Forex Cost",
+            "~2.36%"
+          ],
+          [
+            "DCC Markup on INR Transactions Overseas",
+            "1.75% (from May 15, 2026)"
+          ],
+          [
+            "Card Reissue Fee",
+            "₹199 for lost, stolen or damaged cards (from May 15, 2026)"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-10",
+        "kind": "transfer_partners",
+        "title": "HDFC Regalia Gold Transfer Partners",
+        "headers": [
+          "Transfer Partner",
+          "Program Type",
+          "Transfer Ratio"
+        ],
+        "rows": [
+          [
+            "Air India Maharaja Club",
+            "Airline",
+            "3:1"
+          ],
+          [
+            "British Airways Avios",
+            "Airline",
+            "3:1"
+          ],
+          [
+            "Etihad Guest",
+            "Airline",
+            "3:1"
+          ],
+          [
+            "United MileagePlus",
+            "Airline",
+            "3:1"
+          ],
+          [
+            "Air Canada Aeroplan",
+            "Airline",
+            "3:1"
+          ],
+          [
+            "Singapore KrisFlyer",
+            "Airline",
+            "2:1"
+          ],
+          [
+            "Flying Blue (Air France / KLM)",
+            "Airline",
+            "2:1"
+          ],
+          [
+            "Turkish Miles&Smiles",
+            "Airline",
+            "2:1"
+          ],
+          [
+            "Accor Live Limitless (ALL)",
+            "Hotel",
+            "2:1"
+          ],
+          [
+            "Marriott Bonvoy",
+            "Hotel",
+            "3:1"
+          ],
+          [
+            "Wyndham Rewards",
+            "Hotel",
+            "2:1"
+          ],
+          [
+            "IHG One Rewards",
+            "Hotel",
+            "2:1"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-11",
+        "kind": "milestone_benefits",
+        "title": "Should You Upgrade to Regalia Gold?",
+        "headers": [
+          "Spend Milestone",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "₹1.5 lakh quarterly spend",
+            "₹1,500 Myntra/Nykaa voucher"
+          ],
+          [
+            "₹5 lakh annual spend",
+            "₹5000 SmartBuy flight voucher"
+          ],
+          [
+            "₹7.5 lakh annual spend",
+            "Additional ₹5000 flight voucher"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-12",
+        "kind": "other_table",
+        "title": "Who Should Upgrade?",
+        "headers": [
+          "User Type",
+          "Recommendation"
+        ],
+        "rows": [
+          [
+            "Low spender (< ₹2 lakh/year)",
+            "Stay with Lifetime Free card"
+          ],
+          [
+            "Frequent traveler",
+            "Upgrade"
+          ],
+          [
+            "High spender (> ₹4 lakh/year)",
+            "Upgrade"
+          ],
+          [
+            "SmartBuy user",
+            "Upgrade"
+          ],
+          [
+            "Cashback focused user",
+            "Skip"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-13",
+        "kind": "other_table",
+        "title": "HDFC Regalia vs Regalia Gold",
+        "headers": [
+          "Feature",
+          "Regalia",
+          "Regalia Gold"
+        ],
+        "rows": [
+          [
+            "Domestic Lounge Access",
+            "₹1 lakh quarterly spend",
+            "₹60,000 quarterly spend"
+          ],
+          [
+            "Reward Structure",
+            "Lower",
+            "Better"
+          ],
+          [
+            "SmartBuy Benefits",
+            "Limited",
+            "Better"
+          ],
+          [
+            "Milestone Benefits",
+            "Basic",
+            "Stronger"
+          ],
+          [
+            "Best For",
+            "Casual users",
+            "Frequent travelers"
+          ]
+        ]
+      },
+      {
+        "id": "hdfc-smartbuy-gyftr-caps-july-2026",
+        "kind": "accelerated_partners",
+        "title": "HDFC SmartBuy Monthly & GyFTR Voucher Caps (July 2026)",
+        "note": "Effective 1 July 2026, SmartBuy GyFTR & Woohoo brand vouchers carry a carved-out 3,000 Bonus RP/month sub-limit inside the overall SmartBuy monthly cap.",
+        "headers": [
+          "Card Variant",
+          "Overall SmartBuy Cap/Mo",
+          "GyFTR/Woohoo Cap",
+          "Max Spend for 3,000 Bonus RP"
+        ],
+        "rows": [
+          [
+            "HDFC Infinia / Infinia Metal",
+            "15,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month (5X)"
+          ],
+          [
+            "HDFC Diners Club Black Metal",
+            "10,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹45,000 / month (3X)"
+          ],
+          [
+            "HDFC BizBlack Metal",
+            "7,500–15,000 RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month"
+          ],
+          [
+            "HDFC Regalia Gold",
+            "4,000 RP (capped)",
+            "Sub-cap applies",
+            "5X via Instant Voucher / Myntra / Nykaa"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
       "visits_per_year": 12,
       "visits_per_quarter": 3,
-      "spend_criteria": "Rs. 60,000 spend in previous calendar quarter (2026 devaluation from spend-free)",
+      "spend_criteria": "₹60,000 spend in previous calendar quarter (effective 1 July 2026)",
       "add_on_allowed": true,
       "shared_limit": true,
-      "summary": "Up to 12 domestic lounge visits/yr subject to Rs. 60,000 quarterly spend requirement (updated 2026)"
+      "summary": "12 complimentary domestic lounge visits/year (unlocked on ₹60,000 spend in previous quarter since Jul 2026)"
     },
     "international": {
       "program": "Priority Pass",
@@ -880,9 +1498,9 @@
   "benefits_features_and_faqs": {
     "about_overview": "Solid core HDFC travel stepper toward Infinia, though HSBC TravelOne now beats it for pure miles & spend-free lounges.",
     "highlights": [
-      "5 reward points per Rs. 200 spent across all categories including insurance, utilities and education",
-      "5X reward points on spends at Nykaa, Myntra, Marks & Spencer and Reliance Digital, capped at 5,000 points per month across all brands",
-      "Up to 10X reward points on SmartBuy spends (Capped at 3,000 points per month for brand voucher purchases on SmartBuy and capped at 4,000 points per month overall, including brand vouchers)"
+      "New Boarding Edge Program (Jul 2026): 2 free arrival perks/quarter (₹750 Uber, spa, hotel buffet or room upgrade)",
+      "5 Reward Points per ₹200 retail spend + 5X at Myntra, Nykaa, Reliance Digital & M&S",
+      "12 Domestic (₹60k/qtr spend-linked from Jul 2026) + 6 International Priority Pass lounge visits/year"
     ],
     "welcome_benefit": null,
     "milestone_benefits": [
@@ -935,7 +1553,29 @@
       {
         "q": "What is the limit for HDFC Regalia Gold credit card?",
         "a": "The credit limit you get with your HDFC Regalia Credit Card depends on your income, current debts, maximum limit on your existing credit cards, and several other factors. You will get to know the limit offered to you only after you receive your credit card."
+      },
+      {
+        "question": "Is HDFC Regalia Gold worth it in 2026?",
+        "answer": "Yes, if you travel a few times a year and book through SmartBuy. The fee is waived at ₹4 lakh annual spend, and you get lounge access, milestone vouchers and a 1.25% base return at SmartBuy value."
+      },
+      {
+        "question": "Does Regalia Gold have lounge access?",
+        "answer": "Yes. You get 3 domestic lounge visits per calendar quarter if you spent ₹60,000 or more in the previous quarter, and 6 international Priority Pass visits a year with no spend condition."
+      },
+      {
+        "question": "What is the annual fee of Regalia Gold?",
+        "answer": "The joining and renewal fee is ₹2,500 + GST (₹2,950). It is waived if you spend ₹4 lakh in a year."
+      },
+      {
+        "question": "What is the reward rate of Regalia Gold?",
+        "answer": "The card earns 5 reward points per ₹200 on retail spends, which is a 1.25% return at ₹0.50 per point. Select partner brands earn 5X and SmartBuy hotels earn 10X."
       }
+    ],
+    "program_updates_2026": [
+      "1 July 2026 SmartBuy Update: GyFTR & Woohoo brand vouchers carry a separate 3,000 Bonus RP/month sub-cap (~₹30k spend on Infinia, ~₹45k on DCB Metal).",
+      "1 July 2026: Domestic lounge visits require ₹60,000 spend in the previous calendar quarter.",
+      "1 July 2026 Positive Addition: Boarding Edge Program gives 2 complimentary destination arrival perks per quarter (₹750 Uber / spa / buffet / room upgrade).",
+      "15 May 2026: Base reward changed from 4 RP/₹150 to 5 RP/₹200 (txns below ₹200 earn 0 pts)."
     ]
   },
   "ratings": {
@@ -960,12 +1600,18 @@
       "Rewards on generally-excluded categories like insurance, utilities and education",
       "Multiple redemption options with good redemption value",
       "Travel benefits like Priority Pass Membership, complimentary lounge access, flight vouchers, etc.",
-      "Vouchers worth Rs. 16,000 in a year as milestone benefits"
+      "Vouchers worth Rs. 16,000 in a year as milestone benefits",
+      "5X rewards on select partner brands and up to 10X on hotels and select merchants through SmartBuy",
+      "₹1,500 Myntra/Nykaa vouchers each quarter and up to ₹10,000 in flight vouchers a year on milestone spends"
     ],
     "cons": [
       "Accelerated earning is limited to select brands only",
       "Low redemption value on product/voucher purchase and cash conversion",
-      "High spending threshold to make the most of milestone benefits"
+      "High spending threshold to make the most of milestone benefits",
+      "Domestic lounge access needs ₹60,000 spend in the previous quarter",
+      "Base return is 1.25% at SmartBuy value",
+      "Rent, wallet loads, fuel, EMI and government spends earn no points",
+      "SmartBuy bonus points are capped at 4,000 RP a month"
     ],
     "best_for_whom": "HDFC Imperia/Preferred customers climbing toward Infinia/DCB who spend Rs. 4L–8L/year incl. Myntra/Nykaa/Reliance Digital/M&S",
     "not_ideal_for": "Low spenders wanting no-spend domestic lounge access (cut by Rs. 60k/qtr rule in 2026)",
@@ -984,14 +1630,20 @@
     ],
     "optimization_tips": [
       "Chase ₹1.5L Quarterly & ₹5L/₹7.5L Annual Milestones: Earn ₹1,500 Myntra/Nykaa/Reliance/Marriott vouchers each ₹1.5L quarter plus ₹5,000 Flight Vouchers at ₹5L & ₹7.5L annual spend alongside 5X partner retail multipliers.",
-      "Direct insurance earns 4 RP/₹150 capped at 2,000 RP/month; verify ₹60,000 preceding-quarter spend rules where applicable for domestic lounge access."
+      "Direct insurance earns 4 RP/₹150 capped at 2,000 RP/month; verify ₹60,000 preceding-quarter spend rules where applicable for domestic lounge access.",
+      "30-Minute Spa Session: Relax after your flight at 140+ premium wellness centers, including Meghavi Wellness, Tattva Spa, and Tathaapi Spa.",
+      "₹750 Uber Voucher: A unique code for your airport transfer to or from the airport in participating cities.",
+      "Complimentary Buffet: Enjoy a full meal at participating ITC Hotels, Welcomhotel, Mementos, Storii, or Fortune properties. (Pro-tip: You don’t even need to be a staying guest to use the buffet voucher!)",
+      "Login: Go to SmartBuy → Regalia Gold Benefits → Boarding Edge Program.",
+      "Upload: Click “Add Boarding Pass” and upload your document."
     ]
   },
   "devaluation_analysis": {
     "devaluation_frequency": "Medium",
     "devaluation_risk_score": 6,
-    "last_devalued_on": "2026",
+    "last_devalued_on": "2026-07-01",
     "devaluation_history": [
+      "May–July 2026: Base earn moved to 5 RP/₹200 (< ₹200 earns 0) and domestic lounges now require ₹60,000 quarterly spend; Boarding Edge arrival perks added.",
       "2026: Introduced Rs. 60,000/quarter spend requirement to unlock domestic lounge visits (previously spend-free)"
     ],
     "watch_out_vectors": [

@@ -827,6 +827,27 @@ export const BANK_HELP_DIRECTORY: BankHelpEntry[] = [
     escalationNote:
       "Covers BharatPe Unity RuPay & Unity FD-backed cards.",
   },
+  {
+    bank: "Equitas Small Finance Bank",
+    bank_slug: "equitas-small-finance-bank",
+    tierType: "SFB",
+    helplineTollFree: "1800 103 2977",
+    helplineAlt: "044 4004 8570",
+    cardBlockNumber: "1800 103 2977",
+    l1Email: "customerservice@equitas.bank.in",
+    l1PortalUrl: "https://www.equitas.bank.in/contact-us",
+    l1Sla: "7 working days",
+    l2NodalEmail: "nodalofficer@equitas.bank.in",
+    l2NodalLabel: "Ms. Ramya Yuvaraj — Nodal Officer (Equitas SFB)",
+    l2Sla: "7 working days",
+    l3PnoNameTitle: "Ms. Smitha Kumar — Principal Nodal Officer (Equitas Small Finance Bank, Chennai HQ)",
+    l3PnoEmail: "pno@equitas.bank.in",
+    governanceEmail: "unauthtrnx@equitas.bank.in",
+    pnoPhone: "044 4004 8570",
+    grievancePageUrl: "https://www.equitas.bank.in/grievance-redressal",
+    escalationNote:
+      "Covers Equitas PowerMiles (metal) and Equitas Selfe credit cards; escalate unauthorized txns via unauthtrnx@equitas.bank.in.",
+  },
 ];
 
 const BY_SLUG = new Map<string, BankHelpEntry>(

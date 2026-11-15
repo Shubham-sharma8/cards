@@ -64,7 +64,9 @@
         "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -155,7 +157,150 @@
       "fee_waiver_spend_inr": 100000,
       "monthly_spend_for_waiver_inr": 8333,
       "milestone_slabs": []
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Zero (First Year Free)"
+          ],
+          [
+            "Welcome Benefit",
+            "499 NeuCoins"
+          ],
+          [
+            "Annual Fee",
+            "Rs 499+GST or LTF"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend Rs 1 Lakh in a membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Purchase Category",
+          "Tata Neu Plus HDFC Bank Credit Card"
+        ],
+        "rows": [
+          [
+            "Tata Neu and partner brands on app",
+            "2%"
+          ],
+          [
+            "Air India mobile and app bookings",
+            "2%"
+          ],
+          [
+            "Utility Bill Payments and Recharges with Tata Pay",
+            "2%"
+          ],
+          [
+            "All other spends (including merchant EMI)",
+            "1%"
+          ],
+          [
+            "UPI spends on Tata Neu app",
+            "1%"
+          ],
+          [
+            "UPI spends on other apps",
+            "0.25%"
+          ],
+          [
+            "Wallet, Gift Vouchers, Fuel, Rent, and Government Transactions",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Fair Usage Policy: Caps on Tata Brand Merchants Rewards",
+        "headers": [
+          "Brand",
+          "Max Monthly Spends eligible for 2% NeuCoins",
+          "Max Annual Spends eligible for 2% NeuCoins"
+        ],
+        "rows": [
+          [
+            "Croma",
+            "Rs 3 Lakh",
+            "Rs 9 Lakh"
+          ],
+          [
+            "Tata CLiQ, Westside",
+            "Rs 2 Lakh",
+            "Rs 12 Lakh"
+          ],
+          [
+            "IHCL, Air India Express, Air India",
+            "Rs 4 Lakh",
+            "Rs 15 Lakh"
+          ],
+          [
+            "1MG, Cult, Tata Play",
+            "Rs 1 Lakh",
+            "Rs 7.5 Lakh"
+          ],
+          [
+            "Bill Payments – Tata Pay",
+            "Rs 1 Lakh",
+            "Rs 6 Lakh"
+          ],
+          [
+            "Big Basket",
+            "Rs 50000",
+            "Rs 6 Lakh"
+          ],
+          [
+            "Titan, Tanishq",
+            "Rs 3 Lakh",
+            "Rs 9 Lakh"
+          ],
+          [
+            "Food Delivery via Tata Neu app",
+            "Rs 50,000",
+            "Rs 6 Lakh"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Complimentary Airport Lounge Access",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Airport Lounge Access in India",
+            "1 visit/quarter"
+          ],
+          [
+            "Airport Lounge Access outside India",
+            "Not Available"
+          ],
+          [
+            "Spends Required for Airport Lounge Access",
+            "None"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {

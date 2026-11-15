@@ -67,7 +67,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -166,7 +168,336 @@
         "10,000 bonus Reward Points on Rs. 12,00,000 annual spend",
         "Annual fee waived @ Rs. 8,00,000 spend"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HSBC TravelOne Credit Card Key Highlights",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹4,999 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹4,999 + GST"
+          ],
+          [
+            "Fee Waiver",
+            "Spend ₹8 lakh in a card membership year"
+          ],
+          [
+            "Regular Rewards",
+            "2 Reward Points per ₹100"
+          ],
+          [
+            "Travel Rewards",
+            "4 Reward Points per ₹100"
+          ],
+          [
+            "Forex Rewards",
+            "4 Reward Points per ₹100"
+          ],
+          [
+            "Milestone Benefit",
+            "10,000 bonus Reward Points on spending over ₹12 lakh"
+          ],
+          [
+            "Transfer Partners",
+            "20+ airline & hotel partners"
+          ],
+          [
+            "Transfer Ratio",
+            "Up to 1:1, depending on partner"
+          ],
+          [
+            "Domestic Lounge Access",
+            "6 visits per year"
+          ],
+          [
+            "International Lounge Access",
+            "4 visits per year"
+          ],
+          [
+            "Golf",
+            "4 rounds + 12 lessons per year"
+          ],
+          [
+            "Reward Point Validity",
+            "3 years"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "HSBC TravelOne Credit Card Fees & Benefits",
+        "headers": [
+          "Fee / Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹4,999"
+          ],
+          [
+            "Annual Fee",
+            "₹4,999"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend more than ₹8 lakh annually"
+          ],
+          [
+            "Welcome Cashback",
+            "₹1,000"
+          ],
+          [
+            "PostCard Voucher",
+            "₹3,000"
+          ],
+          [
+            "EazyDiner Prime",
+            "3-month complimentary membership"
+          ],
+          [
+            "Welcome Offer Requirement",
+            "Log in to the HSBC India Mobile Banking app and spend ₹25,000 within the first 30 days of opening the card account"
+          ],
+          [
+            "Online Application Offer",
+            "₹250 Amazon eGift Voucher on eligible online applications completed with Video KYC"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "HSBC TravelOne Credit Card Reward Points",
+        "headers": [
+          "Spend Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Flights",
+            "4 RP per ₹100"
+          ],
+          [
+            "Travel Aggregators",
+            "4 RP per ₹100"
+          ],
+          [
+            "Foreign Currency Spends",
+            "4 RP per ₹100"
+          ],
+          [
+            "Other Eligible Spends",
+            "2 RP per ₹100"
+          ],
+          [
+            "Accelerated Rewards Cap",
+            "50,000 RP per month"
+          ],
+          [
+            "Spends After Accelerated Cap",
+            "2 RP per ₹100"
+          ],
+          [
+            "Reward Exclusions",
+            "Education, government payments, tax, utilities, insurance, fuel, jewellery, e-wallet loads, financial & non-financial institutions, money transfers, real estate agents & managers, and bail & bond payments earn no Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "HSBC TravelOne Milestone Benefits",
+        "headers": [
+          "Annual Spend",
+          "Milestone Benefit"
+        ],
+        "rows": [
+          [
+            "More than ₹12 lakh",
+            "10,000 bonus Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "Travel Savings with HSBC TravelOne",
+        "headers": [
+          "Platform",
+          "TravelOne Offer",
+          "Limit / Conditions"
+        ],
+        "rows": [
+          [
+            "Yatra",
+            "15% off domestic & international flights and hotels",
+            "As per applicable Yatra offer terms"
+          ],
+          [
+            "EaseMyTrip",
+            "15% off domestic & international flights and hotels",
+            "As per applicable EaseMyTrip offer terms"
+          ],
+          [
+            "Paytm Travel",
+            "15% off domestic & international flights",
+            "As per applicable Paytm offer terms"
+          ],
+          [
+            "Cleartrip",
+            "15% off domestic & international flights",
+            "As per applicable Cleartrip offer terms"
+          ],
+          [
+            "Goibibo",
+            "Up to 15% off flights, hotels and homestays",
+            "Discount varies by booking category"
+          ],
+          [
+            "StayVista",
+            "11% off hotel bookings",
+            "Up to ₹3,000 per booking; maximum 2 bookings per card per year"
+          ],
+          [
+            "AdaniOne Duty Free",
+            "20% off",
+            "Up to ₹3,000 on a minimum spend of ₹8,000; once per card per year"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-5",
+        "kind": "accelerated_partners",
+        "title": "HSBC Accelerated Rewards Travel Portal",
+        "headers": [
+          "Booking",
+          "Rewards",
+          "Effective Earn Rate",
+          "Return at ₹1/RP"
+        ],
+        "rows": [
+          [
+            "Hotels",
+            "Up to 6X",
+            "24 RP per ₹100",
+            "~24%"
+          ],
+          [
+            "Flights",
+            "Up to 4X",
+            "16 RP per ₹100",
+            "~16%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-6",
+        "kind": "lounge_access",
+        "title": "HSBC TravelOne Airport Lounge Access",
+        "headers": [
+          "Lounge Access",
+          "Complimentary Visits",
+          "Network"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "6 per year",
+            "Mastercard"
+          ],
+          [
+            "International Airport Lounges",
+            "4 per year",
+            "LoungeKey"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-7",
+        "kind": "other_table",
+        "title": "Dining, Movies & Events Offers",
+        "headers": [
+          "Benefit",
+          "Offer",
+          "Promo Code",
+          "Usage"
+        ],
+        "rows": [
+          [
+            "Events",
+            "10% off up to ₹1,000",
+            "HSBCTOEVENTS",
+            "Once per month"
+          ],
+          [
+            "Dining",
+            "10% off up to ₹1,000",
+            "HSBCTODINING",
+            "Once per month"
+          ],
+          [
+            "Movies",
+            "Buy 1 Get 1, up to ₹200 on the second ticket",
+            "HSBCTOMOV",
+            "Twice per month"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-8",
+        "kind": "other_table",
+        "title": "HSBC TravelOne vs Axis Atlas",
+        "headers": [
+          "Feature",
+          "HSBC TravelOne",
+          "Axis Atlas"
+        ],
+        "rows": [
+          [
+            "Annual Fee",
+            "₹4999 + GST",
+            "₹5000 + GST"
+          ],
+          [
+            "Base Reward Rate",
+            "2–4 RP/₹100",
+            "2–5 EDGE Miles/₹100"
+          ],
+          [
+            "Transfer Partners",
+            "16 Airlines + 5 Hotels",
+            "20 Airlines + 5 Hotels"
+          ],
+          [
+            "Transfer Cap",
+            "Unlimited",
+            "Capped per year"
+          ],
+          [
+            "Milestone Bonus",
+            "10,000 RP on ₹12L spend",
+            "Tier-based EDGE Miles"
+          ],
+          [
+            "Lounge Access",
+            "10 (6 domestic + 4 internationall)",
+            "8–18 (based on tier)"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -674,6 +1005,22 @@
       {
         "q": "What are the hotel partners for HSBC TravelOne Credit Card reward points redemption?",
         "a": "You can convert your accrued reward points into hotel loyalty points of Accor, IHG® Hotels & Resorts, Marriott International, and Wyndham Hotels & Resorts in the ratio of 1:1. You can also redeem them for hotel points at Shangri-La where 5 reward points = 1 hotel loyalty point."
+      },
+      {
+        "question": "Is the HSBC TravelOne Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹4,999 + GST and the annual fee is ₹4,999 + GST. The annual fee is waived when you spend ₹8 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the HSBC TravelOne Credit Card?",
+        "answer": "It's 3.5% plus GST on spends in a foreign currency. That's the usual rate, so it isn't the best card to use abroad."
+      },
+      {
+        "question": "Does the HSBC TravelOne Credit Card give airport lounge access?",
+        "answer": "Yes. You get 6 domestic visits a year, plus 4 international visits a year."
+      },
+      {
+        "question": "How much can I earn with the HSBC TravelOne Credit Card?",
+        "answer": "You earn about 2% back in reward points on regular spends, and up to 4% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
     ]
   },

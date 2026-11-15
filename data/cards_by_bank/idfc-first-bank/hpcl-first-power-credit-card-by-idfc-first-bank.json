@@ -39,7 +39,9 @@
     "bank_url": "https://www.idfcfirst.bank.in/credit-card",
     "mitc_pdf_url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -141,7 +143,222 @@
         "2.5% savings On Grocery & Utility Spends: 15 reward points per Rs. 150 spent, up to 400 rewards per statement cycle",
         "26.67% bonus reward points: On hotel bookings made via IDFC FIRST Bank Mobile App"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IDFC FIRST Power Credit Card at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "HPCL fuel credit card"
+          ],
+          [
+            "Joining Fee",
+            "₹199 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹199 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Annual fee reversed on spends of ₹50,000 or more in a year"
+          ],
+          [
+            "Best For",
+            "Regular HPCL fuel spends"
+          ],
+          [
+            "Fuel Rewards",
+            "Higher rewards on eligible HPCL fuel spends"
+          ],
+          [
+            "Other Accelerated Rewards",
+            "Groceries and utility payments"
+          ],
+          [
+            "Welcome Benefit",
+            "₹250 voucher on eligible HPCL fuel spend"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "Available on eligible HPCL fuel transactions"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "IIDFC FIRST Power Credit Card Fees & Welcome Benefits",
+        "headers": [
+          "Fee / Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹199 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹199 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹50,000 or more in a year"
+          ],
+          [
+            "Welcome Benefit",
+            "₹250 voucher"
+          ],
+          [
+            "Welcome Benefit Requirement",
+            "Make the first eligible HPCL fuel transaction of ₹250 or more within 60 days of card setup"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "IDFC FIRST Power Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Effective Return",
+          "Cap"
+        ],
+        "rows": [
+          [
+            "HPCL Fuel",
+            "21X Reward Points",
+            "3.5%",
+            "₹5,000 per statement cycle"
+          ],
+          [
+            "Groceries & Utility Bills",
+            "15X Reward Points",
+            "2.5%",
+            "₹4,000 per statement cycle"
+          ],
+          [
+            "IDFC FIRST FASTag Recharge",
+            "15X Reward Points",
+            "2.5%",
+            "₹2,000 per statement cycle"
+          ],
+          [
+            "Other Eligible Retail Spends",
+            "2X Reward Points",
+            "0.33%",
+            "No cap"
+          ],
+          [
+            "Eligible UPI Spends",
+            "2X Reward Points",
+            "0.33%",
+            "No cap"
+          ],
+          [
+            "Insurance, non-HPCL fuel",
+            "No Rewards",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Travel & Shop Rewards",
+        "headers": [
+          "Booking",
+          "Bonus Reward Points",
+          "Base Earn",
+          "Total Reward Points",
+          "Value at ₹0.25/RP"
+        ],
+        "rows": [
+          [
+            "Hotels",
+            "26.7% RP",
+            "Up to 1.3% RP",
+            "Up to 28% RP",
+            "Up to 7%"
+          ],
+          [
+            "Flights",
+            "13.3% RP",
+            "Up to 1.3% RP",
+            "Up to 14.7% RP",
+            "Up to 3.68%"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "IDFC First Bank HPCL Power Credit Card Rewards Redemption",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Reward Point value",
+            "₹0.25 per RP"
+          ],
+          [
+            "Maximum points usage on Travel & Shop",
+            "Up to 70% of booking value"
+          ],
+          [
+            "Monthly redemption cap",
+            "1,00,000 RP"
+          ],
+          [
+            "Annual redemption cap",
+            "2,00,000 RP"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-5",
+        "kind": "other_table",
+        "title": "Forex Markup",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex markup",
+            "0%"
+          ],
+          [
+            "Reward rate",
+            "2 Reward Points per ₹150"
+          ],
+          [
+            "Reward value",
+            "1 RP = ₹0.25"
+          ],
+          [
+            "Effective return",
+            "0.33%"
+          ],
+          [
+            "Applicable spends",
+            "Eligible international transactions"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -238,6 +455,30 @@
       {
         "q": "Can I pay rent using this card?",
         "a": "Yes you can pay rent using the IDFC FIRST HPCL Power Card, but a fee of 1% of the transaction value is applicable on such transactions. This is subject to a minimum of Rs. 249 per transaction."
+      },
+      {
+        "question": "Is the IDFC FIRST Power Credit Card worth it?",
+        "answer": "It can be a good pick if you refuel at HPCL regularly and can use the grocery, utility and FASTag bonus categories."
+      },
+      {
+        "question": "How much can you earn on HPCL fuel spends?",
+        "answer": "You can get up to 5% value on eligible HPCL fuel spends. This includes 3.5% through Reward Points and 1.5% through HP Pay Happy Coins."
+      },
+      {
+        "question": "What is the annual fee for the IDFC FIRST Power Credit Card?",
+        "answer": "The joining and annual fee is ₹199 + GST. The annual fee is reversed on eligible spends of ₹50,000 or more in a year."
+      },
+      {
+        "question": "Does the card offer a fuel surcharge waiver?",
+        "answer": "No. There is no separate fuel surcharge waiver. The fuel benefit comes from Reward Points and HP Pay Happy Coins."
+      },
+      {
+        "question": "Do all HPCL outlets qualify for the 3.5% fuel reward?",
+        "answer": "No. Direct card payments qualify only at authorised HPCL outlets mapped with eligible merchant IDs. Using HP Pay can remove this MID dependency."
+      },
+      {
+        "question": "What is one IDFC FIRST Reward Point worth?",
+        "answer": "One Reward Point is worth ₹0.25."
       }
     ]
   },
@@ -261,11 +502,17 @@
       "Achievable fee waiver criteria",
       "Up to 5% savings of HPCL fuel",
       "Additional accelerated benefits on spends like travel, grocery, utilities and FasTag",
-      "Activation benefits worth more than the joining fee"
+      "Activation benefits worth more than the joining fee",
+      "Good rewards if you regularly fill fuel at HPCL",
+      "2.5% back on groceries, utilities and FASTag"
     ],
     "cons": [
       "5% savings on fuel include 1.5% return via HP Pay App (offered as Happy coins)- this can be complicated for some users",
-      "Minimum spend-limitations on reward earning"
+      "Minimum spend-limitations on reward earning",
+      "Fuel benefits are useful only for HPCL users",
+      "Low caps on grocery, utility and FASTag rewards",
+      "Just 0.33% back on regular and UPI spends",
+      "No fuel surcharge waiver"
     ],
     "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
     "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",

@@ -60,7 +60,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-06"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -156,7 +158,201 @@
         "1 reward point per Rs. 150 on UPI spends below Rs. 2,000",
         "Gift vouchers worth Rs. 500 on spending Rs. 5,000 within 30 days of card generation"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IDFC FIRST Wealth Credit Card At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Annual Fee",
+            "Nil"
+          ],
+          [
+            "Best For",
+            "Travel Benefits"
+          ],
+          [
+            "Forex Markup",
+            "Zero"
+          ],
+          [
+            "Lounge Access",
+            "Yes"
+          ],
+          [
+            "Railway Lounge",
+            "Yes"
+          ],
+          [
+            "Reward Rate",
+            "Up to 1.25%"
+          ],
+          [
+            "Network",
+            "Visa Infinite"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Nil"
+          ],
+          [
+            "Annual Fee",
+            "Nil (Lifetime Free)"
+          ],
+          [
+            "Card Variant",
+            "Visa Infinite"
+          ],
+          [
+            "Welcome Benefit",
+            "₹500 voucher on spending ₹5000 within 30 days of card generation"
+          ],
+          [
+            "Additional Welcome Benefit",
+            "5% cashback up to ₹1000 on the first EMI transaction within 30 days of card generation"
+          ],
+          [
+            "Forex Markup",
+            "Zero"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "IDFC FIRST Wealth Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Approx. Return"
+        ],
+        "rows": [
+          [
+            "Dining, Travel, International & Birthday Spends",
+            "10 RP per ₹200",
+            "~1.25%"
+          ],
+          [
+            "Regular Online & Offline Spends",
+            "3 RP per ₹200",
+            "~0.38%"
+          ],
+          [
+            "Insurance & Utility Payments",
+            "1 RP per ₹200",
+            "~0.13%"
+          ],
+          [
+            "Rent, Education, Wallet & Government Payments",
+            "3 RP per ₹200",
+            "~0.38%"
+          ],
+          [
+            "Fuel & EMI Transactions",
+            "No Rewards",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "IDFC FIRST Wealth Credit Card Lounge Access",
+        "headers": [
+          "Benefit",
+          "Access"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge",
+            "1 visit per quarter"
+          ],
+          [
+            "International Airport Lounge",
+            "1 visit per quarter"
+          ],
+          [
+            "Railway Lounge",
+            "4 visits per quarter"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "IDFC FIRST Wealth Credit Card Movie Offer",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Offer Type",
+            "Buy One Get One (BOGO)"
+          ],
+          [
+            "Discount",
+            "Up to ₹250 on the second ticket"
+          ],
+          [
+            "Frequency",
+            "Twice per calendar month"
+          ],
+          [
+            "Platform",
+            "District by Zomato"
+          ],
+          [
+            "Spend Requirement",
+            "₹20,000 in the current calendar month to unlock the benefit in the next month"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-5",
+        "kind": "redemption_catalog",
+        "title": "Reward Points Redemption",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Reward Point Value",
+            "Up to ₹0.25 per point"
+          ],
+          [
+            "Redemption Options",
+            "Purchases, travel bookings, gift vouchers, and more"
+          ],
+          [
+            "Reward Point Validity",
+            "24 months from the statement date in which they are earned"
+          ],
+          [
+            "Redemption Fee",
+            "₹99 + GST per redemption request"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -880,6 +1076,11 @@
         "q": "How is IDFC FIRST Wealth Credit Card different from IDFC FIRST Millennia and IDFC FIRST Select?",
         "a": "The reward rate on all 3 cards is the same. However, they differ in terms of lounge access, movie and other lifestyle benefits."
       }
+    ],
+    "program_updates_2026": [
+      "Over the years, the card has seen several devaluations. Rewards have been reduced and some benefits are not as generous as before. As a result, it no longer feels like a true premium credit card.",
+      "The card delivers around 0.38% returns on regular spending and up to 1.25% returns on accelerated categories. While the rewards program has seen multiple devaluations, the card still offers decent value considering it remains lifetime free.",
+      "The IDFC FIRST Wealth Credit Card is no longer the standout lifetime free card it once was. Multiple devaluations have reduced its reward rate, and regular spending now earns relatively low returns."
     ]
   },
   "ratings": {
@@ -901,11 +1102,18 @@
       "Lifetime free credit card with up to Rs. 1,500 worth of joining benefits",
       "10X reward points on dining, travel & international spends",
       "Zero forex mark-up fee",
-      "Complimentary lifestyle benefits & services like golf rounds, dining & movie discounts, airport assistance, & worldwide lounge access"
+      "Complimentary lifestyle benefits & services like golf rounds, dining & movie discounts, airport assistance, & worldwide lounge access",
+      "Domestic and international airport lounge access",
+      "4 complimentary railway lounge visits every quarter",
+      "Zero forex markup for international spending"
     ],
     "cons": [
       "Low reward redemption value of Rs. 0.25 and limited redemption options",
-      "Lounge access is subject to meeting monthly spending thresholds"
+      "Lounge access is subject to meeting monthly spending thresholds",
+      "Reward rates have been reduced significantly",
+      "Regular spending earns only around 0.38% rewards",
+      "Lounge access requires ₹20,000 monthly spending",
+      "Movie benefits require monthly spending to unlock"
     ],
     "best_for_whom": "International travelers wanting LTF + 0% forex WITH rewards + low APR + roadside assistance",
     "not_ideal_for": "Occasional flyers unwilling to spend Rs. 20k/mo to unlock lounges",

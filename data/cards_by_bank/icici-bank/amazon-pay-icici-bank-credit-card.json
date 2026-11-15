@@ -38,7 +38,9 @@
     "bank_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
     "mitc_pdf_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/personal/cards/mitc_cc.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -131,7 +133,90 @@
       "milestone_slabs": [
         "None (Lifetime Free without spend targets)"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Amazon Pay ICICI Credit Card Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "NIL (Lifetime Free)"
+          ],
+          [
+            "Annual Fee",
+            "NIL (Lifetime Free)"
+          ],
+          [
+            "Welcome Benefits*",
+            "Rewards worth up to ₹2500 for eligible applicants, plus partner benefits such as EazyDiner membership (subject to ongoing offers)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Amazon Pay ICICI Bank Credit Card Rewards & Cashback",
+        "headers": [
+          "Spend Category",
+          "Cashback Rate"
+        ],
+        "rows": [
+          [
+            "Amazon India Purchases",
+            "5% for Prime members 3% for non-Prime members"
+          ],
+          [
+            "Flights & Hotels Booked via Amazon Pay",
+            "5% for Prime members 3% for non-Prime members"
+          ],
+          [
+            "Eligible Amazon Pay Partner Merchants",
+            "2%"
+          ],
+          [
+            "Select Amazon Pay Categories (Bill Payments, Recharges, Gift Cards, etc.)",
+            "2%"
+          ],
+          [
+            "All Other Eligible Online & Offline Spends",
+            "1%"
+          ],
+          [
+            "Fuel Transactions",
+            "No Cashback (1% fuel surcharge waiver available)"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Amazon Pay ICICI Bank Credit Card Fuel Surcharge Waiver",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1%"
+          ],
+          [
+            "Eligible Transaction Size",
+            "₹400 to ₹4000"
+          ],
+          [
+            "Maximum Waiver",
+            "₹400 per statement cycle"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -207,7 +292,44 @@
       "Fast-track digital issuance via Amazon app for existing ICICI/CIBIL users"
     ],
     "get_this_card_if": [],
-    "faqs": []
+    "faqs": [
+      {
+        "question": "Is the Amazon Pay ICICI Bank Credit Card lifetime free?",
+        "answer": "Yes, the Amazon Pay ICICI Bank Credit Card is a lifetime free credit card. There is no joining fee, annual fee, or renewal fee required to keep the card active."
+      },
+      {
+        "question": "What cashback does the Amazon Pay ICICI Bank Credit Card offer?",
+        "answer": "Amazon Prime members earn 5% cashback on eligible Amazon India purchases and travel bookings, while non-Prime members earn 3% cashback. The card also offers 2% cashback at Amazon Pay partner merchants and 1% cashback on most other online and offline transactions."
+      },
+      {
+        "question": "Is there a cashback limit on the Amazon Pay ICICI Bank Credit Card?",
+        "answer": "No. The Amazon Pay ICICI Bank Credit Card offers unlimited cashback. There is no monthly or annual cap on the total amount of cashback you can earn."
+      },
+      {
+        "question": "How does cashback redemption work?",
+        "answer": "Cashback earned during a billing cycle is automatically calculated and credited as Amazon Pay balance to your linked Amazon account within 2 to 3 days after your monthly credit card statement is generated. No manual redemption steps or fees apply."
+      },
+      {
+        "question": "Can I convert Amazon Pay ICICI cashback into statement credit?",
+        "answer": "No. The earnings are strictly credited as Amazon Pay balance. They cannot be used as a direct statement credit to pay off your credit card bill, nor can they be transferred to a bank account or withdrawn as cash."
+      },
+      {
+        "question": "Do fuel transactions earn cashback on the Amazon Pay ICICI Bank Credit Card?",
+        "answer": "No, fuel transactions do not earn cashback rewards. However, you receive a 1% fuel surcharge waiver on transactions ranging between ₹400 and ₹4,000, capped up to ₹400 per statement cycle."
+      },
+      {
+        "question": "Do I need an Amazon Prime membership to apply for the card?",
+        "answer": "No. Both Prime and non-Prime users are fully eligible to apply for this card. However, your account tier determines your shopping cashback rate (5% for Prime users vs. 3% for non-Prime users)."
+      },
+      {
+        "question": "Is the Amazon Pay ICICI Bank Credit Card worth it?",
+        "answer": "For frequent Amazon shoppers—especially Prime members—it stands as one of the absolute best lifetime free cashback cards available. The continuous 5% return structure without caps or maintenance milestone requirements offers excellent long-term value for everyday domestic utility and retail usage."
+      },
+      {
+        "question": "Which is better: Amazon Pay ICICI Bank Credit Card or Flipkart Axis Bank Credit Card?",
+        "answer": "The Amazon Pay ICICI card is superior if you want a true lifetime free card without spending milestone targets and shop heavily on Amazon. The Flipkart Axis Bank card is better if your spending is heavily weighted toward Flipkart and you prefer rewards to clear directly against your monthly card statement rather than a wallet balance."
+      }
+    ]
   },
   "ratings": {
     "overall_market_rating": 4.56,

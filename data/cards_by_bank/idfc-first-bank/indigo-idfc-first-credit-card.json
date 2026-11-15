@@ -40,7 +40,9 @@
     "bank_url": "https://www.idfcfirst.bank.in/credit-card",
     "mitc_pdf_url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -134,7 +136,59 @@
       "milestone_slabs": [
         "Welcome Benefit: Early activation bonus as a voucher of 3,000 BluChips on spending more than Rs. 1 lakh in the 1st 90 days"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees and Charges",
+        "headers": [
+          "Category",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹4999 + GST ~₹5898"
+          ],
+          [
+            "Annual Fee",
+            "₹4999 + GST ~₹5898"
+          ],
+          [
+            "Welcome Benefits",
+            "5000 IndiGo BluChip voucher + complimentary in-flight meal voucher"
+          ],
+          [
+            "Renewal Benefits",
+            "5000 IndiGo BluChip voucher + complimentary in-flight meal voucher"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards Structure",
+        "headers": [
+          "Spend Category",
+          "Reward Rate (BluChips / ₹100)"
+        ],
+        "rows": [
+          [
+            "IndiGo Bookings (via website or app)",
+            "6 BluChips"
+          ],
+          [
+            "Regular Spends (shopping, dining, travel)",
+            "3 BluChips"
+          ],
+          [
+            "Utilities, Fuel, Rent, Wallet Reloads, UPI",
+            "0.5 BluChips"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -243,6 +297,18 @@
       {
         "q": "Does the FD backed secured version of IndiGo IDFC FIRST Credit Card have any annual fee?",
         "a": "Though the secured FD backed IndiGo IDFC FIRST Credit Card variants does not charge any joining fee, you will have to pay an annual fee of Rs. 1,499 from 2nd year onwards."
+      },
+      {
+        "question": "Is the IndiGo IDFC First Bank Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹4,999 + GST and the annual fee is ₹4,999 + GST."
+      },
+      {
+        "question": "What is the forex markup on the IndiGo IDFC First Bank Credit Card?",
+        "answer": "There is no forex markup, so you don't pay extra when you spend in a foreign currency. That makes it a good card to use abroad."
+      },
+      {
+        "question": "Does the IndiGo IDFC First Bank Credit Card give airport lounge access?",
+        "answer": "No. The IndiGo IDFC First Bank Credit Card doesn't include free airport lounge access."
       }
     ]
   },

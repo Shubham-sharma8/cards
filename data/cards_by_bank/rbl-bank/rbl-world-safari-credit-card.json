@@ -60,7 +60,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -152,7 +154,332 @@
         "8 complimentary domestic lounge visits every year (Max. 2 per quarter) on spending Rs. 35,000 in the previous quarter",
         "Extra international lounge visit on spending Rs. 50,000 in a quarter"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "RBL World Safari Credit Card Key Highlights",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Premium Travel Credit Card"
+          ],
+          [
+            "Joining Fee",
+            "₹3,000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹3,000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹3 lakh annual spend"
+          ],
+          [
+            "Welcome Benefit",
+            "₹3,000 MakeMyTrip voucher"
+          ],
+          [
+            "Base Reward Rate",
+            "2 Reward Points per ₹100 on eligible domestic retail spends"
+          ],
+          [
+            "Travel Reward Rate",
+            "5 Reward Points per ₹100 on eligible domestic travel spends"
+          ],
+          [
+            "International Rewards",
+            "No Reward Points on international transactions"
+          ],
+          [
+            "Forex Markup",
+            "0%"
+          ],
+          [
+            "Domestic Lounge",
+            "8 visits per year, limited to 2 per quarter, on spending ₹35,000 in the previous calendar quarter"
+          ],
+          [
+            "International Lounge",
+            "2 visits per calendar year + 1 additional voucher per quarter on spending ₹50,000 in that quarter"
+          ],
+          [
+            "Milestone Benefits",
+            "Up to 25,000 bonus Reward Points plus ₹10,000 brand voucher annually"
+          ],
+          [
+            "Golf Benefits",
+            "4 complimentary golf rounds per year and 1 golf lesson per month"
+          ],
+          [
+            "Fuel Benefit",
+            "1% surcharge waiver (₹500-₹4,000 transactions, max ₹250/month)"
+          ],
+          [
+            "Card Network",
+            "Mastercard World"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "RBL World Safari Credit Card Fees & Welcome Benefits",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹3,000 + GST"
+          ],
+          [
+            "Annual Renewal Fee",
+            "₹3,000 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "₹3,000 MakeMyTrip voucher"
+          ],
+          [
+            "Welcome Benefit Eligibility",
+            "Complete one transaction within 30 days and pay the joining fee in the first billing cycle"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹3 lakh annual spend"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "RBL World Safari Credit Card Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Reward Points",
+          "Approx. Return*"
+        ],
+        "rows": [
+          [
+            "Eligible domestic travel spends",
+            "5 RP per ₹100",
+            "~1.25%"
+          ],
+          [
+            "Other eligible domestic retail spends",
+            "2 RP per ₹100",
+            "~0.50%"
+          ],
+          [
+            "International transactions",
+            "Nil",
+            "0%"
+          ],
+          [
+            "Excluded categories",
+            "Nil",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "RBL World Safari Credit Card Milestone Benefits",
+        "headers": [
+          "Annual Spends",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "₹2.5 lakh",
+            "10,000 Reward Points"
+          ],
+          [
+            "₹5 lakh",
+            "15,000 Reward Points"
+          ],
+          [
+            "₹7.5 lakh",
+            "₹10,000 Brand Voucher*"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "RBL World Safari Credit Card Reward Redemption",
+        "headers": [
+          "Redemption Option",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Flights",
+            "Available via RBL Rewards Portal"
+          ],
+          [
+            "Hotels",
+            "Available via RBL Rewards Portal"
+          ],
+          [
+            "Gift Vouchers",
+            "Available across participating brands"
+          ],
+          [
+            "Merchandise",
+            "Available through the rewards catalogue"
+          ],
+          [
+            "Reward Point Value (Flights & Hotels)",
+            "₹0.25 per Reward Point"
+          ],
+          [
+            "Other Redemption Values",
+            "Varies by redemption option"
+          ],
+          [
+            "Reward Redemption Fee",
+            "₹99 + GST per day of redemption"
+          ],
+          [
+            "Points Credit Timeline",
+            "Within 45 days of settlement for eligible transactions"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "Domestic Lounge Access",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Complimentary Visits",
+            "8 per calendar year"
+          ],
+          [
+            "Quarterly Limit",
+            "2 visits"
+          ],
+          [
+            "Spend Requirement",
+            "₹35,000 in the previous calendar quarter"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-6",
+        "kind": "lounge_access",
+        "title": "International Lounge Access",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Priority Pass Membership",
+            "Complimentary"
+          ],
+          [
+            "Complimentary Visits",
+            "2 per calendar year"
+          ],
+          [
+            "Additional Benefit",
+            "1 international lounge voucher per quarter on ₹50,000 quarterly spends"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-7",
+        "kind": "other_table",
+        "title": "RBL World Safari Credit Card Travel Insurance",
+        "headers": [
+          "Cover",
+          "Availability"
+        ],
+        "rows": [
+          [
+            "Personal Liability",
+            "Included"
+          ],
+          [
+            "Trip Delay",
+            "Included"
+          ],
+          [
+            "Baggage Loss",
+            "Included"
+          ],
+          [
+            "Loss of Passport",
+            "Included"
+          ],
+          [
+            "Dental Treatment",
+            "Included"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-8",
+        "kind": "other_table",
+        "title": "RBL World Safari Credit Card Golf Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Complimentary Golf Rounds",
+            "4 per calendar year"
+          ],
+          [
+            "Golf Lessons",
+            "1 per calendar month"
+          ],
+          [
+            "Green Fee Discount",
+            "50% after the complimentary rounds are used"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-9",
+        "kind": "fees_and_charges",
+        "title": "RBL World Safari Credit Card Fuel Surcharge Waiver",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Eligible Transaction",
+            "₹500-₹4,000"
+          ],
+          [
+            "Waiver",
+            "1%"
+          ],
+          [
+            "Maximum Benefit",
+            "₹250 per month"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -865,7 +1192,27 @@
       {
         "q": "Are any additional charges applied on visiting airport lounges with RBL Bank World Safari Credit Card?",
         "a": "Once the complimentary lounge visits are exhausted, cardholders must pay $27 per visit for any additional lounge access."
+      },
+      {
+        "question": "What is the annual fee of the RBL World Safari Credit Card?",
+        "answer": "The card has a joining fee of ₹3,000 + GST and an annual renewal fee of ₹3,000 + GST. The renewal fee is waived on spending ₹3 lakh or more during the previous card membership year."
+      },
+      {
+        "question": "What is the forex markup on the RBL World Safari Credit Card?",
+        "answer": "The card charges 0% forex markup on eligible international retail transactions. Most Indian credit cards charge 2%-3.5% before GST."
+      },
+      {
+        "question": "Does the RBL World Safari Credit Card earn Reward Points on international transactions?",
+        "answer": "No. International purchases do not earn Reward Points. The accelerated rate of 5 Reward Points per ₹100 applies to eligible domestic travel purchases."
+      },
+      {
+        "question": "What is the value of 1 Reward Point on the RBL World Safari Credit Card?",
+        "answer": "One Reward Point can be worth up to ₹0.25 for eligible flight and hotel bookings through the RBL Rewards Portal. Other redemption values vary by option."
       }
+    ],
+    "program_updates_2026": [
+      "Quick Verdict Best for: Frequent international travellers who can recover the ₹3,000 annual fee through forex savings and use the travel benefits. Avoid if: Most of your spending is domestic or you want rewards on overseas transactions. Last verified: 22 July 2026. Checked against the RBL Bank World Safari terms and RBL Bank MITC . Product terms can change; confirm the latest issuer documents before applying.",
+      "Last verified: 22 July 2026. Checked against the RBL Bank World Safari terms and RBL Bank MITC . Product terms can change; confirm the latest issuer documents before applying."
     ]
   },
   "ratings": {
@@ -889,13 +1236,17 @@
       "Complimentary domestic & international lounge visits",
       "Travel/shopping vouchers worth Rs. 10,000 as milestone benefits",
       "Complimentary golf and green free rounds every month",
-      "MakeMyTrip voucher worth Rs. 3,000 as welcome benefit"
+      "MakeMyTrip voucher worth Rs. 3,000 as welcome benefit",
+      "0% forex markup on international retail transactions"
     ],
     "cons": [
       "High joining and annual fee of Rs. 3,000",
       "Domestic lounge access benefits are spend-based",
       "No reward points on international spends",
-      "Relatively modest rewards rate on non-travel spends"
+      "Relatively modest rewards rate on non-travel spends",
+      "Domestic lounge access and the additional international visit require quarterly spending",
+      "Base reward return is approximately 0.5%",
+      "₹99 + GST reward redemption fee"
     ],
     "best_for_whom": "International travelers and foreign SaaS/e-commerce buyers avoiding 3.5%+GST markup",
     "not_ideal_for": "Domestic-only spenders seeking peak local e-commerce cashback",

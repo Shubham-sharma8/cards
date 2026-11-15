@@ -38,7 +38,9 @@
     "bank_url": "https://www.idfcfirst.bank.in/credit-card",
     "mitc_pdf_url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -140,7 +142,151 @@
         "1 reward point per Rs. 150 on UPI spends below Rs. 2,000",
         "100% cashback, up to Rs. 200 (Rs. 50 each on first four UPI spends)"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IDFC FIRST WOW at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Secured Credit Card"
+          ],
+          [
+            "Joining & Annual Fee",
+            "₹0 (Lifetime Free)"
+          ],
+          [
+            "Minimum FD Required",
+            "₹20,000"
+          ],
+          [
+            "Credit Limit",
+            "100% of Fixed Deposit value"
+          ],
+          [
+            "Forex Markup Fee",
+            "0%"
+          ],
+          [
+            "Reward Rate",
+            "4X points on standard spends (1 Point = ₹0.25)"
+          ],
+          [
+            "FD Interest Rate",
+            "Up to 6.5% p.a."
+          ],
+          [
+            "Best Suited For",
+            "Building credit, students, and international travel"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees & Charges",
+        "headers": [
+          "Fees & Charges",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "NIL (Lifetime Free)"
+          ],
+          [
+            "Annual Fee",
+            "NIL (Lifetime Free)"
+          ],
+          [
+            "Welcome Benefit",
+            "5% cashback up to ₹1,000 on the first EMI transaction within 90 days"
+          ],
+          [
+            "Issued On",
+            "Visa Infinite"
+          ],
+          [
+            "Credit Limit",
+            "100% of FD amount"
+          ],
+          [
+            "Forex Mark-Up Fee",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "IDFC FIRST WOW Credit Card Review: Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards",
+          "Return"
+        ],
+        "rows": [
+          [
+            "Other Retail Spends",
+            "4 RP per ₹200",
+            "0.50%"
+          ],
+          [
+            "Insurance & Utility Spends",
+            "1 RP per ₹200",
+            "0.12%"
+          ],
+          [
+            "Fuel & EMI Transactions",
+            "No Rewards",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-3",
+        "kind": "other_table",
+        "title": "IDFC First WOW vs WOW Black Credit Card",
+        "headers": [
+          "Feature",
+          "FIRST WOW (Standard)",
+          "FIRST WOW Black"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹0",
+            "₹750 + GST"
+          ],
+          [
+            "Welcome Benefits",
+            "Nil",
+            "Worth ₹5000+"
+          ],
+          [
+            "Lounge Access",
+            "None",
+            "1 per quarter (on ₹20k spend)"
+          ],
+          [
+            "Travel Rewards",
+            "Standard 4X",
+            "Bonus points on Flights/Hotels"
+          ],
+          [
+            "UPI Virtual Card",
+            "₹199 + GST",
+            "Included"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -254,6 +400,18 @@
       {
         "q": "What are the main pros and cons of the card?",
         "a": "Pros include zero-forex markup fees, 4X reward points, fuel surcharge savings, and lifetime free usage. Cons are the low reward redemption value (1RP = Rs. 0.25) and no travel perks like domestic or international lounge access."
+      },
+      {
+        "question": "What is the minimum fixed deposit required for the IDFC FIRST WOW credit card?",
+        "answer": "You need to open a fixed deposit of at least ₹20,000 to get this card."
+      },
+      {
+        "question": "Does the IDFC FIRST WOW card give free airport lounge access?",
+        "answer": "No. The standard WOW card does not offer domestic or international lounge access."
+      },
+      {
+        "question": "Is the IDFC FIRST WOW a lifetime free credit card?",
+        "answer": "Yes. There is no joining fee and no annual fee for the standard physical card."
       }
     ]
   },

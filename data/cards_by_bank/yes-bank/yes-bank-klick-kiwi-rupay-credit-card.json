@@ -38,7 +38,9 @@
     "bank_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
     "mitc_pdf_url": "https://www.yes.bank.in/pdf?name=ybl_mitc_pdf.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-15"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -128,7 +130,157 @@
         "1% fuel surcharge waiver on fuel spends across all fuel stations, capped at Rs. 250 per month",
         "Save up to Rs. 3,000 on fuel spend every year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "NIL (Lifetime Free)"
+          ],
+          [
+            "Welcome Benefit",
+            "None (Kiwi runs limited-time first-transaction offers)"
+          ],
+          [
+            "Annual Fee",
+            "NIL (Lifetime Free)"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Kiwi RuPay Credit Card Rewards Structure",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Earning Rate",
+            "6 Kiwis for every ₹100 spent on UPI Scan & Pay, counted in ₹100 blocks"
+          ],
+          [
+            "Reward Value",
+            "1 Kiwi = ₹0.25, redeemed to your linked UPI bank account"
+          ],
+          [
+            "Effective Cashback",
+            "1.5% on eligible UPI spends"
+          ],
+          [
+            "Online (non-UPI) spends",
+            "0.5%"
+          ],
+          [
+            "Cashback Cap",
+            "1% of your total credit limit per month"
+          ],
+          [
+            "Exclusions",
+            "No rewards on telecom, utilities, jewellery, fuel, rent and real estate, insurance, education, government payments, financial institutions and gift cards"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-2",
+        "kind": "lounge_access",
+        "title": "Milestone-Based Cashback:",
+        "headers": [
+          "Annual UPI Spend",
+          "Cashback",
+          "Lounge Access"
+        ],
+        "rows": [
+          [
+            "₹50,000",
+            "3% cashback",
+            "1 access"
+          ],
+          [
+            "₹1,00,000",
+            "4% cashback",
+            "1 access"
+          ],
+          [
+            "₹1,50,000+",
+            "5% cashback",
+            "1 access"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-3",
+        "kind": "fees_and_charges",
+        "title": "Kiwi Neon Cashback Value vs Spend",
+        "headers": [
+          "Annual Spends",
+          "Rate",
+          "Total Cashback",
+          "Net Profit"
+        ],
+        "rows": [
+          [
+            "₹25,000",
+            "2%",
+            "₹500",
+            "–₹679"
+          ],
+          [
+            "₹50,000",
+            "3%",
+            "₹1,500",
+            "+₹321"
+          ],
+          [
+            "₹1,00,000",
+            "4%",
+            "₹4,000",
+            "+₹2,821"
+          ],
+          [
+            "₹1,50,000+",
+            "5%",
+            "₹7,500",
+            "+₹6,321"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-4",
+        "kind": "reward_structure",
+        "title": "Kiwi Reward Updates & Devaluation Tracker",
+        "headers": [
+          "Date",
+          "Change",
+          "Impact"
+        ],
+        "rows": [
+          [
+            "June 1, 2025",
+            "Kiwis earned only on spend in multiples of ₹100",
+            "₹299 spend earns on ₹200 only"
+          ],
+          [
+            "June 1, 2025",
+            "Minimum 500 Kiwis required for redemption (multiples of 500 thereafter)",
+            "Harder to redeem small balances"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -231,7 +383,30 @@
       {
         "q": "How can I apply for the Klick Credit Card?",
         "a": "You can apply by completing the KYC process via the Kiwi app. The card is entirely virtual, making it easy to access rewards and benefits without visiting a branch."
+      },
+      {
+        "question": "Is the Kiwi RuPay Credit Card lifetime free?",
+        "answer": "The Yes Bank and AU Bank variants have no joining or annual fee. Kiwi Neon is an optional membership at ₹999 + taxes a year. Check the fee on the Kiwi app for the PNB card."
+      },
+      {
+        "question": "How much cashback does the Kiwi card give without Neon?",
+        "answer": "The base card gives 1.5% on UPI Scan & Pay, which is 6 Kiwis per ₹100. Online non-UPI spends earn 0.5%."
+      },
+      {
+        "question": "What is the value of 1 Kiwi?",
+        "answer": "1 Kiwi is worth ₹0.25. You need 500 Kiwis (₹125) to redeem, in multiples of 500. At the top Neon tier of 5%, you earn 20 Kiwis per ₹100."
+      },
+      {
+        "question": "Is Kiwi Neon worth ₹999?",
+        "answer": "Neon costs about ₹1,179 with taxes. It pays for itself at the ₹50,000 annual UPI spend milestone, where 3% cashback gives ₹1,500. Below that it loses money."
+      },
+      {
+        "question": "How many lounge visits do I get with the Kiwi card?",
+        "answer": "Standard cardholders get no lounge access. Neon members get 1 domestic lounge visit at each annual UPI spend milestone of ₹50,000, ₹1 lakh and ₹1.5 lakh, up to 3 a year."
       }
+    ],
+    "program_updates_2026": [
+      "2026 issuer update: new Kiwi RuPay cards are issued by Yes Bank , PNB and AU Small Finance Bank , depending on your location and credit profile. Existing Axis Bank Kiwi cards remain active."
     ]
   },
   "ratings": {
@@ -251,10 +426,18 @@
     "pros": [
       "2 reward points per Rs. 200 on non-UPI spends",
       "Low foreign exchange markup fee of 2.75%",
-      "Save up to Rs. 3,000 on fuel spend every year"
+      "Save up to Rs. 3,000 on fuel spend every year",
+      "Lifetime free on the Yes Bank and AU Bank variants",
+      "1.5% on UPI Scan & Pay with no membership",
+      "With Neon, 2% on UPI and up to 5% after ₹1.5 lakh of annual spend",
+      "Up to 3 domestic lounge visits a year through Neon milestones"
     ],
     "cons": [
-      "No airport lounge visits"
+      "No airport lounge visits",
+      "Neon costs ₹999 + taxes a year and is non-refundable",
+      "Only 0.5% on online non-UPI spends",
+      "Base rewards stop at 1% of your credit limit a month",
+      "No rewards on rent, fuel, utilities, insurance or education"
     ],
     "best_for_whom": "Heavy UPI merchant payers wanting instant bank-account cashback up to 2%–5% (with Kiwi Neon) LTF",
     "not_ideal_for": "Users wanting domestic airport lounges without hitting high Kiwi Neon annual spend milestones",
@@ -272,7 +455,10 @@
       "2% flat Scan & Pay UPI cashback via Kiwi app (scales up to 5% effective with Kiwi Neon milestones on Rs. 1.5L/yr)."
     ],
     "optimization_tips": [
-      "Kiwi Neon Annual Ladder: With Neon (₹999/yr), annual UPI milestones unlock retroactive rates of 3% at ₹50K, 4% at ₹1L, and 5% at ₹1.5L/yr — route ₹12,500+/mo Scan & Pay merchant QRs natively via the Kiwi app."
+      "Kiwi Neon Annual Ladder: With Neon (₹999/yr), annual UPI milestones unlock retroactive rates of 3% at ₹50K, 4% at ₹1L, and 5% at ₹1.5L/yr — route ₹12,500+/mo Scan & Pay merchant QRs natively via the Kiwi app.",
+      "Neon (2% base): you reach 500 Kiwis after about ₹6,300 of UPI spend.",
+      "Standard card (1.5% base): it takes about ₹8,400 of UPI spend.",
+      "Redeem in multiples of 500 so no balance stays stuck below the floor."
     ]
   },
   "devaluation_analysis": {

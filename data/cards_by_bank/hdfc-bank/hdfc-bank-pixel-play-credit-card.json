@@ -41,7 +41,9 @@
     "bank_url": "https://www.hdfc.bank.in/credit-cards",
     "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-01"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -147,7 +149,214 @@
         "Annual fee waiver on spending Rs. 1 Lakh in a year",
         "1% fuel surcharge waiver at all fuel stations in India on transactions ranging between Rs. 400 and Rs. 5,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HDFC Bank Pixel Play Credit Card Fees",
+        "headers": [
+          "Charges",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Lifetime Free for eligible users"
+          ],
+          [
+            "Annual Fee",
+            "Lifetime Free for eligible users"
+          ],
+          [
+            "Welcome Benefit",
+            "None"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "HDFC Bank Pixel Play Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Cashback",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "Any 2 selected cashback packs",
+            "5% cashback",
+            "500 CashPoints"
+          ],
+          [
+            "One selected shopping platform (Amazon/Flipkart/PayZapp)",
+            "3% cashback",
+            "500 CashPoints"
+          ],
+          [
+            "Other eligible spends",
+            "1% cashback",
+            "Unlimited"
+          ],
+          [
+            "UPI spends on RuPay variant",
+            "1% cashback",
+            "500 CashPoints"
+          ],
+          [
+            "Fuel, Wallet, Rent, Government spends",
+            "NIL",
+            "NIL"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "5% Cashback Merchant Packs",
+        "headers": [
+          "Category",
+          "Eligible Merchants"
+        ],
+        "rows": [
+          [
+            "Dining & Entertainment",
+            "Zomato, BookMyShow"
+          ],
+          [
+            "Travel",
+            "Uber, MakeMyTrip"
+          ],
+          [
+            "Grocery",
+            "Blinkit, Reliance Smart Bazaar"
+          ],
+          [
+            "Electronics",
+            "Croma, Reliance Digital"
+          ],
+          [
+            "Fashion",
+            "Myntra, Nykaa"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-3",
+        "kind": "accelerated_partners",
+        "title": "HDFC Bank Pixel Play Credit Card SmartBuy Benefits",
+        "headers": [
+          "SmartBuy Category",
+          "Cashback"
+        ],
+        "rows": [
+          [
+            "Flights",
+            "5% cashback"
+          ],
+          [
+            "Hotels",
+            "5% cashback"
+          ],
+          [
+            "Buses",
+            "5% cashback"
+          ],
+          [
+            "Instant Vouchers",
+            "5% cashback"
+          ],
+          [
+            "Apple Imagine Tresor",
+            "5% cashback"
+          ],
+          [
+            "Myntra",
+            "5% cashback"
+          ],
+          [
+            "MMT Holiday Packages",
+            "5% cashback"
+          ],
+          [
+            "Duty Free via Adani One",
+            "5% cashback"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "HDFC Pixel Play Credit Card Reward Redemption",
+        "headers": [
+          "Reward Type",
+          "Value"
+        ],
+        "rows": [
+          [
+            "1 PIXEL CashPoint",
+            "₹1"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-5",
+        "kind": "reward_structure",
+        "title": "HDFC Pixel Play Credit Card vs SBI Cashback Credit Card",
+        "headers": [
+          "Feature",
+          "HDFC Pixel Play",
+          "SBI Cashback"
+        ],
+        "rows": [
+          [
+            "Annual Fee",
+            "Lifetime Free for eligible users",
+            "₹999 + GST"
+          ],
+          [
+            "Main Cashback Rate",
+            "Up to 5% on selected packs",
+            "5% on online spends"
+          ],
+          [
+            "Cashback Structure",
+            "Custom merchant packs",
+            "Automatic online cashback"
+          ],
+          [
+            "UPI Cashback",
+            "1% on RuPay UPI spends",
+            "No"
+          ],
+          [
+            "Cashback Cap",
+            "Lower category-wise caps",
+            "₹5000 cashback/month"
+          ],
+          [
+            "Reward Type",
+            "CashPoints",
+            "Statement cashback"
+          ],
+          [
+            "Lounge Access",
+            "No",
+            "No"
+          ],
+          [
+            "Best For",
+            "Flexible everyday spends",
+            "Heavy online shoppers"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -275,6 +484,26 @@
       {
         "q": "Can I avail fuel surcharge waiver on this credit card?",
         "a": "Yes, the card offers a 1% fuel surcharge waiver on transactions ranging between Rs. 400 and Rs. 5,000, up to Rs. 250 per month."
+      },
+      {
+        "question": "Is the HDFC Pixel Play Credit Card lifetime free?",
+        "answer": "Yes, HDFC Bank is currently offering the Pixel Play Credit Card as a lifetime free credit card for eligible users."
+      },
+      {
+        "question": "Does the HDFC Pixel Play Credit Card support UPI?",
+        "answer": "Yes, the RuPay variant of the HDFC Pixel Play Credit Card supports UPI payments and offers 1% cashback on eligible UPI spends."
+      },
+      {
+        "question": "What is the cashback rate on the HDFC Pixel Play Credit Card?",
+        "answer": "The card offers up to 5% cashback on selected merchant packs, 3% cashback on one selected shopping platform and 1% cashback on other eligible spends."
+      },
+      {
+        "question": "Does the HDFC Pixel Play Credit Card offer airport lounge access?",
+        "answer": "No, the HDFC Pixel Play Credit Card does not provide complimentary domestic or international airport lounge access."
+      },
+      {
+        "question": "What is the value of 1 PIXEL CashPoint?",
+        "answer": "1 PIXEL CashPoint is equal to Rs 1."
       }
     ]
   },
@@ -296,14 +525,19 @@
       "Customizable card features",
       "5% cashback on popular everyday brands",
       "UPI linked credit card benefits on RuPay variant",
-      "Decent base cashback rate without any capping"
+      "Decent base cashback rate without any capping",
+      "Lifetime free for eligible users",
+      "Up to 5% cashback on selected merchant packs",
+      "1% cashback on RuPay UPI spends"
     ],
     "cons": [
       "Brand benefits could be restrictive for some customers",
       "Understanding the card’s customization could be complex for some users",
       "Redemption circled around PayZapp app",
       "No lounge access benefits",
-      "Capping on cashback earning"
+      "Capping on cashback earning",
+      "Low monthly cashback caps",
+      "No airport lounge access"
     ],
     "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
     "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",

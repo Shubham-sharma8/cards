@@ -39,7 +39,9 @@
     "bank_url": "https://www.americanexpress.com/in/credit-cards/",
     "mitc_pdf_url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/charge-english-mitc.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-09"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -116,7 +118,43 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Marriott Bonvoy",
+        "ratio": "1:1 (100 MR = 100 Pts)",
+        "notes": "Best hotel sweet spot"
+      },
+      {
+        "partner": "Hilton Honors",
+        "ratio": "1:1.5 (1,000 MR = 1,500 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Virgin Atlantic Flying Club",
+        "ratio": "5:4 (800 MR = 640 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Singapore KrisFlyer",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Asia Miles (Cathay)",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Qatar Privilege Club",
+        "ratio": "2:1 (500 MR = 250 Avios)",
+        "notes": "Avios transferable to BA"
+      },
+      {
+        "partner": "British Airways Executive Club",
+        "ratio": "2:1 (1,200 MR = 600 Avios)",
+        "notes": "Emirates suspended / Etihad removed Jul 2026"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 1000,
       "annual_fee_inr": 4500,
@@ -126,7 +164,222 @@
       "milestone_slabs": [
         "1 Membership Rewards Point for every Rs. 50 spent except for spends at insurance and cash transactions"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Amex Gold Charge Card Fees and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1,000 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "4,000 MR points (first year only)"
+          ],
+          [
+            "Annual Fee",
+            "₹4,500 + GST (from the second year)"
+          ],
+          [
+            "Renewal Benefit",
+            "5,000 MR points on paying the annual fee (first renewal only)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Amex Gold Charge Card Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Rewards",
+          "Cap"
+        ],
+        "rows": [
+          [
+            "Retail Spends",
+            "1 MR point/₹50 ~0.7% to 1.2%",
+            "None"
+          ],
+          [
+            "Utility (electricity, water, gas)",
+            "1 MR point/₹50 ~0.7% to 1.2%",
+            "10,000 MR points/month"
+          ],
+          [
+            "Fuel (petrol, diesel, CNG)",
+            "No Rewards (since 12 June 2025)",
+            "–"
+          ],
+          [
+            "Insurance & Cash",
+            "No Rewards",
+            "–"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-2",
+        "kind": "redemption_catalog",
+        "title": "Amex 18K Gold Collection: 18,000 MR Points",
+        "headers": [
+          "E-Voucher",
+          "Value",
+          "1 MR Point Value"
+        ],
+        "rows": [
+          [
+            "Amazon",
+            "₹6,000",
+            "33p"
+          ],
+          [
+            "Flipkart",
+            "₹6,000",
+            "33p"
+          ],
+          [
+            "Reliance Digital",
+            "₹6,000",
+            "33p"
+          ],
+          [
+            "Myntra",
+            "₹7,000",
+            "39p"
+          ],
+          [
+            "Shoppers Stop",
+            "₹7,000",
+            "39p"
+          ],
+          [
+            "Tata CLiQ",
+            "₹7,000",
+            "39p"
+          ],
+          [
+            "Taj",
+            "₹9,000",
+            "50p"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-3",
+        "kind": "redemption_catalog",
+        "title": "Amex 24K Gold Collection: 24,000 MR Points",
+        "headers": [
+          "E-Voucher",
+          "Value",
+          "1 MR Point Value"
+        ],
+        "rows": [
+          [
+            "Amazon",
+            "₹8,000",
+            "33p"
+          ],
+          [
+            "Flipkart",
+            "₹8,000",
+            "33p"
+          ],
+          [
+            "Reliance Digital",
+            "₹8,000",
+            "33p"
+          ],
+          [
+            "Tanishq Diamond Jewellery",
+            "₹9,000",
+            "38p"
+          ],
+          [
+            "Tata CLiQ",
+            "₹9,000",
+            "38p"
+          ],
+          [
+            "Shoppers Stop",
+            "₹10,000",
+            "42p"
+          ],
+          [
+            "Taj",
+            "₹14,000",
+            "58p"
+          ]
+        ]
+      },
+      {
+        "id": "amex-india-transfer-partners-2026",
+        "kind": "transfer_partners",
+        "title": "Amex Membership Rewards Transfer Partners (Nov 2026)",
+        "note": "Emirates Skywards suspended May 2025 · Club Vistara merged into Air India · Etihad Guest removed 1 July 2026 · Hilton (1:1.5) and Virgin Atlantic (5:4) improved Aug 2026.",
+        "headers": [
+          "Partner",
+          "Type",
+          "Conversion Rate",
+          "Ratio"
+        ],
+        "rows": [
+          [
+            "Marriott Bonvoy",
+            "Hotel",
+            "100 MR = 100 Marriott Bonvoy Points",
+            "1:1"
+          ],
+          [
+            "Hilton Honors",
+            "Hotel",
+            "1,000 MR = 1,500 Hilton Honors Points",
+            "1:1.5 (Boosted Aug 2026)"
+          ],
+          [
+            "Virgin Atlantic Flying Club",
+            "Airline",
+            "800 MR = 640 Virgin Points",
+            "5:4 (Boosted Aug 2026)"
+          ],
+          [
+            "Singapore KrisFlyer",
+            "Airline",
+            "800 MR = 400 KrisFlyer Miles",
+            "2:1"
+          ],
+          [
+            "Asia Miles (Cathay)",
+            "Airline",
+            "800 MR = 400 Asia Miles",
+            "2:1"
+          ],
+          [
+            "Qatar Privilege Club",
+            "Airline",
+            "500 MR = 250 Avios",
+            "2:1"
+          ],
+          [
+            "British Airways Executive Club",
+            "Airline",
+            "1,200 MR = 600 Avios",
+            "2:1"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -196,7 +449,44 @@
     ],
     "concierge_or_privilege": [],
     "get_this_card_if": [],
-    "faqs": []
+    "faqs": [
+      {
+        "question": "Is the American Express Gold Charge Card lifetime free?",
+        "answer": "No. The joining fee is ₹1,000 + GST and the annual fee is ₹4,500 + GST from the second year. There is no fee waiver based on spends."
+      },
+      {
+        "question": "Can I apply for the American Express Gold Charge Card now?",
+        "answer": "No. American Express has paused new card applications in India. Existing cardholders can keep using the card."
+      },
+      {
+        "question": "What is the monthly milestone on the Amex Gold Charge Card?",
+        "answer": "You get 1,000 bonus MR points when you make 6 transactions of ₹1,000 or more in a calendar month."
+      },
+      {
+        "question": "Does the Amex Gold Charge Card give reward points on fuel?",
+        "answer": "No. Since 12 June 2025, fuel spends do not earn MR points. They still count towards the monthly milestone."
+      },
+      {
+        "question": "What is the forex markup on the American Express Gold Charge Card?",
+        "answer": "It is 3.5% plus GST on spends in a foreign currency, so it is not a good card to use abroad."
+      },
+      {
+        "question": "Does the American Express Gold Charge Card give airport lounge access?",
+        "answer": "No. The card does not include any complimentary domestic or international airport lounge access."
+      },
+      {
+        "question": "How much can I earn with the American Express Gold Charge Card?",
+        "answer": "The base reward rate is about 0.7% to 1.2%, depending on how you redeem. With the monthly milestone, you can get about 6% to 11% back on ₹6,000 of spends a month."
+      }
+    ],
+    "program_updates_2026": [
+      "New Applications Paused: American Express has temporarily paused new card applications in India (existing cardholders unaffected).",
+      "From 15 November 2026: Amex counts monthly milestone transactions by posting date (not transaction date) and keeps MR pools separate per card.",
+      "Transfer Partners Updated (Aug–Nov 2026): Hilton Honors improved to 1:1.5 (1,000:1,500), Virgin Atlantic improved to 5:4 (800:640), Etihad Guest removed 1 July 2026, Emirates Skywards suspended.",
+      "Note: American Express has paused new card applications in India, so you cannot apply for the Gold Charge card right now. This review is for existing cardholders and for anyone planning to apply once applications reopen.",
+      "1 July 2026: Etihad Guest removed as a transfer partner.",
+      "18 August 2026: Better transfer ratios for Hilton Honors and Virgin Atlantic."
+    ]
   },
   "ratings": {
     "overall_market_rating": 4.05,

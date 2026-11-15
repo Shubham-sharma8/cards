@@ -1,0 +1,549 @@
+{
+  "identity": {
+    "card_id": "sbi_card_reliance_sbi_card_prime",
+    "card_name": "Reliance SBI Card PRIME",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "reliance-sbi-card-prime",
+    "card_network": "Visa / RuPay",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Online Shopping",
+    "categories": [
+      "Online Shopping",
+      "Dining, Groceries & Movies",
+      "Airport Lounge",
+      "RuPay & UPI"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-15T06:00:00+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/reliance-sbi-card-prime.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 0.96,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#BEBBAE",
+      "secondary_hex": "#BEBBAE",
+      "wash_hex": "#F0F0ED",
+      "soft_bg_hex": "#F8F8F6",
+      "border_hex": "#DCE5E1",
+      "ink_on_soft_hex": "#0F5C4D",
+      "is_dark_card": false,
+      "source": "cardmaven_asset"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 1,500 - 4,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": true,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Online Shopping",
+      "Dining, Groceries & Movies",
+      "Airport Lounge"
+    ],
+    "requirement_keywords": [
+      "ard",
+      "ay",
+      "eliance",
+      "hopping",
+      "ining",
+      "irport",
+      "nline",
+      "ounge",
+      "ovies",
+      "roceries",
+      "u"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 2.5,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X Reward Points (~16.6%!) on GST, Income Tax, Advance Tax, PayZapp/SmartBuy business spends & vendor utility bills (Requires Rs. 50,000 retail spend/statement cycle)",
+      "5 RP per Rs. 150 (3.33%) on all other business & personal retail spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 2.5,
+      "amazon_flipkart_myntra": 1.25,
+      "dining_swiggy_zomato": 1.25,
+      "groceries_quick_commerce": 2.5,
+      "travel_flights_hotels": 1.25,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.0,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -3.0,
+      "offline_general_other": 1.25
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "3.33% base + 5X (16.5%) on Income Tax, GST, PayZapp utilities & SmartBuy business spends (business 5X bonus capped at 7,500 RP/cycle on >= Rs. 50,000 monthly spend); Insurance capped 5,000 RP/mo."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 2999,
+      "annual_fee_inr": 2999,
+      "annual_fee_with_gst_inr": 3539,
+      "fee_waiver_spend_inr": 300000,
+      "monthly_spend_for_waiver_inr": 25000,
+      "milestone_slabs": []
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹2999+GST ~₹3539"
+          ],
+          [
+            "Welcome Benefit",
+            "₹3000 Reliance Retail Gift Voucher Additional discount vouchers worth ₹ 11,999"
+          ],
+          [
+            "Annual Fee",
+            "₹2999+GST ~₹3539"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On annual spends of ~ ₹3 Lakh"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-1",
+        "kind": "other_table",
+        "title": "Discount Offers in Welcome Benefit",
+        "headers": [
+          "Brand",
+          "Discount Voucher",
+          "Minimum Purchase"
+        ],
+        "rows": [
+          [
+            "JioMart",
+            "₹250",
+            "₹1250"
+          ],
+          [
+            "AJIO",
+            "₹750",
+            "₹3999"
+          ],
+          [
+            "Reliance Trends",
+            "₹1,000",
+            "₹3999"
+          ],
+          [
+            "Azorte",
+            "₹750",
+            "₹5000"
+          ],
+          [
+            "Fashion Factory",
+            "Any Denim @ ₹999",
+            "NA"
+          ],
+          [
+            "Coverstory",
+            "₹2500",
+            "Max redemption capped at 10% of bill value"
+          ],
+          [
+            "Zivame",
+            "₹500",
+            "₹1,999"
+          ],
+          [
+            "Urban Ladder",
+            "₹2500",
+            "Max redemption capped at 10% of bill value"
+          ],
+          [
+            "Netmeds",
+            "₹500",
+            "₹1999"
+          ],
+          [
+            "Clovia",
+            "₹500",
+            "₹1999"
+          ],
+          [
+            "Reliance Jewels",
+            "₹2000",
+            "₹49,999 on select diamond jewellery"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Reliance SBI Card PRIME Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Reliance Retail Stores",
+            "10 RP per ₹100",
+            "2.5%"
+          ],
+          [
+            "Dining, Movies, Entertainment & Domestic Airlines",
+            "5 RP per ₹100",
+            "1.25%"
+          ],
+          [
+            "International Spends",
+            "5 RP per ₹100",
+            "1.25%"
+          ],
+          [
+            "Other Retail Spends",
+            "2 RP per ₹100",
+            "0.5%"
+          ],
+          [
+            "Fuel, Rent, Wallet Loads & EMI Transactions",
+            "No Rewards",
+            "NIL"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "Milestone Rewards",
+        "headers": [
+          "Annual Spends",
+          "Milestone Voucher",
+          "Incremental Return"
+        ],
+        "rows": [
+          [
+            "₹75,000",
+            "₹1500",
+            "2%"
+          ],
+          [
+            "₹1.5 Lakh",
+            "₹2250",
+            "1.5%"
+          ],
+          [
+            "₹3 Lakh",
+            "₹5000",
+            "1.67%"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "Discount Offers with Reliance SBI Card PRIME",
+        "headers": [
+          "Brand",
+          "Offer",
+          "Maximum Benefit"
+        ],
+        "rows": [
+          [
+            "Reliance Trends",
+            "10% instant discount",
+            "Rs 750 per month"
+          ],
+          [
+            "Ajio",
+            "5% instant discount",
+            "Rs 1000 per month on orders above Rs 2999"
+          ],
+          [
+            "Centro",
+            "10% instant discount",
+            "Rs 2000 per month"
+          ],
+          [
+            "Zivame/Clovia",
+            "5% instant discount",
+            "Rs 1000 per month"
+          ],
+          [
+            "Coverstory",
+            "10% instant discount",
+            "Rs 1000 per month"
+          ],
+          [
+            "Jio Mart",
+            "5% cashback",
+            "Rs 1000 per month"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "Complimentary Airport Lounge Access",
+        "headers": [
+          "Lounge Type",
+          "Complimentary Access",
+          "Limits"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "8 visits per year",
+            "Maximum 2 visits per quarter"
+          ],
+          [
+            "International Airport Lounges",
+            "4 visits per year via Priority Pass",
+            "Maximum 2 visits per quarter"
+          ],
+          [
+            "Priority Pass Membership",
+            "Complimentary",
+            "Available for primary cardholders"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-6",
+        "kind": "fees_and_charges",
+        "title": "Other Key Benefits & Charges",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1% fuel surcharge waiver on fuel transactions between ₹500 and ₹4000 across all petrol pumps in India"
+          ],
+          [
+            "Maximum Fuel Waiver",
+            "₹100 per statement cycle"
+          ],
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST"
+          ],
+          [
+            "Finance Charges",
+            "Up to 3.75% per month (45% annually)"
+          ]
+        ]
+      }
+    ]
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "spend_criteria": "No spend criteria highlighted",
+      "add_on_allowed": false,
+      "summary": "8 complimentary domestic airport lounge visits/yr (max 2/quarter)"
+    },
+    "international": {
+      "program": "Priority Pass",
+      "visits_per_year": 4,
+      "spend_criteria": "Standard issuer terms",
+      "add_on_allowed": false,
+      "guest_fee": "US$27-$35 per guest",
+      "summary": "4 complimentary international Priority Pass visits/yr (max 2/quarter)"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No complimentary railway lounge visits listed"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": true,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 2999,
+    "annual_fee_inr": 2999,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 300000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% (min ₹500)",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver (₹500–₹4,000 txns)",
+    "redemption_fee": "₹99 + GST on catalog redemptions (where applicable)",
+    "add_on_card_fee": "₹0",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Reliance Industries and SBI Card have partnered to launch two co-branded credit cards focused on shopping rewards and lifestyle benefits. The premium variant,",
+    "highlights": [
+      "Up to 2.5% accelerated value in Online Shopping",
+      "8 complimentary domestic airport lounge visits/yr (max 2/quarter)",
+      "Forex markup 3.5% · Network: Visa / RuPay"
+    ],
+    "welcome_benefit": [],
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want strong rewards in Online Shopping"
+    ],
+    "faqs": [
+      {
+        "question": "Is the Reliance SBI Card PRIME lifetime free?",
+        "answer": "No. The joining fee is ₹2,999 + GST and the annual fee is ₹2,999 + GST. The annual fee is waived when you spend ₹3 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the Reliance SBI Card PRIME?",
+        "answer": "It's 3.5% plus GST on spends in a foreign currency. That's the usual rate, so it isn't the best card to use abroad."
+      },
+      {
+        "question": "Does the Reliance SBI Card PRIME give airport lounge access?",
+        "answer": "Yes. You get 8 domestic visits a year, plus 4 international visits a year."
+      },
+      {
+        "question": "How much can I earn with the Reliance SBI Card PRIME?",
+        "answer": "You earn about 0.5% back in reward points on regular spends, and up to 2.5% on its bonus categories. Check the review above for the exact categories and monthly caps."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.0,
+    "editorial_rating": 4.0,
+    "aggregator_rating": 4.0,
+    "category_sub_ratings": {
+      "Rewards": 4.0,
+      "Fees & Value": 4.2,
+      "Travel & Lounges": 4.1
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Reliance Industries and SBI Card have partnered to launch two co-branded credit cards focused on shopping rewards and lifestyle benefits. The premium variant,",
+    "pros": [
+      "Up to 2.5% value on Online Shopping spends",
+      "8 complimentary domestic airport lounge visits/yr (max 2/quarter)"
+    ],
+    "cons": [
+      "Category exclusions apply on utilities, fuel, rent & government MCCs"
+    ],
+    "best_for_whom": "Online Shopping & SBI Card cardholders",
+    "not_ideal_for": "Fuel or tax-heavy spenders seeking flat rewards",
+    "recommended_monthly_spend_inr": "₹15,000 - ₹40,000",
+    "verdict": "Strong 2026 option for online shopping"
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.0,
+    "reddit_mentions": 18,
+    "sentiment_summary": "Viewed positively on r/CreditCardsIndia for online shopping utility.",
+    "key_threads": [],
+    "practical_community_warnings": [],
+    "optimization_tips": []
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 5.0,
+    "last_devalued_on": null,
+    "devaluation_history": [],
+    "watch_out_vectors": [
+      "Monitor quarterly spend gates & monthly category caps"
+    ]
+  },
+  "alternate_options": [],
+  "eligibility_detailed": {
+    "occupation": "Salaried / Self-Employed",
+    "age_range": "21–60 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": "Subject to internal bank underwriting & city serviceability."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

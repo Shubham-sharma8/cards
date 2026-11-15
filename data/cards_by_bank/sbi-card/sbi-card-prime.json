@@ -71,7 +71,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -160,7 +162,116 @@
         "Renewal fee waiver on annual spends of Rs. 3 Lakh",
         "Milestone benefits worth Rs. 11,000 in a year on spending Rs. 5 Lakh or more"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "SBI Prime Credit Card: At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Best For",
+            "Everyday lifestyle spending and milestone rewards."
+          ],
+          [
+            "Annual Fee",
+            "₹2999 + GST"
+          ],
+          [
+            "Fee Waiver",
+            "Waived on annual spends of ₹3 Lakhs."
+          ],
+          [
+            "Welcome Gift",
+            "₹3000 e-voucher."
+          ],
+          [
+            "Top Rewards",
+            "10 Reward Points per ₹100 on dining, groceries, and movies."
+          ],
+          [
+            "Lounge Access",
+            "8 Domestic visits and 4 International Priority Pass visits yearly."
+          ],
+          [
+            "Foreign Forex Markup",
+            "3.50% + GST"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "SBI Prime Credit Card Review: Fees and Welcome Benefits",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹2999 + GST ~₹3539"
+          ],
+          [
+            "Welcome Benefit",
+            "₹3000 Gift Voucher"
+          ],
+          [
+            "Annual Fee",
+            "₹2999 + GST ~₹3539"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹3 Lakh Annual Spends"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "SBI Prime Credit Card Review: Rewards Structure",
+        "headers": [
+          "Spend Category",
+          "Reward Points",
+          "Effective Return"
+        ],
+        "rows": [
+          [
+            "Utility Bills (via Standing Instructions)",
+            "20 RP per ₹100 (Capped at 3000 RP per month or ₹15,000 spend per month)",
+            "5.0%"
+          ],
+          [
+            "Birthday Spends (Day before, on, and day after)",
+            "20 RP per ₹100 (Capped at 2000 RP per year or ₹10,000 spend per year)",
+            "5.0%"
+          ],
+          [
+            "Dining, Groceries, Departmental Stores & Movies",
+            "10 RP per ₹100",
+            "2.5%"
+          ],
+          [
+            "Other Retail Spends",
+            "2 RP per ₹100",
+            "0.5%"
+          ],
+          [
+            "Rent, Fuel, Wallet Loads & Government Spends",
+            "NIL",
+            "0%"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -919,6 +1030,14 @@
       {
         "q": "How to avoid the annual fee on SBI Prime Credit Card?",
         "a": "SBI Prime Credit Card charges an annual fee of Rs. 2,999. However, you can avail renewal fee waiver by spending Rs. 3 Lakh in a year."
+      },
+      {
+        "question": "What is the reward rate for the SBI Prime Credit Card?",
+        "answer": "The card offers 10 Reward Points per ₹100 on dining, groceries, departmental stores, and movies (2.5% return). Utility bill payments via standing instructions earn 20 Reward Points per ₹100 (5% return), capped at 3000 points per month."
+      },
+      {
+        "question": "Does SBI Prime offer airport lounge access?",
+        "answer": "Yes, it provides 8 complimentary domestic lounge visits per year (max 2 per quarter) and 4 international lounge visits per year via a complimentary Priority Pass membership (max 2 per quarter). There is currently no minimum spend required to unlock these visits."
       }
     ]
   },

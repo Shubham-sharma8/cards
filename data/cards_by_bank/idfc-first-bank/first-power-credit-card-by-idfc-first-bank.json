@@ -61,7 +61,9 @@
         "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -160,7 +162,266 @@
         "5% savings On Grocery & Utility Spends: 30 reward points per Rs. 150 spent, up to 400 rewards per statement cycle",
         "26.67% bonus reward points: On hotel bookings made via IDFC FIRST Bank Mobile App"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "other_table-0",
+        "kind": "other_table",
+        "title": "IDFC FIRST Power+ Credit Card: Key Benefits",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "HPCL fuel savings",
+            "Up to 6.5% value – 5% in IDFC FIRST Reward Points + 1.5% in HP Pay Happy Coins"
+          ],
+          [
+            "Grocery & utility rewards",
+            "5% value"
+          ],
+          [
+            "IDFC FIRST FASTag",
+            "5% value"
+          ],
+          [
+            "Forex markup",
+            "0%"
+          ],
+          [
+            "Domestic lounge access",
+            "1 complimentary visit per quarter, subject to the monthly spend requirement"
+          ],
+          [
+            "Movie offer",
+            "25% off up to ₹100 once a month, subject to eligibility"
+          ],
+          [
+            "Joining fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual fee waiver",
+            "On spending ₹1.5 lakh in the previous anniversary year"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees, Welcome and Renewal Benefits",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual fee",
+            "₹499 + GST"
+          ],
+          [
+            "Welcome benefit",
+            "₹500 gift voucher on the first HPCL fuel transaction of ₹500 or more within 60 days of card setup"
+          ],
+          [
+            "First EMI benefit",
+            "5% cashback up to ₹1000 on the first EMI conversion within 30 days of card setup"
+          ],
+          [
+            "Renewal benefit",
+            "Annual fee reversed on spending ₹1.5 lakh in the previous anniversary year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Reward Points",
+        "headers": [
+          "Spend category",
+          "Reward rate",
+          "Value back",
+          "Spend cap"
+        ],
+        "rows": [
+          [
+            "HPCL fuel",
+            "30 RP per ₹150",
+            "5%",
+            "₹12,000 per statement cycle"
+          ],
+          [
+            "HP Pay Happy Coins",
+            "6 Happy Coins per ₹100",
+            "1.5%",
+            "₹10,000 per statement cycle, max 600 Happy Coins per month"
+          ],
+          [
+            "Grocery & utility",
+            "30 RP per ₹150",
+            "5%",
+            "₹2000 per statement cycle"
+          ],
+          [
+            "IDFC FIRST FASTag",
+            "30 RP per ₹150",
+            "5%",
+            "₹1000 per statement cycle"
+          ],
+          [
+            "Other eligible retail spends",
+            "3 RP per ₹150",
+            "0.5%",
+            "No RP cap"
+          ],
+          [
+            "Eligible UPI spends",
+            "3 RP per ₹150",
+            "0.5%",
+            "No RP cap"
+          ],
+          [
+            "Insurance premiums, non-HPCL fuel. For UPI spends, fuel, utility, grocery and IDFC FIRST FASTag transactions are also excluded.",
+            "No rewards",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic lounge access",
+            "1 complimentary visit per quarter"
+          ],
+          [
+            "Spend requirement",
+            "₹20,000 in the preceding calendar month"
+          ],
+          [
+            "Qualification",
+            "Spend in one month unlocks lounge access for the following month"
+          ],
+          [
+            "Add-on cards",
+            "Benefit is shared across primary and add-on cards"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "Movie Benefit",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Movie discount",
+            "25% off up to ₹100"
+          ],
+          [
+            "Frequency",
+            "Once per month"
+          ],
+          [
+            "Eligibility",
+            "At least one transaction in the previous calendar month"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-5",
+        "kind": "reward_structure",
+        "title": "Travel & Shop Rewards",
+        "headers": [
+          "Booking",
+          "Bonus Reward Points",
+          "Base Earn",
+          "Total Reward Points",
+          "Value at ₹0.25/RP"
+        ],
+        "rows": [
+          [
+            "Hotels",
+            "26.7% RP",
+            "Up to 2% RP",
+            "Up to 28.7% RP",
+            "Up to 7.18%"
+          ],
+          [
+            "Flights",
+            "13.3% RP",
+            "Up to 2% RP",
+            "Up to 15.3% RP",
+            "Up to 3.83%"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-6",
+        "kind": "redemption_catalog",
+        "title": "IDFC First Bank HPCL Power+ Credit Card Reward Redemption",
+        "headers": [
+          "Redemption detail",
+          "Limit"
+        ],
+        "rows": [
+          [
+            "Reward Point value",
+            "₹0.25 per RP"
+          ],
+          [
+            "Maximum points usage on Travel & Shop",
+            "Up to 70% of booking value"
+          ],
+          [
+            "Monthly redemption cap",
+            "1,00,000 RP"
+          ],
+          [
+            "Annual redemption cap",
+            "2,00,000 RP"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-7",
+        "kind": "other_table",
+        "title": "Forex Markup",
+        "headers": [
+          "Particular",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex markup",
+            "0%"
+          ],
+          [
+            "Applicable spends",
+            "International transactions billed in foreign currency"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -873,6 +1134,14 @@
       {
         "q": "How to get IDFC First Power RuPay Credit Card?",
         "a": "IDFC FIRST Bank is a credit card partner with Issuer / Market. To apply for this card you can fill the form on the top of this page by providing your mobile number."
+      },
+      {
+        "question": "Is the IDFC FIRST Power+ Credit Card worth it?",
+        "answer": "It can be a good pick if you refuel at HPCL regularly and can use the grocery, utility and FASTag bonus categories."
+      },
+      {
+        "question": "How much can you earn on HPCL fuel spends?",
+        "answer": "You can get up to 6.5% value on eligible HPCL fuel spends. This includes 5% through Reward Points and 1.5% through HP Pay Happy Coins."
       }
     ]
   },
@@ -897,13 +1166,18 @@
       "Up to 26.67% bonus reward points on travel",
       "Up to 5% savings on IDFC FIRST FASTag, groceries & utilities",
       "Zero forex mark-up fee",
-      "Movie discount every month"
+      "Movie discount every month",
+      "Good value for regular HPCL users",
+      "5% return on groceries, utilities and FASTag within the monthly caps"
     ],
     "cons": [
       "Low reward redemption value of just Rs. 0.25",
       "Rewards on fuel spends limited to just HPCL branded fuel purchase",
       "No fuel surcharge waiver",
-      "Lounge access is spend-based"
+      "Lounge access is spend-based",
+      "The 6.5% fuel return comes with multiple conditions and caps",
+      "Direct fuel rewards depend on eligible HPCL merchant IDs",
+      "Grocery, utility and FASTag caps are quite low"
     ],
     "best_for_whom": "International travelers and foreign SaaS/e-commerce buyers avoiding 3.5%+GST markup",
     "not_ideal_for": "Domestic-only spenders seeking peak local e-commerce cashback",

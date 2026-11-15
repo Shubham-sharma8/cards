@@ -158,7 +158,7 @@
     "domestic": {
       "visits_per_year": 999,
       "visits_per_quarter": 999,
-      "spend_criteria": "Rs. 40,000 in previous quarter",
+      "spend_criteria": "Revised spend-based eligibility effective 15 July 2026",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "Unlimited complimentary domestic airport lounge visits on spending Rs. 40,000 in previous quarter"
@@ -883,6 +883,11 @@
         "q": "Can I redeem reward points earned through BOBCARD Tiara Credit Card for cashback?",
         "a": "Yes, you can redeem reward points as a statement credit, where 1 reward point is equivalent to Rs. 0.25."
       }
+    ],
+    "program_updates_2026": [
+      "15 July 2026 Update: BOBCARD transitioned unlimited lounge visits on Eterna & Tiara to revised quarterly spend-based eligibility.",
+      "15 July 2026 Update: BOBCARD transitioned unlimited lounge visits on Eterna & Tiara to revised quarterly spend-based eligibility.",
+      "15 July 2026 Update: BOBCARD transitioned unlimited lounge visits on Eterna & Tiara to revised quarterly spend-based eligibility."
     ]
   },
   "ratings": {

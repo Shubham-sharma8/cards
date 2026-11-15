@@ -39,7 +39,9 @@
     "bank_url": "https://www.axis.bank.in/cards/credit-card",
     "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -129,7 +131,122 @@
         "7% cashback on monthly online spends above Rs. 40,000 ( Rs. 2,150)",
         "0.5% cashback on utility spends, up to Rs. 100 in a month"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Axis Bank Cashback Credit Card Benefits and Key Features",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Cashback Credit Card"
+          ],
+          [
+            "Issuer",
+            "Axis Bank"
+          ],
+          [
+            "Joining Fee",
+            "₹1000 + GST (₹1180)"
+          ],
+          [
+            "Annual Fee",
+            "₹1000 + GST (₹1180)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On annual spends of ₹4 lakh"
+          ],
+          [
+            "Welcome Benefit",
+            "5000 EDGE Reward Points (worth ₹1000) on your first transaction"
+          ],
+          [
+            "Online Cashback",
+            "2% to 7% on eligible online spends, depending on monthly spending"
+          ],
+          [
+            "Offline Cashback",
+            "Flat 0.75% on eligible offline spends"
+          ],
+          [
+            "Utility Bill Cashback",
+            "0.5%, capped at ₹100 per month"
+          ],
+          [
+            "Cashback Credit",
+            "Automatically adjusted in your next credit card statement"
+          ],
+          [
+            "Major Exclusions",
+            "Transportation & tolls, insurance, education, jewellery, government payments, wallet loads, rent and fuel transactions"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Axis Bank Cashback Credit Card Fees and Charges",
+        "headers": [
+          "Fee Type",
+          "Charges"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹1000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹4 lakh in the previous card anniversary year"
+          ],
+          [
+            "Cash Advance Fee",
+            "2.5% of the transaction amount (minimum ₹500)"
+          ],
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Axis Bank Cashback Credit Card Cashback Structure Explained",
+        "headers": [
+          "Monthly Eligible Online Spend",
+          "Cashback Rate",
+          "Maximum Cashback"
+        ],
+        "rows": [
+          [
+            "Up to ₹5000",
+            "2%",
+            "₹100"
+          ],
+          [
+            "₹5001 to ₹40,000",
+            "5%",
+            "₹1750"
+          ],
+          [
+            "Above ₹40,000",
+            "7%",
+            "₹2150"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -247,6 +364,18 @@
       {
         "q": "What is the forex markup fee on this credit card?",
         "a": "The card charges a forex markup fee of 3.5% of the transaction amount."
+      },
+      {
+        "question": "Is the Axis Bank Cashback Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹1,000 + GST and the annual fee is ₹1,000 + GST. The annual fee is waived when you spend ₹4 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the Axis Bank Cashback Credit Card?",
+        "answer": "It's 3.5% plus GST on spends in a foreign currency. That's the usual rate, so it isn't the best card to use abroad."
+      },
+      {
+        "question": "How much can I earn with the Axis Bank Cashback Credit Card?",
+        "answer": "You earn about 2% back as cashback on regular spends, and up to 7% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
     ]
   },
@@ -268,13 +397,18 @@
       "Up to 7% cashback across online spends",
       "Base cashback on utility spends",
       "25% dining discount through EazyDiner",
-      "Welcome benefit worth the joining fee"
+      "Welcome benefit worth the joining fee",
+      "Earn up to 7% cashback on eligible online spends.",
+      "Up to ₹4000 cashback can be earned in a statement cycle."
     ],
     "cons": [
       "Complicated tier-based cashback structure",
       "Minimal cashback on offline spends",
       "No cashback on wallet, rent & fuel purchases",
-      "No fuel surcharge waiver"
+      "No fuel surcharge waiver",
+      "The tiered cashback structure is more complicated than flat cashback cards.",
+      "You need to spend over ₹40,000 online in a statement cycle to unlock the highest cashback rate.",
+      "Fuel, rent, insurance, government payments, jewellery, wallet loads, education, and transportation transactions do not earn cashback."
     ],
     "best_for_whom": "Axis Bank customers seeking cashback rewards & bank-specific discount offers",
     "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",

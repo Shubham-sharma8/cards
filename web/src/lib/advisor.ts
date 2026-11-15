@@ -136,8 +136,8 @@ export const SHARED_CAP_POOLS: Record<
         "groceries_quick_commerce",
         "travel_flights_hotels",
       ],
-      combinedCapInr: 5000,
-      label: "5% online cashback across portals capped at ₹5,000/mo (1% after)",
+      combinedCapInr: 2000,
+      label: "5% online cashback across portals capped at ₹2,000/cycle (Apr 2026; 1% after up to ₹2,000 offline)",
     },
   ],
   yes_bank_paisabazaar_paisasave_credit_card: [
@@ -1185,7 +1185,7 @@ export function scoreCardsForProfile(
 /**
  * Evaluates a 2-Card Combo WITH both per-category AND shared-cap pool spillover:
  * When Card A saturates an individual monthly cap OR its shared monthly reward pool
- * (e.g., SBI Cashback ₹5,000/mo online pool or HSBC Live+ ₹1,000/mo pool),
+ * (e.g., SBI Cashback ₹2,000/cycle online pool or HSBC Live+ ₹1,200/mo pool),
  * remaining spend in that bucket automatically spills over to Card B!
  */
 export function evaluateTwoCardCombo(

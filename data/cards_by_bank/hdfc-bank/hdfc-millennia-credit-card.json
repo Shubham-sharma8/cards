@@ -37,7 +37,9 @@
     "bank_url": "https://www.hdfc.bank.in/credit-cards",
     "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -128,7 +130,137 @@
       "milestone_slabs": [
         "Rs. 1,000 gift voucher on Rs. 1,00,000 spend per calendar quarter"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "other_table-0",
+        "kind": "other_table",
+        "title": "HDFC Bank Millennia Credit Card: Key Details",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining fee",
+            "₹1000+GST"
+          ],
+          [
+            "Welcome benefit",
+            "1000 CashPoints when the joining fee is paid"
+          ],
+          [
+            "Renewal fee",
+            "₹1000+GST"
+          ],
+          [
+            "Renewal fee waiver",
+            "Spend ₹1 lakh in the preceding 12 months"
+          ],
+          [
+            "Maximum Cashback",
+            "5% at ten listed online merchants"
+          ],
+          [
+            "Regular Cashback",
+            "1% on other eligible purchases"
+          ],
+          [
+            "Quarterly milestone",
+            "₹1000 gift voucher or HOI airport lounge voucher on spending ₹1 lakh in a calendar quarter"
+          ],
+          [
+            "Foreign currency markup",
+            "3.5%+GST"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "HDFC Bank Millennia Credit Card Fees & Welcome Benefit",
+        "headers": [
+          "Benefit / Fee",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Welcome Benefit",
+            "1000 CashPoints when the joining fee is paid"
+          ],
+          [
+            "Joining Fee",
+            "₹1000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹1000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹1 lakh or more in the previous membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "HDFC Bank Millennia Cashback Program",
+        "headers": [
+          "Spend Category",
+          "Cashback",
+          "Monthly Cap",
+          "Remarks"
+        ],
+        "rows": [
+          [
+            "Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber & Zomato",
+            "5%",
+            "₹1,000 CashPoints",
+            "Direct non-EMI purchases only. Gift cards, vouchers, wallet loads, prepaid instruments, SmartBuy and PayZapp transactions are not eligible for 5%. Uber earns 5% only when processed under the eligible transport MCC."
+          ],
+          [
+            "Other Eligible Retail Spends",
+            "1%",
+            "₹1,000 CashPoints",
+            "Includes most eligible online and offline retail spends."
+          ],
+          [
+            "Fuel, Rent, Government Payments, EMI Transactions, Cash Advances, Fees & Charges",
+            "Nil",
+            "—",
+            "Cashback is not applicable."
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-3",
+        "kind": "redemption_catalog",
+        "title": "Redeeming Millennia Reward Points",
+        "headers": [
+          "Redemption option",
+          "Value",
+          "Important condition"
+        ],
+        "rows": [
+          [
+            "Statement credit",
+            "1 CashPoint = ₹1",
+            "Minimum 500 points; ₹50+GST redemption fee"
+          ],
+          [
+            "Flights and hotels through SmartBuy",
+            "1 CashPoint = ₹0.3",
+            "Points can cover up to 50% of the booking"
+          ],
+          [
+            "Reward catalogue",
+            "Up to ₹0.30 per point",
+            "Up to 70% of select products or vouchers can be paid with points"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -281,6 +413,9 @@
         "q": "Can I use WhatsApp or SMS to contact HDFC Bank for Millennia Credit Card issues?",
         "a": "Yes. You can use both the channels. * To WhatsApp your queries, save the number 70700 22222 in your contacts and send a WhatsApp message saying ‘Hi’ from your registered mobile number. * You can also send your query via SMS to 5676712 from your registered mobile number."
       }
+    ],
+    "program_updates_2026": [
+      "Complimentary lounge access by swiping the card was discontinued in December 2023. Lounge access is now available only through the quarterly milestone benefit."
     ]
   },
   "ratings": {
@@ -302,13 +437,19 @@
       "Up to 5% cashback on major lifestyle-related online spends",
       "Bonus points worth the joining fee on activation",
       "Multiple redemption options with redemption value of up to 1:1",
-      "Annual fee waiver condition is quite easily achievable"
+      "Annual fee waiver condition is quite easily achievable",
+      "5% cashback at ten popular online merchants.",
+      "Separate cashback caps for the 5% and 1% categories.",
+      "₹1 lakh annual fee waiver is easy to achieve."
     ],
     "cons": [
       "Monthly capping on cashback earning",
       "Low cashback rate for non-accelerated category",
       "Exclusion of major everyday spends like utilities and rent from cashback earning",
-      "Lounge access benefit is optional and spend-based"
+      "Lounge access benefit is optional and spend-based",
+      "The 5% category is limited to ten merchants and capped at 1000 points per month.",
+      "Cashback is not automatic and statement-credit redemption costs ₹50+GST.",
+      "No direct complimentary airport lounge access."
     ],
     "best_for_whom": "Young salaried users wanting an easy Rs. 1L waiver core HDFC card for Amazon/Flipkart/Swiggy/Zomato/Uber (up to Rs. 20k/mo) & HDFC sales",
     "not_ideal_for": "Travelers seeking direct airport lounge access or spends >Rs. 20k/mo on 5% brands",

@@ -1,0 +1,543 @@
+{
+  "identity": {
+    "card_id": "sbi_card_irctc_sbi_premier_credit_card",
+    "card_name": "IRCTC SBI Card PREMIER",
+    "bank": "SBI Card",
+    "bank_slug": "sbi-card",
+    "card_slug": "irctc-sbi-premier-credit-card",
+    "card_network": "RuPay Select",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "RuPay & UPI"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-15T06:00:00+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/sbi-card/irctc-sbi-premier-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 0.96,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#3B3154",
+      "secondary_hex": "#3B3154",
+      "wash_hex": "#D3D1D9",
+      "soft_bg_hex": "#EBEAED",
+      "border_hex": "#DCE5E1",
+      "ink_on_soft_hex": "#3B3154",
+      "is_dark_card": true,
+      "source": "cardmaven_asset"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,500",
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "RuPay & UPI"
+    ],
+    "requirement_keywords": [
+      "ard",
+      "ay",
+      "iles",
+      "irport",
+      "ounge",
+      "ravel",
+      "u"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback / Reward Points",
+    "base_reward_rate_pct": 0.75,
+    "accelerated_reward_rate_pct": 10.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X Reward Points (~16.6%!) on GST, Income Tax, Advance Tax, PayZapp/SmartBuy business spends & vendor utility bills (Requires Rs. 50,000 retail spend/statement cycle)",
+      "5 RP per Rs. 150 (3.33%) on all other business & personal retail spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 0.75,
+      "amazon_flipkart_myntra": 0.75,
+      "dining_swiggy_zomato": 2.25,
+      "groceries_quick_commerce": 0.75,
+      "travel_flights_hotels": 10.0,
+      "upi_scan_and_pay": 0.75,
+      "utilities_bills_telecom": 2.25,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -2.75,
+      "offline_general_other": 0.75
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "3.33% base + 5X (16.5%) on Income Tax, GST, PayZapp utilities & SmartBuy business spends (business 5X bonus capped at 7,500 RP/cycle on >= Rs. 50,000 monthly spend); Insurance capped 5,000 RP/mo."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 1499,
+      "annual_fee_inr": 1499,
+      "annual_fee_with_gst_inr": 1769,
+      "fee_waiver_spend_inr": 200000,
+      "monthly_spend_for_waiver_inr": 16667,
+      "milestone_slabs": []
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IRCTC SBI Premier Credit Card Key Highlights",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹2 lakh annual spends"
+          ],
+          [
+            "Welcome Benefit",
+            "1500 Reward Points"
+          ],
+          [
+            "Best Reward",
+            "Up to 10% value back on AC train bookings"
+          ],
+          [
+            "IRCTC Air",
+            "5% value back"
+          ],
+          [
+            "Railway Lounge Access",
+            "8 visits/year (2 per quarter)"
+          ],
+          [
+            "Milestone Benefits",
+            "Up to 7500 bonus Reward Points"
+          ],
+          [
+            "Railway Transaction Fee",
+            "1% waiver"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver"
+          ],
+          [
+            "Best For",
+            "Frequent IRCTC train travellers"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "IRCTC SBI Premier Credit Card Fees & Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "1500 Reward Points ~₹1500"
+          ],
+          [
+            "Annual Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Annual spends of ₹2 lakh or more"
+          ],
+          [
+            "Add-on Card Fee",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "IRCTC SBI Premier Credit Card Reward Points",
+        "headers": [
+          "Spend Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "IRCTC AC Train Ticket Bookings",
+            "Up to 10% value back"
+          ],
+          [
+            "IRCTC Air Bookings",
+            "5% value back"
+          ],
+          [
+            "IRCTC eCatering",
+            "5% value back"
+          ],
+          [
+            "Dining & Standing Instructions on Utility Bills",
+            "3 Reward Points per ₹125 ~2.4%"
+          ],
+          [
+            "Other Eligible Retail Spends",
+            "1 Reward Point per ₹125 ~0.8%"
+          ],
+          [
+            "Exclusions",
+            "No Reward Points on fuel, utility bill payments (except Standing Instructions), insurance, education, government, rent, wallet loads"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "IRCTC SBI Premier Credit Card Milestone Benefits",
+        "headers": [
+          "Eligible Annual Travel Spend",
+          "Milestone Benefit"
+        ],
+        "rows": [
+          [
+            "₹50,000",
+            "2500 Reward Points"
+          ],
+          [
+            "₹1 Lakh",
+            "Additional 5000 Reward Points"
+          ],
+          [
+            "₹2 Lakh",
+            "Annual fee waiver on renewal"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "IRCTC SBI Premier Credit Card Railway Lounge Access",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Complimentary Visits",
+            "8 per calendar year"
+          ],
+          [
+            "Quarterly Limit",
+            "2 visits per quarter"
+          ],
+          [
+            "Eligible Cardholder",
+            "Primary cardholder only"
+          ],
+          [
+            "Authentication Charge",
+            "₹2 per visit"
+          ],
+          [
+            "Access Requirement",
+            "Valid train ticket and the IRCTC SBI Premier Credit Card"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-5",
+        "kind": "other_table",
+        "title": "Travel Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Railway Booking Transaction Charge Waiver",
+            "1% waiver on train tickets booked through IRCTC"
+          ],
+          [
+            "IRCTC Air Transaction Charge Waiver",
+            "1.8% waiver on flight bookings made through IRCTC Air"
+          ],
+          [
+            "Eligible Platforms",
+            "www.irctc.co.in , IRCTC Rail Connect App and www.air.irctc.co.in"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-6",
+        "kind": "redemption_catalog",
+        "title": "Reward Redemption",
+        "headers": [
+          "Redemption Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Reward Point Value",
+            "₹1 per Reward Point"
+          ],
+          [
+            "Credited To",
+            "Linked IRCTC Loyalty Account"
+          ],
+          [
+            "Transfer of Reward Points",
+            "Automatic"
+          ],
+          [
+            "Redemption",
+            "Eligible IRCTC train ticket bookings"
+          ]
+        ]
+      }
+    ]
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "spend_criteria": "Railway lounge focused (no airport lounge)",
+      "add_on_allowed": false,
+      "summary": "8 complimentary IRCTC Railway Lounge visits/year (max 2/quarter)"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Standard issuer terms",
+      "add_on_allowed": false,
+      "guest_fee": "US$27-$35 per guest",
+      "summary": "No complimentary international airport lounge"
+    },
+    "railway": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "summary": "8 complimentary IRCTC Executive Railway Lounge visits/yr (2/quarter)"
+    },
+    "has_domestic_lounge": false,
+    "has_international_lounge": false,
+    "has_railway_lounge": true,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 1499,
+    "annual_fee_inr": 1499,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 200000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% (min ₹500)",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver (₹500–₹4,000 txns)",
+    "redemption_fee": "₹99 + GST on catalog redemptions (where applicable)",
+    "add_on_card_fee": "₹0",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Read our IRCTC SBI Premier Credit Card review covering reward rates, railway lounge access, IRCTC booking benefits, annual fee, milestone rewards, drawbacks and whether it is worth applying in 2026.",
+    "highlights": [
+      "Up to 10.0% accelerated value in Travel & Miles",
+      "8 complimentary IRCTC Railway Lounge visits/year (max 2/quarter)",
+      "Forex markup 3.5% · Network: RuPay Select"
+    ],
+    "welcome_benefit": [],
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want strong rewards in Travel & Miles"
+    ],
+    "faqs": [
+      {
+        "question": "Is the IRCTC SBI Premier Credit Card worth it?",
+        "answer": "If you regularly book AC train tickets through IRCTC, the IRCTC SBI Premier Credit Card is one of the better options available. Higher rewards on railway bookings, ₹1 per Reward Point redemption, railway lounge access and milestone benefits can comfortably offset the annual fee."
+      },
+      {
+        "question": "What is the annual fee of the IRCTC SBI Premier Credit Card?",
+        "answer": "The card has a joining fee and annual fee of ₹1499 + GST. The renewal fee is waived on ₹2 lakh of eligible annual spends."
+      },
+      {
+        "question": "How much is one Reward Point worth?",
+        "answer": "Each Reward Point is worth ₹1 and is automatically credited to your linked IRCTC Loyalty Account, where it can be redeemed for eligible IRCTC train ticket bookings."
+      },
+      {
+        "question": "Does the IRCTC SBI Premier Credit Card offer airport lounge access?",
+        "answer": "No. The card does not offer airport lounge access. Instead, it provides 8 complimentary visits every calendar year to participating IRCTC Executive and railway lounges."
+      },
+      {
+        "question": "Does the IRCTC SBI Premier Credit Card earn rewards on Tatkal bookings?",
+        "answer": "Yes. Eligible Tatkal bookings made through IRCTC earn Reward Points, provided the booking satisfies the applicable reward terms and the primary cardholder is travelling on the ticket."
+      },
+      {
+        "question": "Can I earn rewards when booking train tickets for my family?",
+        "answer": "Yes. If the primary cardholder is one of the passengers, accelerated rewards are calculated on the total booking amount, including the fares of all co-travellers."
+      },
+      {
+        "question": "What transactions do not earn Reward Points?",
+        "answer": "Reward Points are not awarded on transactions such as fuel, rent, education, insurance, government payments, wallet loads and other excluded categories specified by SBI Card."
+      },
+      {
+        "question": "What is the forex markup on the IRCTC SBI Premier Credit Card?",
+        "answer": "The card charges a forex markup of 3.5% + GST, making it better suited for domestic railway travel than international spending."
+      },
+      {
+        "question": "Who should apply for the IRCTC SBI Premier Credit Card?",
+        "answer": "The card is best suited for frequent train travellers who book through IRCTC and can make use of the higher railway rewards, ₹1 per Reward Point redemption value, railway lounge access and milestone benefits."
+      },
+      {
+        "question": "Which is better: IRCTC SBI Premier or HDFC IRCTC Credit Card?",
+        "answer": "The IRCTC SBI Premier Credit Card offers higher rewards, railway lounge access and milestone benefits, making it a better choice for frequent railway travellers. The HDFC IRCTC Credit Card is a lower-fee alternative for occasional users."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.0,
+    "editorial_rating": 4.0,
+    "aggregator_rating": 4.0,
+    "category_sub_ratings": {
+      "Rewards": 4.0,
+      "Fees & Value": 4.2,
+      "Travel & Lounges": 3.2
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Read our IRCTC SBI Premier Credit Card review covering reward rates, railway lounge access, IRCTC booking benefits, annual fee, milestone rewards, drawbacks and whether it is worth applying in 2026.",
+    "pros": [
+      "Up to 10.0% value on Travel & Miles spends",
+      "8 complimentary IRCTC Railway Lounge visits/year (max 2/quarter)",
+      "Up to 10% value back on eligible AC train ticket bookings through IRCTC.",
+      "Reward Points are automatically credited to the linked IRCTC Loyalty Account, with each point worth ₹1 on eligible train ticket bookings.",
+      "8 complimentary railway lounge visits every calendar year.",
+      "Up to 7,500 bonus Reward Points on achieving eligible travel spend milestones."
+    ],
+    "cons": [
+      "Category exclusions apply on utilities, fuel, rent & government MCCs",
+      "Average reward rate on regular retail spending.",
+      "Reward Points are largely restricted to the IRCTC ecosystem.",
+      "No airport lounge access.",
+      "Accelerated rewards and milestone benefits are subject to eligibility conditions and excluded categories."
+    ],
+    "best_for_whom": "Travel & Miles & SBI Card cardholders",
+    "not_ideal_for": "Fuel or tax-heavy spenders seeking flat rewards",
+    "recommended_monthly_spend_inr": "₹15,000 - ₹40,000",
+    "verdict": "Strong 2026 option for travel & miles"
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.0,
+    "reddit_mentions": 18,
+    "sentiment_summary": "Viewed positively on r/CreditCardsIndia for travel & miles utility.",
+    "key_threads": [],
+    "practical_community_warnings": [],
+    "optimization_tips": []
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 5.0,
+    "last_devalued_on": null,
+    "devaluation_history": [],
+    "watch_out_vectors": [
+      "Monitor quarterly spend gates & monthly category caps"
+    ]
+  },
+  "alternate_options": [],
+  "eligibility_detailed": {
+    "occupation": "Salaried / Self-Employed",
+    "age_range": "21–60 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": "Subject to internal bank underwriting & city serviceability."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

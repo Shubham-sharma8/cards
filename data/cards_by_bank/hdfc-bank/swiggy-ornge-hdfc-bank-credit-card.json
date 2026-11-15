@@ -39,7 +39,9 @@
     "bank_url": "https://www.hdfc.bank.in/credit-cards",
     "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-ornge-hdfc-bank-credit-card/pdf/mitc-in-english-4th-march-2026.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -136,7 +138,125 @@
         "Renewal fee waived on reaching Rs. 1.5 lakh annual spends in the previous year",
         "Joining bonus of Swiggy membership worth more than the joining fee amount"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Swiggy Ornge HDFC Bank Credit Card: Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST (₹590), lifetime free on most offers"
+          ],
+          [
+            "Welcome Benefit",
+            "12 months Swiggy One membership"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST (₹590), nil if issued lifetime free"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹1.5 lakh spends in a card year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Swiggy Ornge HDFC Bank Credit Card Cashback",
+        "headers": [
+          "Category",
+          "Cashback",
+          "Min. Transaction",
+          "Cap per Billing Cycle"
+        ],
+        "rows": [
+          [
+            "Swiggy Food, Instamart, Dineout",
+            "5%",
+            "₹249",
+            "₹1500 (shared with online)"
+          ],
+          [
+            "Select online merchants",
+            "5%",
+            "₹249",
+            "₹1500 (shared with Swiggy)"
+          ],
+          [
+            "Other eligible spends",
+            "1%",
+            "₹100",
+            "₹1000"
+          ],
+          [
+            "Fuel, rent, wallet loads, gift cards, government, gaming, education, jewellery, SmartPay, SmartBuy, EMI, foreign currency, Swiggy Money and Swiggy Liquor",
+            "0%",
+            "–",
+            "–"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-2",
+        "kind": "other_table",
+        "title": "Swiggy Ornge vs Swiggy BLCK",
+        "headers": [
+          "Feature",
+          "Swiggy Ornge",
+          "Swiggy BLCK"
+        ],
+        "rows": [
+          [
+            "Annual Fee",
+            "₹500 + GST (usually lifetime free)",
+            "₹1000 + GST"
+          ],
+          [
+            "Swiggy",
+            "5% (shared ₹1500 cap)",
+            "10% (₹1500 cap)"
+          ],
+          [
+            "Online merchants",
+            "5% (shared ₹1500 cap)",
+            "5% (₹1500 cap)"
+          ],
+          [
+            "Other spends",
+            "1% (₹1000 cap)",
+            "1% (₹1000 cap)"
+          ],
+          [
+            "Max cashback per billing cycle",
+            "₹2500",
+            "₹4000"
+          ],
+          [
+            "Welcome Benefit",
+            "12 months Swiggy One",
+            "3 months Swiggy BLCK"
+          ],
+          [
+            "Fee Waiver",
+            "₹1.5 lakh",
+            "₹2 lakh"
+          ],
+          [
+            "Income Requirement (salaried)",
+            "Above ₹20,000 a month",
+            "Above ₹1 lakh a month"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -279,6 +399,22 @@
       {
         "q": "Does Swiggy Ornge HDFC Credit Card offer any airport lounge privileges?",
         "a": "No, Swiggy Ornge HDFC Bank Credit Card does not offer any complimentary airport lounge access to its cardholders."
+      },
+      {
+        "question": "Is the Swiggy Ornge HDFC Bank Credit Card lifetime free?",
+        "answer": "It usually is. The listed joining and annual fees are ₹500 + GST each, but HDFC Bank and Swiggy offer the card lifetime free to most applicants. These offers are often time-bound or user-specific, so check the offer on the Swiggy app. If yours is not lifetime free, the annual fee is waived when you spend ₹1.5 lakh in a year."
+      },
+      {
+        "question": "What is the cashback cap on Swiggy Ornge?",
+        "answer": "Swiggy and online spends share one ₹1500 cap per billing cycle. Other spends earn 1% with a separate ₹1000 cap, so the card can return up to ₹2500 per billing cycle."
+      },
+      {
+        "question": "What is the minimum transaction for 5% cashback?",
+        "answer": "Swiggy and online transactions need to be ₹249 or more to earn 5%. Other spends need ₹100 or more to earn 1%."
+      },
+      {
+        "question": "Does the Swiggy Ornge HDFC Bank Credit Card offer airport lounge access?",
+        "answer": "No. The card does not come with any domestic or international lounge access."
       }
     ]
   },

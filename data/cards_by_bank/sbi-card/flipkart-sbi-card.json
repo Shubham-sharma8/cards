@@ -38,7 +38,9 @@
     "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
     "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Flipkart-SBI-CreditCard-TandC-Booklet.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -128,7 +130,159 @@
         "4% cashback on spends at partner merchants, including Netmeds, Zomato & more, up to Rs. 4,000 per quarter",
         "1% fuel surcharge waiver (up to Rs. 400 per month) on fuel spends between Rs. 500 and Rs. 4,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "reward_structure-0",
+        "kind": "reward_structure",
+        "title": "Cashback Benefits",
+        "headers": [
+          "Spending Category",
+          "Cashback or Discount"
+        ],
+        "rows": [
+          [
+            "Flipkart",
+            "5% cashback up to ₹4000 per quarter"
+          ],
+          [
+            "Myntra",
+            "7.5% cashback up to ₹4000 per quarter"
+          ],
+          [
+            "Cleartrip",
+            "Flights: 7% instant discount + 5% cashback Hotels: 20% instant discount + 5% cashback Buses: 10% instant discount + 5% cashback Total cashback capped at ₹4000 per quarter"
+          ],
+          [
+            "Preferred Merchants (Netmeds, Uber, PVR, Zomato)",
+            "4% cashback"
+          ],
+          [
+            "All Other Spends",
+            "1% cashback"
+          ],
+          [
+            "Rental, Fuel, Jewellery, School, Wallet, Gaming, Insurance",
+            "No Cashback"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "How to Apply for the Flipkart SBI Credit Card",
+        "headers": [
+          "Category",
+          "Monthly Spend",
+          "Cashback Rate",
+          "Cashback Earned"
+        ],
+        "rows": [
+          [
+            "Flipkart",
+            "₹10,000",
+            "5%",
+            "₹500"
+          ],
+          [
+            "Myntra",
+            "₹5000",
+            "7.5%",
+            "₹375"
+          ],
+          [
+            "Cleartrip",
+            "₹3000",
+            "5%",
+            "₹150"
+          ],
+          [
+            "Other Spends",
+            "₹7000",
+            "1%",
+            "₹70"
+          ],
+          [
+            "Total Cashback in a Month",
+            "",
+            "",
+            "₹1095"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-2",
+        "kind": "other_table",
+        "title": "Flipkart SBI Credit Card vs Flipkart Axis Credit Card",
+        "headers": [
+          "Feature",
+          "Flipkart SBI Credit Card",
+          "Flipkart Axis Credit Card"
+        ],
+        "rows": [
+          [
+            "Network",
+            "VISA",
+            "Mastercard or Visa"
+          ],
+          [
+            "Flipkart Cashback",
+            "5% cashback on Flipkart",
+            "5% cashback on Flipkart"
+          ],
+          [
+            "Myntra Cashback",
+            "7.5% cashback",
+            "7.5% cashback"
+          ],
+          [
+            "Other Partner Benefits",
+            "4% on preferred merchants and Cleartrip discounts in addition to cashback",
+            "4% on preferred merchants and 5% Cleartrip cashback (no additional discounts)"
+          ],
+          [
+            "Base Cashback",
+            "1% on all other spends",
+            "1% on all other spends"
+          ],
+          [
+            "Welcome Benefit",
+            "₹500 Flipkart voucher after the first transaction",
+            "₹500 Flipkart voucher on the first transaction, subject to current offer"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST",
+            "₹500 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Waived on annual spending of ₹3.5 lakh",
+            "Waived on annual spending of ₹3.5 lakh"
+          ],
+          [
+            "Lounge Access",
+            "Not available",
+            "Not available"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver, capped at ₹400 per statement",
+            "1% waiver, capped at ₹400 per statement"
+          ],
+          [
+            "Best For",
+            "Regular Flipkart, Myntra and Cleartrip users",
+            "Regular Flipkart, Myntra and Cleartrip users"
+          ],
+          [
+            "Issuer",
+            "SBI Card",
+            "Axis Bank"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -255,6 +409,22 @@
       {
         "q": "Is Flipkart SBI Card lifetime free?",
         "a": "No, this credit card comes with a joining and annual fee of Rs. 500 plus applicable taxes. However, from the second year onward, the annual fee can be reversed if you spend Rs. 3.5 Lakh in a year."
+      },
+      {
+        "question": "Is the Flipkart SBI Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹500 + GST and the annual fee is ₹500 + GST. The annual fee is waived when you spend ₹3.5 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the Flipkart SBI Credit Card?",
+        "answer": "It's 3.5% plus GST on spends in a foreign currency. That's the usual rate, so it isn't the best card to use abroad."
+      },
+      {
+        "question": "Does the Flipkart SBI Credit Card give airport lounge access?",
+        "answer": "No. The Flipkart SBI Credit Card doesn't include free airport lounge access."
+      },
+      {
+        "question": "How much can I earn with the Flipkart SBI Credit Card?",
+        "answer": "You earn about 1% back as cashback on regular spends, and up to 7.5% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
     ]
   },
@@ -275,13 +445,18 @@
       "Welcome benefits worth Rs. 250",
       "5% cashback on Flipkart & Cleartrip",
       "4% cashback on partner merchants",
-      "Unlimited base cashback on spends other than merchants"
+      "Unlimited base cashback on spends other than merchants",
+      "High cashback on Flipkart, Myntra and Cleartrip",
+      "Annual fee reversal on yearly spending of ₹3.5 lakh"
     ],
     "cons": [
       "Low base cashback of 1% on other spends",
       "No complimentary lounge access benefits",
       "Quarterly capping on accelerated cashback",
-      "High annual fee waiver condition for an entry-level card"
+      "High annual fee waiver condition for an entry-level card",
+      "No complimentary airport lounge access",
+      "Cashback exclusions on categories such as fuel, rent and EMI payments",
+      "Base cashback of 1% on general spends"
     ],
     "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
     "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",

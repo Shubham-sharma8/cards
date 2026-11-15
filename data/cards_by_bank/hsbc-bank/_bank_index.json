@@ -1,14 +1,13 @@
 {
   "bank": "HSBC Bank",
   "bank_slug": "hsbc-bank",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 9,
   "ltf_count": 3,
   "rupay_upi_count": 2,
   "domestic_lounge_count": 5,
   "international_lounge_count": 5,
   "railway_lounge_count": 0,
-  "golf_count": 2,
   "zero_or_low_forex_count": 3,
   "with_image_count": 9,
   "official_lounge_programs": [
@@ -37,126 +36,90 @@
       "card_name": "HSBC Live+ Credit Card",
       "card_slug": "hsbc-live-credit-card",
       "primary_category": "Dining, Groceries & Movies",
-      "card_network": "Visa Platinum",
       "annual_fee_inr": 999,
       "overall_rating": 4.76,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-live-credit-card.webp",
-      "json_file": "hsbc-live-credit-card.json",
-      "md_file": "hsbc-live-credit-card.md"
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-live-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-live-credit-card.md"
     },
     {
       "card_id": "hsbc_bank_travelone_credit_card",
       "card_name": "HSBC TravelOne Credit Card",
       "card_slug": "hsbc-travelone-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Mastercard World",
       "annual_fee_inr": 4999,
       "overall_rating": 4.6,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-travelone-credit-card.webp",
-      "json_file": "hsbc-travelone-credit-card.json",
-      "md_file": "hsbc-travelone-credit-card.md"
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-travelone-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-travelone-credit-card.md"
     },
     {
       "card_id": "hsbc_premier_credit_card",
       "card_name": "HSBC Premier Credit Card",
       "card_slug": "hsbc-premier-credit-card",
       "primary_category": "Super-Premium",
-      "card_network": "Mastercard World Elite",
       "annual_fee_inr": 20000,
       "overall_rating": 4.5,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-premier-credit-card.webp",
-      "json_file": "hsbc-premier-credit-card.json",
-      "md_file": "hsbc-premier-credit-card.md"
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-premier-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-premier-credit-card.md"
     },
     {
       "card_id": "hsbc_bank_rupay_cashback_credit_card",
       "card_name": "HSBC RuPay Cashback Credit Card",
       "card_slug": "hsbc-rupay-cashback-credit-card",
       "primary_category": "Zero/Low Forex",
-      "card_network": "RuPay",
       "annual_fee_inr": 499,
       "overall_rating": 4.22,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-rupay-cashback-credit-card.webp",
-      "json_file": "hsbc-rupay-cashback-credit-card.json",
-      "md_file": "hsbc-rupay-cashback-credit-card.md"
-    },
-    {
-      "card_id": "hsbc_bank_hsbc_smart_value_credit_card",
-      "card_name": "HSBC Smart Value Credit Card",
-      "card_slug": "hsbc-smart-value-credit-card",
-      "primary_category": "Cashback",
-      "card_network": "Visa / Mastercard",
-      "annual_fee_inr": 0,
-      "overall_rating": 3.67,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-smart-value-credit-card.webp",
-      "json_file": "hsbc-smart-value-credit-card.json",
-      "md_file": "hsbc-smart-value-credit-card.md"
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-rupay-cashback-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-rupay-cashback-credit-card.md"
     },
     {
       "card_id": "hsbc_bank_hsbc_prive_credit_card",
       "card_name": "HSBC Privé Credit Card",
       "card_slug": "hsbc-priv-credit-card",
       "primary_category": "Zero/Low Forex",
-      "card_network": "Visa / Mastercard / American Express",
       "annual_fee_inr": 0,
       "overall_rating": 3.67,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-priv-credit-card.webp",
-      "json_file": "hsbc-priv-credit-card.json",
-      "md_file": "hsbc-priv-credit-card.md"
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-priv-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-priv-credit-card.md"
+    },
+    {
+      "card_id": "hsbc_bank_hsbc_smart_value_credit_card",
+      "card_name": "HSBC Smart Value Credit Card",
+      "card_slug": "hsbc-smart-value-credit-card",
+      "primary_category": "Cashback",
+      "annual_fee_inr": 0,
+      "overall_rating": 3.67,
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-smart-value-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-smart-value-credit-card.md"
     },
     {
       "card_id": "hsbc_bank_hsbc_platinum_credit_cards",
       "card_name": "HSBC Visa Platinum Credit Card",
       "card_slug": "hsbc-visa-platinum-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa",
       "annual_fee_inr": 0,
       "overall_rating": 3.45,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-visa-platinum-credit-card.webp",
-      "json_file": "hsbc-visa-platinum-credit-card.json",
-      "md_file": "hsbc-visa-platinum-credit-card.md"
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-visa-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-visa-platinum-credit-card.md"
     },
     {
       "card_id": "hsbc_bank_taj_credit_card",
       "card_name": "HSBC Taj Credit Card",
       "card_slug": "hsbc-taj-credit-card",
       "primary_category": "Super-Premium",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 110000,
       "overall_rating": 3.33,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-taj-credit-card.webp",
-      "json_file": "hsbc-taj-credit-card.json",
-      "md_file": "hsbc-taj-credit-card.md"
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-taj-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-taj-credit-card.md"
     },
     {
       "card_id": "hsbc_bank_hsbc_rupay_platinum_credit_card",
       "card_name": "HSBC RuPay Platinum Credit Card",
       "card_slug": "hsbc-rupay-platinum-credit-card",
       "primary_category": "RuPay & UPI",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 3.28,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/hsbc-bank/hsbc-rupay-platinum-credit-card.webp",
-      "json_file": "hsbc-rupay-platinum-credit-card.json",
-      "md_file": "hsbc-rupay-platinum-credit-card.md"
+      "json_path": "data/cards_by_bank/hsbc-bank/hsbc-rupay-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/hsbc-bank/hsbc-rupay-platinum-credit-card.md"
     }
   ]
 }

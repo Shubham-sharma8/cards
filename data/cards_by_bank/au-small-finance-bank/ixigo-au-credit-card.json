@@ -66,7 +66,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -167,7 +169,114 @@
         "8 complimentary domestic airport lounge visits every year, max. 2 per quarter on spending Rs. 50,000 in a quarter",
         "E-vouchers of top brands"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees & Charges: Is it Really Free?",
+        "headers": [
+          "Feature / Fee Category",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Nil (Currently Lifetime Free Offer. AU Bank may revise the offer in the future)"
+          ],
+          [
+            "Annual Fee",
+            "Nil under the ongoing Lifetime Free offer"
+          ],
+          [
+            "Welcome Reward Points",
+            "1000 Reward Points worth ₹500 ixigo money after the first transaction within 30 days of card issuance"
+          ],
+          [
+            "ixigo Money Welcome Benefit",
+            "₹1000 ixigo Money voucher credited within 15 days of card activation. Valid for 90 days"
+          ],
+          [
+            "Forex Markup Fee",
+            "0% forex markup on international transactions"
+          ],
+          [
+            "Reward Redemption Fee",
+            "₹99 + GST charged per redemption request"
+          ],
+          [
+            "Add-on Card Fee",
+            "Nil for up to 3 family members"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards: The “Ixigo Money” Math",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Online Spends",
+            "5 Reward Points per ₹200"
+          ],
+          [
+            "Offline Spends",
+            "5 Reward Points per ₹200"
+          ],
+          [
+            "UPI Spends (RuPay Variant)",
+            "5 Reward Points per ₹200"
+          ],
+          [
+            "Quarterly Milestone Bonus",
+            "5000 Bonus Points on spending ₹75,000 in a quarter"
+          ],
+          [
+            "Forex Markup",
+            "0% forex markup on international transactions"
+          ],
+          [
+            "Reward Exclusions",
+            "International spends, fuel, rent, insurance, wallet loads, government payments, utilities, education, transport spends, and more"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-2",
+        "kind": "redemption_catalog",
+        "title": "Rewards Redemption",
+        "headers": [
+          "Redemption Type",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Redeem as ixigo Money",
+            "1 Reward Point = ₹0.50"
+          ],
+          [
+            "Redeem for Cashback / Statement Credit",
+            "1 Reward Point = ₹0.25"
+          ],
+          [
+            "Redeem for Gift Vouchers",
+            "1 Reward Point = ₹0.20"
+          ],
+          [
+            "Minimum Redemption",
+            "200 Reward Points"
+          ],
+          [
+            "Reward Redemption Fee",
+            "₹99 + GST per redemption request"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -906,7 +1015,18 @@
       {
         "q": "Are there any charges for the add-on cards of the ixigo AU credit card?",
         "a": "The add-on cards of AU ixigo credit cards do not come with any additional annual fee."
+      },
+      {
+        "question": "Is the ixigo AU Credit Card really Lifetime Free (LTF)?",
+        "answer": "Yes, currently AU Bank is offering this card as Lifetime Free (LTF) for most new applicants. This means there is zero joining fee and zero annual fee. However, the standard fee is officially ₹999+GST, so check the final application page to confirm the current waiver."
+      },
+      {
+        "question": "Does this card have Zero Forex Markup?",
+        "answer": "Yes, the ixigo AU Credit Card offers Zero Forex Markup on international transactions. Following the April 2026 update, keep in mind that while you save on conversion fees, international spends no longer earn reward points."
       }
+    ],
+    "program_updates_2026": [
+      "The ixigo AU Credit Card has changed significantly after the April 2026 devaluation. Earlier, online spends offered much higher returns, especially for travel bookings. The current structure is now simpler with a flat earning rate across most eligible spends."
     ]
   },
   "ratings": {

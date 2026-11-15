@@ -70,7 +70,9 @@
         "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -163,7 +165,90 @@
         "Fuel Surcharge Waiver: 1% fuel surcharge waiver of up to Rs. 500 per month on fuel spends worth Rs. 400 to Rs. 4,000",
         "Easily achievable annual fee waiver condition, even for low spenders"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Fee Type",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Joining Fee Waiver",
+            "Spend ₹10,000 within 45 days of card issuance"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹2 lakh in a card anniversary year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Axis Ace Credit Card Cashback",
+        "headers": [
+          "Type of Spend",
+          "Cashback"
+        ],
+        "rows": [
+          [
+            "Utility Bill Payments via Google Pay (Electricity, Gas, Broadband, DTH, Mobile Recharges)",
+            "5%"
+          ],
+          [
+            "Swiggy, Zomato & Ola",
+            "4%"
+          ],
+          [
+            "All Other Eligible Spends",
+            "1.5%"
+          ],
+          [
+            "Fuel, Wallet Loads, Rent, Gold & Jewellery, Insurance, Education, Government Payments and Other Excluded Categories",
+            "No Cashback"
+          ],
+          [
+            "Utility Bill Payments Outside Google Pay",
+            "No Cashback"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Other Key Benefits and Charges",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST (~4.13% effective)"
+          ],
+          [
+            "Cashback Redemption Fee",
+            "Nil"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on fuel transactions between ₹400 and ₹4000 (max ₹500 per statement cycle)"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -902,7 +987,22 @@
       {
         "q": "How can I apply for the Axis Bank Ace Credit Card?",
         "a": "You can apply for Axis Ace Credit Card online either through the Issuer / Market platform by filling your details in the form given on this page or through the official Axis bank website."
+      },
+      {
+        "question": "Is the Axis Ace Credit Card worth it?",
+        "answer": "Yes, the Axis Ace Credit Card is still a good cashback card for utility bill payments through Google Pay and everyday spending. It also offers unlimited 1.5% cashback on most eligible transactions."
+      },
+      {
+        "question": "What is the annual fee of the Axis Ace Credit Card?",
+        "answer": "The card charges an annual fee of ₹499 plus GST. The fee is waived if you spend ₹2 lakh or more in a card anniversary year."
+      },
+      {
+        "question": "How much cashback does Axis Ace offer?",
+        "answer": "You earn 5% cashback on utility bill payments via Google Pay, 4% cashback on Swiggy, Zomato, and Ola, and 1.5% cashback on most other eligible spends."
       }
+    ],
+    "program_updates_2026": [
+      "The Axis Ace Credit Card is no longer the cashback powerhouse it was when it launched. Multiple devaluations, cashback caps, and spending exclusions have reduced some of its appeal."
     ]
   },
   "ratings": {
@@ -922,11 +1022,17 @@
       "Accelerated cashback of 5% on recharges and utility bills payments - categories that are generally either excluded or come with base savings rate",
       "Base cashback rate of 1.5% without any capping",
       "Zero joining fee on applying",
-      "Easily achievable annual fee waiver condition, even for low spenders"
+      "Easily achievable annual fee waiver condition, even for low spenders",
+      "5% cashback on utility bill payments via Google Pay",
+      "Unlimited 1.5% cashback on most eligible spends",
+      "Automatic cashback credit with no redemption hassles"
     ],
     "cons": [
       "Monthly capping on incremental cashback earnings",
-      "Quarterly spend-based condition applicable on complimentary access to domestic airport lounges"
+      "Quarterly spend-based condition applicable on complimentary access to domestic airport lounges",
+      "5% and 4% cashback categories are capped at ₹500 per statement cycle",
+      "No cashback on insurance, education, rent, fuel, and government payments",
+      "₹50,000 spend requirement for airport lounge access"
     ],
     "best_for_whom": "Axis Bank customers seeking cashback rewards & bank-specific discount offers",
     "not_ideal_for": "Ultra-high spenders better served by super-premium metal cards",

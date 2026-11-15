@@ -69,7 +69,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -147,13 +149,36 @@
       "Gold/jewelry, rent, wallet, utilities, govt, insurance, fuel excluded (per Axis KFS Oct 8, 2026)"
     ],
     "transfer_partners": [
-      "Singapore Airlines KrisFlyer",
-      "United",
-      "Air India",
-      "ITC",
-      "Marriott Bonvoy",
-      "Air France-KLM",
-      "Ethiopian"
+      {
+        "partner": "Accor Live Limitless (ALL)",
+        "ratio": "Group A · Returned Sept 2026",
+        "notes": "1:2 Air India / Flying Blue / Qantas · 2:1 Accor / Cathay · 1:1 Miles & More"
+      },
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "30,000 EDGE Miles/yr Group A · 1,20,000 Group B"
+      },
+      {
+        "partner": "Flying Blue (Air France/KLM)",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "30,000 EDGE Miles/yr Group A · 1,20,000 Group B"
+      },
+      {
+        "partner": "Qantas Frequent Flyer",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "30,000 EDGE Miles/yr Group A · 1,20,000 Group B"
+      },
+      {
+        "partner": "Cathay Asia Miles",
+        "ratio": "Group A · Added Sept 2026",
+        "notes": "Caps share Group A pool"
+      },
+      {
+        "partner": "Hilton Honors & Miles & More",
+        "ratio": "Group B · Added Sept 2026",
+        "notes": "30,000 EDGE Miles/yr Group A · 1,20,000 Group B"
+      }
     ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 5000,
@@ -167,7 +192,263 @@
         "Silver Tier: On spending Rs. 3 Lakh",
         "Gold Tier: On spending Rs. 7.5 Lakh"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Axis Atlas Credit Card: Fees",
+        "headers": [
+          "Fee Type",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹5000 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "2500 EDGE Miles"
+          ],
+          [
+            "Annual Fee",
+            "₹5000 + GST"
+          ],
+          [
+            "Renewal Benefit (Gold Tier)",
+            "2500 EDGE Miles"
+          ],
+          [
+            "Renewal Benefit (Platinum Tier)",
+            "5000 EDGE Miles"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Axis Bank Atlas Credit Card: Rewards",
+        "headers": [
+          "Spend Category",
+          "EDGE Miles Earn Rate"
+        ],
+        "rows": [
+          [
+            "Travel (Airlines, Hotels & Travel EDGE Portal)",
+            "5 EDGE Miles per ₹100 up to ₹2 lakh per calendar month"
+          ],
+          [
+            "Travel Spends Above ₹2 Lakh/Month",
+            "2 EDGE Miles per ₹100"
+          ],
+          [
+            "All Other Eligible Spends",
+            "2 EDGE Miles per ₹100"
+          ],
+          [
+            "Fuel Surcharge Waiver Transactions",
+            "No EDGE Miles"
+          ],
+          [
+            "Wallet, Rent, Fuel, Insurance, Utilities, Government Institutions, Gold & Jewellery",
+            "No EDGE Miles"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-2",
+        "kind": "milestone_benefits",
+        "title": "Axis Bank Atlas Credit Card: Milestone Benefits",
+        "headers": [
+          "Eligible Annual Spend",
+          "Milestone Benefit"
+        ],
+        "rows": [
+          [
+            "₹3 Lakh",
+            "2500 EDGE Miles"
+          ],
+          [
+            "₹7.5 Lakh",
+            "2500 EDGE Miles"
+          ],
+          [
+            "₹15 Lakh",
+            "5000 EDGE Miles"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-3",
+        "kind": "transfer_partners",
+        "title": "Axis Bank Atlas Credit Card Transfer Partners",
+        "headers": [
+          "Transfer Ratio",
+          "Group",
+          "Transfer Partners"
+        ],
+        "rows": [
+          [
+            "1 EDGE Mile : 2 Partner Miles/Points",
+            "Group A",
+            "Air Canada Aeroplan, Air France-KLM Flying Blue, Air India Maharaja Club, Ethiopian Airlines ShebaMiles, Etihad Guest, Japan Airlines Mileage Bank, Qantas Frequent Flyer, Singapore Airlines KrisFlyer, Thai Airways Royal Orchid Plus, Turkish Airlines Miles&Smiles, United MileagePlus, Wyndham Rewards"
+          ],
+          [
+            "2 EDGE Miles : 1 Partner Mile/Point",
+            "Group A",
+            "Accor ALL, British Airways Club, Cathay, Finnair Plus, Qatar Airways Privilege Club, Vietnam Airlines Lotusmiles"
+          ],
+          [
+            "1 EDGE Mile : 2 Partner Miles/Points",
+            "Group B",
+            "AirAsia Rewards, Hilton Honors, IHG One Rewards, The Postcard Sunshine Club, SpiceJet SpiceClub"
+          ],
+          [
+            "1 EDGE Mile : 1 Partner Mile/Point",
+            "Group B",
+            "Miles & More, Orchid Rewards, Radisson Rewards"
+          ],
+          [
+            "2 EDGE Miles : 1 Partner Point",
+            "Group B",
+            "IndiGo BluChip* – Promotional ratio"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Axis Atlas Credit Card: Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Silver Tier",
+          "Gold Tier",
+          "Platinum Tier"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "8 visits/year",
+            "12 visits/year",
+            "18 visits/year"
+          ],
+          [
+            "International Airport Lounge Access",
+            "4 visits/year",
+            "6 visits/year",
+            "12 visits/year"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "Axis Bank Atlas Credit Card: Tier Benefits",
+        "headers": [
+          "Tier",
+          "Eligible Annual Spend",
+          "Domestic Lounge Visits",
+          "International Lounge Visits",
+          "Renewal Benefit"
+        ],
+        "rows": [
+          [
+            "Silver",
+            "Below ₹7.5 Lakh",
+            "8",
+            "4",
+            "None"
+          ],
+          [
+            "Gold",
+            "₹7.5 Lakh+",
+            "12",
+            "6",
+            "2500 EDGE Miles"
+          ],
+          [
+            "Platinum",
+            "₹15 Lakh+",
+            "18",
+            "12",
+            "5000 EDGE Miles"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-6",
+        "kind": "fees_and_charges",
+        "title": "Axis Atlas Credit Card: Key Benefits & Charges",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST (~4.13%)"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on transactions between ₹400 and ₹4000"
+          ]
+        ]
+      },
+      {
+        "id": "axis-transfer-groups-sept-2026",
+        "kind": "transfer_partners",
+        "title": "Axis Bank Transfer Partner Groups (Updated Sept 2026)",
+        "note": "Accor ALL & Cathay returned to Group A; Air India Maharaja Club, Flying Blue & Qantas moved to Group A; Hilton Honors & Miles & More added to Group B; ITC Hotels removed.",
+        "headers": [
+          "Partner",
+          "Tier",
+          "Update (Sept 2026)"
+        ],
+        "rows": [
+          [
+            "Accor Live Limitless (ALL)",
+            "Group A",
+            "Returned in Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Cathay Asia Miles",
+            "Group A",
+            "Added Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Air India Maharaja Club",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Flying Blue (Air France / KLM)",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Qantas Frequent Flyer",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Hilton Honors",
+            "Group B",
+            "Added to Group B (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Miles & More (Lufthansa)",
+            "Group B",
+            "Added to Group B (Atlas 1:1 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "ITC Hotels",
+            "Removed",
+            "Discontinued as Axis transfer partner"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -898,7 +1179,33 @@
       {
         "q": "What is the eligibility criteria for Axis Atlas Credit Card?",
         "a": "To be eligible for Axis Atlas Credit Card, applicants must be between 18 and 70 years old. Both salaried and self-employed individuals can apply. Salaried individuals must have an annual income of Rs. 12 Lakh, while self-employed individuals must meet the annual income requirement of Rs. 15 Lakh."
+      },
+      {
+        "question": "Is the Axis Atlas Credit Card worth it?",
+        "answer": "Yes, we think Axis Atlas remains one of the best travel credit cards in India for users who value airline miles, hotel points and travel rewards over cashback."
+      },
+      {
+        "question": "What is the reward rate on the Axis Atlas Credit Card?",
+        "answer": "The card earns 5 EDGE Miles per ₹100 on eligible travel spends and 2 EDGE Miles per ₹100 on most other eligible spends."
+      },
+      {
+        "question": "What are the Axis Atlas Credit Card transfer partners?",
+        "answer": "Atlas supports transfers to Air India Maharaja Club, Flying Blue, Aeroplan, KrisFlyer, Etihad Guest, Club ITC, IHG One Rewards and many other airline and hotel loyalty programs."
+      },
+      {
+        "question": "Does the Axis Atlas Credit Card offer airport lounge access?",
+        "answer": "Yes. Domestic and international lounge access benefits are available, with the number of visits depending on the cardholder's Atlas tier."
+      },
+      {
+        "question": "What are the Axis Atlas Credit Card milestone benefits?",
+        "answer": "Cardholders earn 2,500 EDGE Miles at ₹3 lakh spends, another 2,500 EDGE Miles at ₹7.5 lakh spends and 5,000 EDGE Miles at ₹15 lakh spends."
       }
+    ],
+    "program_updates_2026": [
+      "September 2026 Transfer Update: Accor ALL & Cathay returned to Group A; Air India/Flying Blue/Qantas moved to Group A (30,000 EDGE Miles/yr Group A · 1,20,000 Group B).",
+      "Axis Atlas Credit Card Cons New Axis Atlas applications are currently paused High forex markup fee of 3.5% + GST No Marriott Bonvoy transfer partner Transfer caps on Group A and Group B partners Rent, insurance, utilities and several other categories earn no EDGE Miles Airport transfers and meet & greet services have been discontinued",
+      "Airport transfers and meet & greet services have been discontinued",
+      "There is no denying that Atlas has seen its share of devaluations over the years. The card is less generous than it was at its peak, and accumulating large volumes of miles now requires considerably more spending. However, much of what we saw during the Magnus boom was arguably unsustainable. The current Atlas rewards structure feels more balanced and closer to what a premium travel card should realistically offer."
     ]
   },
   "ratings": {

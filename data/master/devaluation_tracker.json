@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14",
+  "generated_at": "2026-11-15",
   "issuer_devaluation_profiles": {
     "Axis Bank": {
       "frequency": "Very High",
       "risk_score": 8.5,
-      "note": "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions).",
+      "note": "Most active devaluer (2024 Atlas/Magnus caps, Apr 2026 Accor exit followed by Sept 2026 Accor return to Group A & Atlas 30k cap, Airtel proportional unlock & lounge cut).",
       "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf",
       "devaluation_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
       "bank_page_url": "https://www.axisbank.com/retail/cards/credit-card/most-important-terms-and-conditions"
@@ -60,7 +60,7 @@
     "HSBC Bank": {
       "frequency": "Low-Medium",
       "risk_score": 4.5,
-      "note": "Nov 2026 Live+ lounge/MCC trim paired with positive 1.99% forex cut; TravelOne & Premier remain flagship strongholds.",
+      "note": "Nov 2026 Live+ keeps 10% up to ₹1,200/mo cap + 1.99% forex + 1 international lounge/yr; TravelOne & Premier remain flagship strongholds.",
       "mitc_pdf_url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-cards/mitc.pdf",
       "devaluation_pdf_url": "https://www.hsbc.co.in/credit-cards/terms-and-conditions/",
       "bank_page_url": "https://www.hsbc.co.in/credit-cards/terms-and-conditions/"
@@ -189,6 +189,78 @@
       "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf"
     },
     {
+      "date": "2026-09-10",
+      "issuer": "American Express",
+      "cards_affected": [
+        "Platinum Travel Credit Card"
+      ],
+      "severity": "High",
+      "summary": "Removed ₹1.9 Lakh milestone (7,500 MR Points); full milestone benefits narrowed to ₹4L spend threshold. From Nov 15, 2026 transactions count by posting date & MR pools stay card-separate.",
+      "source_ref": "Amex India 2026 T&C & Nov 2026 Transfer Update"
+    },
+    {
+      "date": "2026-09-01",
+      "issuer": "Axis Bank",
+      "cards_affected": [
+        "Atlas",
+        "Magnus for Burgundy",
+        "Magnus",
+        "Olympus",
+        "Burgundy Private"
+      ],
+      "severity": "Medium",
+      "summary": "Accor ALL & Cathay returned to Group A (Atlas 2:1, Magnus Burgundy 5:2); Air India, Flying Blue & Qantas moved to Group A; Hilton & Miles & More added to Group B; ITC Hotels removed.",
+      "source_ref": "Axis Bank Travel EDGE Transfer Partner Sept 2026 Update"
+    },
+    {
+      "date": "2026-07-15",
+      "issuer": "BOBCARD",
+      "cards_affected": [
+        "Eterna",
+        "Tiara",
+        "Varunah Premium"
+      ],
+      "severity": "High",
+      "summary": "Unlimited domestic airport lounge access transitioned to revised spend-based quarterly eligibility criteria effective 15 July 2026.",
+      "source_ref": "BOBCARD July 2026 Revision"
+    },
+    {
+      "date": "2026-07-01",
+      "issuer": "HDFC Bank",
+      "cards_affected": [
+        "Infinia Metal",
+        "Diners Club Black Metal",
+        "BizBlack",
+        "Regalia Gold"
+      ],
+      "severity": "Medium",
+      "summary": "Carved out a separate 3,000 Bonus RP/month limit on SmartBuy GyFTR & Woohoo Brand Vouchers (~₹30k/mo spend on Infinia, ~₹45k on DCB Metal).",
+      "source_ref": "HDFC SmartBuy July 2026 Caps"
+    },
+    {
+      "date": "2026-07-01",
+      "issuer": "SBI Card",
+      "cards_affected": [
+        "PhonePe SBI Card SELECT BLACK",
+        "PhonePe SBI Card PURPLE"
+      ],
+      "severity": "High",
+      "summary": "Monthly PhonePe cap split into 500 RP Insurance + 1,500 RP Other (250 + 750 on Purple); online 5% cap cut 50% (2,000->1,000 RP); Tolls/Education/Jewellery/Gift Cards excluded.",
+      "source_ref": "SBI Card PhonePe MITC Addendum Jul 2026"
+    },
+    {
+      "date": "2026-07-01",
+      "issuer": "HDFC Bank",
+      "cards_affected": [
+        "Regalia Gold",
+        "Diners Club Privilege",
+        "BizPower"
+      ],
+      "severity": "High",
+      "summary": "May 15 base rate shift (5 RP/₹200 on Regalia Gold & BizPower, 4 RP/₹200 on DCP, <₹200 earns 0) + July 1 ₹60k/qtr lounge spend rule (₹75k on BizPower). Boarding Edge arrival perks launched for Regalia Gold.",
+      "source_ref": "HDFC Bank May–Jul 2026 Updates"
+    },
+    {
       "date": "2026-07",
       "issuer": "Axis Bank",
       "cards_affected": [
@@ -200,6 +272,26 @@
       "source_ref": "axis_sosc-credit-cards_pdf.txt",
       "pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
       "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf"
+    },
+    {
+      "date": "2026-04-12",
+      "issuer": "Axis Bank",
+      "cards_affected": [
+        "Airtel Axis Bank Credit Card"
+      ],
+      "severity": "High",
+      "summary": "All 4 complimentary domestic lounge visits discontinued, Swiggy/BigBasket 10% removed, and cashback caps mathematically linked proportionally to base 1% retail spends.",
+      "source_ref": "Axis Bank Apr 2026 MITC"
+    },
+    {
+      "date": "2026-04-01",
+      "issuer": "SBI Card",
+      "cards_affected": [
+        "Cashback SBI Card"
+      ],
+      "severity": "High",
+      "summary": "Online 5% cashback cap tightened from ₹5,000 to ₹2,000 per statement cycle (plus separate ₹2,000 offline 1% cap = ₹4,000 total); Tolls, Digital Gaming & Govt excluded.",
+      "source_ref": "SBI Card Apr 2026 Revision"
     },
     {
       "date": "2026-04",

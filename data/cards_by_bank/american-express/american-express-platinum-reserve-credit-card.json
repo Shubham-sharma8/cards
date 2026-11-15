@@ -54,7 +54,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -135,7 +137,43 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Marriott Bonvoy",
+        "ratio": "1:1 (100 MR = 100 Pts)",
+        "notes": "Best hotel sweet spot"
+      },
+      {
+        "partner": "Hilton Honors",
+        "ratio": "1:1.5 (1,000 MR = 1,500 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Virgin Atlantic Flying Club",
+        "ratio": "5:4 (800 MR = 640 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Singapore KrisFlyer",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Asia Miles (Cathay)",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Qatar Privilege Club",
+        "ratio": "2:1 (500 MR = 250 Avios)",
+        "notes": "Avios transferable to BA"
+      },
+      {
+        "partner": "British Airways Executive Club",
+        "ratio": "2:1 (1,200 MR = 600 Avios)",
+        "notes": "Emirates suspended / Etihad removed Jul 2026"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 10000,
       "annual_fee_inr": 10000,
@@ -148,7 +186,141 @@
         "100% annual fee waiver on spending Rs. 10 Lakh in the preceding year",
         "2 complimentary golf rounds in a month (Max. 24 in a year) on monthly spends of Rs. 50,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "American Express Platinum Reserve Credit Card Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹10,000+GST ~₹11,180"
+          ],
+          [
+            "Welcome Benefit",
+            "11,000 MR Points + 8000 MR points (via referral)"
+          ],
+          [
+            "Annual Fee",
+            "₹10,000+GST ~₹11,180"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹10 Lakh spends in a membership year"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Complimentary Memberships",
+            "Accor+ Explorer, EazyDiner Prime"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "American Express Platinum Reserve Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Retail Spends",
+            "1 MR point/₹50 ~1% to 2%"
+          ],
+          [
+            "Fuel, Utility, Insurance & EMI",
+            "No Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-2",
+        "kind": "lounge_access",
+        "title": "American Express Platinum Reserve Credit Card Review: Airport Lounge Access",
+        "headers": [
+          "Lounge Type",
+          "Access Limit",
+          "Access Method"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "3 visits per quarter",
+            "Amex Platinum Reserve Card"
+          ],
+          [
+            "International Airport Lounges",
+            "2 visits per year",
+            "Priority Pass™"
+          ]
+        ]
+      },
+      {
+        "id": "amex-india-transfer-partners-2026",
+        "kind": "transfer_partners",
+        "title": "Amex Membership Rewards Transfer Partners (Nov 2026)",
+        "note": "Emirates Skywards suspended May 2025 · Club Vistara merged into Air India · Etihad Guest removed 1 July 2026 · Hilton (1:1.5) and Virgin Atlantic (5:4) improved Aug 2026.",
+        "headers": [
+          "Partner",
+          "Type",
+          "Conversion Rate",
+          "Ratio"
+        ],
+        "rows": [
+          [
+            "Marriott Bonvoy",
+            "Hotel",
+            "100 MR = 100 Marriott Bonvoy Points",
+            "1:1"
+          ],
+          [
+            "Hilton Honors",
+            "Hotel",
+            "1,000 MR = 1,500 Hilton Honors Points",
+            "1:1.5 (Boosted Aug 2026)"
+          ],
+          [
+            "Virgin Atlantic Flying Club",
+            "Airline",
+            "800 MR = 640 Virgin Points",
+            "5:4 (Boosted Aug 2026)"
+          ],
+          [
+            "Singapore KrisFlyer",
+            "Airline",
+            "800 MR = 400 KrisFlyer Miles",
+            "2:1"
+          ],
+          [
+            "Asia Miles (Cathay)",
+            "Airline",
+            "800 MR = 400 Asia Miles",
+            "2:1"
+          ],
+          [
+            "Qatar Privilege Club",
+            "Airline",
+            "500 MR = 250 Avios",
+            "2:1"
+          ],
+          [
+            "British Airways Executive Club",
+            "Airline",
+            "1,200 MR = 600 Avios",
+            "2:1"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -596,7 +768,30 @@
       {
         "q": "How can I apply for American Express® Platinum Reserve Credit Card?",
         "a": "You can apply for this credit card online through the official website of American Express. All you need to do is look for the required card as per its eligibility and fill out the application form. You are also required to submit relevant documents for verification. The bank will then verify your details and process your request."
+      },
+      {
+        "question": "Is the American Express Platinum Reserve Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹10,000 + GST and the annual fee is ₹10,000 + GST. The annual fee is waived when you spend ₹10 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the American Express Platinum Reserve Credit Card?",
+        "answer": "It's 3.5% plus GST on spends in a foreign currency. That's the usual rate, so it isn't the best card to use abroad."
+      },
+      {
+        "question": "Does the American Express Platinum Reserve Credit Card give airport lounge access?",
+        "answer": "Yes. You get 3 domestic visits a quarter, plus 2 international visits a year."
+      },
+      {
+        "question": "How much can I earn with the American Express Platinum Reserve Credit Card?",
+        "answer": "You earn about 1% back as cashback on regular spends, and up to 2% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
+    ],
+    "program_updates_2026": [
+      "New Applications Paused: American Express has temporarily paused new card applications in India (existing cardholders unaffected).",
+      "From 15 November 2026: Amex counts monthly milestone transactions by posting date (not transaction date) and keeps MR pools separate per card.",
+      "Transfer Partners Updated (Aug–Nov 2026): Hilton Honors improved to 1:1.5 (1,000:1,500), Virgin Atlantic improved to 5:4 (800:640), Etihad Guest removed 1 July 2026, Emirates Skywards suspended.",
+      "Note: Since the Platinum Reserve doesn’t earn regular MR points on fuel or utilities, these monthly vouchers are the only way to get a “return” on those specific spends.",
+      "Important Note: One major drawback to keep in mind is that the Platinum Reserve does not currently offer access to the exclusive American Express Centurion Lounges. This benefit was removed in 2023 and has not yet been reinstated, leaving those lounges reserved for Platinum Charge and Centurion cardholders only."
     ]
   },
   "ratings": {
@@ -646,7 +841,9 @@
     "optimization_tips": [
       "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
       "Track ₹1,000,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count.",
-      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport."
+      "Check spend criteria and pre-generate terminal QR access via official portals (LoungeOne.ai / TFS / HOI) before arriving at the airport.",
+      "Convenience Fee Waiver: Enjoy a 0% convenience fee on fuel purchases at HPCL petrol pumps for all transactions under ₹5000.",
+      "Standard Surcharge: For HPCL transactions of ₹5,000 and above, a 1% fee applies. At BPCL and IOCL, a 1% fee (minimum ₹10) is charged regardless of the amount."
     ]
   },
   "devaluation_analysis": {

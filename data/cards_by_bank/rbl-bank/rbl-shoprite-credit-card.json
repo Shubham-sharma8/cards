@@ -37,7 +37,9 @@
     "bank_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
     "mitc_pdf_url": "https://webassets.rbl.bank.in/document/credit-cards/tnc-shoprite-credit-card.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -128,7 +130,104 @@
       "milestone_slabs": [
         "1 reward point for every Rs. 100 on other spends"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "RBL Shoprite Credit Card Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "NIL"
+          ],
+          [
+            "Welcome Benefit",
+            "2,000 Reward Points (worth ~₹500) on your first eligible transaction within 30 days of card issuance"
+          ],
+          [
+            "Annual Fee",
+            "NIL"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Not Applicable"
+          ],
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "RBL Bank Shoprite Credit Card Rewards",
+        "headers": [
+          "Spending Category",
+          "Reward Rate",
+          "Value Back"
+        ],
+        "rows": [
+          [
+            "Grocery",
+            "20 RP / ₹100 (up to ₹5,000 per billing cycle, capped at 1,000 RP)",
+            "Up to 5%"
+          ],
+          [
+            "Other eligible retail spends",
+            "1 RP / ₹100",
+            "Up to 0.25%"
+          ],
+          [
+            "Excluded spends",
+            "Fuel, utilities, insurance, rent, education, railway, government payments, wallet loads and EMI conversions",
+            "No rewards"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-2",
+        "kind": "redemption_catalog",
+        "title": "RBL Shoprite Credit Card Rewards Redemption",
+        "headers": [
+          "Redemption Category",
+          "Brands",
+          "Value per Point"
+        ],
+        "rows": [
+          [
+            "Best Value",
+            "Vero Moda, Levi’s, Raymond",
+            "25-28 paise"
+          ],
+          [
+            "Good Value",
+            "Baskin Robbins, Archies Gallery, Mainland China",
+            "24 paise"
+          ],
+          [
+            "Decent Value",
+            "Jack & Jones, Hidesign, ONLY, Woodland",
+            "23-24 paise"
+          ],
+          [
+            "Everyday Shopping & Food",
+            "Pizza Hut",
+            "22 paise"
+          ],
+          [
+            "Online Shopping",
+            "Flipkart, Amazon",
+            "11 paise"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -225,7 +324,30 @@
       {
         "q": "Is RBL Shoprite credit card good or bad?",
         "a": "RBL Shoprite credit card is a good option for those looking for a low annual fee rewards credit card with accelerated savings on grocery spends and movie discount offers. However, if you wish to get a card with benefits inclined towards other spending categories like travel, dining, etc. then this one might not be the right choice for you."
+      },
+      {
+        "question": "Is the RBL Shoprite Credit Card lifetime free?",
+        "answer": "Yes. The RBL Shoprite Credit Card is currently available as a Lifetime Free (LTF) card under an ongoing offer, with no joining or annual fee."
+      },
+      {
+        "question": "How much cashback does the RBL Shoprite Credit Card offer on groceries?",
+        "answer": "The RBL Shoprite Credit Card offers 20 reward points for every ₹100 spent on eligible grocery purchases. This translates to up to 5% value back, assuming a redemption value of ₹0.25 per point."
+      },
+      {
+        "question": "What is the monthly (billing cycle) grocery reward cap on the RBL Shoprite Credit Card?",
+        "answer": "Grocery rewards are capped at 1,000 points per billing cycle. You earn 20 points per ₹100 on the first ₹5,000 of eligible grocery spending. Beyond this limit, grocery purchases earn 1 reward point per ₹100."
+      },
+      {
+        "question": "Does the RBL Shoprite Credit Card offer rewards on other purchases?",
+        "answer": "Yes. The card offers 1 reward point for every ₹100 spent on other eligible retail purchases. This translates to an indicative return of up to 0.25%, assuming a redemption value of ₹0.25 per point."
+      },
+      {
+        "question": "Which transactions are excluded from RBL Shoprite reward points?",
+        "answer": "Fuel, utility payments, insurance, rent, education, railway transactions, government payments, wallet loads and EMI conversions are among the excluded categories."
       }
+    ],
+    "program_updates_2026": [
+      "Last verified against RBL Bank MITC on 1 November 2026."
     ]
   },
   "ratings": {
@@ -243,12 +365,20 @@
     "editorial_summary": "option from RBL Bank suited for dining, groceries & movies users.",
     "pros": [
       "Accelerated rewards on grocery shopping",
-      "Discount on movie ticket bookings"
+      "Discount on movie ticket bookings",
+      "Lifetime Free card with no joining or annual fee.",
+      "5% value back on eligible grocery spends.",
+      "Up to 1,000 reward points per billing cycle on grocery purchases.",
+      "Offers reward points on other eligible retail spends."
     ],
     "cons": [
       "General reward rate is low",
       "Capping on accelerated benefits",
-      "Limited lifestyle benefits"
+      "Limited lifestyle benefits",
+      "5% grocery rewards are capped at the first ₹5,000 spent per billing cycle.",
+      "Other retail spends earn just 0.25% value back.",
+      "Reward point value varies depending on the redemption option.",
+      "Amazon and Flipkart vouchers offer relatively poor redemption value."
     ],
     "best_for_whom": "RBL Bank customers seeking dining, groceries & movies rewards & bank-specific discount offers",
     "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",

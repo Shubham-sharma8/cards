@@ -48,7 +48,9 @@
         "url": "https://info.dreamfolks.in/partner-outlet-list?filter=YTdnaXh2ZGhKUWIzVFQyVGd6SitIUT09&program_id=dUFUaUZSSStSZFVRb2VwOE9idFAxZz09&service_id=VEhLUGxiZUJ2TkN3OUgyNlJxZUhSQT09",
         "source_type": "official_partner_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -136,7 +138,67 @@
         "Gift voucher worth Rs. 500 on spending Rs. 30,000 in a quarter",
         "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 5,000, capped at Rs. 250 in a month"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Charges",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST (~₹590)"
+          ],
+          [
+            "Welcome Benefit",
+            "₹500 gift voucher on first transaction within 37 days of card issuance"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST (~₹590)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹1.5 lakh in a membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "IRCTC Train Ticket Bookings",
+            "5 Reward Points per ₹100 spent (~5% value back)"
+          ],
+          [
+            "Train Ticket Bookings via HDFC SmartBuy",
+            "Additional 5% cashback"
+          ],
+          [
+            "Other Retail Spends",
+            "1 Reward Point per ₹100 spent (~1% value back)"
+          ],
+          [
+            "UPI Spends via RuPay",
+            "1 Reward Point per ₹100 spent"
+          ],
+          [
+            "Fuel, Wallet Loads, Rent, Government Transactions, Education Payments",
+            "No Rewards"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -369,6 +431,22 @@
       {
         "q": "Does IRCTC HDFC Credit Card offer lounge access benefits?",
         "a": "Yes, HDFC Bank Credit Card offers 8 complimentary visits to select IRCTC Executive Lounges every year, with a maximum of 2 visits per quarter."
+      },
+      {
+        "question": "Is the IRCTC HDFC Bank Credit Card worth it?",
+        "answer": "If you book train tickets regularly, yes. The card offers strong rewards on IRCTC bookings, railway lounge access and rewards on RuPay UPI spends."
+      },
+      {
+        "question": "How much can I save on train ticket bookings with the IRCTC HDFC Bank Credit Card?",
+        "answer": "You earn 5 Reward Points per ₹100 spent on IRCTC bookings. HDFC also offers an additional 5% cashback on eligible train bookings made through SmartBuy."
+      },
+      {
+        "question": "How many railway lounge visits are offered?",
+        "answer": "You get 8 complimentary railway lounge visits every year, limited to 2 visits per quarter."
+      },
+      {
+        "question": "Does the card earn rewards on UPI payments?",
+        "answer": "Yes. Eligible RuPay UPI transactions earn 1 Reward Point per ₹100 spent."
       }
     ]
   },
@@ -389,12 +467,20 @@
     "pros": [
       "5X rewards & 5% cashback on IRCTC train ticket bookings",
       "Complimentary railway lounge visits every year",
-      "Redemption of rewards against train ticket bookings at a 1:1 ratio"
+      "Redemption of rewards against train ticket bookings at a 1:1 ratio",
+      "Up to 10% value on train ticket bookings",
+      "Reward Points worth ₹1 per point",
+      "8 complimentary railway lounge visits per year",
+      "Rewards on RuPay UPI transactions"
     ],
     "cons": [
       "Low reward rate on non-IRCTC spends",
       "No complimentary airport lounge access",
-      "Limited benefits for those who do not frequently travel by train"
+      "Limited benefits for those who do not frequently travel by train",
+      "3.5% forex markup fee",
+      "Average rewards on regular spending",
+      "No rewards on fuel, rent and government payments",
+      "₹99 + GST reward redemption fee"
     ],
     "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
     "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",

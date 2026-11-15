@@ -37,7 +37,9 @@
     "bank_url": "https://www.bobcard.co.in/credit-cards",
     "mitc_pdf_url": "https://www.bobcard.co.in/most-important-terms-and-condition/bobcard-mitc",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -124,7 +126,133 @@
         "1% fuel surcharge waiver, up to Rs. 250 per month, on fuel spends of Rs. 400 to Rs. 5,000",
         "Annual fee waived on spending Rs. 70,000 in a year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "BOBCARD Select: At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Best Suited For",
+            "Everyday digital spending, specifically online shopping and dining"
+          ],
+          [
+            "Joining Fee",
+            "₹750 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹750 + GST"
+          ],
+          [
+            "Fee Waivers",
+            "Spend ₹7500 in the first 60 days to waive the joining fee, and ₹70,000 annually to waive the annual fee"
+          ],
+          [
+            "Welcome Benefit",
+            "500 reward points upon spending ₹5000 within the first 60 days of card issuance"
+          ],
+          [
+            "Accelerated Rewards",
+            "5X reward points per ₹100 spent on dining and online purchases"
+          ],
+          [
+            "Base Rewards",
+            "1 reward point per ₹100 spent on all other standard categories"
+          ],
+          [
+            "Reward Value",
+            "1 reward point is valued at ₹0.25 when redeemed for cashback"
+          ],
+          [
+            "Reward Capping",
+            "Accelerated 5X rewards are capped at a maximum of 1000 points per billing cycle"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on transactions between ₹400 and ₹5000, capped at ₹250 per month"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "BoB Select Credit Card Review: Fees and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹750 + GST"
+          ],
+          [
+            "Joining Fee Waiver",
+            "Spend ₹7500 within 60 days for fee reversal"
+          ],
+          [
+            "Annual Fee",
+            "₹750 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹70,000 in a year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Rewards and Cashback Breakdown",
+        "headers": [
+          "Earning Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Welcome Bonus",
+            "500 RP upon spending ₹5000 within 60 days"
+          ],
+          [
+            "Dining and Online Spends",
+            "5 RP / ₹100 ~1.25%"
+          ],
+          [
+            "Base Retail Spends",
+            "1 RP / ₹100 ~0.25%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "The Verdict: Strategic Utility vs. Low Rewards",
+        "headers": [
+          "Alternative Card",
+          "Primary Benefit"
+        ],
+        "rows": [
+          [
+            "SBI Cashback",
+            "5% Unlimited cashback on most online spends"
+          ],
+          [
+            "Axis Ace",
+            "1.5% Unlimited cashback on offline spends and 5% on utilities"
+          ],
+          [
+            "HDFC Millennia",
+            "5% Cashback on major partner merchants like Amazon and Swiggy"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -251,7 +379,30 @@
       {
         "q": "Is BOBCARD Select available for self-employed?",
         "a": "Yes, self-employed applicants between the age of 24 and 65 years and a net annual income of more than Rs. 4.8 lakh are eligible to get BOBCARD Select Credit Card, subject to other internal policies of the card provider."
+      },
+      {
+        "question": "What is the reward point value for BOBCARD Select?",
+        "answer": "The reward points earned on the BOBCARD Select credit card are valued at ₹0.25 each. You can redeem these points for statement cashback at a 4:1 ratio."
+      },
+      {
+        "question": "How do I waive the annual fee on my BOBCARD Select card?",
+        "answer": "The annual fee of ₹750 is waived if you spend ₹70,000 or more within a card anniversary year. Additionally, the joining fee is waived if you spend ₹7500 within the first 60 days of card issuance."
+      },
+      {
+        "question": "Is there a limit on the accelerated reward points?",
+        "answer": "Yes, the 5X accelerated reward points on online shopping and dining are capped at 1000 points per billing cycle. Once you spend ₹20,000 in these categories, further spends will earn points at the base rate of 1 point per ₹100."
+      },
+      {
+        "question": "Does BOBCARD Select offer rewards on telecom bills?",
+        "answer": "As of the April 1, 2026 update, spends on Telecom (MCC 4814) now earn core reward points. Standard utility bill payments generally do not earn reward points on this variant."
+      },
+      {
+        "question": "Are there any fees for paying education fees?",
+        "answer": "Yes, a 1% fee (capped at ₹5000 per transaction) is applicable on education fee payments made via third-party apps like CRED, Paytm, or PhonePe as per the 2026 revised charges."
       }
+    ],
+    "program_updates_2026": [
+      "editorial review Update: Spends on Telecom (MCC 4814) now earn core reward points as of April 1, 2026."
     ]
   },
   "ratings": {

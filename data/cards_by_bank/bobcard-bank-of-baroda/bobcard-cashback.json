@@ -38,7 +38,9 @@
     "bank_url": "https://www.bobcard.co.in/credit-cards",
     "mitc_pdf_url": "https://www.bobcard.co.in/most-important-terms-and-condition/bobcard-mitc",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -125,7 +127,145 @@
       "milestone_slabs": [
         "Fuel Benefits: 1% fuel surcharge waiver, up to Rs. 250 per month, on fuel spends of Rs. 400 to Rs. 5,000 at all fuel stations across India"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "BOBCARD Cashback Credit Card – At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Cashback Credit Card"
+          ],
+          [
+            "Issuer",
+            "BOBCARD"
+          ],
+          [
+            "Best For",
+            "Online Shopping"
+          ],
+          [
+            "Cashback",
+            "5% online, 1% on other eligible spends"
+          ],
+          [
+            "Monthly Cashback Cap",
+            "₹1500"
+          ],
+          [
+            "Minimum Spend Condition",
+            "4 retail transactions per billing cycle"
+          ],
+          [
+            "Joining/Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Network",
+            "Mastercard"
+          ],
+          [
+            "Verdict",
+            "Good for moderate online spending; cashback cap limits high spenders."
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "BoB Cashback Credit Card Fees & Charges",
+        "headers": [
+          "Fee",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Monthly Fee (Optional)",
+            "₹49 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Not Available"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Cashback",
+        "headers": [
+          "Spend Category",
+          "Cashback"
+        ],
+        "rows": [
+          [
+            "Eligible Domestic Online Spends",
+            "5% (up to ₹1500 per statement cycle)"
+          ],
+          [
+            "Other Eligible Domestic & International Retail Spends",
+            "1%"
+          ],
+          [
+            "Minimum Transaction Requirement",
+            "4 retail transactions per statement cycle"
+          ],
+          [
+            "Cashback Exclusions",
+            "Transactions below ₹100, fuel, rent, EMI transactions, cash advances, wallet loads, utilities, insurance, education, telecom, government services, taxes, supermarkets/grocery stores, jewellery, railway bookings, charitable & religious organisations, quasi-cash transactions, and all other excluded MCCs specified by BOBCARD"
+          ],
+          [
+            "Cashback Credit",
+            "Auto credited to the card statement"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "How Much Cashback Can You Earn?",
+        "headers": [
+          "Eligible Online Spend",
+          "Cashback Earned"
+        ],
+        "rows": [
+          [
+            "₹10,000",
+            "₹500"
+          ],
+          [
+            "₹20,000",
+            "₹1,000"
+          ],
+          [
+            "₹30,000",
+            "₹1500 (Maximum)"
+          ],
+          [
+            "₹40,000",
+            "₹1500"
+          ],
+          [
+            "₹50,000",
+            "₹1500"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -247,6 +387,26 @@
       {
         "q": "What is the minimum age requirement for BOBCARD Cashback?",
         "a": "To get BOBCARD Cashback, salaried individuals must be 21 to 60 years old and self-employed must be 24 to 65 years old. However, add-on cardholders can be 18 years and above."
+      },
+      {
+        "question": "Is the BoB Cashback Credit Card worth it?",
+        "answer": "Yes. The BoB Cashback Credit Card is a good option for users with moderate online spending. It offers 5% cashback on eligible domestic online transactions and 1% cashback on other eligible retail spends, subject to the cashback cap and card terms."
+      },
+      {
+        "question": "What is the cashback limit on the BoB Cashback Credit Card?",
+        "answer": "You can earn a maximum cashback of ₹1,500 per statement cycle. This limit is reached after ₹30,000 of eligible online spending at the 5% cashback rate."
+      },
+      {
+        "question": "Does the BoB Cashback Credit Card offer 5% cashback on Amazon and Flipkart?",
+        "answer": "Yes. Eligible purchases on Amazon, Flipkart and other domestic online merchants earn 5% cashback, provided the transactions are not part of the excluded merchant categories (MCCs) and you complete at least four retail transactions during the statement cycle."
+      },
+      {
+        "question": "Is there a minimum spend requirement to earn cashback?",
+        "answer": "There is no minimum spend requirement. However, you must complete at least four retail transactions in a statement cycle to receive any cashback for that cycle."
+      },
+      {
+        "question": "Does the BoB Cashback Credit Card offer airport lounge access?",
+        "answer": "No. The BoB Cashback Credit Card does not provide complimentary airport lounge access."
       }
     ]
   },
@@ -266,11 +426,18 @@
       "Up to 5% cashback on online spends",
       "Unlimited base cashback rate on other spends",
       "Effortless savings experience with auto-credited cashback",
-      "Low annual fee with the flexibility to opt for annual or monthly payment plan"
+      "Low annual fee with the flexibility to opt for annual or monthly payment plan",
+      "5% cashback on eligible domestic online spends.",
+      "Cashback is automatically credited to the statement.",
+      "Low annual fee with the option to pay monthly."
     ],
     "cons": [
       "Capping on accelerated cashback rate",
-      "No option to waive off the card’s annual fee"
+      "No option to waive off the card’s annual fee",
+      "Cashback is capped at ₹1500 per statement cycle.",
+      "Minimum four retail transactions required to earn cashback.",
+      "Several common spending categories are excluded from cashback.",
+      "No airport lounge, movie, or travel benefits."
     ],
     "best_for_whom": "BOBCARD (Bank of Baroda) customers seeking cashback rewards & bank-specific discount offers",
     "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",

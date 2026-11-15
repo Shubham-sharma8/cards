@@ -38,6 +38,7 @@ import type {
   RelatedCardFeatureRow,
   RewardConversionStrategy,
   SpendCategoryKey,
+  StructuredBenefitTable,
 } from "@/lib/types";
 import { cappedMonthlyCategoryReward, evaluateCardForSpend } from "@/lib/advisor";
 import { generateDossierAiVerdict } from "@/lib/aiSuggestions";
@@ -553,7 +554,7 @@ export function CardDossierClient({
   ]);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+    <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 overflow-x-clip">
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-[12.5px] text-[#717882] mb-5 flex-wrap">
         <Link href="/cards" className="inline-flex items-center gap-1 hover:text-[#1A1D21] transition-colors">
@@ -584,8 +585,8 @@ export function CardDossierClient({
           />
         )}
         <div className="p-5 sm:p-7">
-        <div className="flex flex-col md:flex-row gap-6 md:items-start justify-between">
-          <div className="flex flex-col sm:flex-row gap-5 items-start">
+        <div className="flex flex-col lg:flex-row gap-6 lg:items-start justify-between">
+          <div className="flex flex-col sm:flex-row gap-5 items-start min-w-0 flex-1 w-full">
             <Interactive3DCardModel
               localImagePath={visual_assets.local_image_path}
               cardName={identity.card_name}
@@ -606,7 +607,7 @@ export function CardDossierClient({
               cardTheme={cardTheme}
               className="shrink-0"
             />
-            <div className="min-w-0">
+            <div className="min-w-0 flex-1 w-full">
               <div className="flex items-center gap-2 flex-wrap">
                 <span className="inline-flex items-center gap-1.5 text-[12px] text-[#0F5C4D] bg-white border border-[#E4E4DF] px-2.5 py-0.5 rounded-md">
                   <BankLogo bankSlug={identity.bank_slug} bank={identity.bank} size="xs" />
@@ -642,8 +643,8 @@ export function CardDossierClient({
           </div>
 
           {/* Right Score + Action Box */}
-          <div className="flex sm:flex-row md:flex-col items-start md:items-end justify-between gap-3 shrink-0 border-t md:border-t-0 pt-4 md:pt-0 border-[#E4E4DF]">
-            <div className="flex items-center gap-2.5 flex-wrap md:justify-end">
+          <div className="flex sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-3 shrink-0 w-full lg:w-auto border-t lg:border-t-0 pt-4 lg:pt-0 border-[#E4E4DF]">
+            <div className="flex items-center gap-2 flex-wrap lg:justify-end">
               <div className="flex items-center gap-1.5 bg-white border border-[#E4E4DF] px-3 py-1.5 rounded-lg tabular-nums">
                 <Star className="w-4 h-4 text-[#9A5B13]" aria-hidden="true" />
                 <span className="text-[16px] font-medium text-[#1A1D21]">
@@ -1145,6 +1146,37 @@ export function CardDossierClient({
                         </p>
                       )}
                     </div>
+                  </div>
+                </div>
+              )}
+
+              {/* 2026 Program Updates & Live Rule Alerts */}
+              {benefits.program_updates_2026 && benefits.program_updates_2026.length > 0 && (
+                <div className="bg-[#FEF8F0] border border-[#E9CFA6] rounded-xl p-5 sm:p-6">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <AlertTriangle className="w-4 h-4 text-[#9A5B13]" aria-hidden="true" />
+                      <h2 className="text-[16px] font-medium text-[#1A1D21]">
+                        2026 Live Rule Changes &amp; Policy Status
+                      </h2>
+                    </div>
+                    <Link
+                      href="/devaluations"
+                      className="text-[12px] font-medium text-[#9A5B13] hover:underline"
+                    >
+                      Devaluation Tracker →
+                    </Link>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3.5">
+                    {benefits.program_updates_2026.map((note, idx) => (
+                      <div
+                        key={idx}
+                        className="bg-white/90 border border-[#E9CFA6] rounded-lg px-3.5 py-2.5 text-[13px] text-[#1A1D21] leading-relaxed flex items-start gap-2"
+                      >
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#9A5B13] shrink-0 mt-2" />
+                        <span>{note}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}
@@ -1705,24 +1737,92 @@ export function CardDossierClient({
 
                   {calc.transfer_partners && calc.transfer_partners.length > 0 && (
                     <div className="pt-4 border-t border-[#E4E4DF]">
-                      <h4 className="text-[14px] font-medium text-[#1A1D21]">Airline &amp; Hotel Transfer Partners</h4>
-                      <div className="flex flex-wrap gap-1.5 mt-2">
-                        {calc.transfer_partners.map((tp, i) => {
-                          const text =
-                            typeof tp === "string"
-                              ? tp
-                              : `${tp.partner ?? ""} ${tp.ratio ? `(${tp.ratio})` : ""}`;
-                          return (
-                            <span key={i} className="text-[12px] bg-[#EEF5F2] text-[#0F5C4D] px-2.5 py-1 rounded-md">
-                              {text}
-                            </span>
-                          );
-                        })}
+                      <div className="flex items-center justify-between gap-2">
+                        <h4 className="text-[14.5px] font-medium text-[#1A1D21]">
+                          Airline &amp; Hotel Transfer Partners
+                        </h4>
+                        <span className="text-[11px] bg-[#EEF5F2] text-[#0F5C4D] px-2 py-0.5 rounded-md font-medium">
+                          {calc.transfer_partners.length} partners
+                        </span>
                       </div>
+                      {calc.transfer_partners.some((tp) => typeof tp === "object" && tp.ratio) ? (
+                        <div className="mt-2.5 border border-[#E4E4DF] rounded-lg overflow-hidden">
+                          <table className="w-full text-left text-[12.5px]">
+                            <thead className="bg-[#EEF4FA] text-[#4B525C] uppercase text-[11px] tracking-wide">
+                              <tr>
+                                <th className="py-2 px-3 font-medium">Partner</th>
+                                <th className="py-2 px-3 font-medium">Conversion Rate</th>
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-[#E4E4DF]">
+                              {calc.transfer_partners.map((tp, i) => {
+                                const partnerName =
+                                  typeof tp === "string" ? tp : tp.partner ?? "Partner";
+                                const ratioText =
+                                  typeof tp === "string"
+                                    ? "1:1 / Standard"
+                                    : tp.ratio || "1:1";
+                                const noteText =
+                                  typeof tp === "string" ? "" : tp.notes || "";
+                                return (
+                                  <tr key={i} className={i % 2 === 1 ? "bg-[#FAF9F6]" : "bg-white"}>
+                                    <td className="py-2 px-3 text-[#4B525C] font-medium">
+                                      {partnerName}
+                                      {noteText ? (
+                                        <span className="block text-[11px] font-normal text-[#717882]">
+                                          {noteText}
+                                        </span>
+                                      ) : null}
+                                    </td>
+                                    <td className="py-2 px-3 text-[#1A1D21] font-medium tabular-nums">
+                                      {ratioText}
+                                    </td>
+                                  </tr>
+                                );
+                              })}
+                            </tbody>
+                          </table>
+                        </div>
+                      ) : (
+                        <div className="flex flex-wrap gap-1.5 mt-2">
+                          {calc.transfer_partners.map((tp, i) => {
+                            const text =
+                              typeof tp === "string"
+                                ? tp
+                                : `${tp.partner ?? ""} ${tp.ratio ? `(${tp.ratio})` : ""}`;
+                            return (
+                              <span key={i} className="text-[12px] bg-[#EEF5F2] text-[#0F5C4D] px-2.5 py-1 rounded-md">
+                                {text}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>
               </div>
+
+              {/* Structured Bento Tables (Reward Slabs, Portals, Gold Collection, Milestones) */}
+              {(() => {
+                const rewardTables = (calc.structured_tables || []).filter(
+                  (t) =>
+                    t.rows?.length > 0 &&
+                    !["fees_and_charges", "lounge_access", "eligibility"].includes(t.kind) &&
+                    !(
+                      t.kind === "transfer_partners" &&
+                      calc.transfer_partners?.some((tp) => typeof tp === "object" && tp.ratio)
+                    )
+                );
+                if (rewardTables.length === 0) return null;
+                return (
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    {rewardTables.slice(0, 8).map((tbl) => (
+                      <StructuredTableBentoCard key={tbl.id} table={tbl} />
+                    ))}
+                  </div>
+                );
+              })()}
             </motion.div>
           )}
 
@@ -1946,6 +2046,21 @@ export function CardDossierClient({
                 </div>
               )}
 
+              {/* Structured Lounge Matrix Boxes */}
+              {(() => {
+                const loungeTables = (calc.structured_tables || []).filter(
+                  (t) => t.kind === "lounge_access" && t.rows?.length > 0
+                );
+                if (loungeTables.length === 0) return null;
+                return (
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    {loungeTables.slice(0, 4).map((tbl) => (
+                      <StructuredTableBentoCard key={tbl.id} table={tbl} />
+                    ))}
+                  </div>
+                );
+              })()}
+
               {/* Searchable Participating Lounges Table */}
               <div className="bg-white border border-[#E4E4DF] rounded-xl p-5 sm:p-6">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
@@ -2012,8 +2127,9 @@ export function CardDossierClient({
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -4 }}
               transition={calmTransition}
-              className="grid grid-cols-1 lg:grid-cols-2 gap-5"
+              className="space-y-5"
             >
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
               {/* Fees & Charges Table */}
               <div className="bg-white border border-[#E4E4DF] rounded-xl p-5 sm:p-6">
                 <h2 className="text-[17px] font-medium text-[#1A1D21]">Fees, Interest &amp; Charges</h2>
@@ -2103,6 +2219,24 @@ export function CardDossierClient({
                   </div>
                 )}
               </div>
+              </div>
+
+              {/* Structured Fees & Eligibility Bento Boxes */}
+              {(() => {
+                const feeTables = (calc.structured_tables || []).filter(
+                  (t) =>
+                    (t.kind === "fees_and_charges" || t.kind === "eligibility") &&
+                    t.rows?.length > 0
+                );
+                if (feeTables.length === 0) return null;
+                return (
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    {feeTables.slice(0, 4).map((tbl) => (
+                      <StructuredTableBentoCard key={tbl.id} table={tbl} />
+                    ))}
+                  </div>
+                );
+              })()}
             </motion.div>
           )}
 
@@ -2590,6 +2724,70 @@ export function CardDossierClient({
           </div>
         </section>
       )}
+    </div>
+  );
+}
+
+const TABLE_KIND_LABELS: Record<string, string> = {
+  reward_structure: "Reward Matrix",
+  accelerated_partners: "Accelerated Portals",
+  redemption_catalog: "Redemption Value",
+  milestone_benefits: "Milestones",
+  lounge_access: "Lounge Matrix",
+  fees_and_charges: "Fees & Limits",
+  eligibility: "Eligibility",
+  transfer_partners: "Transfer Ratios",
+  other_table: "Breakdown",
+};
+
+function StructuredTableBentoCard({ table }: { table: StructuredBenefitTable }) {
+  const isWide = table.headers.length >= 4 || table.rows.length >= 9;
+  const badge = TABLE_KIND_LABELS[table.kind] || "Breakdown";
+  return (
+    <div
+      className={`bg-white border border-[#E4E4DF] rounded-xl p-5 flex flex-col ${
+        isWide ? "lg:col-span-2" : ""
+      }`}
+    >
+      <div className="flex items-start justify-between gap-3">
+        <h3 className="text-[15px] font-medium text-[#1A1D21] leading-snug">
+          {table.title}
+        </h3>
+        <span className="shrink-0 text-[11px] font-medium bg-[#EEF5F2] text-[#0F5C4D] px-2 py-0.5 rounded-md">
+          {badge}
+        </span>
+      </div>
+      <div className="mt-3 border border-[#E4E4DF] rounded-lg overflow-x-auto">
+        <table className="w-full text-left text-[12.5px]">
+          <thead className="bg-[#F3F2EE] text-[#4B525C] uppercase text-[11px] tracking-wide">
+            <tr>
+              {table.headers.map((h, i) => (
+                <th key={i} className="py-2 px-3 font-medium whitespace-nowrap">
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-[#E4E4DF]">
+            {table.rows.map((row, rIdx) => (
+              <tr key={rIdx} className={rIdx % 2 === 1 ? "bg-[#FAF9F6]" : "bg-white"}>
+                {row.map((cell, cIdx) => (
+                  <td
+                    key={cIdx}
+                    className={`py-2 px-3 align-top leading-relaxed ${
+                      cIdx === 0
+                        ? "text-[#1A1D21] font-medium"
+                        : "text-[#4B525C] tabular-nums"
+                    }`}
+                  >
+                    {cell || "—"}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

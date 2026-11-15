@@ -49,7 +49,9 @@
         "url": "https://www.rupay.co.in/",
         "source_type": "official_network_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -147,7 +149,170 @@
         "Renewal fee is waived off on spending min. Rs. 2 lakh in the previous year",
         "1% fuel surcharge waiver, up to Rs. 250 per month, on fuel spends of Rs. 400 to Rs. 5,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "PhonePe HDFC Bank Ultimo Credit Card at a Glance",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹999 + GST"
+          ],
+          [
+            "Renewal Fee",
+            "₹999 + GST"
+          ],
+          [
+            "Renewal Fee Waiver",
+            "Spend ₹2 lakh in the previous year"
+          ],
+          [
+            "Welcome Benefit",
+            "₹1000 in PhonePe cashback vouchers for applications"
+          ],
+          [
+            "10% Rewards",
+            "PhonePe Recharges & Bills and Travel & Stays (flights, buses, trains and hotels)"
+          ],
+          [
+            "10% Monthly Cap",
+            "1000 RP"
+          ],
+          [
+            "5% Rewards",
+            "Amazon, Flipkart, Myntra, AJIO, Uber, Swiggy and Zomato"
+          ],
+          [
+            "5% Monthly Cap",
+            "500 RP"
+          ],
+          [
+            "UPI Rewards",
+            "1% on eligible QR-based Scan & Pay transactions through any UPI app"
+          ],
+          [
+            "UPI Monthly Cap",
+            "500 RP"
+          ],
+          [
+            "Maximum Rewards",
+            "Up to 2000 RP per calendar month across the three reward buckets"
+          ],
+          [
+            "Reward Point Value",
+            "1 RP = ₹1 as statement cashback"
+          ],
+          [
+            "Minimum Cashback Redemption",
+            "500 RP"
+          ],
+          [
+            "Maximum Cashback Redemption",
+            "₹7500 per calendar month"
+          ],
+          [
+            "Reward Validity",
+            "2 years"
+          ],
+          [
+            "Card Network",
+            "RuPay"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% on transactions of ₹400-₹5000, maximum ₹250 per statement cycle"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹999 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "₹1000 in PhonePe cashback vouchers for applications from 1 August 2026"
+          ],
+          [
+            "Annual Renewal Fee",
+            "₹999 + GST"
+          ],
+          [
+            "Renewal Fee Waiver",
+            "Spend ₹2 lakh in the previous year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "PhonePe Recharges & Bills, Travel & Stays",
+            "10% Reward Points",
+            "1000 RP"
+          ],
+          [
+            "Amazon, Flipkart, Myntra, AJIO, Uber, Swiggy and Zomato",
+            "5% Reward Points",
+            "500 RP"
+          ],
+          [
+            "UPI Scan & Pay through PhonePe or other UPI apps",
+            "1% Reward Points",
+            "500 RP"
+          ],
+          [
+            "Fuel, wallet loads, gift cards, government payments, rent, education, insurance and jewellery",
+            "No rewards",
+            "–"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Airport Lounge Access Benefit",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Complimentary Lounge Access",
+            "Up to 8 domestic lounge visits per year, limited to 2 per quarter"
+          ],
+          [
+            "Spend Requirement",
+            "Spend ₹75,000 or more in a calendar quarter"
+          ],
+          [
+            "When You Get Access",
+            "Lounge vouchers are issued for the following quarter"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -604,7 +769,30 @@
       {
         "q": "Can I link PhonePe HDFC Bank Credit Card to other UPI apps apart from PhonePe?",
         "a": "Yes, you can link PhonePe Ultimo HDFC credit card to any UPI app other than PhonePe as well, including Google Pay, BHIM UPI, Paytm, CRED, etc."
+      },
+      {
+        "question": "Is the PhonePe HDFC Bank Ultimo Credit Card worth it?",
+        "answer": "The card is mainly useful for PhonePe bills, recharges and travel bookings, where it offers 10% rewards. It also offers 5% rewards on select online merchants. The monthly caps limit the upside, but the reward rates are good for a ₹999 + GST card."
+      },
+      {
+        "question": "How much cashback can I earn with the PhonePe HDFC Bank Ultimo Credit Card?",
+        "answer": "You can earn up to 2000 Reward Points per month. This includes 1000 RP from the 10% PhonePe category, 500 RP from the 5% online category and 500 RP from UPI Scan & Pay."
+      },
+      {
+        "question": "Does the PhonePe HDFC Bank Ultimo Credit Card give 10% cashback on utility bills?",
+        "answer": "Yes. Eligible recharges and bill payments made through PhonePe earn 10% Reward Points, subject to a maximum of 1000 RP per month."
+      },
+      {
+        "question": "Does the PhonePe HDFC Bank Ultimo Credit Card give rewards on train tickets?",
+        "answer": "Yes. Eligible train bookings made through PhonePe fall under the 10% Travel & Stays reward category. Flights, buses and hotel bookings through PhonePe are also covered."
+      },
+      {
+        "question": "Does the PhonePe HDFC Bank Ultimo Credit Card earn rewards on UPI payments?",
+        "answer": "Yes. Eligible UPI Scan & Pay transactions earn 1% Reward Points, capped at 500 RP per month. The payment needs to be made by scanning a merchant QR code."
       }
+    ],
+    "program_updates_2026": [
+      "Joining Fee ₹999 + GST Welcome Benefit ₹1000 in PhonePe cashback vouchers for applications from 1 August 2026 Annual Renewal Fee ₹999 + GST Renewal Fee Waiver Spend ₹2 lakh in the previous year"
     ]
   },
   "ratings": {
@@ -625,12 +813,18 @@
       "Accelerated rewards on categories, like bills and utilities, that are generally excluded",
       "No cashback redemption fee charged",
       "Up to 8 complimentary domestic airport access",
-      "Easily achievable spending condition for annual fee waiver"
+      "Easily achievable spending condition for annual fee waiver",
+      "10% rewards on eligible PhonePe bills, recharges and travel spends",
+      "5% rewards on select online merchants"
     ],
     "cons": [
       "Capping on rewards earnings, including base rate category spends",
       "Earned reward points expire after 1 year of accrual",
-      "Airport access comes with quarterly spending condition"
+      "Airport access comes with quarterly spending condition",
+      "Monthly caps limit the 10% and 5% reward categories",
+      "Several common categories including insurance, education, rent and government spends are excluded from rewards",
+      "Lounge access requires ₹75,000 spend in the previous quarter",
+      "UPI rewards are limited to QR-based Scan & Pay transactions"
     ],
     "best_for_whom": "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
     "not_ideal_for": "Ultra-high spenders better served by super-premium metal cards",

@@ -61,7 +61,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -155,7 +157,129 @@
         "Card Fee Waiver: On reaching annual retail spends of Rs. 10 lakh",
         "Fuel Benefit: 1% fuel surcharge waiver of up to Rs. 4,500 per year on fuel spends of Rs. 400 to Rs. 7,500"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹12,500+GST"
+          ],
+          [
+            "Welcome Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee",
+            "₹12,500+GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹10 Lakhs spend in a year"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-1",
+        "kind": "milestone_benefits",
+        "title": "Rewards",
+        "headers": [
+          "Spend Milestone",
+          "White Pass Value Earned",
+          "Total White Pass Value",
+          "Return"
+        ],
+        "rows": [
+          [
+            "₹3 Lakhs",
+            "₹5,000",
+            "₹5,000",
+            "1.6%"
+          ],
+          [
+            "₹10 Lakhs",
+            "₹15,000",
+            "₹20,000",
+            "2.0%"
+          ],
+          [
+            "₹20 Lakhs",
+            "₹22,000",
+            "₹42,000",
+            "2.1%"
+          ],
+          [
+            "₹30 Lakhs",
+            "₹24,000",
+            "₹66,000",
+            "2.2%"
+          ],
+          [
+            "₹40 Lakhs",
+            "₹26,000",
+            "₹92,000",
+            "2.3%"
+          ],
+          [
+            "₹50 Lakhs",
+            "₹28,000",
+            "₹1.2 Lakhs",
+            "2.4%"
+          ],
+          [
+            "₹75 Lakhs",
+            "₹63,000",
+            "₹1.83 Lakhs",
+            "2.4%"
+          ],
+          [
+            "₹1 Crore",
+            "₹67,000",
+            "₹2.5 Lakhs",
+            "2.5%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-2",
+        "kind": "lounge_access",
+        "title": "Complimentary Airport Lounge Access",
+        "headers": [
+          "Feature",
+          "Domestic Lounges",
+          "International Lounges"
+        ],
+        "rows": [
+          [
+            "Annual Limit",
+            "Unlimited",
+            "Unlimited"
+          ],
+          [
+            "Access Method",
+            "Swipe Kotak White Reserve credit card",
+            "Present physical Priority Pass or digital QR code via the app"
+          ],
+          [
+            "Usage Conditions",
+            "Valid for both primary and add-on cardholders. A ₹2 validation charge applies.",
+            "Valid for both primary and add-on cardholders. A temporary $1 validation charge is reversed within seven days."
+          ],
+          [
+            "Guest Fee",
+            "Standard lounge walk-in rates apply",
+            "$35 per guest per visit"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -892,6 +1016,18 @@
       {
         "q": "Is there a fee waiver option for Kotak White Reserve credit card users?",
         "a": "Yes, you can get the annual card fee waived off by spending at least Rs. 10 lakh in an anniversary year."
+      },
+      {
+        "question": "Is the Kotak White Reserve Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹12,500 + GST and the annual fee is ₹12,500 + GST. The annual fee is waived when you spend ₹10 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the Kotak White Reserve Credit Card?",
+        "answer": "It's 2% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the Kotak White Reserve Credit Card give airport lounge access?",
+        "answer": "Yes. You get unlimited domestic visits, plus unlimited international visits."
       }
     ]
   },

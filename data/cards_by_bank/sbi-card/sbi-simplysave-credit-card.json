@@ -37,7 +37,9 @@
     "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
     "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -126,7 +128,145 @@
         "Fuel Surcharge Waiver: 1% fuel surcharge waiver on your transactions between Rs. 500 to Rs. 3,000 at any petrol pump in India. You can avail a maximum waiver of Rs. 100 per statement cycle.",
         "Annual fee waiver condition of Rs. 1 Lakh in a year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "SBI SimplySAVE UPI Credit Card – Key Highlights",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Network",
+            "RuPay (UPI-Enabled)"
+          ],
+          [
+            "Card Type",
+            "Entry Level"
+          ],
+          [
+            "Joining Fee",
+            "₹499+GST (~₹589)"
+          ],
+          [
+            "Annual Fee",
+            "₹499+GST (~₹589)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹1 lakh/year to waive fee"
+          ],
+          [
+            "Welcome Benefit",
+            "2000 RP on ₹2000 spend in 60 days (~₹500)"
+          ],
+          [
+            "Reward Point Value",
+            "1 RP = ₹0.25"
+          ],
+          [
+            "Lounge Access",
+            "Not Available"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-1",
+        "kind": "eligibility",
+        "title": "Eligibility",
+        "headers": [
+          "Criteria",
+          "Requirement"
+        ],
+        "rows": [
+          [
+            "Credit Score",
+            "750+"
+          ],
+          [
+            "Occupation",
+            "Salaried or Self-Employed"
+          ],
+          [
+            "Income(Salaried)",
+            "₹20,000+ per month"
+          ],
+          [
+            "Income (Self-Employed)",
+            "₹30,000+ per month"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Fees & Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499+GST ~Rs 589"
+          ],
+          [
+            "Welcome Benefit",
+            "Spend ₹2000 in first 60 days and get 2000 RP ~₹500 Value"
+          ],
+          [
+            "Annual Fee",
+            "₹499+GST ~Rs 589"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹1 lakh/year"
+          ],
+          [
+            "Interest Rate",
+            "3.5% per month"
+          ],
+          [
+            "Forex Markup Fee",
+            "3.5%+GST (~4.13%)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Rewards & Benefits of SBI SimplySAVE UPI Card",
+        "headers": [
+          "Spend Type",
+          "Reward Rate",
+          "Effective Return (1 RP = ₹0.25)"
+        ],
+        "rows": [
+          [
+            "Dining, Movies, Dept. Stores, Groceries",
+            "10 RP/₹150",
+            "~1.67%"
+          ],
+          [
+            "Other Spends",
+            "1 RP/₹150",
+            "~0.17%"
+          ],
+          [
+            "Fuel, Rent, Wallet Load",
+            "No Rewards",
+            "N/A"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -310,12 +450,19 @@
     "pros": [
       "10X reward points on dining, movies, grocery and departmental store spends",
       "Entry-level credit card with low annual fee and easier eligibility terms",
-      "Annual fee waiver condition of Rs. 1 Lakh in a year"
+      "Annual fee waiver condition of Rs. 1 Lakh in a year",
+      "UPI-compatible RuPay credit card",
+      "Good rewards on groceries, dining, and department stores",
+      "Simple annual fee waiver on ₹1L spend",
+      "Accepted on major UPI platforms"
     ],
     "cons": [
       "Reward redemption options are limited to select brand vouchers only",
       "No significant benefits other than the rewards program",
-      "Low reward rate as compared to some entry-level cashback cards"
+      "Low reward rate as compared to some entry-level cashback cards",
+      "No lounge access or travel perks",
+      "Low returns on other categories",
+      "No milestone or renewal bonuses"
     ],
     "best_for_whom": "SBI Card customers seeking dining, groceries & movies rewards & bank-specific discount offers",
     "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",

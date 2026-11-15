@@ -50,7 +50,9 @@
         "url": "https://www.rupay.co.in/",
         "source_type": "official_network_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -147,7 +149,202 @@
         "2 reward points per Rs. 150 spent on other category purchases, including all the UPI spends",
         "500 bonus reward points on spending Rs. 5,000 or more within 60 days of card issuance"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HPCL BOBCARD ENERGIE Credit Card – At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Best Suited For",
+            "Regular HPCL fuel users with moderate monthly fuel spends"
+          ],
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹50,000 in the card anniversary year"
+          ],
+          [
+            "Welcome Benefit",
+            "500 Reward Points on ₹5000 spends within 60 days"
+          ],
+          [
+            "HPCL Fuel Rewards",
+            "24 RP per ₹150 spent"
+          ],
+          [
+            "Effective Fuel Reward Rate",
+            "4%"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% on eligible HPCL transactions of ₹400–₹5000"
+          ],
+          [
+            "Maximum Fuel Surcharge Waiver",
+            "₹100 per statement"
+          ],
+          [
+            "Utility & Department Store Rewards",
+            "10 RP per ₹150"
+          ],
+          [
+            "Base Rewards",
+            "2 RP per ₹150"
+          ],
+          [
+            "Reward Point Value",
+            "₹0.25 per RP"
+          ],
+          [
+            "Domestic Lounge Access",
+            "1 visit per quarter / 4 per year"
+          ],
+          [
+            "Lounge Spend Requirement",
+            "₹20,000 in the previous calendar quarter"
+          ],
+          [
+            "Movie Benefit",
+            "25% off up to ₹100, twice per month"
+          ],
+          [
+            "Forex Markup",
+            "3.5% of the transaction amount"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "HPCL BoB ENERGIE Credit Card Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499+GST ~₹589"
+          ],
+          [
+            "Welcome Benefit",
+            "500 Reward Points on ₹5000 spend within 60 days ~₹125"
+          ],
+          [
+            "Annual Fee",
+            "₹499+GST ~₹589"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹50,000 spend in a membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "HPCL ENERGIE Credit Card Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "HP Fuel",
+            "24 RP/₹150 ~4% value"
+          ],
+          [
+            "Utilities & Department Stores",
+            "10 RP/₹150 ~1.7% value"
+          ],
+          [
+            "Other Eligible Spends",
+            "2 RP/₹150 ~0.3% value"
+          ],
+          [
+            "Special MCCs",
+            "No Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-3",
+        "kind": "fees_and_charges",
+        "title": "Up to 5% Savings on HPCL Fuel",
+        "headers": [
+          "Monthly Eligible HPCL Fuel Spend",
+          "Fuel RP Value",
+          "Potential 1% Surcharge Waiver",
+          "Approx. Total Value"
+        ],
+        "rows": [
+          [
+            "₹3000",
+            "₹120",
+            "Up to ₹30",
+            "₹150"
+          ],
+          [
+            "₹5000",
+            "₹200",
+            "Up to ₹50",
+            "₹250"
+          ],
+          [
+            "₹6250",
+            "₹250",
+            "Up to ₹62.50",
+            "₹312.50"
+          ],
+          [
+            "₹10,000",
+            "₹250 due to RP cap",
+            "Up to ₹100",
+            "₹350"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Complimentary Domestic Airport Lounge Access",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Lounge Access",
+            "1 domestic visit per quarter"
+          ],
+          [
+            "Annual Limit",
+            "4 visits"
+          ],
+          [
+            "Spend Requirement",
+            "₹20,000 in the previous calendar quarter"
+          ],
+          [
+            "New Card Benefit",
+            "Spend condition waived for the issue quarter"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -600,7 +797,32 @@
       {
         "q": "What are the terms and conditions related to the movie benefit on BOBCARD HPCL ENERGIE Credit Card?",
         "a": "You get 25% off up to Rs. 100 when booking movie tickets via District App. However, you must book at least 2 tickets to avail this benefit. You can get this discount only twice a month."
+      },
+      {
+        "question": "Is the HPCL BoB ENERGIE Credit Card worth it?",
+        "answer": "Yes. It is a good option if you regularly refuel at eligible HPCL outlets and can make good use of the 4% fuel reward rate."
+      },
+      {
+        "question": "What is the reward rate on the HPCL BoB ENERGIE Credit Card?",
+        "answer": "The card earns 24 Reward Points per ₹150 on eligible HPCL fuel spends, equivalent to 4% value back. Regular eligible spends earn 2 Reward Points per ₹150."
+      },
+      {
+        "question": "What is the annual fee for the HPCL BoB ENERGIE Credit Card?",
+        "answer": "The joining and annual fee is ₹499 + GST. The annual fee is waived on eligible spends of ₹50,000 in a card anniversary year."
+      },
+      {
+        "question": "Does the HPCL BoB ENERGIE Credit Card offer a fuel surcharge waiver?",
+        "answer": "Yes. You get a 1% fuel surcharge waiver on eligible HPCL transactions between ₹400 and ₹5000, capped at ₹100 per statement cycle."
+      },
+      {
+        "question": "Do all HPCL petrol pumps qualify for accelerated rewards?",
+        "answer": "No. From 15 July 2026, accelerated fuel rewards and the fuel surcharge waiver apply only at eligible HPCL outlets identified by BOBCARD."
       }
+    ],
+    "program_updates_2026": [
+      "The headline fuel return is attractive for a low-fee card, but there is an important catch after the July 2026 revision. Accelerated fuel rewards and the fuel surcharge waiver are now available only at eligible HPCL outlets appearing in the merchant list shared by HPCL with BOBCARD. Simply using the card at any HPCL-branded petrol pump is no longer enough.",
+      "Effective 15 July 2026, accelerated fuel rewards and the surcharge waiver are available only at HPCL outlets whose MID/TID appears on the eligible list shared by HPCL with BOBCARD. An HPCL-branded pump may therefore not automatically qualify, so check BOBCARD’s latest eligible-outlet list for your regular fuel station.",
+      "No. From 15 July 2026, accelerated fuel rewards and the fuel surcharge waiver apply only at eligible HPCL outlets identified by BOBCARD."
     ]
   },
   "ratings": {
@@ -623,12 +845,18 @@
       "Accelerated rewards on LPG, departmental stores and utility spends",
       "Up to Rs. 2,400 savings on movie ticket bookings via District app",
       "Very low spend-based requirement for renewal fee waiver",
-      "Up to 4 free domestic airport lounge visits per year"
+      "Up to 4 free domestic airport lounge visits per year",
+      "Up to 5% value on eligible HPCL fuel spends",
+      "Low annual fee of ₹499 + GST"
     ],
     "cons": [
       "Monthly capping on accelerated rewards earnings",
       "Low reward redemption ratio",
-      "Spend-based condition on lounge access benefit"
+      "Spend-based condition on lounge access benefit",
+      "Fuel benefits are limited to eligible HPCL outlets",
+      "Fuel rewards are capped at 1000 RP per statement cycle",
+      "Base reward rate is only around 0.33%",
+      "Lounge access needs ₹20,000 spend in the previous quarter"
     ],
     "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
     "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",

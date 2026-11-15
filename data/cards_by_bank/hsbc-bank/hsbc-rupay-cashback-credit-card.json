@@ -67,7 +67,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -168,7 +170,215 @@
         "Paytm: 5% off, up to Rs. 150, on spends of min. Rs. 299 on mobile, broadband, DTH, water bills, gas cylinders, piped gas bills, FASTag and electricity bills5",
         "Discount offers on leading platforms for lifestyle-related spends"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HSBC RuPay Cashback Credit Card at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Fee Waiver",
+            "Spend over ₹2 lakh in the preceding card anniversary year"
+          ],
+          [
+            "Cashback",
+            "10% on eligible dining, food delivery and grocery spends"
+          ],
+          [
+            "Other Spends",
+            "1% cashback on eligible transactions"
+          ],
+          [
+            "Cashback Cap",
+            "₹400 per month"
+          ],
+          [
+            "UPI",
+            "Can be linked to supported UPI apps for merchant payments"
+          ],
+          [
+            "Domestic Lounge Access",
+            "Up to 2 complimentary visits per quarter"
+          ],
+          [
+            "International Lounge Access",
+            "Up to 2 complimentary visits per year"
+          ],
+          [
+            "Card Network",
+            "RuPay"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees, Welcome Benefits and Renewal Benefits",
+        "headers": [
+          "Particulars",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Fee Waiver",
+            "On annual spends above ₹2 lakh"
+          ],
+          [
+            "₹500 Welcome Cashback",
+            "Download and log in to the HSBC India Mobile Banking app and spend ₹10,000 within 30 days of card issuance"
+          ],
+          [
+            "₹250 UPI Cashback",
+            "Link the card to UPI and make 2 transactions of at least ₹250 each within 30 days"
+          ],
+          [
+            "₹250 Amazon eGift Voucher",
+            "Apply online, complete Video KYC and get the card issued"
+          ],
+          [
+            "EazyDiner Benefit",
+            "2-month membership on card activation"
+          ],
+          [
+            "₹1,000 Account Aggregator Cashback",
+            "Submit income documents through Account Aggregator and spend ₹1,000 or more within 30 days of receiving the card"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Cashback and Rewards",
+        "headers": [
+          "Spend Category",
+          "Cashback"
+        ],
+        "rows": [
+          [
+            "Dining",
+            "10%"
+          ],
+          [
+            "Food Delivery",
+            "10%"
+          ],
+          [
+            "Grocery",
+            "10%"
+          ],
+          [
+            "Other Eligible Spends",
+            "1%"
+          ],
+          [
+            "Overall Cashback Cap",
+            "₹400 per month"
+          ],
+          [
+            "Utilities, rent, tax payments, financial, jewellery, insurance, fuel, e-wallets, education and government transactions",
+            "No Cashback"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Lounges",
+            "2 complimentary visits per quarter"
+          ],
+          [
+            "International Lounges",
+            "2 complimentary visits per year"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "Other Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Paytm Bill Payments",
+            "5% off on transactions of ₹299 or more, capped at ₹150"
+          ],
+          [
+            "Eligible Paytm Categories",
+            "Mobile prepaid/postpaid, broadband, DTH, water bills, gas cylinders, piped gas, FASTag and electricity bills"
+          ],
+          [
+            "RuPay Offers",
+            "Access to additional shopping, dining and lifestyle offers for RuPay cardholders"
+          ],
+          [
+            "JCB Benefits",
+            "Access to select international discounts and offers through the JCB network"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-5",
+        "kind": "eligibility",
+        "title": "Eligibility",
+        "headers": [
+          "Criteria",
+          "Requirement"
+        ],
+        "rows": [
+          [
+            "Salaried Applicants",
+            "Age 18-65 years"
+          ],
+          [
+            "Minimum Income – Salaried",
+            "₹6 lakh per year"
+          ],
+          [
+            "Self-Employed Applicants",
+            "Age 25-65 years"
+          ],
+          [
+            "Minimum Income – Self Employed",
+            "₹12 lakh per year"
+          ],
+          [
+            "Eligible Cities",
+            "Chennai, Gurgaon, Delhi NCR, Pune, Noida, Hyderabad, Mumbai, Bengaluru, Kochi, Coimbatore, Jaipur, Chandigarh, Ahmedabad, Kolkata, Amritsar, Baroda, Indore, Lucknow, Nagpur, Surat and Trivandrum"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -672,6 +882,26 @@
       {
         "q": "What are the benefits of EazyDiner Prime membership?",
         "a": "With EazyDiner Prime membership, you can get up to Rs. 3,000 savings with 25% to 50% off at premium bars/restaurants. You can also get priority reservations at premium restaurants, earn 2X EazyPoints redeemable for dining bills, and get access to dedicated VIP EazyDiner Prime Concierge."
+      },
+      {
+        "question": "What is the cashback rate on the HSBC RuPay Cashback Credit Card?",
+        "answer": "You get 10% cashback on eligible dining, food delivery and grocery spends, and 1% cashback on other eligible spends."
+      },
+      {
+        "question": "What is the maximum cashback per month?",
+        "answer": "Cashback is capped at ₹400 per month across eligible spends."
+      },
+      {
+        "question": "Can I use the HSBC RuPay Cashback Credit Card on UPI?",
+        "answer": "Yes. The card can be linked to supported UPI apps and used for eligible merchant payments."
+      },
+      {
+        "question": "What is the annual fee of the HSBC RuPay Cashback Credit Card?",
+        "answer": "The joining fee and annual fee are ₹499 + GST each."
+      },
+      {
+        "question": "How can I get the annual fee waived?",
+        "answer": "The annual fee is waived if you spend more than ₹2 lakh during the card anniversary year."
       }
     ]
   },
@@ -692,11 +922,18 @@
       "Up to 10% cashback on dining, food delivery & grocery spends (cap Rs. 400/mo)",
       "1% cashback on RuPay UPI & everyday eligible retail spends",
       "Complimentary domestic & international lounge access (spend-linked)",
-      "Low Rs. 499 annual fee waived on Rs. 2 Lakh annual spend"
+      "Low Rs. 499 annual fee waived on Rs. 2 Lakh annual spend",
+      "1% cashback on other eligible spends",
+      "Can be linked to UPI",
+      "Up to 8 domestic lounge visits a year"
     ],
     "cons": [
       "Tight Rs. 400/month combined cap across dining & groceries",
-      "No cashback earned on international spends (standard 3.5%+GST forex markup outside limited-time promo)"
+      "No cashback earned on international spends (standard 3.5%+GST forex markup outside limited-time promo)",
+      "Cashback is capped at ₹400 per month",
+      "Several everyday categories are excluded from cashback",
+      "₹2 lakh annual spend is needed for fee waiver",
+      "Applications are available only in select cities"
     ],
     "best_for_whom": "UPI cashback, Dining, and Grocery shoppers (10% up to ₹400/mo)",
     "not_ideal_for": "Users expecting international reward earnings or high monthly caps",

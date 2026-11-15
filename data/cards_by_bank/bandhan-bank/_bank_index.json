@@ -1,14 +1,13 @@
 {
   "bank": "Bandhan Bank",
   "bank_slug": "bandhan-bank",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 4,
   "ltf_count": 0,
   "rupay_upi_count": 0,
   "domestic_lounge_count": 4,
   "international_lounge_count": 3,
   "railway_lounge_count": 0,
-  "golf_count": 2,
   "zero_or_low_forex_count": 0,
   "with_image_count": 4,
   "official_lounge_programs": [],
@@ -18,56 +17,40 @@
       "card_name": "Bandhan Bank Sparks Credit Card",
       "card_slug": "bandhan-bank-sparks-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 499,
       "overall_rating": 3.68,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bandhan-bank/bandhan-bank-sparks-credit-card.webp",
-      "json_file": "bandhan-bank-sparks-credit-card.json",
-      "md_file": "bandhan-bank-sparks-credit-card.md"
+      "json_path": "data/cards_by_bank/bandhan-bank/bandhan-bank-sparks-credit-card.json",
+      "md_path": "data/cards_by_bank/bandhan-bank/bandhan-bank-sparks-credit-card.md"
     },
     {
       "card_id": "bandhan_bank_flare_credit_card",
       "card_name": "Bandhan Bank Flare Credit Card",
       "card_slug": "bandhan-bank-flare-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 2499,
       "overall_rating": 3.58,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bandhan-bank/bandhan-bank-flare-credit-card.webp",
-      "json_file": "bandhan-bank-flare-credit-card.json",
-      "md_file": "bandhan-bank-flare-credit-card.md"
+      "json_path": "data/cards_by_bank/bandhan-bank/bandhan-bank-flare-credit-card.json",
+      "md_path": "data/cards_by_bank/bandhan-bank/bandhan-bank-flare-credit-card.md"
     },
     {
       "card_id": "bandhan_bank_lumina_credit_card",
       "card_name": "Bandhan Bank Lumina Credit Card",
       "card_slug": "bandhan-bank-lumina-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 9999,
       "overall_rating": 3.54,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bandhan-bank/bandhan-bank-lumina-credit-card.webp",
-      "json_file": "bandhan-bank-lumina-credit-card.json",
-      "md_file": "bandhan-bank-lumina-credit-card.md"
+      "json_path": "data/cards_by_bank/bandhan-bank/bandhan-bank-lumina-credit-card.json",
+      "md_path": "data/cards_by_bank/bandhan-bank/bandhan-bank-lumina-credit-card.md"
     },
     {
       "card_id": "bandhan_bank_ignite_credit_card",
       "card_name": "Bandhan Bank Ignite Credit Card",
       "card_slug": "bandhan-bank-ignite-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 999,
       "overall_rating": 3.41,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bandhan-bank/bandhan-bank-ignite-credit-card.webp",
-      "json_file": "bandhan-bank-ignite-credit-card.json",
-      "md_file": "bandhan-bank-ignite-credit-card.md"
+      "json_path": "data/cards_by_bank/bandhan-bank/bandhan-bank-ignite-credit-card.json",
+      "md_path": "data/cards_by_bank/bandhan-bank/bandhan-bank-ignite-credit-card.md"
     }
   ]
 }

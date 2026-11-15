@@ -1,0 +1,506 @@
+{
+  "identity": {
+    "card_id": "equitas_small_finance_bank_equitas_powermiles_credit_card",
+    "card_name": "Equitas PowerMiles Credit Card",
+    "bank": "Equitas Small Finance Bank",
+    "bank_slug": "equitas-small-finance-bank",
+    "card_slug": "equitas-powermiles-credit-card",
+    "card_network": "Visa Signature",
+    "card_tier": "Mid-Premium",
+    "primary_category": "Travel & Miles",
+    "categories": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "Dining, Groceries & Movies"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-15T06:00:00+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/equitas-small-finance-bank/equitas-powermiles-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 0.96,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#2B2A25",
+      "secondary_hex": "#2B2A25",
+      "wash_hex": "#D0D0CF",
+      "soft_bg_hex": "#E9E9E9",
+      "border_hex": "#DCE5E1",
+      "ink_on_soft_hex": "#2B2A25",
+      "is_dark_card": true,
+      "source": "cardmaven_asset"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": false,
+    "is_invite_only": false,
+    "fee_bracket": "Rs. 1,500 - 4,999",
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 50000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Travel & Miles",
+      "Airport Lounge",
+      "Dining, Groceries & Movies"
+    ],
+    "requirement_keywords": [
+      "ank",
+      "ard",
+      "iles",
+      "inance",
+      "ining",
+      "irport",
+      "mall",
+      "ounge",
+      "ovies",
+      "ower",
+      "quitas",
+      "ravel",
+      "redit",
+      "roceries"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 1.5,
+    "accelerated_reward_rate_pct": 4.5,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X Reward Points (~16.6%!) on GST, Income Tax, Advance Tax, PayZapp/SmartBuy business spends & vendor utility bills (Requires Rs. 50,000 retail spend/statement cycle)",
+      "5 RP per Rs. 150 (3.33%) on all other business & personal retail spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.5,
+      "amazon_flipkart_myntra": 1.5,
+      "dining_swiggy_zomato": 4.5,
+      "groceries_quick_commerce": 1.5,
+      "travel_flights_hotels": 4.5,
+      "upi_scan_and_pay": 0.0,
+      "utilities_bills_telecom": 0.5,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": 1.0,
+      "offline_general_other": 1.5
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "3.33% base + 5X (16.5%) on Income Tax, GST, PayZapp utilities & SmartBuy business spends (business 5X bonus capped at 7,500 RP/cycle on >= Rs. 50,000 monthly spend); Insurance capped 5,000 RP/mo."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 5000,
+      "annual_fee_inr": 5000,
+      "annual_fee_with_gst_inr": 5900,
+      "fee_waiver_spend_inr": 400000,
+      "monthly_spend_for_waiver_inr": 33333,
+      "milestone_slabs": []
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Equitas PowerMiles Credit Card at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Premium metal travel credit card"
+          ],
+          [
+            "Joining Fee",
+            "₹5000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹5000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹4.8 lakh in the previous membership year"
+          ],
+          [
+            "Reward Rate",
+            "3 Reward Points per ₹100 on eligible domestic spends"
+          ],
+          [
+            "International Reward Rate",
+            "9 Reward Points per ₹100 (3X rewards on eligible international POS transactions; up to 9% value at ₹1 per point redemption)"
+          ],
+          [
+            "Reward Redemption",
+            "₹0.50 per point (up to ₹1 per point under the Diamond Tier Privilege Program)"
+          ],
+          [
+            "Airport Lounge Access",
+            "8 domestic and 4 international lounge visits per year"
+          ],
+          [
+            "Forex Markup",
+            "2% (effective cost can reduce to 0% under the Diamond Tier Privilege Program)"
+          ],
+          [
+            "Best For",
+            "Frequent travelers and international spenders"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Equitas PowerMiles Credit Card Fees and Charges",
+        "headers": [
+          "Fee / Requirement",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹5000 + GST"
+          ],
+          [
+            "First-Year Fee Waiver",
+            "Spend ₹1.2 lakh within the first 90 days from card issuance"
+          ],
+          [
+            "Annual Fee",
+            "₹5000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹4.8 lakh in the previous anniversary year."
+          ],
+          [
+            "Add-on Card Fee",
+            "₹3500 + GST per add-on card."
+          ],
+          [
+            "Eligibility",
+            "Minimum annual income of ₹18 lakh (subject to bank approval)."
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Equitas PowerMiles Credit Card Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Domestic Retail Spends",
+            "3 Reward Points per ₹100 ~3% on Diamond Tier"
+          ],
+          [
+            "International Retail Spends",
+            "9 Reward Points per ₹100 (3X rewards) ~9% on Diamond Tier"
+          ],
+          [
+            "Standard Redemption",
+            "₹0.50 per Reward Point"
+          ],
+          [
+            "Diamond Tier Redemption",
+            "₹1 per Reward Point"
+          ],
+          [
+            "Reward Exclusions",
+            "Fuel, rent, wallet loads, cash withdrawals, EMI conversions and other excluded transactions do not earn Reward Points."
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-3",
+        "kind": "redemption_catalog",
+        "title": "Equitas Privilege Program",
+        "headers": [
+          "Tier",
+          "Monthly Spend (for 3 consecutive months)",
+          "Reward Point Value*",
+          "Forex Markup",
+          "Additional Benefits"
+        ],
+        "rows": [
+          [
+            "Blue",
+            "Below ₹20,000",
+            "₹0.50",
+            "2%",
+            "Base tier"
+          ],
+          [
+            "Silver",
+            "Above ₹20,000",
+            "₹0.50",
+            "2%",
+            "500 Bonus Reward Points"
+          ],
+          [
+            "Gold",
+            "Above ₹40,000",
+            "₹0.50",
+            "2%",
+            "₹250 movie voucher + ₹500 Amazon voucher"
+          ],
+          [
+            "Platinum",
+            "Above ₹60,000",
+            "₹0.75",
+            "2%",
+            "2 movie vouchers + 2 Amazon vouchers"
+          ],
+          [
+            "Diamond",
+            "Above ₹1 lakh",
+            "₹1.00",
+            "0%",
+            "3 movie vouchers, 3 Amazon vouchers, unlimited golf**, ₹3,000 flight voucher, ₹3,500 hotel voucher"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Airport Lounge Access",
+        "headers": [
+          "Type",
+          "Complimentary Access"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge",
+            "2 visits per calendar quarter"
+          ],
+          [
+            "International Airport Lounge",
+            "1 visit per calendar quarter"
+          ]
+        ]
+      }
+    ]
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "spend_criteria": "Check bank quarterly spend rule",
+      "add_on_allowed": false,
+      "summary": "2 complimentary domestic airport lounge visits per quarter (8/year)"
+    },
+    "international": {
+      "program": "LoungeKey / Priority Pass",
+      "visits_per_year": 4,
+      "spend_criteria": "Standard issuer terms",
+      "add_on_allowed": false,
+      "guest_fee": "US$27-$35 per guest",
+      "summary": "1 complimentary international lounge visit per quarter (4/year)"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No complimentary railway lounge visits listed"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": true,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 5000,
+    "annual_fee_inr": 5000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 400000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% (min ₹500)",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver (₹500–₹4,000 txns)",
+    "redemption_fee": "₹99 + GST on catalog redemptions (where applicable)",
+    "add_on_card_fee": "₹0",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Equitas PowerMiles Credit Card review covering rewards, travel benefits, fees, lounge access, milestone offers, forex markup, and whether it's worth applying in 2026.",
+    "highlights": [
+      "Up to 4.5% accelerated value in Travel & Miles",
+      "2 complimentary domestic airport lounge visits per quarter (8/year)",
+      "Forex markup 3.5% · Network: Visa Signature"
+    ],
+    "welcome_benefit": [],
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want strong rewards in Travel & Miles"
+    ],
+    "faqs": [
+      {
+        "question": "What is the annual fee for the Equitas PowerMiles Credit Card?",
+        "answer": "The Equitas PowerMiles Credit Card has a joining fee and annual renewal fee of ₹5000 + GST. The joining fee is waived on spends of ₹1.2 lakh within the first 90 days, while the annual fee is waived on spends of ₹4.8 lakh during the previous membership year."
+      },
+      {
+        "question": "What welcome benefits does the Equitas PowerMiles Credit Card offer?",
+        "answer": "Cardholders receive complimentary Club Marriott and EazyDiner Prime memberships. The memberships must be activated within 90 days of card issuance and include dining, hotel, and lifestyle privileges."
+      },
+      {
+        "question": "What is the reward rate on the Equitas PowerMiles Credit Card?",
+        "answer": "The card earns 3 Reward Points per ₹100 on eligible domestic retail spends and 9 Reward Points per ₹100 on eligible international retail transactions. Reward Points can be redeemed for up to ₹1 per point under the Diamond Privilege Tier."
+      },
+      {
+        "question": "How does the Equitas Privilege Program work?",
+        "answer": "The Privilege Program rewards consistent spending by upgrading cardholders through five tiers—Blue, Silver, Gold, Platinum and Diamond. To qualify for a higher tier, you must meet the required monthly spend for three consecutive months within a calendar quarter."
+      },
+      {
+        "question": "Does the Equitas PowerMiles Credit Card offer airport lounge access?",
+        "answer": "Yes. The card offers 2 complimentary domestic airport lounge visits and 1 complimentary international airport lounge visit every calendar quarter. Equitas does not currently specify a minimum spend requirement to avail these lounge benefits."
+      },
+      {
+        "question": "Does the Equitas PowerMiles Credit Card have 0% forex markup?",
+        "answer": "The standard forex markup is 2%. Cardholders who qualify for the Diamond Privilege Tier receive a forex benefit that effectively reduces the overall forex cost to 0% on eligible international transactions."
+      },
+      {
+        "question": "Does the Equitas PowerMiles Credit Card earn Reward Points on education fee payments?",
+        "answer": "Yes. Eligible education fee payments made directly to educational institutions earn regular Reward Points, provided the transaction is processed under an eligible education merchant category code (MCC)."
+      },
+      {
+        "question": "Does the Equitas PowerMiles Credit Card offer airline and hotel transfer partners?",
+        "answer": "Equitas has announced the Xchange Program, which will allow Reward Points to be transferred to airline and hotel loyalty programs. However, the transfer program is not yet available at the time of writing."
+      },
+      {
+        "question": "Who should apply for the Equitas PowerMiles Credit Card?",
+        "answer": "The Equitas PowerMiles Credit Card is best suited for frequent travelers, international spenders, and users who can consistently maintain the Gold, Platinum or Diamond Privilege tiers to maximize reward value, forex benefits, and travel perks."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.4,
+    "editorial_rating": 4.4,
+    "aggregator_rating": 4.4,
+    "category_sub_ratings": {
+      "Rewards": 4.4,
+      "Fees & Value": 4.2,
+      "Travel & Lounges": 4.1
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Equitas PowerMiles Credit Card review covering rewards, travel benefits, fees, lounge access, milestone offers, forex markup, and whether it's worth applying in 2026.",
+    "pros": [
+      "Up to 4.5% value on Travel & Miles spends",
+      "2 complimentary domestic airport lounge visits per quarter (8/year)",
+      "Up to ₹1 per Reward Point on flight and hotel bookings.",
+      "0% forex markup at the Diamond Privilege tier.",
+      "Quarterly vouchers and bonus points can add good value for users who consistently meet the spending criteria.",
+      "Complimentary domestic and international lounge access."
+    ],
+    "cons": [
+      "Category exclusions apply on utilities, fuel, rent & government MCCs",
+      "Higher Privilege tiers require three consecutive months of qualifying spends.",
+      "Missing the spend requirement can result in a lower tier and reduced benefits in the following quarter.",
+      "Flight and hotel bookings offer the highest redemption value, while other redemption options are less rewarding.",
+      "Diamond tier benefits require monthly spends of over ₹1 lakh, which may be difficult for most cardholders."
+    ],
+    "best_for_whom": "Travel & Miles & Equitas Small Finance Bank cardholders",
+    "not_ideal_for": "Fuel or tax-heavy spenders seeking flat rewards",
+    "recommended_monthly_spend_inr": "₹15,000 - ₹40,000",
+    "verdict": "Strong 2026 option for travel & miles"
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.4,
+    "reddit_mentions": 18,
+    "sentiment_summary": "Viewed positively on r/CreditCardsIndia for travel & miles utility.",
+    "key_threads": [],
+    "practical_community_warnings": [],
+    "optimization_tips": []
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 5.0,
+    "last_devalued_on": null,
+    "devaluation_history": [],
+    "watch_out_vectors": [
+      "Monitor quarterly spend gates & monthly category caps"
+    ]
+  },
+  "alternate_options": [],
+  "eligibility_detailed": {
+    "occupation": "Salaried / Self-Employed",
+    "age_range": "21–60 years",
+    "min_monthly_income_salaried_inr": 50000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 600000,
+    "min_cibil_score": 730,
+    "approval_notes": "Subject to internal bank underwriting & city serviceability."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

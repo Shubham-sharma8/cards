@@ -66,7 +66,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -158,7 +160,239 @@
         "Plan 2 (Rs. 5,000) – 3X rewards on online spends and 5X rewards on offline spends",
         "1% fuel surcharge waiver up to Rs. 500 per month"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "YES Reserv Credit Card Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹2499 + GST"
+          ],
+          [
+            "Joining Fee Reversal",
+            "Spend ₹40,000 within 30 days of card issuance (excluding rent and wallet transactions)"
+          ],
+          [
+            "Annual Fee",
+            "₹2499 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹3 lakh in a card anniversary year (excluding rent and wallet transactions)"
+          ],
+          [
+            "Renewal Benefit",
+            "8000 Bonus Reward Points if the annual fee is charged (from the 2nd year onwards)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "YES Reserv Credit Card Rewards",
+        "headers": [
+          "Type of Spend",
+          "Reward Rate",
+          "Approx. Return*"
+        ],
+        "rows": [
+          [
+            "Online Shopping (Non-Select Categories)",
+            "24 Reward Points per ₹200",
+            "3%"
+          ],
+          [
+            "Offline Shopping (Non-Select Categories)",
+            "12 Reward Points per ₹200",
+            "1.5%"
+          ],
+          [
+            "Select Categories**",
+            "6 Reward Points per ₹200",
+            "0.75%"
+          ],
+          [
+            "Rent, Wallet, Fuel, UPI",
+            "No Reward Points",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Subscription Plan 1: 3X Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Approx. Return*"
+        ],
+        "rows": [
+          [
+            "Online Shopping",
+            "48 Reward Points per ₹200",
+            "6%"
+          ],
+          [
+            "Offline Shopping",
+            "36 Reward Points per ₹200",
+            "4.5%"
+          ],
+          [
+            "Select Categories",
+            "18 Reward Points per ₹200",
+            "2.25%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Subscription Plan 2: 5X Rewards",
+        "headers": [
+          "Eligible Category",
+          "Online Spends",
+          "Offline Spends"
+        ],
+        "rows": [
+          [
+            "Travel",
+            "72 Reward Points per ₹200",
+            "120 Reward Points per ₹200"
+          ],
+          [
+            "Dining",
+            "72 Reward Points per ₹200",
+            "120 Reward Points per ₹200"
+          ],
+          [
+            "Fashion",
+            "72 Reward Points per ₹200",
+            "120 Reward Points per ₹200"
+          ],
+          [
+            "Healthcare",
+            "72 Reward Points per ₹200",
+            "120 Reward Points per ₹200"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "YES Reserv Credit Card Rewards Redemption",
+        "headers": [
+          "Redemption Option",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Flights & Hotels",
+            "~25 paise per Reward Point"
+          ],
+          [
+            "Gift Vouchers",
+            "~10 paise per Reward Point"
+          ],
+          [
+            "Air Miles",
+            "10 Rewardz Points = 1 Mile"
+          ],
+          [
+            "Merchandise",
+            "Variable"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "YES Reserv Credit Card Lounge Access",
+        "headers": [
+          "Lounge Type",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "3 complimentary lounge visits per quarter"
+          ],
+          [
+            "Domestic Lounge Eligibility",
+            "Spend ₹1 lakh or more in the previous eligibility quarter"
+          ],
+          [
+            "International Airport Lounges",
+            "6 complimentary visits per year"
+          ],
+          [
+            "International Lounge Access Method",
+            "Direct card swipe at participating lounges (No Priority Pass issued)"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-7",
+        "kind": "other_table",
+        "title": "Complimentary Golf Program",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Green Fee Waivers",
+            "4 complimentary green fee waivers per year"
+          ],
+          [
+            "Golf Lessons",
+            "1 complimentary golf lesson per year"
+          ],
+          [
+            "Eligibility",
+            "Available at select golf courses across India"
+          ],
+          [
+            "Network",
+            "Benefits vary based on whether your card is issued on Visa or Mastercard"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-8",
+        "kind": "other_table",
+        "title": "Other Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "BookMyShow Offer",
+            "25% discount for movie tickets on BookMyShow with a discount of up to ₹250 per transaction"
+          ],
+          [
+            "Forex Markup",
+            "1.75% on international transactions"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% fuel surcharge waiver on transactions between ₹400 and ₹5000"
+          ],
+          [
+            "Fuel Waiver Cap",
+            "Maximum waiver of ₹500 per statement cycle"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -888,7 +1122,19 @@
       {
         "q": "What are the fees for YES Bank RESERV Credit Card?",
         "a": "YES Bank RESERV Credit Card comes with a joining and annual fee of Rs. 2,499 + applicable taxes. However, the joining fee is waived if you spend Rs. 40,000 or more within the first 30 days. The annual fee is waived on spending Rs. 3 Lakh or more in a year."
+      },
+      {
+        "question": "What is the annual fee of the YES Reserv Credit Card?",
+        "answer": "The card comes with a joining and annual fee of ₹2,499 + GST. The annual fee is waived on spending ₹3 lakh in a card anniversary year."
+      },
+      {
+        "question": "Does the YES Reserv Credit Card offer airport lounge access?",
+        "answer": "Yes. Cardholders get 3 domestic lounge visits per quarter and 6 international lounge visits per year, subject to applicable terms and eligibility criteria."
       }
+    ],
+    "program_updates_2026": [
+      "Note: Rent and wallet transactions are not counted towards the spending milestones for joining fee reversal and annual fee waiver.",
+      "Note: Transactions that do not earn regular reward points on the card, such as rent payments, wallet loads, fuel transactions, UPI transactions and EMI conversions, remain ineligible under the subscription plans as well."
     ]
   },
   "ratings": {

@@ -72,7 +72,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -153,7 +155,33 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "5 AURUM RP = 1 Maharaja Point",
+        "notes": ""
+      },
+      {
+        "partner": "Qatar Airways Privilege Club (Avios)",
+        "ratio": "5 AURUM RP = 1 Avios",
+        "notes": ""
+      },
+      {
+        "partner": "Club ITC Green Points",
+        "ratio": "5 AURUM RP = 1 Green Point",
+        "notes": ""
+      },
+      {
+        "partner": "AirAsia Rewards",
+        "ratio": "4 AURUM RP = 1 AirAsia Point",
+        "notes": ""
+      },
+      {
+        "partner": "Adani Rewards",
+        "ratio": "4 AURUM RP = 1 Adani Reward Point",
+        "notes": ""
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 9999,
       "annual_fee_inr": 9999,
@@ -165,7 +193,251 @@
         "Waiver: Annual fee waiver on spending Rs. 12 Lakh",
         "Fuel : 1 % fuel surcharge waiver up to Rs. 250 on transactions ranging between Rs. 500 and Rs. 4,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹9999+GST ~₹11,800"
+          ],
+          [
+            "Welcome Benefit",
+            "40,000 RP ~₹10,000 value"
+          ],
+          [
+            "Additional Welcome Perks",
+            "Club Marriott Membership + Digital subscriptions to Mint & WSJ"
+          ],
+          [
+            "Annual Fee",
+            "₹9999+GST ~₹11,800"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹12 Lakh annual spend"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "SBI Aurum Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Eligible Retail Spends",
+            "4 Reward Points per ₹100"
+          ],
+          [
+            "Effective Reward Rate",
+            "~1%"
+          ],
+          [
+            "Fuel Transactions",
+            "No Reward Points"
+          ],
+          [
+            "Rent Payments",
+            "No Reward Points"
+          ],
+          [
+            "Government Transactions",
+            "No Reward Points"
+          ],
+          [
+            "Wallet Loads",
+            "Generally excluded from rewards"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-2",
+        "kind": "milestone_benefits",
+        "title": "SBI Aurum Milestone Rewards",
+        "headers": [
+          "Type",
+          "Required Spend",
+          "Reward",
+          "Approx Bonus Return"
+        ],
+        "rows": [
+          [
+            "Calendar Month",
+            "₹1 lakh",
+            "₹1500 Tata CLiQ Fashion voucher",
+            "1.5%"
+          ],
+          [
+            "Calendar Year",
+            "₹5 lakh",
+            "₹5000 Tata CLiQ Luxury voucher",
+            "1%"
+          ],
+          [
+            "Calendar Year",
+            "₹10 lakh",
+            "₹10,000 Taj Experiences voucher",
+            "1%"
+          ],
+          [
+            "Calendar Year",
+            "₹20 lakh",
+            "₹20,000 Apple Premium Reseller voucher",
+            "1%"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-3",
+        "kind": "transfer_partners",
+        "title": "SBI Aurum Transfer Partners & Ratios",
+        "headers": [
+          "Transfer Partner",
+          "Transfer Ratio"
+        ],
+        "rows": [
+          [
+            "Air India Maharaja Club",
+            "5 AURUM RP = 1 Maharaja Point"
+          ],
+          [
+            "Qatar Airways Privilege Club (Avios)",
+            "5 AURUM RP = 1 Avios"
+          ],
+          [
+            "Club ITC Green Points",
+            "5 AURUM RP = 1 Green Point"
+          ],
+          [
+            "AirAsia Rewards",
+            "4 AURUM RP = 1 AirAsia Point"
+          ],
+          [
+            "Adani Rewards",
+            "4 AURUM RP = 1 Adani Reward Point"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "SBI Aurum Airport Lounge & Spa Access",
+        "headers": [
+          "Benefit Type",
+          "Access"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "4 visits per quarter"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Unlimited visits via DreamFolks"
+          ],
+          [
+            "International Guest Access",
+            "1 complimentary guest visit per quarter"
+          ],
+          [
+            "Lounge Network",
+            "Visa Infinite / Mastercard World + DreamFolks"
+          ],
+          [
+            "Domestic Airport Spa Access",
+            "1 complimentary session per quarte"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-5",
+        "kind": "other_table",
+        "title": "SBI Aurum Credit Card BookMyShow Offer",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Free Movie Tickets",
+            "4 complimentary tickets every month"
+          ],
+          [
+            "Maximum Discount",
+            "Up to ₹250 per ticket"
+          ],
+          [
+            "Monthly Maximum Value",
+            "Up to ₹1000"
+          ],
+          [
+            "Booking Restriction",
+            "Maximum 2 tickets in a single transaction within 24 hours"
+          ],
+          [
+            "Platform",
+            "BookMyShow"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-6",
+        "kind": "other_table",
+        "title": "Flight Cancellation Benefit",
+        "headers": [
+          "Ticket Type",
+          "Coverage"
+        ],
+        "rows": [
+          [
+            "Refundable Tickets",
+            "Up to ₹3,500 per ticket"
+          ],
+          [
+            "Non-Refundable Tickets",
+            "Up to ₹3,000 per ticket"
+          ],
+          [
+            "Maximum Usage",
+            "2 claims per year"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-7",
+        "kind": "other_table",
+        "title": "Complimentary Golf Benefits on SBI Aurum Credit Card",
+        "headers": [
+          "Golf Benefit",
+          "Access"
+        ],
+        "rows": [
+          [
+            "Complimentary Golf Rounds",
+            "16 rounds per year"
+          ],
+          [
+            "Complimentary Golf Lessons",
+            "12 lessons per year"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -913,6 +1185,22 @@
       {
         "q": "What is the cash advance fee charged on the SBI Aurum Credit Card?",
         "a": "The cash advance fee for the SBI Aurum Credit Card is 2.5% of the transaction amount or Rs. 500, whichever is higher."
+      },
+      {
+        "question": "Is the SBI Aurum Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹9,999 + GST and the annual fee is ₹9,999 + GST. The annual fee is waived when you spend ₹12 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the SBI Aurum Credit Card?",
+        "answer": "It's 1.99% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the SBI Aurum Credit Card give airport lounge access?",
+        "answer": "Yes. You get 16 domestic visits a year, plus unlimited international visits."
+      },
+      {
+        "question": "How much can I earn with the SBI Aurum Credit Card?",
+        "answer": "You earn about 1% back in reward points on regular spends, and up to 4% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
     ]
   },

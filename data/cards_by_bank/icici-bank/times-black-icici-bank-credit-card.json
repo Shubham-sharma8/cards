@@ -61,7 +61,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -161,7 +163,299 @@
         "On Rs. 2 lakh annual spends: International experiences and activities by Klook worth Rs. 10,000",
         "On Rs. 5 lakh annual spends: Luxury airport transfers via BLADE India/Avis/Indian Travel House worth Rs. 10,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Times Black ICICI Bank Credit Card: Quick Overview",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Super-premium lifestyle credit card"
+          ],
+          [
+            "Card Network",
+            "Visa Infinite Metal"
+          ],
+          [
+            "Joining Fee",
+            "₹20,000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹20,000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Renewal fee waived on annual spends of ₹25 lakh"
+          ],
+          [
+            "Welcome Benefits",
+            "Choice of ₹12,000 Lohono voucher or ₹10,000 EaseMyTrip voucher, visa service benefits, CribLife concierge requests, Toni&Guy voucher, Zomato Gold membership, and other lifestyle benefits"
+          ],
+          [
+            "Reward Rate",
+            "Up to 12 Reward Points per ₹100 on eligible spends"
+          ],
+          [
+            "Reward Redemption",
+            "Flights, hotels, vouchers, Air India Maharaja Points, and more"
+          ],
+          [
+            "Airport Lounge Access",
+            "Unlimited access to 1300+ airport lounges worldwide for the primary cardholder"
+          ],
+          [
+            "Golf Benefits",
+            "Complimentary golf rounds and lessons (subject to terms)"
+          ],
+          [
+            "Forex Markup Fee",
+            "1.49% + GST"
+          ],
+          [
+            "Best For",
+            "Frequent travelers and high spenders seeking premium lifestyle benefits"
+          ],
+          [
+            "Not Ideal For",
+            "Users primarily looking for the highest reward rate or cashback"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Times Black ICICI Bank Credit Card Fees and Welcome Benefits",
+        "headers": [
+          "Fee",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹20,000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹20,000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On annual spends of ₹25 lakh"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-2",
+        "kind": "other_table",
+        "title": "Welcome Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Lohono Stay Voucher",
+            "₹12,000 voucher for luxury villa stays (choice benefit)"
+          ],
+          [
+            "EaseMyTrip Voucher",
+            "₹10,000 travel voucher (alternative to Lohono)"
+          ],
+          [
+            "Atlys Visa Services",
+            "Benefits worth up to ₹10,000"
+          ],
+          [
+            "CribLife Concierge",
+            "Six complimentary concierge requests"
+          ],
+          [
+            "Toni&Guy Voucher",
+            "₹3000 salon voucher"
+          ],
+          [
+            "Zomato Gold",
+            "Complimentary membership"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Reward Points",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Conditions"
+        ],
+        "rows": [
+          [
+            "Domestic retail spends",
+            "2%",
+            "Utility, insurance, education, and government spends are capped at 5000 Reward Points per statement cycle."
+          ],
+          [
+            "International spends",
+            "2.5%",
+            "—"
+          ],
+          [
+            "Flight bookings via ICICI iShop",
+            "12% (6X)",
+            "Accelerated Reward Points capped at 8000/day and 15,000/month."
+          ],
+          [
+            "Hotel bookings via ICICI iShop",
+            "24% (12X)",
+            "Accelerated Reward Points capped at 8000/day and 15,000/month."
+          ],
+          [
+            "Voucher purchases via ICICI iShop",
+            "12% (6X)",
+            "Accelerated Reward Points capped at 8000/day and 15,000/month."
+          ],
+          [
+            "Excluded transactions",
+            "—",
+            "Fuel, Rent transactions do not earn Reward Points. Other exclusions apply."
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "Reward Point Redemption",
+        "headers": [
+          "Redemption Option",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Flights, hotels, eligible vouchers and merchandise",
+            "Up to ₹1 per Reward Point"
+          ],
+          [
+            "Air India Maharaja Points",
+            "1 Reward Point = 1 Maharaja Point"
+          ],
+          [
+            "Cashback",
+            "₹0.40 per Reward Point"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-5",
+        "kind": "milestone_benefits",
+        "title": "Times Black ICICI Bank Credit Card Milestone Benefits",
+        "headers": [
+          "Annual Spend",
+          "Milestone Benefit"
+        ],
+        "rows": [
+          [
+            "₹2 lakh",
+            "₹10,000 Klook voucher for overseas travel and experiences"
+          ],
+          [
+            "₹5 lakh",
+            "Choice of a luxury airport transfer with BLADE India, Avis, or Indian Travel House (worth up to ₹10,000)"
+          ],
+          [
+            "₹10 lakh",
+            "₹10,000 Tata CLiQ Luxury gift card"
+          ],
+          [
+            "₹20 lakh",
+            "Complimentary one-night stay at Ayatana Resorts (worth up to ₹20,000)"
+          ],
+          [
+            "₹25 lakh",
+            "Annual fee waiver for the following membership year"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-6",
+        "kind": "lounge_access",
+        "title": "Times Black ICICI Bank Credit Card Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "Unlimited complimentary access for the primary cardholder."
+          ],
+          [
+            "International Airport Lounges",
+            "Unlimited complimentary access to over 1300 lounges worldwide through the Visa Airport Companion program."
+          ],
+          [
+            "Guest Access",
+            "Complimentary guest access is not included. Guests are charged as per the lounge operator’s prevailing rates."
+          ],
+          [
+            "Add-on Cardholders",
+            "Lounge access benefits are available to eligible add-on cardholders"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-7",
+        "kind": "fees_and_charges",
+        "title": "Times Black ICICI Bank Credit Card: Other Benefits and Charges",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex Markup Fee",
+            "1.49% + GST (effective rate of 1.76%). Combined with a 2.5% reward rate on international spends, the card offers a competitive effective cost for overseas transactions."
+          ],
+          [
+            "Zero Cancellation Charges",
+            "Covers cancellation charges on eligible domestic flight and hotel bookings made using the card. The benefit is available for selected 4-star and 5-star hotels, with up to two claims per calendar year and a maximum reimbursement of ₹12,000 per claim."
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% fuel surcharge waiver on eligible fuel transactions, capped at ₹1,000 per statement cycle."
+          ],
+          [
+            "Air India Maharaja Transfer",
+            "Reward Points can be transferred to Air India Maharaja Points at a 1:1 ratio, making the card more rewarding for frequent Air India flyers."
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-8",
+        "kind": "accelerated_partners",
+        "title": "Accelerated Rewards with ICICI Bank iShop",
+        "headers": [
+          "Regular Reward Rate",
+          "Flight Bookings/Gift Vouchers",
+          "Hotel Bookings",
+          "Bonus Points Cap in iShop"
+        ],
+        "rows": [
+          [
+            "2%",
+            "6X RP ~12%",
+            "12X RP ~24%",
+            "15,000 RP"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -886,6 +1180,22 @@
       {
         "q": "What are the key benefits of Times Black ICICI Credit Card?",
         "a": "Some of the key Times Black ICICI Credit Card benefits include up to 2.5% reward points earnings on card spends, unlimited access to airport lounges, milestone benefits worth up to Rs. 50,000, spend-based annual fee waiver, and other discount vouchers on top brands and experiences."
+      },
+      {
+        "question": "Is the Times Black ICICI Bank Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹20,000 + GST and the annual fee is ₹20,000 + GST. The annual fee is waived when you spend ₹25 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the Times Black ICICI Bank Credit Card?",
+        "answer": "It's 1.49% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the Times Black ICICI Bank Credit Card give airport lounge access?",
+        "answer": "Yes. You get unlimited domestic visits, plus unlimited international visits."
+      },
+      {
+        "question": "How much can I earn with the Times Black ICICI Bank Credit Card?",
+        "answer": "You earn about 2% back in reward points on regular spends, and up to 2.5% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
     ]
   },
@@ -911,13 +1221,17 @@
       "Multiple milestone benefits worth Rs. 70,000",
       "No cash withdrawal charges",
       "Inclusion of utilities, insurance and often excluded categories in the reward program",
-      "1:1 redemption against product/voucher"
+      "1:1 redemption against product/voucher",
+      "Attractive welcome benefits that can offset a significant portion of the joining fee."
     ],
     "cons": [
       "Low rewards redemption value for cashback redemption",
       "No redemption against miles conversion",
       "Milestone Benefits are brand-specific",
-      "Limited Lifestyle Benefits"
+      "Limited Lifestyle Benefits",
+      "₹20,000 annual fee may be difficult to justify for moderate spenders.",
+      "Accelerated reward rates are largely limited to bookings made through ICICI Bank iShop.",
+      "Most welcome and milestone benefits are partner-specific rather than flexible cash or travel credits."
     ],
     "best_for_whom": "High-income spenders maximizing ICICI Bank concierge, unlimited lounges & accelerated travel portals",
     "not_ideal_for": "Moderate spenders unlikely to cross annual fee waiver / extract >fee value",

@@ -1,16 +1,15 @@
 {
   "bank": "BOBCARD (Bank of Baroda)",
   "bank_slug": "bobcard-bank-of-baroda",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
-  "total_cards": 21,
-  "ltf_count": 11,
+  "generated_at": "2026-11-15T06:00:00+00:00",
+  "total_cards": 22,
+  "ltf_count": 12,
   "rupay_upi_count": 7,
-  "domestic_lounge_count": 10,
+  "domestic_lounge_count": 11,
   "international_lounge_count": 1,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 5,
-  "with_image_count": 21,
+  "with_image_count": 22,
   "official_lounge_programs": [
     {
       "program_id": "page_bobcard_lounge_blog",
@@ -21,298 +20,224 @@
   ],
   "cards": [
     {
+      "card_id": "bobcard_bank_of_baroda_bobcard_premier_credit_card",
+      "card_name": "BOBCARD Premier Credit Card",
+      "card_slug": "bobcard-premier-credit-card",
+      "primary_category": "Dining, Groceries & Movies",
+      "annual_fee_inr": 0,
+      "overall_rating": 4.3,
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-premier-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-premier-credit-card.md"
+    },
+    {
       "card_id": "bobcard_bobcard_uni_goldx_credit_card",
       "card_name": "BOBCARD Uni GoldX Credit Card",
       "card_slug": "bobcard-uni-goldx-credit-card",
       "primary_category": "Zero/Low Forex",
-      "card_network": "RuPay / Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 4.28,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-uni-goldx-credit-card.webp",
-      "json_file": "bobcard-uni-goldx-credit-card.json",
-      "md_file": "bobcard-uni-goldx-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-uni-goldx-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-uni-goldx-credit-card.md"
     },
     {
       "card_id": "bobcard_bobcard_eterna_credit_card",
       "card_name": "BOBCARD Eterna Credit Card",
       "card_slug": "bobcard-eterna-credit-card",
       "primary_category": "Cashback",
-      "card_network": "Visa Infinite / RuPay JCB",
       "annual_fee_inr": 2499,
       "overall_rating": 3.84,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-eterna-credit-card.webp",
-      "json_file": "bobcard-eterna-credit-card.json",
-      "md_file": "bobcard-eterna-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-eterna-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-eterna-credit-card.md"
     },
     {
       "card_id": "bobcard_bobcard_hpcl_energie_credit_card",
       "card_name": "BOBCARD HPCL Energie Credit Card",
       "card_slug": "bobcard-hpcl-energie-credit-card",
       "primary_category": "Fuel",
-      "card_network": "RuPay",
       "annual_fee_inr": 499,
       "overall_rating": 3.8,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-hpcl-energie-credit-card.webp",
-      "json_file": "bobcard-hpcl-energie-credit-card.json",
-      "md_file": "bobcard-hpcl-energie-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-hpcl-energie-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-hpcl-energie-credit-card.md"
     },
     {
       "card_id": "bobcard_exclusive_credit_card_icai_members",
       "card_name": "BOBCARD Exclusive Credit Card for ICAI Members",
       "card_slug": "bobcard-exclusive-credit-card-for-icai-members",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.71,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-exclusive-credit-card-for-icai-members.webp",
-      "json_file": "bobcard-exclusive-credit-card-for-icai-members.json",
-      "md_file": "bobcard-exclusive-credit-card-for-icai-members.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-exclusive-credit-card-for-icai-members.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-exclusive-credit-card-for-icai-members.md"
     },
     {
       "card_id": "bobcard_bobcard_cashback_credit_card",
       "card_name": "BOBCARD Cashback",
       "card_slug": "bobcard-cashback",
       "primary_category": "Cashback",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 49,
       "overall_rating": 3.67,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-cashback.webp",
-      "json_file": "bobcard-cashback.json",
-      "md_file": "bobcard-cashback.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-cashback.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-cashback.md"
     },
     {
       "card_id": "bobcard_icsi_diamond_credit_card",
       "card_name": "ICSI Diamond Credit Card by BOBCARD",
       "card_slug": "icsi-diamond-credit-card-by-bobcard",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.59,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/icsi-diamond-credit-card-by-bobcard.webp",
-      "json_file": "icsi-diamond-credit-card-by-bobcard.json",
-      "md_file": "icsi-diamond-credit-card-by-bobcard.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/icsi-diamond-credit-card-by-bobcard.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/icsi-diamond-credit-card-by-bobcard.md"
     },
     {
       "card_id": "bobcard_bobcard_etihad_guest_credit_card",
       "card_name": "BOBCARD Etihad Guest Premium Credit Card",
       "card_slug": "bobcard-etihad-guest-premium-credit-card",
       "primary_category": "Zero/Low Forex",
-      "card_network": "Visa",
       "annual_fee_inr": 5000,
       "overall_rating": 3.58,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-etihad-guest-premium-credit-card.webp",
-      "json_file": "bobcard-etihad-guest-premium-credit-card.json",
-      "md_file": "bobcard-etihad-guest-premium-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-etihad-guest-premium-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-etihad-guest-premium-credit-card.md"
     },
     {
       "card_id": "bobcard_assam_rifles_sentinel_credit_card",
       "card_name": "Assam Rifles The SENTINEL BOBCARD",
       "card_slug": "assam-rifles-the-sentinel-bobcard",
       "primary_category": "Travel & Miles",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 3.57,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/assam-rifles-the-sentinel-bobcard.webp",
-      "json_file": "assam-rifles-the-sentinel-bobcard.json",
-      "md_file": "assam-rifles-the-sentinel-bobcard.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/assam-rifles-the-sentinel-bobcard.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/assam-rifles-the-sentinel-bobcard.md"
     },
     {
       "card_id": "bobcard_indian_coast_guard_rakshamah_credit_card",
       "card_name": "Indian Coast Guard Rakshamah BOBCARD Credit Card",
       "card_slug": "indian-coast-guard-rakshamah-bobcard-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 3.57,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/indian-coast-guard-rakshamah-bobcard-credit-card.webp",
-      "json_file": "indian-coast-guard-rakshamah-bobcard-credit-card.json",
-      "md_file": "indian-coast-guard-rakshamah-bobcard-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/indian-coast-guard-rakshamah-bobcard-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/indian-coast-guard-rakshamah-bobcard-credit-card.md"
     },
     {
       "card_id": "bobcard_indian_army_yoddha_bobcard_credit_card",
       "card_name": "Indian Army YODDHA BOBCARD",
       "card_slug": "indian-army-yoddha-bobcard",
       "primary_category": "Travel & Miles",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 3.57,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/indian-army-yoddha-bobcard.webp",
-      "json_file": "indian-army-yoddha-bobcard.json",
-      "md_file": "indian-army-yoddha-bobcard.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/indian-army-yoddha-bobcard.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/indian-army-yoddha-bobcard.md"
     },
     {
       "card_id": "bobcard_onecard_credit_card",
       "card_name": "BOBCARD One",
       "card_slug": "bobcard-one",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.5,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-one.webp",
-      "json_file": "bobcard-one.json",
-      "md_file": "bobcard-one.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-one.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-one.md"
     },
     {
       "card_id": "bobcard_bobcard_tiara_credit_card",
       "card_name": "BOBCARD Tiara",
       "card_slug": "bobcard-tiara",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 2499,
       "overall_rating": 3.49,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-tiara.webp",
-      "json_file": "bobcard-tiara.json",
-      "md_file": "bobcard-tiara.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-tiara.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-tiara.md"
     },
     {
       "card_id": "bobcard_vikram_credit_card",
       "card_name": "BOBCARD VIKRAM",
       "card_slug": "bobcard-vikram",
       "primary_category": "Travel & Miles",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 3.33,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-vikram.webp",
-      "json_file": "bobcard-vikram.json",
-      "md_file": "bobcard-vikram.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-vikram.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-vikram.md"
     },
     {
       "card_id": "bobcard_swavlamban_credit_card",
       "card_name": "BOBCARD Swavlamban Credit Card",
       "card_slug": "bobcard-swavlamban-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 250,
       "overall_rating": 3.31,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-swavlamban-credit-card.webp",
-      "json_file": "bobcard-swavlamban-credit-card.json",
-      "md_file": "bobcard-swavlamban-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-swavlamban-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-swavlamban-credit-card.md"
     },
     {
       "card_id": "bobcard_bobcard_prime_credit_card",
       "card_name": "BOBCARD Prime",
       "card_slug": "bobcard-prime",
       "primary_category": "Cashback",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.3,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-prime.webp",
-      "json_file": "bobcard-prime.json",
-      "md_file": "bobcard-prime.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-prime.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-prime.md"
     },
     {
       "card_id": "bobcard_varunah_credit_cards",
       "card_name": "BOBCARD Varunah Credit Card",
       "card_slug": "bobcard-varunah-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 1499,
       "overall_rating": 3.28,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-varunah-credit-card.webp",
-      "json_file": "bobcard-varunah-credit-card.json",
-      "md_file": "bobcard-varunah-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-varunah-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-varunah-credit-card.md"
     },
     {
       "card_id": "bobcard_bobcard_easy_credit_card",
       "card_name": "BOBCARD Easy Credit Card",
       "card_slug": "bobcard-easy-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "RuPay / Visa / Mastercard",
       "annual_fee_inr": 500,
       "overall_rating": 3.28,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-easy-credit-card.webp",
-      "json_file": "bobcard-easy-credit-card.json",
-      "md_file": "bobcard-easy-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-easy-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-easy-credit-card.md"
     },
     {
       "card_id": "bobcard_nainital_bank_renaissance_credit_card",
       "card_name": "BOBCARD Nainital Bank RENAISSANCE Credit Card",
       "card_slug": "bobcard-nainital-bank-renaissance-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 250,
       "overall_rating": 3.25,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-nainital-bank-renaissance-credit-card.webp",
-      "json_file": "bobcard-nainital-bank-renaissance-credit-card.json",
-      "md_file": "bobcard-nainital-bank-renaissance-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-nainital-bank-renaissance-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-nainital-bank-renaissance-credit-card.md"
     },
     {
       "card_id": "bobcard_pragati_credit_card",
       "card_name": "BOBCARD Pragati Credit Card",
       "card_slug": "bobcard-pragati-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 250,
       "overall_rating": 3.25,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-pragati-credit-card.webp",
-      "json_file": "bobcard-pragati-credit-card.json",
-      "md_file": "bobcard-pragati-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-pragati-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-pragati-credit-card.md"
     },
     {
       "card_id": "bobcard_empower_credit_card",
       "card_name": "BOBCARD EMPOWER Credit Card",
       "card_slug": "bobcard-empower-credit-card",
       "primary_category": "Cashback",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 500,
       "overall_rating": 3.23,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-empower-credit-card.webp",
-      "json_file": "bobcard-empower-credit-card.json",
-      "md_file": "bobcard-empower-credit-card.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-empower-credit-card.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-empower-credit-card.md"
     },
     {
       "card_id": "bobcard_bobcard_select_credit_card",
       "card_name": "BOBCARD Select",
       "card_slug": "bobcard-select",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 750,
       "overall_rating": 3.23,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/bobcard-bank-of-baroda/bobcard-select.webp",
-      "json_file": "bobcard-select.json",
-      "md_file": "bobcard-select.md"
+      "json_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-select.json",
+      "md_path": "data/cards_by_bank/bobcard-bank-of-baroda/bobcard-select.md"
     }
   ]
 }

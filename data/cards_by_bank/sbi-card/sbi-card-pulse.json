@@ -64,7 +64,9 @@
         "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -149,7 +151,105 @@
         "Annual fee waiver on spending Rs. 2 Lakh in a year",
         "1% fuel surcharge waiver (up to Rs. 250 per cycle) on transactions between Rs. 500 and Rs. 4,000."
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "SBI Pulse Joining Fee",
+            "₹1499 + GST ~₹1769"
+          ],
+          [
+            "Welcome Benefits",
+            "Noise ColorFit smartwatch Complimentary FITPASS PRO membership Complimentary Netmeds First membership"
+          ],
+          [
+            "SBI Pulse Annual Fee",
+            "₹1499 + GST ~₹1769"
+          ],
+          [
+            "Renewal Benefits",
+            "Complimentary FITPASS PRO membership Complimentary Netmeds First membership"
+          ],
+          [
+            "Renewal Fee Waiver",
+            "On annual spends of ₹2 lakh"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "SBI Pulse Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Chemist, Pharmacy, Dining, Movies and Sports Spends",
+            "10 Reward Points per ₹100"
+          ],
+          [
+            "Other Eligible Spends",
+            "2 Reward Points per ₹100"
+          ],
+          [
+            "Fuel, Rent, Wallet Loads and Government Transactions",
+            "No Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "SBI Pulse Reward Rate",
+        "headers": [
+          "Category",
+          "Eligible MCCs"
+        ],
+        "rows": [
+          [
+            "Pharmacy & Chemist",
+            "MCC 5912, 8099"
+          ],
+          [
+            "Dining",
+            "MCC 5812"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-3",
+        "kind": "fees_and_charges",
+        "title": "Other Key Benefits & Charges",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on fuel transactions between ₹500 and ₹4000"
+          ],
+          [
+            "Maximum Fuel Waiver",
+            "₹250 per statement cycle"
+          ],
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -938,13 +1038,18 @@
       "Accelerated rewards on multiple spend categories",
       "Welcome benefit worth more the joining fee",
       "Complimentary memberships are auto-renewed every year",
-      "Lounge access is not spend-based"
+      "Lounge access is not spend-based",
+      "Good wellness focused welcome benefits",
+      "Complimentary FITPASS PRO and Netmeds First membership"
     ],
     "cons": [
       "Slightly high annual fee",
       "Low redemption value",
       "No medical insurance cover",
-      "Milestone spending threshold is high"
+      "Milestone spending threshold is high",
+      "Only 0.5% rewards on regular spends",
+      "No complimentary international lounge access",
+      "High forex markup fee of 3.5% + GST"
     ],
     "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
     "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",

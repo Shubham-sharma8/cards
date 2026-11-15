@@ -38,7 +38,9 @@
     "bank_url": "https://www.axis.bank.in/cards/credit-card",
     "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -136,7 +138,208 @@
         "1% fuel surcharge waiver up to Rs. 500 per statement cycle on Rs. 400–Rs. 4,000 transactions (no cashback on fuel).",
         "Annual fee waiver (Rs. 500 + GST) on spending Rs. 2,00,000 in an anniversary year."
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Airtel Axis Bank Credit Card at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹2 lakh eligible annual spends"
+          ],
+          [
+            "Welcome Benefit",
+            "₹250 Amazon eVoucher on the first transaction within 30 days of card issuance"
+          ],
+          [
+            "Airtel Payments",
+            "25% cashback on Airtel Mobile, Broadband, WiFi and DTH payments through Airtel Thanks"
+          ],
+          [
+            "Airtel Cashback Cap",
+            "Up to 2X the base cashback earned in the same statement cycle"
+          ],
+          [
+            "Utility Payments",
+            "10% cashback on eligible utility bills paid through Airtel Thanks"
+          ],
+          [
+            "Utility Cashback Cap",
+            "Up to 1X the base cashback earned in the same statement cycle"
+          ],
+          [
+            "Regular Spends",
+            "1% cashback on eligible spends with no overall cap"
+          ],
+          [
+            "Zomato",
+            "10% value back, up to ₹200 per month. Minimum order ₹499"
+          ],
+          [
+            "Blinkit",
+            "10% value back, up to ₹200 per month. Minimum order ₹499"
+          ],
+          [
+            "District Movies",
+            "10% value back, up to ₹200 per month"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on transactions of ₹400-₹4000, up to ₹500 per statement cycle"
+          ],
+          [
+            "Forex Markup",
+            "3.5%"
+          ],
+          [
+            "Airport Lounge Access",
+            "None"
+          ],
+          [
+            "Best Suited For",
+            "Airtel users who can also route regular eligible spends through the card"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500+GST ~₹590"
+          ],
+          [
+            "Welcome Benefit",
+            "₹250 Amazon e-Voucher on the first eligible transaction within 30 days of card issuance"
+          ],
+          [
+            "Annual Fee",
+            "₹500+GST ~₹590"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On annual spends above ₹2 lakh excluding rent and wallet load transactions"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Cashback and Value Back",
+        "headers": [
+          "Spend Category",
+          "Benefit",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "Airtel Mobile, Broadband, WiFi and DTH payments via Airtel Thanks app",
+            "25% cashback",
+            "Up to 2X the base cashback earned in the statement cycle"
+          ],
+          [
+            "Utility bill payments via Airtel Thanks app",
+            "10% cashback",
+            "Up to 1X the base cashback earned in the statement cycle"
+          ],
+          [
+            "Zomato",
+            "10% value back",
+            "₹200 per month"
+          ],
+          [
+            "Blinkit",
+            "10% value back",
+            "₹200 per month"
+          ],
+          [
+            "District Movies",
+            "10% value back",
+            "₹200 per month"
+          ],
+          [
+            "Other eligible spends",
+            "1% cashback",
+            "No cap"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "How to Maximise Cashback",
+        "headers": [
+          "Spend Type",
+          "Monthly Spend",
+          "Cashback"
+        ],
+        "rows": [
+          [
+            "Regular Spends",
+            "₹10,000",
+            "₹100"
+          ],
+          [
+            "Airtel Payments",
+            "₹800",
+            "₹200"
+          ],
+          [
+            "Utility Bills",
+            "₹1000",
+            "₹100"
+          ],
+          [
+            "Total",
+            "₹11,800",
+            "₹400"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-4",
+        "kind": "fees_and_charges",
+        "title": "Other Benefits & Charges",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1% on fuel transactions of ₹400 to ₹4,000"
+          ],
+          [
+            "Fuel Waiver Cap",
+            "₹500 per statement cycle"
+          ],
+          [
+            "Forex Markup Fee",
+            "3.5% + GST (~4.13%)"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -145,7 +348,7 @@
       "spend_criteria": "Discontinued effective April 12, 2026",
       "add_on_allowed": false,
       "shared_limit": false,
-      "summary": "Domestic airport lounge access discontinued effective April 12, 2026 (0 visits)"
+      "summary": "Discontinued (Apr 12, 2026): 4 complimentary domestic lounge visits removed"
     },
     "international": {
       "program": "None",
@@ -167,7 +370,7 @@
     "applicable_lounge_links": [],
     "participating_lounges_matched": [],
     "participating_lounges_count": 0,
-    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+    "no_lounge_note": "Axis Bank discontinued all 4 complimentary domestic lounge visits effective 12 April 2026."
   },
   "fees_and_charges_detailed": {
     "joining_fee_inr": 500,
@@ -269,7 +472,19 @@
       {
         "q": "What should I do if my Airtel Axis Bank Credit Card is lost or stolen?",
         "a": "If your Airtel Axis Bank credit card is lost or stolen, you should first block your credit card by logging into your credit card account via Axis bank app or website. This would prevent any unauthorised transactions from your card and limit your losses. Next, report the card loss to Axis Bank customer care and request for issuance of its replacement."
+      },
+      {
+        "question": "Is the Airtel Axis Bank Credit Card worth it?",
+        "answer": "Yes, especially if you use Airtel for mobile, broadband or DTH. The card still offers very good cashback, though you now need regular eligible spends to maximise the Airtel and utility cashback."
+      },
+      {
+        "question": "What is the annual fee of the Airtel Axis Bank Credit Card?",
+        "answer": "The annual fee is ₹500 + GST. It is waived on eligible annual spends above ₹2 lakh."
       }
+    ],
+    "program_updates_2026": [
+      "12 April 2026 Devaluation: All 4 complimentary domestic airport lounge visits discontinued; Swiggy/BigBasket 10% removed.",
+      "Proportional Rule: Airtel & utility cashback caps unlock in proportion to base 1% retail spends (cannot use purely for bill pay)."
     ]
   },
   "ratings": {
@@ -311,7 +526,9 @@
       "April 12, 2026 Devaluation: 25% Airtel (cap Rs. 250/mo) & 10% Utility via Airtel Thanks (cap Rs. 250/mo) unlock ONLY in proportion to monthly 1% base retail spend (Rs. 25k/mo base spend needed for full Rs. 500 cap; Rs. 0 base spend = Rs. 0 utility cashback). 10% on Zomato, Blinkit & District Movies (min order Rs. 499, Rs. 200/partner cap; Swiggy & BigBasket removed); 0 domestic lounges."
     ],
     "optimization_tips": [
-      "April 2026 Proportional Unlock Rule: 25% Airtel Thanks recharge (₹250 cap) & 10% Utility bills via Airtel Thanks (₹250 cap) now unlock proportionally with base 1% retail spend — mix Zomato, Blinkit & everyday offline/online spends so bill cashback isn't withheld."
+      "April 2026 Proportional Unlock Rule: 25% Airtel Thanks recharge (₹250 cap) & 10% Utility bills via Airtel Thanks (₹250 cap) now unlock proportionally with base 1% retail spend — mix Zomato, Blinkit & everyday offline/online spends so bill cashback isn't withheld.",
+      "₹200 cashback on Airtel payments",
+      "₹100 cashback on utility bill payments"
     ]
   },
   "devaluation_analysis": {

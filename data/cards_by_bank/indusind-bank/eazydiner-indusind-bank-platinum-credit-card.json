@@ -37,7 +37,9 @@
     "bank_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
     "mitc_pdf_url": "https://www.indusind.com/content/dam/indusind-corporate/Other/welcomekit/EazyDiner-platinum-MITC.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -126,7 +128,149 @@
         "2 reward points per Rs. 100 spent, except fuel, insurance, rent, utility and government spends",
         "0.7 reward points per Rs. 100 on insurance, rent, utility and Government spends."
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "EazyDiner IndusInd Platinum RuPay Credit Card Key Highlights",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Nil"
+          ],
+          [
+            "Annual Fee",
+            "Lifetime Free"
+          ],
+          [
+            "Dining Discount",
+            "Extra 20% off up to ₹500, 3 times/month via PayEazy"
+          ],
+          [
+            "Maximum Dining Savings",
+            "₹1500 per month (₹18,000 annually)"
+          ],
+          [
+            "EazyDiner Prime",
+            "3 months complimentary"
+          ],
+          [
+            "EazyDiner Prime Renewal",
+            "3 months renewed on ₹30,000 spends every 90 days"
+          ],
+          [
+            "Reward Rate",
+            "2 reward points per ₹100 on eligible spends"
+          ],
+          [
+            "Reward Point Value",
+            "₹0.20 per point"
+          ],
+          [
+            "Movie Benefits",
+            "Buy one get one free on BookMyShow, up to ₹200 per month"
+          ],
+          [
+            "Milestone Benefits",
+            "2,000 reward points on ₹30,000 eligible spends every 90 days"
+          ],
+          [
+            "UPI Payments",
+            "Supported through RuPay"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "EazyDiner IndusInd Platinum RuPay Credit Card Fees and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Nil"
+          ],
+          [
+            "Annual Fee",
+            "Nil (Lifetime Free)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Not applicable"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Reward Points",
+        "headers": [
+          "Spending Category",
+          "Reward Points per ₹100",
+          "Effective Reward Rate"
+        ],
+        "rows": [
+          [
+            "Regular Eligible Spends",
+            "2",
+            "0.4%"
+          ],
+          [
+            "Insurance, Rent, Utilities and Government",
+            "0.7",
+            "0.14%"
+          ],
+          [
+            "Fuel",
+            "Nil",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-3",
+        "kind": "other_table",
+        "title": "EazyDiner IndusInd Platinum RuPay Credit Card Dining Discounts",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Restaurant Bill",
+            "₹4000"
+          ],
+          [
+            "EazyDiner Prime Discount (25%)",
+            "-₹1000"
+          ],
+          [
+            "Bill After Prime Discount",
+            "₹3000"
+          ],
+          [
+            "Additional Card Discount (20%, capped at ₹500)",
+            "-₹500"
+          ],
+          [
+            "Final Amount Payable",
+            "₹2500"
+          ],
+          [
+            "Total Savings",
+            "₹1500 (37.5%)"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -255,6 +399,26 @@
       {
         "q": "What transactions are not considered for milestone and renewal benefits?",
         "a": "Transactions such as ATM cash withdrawals, fees, interest and charges are not considered for calculation of these benefits."
+      },
+      {
+        "question": "Is the EazyDiner IndusInd Platinum RuPay Credit Card lifetime free?",
+        "answer": "Yes. The card has no joining or annual fee. There is no minimum spending requirement to keep it lifetime free."
+      },
+      {
+        "question": "What is the maximum dining discount on the EazyDiner IndusInd Platinum RuPay Credit Card?",
+        "answer": "You get an additional 20% discount up to ₹500 per transaction, three times a calendar month. This means you can save up to ₹1500 monthly or ₹18,000 annually at eligible restaurants when paying through PayEazy."
+      },
+      {
+        "question": "Can I combine the card discount with EazyDiner Prime offers?",
+        "answer": "Yes. The additional card discount can be combined with eligible EazyDiner Prime restaurant offers, subject to the restaurant's terms and conditions."
+      },
+      {
+        "question": "How do I renew the complimentary EazyDiner Prime membership?",
+        "answer": "You can get another three months of EazyDiner Prime membership by spending ₹30,000 on eligible transactions every 90 days, subject to the applicable terms."
+      },
+      {
+        "question": "Does the EazyDiner IndusInd Platinum RuPay Credit Card earn rewards on UPI payments?",
+        "answer": "The card supports eligible merchant UPI payments through the RuPay network. However, reward eligibility depends on the transaction category and the bank's applicable terms."
       }
     ]
   },
@@ -275,12 +439,18 @@
       "No capping on discount earning",
       "Up to 50% off on dining bills",
       "Redemption against free meals",
-      "Lifetime free"
+      "Lifetime free",
+      "Lifetime free with no joining or annual fee.",
+      "Up to ₹1500 in dining discounts every month."
     ],
     "cons": [
       "EazyDiner membership is spend-based",
       "Low redemption value",
-      "Limited lifestyle benefits"
+      "Limited lifestyle benefits",
+      "Dining discounts available only through PayEazy at eligible restaurants.",
+      "Low regular reward rate of 0.4%.",
+      "₹30,000 spending requirement every 90 days for Prime renewal.",
+      "Dining spends excluded from reward points milestone."
     ],
     "best_for_whom": "IndusInd Bank customers seeking lifetime free rewards & bank-specific discount offers",
     "not_ideal_for": "Users focused purely on competing co-brand ecosystems or heavy airport lounge visits",

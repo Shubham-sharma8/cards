@@ -58,7 +58,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -156,7 +158,176 @@
       "milestone_slabs": [
         "Two Rs. 3,000 EaseMyTrip flight vouchers at Rs. 4L and Rs. 8L annual spend"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "ICICI Bank Emeralde Private Metal Credit Card: Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹12,499 + GST"
+          ],
+          [
+            "Welcome Benefits",
+            "12,500 Reward Points, Taj Epicure Plus Membership and EazyDiner Prime Membership"
+          ],
+          [
+            "Annual Fee",
+            "₹12,499 + GST"
+          ],
+          [
+            "Renewal Benefits",
+            "12,500 Reward Points"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On annual spends of ₹10 lakh"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "ICICI Bank Emeralde Private Metal Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards",
+          "Reward Cap"
+        ],
+        "rows": [
+          [
+            "Retail Spends",
+            "6 Reward Points per ₹200 (up to ~3% value)",
+            "No cap"
+          ],
+          [
+            "Grocery",
+            "6 Reward Points per ₹200",
+            "1000 Reward Points per statement cycle (≈₹33,333 spend)"
+          ],
+          [
+            "Education",
+            "6 Reward Points per ₹200",
+            "1000 Reward Points per statement cycle (≈₹33,333 spend)"
+          ],
+          [
+            "Utilities",
+            "6 Reward Points per ₹200",
+            "1000 Reward Points per statement cycle (≈₹33,333 spend)"
+          ],
+          [
+            "Insurance",
+            "6 Reward Points per ₹200",
+            "5000 Reward Points per statement cycle (≈₹1.67 lakh spend)"
+          ],
+          [
+            "Government Payments, Rent, Tax Payments, Fuel, Property Management & Third-party Wallet Loads",
+            "No Reward Points",
+            "—"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-2",
+        "kind": "lounge_access",
+        "title": "ICICI Bank Emeralde Private Metal Credit Card Airport Lounge Access",
+        "headers": [
+          "Lounge Benefit",
+          "Access"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "Unlimited"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Unlimited via Priority Pass"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "ICICI iShop: Earn Up to 36% Reward Rate",
+        "headers": [
+          "Spend Type",
+          "Effective Reward Rate"
+        ],
+        "rows": [
+          [
+            "Regular Retail Spends",
+            "Up to 3%"
+          ],
+          [
+            "Flights & Eligible Gift Vouchers via iShop",
+            "Up to 18% (6X Rewards)"
+          ],
+          [
+            "Hotel Bookings via iShop",
+            "Up to 36% (12X Rewards)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-4",
+        "kind": "reward_structure",
+        "title": "ICICI iShop Bonus Reward Points Cap",
+        "headers": [
+          "Bonus Reward Points Cap",
+          "Spend Required (6X Categories)",
+          "Spend Required (12X Categories)"
+        ],
+        "rows": [
+          [
+            "18,000 Bonus Reward Points",
+            "₹1.2 lakh",
+            "₹54,600"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-5",
+        "kind": "redemption_catalog",
+        "title": "How to Redeem ICICI Bank Emeralde Private Metal Reward Points",
+        "headers": [
+          "Redemption Option",
+          "Value of 1 Reward Point"
+        ],
+        "rows": [
+          [
+            "Flight Bookings",
+            "₹1"
+          ],
+          [
+            "Hotel Bookings",
+            "₹1"
+          ],
+          [
+            "Eligible Premium Brand Vouchers",
+            "₹1"
+          ],
+          [
+            "Air India Maharaja Club",
+            "1 Reward Point = 1 Maharaja Point"
+          ],
+          [
+            "Rewards Catalogue",
+            "₹0.60"
+          ],
+          [
+            "Statement Credit",
+            "₹0.40"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -853,6 +1024,26 @@
       {
         "q": "What is ICICI Credit card customer care number?",
         "a": "In case of any queries or disputes, you can raise your concerns to ICICI Bank customer care at 1800 1080."
+      },
+      {
+        "question": "What is the joining and annual fee for the ICICI Bank Emeralde Private Metal Credit Card?",
+        "answer": "The ICICI Bank Emeralde Private Metal Credit Card has a joining fee of ₹12,499 + GST and an annual fee of ₹12,499 + GST. The annual fee is waived on annual spends of ₹10 lakh or more."
+      },
+      {
+        "question": "How can I get the ICICI Bank Emeralde Private Metal Credit Card?",
+        "answer": "The card is available by invitation only. You can register your interest through your ICICI Bank Relationship Manager or branch, but the final approval depends on the bank's internal eligibility criteria."
+      },
+      {
+        "question": "What is the reward rate on the ICICI Bank Emeralde Private Metal Credit Card?",
+        "answer": "The card earns 6 Reward Points for every ₹200 spent on eligible retail transactions. When redeemed for flights, hotels or eligible premium vouchers, this translates to an effective reward rate of up to 3%. Through ICICI iShop, eligible flight bookings can earn up to 18% rewards, while hotel bookings can earn up to 36% rewards."
+      },
+      {
+        "question": "Does the ICICI Bank Emeralde Private Metal Credit Card offer unlimited airport lounge access?",
+        "answer": "Yes. The card offers unlimited domestic airport lounge access and unlimited international lounge access through Priority Pass for both primary and eligible add-on cardholders."
+      },
+      {
+        "question": "Can I transfer Reward Points to Air India Maharaja Club?",
+        "answer": "Yes. Reward Points can be transferred to Air India Maharaja Club at a 1:1 ratio, giving cardholders another high-value redemption option."
       }
     ]
   },

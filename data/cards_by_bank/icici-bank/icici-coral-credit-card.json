@@ -45,7 +45,9 @@
         "url": "https://www.rupay.co.in/",
         "source_type": "official_network_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -138,7 +140,172 @@
         "1 domestic airport lounge visit per quarter on spending min. Rs. 75,000 in a quarter",
         "Annual fee waived on spending Rs. 1.5 lakh during the previous year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "ICICI Bank Coral Credit Card at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST / LTF"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST / LTF"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On spending ₹1.5 lakh in the previous year for paid cards"
+          ],
+          [
+            "Base Rewards",
+            "2 Reward Points per ₹100 on eligible retail spends"
+          ],
+          [
+            "Reward Value",
+            "₹0.25 per Reward Point"
+          ],
+          [
+            "Base Reward Rate",
+            "Up to 0.50%"
+          ],
+          [
+            "Movie Benefit",
+            "25% discount up to ₹100 on BookMyShow and INOX, up to twice per month"
+          ],
+          [
+            "Airport Lounge Access",
+            "Complimentary domestic lounge access subject to quarterly spend criteria"
+          ],
+          [
+            "Railway Lounge Access",
+            "Complimentary access at participating railway lounges, subject to applicable terms"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on eligible fuel transactions"
+          ],
+          [
+            "Forex Markup",
+            "3.5% + GST"
+          ],
+          [
+            "Best Suited For",
+            "Existing ICICI Bank customers who get the card lifetime free"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Fee",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST / Nil for LTF offers"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST / Nil for LTF offers"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend over ₹1.5 lakh in the previous year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Type of Spend",
+          "Rewards",
+          "Return"
+        ],
+        "rows": [
+          [
+            "Regular Retail Spends",
+            "2 RP/₹100",
+            "Up to 0.50%"
+          ],
+          [
+            "Utility & Insurance Spends",
+            "1 RP/₹100",
+            "Up to 0.25%"
+          ],
+          [
+            "Fuel Spends",
+            "No Rewards",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Complimentary Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Lounge Access",
+            "1 visit per quarter"
+          ],
+          [
+            "Spend Requirement",
+            "₹75,000 in the preceding calendar quarter"
+          ],
+          [
+            "International Lounge Access",
+            "Not available"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-4",
+        "kind": "fees_and_charges",
+        "title": "ICICI Bank Coral Credit Card Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex Markup",
+            "3.5% + GST, effectively ~4.13%"
+          ],
+          [
+            "Reward Redemption Fee",
+            "₹99 + GST"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% on ₹400 to ₹4,000 at HPCL"
+          ],
+          [
+            "Interest Rate",
+            "3.75% per month"
+          ],
+          [
+            "Late Payment Fee",
+            "₹100 to ₹1,300"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -593,6 +760,26 @@
       {
         "q": "What are the ICICI Coral Credit Card airport lounge access benefits?",
         "a": "This credit card offers 1 complimentary domestic airport lounge visit every quarter on spending at least Rs. 75,000 in the previous quarter."
+      },
+      {
+        "question": "Is ICICI Bank Coral Credit Card lifetime free?",
+        "answer": "The regular fee is ₹500 + GST. However, ICICI Bank often offers Coral lifetime free to select customers. Check your pre-approved offers on iMobile before applying."
+      },
+      {
+        "question": "What is the reward rate on ICICI Coral?",
+        "answer": "You get 2 Reward Points per ₹100 on regular spends. At ₹0.25 per point, that is a reward rate of 0.5%. Not great by current standards."
+      },
+      {
+        "question": "Does ICICI Coral RuPay work on UPI?",
+        "answer": "Yes. The RuPay variant can be linked to UPI and used for eligible merchant payments. This is the variant we would prefer if Coral is being offered lifetime free."
+      },
+      {
+        "question": "Does ICICI Coral have airport lounge access?",
+        "answer": "Yes. You get 1 domestic airport lounge visit per quarter after spending ₹75,000 in the preceding calendar quarter. We would not chase this benefit considering Coral's low reward rate."
+      },
+      {
+        "question": "Does ICICI Coral have railway lounge access?",
+        "answer": "Yes. You get 1 railway lounge visit per quarter at participating lounges. There is no spend requirement for this benefit."
       }
     ]
   },

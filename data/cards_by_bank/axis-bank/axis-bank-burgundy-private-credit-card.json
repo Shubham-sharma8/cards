@@ -175,7 +175,38 @@
       "Utilities",
       "Government & Tax"
     ],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Accor Live Limitless (ALL)",
+        "ratio": "Group A · Returned Sept 2026",
+        "notes": "5:4 across Group A (Accor, Cathay, Air India, Flying Blue, Qantas) & Group B"
+      },
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "3,00,000 pts/yr Group A · 12,00,000 pts/yr Group B"
+      },
+      {
+        "partner": "Flying Blue (Air France/KLM)",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "3,00,000 pts/yr Group A · 12,00,000 pts/yr Group B"
+      },
+      {
+        "partner": "Qantas Frequent Flyer",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "3,00,000 pts/yr Group A · 12,00,000 pts/yr Group B"
+      },
+      {
+        "partner": "Cathay Asia Miles",
+        "ratio": "Group A · Added Sept 2026",
+        "notes": "Caps share Group A pool"
+      },
+      {
+        "partner": "Hilton Honors & Miles & More",
+        "ratio": "Group B · Added Sept 2026",
+        "notes": "3,00,000 pts/yr Group A · 12,00,000 pts/yr Group B"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 0,
       "annual_fee_inr": 0,
@@ -186,7 +217,62 @@
         "15 EDGE REWARD points for every Rs. 200 spent on eligible domestic & international retail spends (excl. rent, insurance, utilities, fuel, wallet & govt).",
         "1% fuel surcharge waiver for transactions between Rs.400 and Rs.4000 (Capped at Rs.400 per month)"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "axis-transfer-groups-sept-2026",
+        "kind": "transfer_partners",
+        "title": "Axis Bank Transfer Partner Groups (Updated Sept 2026)",
+        "note": "Accor ALL & Cathay returned to Group A; Air India Maharaja Club, Flying Blue & Qantas moved to Group A; Hilton Honors & Miles & More added to Group B; ITC Hotels removed.",
+        "headers": [
+          "Partner",
+          "Tier",
+          "Update (Sept 2026)"
+        ],
+        "rows": [
+          [
+            "Accor Live Limitless (ALL)",
+            "Group A",
+            "Returned in Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Cathay Asia Miles",
+            "Group A",
+            "Added Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Air India Maharaja Club",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Flying Blue (Air France / KLM)",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Qantas Frequent Flyer",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Hilton Honors",
+            "Group B",
+            "Added to Group B (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Miles & More (Lufthansa)",
+            "Group B",
+            "Added to Group B (Atlas 1:1 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "ITC Hotels",
+            "Removed",
+            "Discontinued as Axis transfer partner"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -914,6 +1000,9 @@
         "q": "Why am I not able to avail the complimentary hotel memberships available on the card?",
         "a": "You cannot avail the complimentary hotel memberships on the card, if you already have an active membership with these hotel partners- Club Marriott, Accor Plus and Taj Epicure membership. To avail the complimentary membership, you can either cancel your current membership or wait for it to expire. For this, send a consent form to premium.experience@axisbank.com from their registered email ID. The form is available on the official portal of Axis Bank Burgundy Private Credit Card."
       }
+    ],
+    "program_updates_2026": [
+      "September 2026 Transfer Update: Accor ALL & Cathay returned to Group A; Air India/Flying Blue/Qantas moved to Group A (3,00,000 pts/yr Group A · 12,00,000 pts/yr Group B)."
     ]
   },
   "ratings": {

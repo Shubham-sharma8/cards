@@ -59,7 +59,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -146,7 +148,68 @@
         "On Utility and Insurance Spends: 1 reward point on every Rs. 100 spent",
         "Welcome Benefit: Vouchers worth more than Rs. 13,000 from EaseMyTrip, Tata CLiQ, EazyDiner, Da Milano and Tata Croma combined on joining fee payment"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "ICICI Sapphiro Credit Card Fees & Charges",
+        "headers": [
+          "Fee Type",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹6500 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "₹3000 Tata CLiQ GV 4 X ₹ 1000 EasyMyTrip GV 4 X ₹250 Uber GV ₹1000 Croma GV"
+          ],
+          [
+            "Annual Fee",
+            "₹3500 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹6 Lakh annual spend"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "ICICI Sapphiro Credit Card Rewards & Value Back",
+        "headers": [
+          "Spend Category",
+          "Earnings",
+          "Effective Return"
+        ],
+        "rows": [
+          [
+            "Domestic Spends",
+            "2 RP per ₹100",
+            "~0.5%"
+          ],
+          [
+            "International Spends",
+            "4 RP per ₹100",
+            "~1%"
+          ],
+          [
+            "Utilities & Insurance",
+            "1 RP per ₹100",
+            "~0.25%"
+          ],
+          [
+            "Fuel Spends",
+            "No rewards",
+            "0%"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -884,6 +947,30 @@
       {
         "q": "How can I avoid paying the annual fee of ICICI Sapphiro Credit Card?",
         "a": "You can avail the annual card fee waiver facility by spending a minimum of Rs. 6 lakh in a year."
+      },
+      {
+        "question": "Is ICICI Sapphiro Credit Card Lifetime Free?",
+        "answer": "Yes, the ICICI Sapphiro Credit Card is often offered as Lifetime Free (LTF) under alumni programs or pre-approved offers."
+      },
+      {
+        "question": "What is the reward rate of ICICI Sapphiro Credit Card?",
+        "answer": "The card offers around 0.25% to 0.5% return on domestic spends and up to 1% on international spends."
+      },
+      {
+        "question": "Does ICICI Sapphiro have lounge access?",
+        "answer": "Yes, 4 domestic visits per quarter (with spend condition) and 2 international visits per year."
+      },
+      {
+        "question": "Is there a spend requirement for BookMyShow offer?",
+        "answer": "Yes, ₹25,000 spend in the previous calendar quarter is required."
+      },
+      {
+        "question": "What is the forex markup on ICICI Sapphiro Credit Card?",
+        "answer": "The forex markup is 3.5% + GST (~4.1%)."
+      },
+      {
+        "question": "Is ICICI Sapphiro worth it?",
+        "answer": "Best suited as a Lifetime Free card. Limited value as a paid card."
       }
     ]
   },

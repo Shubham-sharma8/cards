@@ -1,14 +1,13 @@
 {
   "bank": "Federal Bank / Scapia",
   "bank_slug": "federal-bank-scapia",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 1,
   "ltf_count": 1,
   "rupay_upi_count": 1,
   "domestic_lounge_count": 1,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 1,
   "with_image_count": 1,
   "official_lounge_programs": [
@@ -25,14 +24,10 @@
       "card_name": "Federal Bank Scapia Credit Card",
       "card_slug": "federal-bank-scapia-credit-card",
       "primary_category": "Zero/Low Forex",
-      "card_network": "Visa / RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 4.46,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/federal-bank-scapia/federal-bank-scapia-credit-card.webp",
-      "json_file": "federal-bank-scapia-credit-card.json",
-      "md_file": "federal-bank-scapia-credit-card.md"
+      "json_path": "data/cards_by_bank/federal-bank-scapia/federal-bank-scapia-credit-card.json",
+      "md_path": "data/cards_by_bank/federal-bank-scapia/federal-bank-scapia-credit-card.md"
     }
   ]
 }

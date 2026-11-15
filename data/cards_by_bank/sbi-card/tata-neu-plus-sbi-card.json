@@ -61,7 +61,9 @@
         "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -154,7 +156,129 @@
         "Lounge Access : 4 complimentary domestic airport lounge access every year ( maximum 1 per quarter) on quarterly spends of Rs. 50,000",
         "Fee Waiver : Annual fee waiver on spending Rs. 1 Lakh in the previous year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees & Charges",
+        "headers": [
+          "Particulars",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST (waivable)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "By spending ₹1 lakh or more in the previous card anniversary year"
+          ],
+          [
+            "Finance Charges",
+            "Up to 3.5% per month"
+          ],
+          [
+            "Foreign Currency Markup",
+            "3.5% on international transactions"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Reward Category",
+          "Value Back"
+        ],
+        "rows": [
+          [
+            "Tata Neu App/Website & Partner Tata Brands",
+            "2% NeuCoins"
+          ],
+          [
+            "Select Categories on Tata Neu App/Website (Tata NeuPass)",
+            "Extra 5% NeuCoins"
+          ],
+          [
+            "Other Spends",
+            "1% NeuCoins"
+          ],
+          [
+            "UPI Transactions (RuPay Card)",
+            "1% NeuCoins"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Tata Neu Plus SBI Credit Card vs Tata Neu Plus HDFC Bank Credit Card",
+        "headers": [
+          "Feature",
+          "Tata Neu Plus SBI Credit Card",
+          "Tata Neu Plus HDFC Bank Credit Card"
+        ],
+        "rows": [
+          [
+            "Annual Fee",
+            "₹499 + GST",
+            "₹499 + GST (LTF option available)"
+          ],
+          [
+            "Joining Fee",
+            "₹499 + GST",
+            "₹499 + GST (LTF option available)"
+          ],
+          [
+            "Rewards Rate",
+            "Up to 7% value back (NeuCoins)",
+            "Up to 7% value back (NeuCoins)"
+          ],
+          [
+            "Reward Redemption",
+            "1 NeuCoin = ₹1 (redeemable across Tata brands on Tata Neu app)",
+            "1 NeuCoin = ₹1 (redeemable across Tata brands on Tata Neu app)"
+          ],
+          [
+            "Lounge Access",
+            "4 complimentary domestic lounge visits per year (Lounge access eligibility is based on achieving ₹50,000 spends in the previous quarter)",
+            "4 complimentary domestic lounge visits per year (No minimum spend condition)"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% fuel surcharge waiver (max ₹250 per cycle)",
+            "1% fuel surcharge waiver (max ₹250 per cycle)"
+          ],
+          [
+            "UPI Rewards",
+            "1% back on UPI transactions",
+            "1% back on UPI transactions"
+          ],
+          [
+            "Foreign Transaction Fees",
+            "3.5% markup",
+            "3.5% markup"
+          ],
+          [
+            "Special Category Rewards",
+            "2% NeuCoins on Tata Neu App/Website, 5% NeuCoins on select categories with NeuPass",
+            "2% NeuCoins on Tata Neu App/Website, 5% NeuCoins on select categories with NeuPass"
+          ],
+          [
+            "Max Rewards",
+            "Limited to Tata ecosystem and partner brands",
+            "Limited to Tata ecosystem and partner brands"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {

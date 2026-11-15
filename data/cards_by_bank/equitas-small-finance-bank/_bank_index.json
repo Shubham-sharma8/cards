@@ -1,0 +1,36 @@
+{
+  "bank": "Equitas Small Finance Bank",
+  "bank_slug": "equitas-small-finance-bank",
+  "generated_at": "2026-11-15T06:00:00+00:00",
+  "total_cards": 2,
+  "ltf_count": 0,
+  "rupay_upi_count": 1,
+  "domestic_lounge_count": 2,
+  "international_lounge_count": 1,
+  "railway_lounge_count": 0,
+  "zero_or_low_forex_count": 0,
+  "with_image_count": 2,
+  "official_lounge_programs": [],
+  "cards": [
+    {
+      "card_id": "equitas_small_finance_bank_equitas_powermiles_credit_card",
+      "card_name": "Equitas PowerMiles Credit Card",
+      "card_slug": "equitas-powermiles-credit-card",
+      "primary_category": "Travel & Miles",
+      "annual_fee_inr": 5000,
+      "overall_rating": 4.4,
+      "json_path": "data/cards_by_bank/equitas-small-finance-bank/equitas-powermiles-credit-card.json",
+      "md_path": "data/cards_by_bank/equitas-small-finance-bank/equitas-powermiles-credit-card.md"
+    },
+    {
+      "card_id": "equitas_small_finance_bank_equitas_selfe_credit_card",
+      "card_name": "Equitas Selfe Credit Card",
+      "card_slug": "equitas-selfe-credit-card",
+      "primary_category": "Cashback",
+      "annual_fee_inr": 1000,
+      "overall_rating": 4.2,
+      "json_path": "data/cards_by_bank/equitas-small-finance-bank/equitas-selfe-credit-card.json",
+      "md_path": "data/cards_by_bank/equitas-small-finance-bank/equitas-selfe-credit-card.md"
+    }
+  ]
+}

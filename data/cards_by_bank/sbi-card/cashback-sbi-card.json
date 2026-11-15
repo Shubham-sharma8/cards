@@ -39,7 +39,9 @@
     "aggregator_urls": [
       "https://www.cardexpert.in/sbi-cashback-credit-card-review/"
     ],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-15"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -102,20 +104,20 @@
       "offline_general_other": 1.0
     },
     "monthly_category_caps_inr": {
-      "online_shopping_general": 5000,
-      "amazon_flipkart_myntra": 5000,
-      "dining_swiggy_zomato": 5000,
-      "groceries_quick_commerce": 5000,
-      "travel_flights_hotels": 5000,
-      "offline_general_other": 5000
+      "online_shopping_general": 2000,
+      "amazon_flipkart_myntra": 2000,
+      "offline_general_other": 2000
     },
     "monthly_capping_rules": [
-      "5% cashback across almost all online merchants (1% offline) with Rs. 5,000/month combined statement credit cap across online + offline spends.",
-      "Excludes utility bills, rent, education, insurance, wallet load, jewelry, fuel, railway tickets, and gift cards."
+      "Online 5% cashback strictly capped at ₹2,000 per statement cycle (~₹40,000/mo online spend; reduced Apr 2026).",
+      "Offline 1% cashback capped separately at ₹2,000 per statement cycle (overall monthly limit ₹4,000).",
+      "0% cashback on Fuel, Rent, Utilities, Insurance, Education, Wallet Loads, Jewellery, Gift Cards, Tolls, Digital Gaming & Government payments."
     ],
     "category_caveats": {
-      "online_shopping_general": "5% online across merchants (combined ₹5,000/mo cycle cap across 5%+1%)",
-      "amazon_flipkart_myntra": "5% online on Amazon/Flipkart/Myntra (shared ₹5,000/mo cap)"
+      "online_shopping_general": "5% capped at ₹2,000/statement cycle (~₹40k spend) since Apr 2026",
+      "amazon_flipkart_myntra": "Shares ₹2,000/cycle online cashback pool (5% rate unchanged)",
+      "offline_general_other": "1% offline capped at ₹2,000/statement cycle",
+      "insurance": "Direct insurer MCC = 0% (Buy Amazon Pay Gift Cards inside Amazon @ 5% up to ₹2k cap instead)"
     },
     "excluded_categories": [
       "Rent, fuel, wallet loads, jewelry, school/educational services, railway tickets, EMI/Flexipay, gift cards/vouchers, merchant EMI",
@@ -131,7 +133,104 @@
       "milestone_slabs": [
         "Annual fee Rs. 999 waived on Rs. 2,00,000 annual spend"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "SBI Cashback Card: Key Highlights",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Network",
+            "Visa, Mastercard"
+          ],
+          [
+            "Joining Fee",
+            "₹999 + GST (₹1,179)"
+          ],
+          [
+            "Annual Fee",
+            "₹999 + GST (₹1,179) waived on ₹2 lakh annual spends"
+          ],
+          [
+            "Cashback Rate",
+            "5% cashback on eligible online spends and 1% cashback on offline purchases"
+          ],
+          [
+            "Cashback Cap",
+            "₹4000 per statement cycle (₹2000 online)"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on fuel transactions between ₹500 and ₹3,000"
+          ],
+          [
+            "Best For",
+            "Online shopping, food delivery and subscriptions"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "SBI Cashback Credit Card Fees",
+        "headers": [
+          "Fee Type",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹999 + GST (₹1,179)"
+          ],
+          [
+            "Annual Fee",
+            "₹999 + GST (₹1,179)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹2 lakh in a membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Cashback Rates, Caps and Exclusions",
+        "headers": [
+          "Spending Category",
+          "Cashback Rate",
+          "Cashback Cap"
+        ],
+        "rows": [
+          [
+            "Eligible Online Spends",
+            "5% Cashback",
+            "Up to ₹2000 per statement cycle"
+          ],
+          [
+            "Eligible Offline Spends",
+            "1% Cashback",
+            "Up to ₹2000 per statement cycle"
+          ],
+          [
+            "Insurance, Utilities, Education, Fuel, Rent, Wallet Loads, Gift Cards, Jewellery, Government Payments, Tolls, Railways, Digital Gaming, EMI Transactions and other excluded categories",
+            "0% Cashback",
+            "Excluded"
+          ],
+          [
+            "Overall Cashback Limit",
+            "Up to ₹4000",
+            "Maximum cashback per statement cycle"
+          ]
+        ]
+      }
+    ],
+    "capping_summary": "₹2,000/cycle on Online 5% spends + ₹2,000/cycle on Offline 1% spends (₹4,000 total/cycle since Apr 2026)"
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -207,7 +306,51 @@
       "Contactless tap-to-pay"
     ],
     "get_this_card_if": [],
-    "faqs": []
+    "faqs": [
+      {
+        "question": "What is the cashback rate on the SBI Cashback Credit Card?",
+        "answer": "The SBI Cashback Credit Card offers 5% cashback on eligible online spends and 1% cashback on eligible offline purchases. Both are capped per statement cycle."
+      },
+      {
+        "question": "What is the maximum cashback I can earn?",
+        "answer": "You can earn up to ₹4,000 cashback per statement cycle: ₹2,000 on online spends and ₹2,000 on offline spends."
+      },
+      {
+        "question": "Did SBI change the Cashback Card in 2026?",
+        "answer": "Yes. From 1 April 2026, online cashback is capped at ₹2000 per statement cycle and the total at ₹4000. Digital gaming, tolls and government payments no longer earn cashback."
+      },
+      {
+        "question": "Does the SBI Cashback Credit Card offer airport lounge access?",
+        "answer": "No, it has no lounge access, domestic or international."
+      },
+      {
+        "question": "Is there an annual fee waiver on the SBI Cashback Credit Card?",
+        "answer": "Yes. The annual fee of ₹999 plus GST is waived if you spend ₹2 lakh or more in a membership year."
+      },
+      {
+        "question": "Does the SBI Cashback Credit Card give cashback on utility bills and insurance?",
+        "answer": "No. Utility bill payments and insurance premiums earn no cashback."
+      },
+      {
+        "question": "What is the forex markup fee on the SBI Cashback Credit Card?",
+        "answer": "3.5% plus GST on international spends."
+      },
+      {
+        "question": "Is the SBI Cashback Credit Card lifetime free?",
+        "answer": "No. The joining and annual fee is ₹999 plus GST. The annual fee is waived if you spend ₹2 lakh or more in a membership year."
+      },
+      {
+        "question": "What happens after I reach the cashback cap?",
+        "answer": "Once you earn ₹2,000 in online cashback in a statement cycle, which takes ₹40,000 of online spends, further online spends earn no cashback until the next cycle. Offline spends have their own ₹2,000 cap."
+      },
+      {
+        "question": "Is the SBI Cashback Credit Card worth it?",
+        "answer": "Yes, if most of your spends are online and stay under ₹40,000 a month."
+      }
+    ],
+    "program_updates_2026": [
+      "April 2026 Update: 5% online cashback cap tightened to ₹2,000/cycle (plus ₹2,000 offline cap = ₹4,000 max/cycle). Tolls, Digital Gaming & Govt MCCs excluded."
+    ]
   },
   "ratings": {
     "overall_market_rating": 4.82,
@@ -220,12 +363,20 @@
     "pros": [
       "Still India's #1 universal 5% online cashback card across almost any e-commerce site",
       "Zero redemption hassle or fees — auto-adjusted in statement within 2 days",
-      "Easy Rs. 2L/year fee waiver makes effective annual cost zero for online shoppers"
+      "Easy Rs. 2L/year fee waiver makes effective annual cost zero for online shoppers",
+      "5% cashback on almost every online merchant, with no brand lock-in",
+      "Cashback is credited straight to your statement, so there is nothing to redeem",
+      "Cashback does not expire",
+      "Annual fee waived on ₹2 lakh annual spends"
     ],
     "cons": [
       "April 2026 cap merges 5% online + 1% offline into a single Rs. 5,000/month ceiling",
       "Zero airport lounge access and excluded from SBI instant-discount e-commerce sales",
-      "Aggressive exclusions (utilities, insurance, education, rent, fuel, gift vouchers)"
+      "Aggressive exclusions (utilities, insurance, education, rent, fuel, gift vouchers)",
+      "Online cashback capped at ₹2000 per statement cycle (cut in April 2026)",
+      "No cashback on insurance, utilities, fuel, rent, education, tolls, railways or gaming",
+      "Only 1% on offline spends",
+      "3.5% forex markup on international spends"
     ],
     "best_for_whom": "Online shoppers spending Rs. 15,000–Rs. 1,00,000/month across D2C sites, Amazon, Flipkart, Myntra, Nykaa, food/travel portals",
     "not_ideal_for": "Travelers seeking lounge access, utility/insurance billers, or shoppers relying on SBI instant sale discounts",
@@ -250,8 +401,9 @@
   "devaluation_analysis": {
     "devaluation_frequency": "Medium",
     "devaluation_risk_score": 6,
-    "last_devalued_on": "2026-04",
+    "last_devalued_on": "2026-04-01",
     "devaluation_history": [
+      "1 April 2026: Online 5% monthly cap cut from ₹5,000 to ₹2,000 (₹2,000 offline separate = ₹4,000 total); Tolls, Digital Gaming & Govt excluded.",
       "2023-05: Lounge access removed (4 dom/yr cut), 5% monthly cap cut from Rs. 10,000 to Rs. 5,000",
       "2024: Rent, jewelry, education, utilities, rail, govt & gift cards excluded from 5% / 1%",
       "2026-04: Combined monthly cashback cap tightened to Rs. 5,000/statement cycle across BOTH 5% online and 1% offline spends"

@@ -78,7 +78,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -170,12 +172,91 @@
       "Rent capped/excluded from RP, fuel 0 RP, EMI excluded; SmartBuy accelerated cap 15k RP/mo"
     ],
     "transfer_partners": [
-      "Singapore Airlines KrisFlyer",
-      "British Airways",
-      "Accor",
-      "Air India",
-      "Vistara/Air India Maharaja",
-      "InterMiles"
+      {
+        "partner": "Air Canada Aeroplan",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "AirAsia Rewards",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Accor Live Limitless (ALL)",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Avianca LifeMiles",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "British Airways Executive Club (Avios)",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Club ITC Green Points",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Etihad Guest",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Finnair Plus",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Flying Blue (Air France/KLM)",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "IHG One Rewards",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "InterMiles",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Singapore Airlines KrisFlyer",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Turkish Airlines Miles&Smiles",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "United MileagePlus",
+        "ratio": "2:1",
+        "notes": ""
+      },
+      {
+        "partner": "Vietnam Airlines LotusMiles",
+        "ratio": "1:1",
+        "notes": ""
+      },
+      {
+        "partner": "Wyndham Rewards",
+        "ratio": "1:1",
+        "notes": ""
+      }
     ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 12500,
@@ -189,7 +270,325 @@
         "1 RP = Rs. 0.50 for vouchers and product purchase on SmartBuy",
         "1% fuel surcharge waiver on fuel transactions worth Rs. 400 to Rs. 1 Lakh (maximum waiver of Rs. 1,000 in a month)"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HDFC Bank Infinia Credit Card Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹12,500 + GST"
+          ],
+          [
+            "Welcome Benefits",
+            "Complimentary Club Marriott membership for the first year and 12,500 Reward Points if the joining fee is charged"
+          ],
+          [
+            "Annual Fee",
+            "₹12,500 + GST"
+          ],
+          [
+            "Renewal Benefits",
+            "12,500 Reward Points on payment of annual fee"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Annual spends of ₹10 Lakhs"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "HDFC Bank Infinia Credit Card Rewards",
+        "headers": [
+          "Category",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Retail Spends",
+            "5 Reward Points per ₹150"
+          ],
+          [
+            "Insurance Transactions",
+            "5 Reward Points per ₹150 up to 5000 RP per calendar month"
+          ],
+          [
+            "Grocery Transactions",
+            "5 Reward Points per ₹150 up to 2000 RP per calendar month"
+          ],
+          [
+            "Wallet, Fuel, Rent & Government Transactions",
+            "No Rewards"
+          ],
+          [
+            "SmartBuy Accelerated Rewards",
+            "Up to 15,000 bonus RP per calendar month"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-2",
+        "kind": "accelerated_partners",
+        "title": "Accelerated SmartBuy Rewards on Infinia",
+        "headers": [
+          "Partner",
+          "Reward Multiplier",
+          "Approx Reward Rate"
+        ],
+        "rows": [
+          [
+            "IGP.com",
+            "10X",
+            "~33%"
+          ],
+          [
+            "Flights",
+            "5X",
+            "~16.5%"
+          ],
+          [
+            "Hotels",
+            "10X",
+            "~33%"
+          ],
+          [
+            "ConfirmTkt / MMT Trains",
+            "3X",
+            "~10%"
+          ],
+          [
+            "Buses",
+            "5X",
+            "~16.5%"
+          ],
+          [
+            "Instant Vouchers",
+            "5X",
+            "~16.5%"
+          ],
+          [
+            "Apple Imagine Tresor",
+            "5X",
+            "~16.5%"
+          ],
+          [
+            "Myntra",
+            "5X",
+            "~16.5%"
+          ],
+          [
+            "Jockey",
+            "10X",
+            "~33%"
+          ],
+          [
+            "MMT Holiday Packages",
+            "5X",
+            "~16.5%"
+          ],
+          [
+            "PharmEasy",
+            "10X",
+            "~33%"
+          ],
+          [
+            "Duty Free via Adani One",
+            "5X",
+            "~16.5%"
+          ],
+          [
+            "Drivado",
+            "5X",
+            "~16.5%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Complimentary Airport Lounge Access",
+        "headers": [
+          "Access Type",
+          "Primary Cardholder",
+          "Add-on Cardholder",
+          "Network"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "Unlimited",
+            "Unlimited",
+            "Visa / Mastercard / Priority Pass"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Unlimited",
+            "Unlimited",
+            "Priority Pass"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-4",
+        "kind": "transfer_partners",
+        "title": "Transfer Reward Points to Airline & Hotel Partners",
+        "headers": [
+          "Transfer Partner",
+          "Transfer Ratio (RP : Miles/Points)"
+        ],
+        "rows": [
+          [
+            "Air Canada Aeroplan",
+            "2:1"
+          ],
+          [
+            "Air India Maharaja Club",
+            "2:1"
+          ],
+          [
+            "AirAsia Rewards",
+            "1:1"
+          ],
+          [
+            "Accor Live Limitless (ALL)",
+            "2:1"
+          ],
+          [
+            "Avianca LifeMiles",
+            "2:1"
+          ],
+          [
+            "British Airways Executive Club (Avios)",
+            "2:1"
+          ],
+          [
+            "Club ITC Green Points",
+            "2:1"
+          ],
+          [
+            "Etihad Guest",
+            "2:1"
+          ],
+          [
+            "Finnair Plus",
+            "1:1"
+          ],
+          [
+            "Flying Blue (Air France/KLM)",
+            "1:1"
+          ],
+          [
+            "IHG One Rewards",
+            "1:1"
+          ],
+          [
+            "InterMiles",
+            "1:1"
+          ],
+          [
+            "Singapore Airlines KrisFlyer",
+            "1:1"
+          ],
+          [
+            "Turkish Airlines Miles&Smiles",
+            "2:1"
+          ],
+          [
+            "United MileagePlus",
+            "2:1"
+          ],
+          [
+            "Vietnam Airlines LotusMiles",
+            "1:1"
+          ],
+          [
+            "Wyndham Rewards",
+            "1:1"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-5",
+        "kind": "redemption_catalog",
+        "title": "HDFC Bank Infinia Reward Points Redemption Value",
+        "headers": [
+          "Redemption Option",
+          "Value per Reward Point"
+        ],
+        "rows": [
+          [
+            "SmartBuy Flights & Hotels",
+            "₹1"
+          ],
+          [
+            "Tanishq Vouchers",
+            "₹1"
+          ],
+          [
+            "Apple Products",
+            "₹1"
+          ],
+          [
+            "Airline & Hotel Transfers",
+            "Depends on redemption"
+          ],
+          [
+            "Gift Vouchers & Rewards Catalogue",
+            "20 paise to 50 paise"
+          ],
+          [
+            "Cashback",
+            "30 paise"
+          ]
+        ]
+      },
+      {
+        "id": "hdfc-smartbuy-gyftr-caps-july-2026",
+        "kind": "accelerated_partners",
+        "title": "HDFC SmartBuy Monthly & GyFTR Voucher Caps (July 2026)",
+        "note": "Effective 1 July 2026, SmartBuy GyFTR & Woohoo brand vouchers carry a carved-out 3,000 Bonus RP/month sub-limit inside the overall SmartBuy monthly cap.",
+        "headers": [
+          "Card Variant",
+          "Overall SmartBuy Cap/Mo",
+          "GyFTR/Woohoo Cap",
+          "Max Spend for 3,000 Bonus RP"
+        ],
+        "rows": [
+          [
+            "HDFC Infinia / Infinia Metal",
+            "15,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month (5X)"
+          ],
+          [
+            "HDFC Diners Club Black Metal",
+            "10,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹45,000 / month (3X)"
+          ],
+          [
+            "HDFC BizBlack Metal",
+            "7,500–15,000 RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month"
+          ],
+          [
+            "HDFC Regalia Gold",
+            "4,000 RP (capped)",
+            "Sub-cap applies",
+            "5X via Instant Voucher / Myntra / Nykaa"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -967,7 +1366,23 @@
       {
         "q": "What is the credit limit offered on Infinia Credit Card?",
         "a": "The credit limit on HDFC Infinia is different for each carholder. It is decided by the bank after considering various factors like credit score, repayment capacity, income and more while deciding your credit limit. You will get to know your credit limit via the welcome kit offered after card issuance."
+      },
+      {
+        "question": "Is HDFC Bank Infinia worth it in 2026?",
+        "answer": "Yes, HDFC Bank Infinia is still one of the best premium credit cards in India for high spenders and frequent travelers because of its strong rewards, SmartBuy benefits, lounge access, and transfer partners."
+      },
+      {
+        "question": "What is the reward rate of HDFC Infinia?",
+        "answer": "HDFC Infinia offers 5 Reward Points for every ₹150 spent, giving an effective reward rate of around 3.3% when redeemed for flights and hotels through SmartBuy."
       }
+    ],
+    "program_updates_2026": [
+      "1 April 2026: High-value retention check introduced — ₹18 Lakhs annual spend OR ₹50 Lakh TRV expectation for renewal continuity.",
+      "1 July 2026 SmartBuy Update: GyFTR & Woohoo brand vouchers carry a separate 3,000 Bonus RP/month sub-cap (~₹30k spend on Infinia, ~₹45k on DCB Metal).",
+      "The HDFC Bank Infinia and Diners Club Black are still among the most rewarding premium credit cards in India. While both cards have seen a few devaluations over the years, the overall value is still excellent for frequent travelers and high spenders.",
+      "Even after the recent devaluations, SmartBuy vouchers and hotel bookings continue to be the best way to maximize value from the Infinia Credit Card.",
+      "Cons Very difficult approval and upgrade criteria Several SmartBuy and transfer partner devaluations Best value mostly limited to SmartBuy ecosystem Low cashback redemption value Higher retention and spend expectations now Monthly caps on accelerated rewards",
+      "Several SmartBuy and transfer partner devaluations"
     ]
   },
   "ratings": {
@@ -991,11 +1406,17 @@
       "Unlimited domestic and international lounge access for primary and add-on users",
       "Unlimited complimentary golf games at select golf courses of India and abroad",
       "Stay and dining benefits at participating ITC hotels",
-      "Flat 15% discount on dining via Swiggy Dineout"
+      "Flat 15% discount on dining via Swiggy Dineout",
+      "Strong 3.3% base reward rate on regular spends",
+      "Excellent SmartBuy rewards on flights, hotels, and vouchers"
     ],
     "cons": [
       "Forex mark-up fee could have been lower as several premium and mid-range cards charge lower fee",
-      "Complimentary Club Marriott membership is limited to the first year"
+      "Complimentary Club Marriott membership is limited to the first year",
+      "Very difficult approval and upgrade criteria",
+      "Several SmartBuy and transfer partner devaluations",
+      "Best value mostly limited to SmartBuy ecosystem",
+      "Low cashback redemption value"
     ],
     "best_for_whom": "High-spending HNIs (Rs. 10L+/year) buying flights, hotels, and brand vouchers via SmartBuy with unlimited family lounge access",
     "not_ideal_for": "Low spenders who cannot meet Rs. 10L renewal waiver or lack invite eligibility",

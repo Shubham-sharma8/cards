@@ -1,14 +1,13 @@
 {
   "bank": "Utkarsh Small Finance Bank",
   "bank_slug": "utkarsh-small-finance-bank",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 5,
   "ltf_count": 2,
   "rupay_upi_count": 1,
   "domestic_lounge_count": 1,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 0,
   "with_image_count": 5,
   "official_lounge_programs": [],
@@ -18,70 +17,50 @@
       "card_name": "Utkarsh SuperCard RuPay Credit Card",
       "card_slug": "utkarsh-supercard-rupay-credit-card",
       "primary_category": "RuPay & UPI",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 4.1,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/utkarsh-small-finance-bank/utkarsh-supercard-rupay-credit-card.webp",
-      "json_file": "utkarsh-supercard-rupay-credit-card.json",
-      "md_file": "utkarsh-supercard-rupay-credit-card.md"
+      "json_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-supercard-rupay-credit-card.json",
+      "md_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-supercard-rupay-credit-card.md"
     },
     {
       "card_id": "utkarsh_bank_utkarsh_wish_credit_card",
       "card_name": "Utkarsh Wish Credit Card",
       "card_slug": "utkarsh-wish-credit-card",
       "primary_category": "Lifetime Free",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.46,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/utkarsh-small-finance-bank/utkarsh-wish-credit-card.webp",
-      "json_file": "utkarsh-wish-credit-card.json",
-      "md_file": "utkarsh-wish-credit-card.md"
+      "json_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-wish-credit-card.json",
+      "md_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-wish-credit-card.md"
     },
     {
       "card_id": "utkarsh_bank_utkarsh_smartgen_credit_card",
       "card_name": "Utkarsh SmartGen Credit Card",
       "card_slug": "utkarsh-smartgen-credit-card",
       "primary_category": "Cashback",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 199,
       "overall_rating": 3.38,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/utkarsh-small-finance-bank/utkarsh-smartgen-credit-card.webp",
-      "json_file": "utkarsh-smartgen-credit-card.json",
-      "md_file": "utkarsh-smartgen-credit-card.md"
+      "json_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-smartgen-credit-card.json",
+      "md_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-smartgen-credit-card.md"
     },
     {
       "card_id": "utkarsh_bank_utkarsh_eternal_credit_card",
       "card_name": "Utkarsh Eternal Credit Card",
       "card_slug": "utkarsh-eternal-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 1999,
       "overall_rating": 3.33,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/utkarsh-small-finance-bank/utkarsh-eternal-credit-card.webp",
-      "json_file": "utkarsh-eternal-credit-card.json",
-      "md_file": "utkarsh-eternal-credit-card.md"
+      "json_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-eternal-credit-card.json",
+      "md_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-eternal-credit-card.md"
     },
     {
       "card_id": "utkarsh_bank_utkarsh_rhodium_credit_card",
       "card_name": "Utkarsh Rhodium Credit Card",
       "card_slug": "utkarsh-rhodium-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 4999,
       "overall_rating": 3.18,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/utkarsh-small-finance-bank/utkarsh-rhodium-credit-card.webp",
-      "json_file": "utkarsh-rhodium-credit-card.json",
-      "md_file": "utkarsh-rhodium-credit-card.md"
+      "json_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-rhodium-credit-card.json",
+      "md_path": "data/cards_by_bank/utkarsh-small-finance-bank/utkarsh-rhodium-credit-card.md"
     }
   ]
 }

@@ -219,6 +219,14 @@ export interface LatestOffersPayload {
   offers: LatestOffer[];
 }
 
+export interface StructuredBenefitTable {
+  id: string;
+  kind: string;
+  title: string;
+  headers: string[];
+  rows: string[][];
+}
+
 export interface CardDossier {
   identity: {
     card_id: string;
@@ -263,6 +271,7 @@ export interface CardDossier {
     monthly_capping_rules: string[];
     excluded_categories: string[];
     transfer_partners: Array<string | { partner?: string; ratio?: string; notes?: string }>;
+    structured_tables?: StructuredBenefitTable[];
     fee_waiver_and_milestone_calculator: {
       joining_fee_inr: number;
       annual_fee_inr: number;
@@ -339,6 +348,7 @@ export interface CardDossier {
     insurance_cover: string[];
     concierge_or_privilege: string[];
     get_this_card_if: string[];
+    program_updates_2026?: string[];
     faqs: Array<{ question?: string; q?: string; answer?: string; a?: string }>;
   };
   ratings: {

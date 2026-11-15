@@ -118,7 +118,43 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Marriott Bonvoy",
+        "ratio": "1:1 (100 MR = 100 Pts)",
+        "notes": "Best hotel sweet spot"
+      },
+      {
+        "partner": "Hilton Honors",
+        "ratio": "1:1.5 (1,000 MR = 1,500 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Virgin Atlantic Flying Club",
+        "ratio": "5:4 (800 MR = 640 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Singapore KrisFlyer",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Asia Miles (Cathay)",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Qatar Privilege Club",
+        "ratio": "2:1 (500 MR = 250 Avios)",
+        "notes": "Avios transferable to BA"
+      },
+      {
+        "partner": "British Airways Executive Club",
+        "ratio": "2:1 (1,200 MR = 600 Avios)",
+        "notes": "Emirates suspended / Etihad removed Jul 2026"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 495,
       "annual_fee_inr": 495,
@@ -128,7 +164,65 @@
       "milestone_slabs": [
         "You can spend Rs. 40,000 annually to avail annual fee waiver"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "amex-india-transfer-partners-2026",
+        "kind": "transfer_partners",
+        "title": "Amex Membership Rewards Transfer Partners (Nov 2026)",
+        "note": "Emirates Skywards suspended May 2025 · Club Vistara merged into Air India · Etihad Guest removed 1 July 2026 · Hilton (1:1.5) and Virgin Atlantic (5:4) improved Aug 2026.",
+        "headers": [
+          "Partner",
+          "Type",
+          "Conversion Rate",
+          "Ratio"
+        ],
+        "rows": [
+          [
+            "Marriott Bonvoy",
+            "Hotel",
+            "100 MR = 100 Marriott Bonvoy Points",
+            "1:1"
+          ],
+          [
+            "Hilton Honors",
+            "Hotel",
+            "1,000 MR = 1,500 Hilton Honors Points",
+            "1:1.5 (Boosted Aug 2026)"
+          ],
+          [
+            "Virgin Atlantic Flying Club",
+            "Airline",
+            "800 MR = 640 Virgin Points",
+            "5:4 (Boosted Aug 2026)"
+          ],
+          [
+            "Singapore KrisFlyer",
+            "Airline",
+            "800 MR = 400 KrisFlyer Miles",
+            "2:1"
+          ],
+          [
+            "Asia Miles (Cathay)",
+            "Airline",
+            "800 MR = 400 Asia Miles",
+            "2:1"
+          ],
+          [
+            "Qatar Privilege Club",
+            "Airline",
+            "500 MR = 250 Avios",
+            "2:1"
+          ],
+          [
+            "British Airways Executive Club",
+            "Airline",
+            "1,200 MR = 600 Avios",
+            "2:1"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -214,6 +308,11 @@
         "q": "What is the interest-free period offered on American Express SmartEarn™ Credit Card?",
         "a": "+- You can get an interest-free period of up to 48 days. However, the payment due date will vary from 18 to 23 days from the statement generation date, depending on the previous month’s payment behavior."
       }
+    ],
+    "program_updates_2026": [
+      "New Applications Paused: American Express has temporarily paused new card applications in India (existing cardholders unaffected).",
+      "From 15 November 2026: Amex counts monthly milestone transactions by posting date (not transaction date) and keeps MR pools separate per card.",
+      "Transfer Partners Updated (Aug–Nov 2026): Hilton Honors improved to 1:1.5 (1,000:1,500), Virgin Atlantic improved to 5:4 (800:640), Etihad Guest removed 1 July 2026, Emirates Skywards suspended."
     ]
   },
   "ratings": {

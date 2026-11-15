@@ -144,7 +144,38 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Accor Live Limitless (ALL)",
+        "ratio": "Group A · Returned Sept 2026",
+        "notes": "1:2 Accor/Cathay · 1:4 Air India, Flying Blue, Qantas, Hilton & Miles & More"
+      },
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "1,50,000 EDGE Miles/yr Group A · 6,00,000 Group B"
+      },
+      {
+        "partner": "Flying Blue (Air France/KLM)",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "1,50,000 EDGE Miles/yr Group A · 6,00,000 Group B"
+      },
+      {
+        "partner": "Qantas Frequent Flyer",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "1,50,000 EDGE Miles/yr Group A · 6,00,000 Group B"
+      },
+      {
+        "partner": "Cathay Asia Miles",
+        "ratio": "Group A · Added Sept 2026",
+        "notes": "Caps share Group A pool"
+      },
+      {
+        "partner": "Hilton Honors & Miles & More",
+        "ratio": "Group B · Added Sept 2026",
+        "notes": "1,50,000 EDGE Miles/yr Group A · 6,00,000 Group B"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 20000,
       "annual_fee_inr": 20000,
@@ -155,7 +186,62 @@
         "Taj/ITC Hotel vouchers worth Rs. 10,000",
         "Against product catalog for the purchase of product and gift vouchers"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "axis-transfer-groups-sept-2026",
+        "kind": "transfer_partners",
+        "title": "Axis Bank Transfer Partner Groups (Updated Sept 2026)",
+        "note": "Accor ALL & Cathay returned to Group A; Air India Maharaja Club, Flying Blue & Qantas moved to Group A; Hilton Honors & Miles & More added to Group B; ITC Hotels removed.",
+        "headers": [
+          "Partner",
+          "Tier",
+          "Update (Sept 2026)"
+        ],
+        "rows": [
+          [
+            "Accor Live Limitless (ALL)",
+            "Group A",
+            "Returned in Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Cathay Asia Miles",
+            "Group A",
+            "Added Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Air India Maharaja Club",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Flying Blue (Air France / KLM)",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Qantas Frequent Flyer",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Hilton Honors",
+            "Group B",
+            "Added to Group B (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Miles & More (Lufthansa)",
+            "Group B",
+            "Added to Group B (Atlas 1:1 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "ITC Hotels",
+            "Removed",
+            "Discontinued as Axis transfer partner"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -844,7 +930,10 @@
     "insurance_cover": [],
     "concierge_or_privilege": [],
     "get_this_card_if": [],
-    "faqs": []
+    "faqs": [],
+    "program_updates_2026": [
+      "September 2026 Transfer Update: Accor ALL & Cathay returned to Group A; Air India/Flying Blue/Qantas moved to Group A (1,50,000 EDGE Miles/yr Group A · 6,00,000 Group B)."
+    ]
   },
   "ratings": {
     "overall_market_rating": 3.34,

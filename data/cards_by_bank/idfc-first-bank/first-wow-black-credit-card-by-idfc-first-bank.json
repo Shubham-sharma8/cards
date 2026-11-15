@@ -62,7 +62,9 @@
         "url": "https://specials.priceless.com/en-in/offers/Mastercard_India_Lounge_Program?Oid=201902180040&issuerId=&productId=",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -166,7 +168,202 @@
         "3 reward points per Rs. 150 spent on UPI spends above Rs. 2,000",
         "1 reward point per Rs. 150 spent on UPI spends below Rs. 2,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IDFC FIRST WOW! Black at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Secured Credit Card"
+          ],
+          [
+            "Joining & Annual Fee",
+            "₹750 + GST (Annual fee waived on ₹1.5 Lakh annual spend)"
+          ],
+          [
+            "Minimum FD Required",
+            "₹20,000"
+          ],
+          [
+            "Credit Limit",
+            "100% of Fixed Deposit value"
+          ],
+          [
+            "Forex Markup Fee",
+            "0%"
+          ],
+          [
+            "Reward Rate",
+            "4 Reward Points per ₹150 on eligible spends, up to 9.67% on hotels and 6.33% on flights"
+          ],
+          [
+            "FD Interest Rate",
+            "Up to 6.5% p.a."
+          ],
+          [
+            "Best Suited For",
+            "Frequent travellers looking for a secured card with zero forex and travel benefits"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees & Charges",
+        "headers": [
+          "Fees & Charges",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹750 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹750 + GST (Waived on spending ₹1.5 Lakh annually)"
+          ],
+          [
+            "Welcome Benefit",
+            "Worth ₹5,000+ (Includes ₹500 off on FIRST Rewards travel, MakeMyTrip discounts up to ₹1600, 3 month EazyDiner Prime membership, Lenskart Gold membership, and 5% cashback up to ₹1,000 on the first EMI transaction)"
+          ],
+          [
+            "Issued On",
+            "Dual Card (Physical Primary Card + Complimentary Virtual RuPay Card for UPI)"
+          ],
+          [
+            "Credit Limit",
+            "100% of FD amount"
+          ],
+          [
+            "Forex Mark-Up Fee",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "IDFC FIRST WOW! Black Credit Card Review: Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Hotels (via FIRST Rewards Gallery)",
+            "29 RP per ₹150",
+            "9.67%*"
+          ],
+          [
+            "Flights (via FIRST Rewards Gallery)",
+            "19 RP per ₹150",
+            "6.33%*"
+          ],
+          [
+            "Retail Spends (Online, Offline & International)",
+            "4 RP per ₹150",
+            "0.67%"
+          ],
+          [
+            "UPI Spends (> ₹2000)",
+            "3 RP per ₹150",
+            "0.50%"
+          ],
+          [
+            "UPI Spends (Up to ₹2000)",
+            "1 RP per ₹150",
+            "0.17%"
+          ],
+          [
+            "Insurance, Utility Bills, FASTag & Railway",
+            "1 RP per ₹150",
+            "0.17%"
+          ],
+          [
+            "Fuel, EMI, Cash Withdrawals & Fees",
+            "No Reward Points",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Complimentary Airport Lounge Access",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Lounge Type",
+            "Domestic Airport Lounges"
+          ],
+          [
+            "Access Limit",
+            "4 visits per year (1 per calendar quarter)"
+          ],
+          [
+            "Spend Requirement",
+            "₹20,000 in the current month to unlock access for the next month"
+          ],
+          [
+            "International Lounges",
+            "Not included"
+          ],
+          [
+            "Railway Lounges",
+            "Not included"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "IDFC First WOW vs WOW Black Credit Card",
+        "headers": [
+          "Feature",
+          "FIRST WOW (Standard)",
+          "FIRST WOW Black"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹0",
+            "₹750 + GST"
+          ],
+          [
+            "Welcome Benefits",
+            "Nil",
+            "Worth ₹5000+"
+          ],
+          [
+            "Lounge Access",
+            "None",
+            "1 per quarter (on ₹20k spend)"
+          ],
+          [
+            "Travel Rewards",
+            "Standard 4X",
+            "Up to 9.67% on Hotels / 6.33% on Flights"
+          ],
+          [
+            "UPI Virtual Card",
+            "₹199 + GST",
+            "Included"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -874,7 +1071,30 @@
       {
         "q": "How can I apply for IDFC FIRST WOW! Black Credit Card?",
         "a": "The application can be completed online through the IDFC FIRST Bank website by opening an FD account, or you can also visit the nearest branch."
+      },
+      {
+        "question": "What is the minimum fixed deposit required for the IDFC FIRST WOW! Black Credit Card?",
+        "answer": "You need to open a fixed deposit of at least ₹20,000. The card offers a credit limit of up to 100% of the fixed deposit amount."
+      },
+      {
+        "question": "Does the IDFC FIRST WOW! Black Credit Card charge a forex markup fee?",
+        "answer": "No. The card offers 0% forex markup on all international transactions."
+      },
+      {
+        "question": "How much reward can I earn on hotel and flight bookings?",
+        "answer": "You can earn an effective reward rate of up to 9.67% on hotel bookings and 6.33% on flight bookings made through the FIRST Rewards Gallery."
+      },
+      {
+        "question": "Does the IDFC FIRST WOW! Black Credit Card offer airport lounge access?",
+        "answer": "Yes. The card offers four complimentary domestic airport lounge visits per year, limited to one visit per calendar quarter. You must spend ₹20,000 in the current month to unlock access for the following month."
+      },
+      {
+        "question": "What is the value of IDFC FIRST WOW! Black Reward Points?",
+        "answer": "Reward Points are worth ₹0.50 each for hotel and flight bookings through the FIRST Rewards Gallery and ₹0.25 each for all other redemption options."
       }
+    ],
+    "program_updates_2026": [
+      "*Note: The 9.67% (Hotels) and 6.33% (Flights) reward rates assume Reward Points are redeemed for hotel or flight bookings through the FIRST Rewards Gallery on the IDFC FIRST Bank Mobile App, where 1 Reward Point = ₹0.50. For all other redemption options, 1 Reward Point = ₹0.25, resulting in lower effective reward rates."
     ]
   },
   "ratings": {
@@ -897,12 +1117,18 @@
       "Zero forex Markup Fee",
       "Welcome benefits worth more than Rs. 5,000",
       "Up to Rs. 1,200 discount on movie tickets every year",
-      "Up to 3X reward points on UPI spends"
+      "Up to 3X reward points on UPI spends",
+      "Up to 9.67% value back on hotel bookings and 6.33% on flight bookings via FIRST Rewards Gallery.",
+      "0% forex markup makes it ideal for international spending."
     ],
     "cons": [
       "No international airport lounge access benefit",
       "Low base reward rate on utilities/insurance",
-      "Bonus reward points are offered only on bookings via IDFC FIRST app"
+      "Bonus reward points are offered only on bookings via IDFC FIRST app",
+      "Joining and annual fee of ₹750 + GST (annual fee waived on ₹1.5 lakh spends).",
+      "Airport lounge access requires ₹20,000 monthly spend.",
+      "Bonus Reward Points are capped at 8,000 per calendar month.",
+      "Reward Points can cover only up to 70% of hotel or flight booking value."
     ],
     "best_for_whom": "International travelers and foreign SaaS/e-commerce buyers avoiding 3.5%+GST markup",
     "not_ideal_for": "Domestic-only spenders seeking peak local e-commerce cashback",

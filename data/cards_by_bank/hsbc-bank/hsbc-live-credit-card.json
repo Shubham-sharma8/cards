@@ -5,7 +5,7 @@
     "bank": "HSBC Bank",
     "bank_slug": "hsbc-bank",
     "card_slug": "hsbc-live-credit-card",
-    "card_network": "Visa Platinum",
+    "card_network": "Visa Infinite",
     "card_tier": "Entry-to-Mid",
     "primary_category": "Dining, Groceries & Movies",
     "categories": [
@@ -69,7 +69,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -172,7 +174,193 @@
         "Voucher worth Rs. 750 for Amazon Pay, Zomato and Swiggy on activating the card and making a single transaction of Rs. 300 or more",
         "Amazon eGift voucher worth Rs. 250 on applying online, verifying by video and receiving of the card"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HSBC Live+ Credit Card – At a Glance",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Best For",
+            "Grocery, Dining, Food Delivery, Shopping & Utility Bills"
+          ],
+          [
+            "Joining Fee",
+            "₹999 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹999 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹2 Lakh annual spends"
+          ],
+          [
+            "Welcome Benefit",
+            "₹1000 cashback on ₹25,000 spends in the first 30 days + ₹750 voucher on your first transaction of ₹300 or more"
+          ],
+          [
+            "Accelerated Cashback",
+            "10% cashback on eligible Grocery, Dining, Food Delivery, Shopping & Utility Bill spends"
+          ],
+          [
+            "Base Cashback",
+            "1.5% cashback on other eligible domestic retail spends"
+          ],
+          [
+            "Cashback Cap",
+            "₹1200 a month on 10% cashback categories"
+          ],
+          [
+            "Cashback Credit",
+            "Auto-adjusted in the monthly card statement"
+          ],
+          [
+            "Domestic Lounge Access",
+            "2 complimentary airport lounge visits per calendar year"
+          ],
+          [
+            "International Lounge Access",
+            "1 complimentary lounge visit per calendar year"
+          ],
+          [
+            "Forex Markup",
+            "1.99%"
+          ],
+          [
+            "Fuel Benefit",
+            "No fuel surcharge waiver. ₹250 cashback on contactless fuel purchases when you spend ₹10,000 in a quarter"
+          ],
+          [
+            "Card Network",
+            "Visa Infinite"
+          ],
+          [
+            "Ideal For",
+            "Cardholders with high monthly spends on groceries, dining, food delivery, shopping and utility bills."
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "HSBC Live+ Credit Card Fees & Charges",
+        "headers": [
+          "Fee/Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹999 + GST"
+          ],
+          [
+            "Welcome Benefits",
+            "₹1,000 cashback on spending ₹25,000 within the first 30 days, when you use the HSBC India Mobile Banking app + ₹750 voucher for Amazon Pay, Zomato or Swiggy on your first transaction of ₹300 or more"
+          ],
+          [
+            "Annual Fee",
+            "₹999 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹2 lakh in a membership year"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "HSBC Live+ Credit Card Cashback Structure",
+        "headers": [
+          "Type of Spend",
+          "Cashback",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "Grocery, Dining, Food Delivery, Eligible Shopping & Utility Bill Payments",
+            "10%",
+            "₹1200 cashback a month"
+          ],
+          [
+            "Other Eligible Domestic Retail Spends",
+            "1.5%",
+            "No cap"
+          ],
+          [
+            "International Spends",
+            "No cashback",
+            "–"
+          ],
+          [
+            "Excluded Categories",
+            "Fuel, Rent, Wallet Loads, EMI, Insurance, Education, Government Payments, Jewellery, Gift Cards, Tolls, Property Management, Financial Institutions, Wholesale Clubs, Hospitals (MCC 8062), Local Transportation (MCC 4111) and other ineligible transactions",
+            "–"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "HSBC Live+ Credit Card Airport Lounge Access",
+        "headers": [
+          "Lounge Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "2 complimentary visits per calendar year (maximum 1 visit every 6 months)"
+          ],
+          [
+            "International Airport Lounge Access",
+            "1 complimentary airport lounge visit per calendar year"
+          ],
+          [
+            "Spend Requirement",
+            "None specified at the time of writing"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "Other Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Movie Benefit",
+            "Buy-one-get-one cinema tickets on BookMyShow and the District app, plus 10% off live events on BookMyShow"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "Not Available"
+          ],
+          [
+            "Contactless Fuel Offer",
+            "₹250 cashback on contactless fuel purchases when you spend ₹10,000 in a quarter"
+          ],
+          [
+            "Forex Markup Fee",
+            "1.99%"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -189,7 +377,7 @@
       "spend_criteria": "See issuer T&C",
       "add_on_allowed": false,
       "guest_fee": "USD 27+GST (typical Priority Pass)",
-      "summary": "It also offers 1 complimentary international airport lounge visit every year."
+      "summary": "1 complimentary international airport lounge visit per calendar year (+ 2 domestic/yr)"
     },
     "railway": {
       "visits_per_year": 0,
@@ -830,7 +1018,7 @@
     "apr_monthly_pct": 3.75,
     "apr_annual_pct": 45.0,
     "cash_advance_fee": "2.5% or Rs. 500 whichever is higher",
-    "fuel_surcharge_waiver": "1% waiver at eligible fuel pumps",
+    "fuel_surcharge_waiver": "No fuel surcharge waiver; ₹250 cashback on contactless fuel spend when spending ₹10,000/quarter",
     "redemption_fee": "Check issuer T&C",
     "add_on_card_fee": "Nil / Per issuer T&C",
     "late_payment_slabs": [
@@ -895,7 +1083,33 @@
       {
         "q": "Is HSBC Live+ Credit Card suitable for international travel?",
         "a": "It can be a suitable option for international travellers as it offers a 1.99% forex markup fee, 1 complimentary international airport lounge visit annually and a complimentary 1GB Global eSIM with discounted top-ups."
+      },
+      {
+        "question": "Is the HSBC Live+ Credit Card worth it?",
+        "answer": "The HSBC Live+ Credit Card is a good choice if you spend regularly on groceries, dining, food delivery, shopping and utility bills. These categories earn 10% cashback, making it one of the best cashback credit cards for everyday spending."
+      },
+      {
+        "question": "What is the cashback limit on the HSBC Live+ Credit Card?",
+        "answer": "The card offers 10% cashback on eligible grocery, dining, food delivery, shopping and utility bill spends, capped at ₹1,200 cashback a month. Other eligible domestic retail spends earn unlimited 1.5% cashback."
+      },
+      {
+        "question": "Does the HSBC Live+ Credit Card offer 10% cashback on Amazon and Flipkart?",
+        "answer": "Regular shopping purchases on Amazon, Flipkart and Myntra are not eligible for 10% cashback. However, eligible grocery transactions, such as Amazon Fresh or grocery orders classified under the Grocery merchant category, can still earn 10% cashback depending on the merchant category code (MCC)."
+      },
+      {
+        "question": "Does the HSBC Live+ Credit Card earn cashback on international transactions?",
+        "answer": "No. From 26 July 2026, international transactions no longer earn cashback. However, the forex markup has been reduced to 1.99%, making the card more cost-effective for overseas spending."
+      },
+      {
+        "question": "What is the annual fee for the HSBC Live+ Credit Card?",
+        "answer": "The HSBC Live+ Credit Card has a joining fee and annual fee of ₹999 + GST. The annual fee is waived if you spend ₹2 lakh or more in a membership year."
       }
+    ],
+    "program_updates_2026": [
+      "2026 Updates: Forex reduced to 1.99%, includes 1 complimentary international + 2 domestic lounges/yr, ₹1,200/mo 10% cap covers Amazon Fresh & Flipkart Minutes Grocery MCCs.",
+      "While the HSBC Live+ Credit Card is primarily a cashback card, it also offers complimentary airport lounge access. Following the July 2026 revision, the lounge benefit has been scaled back, making it more suitable for occasional travellers than frequent flyers.",
+      "The HSBC Live+ Credit Card has changed considerably over the years, but its core proposition remains the same – it rewards the expenses that most households incur every month. The July 2026 changes have reduced its appeal for frequent travellers by cutting lounge access and removing cashback on international spends, but they haven’t taken away what makes the card valuable.",
+      "No. From 26 July 2026, international transactions no longer earn cashback. However, the forex markup has been reduced to 1.99%, making the card more cost-effective for overseas spending."
     ]
   },
   "ratings": {
@@ -919,12 +1133,18 @@
       "Low forex markup fee of 1.99%",
       "Complimentary domestic and international airport lounge visits",
       "Multiple welcome benefits worth more than Rs. 3,000",
-      "Additional travel and lifestyle privileges through Visa Infinite"
+      "Additional travel and lifestyle privileges through Visa Infinite",
+      "10% cashback on eligible grocery, dining, food delivery, shopping and utility bill spends.",
+      "Unlimited 1.5% cashback on other eligible domestic retail spends."
     ],
     "cons": [
       "10% cashback is capped at Rs. 1,200 per month",
       "Low frequency of complimentary international lounge visits",
-      "Limited value to consumers who do not spend significantly on the accelerated cashback categories"
+      "Limited value to consumers who do not spend significantly on the accelerated cashback categories",
+      "Available only in select cities served by HSBC.",
+      "10% cashback is capped at ₹1200 a month.",
+      "Shopping cashback does not apply to Amazon, Flipkart and Myntra purchases.",
+      "No cashback on international transactions despite the lower forex markup."
     ],
     "best_for_whom": "Households spending up to Rs. 12,000/mo on dining, groceries (incl. offline D-Mart/supermarkets), Zomato, Swiggy, Blinkit, utility bills & eligible shopping plus everyday 1.5% base spends",
     "not_ideal_for": "Users living in non-HSBC serviceable pincodes, heavy Amazon/Flipkart shoppers wanting >1.5%, or frequent lounge flyers",
@@ -944,7 +1164,10 @@
     "optimization_tips": [
       "Zepto → Amazon Pay Insurance Hack: Buy Amazon Pay Gift Cards on Zepto using HSBC Live+ (codes as Grocery MCC = 10% cashback up to ₹1,200/month on ₹12k spend), add to your Amazon Pay balance, then pay LIC/term/health insurance via Amazon Pay or Policybazaar (choose Amazon Pay wallet) at an effective 10% return.",
       "Track the shared ₹1,200/month cap: Dining, Swiggy/Zomato food delivery, Blinkit/Zepto/Instamart groceries, DMart, and eligible shopping share one ₹12,000/month 10% pool — excess spends earn 1.5% uncapped.",
-      "Never use directly on Amazon.in, Flipkart, or Myntra for 10% (those drop to 1.5% base); save direct marketplace checkouts for SBI Cashback or Amazon Pay ICICI."
+      "Never use directly on Amazon.in, Flipkart, or Myntra for 10% (those drop to 1.5% base); save direct marketplace checkouts for SBI Cashback or Amazon Pay ICICI.",
+      "Use it for grocery shopping at supermarkets such as DMart and Reliance Fresh, as well as eligible online grocery platforms like Blinkit, Amazon Fresh and Flipkart Minutes.",
+      "Pay for food delivery on Swiggy and Zomato to earn 10% cashback.",
+      "Use it when dining at restaurants and cafés."
     ]
   },
   "devaluation_analysis": {

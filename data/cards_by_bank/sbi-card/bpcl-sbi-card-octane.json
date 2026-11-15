@@ -58,7 +58,9 @@
         "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
         "source_type": "official_network_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -141,7 +143,144 @@
         "Welcome Benefit: 6,000 bonus reward points worth Rs. 1,500 on the payment of joining fee.",
         "Milestone Benefit: E-gift voucher worth Rs. 2,000 from Aditya Birla Fashion/ Yatra/ Hush Puppies/ Bata on annual spends of Rs. 3 Lakh."
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "BPCL SBI Card OCTANE – At a Glance",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹1499 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "6000 Reward Points worth ₹1500"
+          ],
+          [
+            "Renewal Fee Waiver",
+            "Spend ₹2 lakh in the previous year"
+          ],
+          [
+            "BPCL Fuel Rewards",
+            "25 RP/₹100 = 6.25% value back"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% at eligible BPCL outlets"
+          ],
+          [
+            "Effective Fuel Benefit",
+            "Up to 7.25%"
+          ],
+          [
+            "Grocery, Dining, Departmental Stores & Movies",
+            "10 RP/₹100 = 2.5% value back"
+          ],
+          [
+            "Other Eligible Spends",
+            "1 RP/₹100 = 0.25% value back"
+          ],
+          [
+            "Fuel Reward Cap",
+            "2500 RP per statement cycle"
+          ],
+          [
+            "Maximum Fuel Spend at 6.25%",
+            "₹10,000 per statement cycle"
+          ],
+          [
+            "Milestone Benefit",
+            "₹2000 e-voucher on ₹3 lakh annual spends"
+          ],
+          [
+            "Domestic Lounge Access",
+            "4 visits per calendar year, max 1 per quarter"
+          ],
+          [
+            "Reward Point Value",
+            "1 RP = ₹0.25 for BPCL fuel redemption"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "BPCL SBI Credit Card OCTANE Fees & Charges",
+        "headers": [
+          "Particular",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1499 + GST (~₹1769)"
+          ],
+          [
+            "Welcome Benefit",
+            "6000 Reward Points (~₹1500 value)"
+          ],
+          [
+            "Annual Fee",
+            "₹1499 + GST (~₹1769)"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On spending ₹2 lakh in a year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "BPCL SBI Credit Card OCTANE Rewards Structure",
+        "headers": [
+          "Spend Category",
+          "Rewards",
+          "Value Back"
+        ],
+        "rows": [
+          [
+            "BPCL Fuel & Lubricants",
+            "25 RP/₹100",
+            "6.25%"
+          ],
+          [
+            "Bharat Gas via website/app",
+            "25 RP/₹100",
+            "6.25%"
+          ],
+          [
+            "Dining, Grocery, Departmental Stores & Movies",
+            "10 RP/₹100",
+            "2.5%"
+          ],
+          [
+            "Other Eligible Retail Spends",
+            "1 RP/₹100",
+            "0.25%"
+          ],
+          [
+            "Non-BPCL fuel, BPCL fuel paid through RuPay UPI, rent, wallet loading/recharges",
+            "NIL",
+            "0%"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -866,7 +1005,26 @@
       {
         "q": "Is there any capping on the fuel surcharge waiver on BPCL SBI Card Octane?",
         "a": "Yes, you can avail 1% fuel surcharge waiver on fuel spends of up to Rs. 4,000 per transaction. However, you can earn a maximum fuel surcharge waiver of Rs. 100 in a month."
+      },
+      {
+        "question": "How much reward do I get on BPCL fuel with the BPCL SBI Card OCTANE?",
+        "answer": "You get 25 Reward Points per ₹100 on eligible BPCL fuel spends. At ₹0.25 per point, this works out to 6.25% value back."
+      },
+      {
+        "question": "What is the monthly reward cap on BPCL fuel spends?",
+        "answer": "You can earn up to 2500 Reward Points per billing cycle on BPCL fuel. The cap is reached at ₹10000 of eligible fuel spends."
+      },
+      {
+        "question": "Does the BPCL SBI Card OCTANE offer a fuel surcharge waiver?",
+        "answer": "Yes. You get a 1% fuel surcharge waiver on eligible BPCL transactions of up to ₹4000 each. The waiver is capped at ₹100 per statement cycle."
+      },
+      {
+        "question": "What is the annual fee on the BPCL SBI Card OCTANE?",
+        "answer": "The annual fee is ₹1499 + GST. It is waived if you spend ₹2 lakh in the previous year."
       }
+    ],
+    "program_updates_2026": [
+      "SBI Card also allows redeeming points for statement credit, but from 1 April 2026 this can only be done in multiples of 4000 Reward Points and is capped at 60,000 points per month. A ₹99 + GST redemption fee applies to statement credit and certain other redemption requests, so there is little reason to use this route for OCTANE when fuel redemption is available."
     ]
   },
   "ratings": {
@@ -887,13 +1045,19 @@
       "25X reward points on fuel purchases at BPCL",
       "10X reward points across dining, movies, groceries and departmental stores",
       "Complimentary domestic lounge visits every year",
-      "6,000 bonus reward points worth the joining fee"
+      "6,000 bonus reward points worth the joining fee",
+      "6.25% value back on BPCL fuel spends, with a generous reward cap of ₹10,000 per billing cycle.",
+      "2.5% value back on groceries, dining, departmental stores and movies makes the card useful beyond fuel.",
+      "Annual fee waiver at ₹2 lakh spends is achievable for regular users."
     ],
     "cons": [
       "Fuel benefits are limited to BPCL outlets only",
       "Fuel surcharge waiver is capped at Rs. 100 per month",
       "Low reward rate on other retail spends",
-      "Low reward redemption value of 1 RP = Rs. 0.25"
+      "Low reward redemption value of 1 RP = Rs. 0.25",
+      "Makes sense mainly if you regularly refuel at BPCL. Non-BPCL fuel spends do not earn rewards.",
+      "₹1499 + GST annual fee is on the higher side if your monthly fuel spends are low.",
+      "Regular spends earn just 0.25% value back, so OCTANE is not a good card for general spending."
     ],
     "best_for_whom": "Car owners spending Rs. 4,000–Rs. 10,000/month at Bharat Petroleum (BPCL) bunks",
     "not_ideal_for": "Non-BPCL commuters or low fuel spenders (<Rs. 2,500/mo)",

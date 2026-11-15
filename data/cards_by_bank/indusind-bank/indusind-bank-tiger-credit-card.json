@@ -77,7 +77,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-06"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -172,7 +174,244 @@
         "4 reward points per Rs. 100 spent on annual spends between Rs. 2.5 Lakh and Rs. 5 Lakh",
         "6 reward points per Rs. 100 spent on annual spends above Rs. 5 Lakh"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "other_table-0",
+        "kind": "other_table",
+        "title": "Key Highlights",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Annual Fee",
+            "Lifetime Free"
+          ],
+          [
+            "Rewards",
+            "Up to 6X Points"
+          ],
+          [
+            "Forex Markup",
+            "1.5%"
+          ],
+          [
+            "Lounge Access",
+            "Domestic + International"
+          ],
+          [
+            "Movie Benefit",
+            "BOGO up to ₹500"
+          ],
+          [
+            "Network",
+            "Visa Signature"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "IndusInd Tiger Credit Card Fees and Charges: Lifetime Free Card",
+        "headers": [
+          "Fee Type",
+          "Charges"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹0"
+          ],
+          [
+            "Annual Fee",
+            "₹0"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Not Applicable"
+          ],
+          [
+            "Forex Markup",
+            "1.5% + GST"
+          ],
+          [
+            "Reward Redemption Fee",
+            "Nil"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "As Applicable"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Reward Structure",
+        "headers": [
+          "Annual Spend",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Up to ₹1 Lakh",
+            "1 Point per ₹100"
+          ],
+          [
+            "₹1L to ₹2.5L",
+            "2 Points per ₹100"
+          ],
+          [
+            "₹2.5L to ₹5L",
+            "4 Points per ₹100"
+          ],
+          [
+            "Above ₹5L",
+            "6 Points per ₹100"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "Example: ₹6 Lakh Annual Spend",
+        "headers": [
+          "Spend Milestone",
+          "Points Earned"
+        ],
+        "rows": [
+          [
+            "First ₹1,00,000",
+            "1,000 Points"
+          ],
+          [
+            "Next ₹1,50,000",
+            "3,000 Points"
+          ],
+          [
+            "Next ₹2,50,000",
+            "10,000 Points"
+          ],
+          [
+            "Next ₹1,00,000",
+            "6,000 Points"
+          ],
+          [
+            "Total",
+            "20,000 Points"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "Rewards Redemption",
+        "headers": [
+          "Redemption Option",
+          "Value of 1 Reward Point"
+        ],
+        "rows": [
+          [
+            "Cash Credit",
+            "₹0.40"
+          ],
+          [
+            "Brand Vouchers",
+            "₹0.40"
+          ],
+          [
+            "Air India Maharaja Club",
+            "1 Maharaja Point"
+          ],
+          [
+            "Other Airline Partners (KrisFlyer)",
+            "0.25 Air Miles"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-5",
+        "kind": "other_table",
+        "title": "BookMyShow Movie Offer",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Offer Type",
+            "Buy One Get One Free"
+          ],
+          [
+            "Maximum Discount",
+            "Up to ₹500"
+          ],
+          [
+            "Frequency",
+            "Twice per year"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-6",
+        "kind": "lounge_access",
+        "title": "Airport Lounge Access",
+        "headers": [
+          "Lounge Type",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "8 visits per year"
+          ],
+          [
+            "International Airport Lounges",
+            "2 visits per year"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-7",
+        "kind": "other_table",
+        "title": "Complimentary Golf Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Complimentary Golf Game",
+            "1 per quarter"
+          ],
+          [
+            "Golf Lesson",
+            "1 per quarter"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-8",
+        "kind": "fees_and_charges",
+        "title": "Fuel Surcharge Waiver",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1%"
+          ],
+          [
+            "Eligible Transaction Amount",
+            "₹400 to ₹4000"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -960,12 +1199,18 @@
       "Low forex markup fee of 1.5%",
       "Complimentary international & domestic lounge visits",
       "Free movie tickets every year",
-      "Uncapped 1% fuel surcharge waiver"
+      "Uncapped 1% fuel surcharge waiver",
+      "Lifetime Free credit card",
+      "Low 1.5% forex markup fee"
     ],
     "cons": [
       "Spend-based rewards program",
       "No reward points on utility bill & insurance payments",
-      "Low reward redemption value against cashback"
+      "Low reward redemption value against cashback",
+      "Accelerated rewards exclude rent, insurance and utility spends",
+      "Fuel transactions earn no reward points",
+      "Average rewards at lower spend levels",
+      "Limited airline transfer partners"
     ],
     "best_for_whom": "Anyone wanting a Lifetime Free card with 8 domestic + 2 international Priority Pass lounges AND 1.5% low forex with ZERO spend criteria",
     "not_ideal_for": "Users wanting 5% instant e-commerce cashback",

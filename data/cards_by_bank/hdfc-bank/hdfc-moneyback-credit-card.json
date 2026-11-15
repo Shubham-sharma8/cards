@@ -39,7 +39,9 @@
     "bank_url": "https://www.hdfc.bank.in/credit-cards",
     "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/mitc-in-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -133,7 +135,211 @@
         "Renewal fee will be waived on spending Rs. 50,000 in each anniversary year",
         "Gift voucher worth Rs. 500 on reaching quarterly spends of Rs. 50,000 or more"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HDFC Bank MoneyBack+ Credit Card Review: Fees, Rewards & Benefits",
+        "headers": [
+          "Card Type",
+          "Entry Level Cashback Credit Card"
+        ],
+        "rows": [
+          [
+            "Best For",
+            "Online Shopping"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Reward Rate",
+            "Up to 3.3%"
+          ],
+          [
+            "Lounge Access",
+            "No"
+          ],
+          [
+            "Recommended?",
+            "Good starter HDFC card"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "HDFC Bank MoneyBack+ Credit Card: Fees",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST or Lifetime Free (LTF)"
+          ],
+          [
+            "Welcome Benefit",
+            "500 CashPoints on payment of joining fee"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST or Lifetime Free (LTF)"
+          ],
+          [
+            "Renewal Benefit",
+            "500 CashPoints on payment of annual fee"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On spends of ₹50,000 in a membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "HDFC Bank MoneyBack+ Credit Card: Cashback",
+        "headers": [
+          "Category",
+          "Reward Rate",
+          "Approx. Return",
+          "Maximum CashPoints per Calendar Month"
+        ],
+        "rows": [
+          [
+            "Amazon, BigBasket, Flipkart, Reliance Smart SuperStore & Swiggy",
+            "20 CashPoints per ₹150",
+            "3.3%",
+            "2500 CashPoints"
+          ],
+          [
+            "Merchant EMI Transactions",
+            "10 CashPoints per ₹150",
+            "1.7%",
+            "2500 CashPoints"
+          ],
+          [
+            "Retail Spends",
+            "2 CashPoints per ₹150",
+            "0.3%",
+            "No Cap"
+          ],
+          [
+            "Grocery Spends",
+            "2 CashPoints per ₹150",
+            "0.3%",
+            "1000 CashPoints"
+          ],
+          [
+            "EasyEMI, Fuel, Wallets, Rent, Property Management, Packers & Movers, Government Transactions",
+            "No Rewards",
+            "0%",
+            "Not Applicable"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-3",
+        "kind": "accelerated_partners",
+        "title": "HDFC Bank MoneyBack+ Credit Card: SmartBuy Benefits",
+        "headers": [
+          "SmartBuy Partner Category",
+          "Cashback"
+        ],
+        "rows": [
+          [
+            "Flights",
+            "5% Cashback"
+          ],
+          [
+            "Hotels",
+            "5% Cashback"
+          ],
+          [
+            "Buses",
+            "5% Cashback"
+          ],
+          [
+            "Instant Vouchers",
+            "5% Cashback"
+          ],
+          [
+            "Apple Imagine Tresor",
+            "5% Cashback"
+          ],
+          [
+            "Myntra",
+            "5% Cashback"
+          ],
+          [
+            "Duty Free via Adani One",
+            "5% Cashback"
+          ],
+          [
+            "Jockey",
+            "10% Cashback"
+          ],
+          [
+            "PharmEasy",
+            "10% Cashback"
+          ],
+          [
+            "Drivado",
+            "10% Cashback"
+          ],
+          [
+            "ConfirmTkt & MMT Trains",
+            "1% Cashback"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "HDFC Bank MoneyBack+ Credit Card Rewards Redemption",
+        "headers": [
+          "Redemption Option",
+          "CashPoint Value"
+        ],
+        "rows": [
+          [
+            "Statement Cashback",
+            "Up to ₹0.20 per CashPoint"
+          ],
+          [
+            "SmartBuy Flights & Hotels",
+            "Up to ₹0.25 per CashPoint"
+          ],
+          [
+            "Product Catalogue & Vouchers",
+            "Varies by partner"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "HDFC Bank MoneyBack+ Credit Card: Airport Lounge Access",
+        "headers": [
+          "Lounge Type",
+          "Availability"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "Not Available"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Not Available"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -266,6 +472,18 @@
       {
         "q": "Do I get any UPI linked benefits on the card?",
         "a": "Yes, HDFC Moneyback+ offers credit card linked UPI benefits on the RuPay variant of the card with 2 reward points for every Rs. 200 spent."
+      },
+      {
+        "question": "Is the HDFC Bank MoneyBack+ Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹500 + GST and the annual fee is ₹500 + GST. The annual fee is waived when you spend ₹50,000 in a year."
+      },
+      {
+        "question": "What is the forex markup on the HDFC Bank MoneyBack+ Credit Card?",
+        "answer": "It's 3.5% plus GST on spends in a foreign currency. That's the usual rate, so it isn't the best card to use abroad."
+      },
+      {
+        "question": "How much can I earn with the HDFC Bank MoneyBack+ Credit Card?",
+        "answer": "You earn about 0.3% back as cashback on regular spends, and up to 3.3% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
     ]
   },
@@ -286,11 +504,19 @@
     "pros": [
       "10X points on popular platforms, like Amazon, Flipkart & Swiggy",
       "Low annual fee with easy spend-based waiver condition",
-      "Multiple options to redeem Cash Points"
+      "Multiple options to redeem Cash Points",
+      "Low ₹500 annual fee with easy waiver condition",
+      "Up to 3.3% rewards on Amazon, Flipkart, Swiggy & BigBasket",
+      "Quarterly milestone benefit adds extra value",
+      "Frequently issued as Lifetime Free (LTF)"
     ],
     "cons": [
       "Low conversion rate of 1 Cash Point = Rs. 0.25",
-      "No travel benefits"
+      "No travel benefits",
+      "No domestic or international airport lounge access",
+      "Very low 0.3% reward rate on regular spends",
+      "Monthly cashback caps are restrictive",
+      "3.5% forex markup fee is quite high"
     ],
     "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
     "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",

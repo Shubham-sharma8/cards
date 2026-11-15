@@ -70,7 +70,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-06"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -165,7 +167,201 @@
       "milestone_slabs": [
         "8 complimentary domestic lounge visits every year (Max. 2 per quarter, on spending Rs. 50,000 in the previous quarter)"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Tata Neu Infinity HDFC Bank Credit Card Review: Fees",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "NIL – First Year Free"
+          ],
+          [
+            "Welcome Benefit",
+            "1499 NeuCoins on the first eligible transaction (not applicable for First Year Free or Lifetime Free cards)"
+          ],
+          [
+            "Annual Fee",
+            "₹1499 + GST or LTF under promotional offer"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹3 lakh in a membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Tata Neu Infinity HDFC Bank Credit Card: Rewards Program (NeuCoins)",
+        "headers": [
+          "Purchase Category",
+          "Rewards (NeuCoins)"
+        ],
+        "rows": [
+          [
+            "Tata Neu app spends at Tata partner brands",
+            "5%"
+          ],
+          [
+            "Air India and Air India Express bookings via the Tata Neu app",
+            "5%"
+          ],
+          [
+            "Utility, telecom and cable bill payments via Tata Pay on the Tata Neu app",
+            "5%"
+          ],
+          [
+            "Other eligible retail spends",
+            "1.5%"
+          ],
+          [
+            "Eligible UPI spends using the Tata Neu RuPay Credit Card",
+            "1.5%"
+          ],
+          [
+            "Eligible UPI spends through other UPI apps",
+            "0.5%"
+          ],
+          [
+            "Wallet loads, fuel, rent, government transactions, online gaming and other excluded categories",
+            "No NeuCoins"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Tata Neu Infinity HDFC Bank Credit Card: Fair Usage Policy",
+        "headers": [
+          "Tata Partner Brand",
+          "Monthly Spend Eligible for 5% NeuCoins",
+          "Annual Spend Eligible for 5% NeuCoins"
+        ],
+        "rows": [
+          [
+            "Croma",
+            "₹6 lakh",
+            "₹18 lakh"
+          ],
+          [
+            "Tata CLiQ, Westside",
+            "₹3 lakh",
+            "₹18 lakh"
+          ],
+          [
+            "IHCL Hotels, Air India, Air India Express",
+            "₹8 lakh",
+            "₹30 lakh"
+          ],
+          [
+            "Tata 1mg, Cult, Tata Play",
+            "₹2 lakh",
+            "₹15 lakh"
+          ],
+          [
+            "Tata Pay (Utility, Telecom & Bill Payments)",
+            "₹1 lakh",
+            "₹6 lakh"
+          ],
+          [
+            "BigBasket",
+            "₹1 lakh",
+            "₹12 lakh"
+          ],
+          [
+            "Titan, Tanishq",
+            "₹6 lakh",
+            "₹18 lakh"
+          ],
+          [
+            "Food Delivery via Tata Neu",
+            "₹50,000",
+            "₹6 lakh"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-3",
+        "kind": "accelerated_partners",
+        "title": "HDFC Bank SmartBuy Benefits for Tata Neu Infinity Credit Card",
+        "headers": [
+          "SmartBuy Category",
+          "Additional NeuCoins"
+        ],
+        "rows": [
+          [
+            "IGP.com",
+            "6%"
+          ],
+          [
+            "Hotels (Cleartrip & MakeMyTrip)",
+            "6%"
+          ],
+          [
+            "Flights (Via, Cleartrip, EaseMyTrip & Goibibo)",
+            "1.5%"
+          ],
+          [
+            "IRCTC",
+            "1.5%"
+          ],
+          [
+            "RedBus",
+            "1.5%"
+          ],
+          [
+            "Instant Vouchers",
+            "1.5%"
+          ],
+          [
+            "Apple Imagine & Tresor",
+            "1.5%"
+          ],
+          [
+            "Flipkart",
+            "1.5%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Tata Neu Infinity HDFC Bank Credit Card Review: Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "2 visits per calendar quarter"
+          ],
+          [
+            "International Airport Lounge Access",
+            "1 visit per calendar quarter (Priority Pass)"
+          ],
+          [
+            "Spend Requirement for Domestic Lounge Access",
+            "₹50,000 in the previous calendar quarter"
+          ],
+          [
+            "Spend Requirement for International Lounge Access",
+            "None"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -915,6 +1111,10 @@
       {
         "q": "Is the Tata Neu Infinity HDFC Credit Card good?",
         "a": "Tata Neu Infinity HDFC Credit Card is a good option for individuals who frequently shop on Tata Neu or its partner brands like Westside, Croma, Air India, and more. Cardholders can earn up to 10% rewards on select Tata Neu purchases and redeem them across spends at Tata Neu and its partner brands."
+      },
+      {
+        "question": "Is the Tata Neu Infinity Credit Card worth it?",
+        "answer": "Yes, the Tata Neu Infinity Credit Card is worth considering if you regularly shop across Tata brands such as BigBasket, Croma, Tanishq, Westside, Air India and Tata 1mg. It offers 5% NeuCoins on eligible Tata Neu purchases, rewards on UPI spends, and a simple redemption value of 1 NeuCoin = ₹1."
       }
     ]
   },

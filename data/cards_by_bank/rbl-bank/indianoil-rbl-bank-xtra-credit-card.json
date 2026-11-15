@@ -37,7 +37,9 @@
     "bank_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
     "mitc_pdf_url": "https://webassets.rbl.bank.in/document/Credit%20Cards/RBL-MITC-final.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-01"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -126,7 +128,265 @@
         "Fee Waiver: Annual fee waived on spending Rs. 2.75 lakh or more in a year",
         "Fuel Surcharge Waiver: 1% fuel surcharge waiver of up to Rs. 200 per month on fuel transactions worth Rs. 500 to Rs. 4,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IndianOil RBL Bank XTRA Credit Card At A Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Best For",
+            "Frequent IndianOil fuel purchases"
+          ],
+          [
+            "Joining Fee",
+            "₹1500 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹1500 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On annual spends of ₹2.75 lakh"
+          ],
+          [
+            "Welcome Benefit",
+            "3000 Fuel Points worth ₹1500 on making a transaction of ₹500 within 30 days after payment of the joining fee"
+          ],
+          [
+            "Fuel Value Back",
+            "Up to 8.5% at IndianOil fuel stations"
+          ],
+          [
+            "Fuel Rewards",
+            "15 Fuel Points per ₹100 on eligible IndianOil fuel spends (max. 2000 Fuel Points/month)"
+          ],
+          [
+            "Other Spends",
+            "2 Fuel Points per ₹100 on eligible retail spends"
+          ],
+          [
+            "Fuel Point Value",
+            "1 Fuel Point = ₹0.50 when redeemed for XTRA Rewards at participating IndianOil outlets"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver up to ₹200 per month"
+          ],
+          [
+            "Quarterly Milestone",
+            "1000 Fuel Points on spends of ₹75,000 in a calendar quarter"
+          ],
+          [
+            "Card Network",
+            "RuPay / Mastercard"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "IndianOil RBL Bank XTRA Credit Card Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1500 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "3000 Fuel Points (worth ₹1,500) on making a retail transaction of ₹500 or more within 30 days after payment of the joining fee"
+          ],
+          [
+            "Annual Fee",
+            "₹1500 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Waived on annual eligible spends of ₹2.75 lakh"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "IndianOil RBL Bank XTRA Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "IndianOil Fuel Spends",
+            "15 Fuel Points per ₹100 (7.5% value back)"
+          ],
+          [
+            "Maximum Accelerated Rewards",
+            "2000 Fuel Points per month"
+          ],
+          [
+            "Other Eligible Retail Spends",
+            "2 Fuel Points per ₹100 (1% value back)"
+          ],
+          [
+            "Reward Point Value",
+            "1 Fuel Point = ₹0.50 when redeemed for XTRA Rewards at participating IndianOil outlets"
+          ],
+          [
+            "RuPay UPI Transactions below ₹2,000",
+            "No Fuel Points"
+          ],
+          [
+            "Excluded Categories",
+            "Utilities, Insurance, Railways, Real Estate/Rent, Education, Wallet Loads & Service Providers, Government Services, Contracted Services, Cash Withdrawals, Quasi-Cash, Bills2Pay, EMI Conversion of Retail Transactions, Fees, Charges & GST, and Miscellaneous Transactions"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-3",
+        "kind": "redemption_catalog",
+        "title": "How Much Can You Save with the IndianOil RBL Bank XTRA Credit Card?",
+        "headers": [
+          "Monthly Fuel Spend",
+          "Fuel Points Earned",
+          "Fuel Point Value",
+          "Fuel Surcharge Waiver",
+          "Total Monthly Savings"
+        ],
+        "rows": [
+          [
+            "₹5000",
+            "750",
+            "₹375",
+            "₹50",
+            "₹425"
+          ],
+          [
+            "₹10,000",
+            "1500",
+            "₹750",
+            "₹100",
+            "₹850"
+          ],
+          [
+            "₹13,300*",
+            "2000",
+            "₹1000",
+            "₹133",
+            "₹1133"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-4",
+        "kind": "milestone_benefits",
+        "title": "IndianOil RBL Bank XTRA Credit Card Milestone Benefit",
+        "headers": [
+          "Milestone",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "Quarterly Spend",
+            "₹75,000 (eligible retail spends in a calendar quarter)"
+          ],
+          [
+            "Milestone Reward",
+            "1000 Fuel Points (worth ₹500)"
+          ],
+          [
+            "Effective Additional Return",
+            "Approximately 0.67%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "IndianOil RBL Bank XTRA Credit Card Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Availability"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "Not Available"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Not Available"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-6",
+        "kind": "fees_and_charges",
+        "title": "IndianOil RBL Bank XTRA Credit Card Fuel Surcharge Waiver",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1% fuel surcharge waiver"
+          ],
+          [
+            "Maximum Waiver",
+            "Up to ₹200 per calendar month"
+          ],
+          [
+            "Eligible Transaction Amount",
+            "₹500 to ₹4000 per transaction"
+          ],
+          [
+            "Eligible Fuel Stations",
+            "IndianOil fuel stations"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-7",
+        "kind": "redemption_catalog",
+        "title": "IndianOil RBL Bank XTRA Credit Card Reward Redemption",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Reward Currency",
+            "Fuel Points"
+          ],
+          [
+            "Redemption Value",
+            "1 Fuel Point = ₹0.50"
+          ],
+          [
+            "Redemption Method",
+            "Convert Fuel Points to IndianOil XTRAREWARDS Points"
+          ],
+          [
+            "Redemption Location",
+            "Participating IndianOil fuel outlets with XTRAREWARDS-enabled POS terminals"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -220,6 +480,30 @@
       {
         "q": "Is NCMC service available on IndianOil RBL XTRA credit card?",
         "a": "NCMC functionality is only available with the Rupay variant of IndianOil RBL XTRA credit card."
+      },
+      {
+        "question": "Is the IndianOil RBL Bank XTRA Credit Card worth it?",
+        "answer": "The IndianOil RBL Bank XTRA Credit Card is worth considering if you regularly refuel at IndianOil fuel stations. It offers up to 8.5% value back on eligible fuel purchases, making it one of the most rewarding IndianOil co-branded credit cards."
+      },
+      {
+        "question": "What is the annual fee for the IndianOil RBL Bank XTRA Credit Card?",
+        "answer": "The card charges a joining and annual fee of ₹1500 + GST. The annual fee is waived on eligible annual spends of ₹2.75 lakh."
+      },
+      {
+        "question": "What are the fuel benefits of the IndianOil RBL Bank XTRA Credit Card?",
+        "answer": "The card offers up to 8.5% value back on eligible fuel purchases, comprising 15 Fuel Points per ₹100 spent (7.5% value back) and a 1% fuel surcharge waiver."
+      },
+      {
+        "question": "How many Fuel Points can I earn on the IndianOil RBL Bank XTRA Credit Card?",
+        "answer": "You earn 15 Fuel Points per ₹100 on eligible IndianOil fuel purchases, subject to a maximum of 2,000 Fuel Points per month. Other eligible retail spends earn 2 Fuel Points per ₹100."
+      },
+      {
+        "question": "How do I redeem IndianOil RBL Bank XTRA Credit Card Fuel Points?",
+        "answer": "Fuel Points can be converted into IndianOil XTRAREWARDS Points and redeemed for fuel at participating IndianOil fuel stations with XTRAREWARDS-enabled POS terminals."
+      },
+      {
+        "question": "Does the IndianOil RBL Bank XTRA Credit Card offer airport lounge access?",
+        "answer": "No. The card does not include complimentary domestic or international airport lounge access."
       }
     ]
   },
@@ -241,12 +525,19 @@
       "Up to 8.5% savings on IOCL fuel",
       "Decent rewards redemption ratio of 2:1",
       "Up to 4,000 Fuel Points as milestone bonus",
-      "Easily achievable annual fee waiver condition"
+      "Easily achievable annual fee waiver condition",
+      "Up to 8.5% value back on IndianOil fuel purchases.",
+      "Earn 15 Fuel Points per ₹100 on eligible IndianOil fuel spends.",
+      "Welcome benefit worth ₹1500."
     ],
     "cons": [
       "No accelerated rewards on categories beyond IndianOil fuel",
       "No complimentary lounge benefits",
-      "No benefits on other lifestyle-related spends"
+      "No benefits on other lifestyle-related spends",
+      "No domestic or international airport lounge access.",
+      "Reward redemption is limited to the IndianOil XTRAREWARDS program.",
+      "No rewards on utilities, insurance, rent, education, government payments, and other excluded categories.",
+      "No cashback or statement credit redemption option."
     ],
     "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
     "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",

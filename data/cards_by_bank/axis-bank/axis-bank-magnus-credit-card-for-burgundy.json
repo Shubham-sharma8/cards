@@ -76,7 +76,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -156,7 +158,38 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Accor Live Limitless (ALL)",
+        "ratio": "Group A · Returned Sept 2026",
+        "notes": "5:2 Accor/Cathay · 5:4 Air India, Flying Blue, Qantas, Hilton & Miles & More"
+      },
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "2,00,000 RP/yr Group A · 8,00,000 RP/yr Group B"
+      },
+      {
+        "partner": "Flying Blue (Air France/KLM)",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "2,00,000 RP/yr Group A · 8,00,000 RP/yr Group B"
+      },
+      {
+        "partner": "Qantas Frequent Flyer",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "2,00,000 RP/yr Group A · 8,00,000 RP/yr Group B"
+      },
+      {
+        "partner": "Cathay Asia Miles",
+        "ratio": "Group A · Added Sept 2026",
+        "notes": "Caps share Group A pool"
+      },
+      {
+        "partner": "Hilton Honors & Miles & More",
+        "ratio": "Group B · Added Sept 2026",
+        "notes": "2,00,000 RP/yr Group A · 8,00,000 RP/yr Group B"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 30000,
       "annual_fee_inr": 30000,
@@ -169,7 +202,282 @@
         "60 EDGE reward points per Rs. 200 spent on Travel EDGE portal up to cumulative monthly spends of Rs. 2 Lakh",
         "35 EDGE reward points per Rs. 200 spent on Travel EDGE portal above monthly spends of Rs. 2 Lakh"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Axis Magnus for Burgundy Credit Card At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Super Premium Travel & Lifestyle Credit Card"
+          ],
+          [
+            "Eligibility",
+            "Axis Bank Burgundy customers only"
+          ],
+          [
+            "Joining Fee",
+            "Nil"
+          ],
+          [
+            "Annual Fee",
+            "₹30,000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹30 lakh in the preceding year"
+          ],
+          [
+            "Welcome Benefit",
+            "Choice of a ₹5,000 voucher from Luxe Gift Card, The Postcard Hotel, or Yatra"
+          ],
+          [
+            "Reward Rate",
+            "12 EDGE Rewards per ₹200 on eligible spends up to ₹1.5 lakh per month"
+          ],
+          [
+            "Accelerated Rewards",
+            "35 EDGE Rewards per ₹200 on eligible spends above ₹1.5 lakh per month (up to credit limit + ₹1.5 lakh)"
+          ],
+          [
+            "Travel EDGE Rewards",
+            "60 EDGE Rewards per ₹200 on Travel EDGE bookings up to ₹2 lakh per month, then 35 EDGE Rewards per ₹200 thereafter"
+          ],
+          [
+            "Airline & Hotel Transfers",
+            "Enhanced 5:4 transfer ratio to partner airlines and hotels"
+          ],
+          [
+            "Annual Transfer Limit",
+            "Up to 10 lakh EDGE Rewards per calendar year (2 lakh Group A + 8 lakh Group B)"
+          ],
+          [
+            "International Lounge Access",
+            "Unlimited Priority Pass access"
+          ],
+          [
+            "Guest Lounge Access",
+            "4 complimentary international guest lounge visits per year"
+          ],
+          [
+            "Airport Meet & Greet",
+            "Complimentary airport concierge service"
+          ],
+          [
+            "Domestic Lounge Access",
+            "Unlimited access"
+          ],
+          [
+            "Golf Benefits",
+            "Complimentary golf rounds and lessons"
+          ],
+          [
+            "Forex Markup Fee",
+            "2% + GST"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on eligible transactions"
+          ],
+          [
+            "Card Network",
+            "Visa Infinite"
+          ],
+          [
+            "Best For",
+            "Burgundy customers spending ₹1.5 lakh+ monthly and transferring points to airline and hotel partners"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Axis Magnus for Burgundy Credit Card Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹30,000 + GST (₹35,400)"
+          ],
+          [
+            "Welcome Benefit",
+            "Choice of a ₹5000 voucher from Luxe Gift Card, The Postcard Hotel, or Yatra"
+          ],
+          [
+            "Annual Fee",
+            "₹30,000 + GST (₹35,400)"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹30 lakh in the preceding card anniversary year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Axis Magnus for Burgundy Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Eligible spends up to ₹1.5 lakh per calendar month",
+            "12 EDGE Reward Points per ₹200"
+          ],
+          [
+            "Travel EDGE bookings up to ₹2 lakh per calendar month",
+            "60 EDGE Reward Points per ₹200"
+          ],
+          [
+            "Eligible spends above ₹1.5 lakh per calendar month",
+            "35 EDGE Reward Points per ₹200"
+          ],
+          [
+            "Travel EDGE bookings above ₹2 lakh per calendar month",
+            "35 EDGE Reward Points per ₹200"
+          ],
+          [
+            "Utilities, Education, Insurance, Fuel, Gold & Jewellery, Wallet Loads and Government Payments",
+            "No Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-3",
+        "kind": "transfer_partners",
+        "title": "Axis Magnus Burgundy Transfer Partners",
+        "headers": [
+          "Transfer Ratio",
+          "Group",
+          "Transfer Partners"
+        ],
+        "rows": [
+          [
+            "5 EDGE RP : 4 Partner Miles/Points",
+            "Group A",
+            "Air Canada Aeroplan, Ethiopian Airlines ShebaMiles, Etihad Guest, Japan Airlines Mileage Bank, Singapore Airlines KrisFlyer, Thai Airways Royal Orchid Plus, Turkish Airlines Miles&Smiles, United MileagePlus, Wyndham Rewards"
+          ],
+          [
+            "5 EDGE RP : 4 Partner Miles/Points",
+            "Group B",
+            "Air India Maharaja Club, Air France-KLM Flying Blue, AirAsia Rewards, Club ITC, IHG One Rewards, Orchid Rewards, Postcard Sunshine Club, Qantas Frequent Flyer, Radisson Rewards, SpiceJet SpiceClub"
+          ],
+          [
+            "5 EDGE RP : 2 Partner Miles/Points",
+            "Group A",
+            "British Airways Club, Finnair Plus"
+          ],
+          [
+            "5 EDGE RP : 2 Partner Miles/Points",
+            "Group B",
+            "Vietnam Airlines Lotusmiles"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Axis Magnus for Burgundy Credit Card Lounge Access",
+        "headers": [
+          "Lounge Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "Unlimited visits for primary and add-on cardholders"
+          ],
+          [
+            "Domestic Lounge Eligibility",
+            "₹50,000 spends in the previous 3 calendar months"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Unlimited visits for primary cardholder via Priority Pass"
+          ],
+          [
+            "International Guest Access",
+            "4 complimentary guest visits per year"
+          ],
+          [
+            "Add-on Priority Pass",
+            "Not Available"
+          ],
+          [
+            "Lounge Access Method",
+            "Direct swipe of Magnus card (domestic) and Priority Pass (international)"
+          ]
+        ]
+      },
+      {
+        "id": "axis-transfer-groups-sept-2026",
+        "kind": "transfer_partners",
+        "title": "Axis Bank Transfer Partner Groups (Updated Sept 2026)",
+        "note": "Accor ALL & Cathay returned to Group A; Air India Maharaja Club, Flying Blue & Qantas moved to Group A; Hilton Honors & Miles & More added to Group B; ITC Hotels removed.",
+        "headers": [
+          "Partner",
+          "Tier",
+          "Update (Sept 2026)"
+        ],
+        "rows": [
+          [
+            "Accor Live Limitless (ALL)",
+            "Group A",
+            "Returned in Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Cathay Asia Miles",
+            "Group A",
+            "Added Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Air India Maharaja Club",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Flying Blue (Air France / KLM)",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Qantas Frequent Flyer",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Hilton Honors",
+            "Group B",
+            "Added to Group B (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Miles & More (Lufthansa)",
+            "Group B",
+            "Added to Group B (Atlas 1:1 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "ITC Hotels",
+            "Removed",
+            "Discontinued as Axis transfer partner"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -921,7 +1229,23 @@
       {
         "q": "What are the Axis Magnus Burgundy credit card fees?",
         "a": "Axis Magnus for Burgundy Credit Card charges an annual fee of Rs. 30,000 which is waived off on annual spends of Rs. 30 Lakh in the previous year."
+      },
+      {
+        "question": "Is the Axis Bank Magnus for Burgundy Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹30,000 + GST and the annual fee is ₹30,000 + GST. The annual fee is waived when you spend ₹30 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the Axis Bank Magnus for Burgundy Credit Card?",
+        "answer": "It's 2% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the Axis Bank Magnus for Burgundy Credit Card give airport lounge access?",
+        "answer": "Yes. You get unlimited domestic visits once you spend ₹50,000 in the previous quarter, plus unlimited international visits."
       }
+    ],
+    "program_updates_2026": [
+      "September 2026 Transfer Update: Accor ALL & Cathay returned to Group A; Air India/Flying Blue/Qantas moved to Group A (2,00,000 RP/yr Group A · 8,00,000 RP/yr Group B).",
+      "However, multiple devaluations over the years significantly reduced its appeal. Many of the headline benefits that made Magnus famous were either removed or scaled back. While the regular Axis Magnus no longer offers the value it once did, the Magnus for Burgundy variant continues to retain several premium benefits that keep it relevant for affluent Axis Bank Burgundy customers."
     ]
   },
   "ratings": {

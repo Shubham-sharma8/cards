@@ -1,14 +1,13 @@
 {
   "bank": "Central Bank Of India",
   "bank_slug": "central-bank-of-india",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 6,
   "ltf_count": 1,
   "rupay_upi_count": 3,
   "domestic_lounge_count": 0,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 1,
   "with_image_count": 6,
   "official_lounge_programs": [],
@@ -18,84 +17,60 @@
       "card_name": "Central Bank of India Titanium Credit Card",
       "card_slug": "central-bank-of-india-titanium-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.78,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/central-bank-of-india/central-bank-of-india-titanium-credit-card.webp",
-      "json_file": "central-bank-of-india-titanium-credit-card.json",
-      "md_file": "central-bank-of-india-titanium-credit-card.md"
+      "json_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-titanium-credit-card.json",
+      "md_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-titanium-credit-card.md"
     },
     {
       "card_id": "central_bank_of_india_central_bank_india_aspire_credit_card",
       "card_name": "Central Bank of India Aspire Credit Card",
       "card_slug": "central-bank-of-india-aspire-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa",
       "annual_fee_inr": 0,
       "overall_rating": 3.74,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/central-bank-of-india/central-bank-of-india-aspire-credit-card.webp",
-      "json_file": "central-bank-of-india-aspire-credit-card.json",
-      "md_file": "central-bank-of-india-aspire-credit-card.md"
+      "json_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-aspire-credit-card.json",
+      "md_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-aspire-credit-card.md"
     },
     {
       "card_id": "central_bank_of_india_central_bank_india_world_credit_card",
       "card_name": "Central Bank of India World Credit Card",
       "card_slug": "central-bank-of-india-world-credit-card",
       "primary_category": "Fuel",
-      "card_network": "Mastercard",
       "annual_fee_inr": 500,
       "overall_rating": 3.44,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/central-bank-of-india/central-bank-of-india-world-credit-card.webp",
-      "json_file": "central-bank-of-india-world-credit-card.json",
-      "md_file": "central-bank-of-india-world-credit-card.md"
-    },
-    {
-      "card_id": "central_bank_of_india_rupay_platinum_credit_card",
-      "card_name": "Central Bank of India Rupay Platinum Credit Card",
-      "card_slug": "central-bank-of-india-rupay-platinum-credit-card",
-      "primary_category": "RuPay & UPI",
-      "card_network": "RuPay",
-      "annual_fee_inr": 100,
-      "overall_rating": 3.23,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/central-bank-of-india/central-bank-of-india-rupay-platinum-credit-card.webp",
-      "json_file": "central-bank-of-india-rupay-platinum-credit-card.json",
-      "md_file": "central-bank-of-india-rupay-platinum-credit-card.md"
-    },
-    {
-      "card_id": "central_bank_of_india_rupay_select_credit_card",
-      "card_name": "Central Bank of India Rupay Select Credit Card",
-      "card_slug": "central-bank-of-india-rupay-select-credit-card",
-      "primary_category": "RuPay & UPI",
-      "card_network": "RuPay",
-      "annual_fee_inr": 100,
-      "overall_rating": 3.23,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/central-bank-of-india/central-bank-of-india-rupay-select-credit-card.webp",
-      "json_file": "central-bank-of-india-rupay-select-credit-card.json",
-      "md_file": "central-bank-of-india-rupay-select-credit-card.md"
+      "json_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-world-credit-card.json",
+      "md_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-world-credit-card.md"
     },
     {
       "card_id": "central_bank_of_india_visa_platinum_credit_card",
       "card_name": "Central Bank of India Visa Platinum Credit Card",
       "card_slug": "central-bank-of-india-visa-platinum-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "RuPay / Visa",
       "annual_fee_inr": 100,
       "overall_rating": 3.23,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/central-bank-of-india/central-bank-of-india-visa-platinum-credit-card.webp",
-      "json_file": "central-bank-of-india-visa-platinum-credit-card.json",
-      "md_file": "central-bank-of-india-visa-platinum-credit-card.md"
+      "json_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-visa-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-visa-platinum-credit-card.md"
+    },
+    {
+      "card_id": "central_bank_of_india_rupay_select_credit_card",
+      "card_name": "Central Bank of India Rupay Select Credit Card",
+      "card_slug": "central-bank-of-india-rupay-select-credit-card",
+      "primary_category": "RuPay & UPI",
+      "annual_fee_inr": 100,
+      "overall_rating": 3.23,
+      "json_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-rupay-select-credit-card.json",
+      "md_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-rupay-select-credit-card.md"
+    },
+    {
+      "card_id": "central_bank_of_india_rupay_platinum_credit_card",
+      "card_name": "Central Bank of India Rupay Platinum Credit Card",
+      "card_slug": "central-bank-of-india-rupay-platinum-credit-card",
+      "primary_category": "RuPay & UPI",
+      "annual_fee_inr": 100,
+      "overall_rating": 3.23,
+      "json_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-rupay-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/central-bank-of-india/central-bank-of-india-rupay-platinum-credit-card.md"
     }
   ]
 }

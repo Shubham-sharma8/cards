@@ -78,7 +78,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -157,7 +159,38 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Accor Live Limitless (ALL)",
+        "ratio": "Group A · Returned Sept 2026",
+        "notes": "5:1 Accor/Cathay · 5:2 Air India, Flying Blue, Qantas, Hilton & Miles & More"
+      },
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "1,00,000 RP/yr Group A · 4,00,000 RP/yr Group B"
+      },
+      {
+        "partner": "Flying Blue (Air France/KLM)",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "1,00,000 RP/yr Group A · 4,00,000 RP/yr Group B"
+      },
+      {
+        "partner": "Qantas Frequent Flyer",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "1,00,000 RP/yr Group A · 4,00,000 RP/yr Group B"
+      },
+      {
+        "partner": "Cathay Asia Miles",
+        "ratio": "Group A · Added Sept 2026",
+        "notes": "Caps share Group A pool"
+      },
+      {
+        "partner": "Hilton Honors & Miles & More",
+        "ratio": "Group B · Added Sept 2026",
+        "notes": "1,00,000 RP/yr Group A · 4,00,000 RP/yr Group B"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 12500,
       "annual_fee_inr": 12500,
@@ -170,7 +203,268 @@
         "60 EDGE reward points per Rs. 200 spent on Travel EDGE portal up to cumulative monthly spends of Rs. 2 Lakh",
         "35 EDGE reward points per Rs. 200 spent on Travel EDGE portal above monthly spends of Rs. 2 Lakh"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Axis Magnus Credit Card At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Premium Travel & Lifestyle Credit Card"
+          ],
+          [
+            "Joining Fee",
+            "₹12,500 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹12,500 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹25 lakh in a card anniversary year"
+          ],
+          [
+            "Welcome Benefit",
+            "Choice of a ₹12,500 voucher from Luxe, The Postcard Hotels, or Yatra"
+          ],
+          [
+            "Reward Rate",
+            "12 EDGE Rewards per ₹200 up to ₹1.5 lakh monthly spends, 35 EDGE Rewards per ₹200 beyond that"
+          ],
+          [
+            "Travel EDGE Rewards",
+            "5X EDGE Rewards on Travel EDGE bookings"
+          ],
+          [
+            "Lounge Access",
+            "Unlimited international lounge access via Priority Pass"
+          ],
+          [
+            "Guest Lounge Access",
+            "4 complimentary international guest visits per year"
+          ],
+          [
+            "Domestic Lounge Access",
+            "Unlimited access at participating lounges (subject to spend criteria)"
+          ],
+          [
+            "Forex Markup Fee",
+            "2% + GST"
+          ],
+          [
+            "Golf Benefits",
+            "Complimentary golf rounds and lessons"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver at eligible fuel stations"
+          ],
+          [
+            "Card Network",
+            "Visa Infinite"
+          ],
+          [
+            "Best For",
+            "Frequent travelers and high spenders who can maximize EDGE Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Axis Bank Magnus Credit Card Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹12,500 + GST (₹14,750)"
+          ],
+          [
+            "Welcome Benefit",
+            "Choice of a ₹12,500 voucher from Luxe Gift Card, The Postcard Hotels, or Yatra"
+          ],
+          [
+            "Annual Fee",
+            "₹12,500 + GST (₹14,750)"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹25 lakh in a card anniversary year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Axis Bank Magnus Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards",
+          "Approx. Reward Rate*"
+        ],
+        "rows": [
+          [
+            "Eligible spends up to ₹1.5 lakh per calendar month",
+            "12 EDGE Reward Points per ₹200",
+            "1.2% to 2.4%"
+          ],
+          [
+            "Travel EDGE bookings up to ₹2 lakh per calendar month",
+            "60 EDGE Reward Points per ₹200",
+            "6% to 12%"
+          ],
+          [
+            "Eligible spends above ₹1.5 lakh per calendar month (Accelerated Rewards)",
+            "35 EDGE Reward Points per ₹200",
+            "3.5% to 7%"
+          ],
+          [
+            "Travel EDGE bookings above ₹2 lakh per calendar month",
+            "35 EDGE Reward Points per ₹200",
+            "3.5% to 7%"
+          ],
+          [
+            "Utilities, Government Payments, Wallet Loads, Insurance, Fuel, Gold & Jewellery",
+            "No Rewards",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-3",
+        "kind": "transfer_partners",
+        "title": "Axis Magnus Transfer Partners",
+        "headers": [
+          "Transfer Ratio",
+          "Group",
+          "Transfer Partners"
+        ],
+        "rows": [
+          [
+            "5 EDGE RP : 4 Partner Miles/Points",
+            "Group A",
+            "Air Canada Aeroplan, Air France-KLM Flying Blue, Air India Maharaja Club, Ethiopian Airlines ShebaMiles, Etihad Guest, Japan Airlines Mileage Bank, Qantas Frequent Flyer, Singapore Airlines KrisFlyer, Thai Airways Royal Orchid Plus, Turkish Airlines Miles&Smiles, United MileagePlus, Wyndham Rewards"
+          ],
+          [
+            "5 EDGE RP : 2 Partner Miles/Points",
+            "Group A",
+            "Accor ALL, British Airways Club, Cathay, Finnair Plus, Qatar Airways Privilege Club, Vietnam Airlines Lotusmiles"
+          ],
+          [
+            "5 EDGE RP : 4 Partner Miles/Points",
+            "Group B",
+            "AirAsia Rewards, Hilton Honors, IHG One Rewards, Miles & More, Orchid Rewards, Postcard Sunshine Club, Radisson Rewards, SpiceJet SpiceClub"
+          ],
+          [
+            "5 EDGE RP : 2 Partner Points",
+            "Group B",
+            "IndiGo BluChip"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Axis Magnus Credit Card Lounge Access",
+        "headers": [
+          "Lounge Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "Unlimited visits for primary and add-on cardholders"
+          ],
+          [
+            "Domestic Lounge Eligibility",
+            "₹50,000 spends in the previous 3 calendar months"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Unlimited visits for primary cardholder via Priority Pass"
+          ],
+          [
+            "International Guest Access",
+            "4 complimentary guest visits per year"
+          ],
+          [
+            "Add-on Priority Pass",
+            "Not Available"
+          ],
+          [
+            "Lounge Access Method",
+            "Direct swipe of Magnus card (domestic) and Priority Pass (international)"
+          ]
+        ]
+      },
+      {
+        "id": "axis-transfer-groups-sept-2026",
+        "kind": "transfer_partners",
+        "title": "Axis Bank Transfer Partner Groups (Updated Sept 2026)",
+        "note": "Accor ALL & Cathay returned to Group A; Air India Maharaja Club, Flying Blue & Qantas moved to Group A; Hilton Honors & Miles & More added to Group B; ITC Hotels removed.",
+        "headers": [
+          "Partner",
+          "Tier",
+          "Update (Sept 2026)"
+        ],
+        "rows": [
+          [
+            "Accor Live Limitless (ALL)",
+            "Group A",
+            "Returned in Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Cathay Asia Miles",
+            "Group A",
+            "Added Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Air India Maharaja Club",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Flying Blue (Air France / KLM)",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Qantas Frequent Flyer",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Hilton Honors",
+            "Group B",
+            "Added to Group B (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Miles & More (Lufthansa)",
+            "Group B",
+            "Added to Group B (Atlas 1:1 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "ITC Hotels",
+            "Removed",
+            "Discontinued as Axis transfer partner"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -911,7 +1205,29 @@
       {
         "q": "What is the airport lounge benefit on Magnus Credit Card for an add-on member?",
         "a": "Axis Magnus Credit Card offers unlimited complimentary domestic lounge visits for both primary and add-on card members, subject to a minimum spend of Rs. 50,000 in the previous three months. Additionally, cardholders and add-on members can avail unlimited complimentary international lounge visits with Priority Pass, along with four additional guest visits per year."
+      },
+      {
+        "question": "Is the Axis Bank Magnus Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹12,500 + GST and the annual fee is ₹12,500 + GST. The annual fee is waived when you spend ₹25 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the Axis Bank Magnus Credit Card?",
+        "answer": "It's 2% plus GST on spends in a foreign currency. That's lower than the usual 3.5%, which helps when you spend abroad."
+      },
+      {
+        "question": "Does the Axis Bank Magnus Credit Card give airport lounge access?",
+        "answer": "Yes. You get unlimited domestic visits once you spend ₹50,000 in the previous quarter, plus unlimited international visits."
+      },
+      {
+        "question": "How much can I earn with the Axis Bank Magnus Credit Card?",
+        "answer": "You earn about 1.2% back in reward points on regular spends, and up to 12% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
+    ],
+    "program_updates_2026": [
+      "September 2026 Transfer Update: Accor ALL & Cathay returned to Group A; Air India/Flying Blue/Qantas moved to Group A (1,00,000 RP/yr Group A · 4,00,000 RP/yr Group B).",
+      "But a series of devaluations over the last few years changed the story completely. Many of the features that made Magnus special have either been removed or significantly watered down. Today, the regular Axis Magnus looks very different from the card that created all the buzz. So, is it still worth paying ₹12,500 a year for, or are there better premium cards available?",
+      "Cons ₹12,500 annual fee with no renewal benefit Multiple devaluations have reduced overall value Insurance, utilities, fuel and government payments earn no rewards Difficult to unlock accelerated rewards due to spend exclusions No separate Priority Pass for add-on cardholders Regular Magnus has a weaker transfer ratio than Magnus for Burgundy",
+      "Multiple devaluations have reduced overall value"
     ]
   },
   "ratings": {

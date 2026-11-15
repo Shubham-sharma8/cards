@@ -69,7 +69,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -155,7 +157,153 @@
         "15,000 bonus reward points on spending Rs. 5 Lakh in a year",
         "Additional 15,000 rewards on reaching annual spends of Rs. 8 Lakh"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "lounge_access-0",
+        "kind": "lounge_access",
+        "title": "SBI ELITE Credit Card Review: Lounge Access, Rewards, Fees & Movie Benefits",
+        "headers": [
+          "Feature",
+          "SBI ELITE Card Benefit"
+        ],
+        "rows": [
+          [
+            "Movies",
+            "₹6000/year (₹500/month)"
+          ],
+          [
+            "Annual Fee",
+            "₹4999 (Waived @ ₹10L spends)"
+          ],
+          [
+            "Lounge",
+            "14 Visits (8 Domestic + 6 International)"
+          ],
+          [
+            "Forex Fee",
+            "1.99% (Lowest in segment)"
+          ],
+          [
+            "Milestone",
+            "Up to 50,000 Bonus Points"
+          ],
+          [
+            "Welcome",
+            "₹5000 E-Gift Voucher"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "SBI ELITE Credit Card Fees",
+        "headers": [
+          "Charges",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹4999 + GST (~₹5899)"
+          ],
+          [
+            "Welcome Benefit",
+            "₹5000 e-gift voucher from partner brands"
+          ],
+          [
+            "Annual Fee",
+            "₹4999 + GST (~₹5899)"
+          ],
+          [
+            "Renewal Benefit",
+            "No renewal bonus"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹10 lakh annual spends"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "SBI ELITE Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Reward Points",
+          "Approx Return"
+        ],
+        "rows": [
+          [
+            "Dining, Groceries & Departmental Stores",
+            "10 Reward Points per ₹100",
+            "2.5%"
+          ],
+          [
+            "Other Retail Spends",
+            "2 Reward Points per ₹100",
+            "0.5%"
+          ],
+          [
+            "Fuel, Rent, Wallet Loads & Government Payments",
+            "No Reward Points",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "SBI ELITE Credit Card Milestone Benefits",
+        "headers": [
+          "Milestone",
+          "Annual Spend Target",
+          "Bonus Reward Points"
+        ],
+        "rows": [
+          [
+            "Milestone 1",
+            "₹3 Lakh",
+            "10,000 Reward Points"
+          ],
+          [
+            "Milestone 2",
+            "₹4 Lakh",
+            "10,000 Reward Points"
+          ],
+          [
+            "Milestone 3",
+            "₹5 Lakh",
+            "15,000 Reward Points"
+          ],
+          [
+            "Milestone 4",
+            "₹8 Lakh",
+            "15,000 Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "SBI ELITE Credit Card Airport Lounge Access",
+        "headers": [
+          "Lounge Type",
+          "Benefits"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "8 complimentary visits per calendar year across Visa, Mastercard, or Amex lounges in India. Maximum 2 visits per quarter. No spend-based access condition currently."
+          ],
+          [
+            "International Airport Lounge Access",
+            "6 complimentary Priority Pass lounge visits per calendar year outside India. Maximum 2 visits per quarter. Access available across participating international airport lounges worldwide."
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {

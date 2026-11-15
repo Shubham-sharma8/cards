@@ -56,7 +56,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -152,13 +154,220 @@
         "Milestone Benefits : On spending Rs. 1.5 Lakh in a calendar quarter, gift vouchers worth Rs. 1,500 from Marriott Experience or Decathlon or Barbeque Nation or O2 Spa or Lakme Salon.",
         "2 complimentary domestic airport lounge access in a quarter, subject to spends of Rs. 60,000 in the previous quarter"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "eligibility-0",
+        "kind": "eligibility",
+        "title": "Eligibility",
+        "headers": [
+          "Applicant Type",
+          "Eligibility"
+        ],
+        "rows": [
+          [
+            "Salaried",
+            "Net monthly income of ₹35,000 or above"
+          ],
+          [
+            "Self-Employed",
+            "ITR of ₹6 lakh or above"
+          ],
+          [
+            "Age",
+            "21 to 60 years"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "HDFC Diners Club Privilege Credit Card Fees & Welcome Benefits",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1000 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "Swiggy One and Times Prime memberships on spending ₹75,000 in the first 90 days"
+          ],
+          [
+            "Annual Fee",
+            "₹1000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹3 lakh in a membership year"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "HDFC Diners Club Privilege Credit Card Rewards & Reward Rate",
+        "headers": [
+          "Spend Type",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Regular Retail Spends",
+            "4 Reward Points per ₹200"
+          ],
+          [
+            "Swiggy & Zomato",
+            "20 Reward Points per ₹200 (5X Rewards)"
+          ],
+          [
+            "SmartBuy Partners",
+            "Up to 10X Reward Points"
+          ],
+          [
+            "Excluded Categories*",
+            "No Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "HDFC Diners Club Privilege Credit Card Milestone Benefits",
+        "headers": [
+          "Quarterly Spend",
+          "Milestone Benefit"
+        ],
+        "rows": [
+          [
+            "₹1.5 lakh",
+            "₹1500 voucher"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-4",
+        "kind": "accelerated_partners",
+        "title": "HDFC Diners Club Privilege SmartBuy Benefits",
+        "headers": [
+          "Reward Points Earned",
+          "Effective Return*",
+          "Eligible Categories"
+        ],
+        "rows": [
+          [
+            "40 RP per ₹200 (10X)",
+            "10%",
+            "Hotels, IGP.com, Jockey, PharmEasy"
+          ],
+          [
+            "20 RP per ₹200 (5X)",
+            "5%",
+            "Flights, Buses, Brand Vouchers, Apple Imagine Tresor, Myntra, MMT Holiday Packages, Duty Free (Adani One)"
+          ],
+          [
+            "12 RP per ₹200 (3X)",
+            "3%",
+            "Train Bookings"
+          ],
+          [
+            "4 RP per ₹200",
+            "1%",
+            "Regular Retail Spends"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "HDFC Diners Club Privilege Airport Lounge Access",
+        "headers": [
+          "Previous Calendar Quarter Spend",
+          "Lounge Benefit"
+        ],
+        "rows": [
+          [
+            "₹60,000 or more",
+            "2 Domestic Lounge Visits + 1 International Lounge Visit"
+          ],
+          [
+            "Below ₹60,000",
+            "No Lounge Access Benefit"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-6",
+        "kind": "other_table",
+        "title": "HDFC Diners Club Privilege Credit Card BookMyShow Offer",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Offer Type",
+            "Buy 1 Get 1 Free"
+          ],
+          [
+            "Eligible Bookings",
+            "Movies, Events, Concerts, Plays, Sports & Activities"
+          ],
+          [
+            "Eligible Days",
+            "Friday, Saturday & Sunday shows"
+          ],
+          [
+            "Maximum Discount",
+            "₹250 per free ticket"
+          ],
+          [
+            "Monthly Limit",
+            "2 Free Tickets per calendar month"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-7",
+        "kind": "redemption_catalog",
+        "title": "HDFC Diners Club Privilege Reward Points Redemption",
+        "headers": [
+          "Redemption Option",
+          "Value per Reward Point"
+        ],
+        "rows": [
+          [
+            "SmartBuy Flights & Hotels",
+            "₹0.50"
+          ],
+          [
+            "Dining Redemptions",
+            "₹0.50"
+          ],
+          [
+            "Reward Catalogue & Gift Vouchers",
+            "Up to ₹0.35"
+          ],
+          [
+            "Cashback",
+            "₹0.20"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
       "visits_per_year": 8,
       "visits_per_quarter": 2,
-      "spend_criteria": "Rs. 60,000 in previous quarter (milestone/spend-based)",
+      "spend_criteria": "₹60,000 spend in previous calendar quarter (effective 1 July 2026)",
       "add_on_allowed": false,
       "shared_limit": false,
       "summary": "2 complimentary domestic airport lounge visits per quarter on spends of Rs. 60,000 in the previous quarter"
@@ -628,7 +837,27 @@
       {
         "q": "What is a Diners Club Privilege credit card?",
         "a": "Diners Club Privilege credit card is offered by HDFC Bank and is targeted towards customers who have a monthly income of Rs. 35,000 and above."
+      },
+      {
+        "question": "Is the HDFC Diners Club Privilege Credit Card worth it in 2026?",
+        "answer": "The HDFC Diners Club Privilege Credit Card is worth considering if you can maximize HDFC SmartBuy, use airport lounge access regularly, and benefit from milestone rewards. However, users focused on cashback may find better alternatives."
+      },
+      {
+        "question": "What is the annual fee of the HDFC Diners Club Privilege Credit Card?",
+        "answer": "The card has a joining fee and annual fee of ₹1,000 + GST. The annual fee is waived on spending ₹3 lakh in a membership year."
+      },
+      {
+        "question": "What is the reward rate of the HDFC Diners Club Privilege Credit Card?",
+        "answer": "The card earns 4 Reward Points for every ₹200 spent on eligible retail transactions. When redeemed for flights and hotels through SmartBuy, this translates to an effective base reward rate of around 1%."
+      },
+      {
+        "question": "What are the SmartBuy benefits on the HDFC Diners Club Privilege Credit Card?",
+        "answer": "Cardholders can earn up to 10X Reward Points on select SmartBuy partners such as hotels, IGP, Jockey, and PharmEasy, and 5X Reward Points on categories including flights, vouchers, and Myntra."
       }
+    ],
+    "program_updates_2026": [
+      "15 May 2026: Base rewards reduced 25% to 4 RP per ₹200 (< ₹200 earns 0 RP).",
+      "1 July 2026: Domestic/Intl lounge access now gated behind ₹60,000 spend in the previous quarter."
     ]
   },
   "ratings": {
@@ -684,8 +913,11 @@
   "devaluation_analysis": {
     "devaluation_frequency": "Medium",
     "devaluation_risk_score": 5,
-    "last_devalued_on": null,
+    "last_devalued_on": "2026-07-01",
     "devaluation_history": [
+      "May–July 2026: Base reward cut 25% from 4 RP/₹150 to 4 RP/₹200; airport lounges require ₹60,000 spend in previous quarter.",
+      "May–July 2026: Base reward cut 25% from 4 RP/₹150 to 4 RP/₹200; airport lounges require ₹60,000 spend in previous quarter.",
+      "May–July 2026: Base reward cut 25% from 4 RP/₹150 to 4 RP/₹200; airport lounges require ₹60,000 spend in previous quarter.",
       "Steady lounge spend gating on Regalia/Tata Neu/Millennia & SmartBuy monthly caps, but protects core Infinia/DCB/BizBlack."
     ],
     "watch_out_vectors": [

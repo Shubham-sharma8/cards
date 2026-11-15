@@ -1,0 +1,596 @@
+{
+  "identity": {
+    "card_id": "yes_bank_yes_bank_elite_plus_credit_card",
+    "card_name": "YES Bank ELITE+ Credit Card",
+    "bank": "YES BANK",
+    "bank_slug": "yes-bank",
+    "card_slug": "yes-bank-elite-plus-credit-card",
+    "card_network": "Visa / Mastercard / RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Dining, Groceries & Movies",
+    "categories": [
+      "Dining, Groceries & Movies",
+      "Airport Lounge",
+      "Online Shopping"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-15T06:00:00+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/yes-bank/yes-bank-elite-plus-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 0.96,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#163064",
+      "secondary_hex": "#163064",
+      "wash_hex": "#CBD1DC",
+      "soft_bg_hex": "#E7EAEF",
+      "border_hex": "#DCE5E1",
+      "ink_on_soft_hex": "#163064",
+      "is_dark_card": true,
+      "source": "cardmaven_asset"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,500",
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 25000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Dining, Groceries & Movies",
+      "Airport Lounge",
+      "Online Shopping"
+    ],
+    "requirement_keywords": [
+      "ank",
+      "ard",
+      "hopping",
+      "ining",
+      "irport",
+      "nline",
+      "ounge",
+      "ovies",
+      "redit",
+      "roceries"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Reward Points",
+    "base_reward_rate_pct": 0.5,
+    "accelerated_reward_rate_pct": 1.5,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X Reward Points (~16.6%!) on GST, Income Tax, Advance Tax, PayZapp/SmartBuy business spends & vendor utility bills (Requires Rs. 50,000 retail spend/statement cycle)",
+      "5 RP per Rs. 150 (3.33%) on all other business & personal retail spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 1.5,
+      "amazon_flipkart_myntra": 1.5,
+      "dining_swiggy_zomato": 1.5,
+      "groceries_quick_commerce": 0.5,
+      "travel_flights_hotels": 1.5,
+      "upi_scan_and_pay": 0.5,
+      "utilities_bills_telecom": 0.5,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -1.25,
+      "offline_general_other": 0.75
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "3.33% base + 5X (16.5%) on Income Tax, GST, PayZapp utilities & SmartBuy business spends (business 5X bonus capped at 7,500 RP/cycle on >= Rs. 50,000 monthly spend); Insurance capped 5,000 RP/mo."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 999,
+      "annual_fee_inr": 999,
+      "annual_fee_with_gst_inr": 1179,
+      "fee_waiver_spend_inr": 200000,
+      "monthly_spend_for_waiver_inr": 16667,
+      "milestone_slabs": []
+    },
+    "structured_tables": [
+      {
+        "id": "other_table-0",
+        "kind": "other_table",
+        "title": "YES Bank ELITE+ Credit Card Key Highlights",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Lifestyle & Travel Credit Card"
+          ],
+          [
+            "Current Offer",
+            "Lifetime Free through select application channels"
+          ],
+          [
+            "Reward Rate",
+            "Up to 12 YES Rewardz Points per ₹200 on online spends"
+          ],
+          [
+            "Domestic Lounge Access",
+            "2 complimentary visits per calendar quarter"
+          ],
+          [
+            "International Lounge Access",
+            "3 complimentary visits per year"
+          ],
+          [
+            "Lounge Spend Requirement",
+            "₹50,000 spends in the previous qualifying quarter"
+          ],
+          [
+            "Golf Benefits",
+            "4 green fee waivers per year + 1 golf lesson per month"
+          ],
+          [
+            "Movie Benefit",
+            "25% off on BookMyShow up to ₹250 per month"
+          ],
+          [
+            "Forex Markup",
+            "2.75% + GST"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on fuel transactions between ₹400 and ₹5000"
+          ],
+          [
+            "Rewards Subscription Plan",
+            "Optional 3X and 5X reward plans available"
+          ],
+          [
+            "Purchase Protection",
+            "Up to ₹50,000 on eligible online purchases"
+          ],
+          [
+            "Best For",
+            "Lounge access, travel benefits, golf privileges and lifestyle perks"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "YES Bank ELITE+ Credit Card Fees",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹999 + GST Lifetime Free (Current Offer)"
+          ],
+          [
+            "Welcome Benefit",
+            "₹500 Amazon Gift Voucher on spending ₹1000 within the first 30 days (excluding rent and wallet transactions)"
+          ],
+          [
+            "Joining Fee Waiver",
+            "On ₹20,000 spends within the first 30 days"
+          ],
+          [
+            "Annual Fee",
+            "₹999 + GST Lifetime Free (Current Offer)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹2 lakh spends in a membership year (excluding rent and wallet transactions)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "YES Bank ELITE+ Credit Card Rewards",
+        "headers": [
+          "Type of Spend",
+          "Reward Points",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "Online Spends (except select categories)",
+            "12 YES Rewardz Points per ₹200",
+            "1.5%"
+          ],
+          [
+            "Offline Spends (except select categories)",
+            "6 YES Rewardz Points per ₹200",
+            "0.75%"
+          ],
+          [
+            "Select Categories (Utilities, Insurance and Education)",
+            "4 YES Rewardz Points per ₹200",
+            "0.5%"
+          ],
+          [
+            "Rent, Wallet, Fuel, Government, Marketing & Advertising, Cash Withdrawals and EMI Transactions",
+            "No Rewards",
+            "0%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Subscription Plan 1: Up to 3X Rewards",
+        "headers": [
+          "Spend Type",
+          "Reward Points"
+        ],
+        "rows": [
+          [
+            "Online Spends",
+            "24 Rewardz Points per ₹200"
+          ],
+          [
+            "Offline Spends",
+            "18 Rewardz Points per ₹200"
+          ],
+          [
+            "Select Categories",
+            "12 Rewardz Points per ₹200"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-4",
+        "kind": "reward_structure",
+        "title": "Subscription Plan 2: Up to 5X Rewards",
+        "headers": [
+          "Spend Type",
+          "Reward Points"
+        ],
+        "rows": [
+          [
+            "Online Spends in Eligible Categories",
+            "36 Rewardz Points per ₹200"
+          ],
+          [
+            "Offline Spends in Eligible Categories",
+            "30 Rewardz Points per ₹200"
+          ],
+          [
+            "Select Categories",
+            "Regular reward rates apply"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-5",
+        "kind": "redemption_catalog",
+        "title": "YES Bank ELITE+ Credit Card Review: Rewards Redemption",
+        "headers": [
+          "Redemption Option",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Flights & Hotels",
+            "~25 paise per Reward Point"
+          ],
+          [
+            "Gift Vouchers",
+            "~10 paise per Reward Point"
+          ],
+          [
+            "Air Miles",
+            "10 Rewardz Points = 1 Mile"
+          ],
+          [
+            "Merchandise",
+            "Variable"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-6",
+        "kind": "lounge_access",
+        "title": "YES Bank ELITE+ Credit Card Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "2 complimentary visits per calendar quarter"
+          ],
+          [
+            "Domestic Lounge Eligibility",
+            "Spend ₹50,000 or more in the previous qualifying quarter"
+          ],
+          [
+            "International Airport Lounge Access",
+            "3 complimentary visits per year"
+          ],
+          [
+            "International Lounge Eligibility",
+            "Primary cardholder only"
+          ],
+          [
+            "Add-on Card Eligibility",
+            "Eligible for domestic lounge access as per program terms"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-7",
+        "kind": "other_table",
+        "title": "YES Bank ELITE+ Credit Card Golf Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Green Fee Waivers",
+            "4 complimentary green fee waivers per calendar year"
+          ],
+          [
+            "Golf Lessons",
+            "1 complimentary golf lesson every calendar month"
+          ],
+          [
+            "Eligible Courses",
+            "Varies by Visa and Mastercard variant"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-8",
+        "kind": "fees_and_charges",
+        "title": "YES Bank ELITE+ Credit Card: Other Key Benefits & Charges",
+        "headers": [
+          "Benefit / Charge",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1% fuel surcharge waiver on fuel transactions between ₹400 and ₹5,000"
+          ],
+          [
+            "Fuel Surcharge Waiver Cap",
+            "Maximum ₹125 per statement cycle"
+          ],
+          [
+            "BookMyShow Offer",
+            "25% discount on movie tickets, capped at ₹250 per calendar month"
+          ],
+          [
+            "Foreign Currency Markup",
+            "2.75% + GST (~3.25% effective)"
+          ]
+        ]
+      }
+    ]
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 8,
+      "visits_per_quarter": 2,
+      "spend_criteria": "Spend-based quarterly rule applies",
+      "add_on_allowed": false,
+      "summary": "8 complimentary domestic airport lounge visits/yr (2/quarter, spend-linked)"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Standard issuer terms",
+      "add_on_allowed": false,
+      "guest_fee": "US$27-$35 per guest",
+      "summary": "No complimentary international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No complimentary railway lounge visits listed"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 999,
+    "annual_fee_inr": 999,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 200000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 2.75,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% (min ₹500)",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver (₹500–₹4,000 txns)",
+    "redemption_fee": "₹99 + GST on catalog redemptions (where applicable)",
+    "add_on_card_fee": "₹0",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "The YES Bank ELITE+ Credit Card is the rebranded version of the YES PREMIA and YES ELITE Credit Cards. It is designed for users looking for a mix of rewards,",
+    "highlights": [
+      "Up to 1.5% accelerated value in Dining, Groceries & Movies",
+      "8 complimentary domestic airport lounge visits/yr (2/quarter, spend-linked)",
+      "Forex markup 2.75% · Network: Visa / Mastercard / RuPay"
+    ],
+    "welcome_benefit": [],
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want strong rewards in Dining, Groceries & Movies"
+    ],
+    "faqs": [
+      {
+        "question": "Is the YES Bank ELITE+ Credit Card Lifetime Free?",
+        "answer": "YES Bank is currently offering the ELITE+ Credit Card as a Lifetime Free card through select application channels. Applicants should verify the offer terms at the time of application."
+      },
+      {
+        "question": "What is the reward rate on the YES Bank ELITE+ Credit Card?",
+        "answer": "The card earns 12 YES Rewardz Points per ₹200 spent online, 6 YES Rewardz Points per ₹200 spent offline, and 4 YES Rewardz Points per ₹200 on select categories such as utilities, insurance, and education."
+      },
+      {
+        "question": "Does the YES Bank ELITE+ Credit Card offer airport lounge access?",
+        "answer": "Yes. The card offers 2 complimentary domestic airport lounge visits per quarter and 3 complimentary international airport lounge visits per year, subject to applicable terms and eligibility criteria."
+      },
+      {
+        "question": "What is the forex markup on the YES Bank ELITE+ Credit Card?",
+        "answer": "The YES Bank ELITE+ Credit Card charges a forex markup of 2.75%, making it a reasonable option for occasional international spending."
+      },
+      {
+        "question": "Does the YES Bank ELITE+ Credit Card offer golf benefits?",
+        "answer": "Yes. Cardholders receive 4 complimentary green fee waivers per year and 1 complimentary golf lesson every month at participating golf courses."
+      },
+      {
+        "question": "What is the YES Bank Rewards Subscription Plan?",
+        "answer": "The Rewards Subscription Plan is an optional paid add-on that allows ELITE+ cardholders to earn up to 3X or 5X reward points on eligible transactions and selected spending categories."
+      },
+      {
+        "question": "Are rent payments eligible for rewards on the YES Bank ELITE+ Credit Card?",
+        "answer": "No. Rent payments, wallet loads, fuel transactions, government payments, cash withdrawals, and EMI transactions are not eligible for YES Rewardz Points."
+      },
+      {
+        "question": "Who should get the YES Bank ELITE+ Credit Card?",
+        "answer": "The card is best suited for users looking for airport lounge access, golf benefits, movie ticket discounts, and a rewards program in a single Lifetime Free credit card."
+      }
+    ],
+    "program_updates_2026": [
+      "Note: The YES Bank ELITE+ Credit Card is currently being offered as a Lifetime Free card through select application channels. Under the standard fee structure, the card carries a joining fee and annual fee of ₹999 + GST each."
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 3.7,
+    "editorial_rating": 3.7,
+    "aggregator_rating": 3.7,
+    "category_sub_ratings": {
+      "Rewards": 3.7,
+      "Fees & Value": 4.2,
+      "Travel & Lounges": 4.1
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "The YES Bank ELITE+ Credit Card is the rebranded version of the YES PREMIA and YES ELITE Credit Cards. It is designed for users looking for a mix of rewards,",
+    "pros": [
+      "Up to 1.5% value on Dining, Groceries & Movies spends",
+      "8 complimentary domestic airport lounge visits/yr (2/quarter, spend-linked)",
+      "Currently available as a Lifetime Free credit card through select application channels",
+      "2 complimentary domestic airport lounge visits every quarter",
+      "3 complimentary international airport lounge visits every year",
+      "Earn accelerated rewards on online spending"
+    ],
+    "cons": [
+      "Category exclusions apply on utilities, fuel, rent & government MCCs",
+      "Reward rate is lower than leading cashback cards such as SBI Cashback",
+      "No rewards on rent, wallet loads, fuel, government payments and EMI transactions",
+      "Reward earnings are capped at 12,000 points per statement cycle",
+      "Domestic lounge access is subject to spend-based eligibility criteria"
+    ],
+    "best_for_whom": "Dining, Groceries & Movies & YES BANK cardholders",
+    "not_ideal_for": "Fuel or tax-heavy spenders seeking flat rewards",
+    "recommended_monthly_spend_inr": "₹15,000 - ₹40,000",
+    "verdict": "Strong 2026 option for dining, groceries & movies"
+  },
+  "reddit_user_feedback": {
+    "community_score": 3.7,
+    "reddit_mentions": 18,
+    "sentiment_summary": "Viewed positively on r/CreditCardsIndia for dining, groceries & movies utility.",
+    "key_threads": [],
+    "practical_community_warnings": [],
+    "optimization_tips": []
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 5.0,
+    "last_devalued_on": null,
+    "devaluation_history": [],
+    "watch_out_vectors": [
+      "Monitor quarterly spend gates & monthly category caps"
+    ]
+  },
+  "alternate_options": [],
+  "eligibility_detailed": {
+    "occupation": "Salaried / Self-Employed",
+    "age_range": "21–60 years",
+    "min_monthly_income_salaried_inr": 25000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 400000,
+    "min_cibil_score": 730,
+    "approval_notes": "Subject to internal bank underwriting & city serviceability."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

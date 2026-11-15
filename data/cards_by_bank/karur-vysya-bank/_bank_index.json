@@ -1,14 +1,13 @@
 {
   "bank": "Karur Vysya Bank",
   "bank_slug": "karur-vysya-bank",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 3,
   "ltf_count": 0,
   "rupay_upi_count": 0,
   "domestic_lounge_count": 1,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 0,
   "with_image_count": 3,
   "official_lounge_programs": [],
@@ -18,42 +17,30 @@
       "card_name": "Karur Vysya Bank SBI Credit Card",
       "card_slug": "karur-vysya-bank-sbi-credit-card",
       "primary_category": "Cashback",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 499,
       "overall_rating": 3.7,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/karur-vysya-bank/karur-vysya-bank-sbi-credit-card.webp",
-      "json_file": "karur-vysya-bank-sbi-credit-card.json",
-      "md_file": "karur-vysya-bank-sbi-credit-card.md"
+      "json_path": "data/cards_by_bank/karur-vysya-bank/karur-vysya-bank-sbi-credit-card.json",
+      "md_path": "data/cards_by_bank/karur-vysya-bank/karur-vysya-bank-sbi-credit-card.md"
     },
     {
       "card_id": "karur_vysya_bank_kvb_honour_credit_card",
       "card_name": "KVB Honour Credit Card",
       "card_slug": "kvb-honour-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 999,
       "overall_rating": 3.34,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/karur-vysya-bank/kvb-honour-credit-card.webp",
-      "json_file": "kvb-honour-credit-card.json",
-      "md_file": "kvb-honour-credit-card.md"
+      "json_path": "data/cards_by_bank/karur-vysya-bank/kvb-honour-credit-card.json",
+      "md_path": "data/cards_by_bank/karur-vysya-bank/kvb-honour-credit-card.md"
     },
     {
       "card_id": "karur_vysya_bank_kvb_platinum_credit_card",
       "card_name": "KVB Platinum Credit Card",
       "card_slug": "kvb-platinum-credit-card",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa",
       "annual_fee_inr": 599,
       "overall_rating": 3.15,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/karur-vysya-bank/kvb-platinum-credit-card.webp",
-      "json_file": "kvb-platinum-credit-card.json",
-      "md_file": "kvb-platinum-credit-card.md"
+      "json_path": "data/cards_by_bank/karur-vysya-bank/kvb-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/karur-vysya-bank/kvb-platinum-credit-card.md"
     }
   ]
 }

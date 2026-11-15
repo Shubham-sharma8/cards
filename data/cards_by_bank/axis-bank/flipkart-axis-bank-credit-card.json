@@ -38,7 +38,9 @@
     "bank_url": "https://www.axis.bank.in/cards/credit-card",
     "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-01"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -129,7 +131,109 @@
         "1% fuel surcharge waiver for transactions worth Rs. 400 to Rs. 4,000 (Maximum waiver of Rs. 400 in a month)",
         "Annual fee waiver on annual spends of Rs. 3.5 Lakh"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Flipkart Axis Bank Credit Card Fees and Welcome Benefits",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "₹250 Flipkart Voucher on first transaction"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹3.5 lakh in a membership year (excluding rent and wallet load transactions)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Flipkart Axis Bank Credit Card Cashback",
+        "headers": [
+          "Category",
+          "Cashback"
+        ],
+        "rows": [
+          [
+            "Myntra",
+            "7.5% cashback (up to ₹4000 per statement quarter)"
+          ],
+          [
+            "Flipkart",
+            "5% cashback (up to ₹4000 per statement quarter)"
+          ],
+          [
+            "Cleartrip",
+            "5% cashback (up to ₹4000 per statement quarter)"
+          ],
+          [
+            "Swiggy Food, Uber, PVR, Cult.fit",
+            "4% cashback"
+          ],
+          [
+            "Other Eligible Spends",
+            "1% cashback"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "Flipkart Axis Bank Credit Card Fuel Surcharge Waiver",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1%"
+          ],
+          [
+            "Eligible Transaction Amount",
+            "₹400 to ₹4000"
+          ],
+          [
+            "Maximum Waiver",
+            "₹400 per statement cycle"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-3",
+        "kind": "lounge_access",
+        "title": "Flipkart Axis Bank Credit Card Airport Lounge Access",
+        "headers": [
+          "Lounge Benefit",
+          "Availability"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "Not Available"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Not Available"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -273,6 +377,11 @@
         "q": "Can I use Flipkart Axis Bank Credit Card anywhere?",
         "a": "Yes, you can use Flipkart Axis Bank Credit Card for both online and offline transactions. However, the accelerated cashback benefits are limited to spends at Flipkart, Cleartrip, and their partner brands. You can also check the usage restrictions of your card by logging into your net banking account."
       }
+    ],
+    "program_updates_2026": [
+      "The Flipkart Axis Bank Credit Card no longer offers complimentary airport lounge access. Earlier versions of the card included domestic airport lounge visits, but this benefit has since been discontinued.",
+      "The removal of lounge access is one of the biggest devaluations the card has seen. While this does not affect its appeal as a cashback credit card, it does make the Flipkart Axis Bank Credit Card less attractive for frequent travellers. If airport lounge access is important to you, there are several other cards in the same fee range that offer complimentary domestic lounge visits.",
+      "For most Flipkart and Myntra shoppers, we believe the Flipkart Axis Bank Credit Card remains one of the best cashback credit cards in India despite recent devaluations."
     ]
   },
   "ratings": {

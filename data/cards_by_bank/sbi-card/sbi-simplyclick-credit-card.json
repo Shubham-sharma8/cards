@@ -39,7 +39,9 @@
     "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
     "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -134,7 +136,107 @@
         "Annual Fee Reversal : Annual fee of Rs. 499 reversed on reaching annual spends of Rs. 1 Lakh",
         "Fuel Surcharge Waiver : 1% fuel surcharge waiver on transactions of Rs. 500 to Rs. 3,000, up to Rs. 100 per month"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "eligibility-0",
+        "kind": "eligibility",
+        "title": "SBI SimplyCLICK Credit Card Eligibility Criteria",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Credit Score",
+            "750+"
+          ],
+          [
+            "Occupation",
+            "Self-Employed or Salaried"
+          ],
+          [
+            "Minimum Monthly Income (Salaried)",
+            "₹20,000+"
+          ],
+          [
+            "Minimum Monthly Income (Self-Employed)",
+            "₹30,000+"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "SBI SimplyCLICK Credit Card Fees & Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST ~₹589"
+          ],
+          [
+            "Welcome Benefit",
+            "₹500 Amazon Gift Card"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST ~₹589"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹1 Lakh annual spends"
+          ],
+          [
+            "Interest Rate",
+            "3.5% per month (42% annually)"
+          ],
+          [
+            "Forex Markup",
+            "3.5% + GST"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "SBI SimplyCLICK Rewards Structure",
+        "headers": [
+          "Spend Category",
+          "Reward Points",
+          "Effective Return"
+        ],
+        "rows": [
+          [
+            "Offline Purchases",
+            "1 RP/₹100",
+            "0.25%"
+          ],
+          [
+            "Online Purchases (except 10X partners)",
+            "5 RP/₹100",
+            "1.25%"
+          ],
+          [
+            "Online Purchases (10X partners) – Apollo 24|7, BookMyShow, Cleartrip, Dominos, IGP, Myntra, Netmeds, Swiggy, and Yatra",
+            "10 RP/₹100",
+            "2.5%"
+          ],
+          [
+            "Rent, Fuel, Wallet and Government Spends",
+            "No Rewards",
+            "NIL"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -293,6 +395,9 @@
         "q": "Which credit cards are similar to SBI SimplyCLICK credit card?",
         "a": "Other entry-level credit cards offering benefits similar to SBI SimplyCLICK are YES Bank Issuer / Market Paisasave Credit Card, HDFC Moneyback+ Credit Card, American Express SmartEarn Credit Card, Axis My Zone, Flipkart Axis and Swiggy HDFC Credit Card. These cards cater to the online shopping category, along with offering excellent value-back on select brands."
       }
+    ],
+    "program_updates_2026": [
+      "Note: No statement credit or cashback options available."
     ]
   },
   "ratings": {

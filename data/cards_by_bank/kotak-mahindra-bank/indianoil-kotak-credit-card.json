@@ -40,7 +40,9 @@
     "bank_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
     "mitc_pdf_url": "https://www.kotak.bank.in/content/dam/Kotak/files/english-rcas.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -140,7 +142,122 @@
         "1,000 bonus reward points on spending Rs. 500 within 30 days of card issuance",
         "Annual fee waiver on spending Rs. 50,000 in a year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IndianOil Kotak Credit Card: Key Highlights",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹449 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹449 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹50,000 in an anniversary year"
+          ],
+          [
+            "Welcome Benefit",
+            "1000 Reward Points on spending ₹500 within 30 days of card issuance, applicable on paid cards"
+          ],
+          [
+            "IndianOil Fuel Spends",
+            "24 Reward Points per ₹150 ~3.2% return"
+          ],
+          [
+            "Fuel Reward Cap",
+            "1200 Reward Points per statement cycle"
+          ],
+          [
+            "Grocery & Dining",
+            "12 Reward Points per ₹150 ~1.6% return"
+          ],
+          [
+            "Grocery & Dining Cap",
+            "800 Reward Points per statement cycle"
+          ],
+          [
+            "Other Spends",
+            "3 Reward Points per ₹150 ~0.4% return"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% at IndianOil outlets on transactions of ₹100 to ₹5000"
+          ],
+          [
+            "Surcharge Waiver Cap",
+            "₹100 per statement cycle"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "IndianOil Kotak Credit Card: Fees and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹449 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "1000 Reward Points on spending ₹500 within 30 days of card issuance, applicable on paid cards, worth ₹200 as statement cashback"
+          ],
+          [
+            "Annual Fee",
+            "₹449 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹50,000 of retail spends in a year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "IndianOil Kotak Credit Card: Rewards Program",
+        "headers": [
+          "Spend Category",
+          "Reward Points",
+          "Effective Cashback Value",
+          "Cap"
+        ],
+        "rows": [
+          [
+            "IndianOil Fuel",
+            "24 RP per ₹150",
+            "3.2%",
+            "1200 RP/cycle"
+          ],
+          [
+            "Grocery & Dining",
+            "12 RP per ₹150",
+            "1.6%",
+            "800 RP/cycle"
+          ],
+          [
+            "Other Eligible Spends",
+            "3 RP per ₹150",
+            "0.4%",
+            "No specific cap"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -281,6 +398,22 @@
       {
         "q": "What is the limit for contactless payments with IndianOil Kotak Credit Card?",
         "a": "IndianOil Kotak Credit Card allows secure and quick Tap & Pay transactions for up to Rs. 5,000 per transaction using the contactless payment feature."
+      },
+      {
+        "question": "What is the reward rate on the IndianOil Kotak Credit Card?",
+        "answer": "You earn 24 Reward Points per ₹150 on IndianOil fuel spends. At ₹0.20 per point for cashback, this works out to 3.2% cashback. If redeemed at ₹0.25 per point on Kotak Rewards, the value goes up to 4%."
+      },
+      {
+        "question": "What is the reward cap on the IndianOil Kotak Credit Card?",
+        "answer": "You can earn up to 1200 Reward Points per billing cycle on IndianOil fuel spends. The cap is reached at ₹7500 of eligible fuel spends."
+      },
+      {
+        "question": "How much cashback can I earn on ₹7500 of IndianOil fuel spends?",
+        "answer": "On ₹7500 of eligible IndianOil fuel spends, you earn 1200 Reward Points worth ₹240 as cashback. If redeemed through Kotak Rewards at ₹0.25 per point, the same points are worth ₹300."
+      },
+      {
+        "question": "Does the IndianOil Kotak Credit Card offer a fuel surcharge waiver?",
+        "answer": "Yes. You get a 1% fuel surcharge waiver on eligible IndianOil transactions. On ₹7500 of fuel spends, this can add up to ₹75, subject to the applicable transaction limits and billing cycle cap."
       }
     ]
   },
@@ -301,13 +434,19 @@
       "Up to 5% value back on IndianOil spends",
       "Accelerated rewards (2%) on day-to-day spends, including grocery & dining",
       "Easily achievable spending milestone for annual fee waiver",
-      "Base reward rate on UPI spends with RuPay variant"
+      "Base reward rate on UPI spends with RuPay variant",
+      "Low annual fee of ₹449 + GST",
+      "Easy ₹50,000 annual fee waiver",
+      "Good rewards on IndianOil fuel spends"
     ],
     "cons": [
       "Monthly capping on accelerated reward points",
       "Low reward redemption value of Rs. 0.25 per reward point",
       "No fuel surcharge waiver on spends at fuel stations other than IndianOil",
-      "Reward redemption against cashback is a limited-period offer"
+      "Reward redemption against cashback is a limited-period offer",
+      "Effective fuel cashback is 3.2%",
+      "Grocery and dining rewards are average",
+      "Poor value on regular spends"
     ],
     "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
     "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",

@@ -1,14 +1,13 @@
 {
   "bank": "South Indian Bank",
   "bank_slug": "south-indian-bank",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 1,
   "ltf_count": 1,
   "rupay_upi_count": 0,
   "domestic_lounge_count": 0,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 1,
   "with_image_count": 1,
   "official_lounge_programs": [],
@@ -18,14 +17,10 @@
       "card_name": "South Indian Bank OneCard – Contactless Credit Card",
       "card_slug": "south-indian-bank-onecard-contactless-credit-card",
       "primary_category": "Lifetime Free",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.5,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/south-indian-bank/south-indian-bank-onecard-contactless-credit-card.webp",
-      "json_file": "south-indian-bank-onecard-contactless-credit-card.json",
-      "md_file": "south-indian-bank-onecard-contactless-credit-card.md"
+      "json_path": "data/cards_by_bank/south-indian-bank/south-indian-bank-onecard-contactless-credit-card.json",
+      "md_path": "data/cards_by_bank/south-indian-bank/south-indian-bank-onecard-contactless-credit-card.md"
     }
   ]
 }

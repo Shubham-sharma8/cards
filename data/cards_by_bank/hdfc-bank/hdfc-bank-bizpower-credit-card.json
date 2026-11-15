@@ -67,7 +67,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -166,7 +168,445 @@
         "Spend Rs. 2.5 Lakh in a quarter6 and get gift voucher worth Rs. 5,000 from MakeMyTrip or Reliance Digital",
         "1 zero domestic flight cancellation of up to Rs. 1,200 per quarter, made via MakeMyTrip on reaching Rs. 75,000 quarterly spends"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HDFC BizPower Credit Card: At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Business Credit Card"
+          ],
+          [
+            "Network",
+            "Visa / Mastercard"
+          ],
+          [
+            "Joining Fee",
+            "₹2500 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹2500 + GST (waived on ₹4 lakh annual spends)"
+          ],
+          [
+            "Welcome Benefit",
+            "Amazon Prime Annual Membership or ₹1500 Amazon Voucher"
+          ],
+          [
+            "Base Reward Rate",
+            "5 Reward Points per ₹200 on eligible spends"
+          ],
+          [
+            "Best Reward Rate",
+            "5X Reward Points on eligible business spends (subject to ₹25,000 non-tax monthly spend and reward caps)"
+          ],
+          [
+            "Quarterly Milestone",
+            "₹5000 MakeMyTrip or Reliance Digital Voucher on ₹2.5 lakh quarterly spends"
+          ],
+          [
+            "Lounge Access",
+            "2 domestic visits per quarter (spend-based) + 6 international Priority Pass visits"
+          ],
+          [
+            "Forex Markup",
+            "2% + GST"
+          ],
+          [
+            "Best For",
+            "Business owners with regular tax, advertising and business expenses"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Fee Type",
+          "Charges"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹2500 + GST"
+          ],
+          [
+            "Annual Renewal Fee",
+            "₹2500 + GST"
+          ],
+          [
+            "Joining Benefit",
+            "Amazon Prime Annual Membership or ₹1500 Amazon Voucher on completing one eligible transaction within 30 days"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹4 lakh in the card anniversary year"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-2",
+        "kind": "eligibility",
+        "title": "Eligibility",
+        "headers": [
+          "Criteria",
+          "Requirement"
+        ],
+        "rows": [
+          [
+            "Applicant Type",
+            "Self-employed professionals, proprietors and business owners"
+          ],
+          [
+            "Age",
+            "21-65 years"
+          ],
+          [
+            "Minimum Income",
+            "Annual ITR above ₹6 lakh"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-3",
+        "kind": "other_table",
+        "title": "HDFC BizPower Credit Card Welcome Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Welcome Gift",
+            "Amazon Prime Annual Membership or a ₹1500 Amazon Voucher."
+          ],
+          [
+            "How to Qualify",
+            "Complete one eligible transaction within 30 days of card issuance."
+          ],
+          [
+            "Eligible Categories",
+            "Income Tax, GST, flight or hotel bookings, Google Ads and Meta Ads."
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-4",
+        "kind": "reward_structure",
+        "title": "HDFC BizPower Credit Card Reward Points",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Approx. Return*"
+        ],
+        "rows": [
+          [
+            "Eligible Retail Spends",
+            "5 Reward Points per ₹200",
+            "Up to 1.63%"
+          ],
+          [
+            "Income Tax Payments",
+            "25 Reward Points per ₹200 (5X)",
+            "Up to 8.13%"
+          ],
+          [
+            "GST Payments",
+            "25 Reward Points per ₹200 (5X)",
+            "Up to 8.13%"
+          ],
+          [
+            "Google Ads & Meta Ads",
+            "25 Reward Points per ₹200 (5X)",
+            "Up to 8.13%"
+          ],
+          [
+            "PayZapp & SmartPay Bill Payments",
+            "25 Reward Points per ₹200 (5X)",
+            "Up to 8.13%"
+          ],
+          [
+            "MMT MyBiz Flight & Hotel Bookings",
+            "25 Reward Points per ₹200 (5X)",
+            "Up to 8.13%"
+          ],
+          [
+            "Business Software via BizDeals",
+            "25 Reward Points per ₹200 (5X)",
+            "Up to 8.13%"
+          ],
+          [
+            "SmartBuy",
+            "Up to 10X Reward Points",
+            "Varies by offer"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-5",
+        "kind": "reward_structure",
+        "title": "HDFC BizPower Income Tax & GST Payment Benefits",
+        "headers": [
+          "Transaction",
+          "Reward Rate",
+          "Approx. Return*",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "Income Tax & Advance Tax",
+            "25 Reward Points per ₹200 (5X)",
+            "Up to 8.13%",
+            "7500 Bonus RP (≈ ₹75,000 spend)"
+          ],
+          [
+            "GST Payments",
+            "25 Reward Points per ₹200 (5X)",
+            "Up to 8.13%",
+            "Shared 7500 Bonus RP"
+          ]
+        ]
+      },
+      {
+        "id": "accelerated_partners-6",
+        "kind": "accelerated_partners",
+        "title": "HDFC BizPower SmartBuy Benefits",
+        "headers": [
+          "SmartBuy Category",
+          "Reward Rate",
+          "Approx. Return*"
+        ],
+        "rows": [
+          [
+            "Hotels",
+            "10X Reward Points",
+            "Up to 16.25%"
+          ],
+          [
+            "IGP",
+            "10X Reward Points",
+            "Up to 16.25%"
+          ],
+          [
+            "Jockey",
+            "10X Reward Points",
+            "Up to 16.25%"
+          ],
+          [
+            "PharmEasy",
+            "10X Reward Points",
+            "Up to 16.25%"
+          ],
+          [
+            "Flights",
+            "5X Reward Points",
+            "Up to 8.13%"
+          ],
+          [
+            "Buses",
+            "5X Reward Points",
+            "Up to 8.13%"
+          ],
+          [
+            "MakeMyTrip Holiday Packages",
+            "5X Reward Points",
+            "Up to 8.13%"
+          ],
+          [
+            "Duty Free (Adani One)",
+            "5X Reward Points",
+            "Up to 8.13%"
+          ],
+          [
+            "Drivado",
+            "5X Reward Points",
+            "Up to 8.13%"
+          ],
+          [
+            "Myntra",
+            "5X Reward Points",
+            "Up to 8.13%"
+          ],
+          [
+            "Brand Vouchers (Gyftr/Woohoo)",
+            "5X Reward Points",
+            "Up to 8.13%"
+          ],
+          [
+            "Apple Imagine & Tresor",
+            "5X Reward Points",
+            "Up to 8.13%"
+          ],
+          [
+            "Train Bookings (ConfirmTkt / MMT Trains)",
+            "3X Reward Points",
+            "Up to 4.88%"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-7",
+        "kind": "lounge_access",
+        "title": "HDFC BizPower Airport Lounge & Travel Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "2 complimentary visits per calendar quarter on spending ₹75,000 in the previous calendar quarter"
+          ],
+          [
+            "International Airport Lounge Access",
+            "6 complimentary visits per calendar year via Priority Pass"
+          ],
+          [
+            "Forex Markup",
+            "2%+GST"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-8",
+        "kind": "milestone_benefits",
+        "title": "HDFC BizPower Milestone Benefits",
+        "headers": [
+          "Quarterly Spend",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "₹2.5 lakh",
+            "₹5000 MakeMyTrip Voucher or ₹5000 Reliance Digital Voucher"
+          ],
+          [
+            "Maximum Benefit",
+            "Up to ₹20,000 worth of vouchers in a calendar year (4 milestones)"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-9",
+        "kind": "redemption_catalog",
+        "title": "HDFC BizPower Reward Point Redemption",
+        "headers": [
+          "Redemption Option",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Business Catalogue",
+            "Up to ₹0.65 per Reward Point"
+          ],
+          [
+            "SmartBuy Flights & Hotels",
+            "Up to ₹0.50 per Reward Point"
+          ],
+          [
+            "Product Catalogue",
+            "Up to ₹0.35 per Reward Point"
+          ],
+          [
+            "Statement Credit",
+            "₹0.15 per Reward Point"
+          ],
+          [
+            "Airmiles Transfer",
+            "Up to 0.5 airline mile per Reward Point*"
+          ],
+          [
+            "Reward Point Validity",
+            "2 years"
+          ],
+          [
+            "Minimum for Statement Credit",
+            "2,500 Reward Points"
+          ],
+          [
+            "SmartBuy Redemption",
+            "Up to 70% of the booking value"
+          ],
+          [
+            "Product & Voucher Redemption",
+            "Up to 70% of the value"
+          ],
+          [
+            "Reward Redemption Fee",
+            "₹99 + GST per request"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-10",
+        "kind": "fees_and_charges",
+        "title": "Forex Markup Fee & Global Value Program",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex Markup Fee",
+            "2% + GST"
+          ],
+          [
+            "Global Value Benefit",
+            "1% cashback on eligible international spends"
+          ],
+          [
+            "Maximum Cashback",
+            "₹1000 per statement cycle"
+          ]
+        ]
+      },
+      {
+        "id": "hdfc-smartbuy-gyftr-caps-july-2026",
+        "kind": "accelerated_partners",
+        "title": "HDFC SmartBuy Monthly & GyFTR Voucher Caps (July 2026)",
+        "note": "Effective 1 July 2026, SmartBuy GyFTR & Woohoo brand vouchers carry a carved-out 3,000 Bonus RP/month sub-limit inside the overall SmartBuy monthly cap.",
+        "headers": [
+          "Card Variant",
+          "Overall SmartBuy Cap/Mo",
+          "GyFTR/Woohoo Cap",
+          "Max Spend for 3,000 Bonus RP"
+        ],
+        "rows": [
+          [
+            "HDFC Infinia / Infinia Metal",
+            "15,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month (5X)"
+          ],
+          [
+            "HDFC Diners Club Black Metal",
+            "10,000 Bonus RP",
+            "3,000 Bonus RP",
+            "~₹45,000 / month (3X)"
+          ],
+          [
+            "HDFC BizBlack Metal",
+            "7,500–15,000 RP",
+            "3,000 Bonus RP",
+            "~₹30,000 / month"
+          ],
+          [
+            "HDFC Regalia Gold",
+            "4,000 RP (capped)",
+            "Sub-cap applies",
+            "5X via Instant Voucher / Myntra / Nykaa"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -912,7 +1352,23 @@
       {
         "q": "What is the annual fee for a Biz Power credit card?",
         "a": "HDFC Bank Biz Power Credit Card comes at an annual fee of Rs. 2,500."
+      },
+      {
+        "question": "What is the annual fee for the HDFC BizPower Credit Card?",
+        "answer": "The HDFC BizPower Credit Card has a joining fee and annual renewal fee of ₹2500 + GST. The renewal fee is waived on annual spends of ₹4 lakh during the card anniversary year."
+      },
+      {
+        "question": "What welcome benefits does the HDFC BizPower Credit Card offer?",
+        "answer": "Complete one eligible transaction within 30 days of card issuance to choose either an Amazon Prime Annual Membership or a ₹1500 Amazon Voucher. Eligible transactions include Income Tax, GST, Google Ads, Meta Ads, flight bookings and hotel bookings."
+      },
+      {
+        "question": "How do I earn 5X Reward Points on the HDFC BizPower Credit Card?",
+        "answer": "Spend at least ₹25000 on eligible non-tax transactions in a statement cycle. Once this requirement is met, eligible spends on Income Tax, GST, Google Ads, Meta Ads, PayZapp & SmartPay bill payments, MMT MyBiz bookings and business software purchases earn 25 Reward Points per ₹200. Accelerated rewards are capped at 7500 Reward Points per statement cycle."
       }
+    ],
+    "program_updates_2026": [
+      "1 July 2026 SmartBuy Update: GyFTR & Woohoo brand vouchers carry a separate 3,000 Bonus RP/month sub-cap (~₹30k spend on Infinia, ~₹45k on DCB Metal).",
+      "Note: HDFC Bank periodically updates SmartBuy partners, reward rates and promotional offers. Always verify the latest eligible merchants and reward multipliers on the SmartBuy portal before making a high-value purchase."
     ]
   },
   "ratings": {
@@ -934,12 +1390,19 @@
       "Accelerated rewards on business-related expenses including travel spends",
       "Multiple redemption options",
       "Decent reward rate on non-business spends",
-      "Quarterly milestone benefit"
+      "Quarterly milestone benefit",
+      "5X Reward Points on eligible business spends, including Income Tax, GST, online advertising, business travel and software purchases.",
+      "Quarterly milestone benefit worth up to ₹20,000 a year.",
+      "Up to 10X Reward Points on selected SmartBuy merchants."
     ],
     "cons": [
       "5X rewards capped at 7,500 reward points in a month",
       "Exclusion of fuel and rental transactions from quarterly milestone benefit calculation",
-      "Minimum reward limit for redemption is high at 2,500 points"
+      "Minimum reward limit for redemption is high at 2,500 points",
+      "5X rewards require ₹25,000 of eligible non-tax spends in a statement cycle.",
+      "Accelerated rewards are capped at 7500 Reward Points per statement cycle.",
+      "Only the first two Income Tax and first two GST transactions in a statement cycle earn Reward Points.",
+      "Domestic lounge access requires ₹75,000 spend in the previous calendar quarter."
     ],
     "best_for_whom": "Proprietors, MSMEs & self-employed professionals separating GST/tax/vendor expenses",
     "not_ideal_for": "Salaried individuals with strictly personal spends",

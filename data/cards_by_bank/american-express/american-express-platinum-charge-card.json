@@ -126,12 +126,41 @@
       "Fuel, utilities, insurance, cash/EMI; note 2026 chatter around Charge card MR changes"
     ],
     "transfer_partners": [
-      "Marriott Bonvoy (1:1)",
-      "Hilton Honors",
-      "British Airways",
-      "Singapore Airlines",
-      "Virgin Atlantic",
-      "Taj Experiences"
+      {
+        "partner": "Marriott Bonvoy",
+        "ratio": "1:1 (100 MR = 100 Pts)",
+        "notes": "Best hotel sweet spot"
+      },
+      {
+        "partner": "Hilton Honors",
+        "ratio": "1:1.5 (1,000 MR = 1,500 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Virgin Atlantic Flying Club",
+        "ratio": "5:4 (800 MR = 640 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Singapore KrisFlyer",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Asia Miles (Cathay)",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Qatar Privilege Club",
+        "ratio": "2:1 (500 MR = 250 Avios)",
+        "notes": "Avios transferable to BA"
+      },
+      {
+        "partner": "British Airways Executive Club",
+        "ratio": "2:1 (1,200 MR = 600 Avios)",
+        "notes": "Emirates suspended / Etihad removed Jul 2026"
+      }
     ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 66000,
@@ -142,7 +171,65 @@
       "milestone_slabs": [
         "No fixed spend waiver; value derives from hotel elite tiers, dining & lounge network"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "amex-india-transfer-partners-2026",
+        "kind": "transfer_partners",
+        "title": "Amex Membership Rewards Transfer Partners (Nov 2026)",
+        "note": "Emirates Skywards suspended May 2025 · Club Vistara merged into Air India · Etihad Guest removed 1 July 2026 · Hilton (1:1.5) and Virgin Atlantic (5:4) improved Aug 2026.",
+        "headers": [
+          "Partner",
+          "Type",
+          "Conversion Rate",
+          "Ratio"
+        ],
+        "rows": [
+          [
+            "Marriott Bonvoy",
+            "Hotel",
+            "100 MR = 100 Marriott Bonvoy Points",
+            "1:1"
+          ],
+          [
+            "Hilton Honors",
+            "Hotel",
+            "1,000 MR = 1,500 Hilton Honors Points",
+            "1:1.5 (Boosted Aug 2026)"
+          ],
+          [
+            "Virgin Atlantic Flying Club",
+            "Airline",
+            "800 MR = 640 Virgin Points",
+            "5:4 (Boosted Aug 2026)"
+          ],
+          [
+            "Singapore KrisFlyer",
+            "Airline",
+            "800 MR = 400 KrisFlyer Miles",
+            "2:1"
+          ],
+          [
+            "Asia Miles (Cathay)",
+            "Airline",
+            "800 MR = 400 Asia Miles",
+            "2:1"
+          ],
+          [
+            "Qatar Privilege Club",
+            "Airline",
+            "500 MR = 250 Avios",
+            "2:1"
+          ],
+          [
+            "British Airways Executive Club",
+            "Airline",
+            "1,200 MR = 600 Avios",
+            "2:1"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -551,7 +638,12 @@
       "24x7 Platinum Concierge & Fine Hotels + Resorts (FHR) $100 property credits"
     ],
     "get_this_card_if": [],
-    "faqs": []
+    "faqs": [],
+    "program_updates_2026": [
+      "New Applications Paused: American Express has temporarily paused new card applications in India (existing cardholders unaffected).",
+      "From 15 November 2026: Amex counts monthly milestone transactions by posting date (not transaction date) and keeps MR pools separate per card.",
+      "Transfer Partners Updated (Aug–Nov 2026): Hilton Honors improved to 1:1.5 (1,000:1,500), Virgin Atlantic improved to 5:4 (800:640), Etihad Guest removed 1 July 2026, Emirates Skywards suspended."
+    ]
   },
   "ratings": {
     "overall_market_rating": 3.66,

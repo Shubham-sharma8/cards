@@ -41,7 +41,9 @@
     "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
     "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -137,7 +139,178 @@
         "Renewal fee can be waived off on spending more than Rs. 2 lakh in the previous year",
         "1% fuel surcharge waiver, up to Rs. 200 per month, on fuel spends of Rs. 500 to Rs. 4,000"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Eternal SBI Credit Card at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Annual spends exceeding ₹2 lakh"
+          ],
+          [
+            "Zomato",
+            "10% instant discount"
+          ],
+          [
+            "Blinkit",
+            "5% on groceries, 10% on beauty and electronics"
+          ],
+          [
+            "District",
+            "10% instant discount"
+          ],
+          [
+            "Partner Brands",
+            "5% cashback on Uber, Urban Company and Apollo 24/7; 4% instant discount + 1% cashback on ixigo"
+          ],
+          [
+            "Other Spends",
+            "1% cashback"
+          ],
+          [
+            "Monthly Reward Cap",
+            "₹2,000 on Eternal platforms + ₹1,000 on partner brands + ₹500 on other eligible spends"
+          ],
+          [
+            "Welcome Benefit",
+            "6 months of Zomato Gold"
+          ],
+          [
+            "Movie Benefit",
+            "Buy 1 Get 1 on District, up to ₹200/month"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "Up to ₹200 per statement cycle"
+          ],
+          [
+            "Card Network",
+            "Mastercard and RuPay"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Eternal SBI Credit Card Fees and Charges",
+        "headers": [
+          "Fee Type",
+          "Charges"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On annual spends exceeding ₹2 lakh"
+          ],
+          [
+            "Forex Markup",
+            "3.5%"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Eternal SBI Credit Card Rewards",
+        "headers": [
+          "Category",
+          "Reward Rate",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "Zomato, District and Bistro",
+            "10% instant discount",
+            "₹2,000 shared across Eternal platforms"
+          ],
+          [
+            "Blinkit Beauty & Electronics",
+            "10% instant discount",
+            "Same ₹2,000 shared cap"
+          ],
+          [
+            "Blinkit Groceries and other categories",
+            "5% instant discount",
+            "Same ₹2,000 shared cap"
+          ],
+          [
+            "Uber, Urban Company and Apollo 24/7",
+            "5% cashback",
+            "₹1,000 shared across partners"
+          ],
+          [
+            "ixigo flights and hotels",
+            "4% instant discount with code IXIGOSBI + 1% cashback",
+            "Same ₹1,000 shared cap"
+          ],
+          [
+            "Other Eligible Spends, including RuPay UPI payments to merchants",
+            "1% cashback",
+            "₹500"
+          ],
+          [
+            "No Cashback",
+            "Fuel, rent, insurance, utilities, education, government payments, wallet loading, jewellery, gift cards, gaming and EMI transactions",
+            "–"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "Eternal SBI Credit Card vs Other Cashback Credit Cards",
+        "headers": [
+          "Credit Card",
+          "Key Cashback Benefit",
+          "Monthly Cap"
+        ],
+        "rows": [
+          [
+            "Eternal SBI",
+            "10% on Zomato and District; 5% on Blinkit groceries",
+            "₹2,000 shared across Eternal platforms"
+          ],
+          [
+            "HSBC Live+",
+            "10% on dining, food delivery, groceries, shopping and utility bills",
+            "₹1,200"
+          ],
+          [
+            "Swiggy BLCK",
+            "10% on Swiggy, Instamart and Dineout",
+            "₹1,500"
+          ],
+          [
+            "SBI Cashback",
+            "5% on eligible online spending",
+            "₹2,000 for online cashback"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -245,7 +418,32 @@
       "You often go out to watch movies in theatre and want a credit card with good saving options on movie spends",
       "You are looking for a credit card with low annual fee and easily achievable fee waiver condition"
     ],
-    "faqs": []
+    "faqs": [
+      {
+        "question": "Is the Eternal SBI Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹499 + GST and the annual fee is ₹499 + GST. The annual fee is waived when you spend more than ₹2 lakh in a year."
+      },
+      {
+        "question": "How do I apply for the Eternal SBI Credit Card?",
+        "answer": "You can request access through the Zomato, Blinkit or District app. SBI Card started issuing the card on 22 October 2026 and is rolling it out in phases."
+      },
+      {
+        "question": "What is the discount cap on the Eternal SBI Credit Card?",
+        "answer": "The instant discounts on Zomato, District and Blinkit share one cap of ₹2,000 a month. Partner cashback is capped at ₹1,000 and cashback on other spends at ₹500."
+      },
+      {
+        "question": "Does the Eternal SBI Credit Card work on UPI?",
+        "answer": "Yes, on the RuPay variant. Eligible UPI payments to merchants earn 1% cashback, within the ₹500 monthly cap on other spends."
+      },
+      {
+        "question": "What is the forex markup on the Eternal SBI Credit Card?",
+        "answer": "It is 3.5% plus GST on foreign currency spends, so it is not a card to use abroad."
+      }
+    ],
+    "program_updates_2026": [
+      "The Eternal SBI Credit Card is now open for applications. SBI Card started issuing it on 22 October 2026 and is rolling it out in phases, so you can request access through the Zomato, Blinkit or District app. The card is issued on Mastercard and RuPay.",
+      "You can request access through the Zomato, Blinkit or District app. SBI Card started issuing the card on 22 October 2026 and is rolling it out in phases."
+    ]
   },
   "ratings": {
     "overall_market_rating": 3.85,

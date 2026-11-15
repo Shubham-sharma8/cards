@@ -65,7 +65,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-03"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -160,7 +162,82 @@
         "Joining & Renewal benefits with Taj Taj Epicure membership and bonus 12,500 points",
         "Milestone benefits worth Rs. 6,000 from EaseMyTrip"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "ICICI Bank Emeralde Credit Card Fees & Annual Charges",
+        "headers": [
+          "Fee Type",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹12,000 + GST (₹14,160)"
+          ],
+          [
+            "Welcome Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee",
+            "₹12,000 + GST (₹14,160)"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹10 lakh in a membership year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "ICICI Bank Emeralde Credit Card Reward Points & Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Retail Transactions",
+            "4 Reward Points per ₹100 (up to ~1% value)"
+          ],
+          [
+            "Utility & Insurance Payments",
+            "1 Reward Point per ₹100 (up to ~0.25% value)"
+          ],
+          [
+            "Fuel & Government Transactions",
+            "No Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-2",
+        "kind": "lounge_access",
+        "title": "ICICI Bank Emeralde Credit Card Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "Unlimited complimentary access for the primary cardholder at participating lounges across India."
+          ],
+          [
+            "International Airport Lounge Access",
+            "Unlimited complimentary access for the primary cardholder through Priority Pass (for cards issued on or after 15 November 2024) or DreamFolks (for eligible earlier-issued cards)."
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -899,6 +976,26 @@
       {
         "q": "Is there any capping on reward earning on insurance spends?",
         "a": "Yes, you can earn rewards on insurance spends of up to Rs. 80,000 only."
+      },
+      {
+        "question": "Is the ICICI Bank Emeralde Credit Card worth it?",
+        "answer": "The ICICI Bank Emeralde Credit Card is worth considering if you value premium lifestyle benefits such as unlimited airport lounge access, golf privileges, and the BookMyShow offer. However, if maximizing rewards is your priority, there are better premium credit cards available in this price segment."
+      },
+      {
+        "question": "What is the reward rate of the ICICI Bank Emeralde Credit Card?",
+        "answer": "The card offers up to 4 Reward Points per ₹100 spent on retail transactions, translating to an effective reward rate of up to 1%. Utility and insurance transactions earn 1 Reward Point per ₹100, while fuel and government transactions do not earn Reward Points."
+      },
+      {
+        "question": "Does the ICICI Bank Emeralde Credit Card offer unlimited airport lounge access?",
+        "answer": "Yes. The card offers unlimited complimentary domestic and international airport lounge access for the primary cardholder. International lounge access is available through Priority Pass or DreamFolks, depending on the card issuance date."
+      },
+      {
+        "question": "Does the ICICI Bank Emeralde Credit Card have a forex markup fee?",
+        "answer": "Yes. The card charges a 2% forex markup plus applicable GST, making it a competitive option for international spending."
+      },
+      {
+        "question": "Does the ICICI Bank Emeralde Credit Card offer an annual fee waiver?",
+        "answer": "Yes. The annual fee of ₹12,000 + GST is waived if you spend ₹10 lakh or more during the membership year."
       }
     ]
   },
@@ -923,13 +1020,19 @@
       "Unlimited lounge access",
       "Inclusion of utility and insurance in rewards program",
       "Low forex markup fee",
-      "Benefit on movie tickets via BookMyShow"
+      "Benefit on movie tickets via BookMyShow",
+      "Unlimited domestic & international lounge access",
+      "Excellent BookMyShow offer",
+      "Low 2% forex markup"
     ],
     "cons": [
       "Low redemption value",
       "High spend threshold for complimentary golf benefits",
       "Birthday benefits limited to American Express cards",
-      "Limited redemption options/No miles conversion benefit"
+      "Limited redemption options/No miles conversion benefit",
+      "Average reward rate",
+      "No welcome or renewal benefits",
+      "Add-on cards don’t get lounge access"
     ],
     "best_for_whom": "High-income spenders maximizing ICICI Bank concierge, unlimited lounges & accelerated travel portals",
     "not_ideal_for": "Moderate spenders unlikely to cross annual fee waiver / extract >fee value",

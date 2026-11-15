@@ -39,7 +39,9 @@
     "bank_url": "https://www.hdfc.bank.in/credit-cards",
     "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -130,7 +132,77 @@
       "fee_waiver_spend_inr": 25000,
       "monthly_spend_for_waiver_inr": 2083,
       "milestone_slabs": []
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Fees & Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹99+GST / NIL"
+          ],
+          [
+            "Welcome Benefit",
+            "₹250 gift voucher (for 1st transaction within 37 days of card issuance)"
+          ],
+          [
+            "Annual Fee",
+            "₹99+GST / LTF"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹25,000 annual spend"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Category",
+          "CashPoints",
+          "Return",
+          "Cap"
+        ],
+        "rows": [
+          [
+            "Groceries, Dining & PayZapp",
+            "3%",
+            "0.75%",
+            "500 / calendar month"
+          ],
+          [
+            "Utilities",
+            "2%",
+            "0.50%",
+            "500/ calendar month"
+          ],
+          [
+            "Other Spends",
+            "1%",
+            "0.25%",
+            "500 / calendar month"
+          ],
+          [
+            "Rent, Wallet, Gift Vouchers, Education EMI, Fuel & Govt. Services",
+            "0%",
+            "NIL",
+            ""
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -267,6 +339,14 @@
       {
         "q": "Is there any capping on the reward points that can be earned on UPI spends through RuPay Credit Cards?",
         "a": "Yes, you earn CashPoints on every transaction of Rs. 100 or above, but there is a monthly capping of 500 points for each category. CashPoints can be redeemed as cashback, via the rewards catalogue, or through SmartBuy."
+      },
+      {
+        "question": "What is the reward value for the HDFC Bank UPI RuPay Credit Card?",
+        "answer": "The rewards are earned as CashPoints, where 1 CashPoint is valued at ₹0.25. You can earn up to 3% in CashPoints on specific categories, resulting in an effective value-back of 0.75%."
+      },
+      {
+        "question": "How do I waive the annual fee for this card?",
+        "answer": "The annual fee of ₹99 + GST is waived if you spend ₹25,000 or more within a card anniversary year. Many existing customers also receive this card as a Lifetime Free (LTF) offer."
       }
     ]
   },

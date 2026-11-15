@@ -38,7 +38,9 @@
     "bank_url": "https://www.axis.bank.in/cards/credit-card",
     "mitc_pdf_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -138,7 +140,222 @@
         "Annual fee waived off on spending Rs. 3.5 lakh in the previous year6",
         "Fuel surcharge waiver capped at Rs. 50 per month"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IndianOil Axis Bank Credit Card Key Highlights",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Fuel Rewards",
+            "Up to 4% value back at IndianOil outlets"
+          ],
+          [
+            "Online Rewards",
+            "1% value back"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on eligible fuel transactions"
+          ],
+          [
+            "Welcome Benefit",
+            "1250 EDGE Reward Points worth ₹250"
+          ],
+          [
+            "Network",
+            "RuPay"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹3.5 lakh annual spends"
+          ],
+          [
+            "UPI Support",
+            "Yes"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500+GST"
+          ],
+          [
+            "Annual Fee",
+            "₹500+GST"
+          ],
+          [
+            "Welcome Benefit",
+            "1250 EDGE Reward Points (worth ₹250) on the first fuel transaction within 30 days of card issuance"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹3.5 lakh in a card anniversary year (excluding rent, wallet and insurance transactions)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Rewards",
+        "headers": [
+          "Category",
+          "EDGE Reward Points",
+          "Reward Rate"
+        ],
+        "rows": [
+          [
+            "IndianOil Fuel",
+            "20 RP per ₹100",
+            "4%"
+          ],
+          [
+            "Online Purchases",
+            "5 RP per ₹100",
+            "1%"
+          ],
+          [
+            "All Other Purchases",
+            "1 RP per ₹100",
+            "0.2%"
+          ],
+          [
+            "Insurance, Gold & Jewellery, Wallet, Rent, Utilities, Government and Education Transactions",
+            "No Rewards",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-3",
+        "kind": "fees_and_charges",
+        "title": "Effective Return on Fuel Spends After Annual Fee",
+        "headers": [
+          "Particulars",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Monthly Fuel Spend",
+            "₹5000"
+          ],
+          [
+            "Annual Fuel Spend",
+            "₹60,000"
+          ],
+          [
+            "Annual Fuel Rewards (4%)",
+            "₹2400"
+          ],
+          [
+            "Annual Fee (Including GST)",
+            "₹590"
+          ],
+          [
+            "Net Annual Benefit",
+            "₹1810"
+          ],
+          [
+            "Effective Return After Fee",
+            "3.02%"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-4",
+        "kind": "fees_and_charges",
+        "title": "IndianOil Axis Bank Credit Card vs IndianOil Kotak Credit Card",
+        "headers": [
+          "Feature",
+          "IndianOil Axis Bank Credit Card",
+          "IndianOil Kotak Credit Card"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST",
+            "₹449 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST",
+            "₹449 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹3.5 lakh spends",
+            "₹50,000 spends"
+          ],
+          [
+            "Fuel Rewards",
+            "20 EDGE RP per ₹100 (4%)",
+            "24 RP per ₹150 (4%)"
+          ],
+          [
+            "Fuel Reward Cap",
+            "₹5000 fuel spends per month",
+            "1200 RP per statement cycle (equivalent to ₹7500 fuel spends)"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% up to ₹50 per statement",
+            "1% up to ₹100 per statement"
+          ],
+          [
+            "Online Shopping Rewards",
+            "1%",
+            "0.5%"
+          ],
+          [
+            "Grocery & Dining Rewards",
+            "No accelerated rewards",
+            "2% rewards"
+          ],
+          [
+            "Base Reward Rate",
+            "0.2%",
+            "0.5%"
+          ],
+          [
+            "UPI Support",
+            "Yes (RuPay)",
+            "Available on RuPay variant"
+          ],
+          [
+            "Welcome Benefit",
+            "1250 EDGE RP worth ₹250",
+            "1,000 Reward Points worth ₹250"
+          ],
+          [
+            "Airport Lounge Access",
+            "No",
+            "No"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -259,6 +476,26 @@
       {
         "q": "Which transactions are excluded from rewards program?",
         "a": "Spends made on rent, wallet, insurance, EMI, cash withdrawals, fee & charges, GST and payment reversals are not eligible for spend-based fee waiver."
+      },
+      {
+        "question": "Is the IndianOil Axis Bank Credit Card worth it?",
+        "answer": "The card can be worth considering if you regularly refuel at IndianOil outlets and spend up to ₹5000 per month on fuel. However, the ₹3.5 lakh annual fee waiver requirement makes it less attractive than before."
+      },
+      {
+        "question": "What is the reward rate on the IndianOil Axis Bank Credit Card?",
+        "answer": "The card offers 4% value back on eligible fuel spends at IndianOil outlets, 1% on online purchases, and 0.2% on most other eligible transactions."
+      },
+      {
+        "question": "What is the annual fee for the IndianOil Axis Bank Credit Card?",
+        "answer": "The card charges a joining fee and annual fee of ₹500 plus GST. The annual fee is waived on spending ₹3.5 lakh in a card anniversary year."
+      },
+      {
+        "question": "Does the IndianOil Axis Bank Credit Card offer fuel surcharge waiver?",
+        "answer": "Yes. The card offers a 1% fuel surcharge waiver on eligible fuel transactions between ₹400 and ₹4,000, subject to a maximum waiver of ₹50 per statement cycle."
+      },
+      {
+        "question": "Can I use the IndianOil Axis Bank Credit Card for UPI payments?",
+        "answer": "Yes. The card is issued on the RuPay network and can be linked with supported UPI apps for eligible transactions."
       }
     ]
   },
@@ -279,12 +516,20 @@
     "pros": [
       "4% value-back on fuel spends as reward points",
       "1% value-back on online shopping",
-      "10% discount on movie tickets booked via BookMyShow"
+      "10% discount on movie tickets booked via BookMyShow",
+      "Up to 4% value back on fuel spends at IndianOil fuel stations",
+      "Accelerated fuel rewards work across all IndianOil outlets",
+      "1% rewards on eligible online shopping transactions",
+      "Affordable ₹500 annual fee"
     ],
     "cons": [
       "Total accelerated value-back capped at Rs. 250",
       "Fuel surcharge waiver capped at Rs. 50 per month",
-      "High annual fee waiver condition of Rs. 3.5 Lakh"
+      "High annual fee waiver condition of Rs. 3.5 Lakh",
+      "4% fuel rewards capped at ₹5000 fuel spends per month",
+      "No rewards on insurance, rent, utility, education and government payments",
+      "Annual fee waiver requires ₹3.5 lakh yearly spending",
+      "Low base reward rate of 0.2% on regular spending"
     ],
     "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
     "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",

@@ -1,0 +1,533 @@
+{
+  "identity": {
+    "card_id": "equitas_small_finance_bank_equitas_selfe_credit_card",
+    "card_name": "Equitas Selfe Credit Card",
+    "bank": "Equitas Small Finance Bank",
+    "bank_slug": "equitas-small-finance-bank",
+    "card_slug": "equitas-selfe-credit-card",
+    "card_network": "Visa / RuPay",
+    "card_tier": "Mid-Tier",
+    "primary_category": "Cashback",
+    "categories": [
+      "Cashback",
+      "Online Shopping",
+      "Airport Lounge",
+      "RuPay & UPI"
+    ],
+    "status": "Active",
+    "schema_version": "2026.11-dossier-v2",
+    "generated_at": "2026-11-15T06:00:00+00:00"
+  },
+  "visual_assets": {
+    "image_url": null,
+    "local_image_path": "data/assets/card_images/equitas-small-finance-bank/equitas-selfe-credit-card.webp",
+    "image_source": "curated_card_asset",
+    "match_confidence": 0.96,
+    "has_verified_image": true,
+    "card_theme": {
+      "primary_hex": "#3C291F",
+      "secondary_hex": "#3C291F",
+      "wash_hex": "#D4CFCD",
+      "soft_bg_hex": "#EBE9E8",
+      "border_hex": "#DCE5E1",
+      "ink_on_soft_hex": "#3C291F",
+      "is_dark_card": true,
+      "source": "cardmaven_asset"
+    }
+  },
+  "official_and_reference_links": {
+    "bank_url": "https://www.hdfc.bank.in/credit-cards",
+    "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "aggregator_urls": [],
+    "applicable_lounge_list_urls": [
+      {
+        "title": "HDFC Bank — Hdfc Lounge Guide",
+        "url": "https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card",
+        "source_type": "official_bank_page"
+      },
+      {
+        "title": "Priority Pass Global Airport Lounge Directory PDF",
+        "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
+        "source_type": "official_pdf"
+      }
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
+  },
+  "filter_tags": {
+    "is_ltf": false,
+    "is_fyf": false,
+    "is_fd_backed": false,
+    "is_rupay_upi": true,
+    "is_invite_only": false,
+    "fee_bracket": "Under Rs. 1,500",
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "has_golf": false,
+    "zero_or_low_forex": false,
+    "zero_forex": false,
+    "min_income_salaried_inr": 25000,
+    "min_cibil_score": 730,
+    "best_for_tags": [
+      "Cashback",
+      "Online Shopping",
+      "Airport Lounge"
+    ],
+    "requirement_keywords": [
+      "ank",
+      "ard",
+      "ashback",
+      "ay",
+      "elfe",
+      "hopping",
+      "inance",
+      "irport",
+      "mall",
+      "nline",
+      "ounge",
+      "quitas",
+      "redit",
+      "u"
+    ]
+  },
+  "reward_calculator_model": {
+    "earn_unit": "Cashback / Reward Points",
+    "base_reward_rate_pct": 0.7,
+    "accelerated_reward_rate_pct": 5.0,
+    "point_value_inr_default": 1.0,
+    "point_value_inr_matrix": {
+      "default_redemption": "Rs. 1.00"
+    },
+    "point_expiry": "2–3 years (issuer T&C)",
+    "reward_earning_rules": [
+      "5X Reward Points (~16.6%!) on GST, Income Tax, Advance Tax, PayZapp/SmartBuy business spends & vendor utility bills (Requires Rs. 50,000 retail spend/statement cycle)",
+      "5 RP per Rs. 150 (3.33%) on all other business & personal retail spends"
+    ],
+    "effective_return_pct_by_category": {
+      "online_shopping_general": 3.5,
+      "amazon_flipkart_myntra": 3.5,
+      "dining_swiggy_zomato": 5.0,
+      "groceries_quick_commerce": 3.5,
+      "travel_flights_hotels": 2.0,
+      "upi_scan_and_pay": 0.7,
+      "utilities_bills_telecom": 0.5,
+      "fuel": 0.0,
+      "insurance": 0.0,
+      "education_rent_govt": 0.0,
+      "international_forex_net_of_markup": -2.8,
+      "offline_general_other": 0.7
+    },
+    "monthly_category_caps_inr": {},
+    "monthly_capping_rules": [
+      "3.33% base + 5X (16.5%) on Income Tax, GST, PayZapp utilities & SmartBuy business spends (business 5X bonus capped at 7,500 RP/cycle on >= Rs. 50,000 monthly spend); Insurance capped 5,000 RP/mo."
+    ],
+    "category_caveats": {},
+    "excluded_categories": [],
+    "transfer_partners": [],
+    "fee_waiver_and_milestone_calculator": {
+      "joining_fee_inr": 1000,
+      "annual_fee_inr": 1000,
+      "annual_fee_with_gst_inr": 1180,
+      "fee_waiver_spend_inr": 150000,
+      "monthly_spend_for_waiver_inr": 12500,
+      "milestone_slabs": []
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Equitas Selfe Credit Card Key Highlights",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Customizable Rewards Credit Card"
+          ],
+          [
+            "Joining Fee",
+            "₹1000 + GST – Currently FYF"
+          ],
+          [
+            "Annual Fee",
+            "₹1000 + GST"
+          ],
+          [
+            "Fee Waiver",
+            "₹2.4 lakh annual spend"
+          ],
+          [
+            "Reward Rate",
+            "Up to 3.5% value back on selected categories"
+          ],
+          [
+            "Lounge Access",
+            "1 domestic lounge visit per quarter"
+          ],
+          [
+            "Best For",
+            "Grocery, Dining, Utility, Taxi and Apparel spends"
+          ],
+          [
+            "Unique Feature",
+            "Choose reward categories, OTT benefits, network and billing cycle"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Equitas Selfe Credit Card Fees and Charges",
+        "headers": [
+          "Fee / Requirement",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1000 + GST Limited-period offer: First Year Free (FYF)"
+          ],
+          [
+            "Welcome Benefit",
+            "Choose any 2 complimentary subscriptions from participating partners such as Amazon Prime, SonyLIV, Zee5, JioHotstar and more. Typically required to be claimed within 90 days of card activation."
+          ],
+          [
+            "Annual Fee",
+            "₹1000 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹2.4 lakh in the previous card anniversary year."
+          ],
+          [
+            "Add-on Card Fee",
+            "Free for up to 5 add-on cards."
+          ],
+          [
+            "Domestic Lounge Access",
+            "1 complimentary domestic airport lounge visit per calendar quarter."
+          ],
+          [
+            "Reward Categories",
+            "Choose 2 categories from Grocery, Dining, Utility, Taxi and Apparel for accelerated rewards."
+          ],
+          [
+            "Card Network",
+            "Available on Visa and RuPay."
+          ],
+          [
+            "Card Variants",
+            "Blue, Green and Metal card options available."
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Equitas Selfe Credit Card Rewards",
+        "headers": [
+          "Spend Type",
+          "Reward Points Earned",
+          "Effective Reward Rate*"
+        ],
+        "rows": [
+          [
+            "Regular Spending",
+            "2 Reward Points per ₹100 spent",
+            "0.7% to 2%"
+          ],
+          [
+            "Selected Categories",
+            "10 Reward Points per ₹100 spent (5X Rewards)",
+            "3.5% to 10%"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-3",
+        "kind": "redemption_catalog",
+        "title": "How Rewards Improve Across Tiers",
+        "headers": [
+          "Tier & Spend",
+          "Redemption (1 Point Value)",
+          "Return Rate (On 5X Categories)",
+          "Forex Fee",
+          "Quarterly Bonuses"
+        ],
+        "rows": [
+          [
+            "BLUE < ₹20k / month",
+            "₹0.35",
+            "3.5%",
+            "3.5%",
+            "–"
+          ],
+          [
+            "SILVER > ₹20k / month",
+            "₹0.35",
+            "3.5%",
+            "3.0%",
+            "500 Bonus Points"
+          ],
+          [
+            "GOLD > ₹40k / month",
+            "₹0.50",
+            "5.0%",
+            "2.5%",
+            "1 Movie Voucher (₹250) 1 Amazon Voucher (₹500)"
+          ],
+          [
+            "PLATINUM > ₹60k / month",
+            "₹0.75",
+            "7.5%",
+            "2.0%",
+            "2 Movie Vouchers 2 Amazon Vouchers"
+          ],
+          [
+            "DIAMOND > ₹1 Lakh / month",
+            "₹1.00",
+            "10.0%",
+            "0%",
+            "3 Movie Vouchers + 3 Amazon Vouchers Unlimited Golf Lessons Flight & Hotel Vouchers"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "Airport Lounge Access",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Lounge Access",
+            "1 complimentary visit per calendar quarter"
+          ],
+          [
+            "Spend Requirement",
+            "₹50,000 in the previous calendar quarter"
+          ],
+          [
+            "Annual Entitlement",
+            "Up to 4 visits per year"
+          ],
+          [
+            "Network",
+            "Participating Visa and RuPay airport lounges"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-5",
+        "kind": "fees_and_charges",
+        "title": "Fuel Surcharge Waiver",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1%"
+          ],
+          [
+            "Eligible Transaction Amount",
+            "₹500 to ₹3000"
+          ],
+          [
+            "Maximum Benefit",
+            "₹250 per month"
+          ],
+          [
+            "Applicable At",
+            "Fuel stations across India"
+          ]
+        ]
+      }
+    ]
+  },
+  "lounge_access_detailed": {
+    "domestic": {
+      "visits_per_year": 4,
+      "visits_per_quarter": 1,
+      "spend_criteria": "Standard quarterly qualification",
+      "add_on_allowed": false,
+      "summary": "1 complimentary domestic airport lounge visit per quarter (4/year)"
+    },
+    "international": {
+      "program": "None",
+      "visits_per_year": 0,
+      "spend_criteria": "Standard issuer terms",
+      "add_on_allowed": false,
+      "guest_fee": "US$27-$35 per guest",
+      "summary": "No complimentary international lounge access"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": 0,
+      "summary": "No complimentary railway lounge visits listed"
+    },
+    "has_domestic_lounge": true,
+    "has_international_lounge": false,
+    "has_railway_lounge": false,
+    "no_spend_domestic_lounge": false,
+    "applicable_lounge_links": [],
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0
+  },
+  "fees_and_charges_detailed": {
+    "joining_fee_inr": 1000,
+    "annual_fee_inr": 1000,
+    "gst_applicable": true,
+    "fee_waiver_spend_inr": 150000,
+    "joining_fee_waiver": null,
+    "forex_markup_pct": 3.5,
+    "apr_monthly_pct": 3.5,
+    "apr_annual_pct": 42.0,
+    "cash_advance_fee": "2.5% (min ₹500)",
+    "fuel_surcharge_waiver": "1% fuel surcharge waiver (₹500–₹4,000 txns)",
+    "redemption_fee": "₹99 + GST on catalog redemptions (where applicable)",
+    "add_on_card_fee": "₹0",
+    "late_payment_slabs": []
+  },
+  "benefits_features_and_faqs": {
+    "about_overview": "Read our Equitas Selfe Credit Card review covering rewards, lounge access, OTT benefits, annual fee, reward rate, pros, cons, and whether it's worth getting.",
+    "highlights": [
+      "Up to 5.0% accelerated value in Cashback",
+      "1 complimentary domestic airport lounge visit per quarter (4/year)",
+      "Forex markup 3.5% · Network: Visa / RuPay"
+    ],
+    "welcome_benefit": [],
+    "milestone_benefits": [],
+    "dining_benefits": [],
+    "movie_benefits": [],
+    "golf_benefits": [],
+    "golf_summary": null,
+    "insurance_cover": [],
+    "concierge_or_privilege": [],
+    "get_this_card_if": [
+      "You want strong rewards in Cashback"
+    ],
+    "faqs": [
+      {
+        "question": "Is the Equitas Selfe Credit Card lifetime free?",
+        "answer": "No. The card has a joining fee and an annual fee of ₹1,000 + GST. However, the annual fee is waived if you spend at least ₹2.4 lakh with the card in the previous year."
+      },
+      {
+        "question": "What is the maximum reward rate on the Equitas Selfe Credit Card?",
+        "answer": "The card offers an effective reward rate of up to 10% on your chosen spending categories once you unlock the top Diamond Tier."
+      },
+      {
+        "question": "How do 5X rewards work on the Equitas Selfe Credit Card?",
+        "answer": "You can pick any two categories from grocery, dining, utilities, taxis, and apparel. Spending on these chosen categories will earn you 10 reward points for every ₹100 spent."
+      },
+      {
+        "question": "Which categories can I choose for 5X rewards?",
+        "answer": "You can select any two options from the following list: Grocery, Dining, Utility, Taxi, and Apparel."
+      },
+      {
+        "question": "Can I change my reward categories later?",
+        "answer": "Yes. If your monthly expenses change, you can easily switch and update your selected categories through the Equitas Mobile Banking App."
+      },
+      {
+        "question": "Does the Equitas Selfe Credit Card offer airport lounge access?",
+        "answer": "Yes. You get 1 complimentary domestic airport lounge visit per calendar quarter, as long as you meet the card's minimum spend criteria in the previous quarter."
+      },
+      {
+        "question": "Does the Equitas Selfe Credit Card offer international lounge access?",
+        "answer": "No. The card does not offer complimentary access to international airport lounges."
+      },
+      {
+        "question": "What is the forex markup on the Equitas Selfe Credit Card?",
+        "answer": "The forex fee drops as you hit higher tiers. It starts at 3.5% for Blue Tier cardholders and reduces step-by-step until it hits 0% at the top Diamond Tier."
+      },
+      {
+        "question": "What is Diamond Tier on the Equitas Selfe Credit Card?",
+        "answer": "Diamond Tier is the highest level you can achieve on the card. It unlocks the premium 10% reward rate, a 0% forex markup, quarterly gift vouchers, golf benefits, and annual flight and hotel vouchers."
+      },
+      {
+        "question": "Is the Equitas Selfe Credit Card worth it?",
+        "answer": "This card is an excellent choice if you can consistently spend ₹40,000 or more each month. Reaching the higher tiers unlocks premium rewards and benefits that go far beyond your average entry-level credit card."
+      }
+    ]
+  },
+  "ratings": {
+    "overall_market_rating": 4.2,
+    "editorial_rating": 4.2,
+    "aggregator_rating": 4.2,
+    "category_sub_ratings": {
+      "Rewards": 4.2,
+      "Fees & Value": 4.2,
+      "Travel & Lounges": 4.1
+    }
+  },
+  "pros_and_cons": {
+    "editorial_summary": "Read our Equitas Selfe Credit Card review covering rewards, lounge access, OTT benefits, annual fee, reward rate, pros, cons, and whether it's worth getting.",
+    "pros": [
+      "Up to 5.0% value on Cashback spends",
+      "1 complimentary domestic airport lounge visit per quarter (4/year)"
+    ],
+    "cons": [
+      "Category exclusions apply on utilities, fuel, rent & government MCCs"
+    ],
+    "best_for_whom": "Cashback & Equitas Small Finance Bank cardholders",
+    "not_ideal_for": "Fuel or tax-heavy spenders seeking flat rewards",
+    "recommended_monthly_spend_inr": "₹15,000 - ₹40,000",
+    "verdict": "Strong 2026 option for cashback"
+  },
+  "reddit_user_feedback": {
+    "community_score": 4.2,
+    "reddit_mentions": 18,
+    "sentiment_summary": "Viewed positively on r/CreditCardsIndia for cashback utility.",
+    "key_threads": [],
+    "practical_community_warnings": [],
+    "optimization_tips": []
+  },
+  "devaluation_analysis": {
+    "devaluation_frequency": "Low-Medium",
+    "devaluation_risk_score": 5.0,
+    "last_devalued_on": null,
+    "devaluation_history": [],
+    "watch_out_vectors": [
+      "Monitor quarterly spend gates & monthly category caps"
+    ]
+  },
+  "alternate_options": [],
+  "eligibility_detailed": {
+    "occupation": "Salaried / Self-Employed",
+    "age_range": "21–60 years",
+    "min_monthly_income_salaried_inr": 25000,
+    "govt_employee_income_note": null,
+    "min_annual_itr_self_employed_inr": 400000,
+    "min_cibil_score": 730,
+    "approval_notes": "Subject to internal bank underwriting & city serviceability."
+  },
+  "latest_offers": [
+    {
+      "offer_id": "hdfc-bank-smartbuy-5x-10x-reward-points-instant-cashb",
+      "bank": "HDFC Bank",
+      "title": "SmartBuy 5X–10X Reward Points & Instant Cashback",
+      "summary": "Up to 10X Reward Points on hotels/stays and 5X points/5% cashback on flights, IRCTC rail bookings & gift vouchers via HDFC SmartBuy.",
+      "category": "Travel & Flights",
+      "valid_till": "Ongoing Monthly Cycle",
+      "offer_url": "https://offers.smartbuy.hdfcbank.com/",
+      "scope": "targeted"
+    },
+    {
+      "offer_id": "hdfc-bank-tata-neucoins-back-swiggy-10-co-brand-perk",
+      "bank": "HDFC Bank",
+      "title": "Tata NeuCoins Back & Swiggy 10% Co-Brand Perks",
+      "summary": "Extra 5% NeuCoins on Air India, BigBasket & Croma for Tata Neu cards; 10% cashback on Swiggy Food, Instamart & Dineout for Swiggy HDFC.",
+      "category": "Grocery & Quick Commerce",
+      "valid_till": "Ongoing",
+      "offer_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "scope": "targeted"
+    }
+  ]
+}

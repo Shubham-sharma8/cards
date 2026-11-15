@@ -39,7 +39,9 @@
     "bank_url": "https://www.hsbc.bank.in/credit-cards/",
     "mitc_pdf_url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/platinum_mostimp_tnc.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": true,
@@ -120,7 +122,83 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Air India",
+        "ratio": "Maharaja Club",
+        "notes": "2"
+      },
+      {
+        "partner": "AirAsia",
+        "ratio": "airasia rewards",
+        "notes": "1 RP = 2 points"
+      },
+      {
+        "partner": "Air France–KLM",
+        "ratio": "Flying Blue",
+        "notes": "2"
+      },
+      {
+        "partner": "British Airways",
+        "ratio": "The British Airways Club",
+        "notes": "2"
+      },
+      {
+        "partner": "Etihad Airways",
+        "ratio": "Etihad Guest",
+        "notes": "2"
+      },
+      {
+        "partner": "EVA Air",
+        "ratio": "Infinity MileageLands",
+        "notes": "2"
+      },
+      {
+        "partner": "Hainan Airlines",
+        "ratio": "Fortune Wings Club",
+        "notes": "4"
+      },
+      {
+        "partner": "Japan Airlines",
+        "ratio": "JAL Mileage Bank",
+        "notes": "2"
+      },
+      {
+        "partner": "Singapore Airlines",
+        "ratio": "KrisFlyer",
+        "notes": "2"
+      },
+      {
+        "partner": "Qantas Airways",
+        "ratio": "Qantas Frequent Flyer",
+        "notes": "2"
+      },
+      {
+        "partner": "Qatar Airways",
+        "ratio": "Privilege Club",
+        "notes": "2"
+      },
+      {
+        "partner": "Thai Airways",
+        "ratio": "Royal Orchid Plus",
+        "notes": "2"
+      },
+      {
+        "partner": "Turkish Airlines",
+        "ratio": "Miles&Smiles",
+        "notes": "4"
+      },
+      {
+        "partner": "United Airlines",
+        "ratio": "MileagePlus",
+        "notes": "3"
+      },
+      {
+        "partner": "Vietnam Airlines",
+        "ratio": "Lotusmiles",
+        "notes": "2"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 0,
       "annual_fee_inr": 0,
@@ -133,7 +211,299 @@
         "1% fuel surcharge waiver, up to Rs. 250 per month, for fuel spends of Rs. 400 to Rs. 4,000",
         "Rs. 250 cashback every quarter on contactless fuel spends"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "HSBC Visa Platinum Credit Card at a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Nil"
+          ],
+          [
+            "Annual Fee",
+            "Nil"
+          ],
+          [
+            "Reward Rate",
+            "2 Reward Points per ₹150 spent"
+          ],
+          [
+            "Travel Rewards",
+            "Up to 6X Reward Points on flights, hotels and car rentals through Travel with Points"
+          ],
+          [
+            "Reward Redemption",
+            "Gift vouchers, airline miles and hotel loyalty points"
+          ],
+          [
+            "Fuel Benefit",
+            "1% fuel surcharge waiver"
+          ],
+          [
+            "Airport Lounge Access",
+            "None"
+          ],
+          [
+            "Forex Markup",
+            "3.5%"
+          ],
+          [
+            "Best Suited For",
+            "Someone looking for a lifetime-free HSBC card for regular spends and HSBC/Visa offers"
+          ]
+        ]
+      },
+      {
+        "id": "eligibility-1",
+        "kind": "eligibility",
+        "title": "HSBC Visa Platinum Credit Card Eligibility",
+        "headers": [
+          "Criteria",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Age – Salaried",
+            "18 to 65 years"
+          ],
+          [
+            "Age – Self Employed",
+            "25 to 65 years"
+          ],
+          [
+            "Minimum Income – Salaried",
+            "₹6 lakh per annum"
+          ],
+          [
+            "Minimum Income – Self Employed",
+            "₹12 lakh per annum"
+          ],
+          [
+            "Residency",
+            "Indian resident"
+          ],
+          [
+            "Eligible Cities",
+            "Chennai, Gurgaon, Delhi NCR, Pune, Noida, Hyderabad, Mumbai, Bengaluru, Kochi, Coimbatore, Jaipur, Chandigarh, Ahmedabad, Kolkata, Amritsar, Baroda, Indore, Lucknow, Nagpur, Surat and Trivandrum"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-2",
+        "kind": "fees_and_charges",
+        "title": "HSBC Visa Platinum Credit Card: Fees & Welcome Benefits",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "Nil"
+          ],
+          [
+            "Annual Fee",
+            "Nil"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "HSBC Visa Platinum Credit Card: Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Eligible Retail Spends",
+            "2 RP per ₹150"
+          ],
+          [
+            "Fuel, Insurance, Utilities, Education, Government, Jewellery, E-Wallets, Tax Payments, Money Transfers and Financial Institutions",
+            "No Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-4",
+        "kind": "transfer_partners",
+        "title": "Airline Transfer Partners",
+        "headers": [
+          "Airline",
+          "Loyalty Programme",
+          "HSBC RP for 1 Mile"
+        ],
+        "rows": [
+          [
+            "Air India",
+            "Maharaja Club",
+            "2"
+          ],
+          [
+            "AirAsia",
+            "airasia rewards",
+            "1 RP = 2 points"
+          ],
+          [
+            "Air France–KLM",
+            "Flying Blue",
+            "2"
+          ],
+          [
+            "British Airways",
+            "The British Airways Club",
+            "2"
+          ],
+          [
+            "Etihad Airways",
+            "Etihad Guest",
+            "2"
+          ],
+          [
+            "EVA Air",
+            "Infinity MileageLands",
+            "2"
+          ],
+          [
+            "Hainan Airlines",
+            "Fortune Wings Club",
+            "4"
+          ],
+          [
+            "Japan Airlines",
+            "JAL Mileage Bank",
+            "2"
+          ],
+          [
+            "Singapore Airlines",
+            "KrisFlyer",
+            "2"
+          ],
+          [
+            "Qantas Airways",
+            "Qantas Frequent Flyer",
+            "2"
+          ],
+          [
+            "Qatar Airways",
+            "Privilege Club",
+            "2"
+          ],
+          [
+            "Thai Airways",
+            "Royal Orchid Plus",
+            "2"
+          ],
+          [
+            "Turkish Airlines",
+            "Miles&Smiles",
+            "4"
+          ],
+          [
+            "United Airlines",
+            "MileagePlus",
+            "3"
+          ],
+          [
+            "Vietnam Airlines",
+            "Lotusmiles",
+            "2"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-5",
+        "kind": "transfer_partners",
+        "title": "Hotel Transfer Partners",
+        "headers": [
+          "Hotel Group",
+          "Loyalty Programme",
+          "HSBC RP for 1 Hotel Point"
+        ],
+        "rows": [
+          [
+            "Accor",
+            "ALL – Accor Live Limitless",
+            "2"
+          ],
+          [
+            "IHG Hotels & Resorts",
+            "IHG One Rewards",
+            "2"
+          ],
+          [
+            "Marriott International",
+            "Marriott Bonvoy",
+            "2"
+          ],
+          [
+            "Shangri-La",
+            "Shangri-La Circle",
+            "10"
+          ],
+          [
+            "Wyndham Hotels & Resorts",
+            "Wyndham Rewards",
+            "2"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-6",
+        "kind": "lounge_access",
+        "title": "No Complimentary Airport Lounge Access",
+        "headers": [
+          "Lounge Benefit",
+          "Access"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounges",
+            "Not Available"
+          ],
+          [
+            "International Airport Lounges",
+            "Not Available"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-7",
+        "kind": "fees_and_charges",
+        "title": "Other Key Benefits and Charges",
+        "headers": [
+          "Benefit / Charge",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% on fuel transactions between ₹400 and ₹4000"
+          ],
+          [
+            "Maximum Fuel Surcharge Waiver",
+            "₹250 per month"
+          ],
+          [
+            "Contactless Fuel Cashback",
+            "₹250 cashback on ₹10,000 or more contactless fuel spends in a quarter"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -245,6 +615,14 @@
       {
         "q": "How to apply for HSBC Platinum Credit Card?",
         "a": "To apply for HSBC Visa Platinum Credit Card online, visit the official HSBC website and apply through the card’s page. Alternatively, you can visit any of the nearest bank branches and apply offline by submitting the credit card application form."
+      },
+      {
+        "question": "Is the HSBC Visa Platinum Credit Card lifetime free?",
+        "answer": "Yes. The HSBC Visa Platinum Credit Card has no joining fee or annual fee, and there is no minimum spend requirement to keep it free."
+      },
+      {
+        "question": "What is the reward rate on the HSBC Visa Platinum Credit Card?",
+        "answer": "The card earns 2 Reward Points per ₹150 spent on eligible transactions. Several categories including fuel, insurance, utilities, education, government payments, wallets and financial institutions do not earn Reward Points."
       }
     ]
   },

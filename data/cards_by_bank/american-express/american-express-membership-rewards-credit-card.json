@@ -39,7 +39,9 @@
     "bank_url": "https://www.americanexpress.com/in/credit-cards/",
     "mitc_pdf_url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Lending_MITC_English.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-09"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -117,7 +119,43 @@
       "fuel": "0 MR points on fuel; 0% HPCL surcharge waiver only up to ₹5,000 transaction size"
     },
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Marriott Bonvoy",
+        "ratio": "1:1 (100 MR = 100 Pts)",
+        "notes": "Best hotel sweet spot"
+      },
+      {
+        "partner": "Hilton Honors",
+        "ratio": "1:1.5 (1,000 MR = 1,500 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Virgin Atlantic Flying Club",
+        "ratio": "5:4 (800 MR = 640 Pts)",
+        "notes": "Ratio improved Aug 2026"
+      },
+      {
+        "partner": "Singapore KrisFlyer",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Asia Miles (Cathay)",
+        "ratio": "2:1 (800 MR = 400 Miles)",
+        "notes": "Airline partner"
+      },
+      {
+        "partner": "Qatar Privilege Club",
+        "ratio": "2:1 (500 MR = 250 Avios)",
+        "notes": "Avios transferable to BA"
+      },
+      {
+        "partner": "British Airways Executive Club",
+        "ratio": "2:1 (1,200 MR = 600 Avios)",
+        "notes": "Emirates suspended / Etihad removed Jul 2026"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 1000,
       "annual_fee_inr": 4500,
@@ -129,7 +167,259 @@
         "50% Renewal fee waiver on spending between Rs. 90,000 to Rs. 1.49 Lakh in the previous year of card membership",
         "You will be able to spend Rs. 1.5 Lakh in a year to get the annual fee completely waived off"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Amex MRCC Fees and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1,000 + GST (~₹1,180)"
+          ],
+          [
+            "Welcome Benefit",
+            "4,000 MR points on spending ₹15,000 in the first 90 days"
+          ],
+          [
+            "Annual Fee",
+            "₹4,500 + GST (~₹5,310) from the second year"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Full waiver on spending ₹1.5 lakh in the previous card year"
+          ],
+          [
+            "Renewal Benefit",
+            "5,000 MR points on paying the fee at the first renewal"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Amex MRCC Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Retail Spends",
+            "1 MR point per ₹50 (~0.7% to 1.2%)"
+          ],
+          [
+            "Fuel, Insurance, Utilities, Cash & EMI at Point of Sale",
+            "No Rewards"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-2",
+        "kind": "milestone_benefits",
+        "title": "Amex MRCC Milestone Benefits",
+        "headers": [
+          "Milestone",
+          "Bonus MR Points",
+          "Enrollment"
+        ],
+        "rows": [
+          [
+            "4 transactions of ₹1,500 or more in a calendar month",
+            "1,000",
+            "Not Required"
+          ],
+          [
+            "Spend ₹20,000 or more in a calendar month",
+            "1,000",
+            "Required"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-3",
+        "kind": "reward_structure",
+        "title": "How to Maximize Amex MRCC Rewards",
+        "headers": [
+          "Transactions",
+          "Bonus MR Points/Month",
+          "Regular MR Points/Month",
+          "Total Spend/Year",
+          "Total MR Points/Year"
+        ],
+        "rows": [
+          [
+            "4 × ₹1,500 transactions every month",
+            "1,000",
+            "120",
+            "₹72,000",
+            "13,440"
+          ],
+          [
+            "Extra ₹14,000 spend for 6 months",
+            "1,000",
+            "280",
+            "₹84,000",
+            "7,680"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-4",
+        "kind": "redemption_catalog",
+        "title": "Amex MRCC 18K Gold Collection",
+        "headers": [
+          "E-Voucher",
+          "Value",
+          "1 MR Point Value"
+        ],
+        "rows": [
+          [
+            "Amazon",
+            "₹6,000",
+            "33p"
+          ],
+          [
+            "Flipkart",
+            "₹6,000",
+            "33p"
+          ],
+          [
+            "Reliance Digital",
+            "₹6,000",
+            "33p"
+          ],
+          [
+            "Myntra",
+            "₹7,000",
+            "39p"
+          ],
+          [
+            "Shoppers Stop",
+            "₹7,000",
+            "39p"
+          ],
+          [
+            "Tata CLiQ",
+            "₹7,000",
+            "39p"
+          ],
+          [
+            "Taj",
+            "₹9,000",
+            "50p"
+          ]
+        ]
+      },
+      {
+        "id": "redemption_catalog-5",
+        "kind": "redemption_catalog",
+        "title": "Amex MRCC 24K Gold Collection",
+        "headers": [
+          "E-Voucher",
+          "Value",
+          "MR Point Value"
+        ],
+        "rows": [
+          [
+            "Amazon",
+            "₹8,000",
+            "33p"
+          ],
+          [
+            "Flipkart",
+            "₹8,000",
+            "33p"
+          ],
+          [
+            "Reliance Digital",
+            "₹8,000",
+            "33p"
+          ],
+          [
+            "Tanishq Diamond Jewellery",
+            "₹9,000",
+            "38p"
+          ],
+          [
+            "Tata CLiQ",
+            "₹9,000",
+            "38p"
+          ],
+          [
+            "Shoppers Stop",
+            "₹10,000",
+            "42p"
+          ],
+          [
+            "Taj",
+            "₹14,000",
+            "58p"
+          ]
+        ]
+      },
+      {
+        "id": "amex-india-transfer-partners-2026",
+        "kind": "transfer_partners",
+        "title": "Amex Membership Rewards Transfer Partners (Nov 2026)",
+        "note": "Emirates Skywards suspended May 2025 · Club Vistara merged into Air India · Etihad Guest removed 1 July 2026 · Hilton (1:1.5) and Virgin Atlantic (5:4) improved Aug 2026.",
+        "headers": [
+          "Partner",
+          "Type",
+          "Conversion Rate",
+          "Ratio"
+        ],
+        "rows": [
+          [
+            "Marriott Bonvoy",
+            "Hotel",
+            "100 MR = 100 Marriott Bonvoy Points",
+            "1:1"
+          ],
+          [
+            "Hilton Honors",
+            "Hotel",
+            "1,000 MR = 1,500 Hilton Honors Points",
+            "1:1.5 (Boosted Aug 2026)"
+          ],
+          [
+            "Virgin Atlantic Flying Club",
+            "Airline",
+            "800 MR = 640 Virgin Points",
+            "5:4 (Boosted Aug 2026)"
+          ],
+          [
+            "Singapore KrisFlyer",
+            "Airline",
+            "800 MR = 400 KrisFlyer Miles",
+            "2:1"
+          ],
+          [
+            "Asia Miles (Cathay)",
+            "Airline",
+            "800 MR = 400 Asia Miles",
+            "2:1"
+          ],
+          [
+            "Qatar Privilege Club",
+            "Airline",
+            "500 MR = 250 Avios",
+            "2:1"
+          ],
+          [
+            "British Airways Executive Club",
+            "Airline",
+            "1,200 MR = 600 Avios",
+            "2:1"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -223,7 +513,31 @@
       {
         "q": "What should I do if my American Express Membership Rewards® Credit Card is declined for a transaction?",
         "a": "+- Your card may be declined due to several reasons; the most common being insufficient credit limit. If you have enough amount for the purchase and it is still declined, you must contact the customer care of American Express to know the reason for such decline and get it fixed."
+      },
+      {
+        "question": "Is the American Express Membership Rewards Credit Card lifetime free?",
+        "answer": "No. The joining fee is ₹1,000 + GST and the annual fee is ₹4,500 + GST. The annual fee is waived when you spend ₹1.5 lakh in a year."
+      },
+      {
+        "question": "Is the 50% fee waiver still available on the American Express Membership Rewards Credit Card?",
+        "answer": "No. Amex removed the 50% fee waiver at ₹90,000 spend in 2026. Now there is only the full waiver at ₹1.5 lakh spend."
+      },
+      {
+        "question": "Can I apply for the American Express Membership Rewards Credit Card now?",
+        "answer": "No. Amex has paused new card applications in India for now. There is no date yet for when they will open again."
+      },
+      {
+        "question": "What is the forex markup on the American Express Membership Rewards Credit Card?",
+        "answer": "It's 3.5% plus GST on spends in a foreign currency. That's the usual rate, so it isn't the best card to use abroad."
       }
+    ],
+    "program_updates_2026": [
+      "New Applications Paused: American Express has temporarily paused new card applications in India (existing cardholders unaffected).",
+      "From 15 November 2026: Amex counts monthly milestone transactions by posting date (not transaction date) and keeps MR pools separate per card.",
+      "Transfer Partners Updated (Aug–Nov 2026): Hilton Honors improved to 1:1.5 (1,000:1,500), Virgin Atlantic improved to 5:4 (800:640), Etihad Guest removed 1 July 2026, Emirates Skywards suspended.",
+      "Note: Amex has paused new card applications in India, so you cannot apply for the MRCC right now. This review is for existing cardholders and for anyone planning to apply once applications open again.",
+      "1 July 2026: Etihad Guest removed as a transfer partner.",
+      "18 August 2026: Better transfer ratios for Hilton Honors and Virgin Atlantic."
     ]
   },
   "ratings": {
@@ -259,7 +573,9 @@
     ],
     "optimization_tips": [
       "Double Monthly Milestone Formula: Complete 4 transactions of ₹1,500+ every calendar month (+1,000 Bonus MR pts) AND spend ₹20,000 total/month (+1,000 Bonus MR pts) — generating 2,400+ MR pts/month (~5%–8% effective return).",
-      "Redeem Only via 18K/24K Gold Collection: Avoid ₹0.25 statement cash credit; redeem at 18,000 or 24,000 MR pts Gold Collection vouchers (Taj/Flipkart) or Marriott transfer bonuses for ₹0.50–₹0.80+/pt."
+      "Redeem Only via 18K/24K Gold Collection: Avoid ₹0.25 statement cash credit; redeem at 18,000 or 24,000 MR pts Gold Collection vouchers (Taj/Flipkart) or Marriott transfer bonuses for ₹0.50–₹0.80+/pt.",
+      "Make 4 transactions of ₹1,500 every month for 12 months and get 1,000 bonus MR points each month",
+      "In 6 months of the year, spend ₹14,000 more to reach ₹20,000 and get another 1,000 bonus MR points"
     ]
   },
   "devaluation_analysis": {

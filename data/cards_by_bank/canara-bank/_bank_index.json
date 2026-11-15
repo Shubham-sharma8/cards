@@ -1,14 +1,13 @@
 {
   "bank": "Canara Bank",
   "bank_slug": "canara-bank",
-  "generated_at": "2026-11-14T16:00:26.769663+00:00",
+  "generated_at": "2026-11-15T06:00:00+00:00",
   "total_cards": 6,
   "ltf_count": 4,
   "rupay_upi_count": 2,
   "domestic_lounge_count": 1,
   "international_lounge_count": 0,
   "railway_lounge_count": 0,
-  "golf_count": 0,
   "zero_or_low_forex_count": 3,
   "with_image_count": 6,
   "official_lounge_programs": [],
@@ -18,84 +17,60 @@
       "card_name": "Canara Rupay Platinum Credit Card",
       "card_slug": "canara-rupay-platinum-credit-card",
       "primary_category": "RuPay & UPI",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 4.0,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/canara-bank/canara-rupay-platinum-credit-card.webp",
-      "json_file": "canara-rupay-platinum-credit-card.json",
-      "md_file": "canara-rupay-platinum-credit-card.md"
+      "json_path": "data/cards_by_bank/canara-bank/canara-rupay-platinum-credit-card.json",
+      "md_path": "data/cards_by_bank/canara-bank/canara-rupay-platinum-credit-card.md"
     },
     {
       "card_id": "canara_bank_visa_credit_cards",
       "card_name": "Canara Bank Visa Credit Cards – Visa Classic, Visa Platinum & Visa Gold",
       "card_slug": "canara-bank-visa-credit-cards-visa-classic-visa-platinum-visa-gold",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa",
       "annual_fee_inr": 0,
       "overall_rating": 3.51,
-      "has_domestic_lounge": true,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/canara-bank/canara-bank-visa-credit-cards-visa-classic-visa-platinum-visa-gold.webp",
-      "json_file": "canara-bank-visa-credit-cards-visa-classic-visa-platinum-visa-gold.json",
-      "md_file": "canara-bank-visa-credit-cards-visa-classic-visa-platinum-visa-gold.md"
+      "json_path": "data/cards_by_bank/canara-bank/canara-bank-visa-credit-cards-visa-classic-visa-platinum-visa-gold.json",
+      "md_path": "data/cards_by_bank/canara-bank/canara-bank-visa-credit-cards-visa-classic-visa-platinum-visa-gold.md"
     },
     {
       "card_id": "canara_bank_canara_visa_classic_mastercard_standard_credit_card",
       "card_name": "Canara Visa Classic MasterCard Standard Credit Card",
       "card_slug": "canara-visa-classic-mastercard-standard-credit-card",
       "primary_category": "Zero/Low Forex",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.43,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/canara-bank/canara-visa-classic-mastercard-standard-credit-card.webp",
-      "json_file": "canara-visa-classic-mastercard-standard-credit-card.json",
-      "md_file": "canara-visa-classic-mastercard-standard-credit-card.md"
+      "json_path": "data/cards_by_bank/canara-bank/canara-visa-classic-mastercard-standard-credit-card.json",
+      "md_path": "data/cards_by_bank/canara-bank/canara-visa-classic-mastercard-standard-credit-card.md"
     },
     {
       "card_id": "canara_bank_credit_card_rewards",
       "card_name": "Canara Bank Credit Card Rewards",
       "card_slug": "canara-bank-credit-card-rewards",
       "primary_category": "Travel & Miles",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.34,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/canara-bank/canara-bank-credit-card-rewards.webp",
-      "json_file": "canara-bank-credit-card-rewards.json",
-      "md_file": "canara-bank-credit-card-rewards.md"
+      "json_path": "data/cards_by_bank/canara-bank/canara-bank-credit-card-rewards.json",
+      "md_path": "data/cards_by_bank/canara-bank/canara-bank-credit-card-rewards.md"
     },
     {
       "card_id": "canara_bank_rupay_select_credit_card",
       "card_name": "Canara Bank RuPay Select Credit Card",
       "card_slug": "canara-bank-rupay-select-credit-card",
       "primary_category": "RuPay & UPI",
-      "card_network": "RuPay",
       "annual_fee_inr": 0,
       "overall_rating": 3.31,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/canara-bank/canara-bank-rupay-select-credit-card.webp",
-      "json_file": "canara-bank-rupay-select-credit-card.json",
-      "md_file": "canara-bank-rupay-select-credit-card.md"
+      "json_path": "data/cards_by_bank/canara-bank/canara-bank-rupay-select-credit-card.json",
+      "md_path": "data/cards_by_bank/canara-bank/canara-bank-rupay-select-credit-card.md"
     },
     {
       "card_id": "canara_bank_visa_classic_mastercard_standard_credit_card",
       "card_name": "Canara Bank Visa Classic / MasterCard Standard Credit Card",
       "card_slug": "canara-bank-visa-classic-mastercard-standard-credit-card",
       "primary_category": "Lifetime Free",
-      "card_network": "Visa / Mastercard",
       "annual_fee_inr": 0,
       "overall_rating": 3.31,
-      "has_domestic_lounge": false,
-      "has_railway_lounge": false,
-      "local_image_path": "data/assets/card_images/canara-bank/canara-bank-visa-classic-mastercard-standard-credit-card.webp",
-      "json_file": "canara-bank-visa-classic-mastercard-standard-credit-card.json",
-      "md_file": "canara-bank-visa-classic-mastercard-standard-credit-card.md"
+      "json_path": "data/cards_by_bank/canara-bank/canara-bank-visa-classic-mastercard-standard-credit-card.json",
+      "md_path": "data/cards_by_bank/canara-bank/canara-bank-visa-classic-mastercard-standard-credit-card.md"
     }
   ]
 }

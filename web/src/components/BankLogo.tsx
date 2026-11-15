@@ -30,6 +30,7 @@ const KNOWN_BANK_SLUGS = new Set([
   "central-bank-of-india",
   "csb-bank",
   "dbs-bank",
+  "equitas-small-finance-bank",
   "federal-bank-scapia",
   "federal-bank",
   "hdfc-bank",
@@ -102,6 +103,7 @@ export function resolveBankSlug(bankSlug?: string, bank?: string): string {
   if (b.includes("bandhan")) return "bandhan-bank";
   if (b.includes("unity")) return "unity-small-finance-bank";
   if (b.includes("utkarsh")) return "utkarsh-small-finance-bank";
+  if (b.includes("equitas")) return "equitas-small-finance-bank";
   return "default";
 }
 

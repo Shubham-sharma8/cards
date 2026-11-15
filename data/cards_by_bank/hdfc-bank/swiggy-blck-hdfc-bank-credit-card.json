@@ -39,7 +39,9 @@
     "bank_url": "https://www.hdfc.bank.in/credit-cards",
     "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-blck-hdfc-bank-credit-card/pdf/combined-tncs-ornge-and-blck.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -134,7 +136,124 @@
         "1% cashback on other eligible spends, applicable on a min. transaction of Rs. 100, capped at Rs. 1,000 per month4",
         "Additional 10% discount (Up to Rs. 500) on Swiggy Dineout on a minimum spend of Rs. 3,000 on birthday6"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Swiggy BLCK HDFC Bank Credit Card: Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹1000 + GST (₹1180)"
+          ],
+          [
+            "Joining Fee Waiver",
+            "₹75,000 spends within 90 days"
+          ],
+          [
+            "Welcome Benefit",
+            "3 months Swiggy BLCK membership"
+          ],
+          [
+            "Annual Fee",
+            "₹1000 + GST (₹1180)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹2 lakh spends in a card year"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-1",
+        "kind": "reward_structure",
+        "title": "Swiggy BLCK HDFC Bank Credit Card Cashback",
+        "headers": [
+          "Category",
+          "Cashback",
+          "Min. Transaction",
+          "Cap per Billing Cycle"
+        ],
+        "rows": [
+          [
+            "Swiggy Food, Instamart, Dineout",
+            "10%",
+            "₹249",
+            "₹1500"
+          ],
+          [
+            "Select online merchants",
+            "5%",
+            "₹100",
+            "₹1500"
+          ],
+          [
+            "Other eligible spends",
+            "1%",
+            "₹100",
+            "₹1000"
+          ],
+          [
+            "Fuel, rent, wallet loads, gift cards, government, gaming, education, jewellery, SmartPay, SmartBuy, EMI, cash advances, foreign currency, Swiggy Money and Swiggy Liquor",
+            "0%",
+            "–",
+            "–"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-2",
+        "kind": "other_table",
+        "title": "Swiggy BLCK vs Swiggy Ornge",
+        "headers": [
+          "Feature",
+          "Swiggy BLCK",
+          "Swiggy Ornge"
+        ],
+        "rows": [
+          [
+            "Annual Fee",
+            "₹1000 + GST",
+            "₹500 + GST (usually lifetime free)"
+          ],
+          [
+            "Swiggy",
+            "10% (₹1500 cap)",
+            "5% (shared ₹1500 cap)"
+          ],
+          [
+            "Online merchants",
+            "5% (₹1500 cap)",
+            "5% (shared ₹1500 cap)"
+          ],
+          [
+            "Other spends",
+            "1% (₹1000 cap)",
+            "1% (₹1000 cap)"
+          ],
+          [
+            "Max monthly cashback",
+            "₹4000",
+            "₹2500"
+          ],
+          [
+            "Welcome Benefit",
+            "3 months Swiggy BLCK",
+            "12 months Swiggy One"
+          ],
+          [
+            "Fee Waiver",
+            "₹2 lakh",
+            "₹1.5 lakh"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -280,6 +399,18 @@
       {
         "q": "What are the fees and charges of this credit card?",
         "a": "The card has a joining fee and annual fee of Rs. 1,000. However, it offers joining fee waiver on spending Rs. 75,000 within the first 90 days and annual fee waiver on spending Rs. 2 Lakh in a year."
+      },
+      {
+        "question": "Is the Swiggy BLCK HDFC Bank Credit Card lifetime free?",
+        "answer": "No. The joining fee and annual fee are ₹1000 + GST each. The joining fee is waived if you spend ₹75,000 in the first 90 days, and the annual fee is waived when you spend ₹2 lakh in a year."
+      },
+      {
+        "question": "How much cashback does Swiggy BLCK give on Swiggy?",
+        "answer": "You get 10% cashback on Swiggy Food, Instamart and Dineout on orders of ₹249 or more, up to ₹1500 per billing cycle."
+      },
+      {
+        "question": "Does the Swiggy BLCK HDFC Bank Credit Card offer airport lounge access?",
+        "answer": "No. The card does not come with any domestic or international lounge access."
       }
     ]
   },

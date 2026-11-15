@@ -36,7 +36,9 @@
     "bank_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
     "mitc_pdf_url": "https://webassets.rbl.bank.in/document/Credit%20Cards/RBL-MITC-final.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -118,7 +120,209 @@
         "On IOCL fuel spends: 10 Fuel Points on every Rs. 100 spent",
         "1 Fuel Point = Rs. 0.5 on IOCL petrol pump/ petrol voucher"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "IndianOil RBL Bank Credit Card – At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "1000 Fuel Points on spending above ₹500 within 30 days of card issuance"
+          ],
+          [
+            "IndianOil Rewards",
+            "10 Fuel Points per ₹100 spent at select IndianOil outlets"
+          ],
+          [
+            "Value Back on Fuel",
+            "5%"
+          ],
+          [
+            "Monthly Fuel Point Cap",
+            "1000 Fuel Points"
+          ],
+          [
+            "Fuel Spend for Maximum Rewards",
+            "₹10,000 per month"
+          ],
+          [
+            "Regular Rewards",
+            "1 Fuel Point per ₹100"
+          ],
+          [
+            "Base Reward Rate",
+            "0.5%"
+          ],
+          [
+            "Fuel Point Value",
+            "₹0.50 per Fuel Point"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% up to ₹100 per month on fuel transactions of ₹500 to ₹4000"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On ₹1.75 lakh annual spends"
+          ],
+          [
+            "Card Network",
+            "Mastercard and RuPay"
+          ],
+          [
+            "RuPay Benefits",
+            "UPI payments and NCMC support"
+          ],
+          [
+            "Best Suited For",
+            "IndianOil fuel spends of up to ₹10,000 per month"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "IndianOil RBL Bank Credit Card – Fees & Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹500+GST"
+          ],
+          [
+            "Welcome Benefit",
+            "1000 Fuel Points on spending more than ₹500 within 30 days of card issuance"
+          ],
+          [
+            "Welcome Benefit Value",
+            "₹500"
+          ],
+          [
+            "Annual Fee",
+            "₹500 + GST"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹1.75 lakh on eligible transactions in a membership year"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "IndianOil RBL Bank Credit Card – Reward Structure",
+        "headers": [
+          "Spend Category",
+          "Reward Rate",
+          "Remarks"
+        ],
+        "rows": [
+          [
+            "IndianOil Fuel Spends",
+            "10 Fuel Points per ₹100",
+            "5% value back, capped at 1000 Fuel Points per month"
+          ],
+          [
+            "Other Eligible Spends",
+            "1 Fuel Point per ₹100",
+            "0.5% reward rate"
+          ],
+          [
+            "Offline UPI Transactions Below ₹2000 at Small Merchants",
+            "No Fuel Points",
+            "Applicable to the RuPay variant"
+          ],
+          [
+            "Major Exclusions",
+            "No Fuel Points",
+            "Utilities, insurance, education, rent, government payments, wallets and EMI transactions"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-3",
+        "kind": "other_table",
+        "title": "IndianOil RBL Bank vs IndianOil RBL Bank XTRA",
+        "headers": [
+          "Feature",
+          "IndianOil RBL Bank",
+          "IndianOil RBL Bank XTRA"
+        ],
+        "rows": [
+          [
+            "Annual Fee",
+            "₹500 + GST",
+            "₹1500 + GST"
+          ],
+          [
+            "IndianOil Rewards",
+            "10 Fuel Points/₹100",
+            "15 Fuel Points/₹100"
+          ],
+          [
+            "Value Back on Fuel",
+            "5%",
+            "7.5%"
+          ],
+          [
+            "Monthly Fuel Point Cap",
+            "1000",
+            "2000"
+          ],
+          [
+            "Fuel Spend to Maximise Monthly Rewards",
+            "₹10,000",
+            "~₹13,334"
+          ],
+          [
+            "Regular Rewards",
+            "1 Fuel Point/₹100",
+            "2 Fuel Points/₹100"
+          ],
+          [
+            "Regular Reward Rate",
+            "0.5%",
+            "1%"
+          ],
+          [
+            "Quarterly Milestone",
+            "None",
+            "1000 Fuel Points on ₹75,000 spends"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "Up to ₹100/month",
+            "Up to ₹200/month"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹1.75 lakh",
+            "₹2.75 lakh"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -215,6 +419,26 @@
       {
         "q": "Are there any transactions that are excluded from Fuel points earning on this card?",
         "a": "Yes, certain transactions like utilities, insurance, quasi-cash, railways, real estate/rental, education, wallets/service providers, government services, contracted services, cash withdrawals, Bill2Pay and EMI conversions on retail transactions are excluded."
+      },
+      {
+        "question": "What is the reward rate on the IndianOil RBL Bank Credit Card?",
+        "answer": "You earn 10 Fuel Points per ₹100 on eligible IndianOil fuel spends, which works out to 5% value back when converted to IndianOil XTRAREWARDS points."
+      },
+      {
+        "question": "What is the monthly reward cap on the IndianOil RBL Bank Credit Card?",
+        "answer": "You can earn up to 1000 Fuel Points per month on IndianOil spends. The cap is reached at ₹10,000 of eligible fuel spends."
+      },
+      {
+        "question": "How much is 1 IndianOil RBL Fuel Point worth?",
+        "answer": "1 Fuel Point is worth ₹0.50 when converted to IndianOil XTRAREWARDS points. This is the redemption option we would use."
+      },
+      {
+        "question": "How do I redeem IndianOil RBL Fuel Points?",
+        "answer": "Fuel Points need to be converted to IndianOil XTRAREWARDS points through the RBL Rewards portal. These can then be used for fuel at participating IndianOil outlets."
+      },
+      {
+        "question": "What is the annual fee for the IndianOil RBL Bank Credit Card?",
+        "answer": "The annual fee is ₹500 + GST. It is waived on eligible annual spends of ₹1.75 lakh."
       }
     ]
   },

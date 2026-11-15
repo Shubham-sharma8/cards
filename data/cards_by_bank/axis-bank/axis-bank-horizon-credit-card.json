@@ -72,7 +72,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -143,7 +145,38 @@
     ],
     "category_caveats": {},
     "excluded_categories": [],
-    "transfer_partners": [],
+    "transfer_partners": [
+      {
+        "partner": "Accor Live Limitless (ALL)",
+        "ratio": "Group A · Returned Sept 2026",
+        "notes": "1:1 Air India / Flying Blue / partner miles"
+      },
+      {
+        "partner": "Air India Maharaja Club",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "Group A & Group B EDGE Miles cap applies"
+      },
+      {
+        "partner": "Flying Blue (Air France/KLM)",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "Group A & Group B EDGE Miles cap applies"
+      },
+      {
+        "partner": "Qantas Frequent Flyer",
+        "ratio": "Group A · Promoted Sept 2026",
+        "notes": "Group A & Group B EDGE Miles cap applies"
+      },
+      {
+        "partner": "Cathay Asia Miles",
+        "ratio": "Group A · Added Sept 2026",
+        "notes": "Caps share Group A pool"
+      },
+      {
+        "partner": "Hilton Honors & Miles & More",
+        "ratio": "Group B · Added Sept 2026",
+        "notes": "Group A & Group B EDGE Miles cap applies"
+      }
+    ],
     "fee_waiver_and_milestone_calculator": {
       "joining_fee_inr": 3000,
       "annual_fee_inr": 3000,
@@ -156,7 +189,299 @@
         "Renewal Benefit: 1,500 EDGE Miles as renewal bonus credited within 30 days from credit card anniversary date",
         "Lounge Access: The card offers up to 32 lounge visits per year as mentioned in the below table:"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Axis Bank Horizon Credit Card: At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining / Annual fee",
+            "₹3000 + GST"
+          ],
+          [
+            "Welcome benefit",
+            "5000 EDGE Miles on the first transaction of ₹1000 or more within 30 days of card issuance. Not applicable to lifetime-free cards."
+          ],
+          [
+            "Renewal benefit",
+            "1500 EDGE Miles on completing the anniversary year. Not applicable to lifetime-free cards."
+          ],
+          [
+            "Travel rewards",
+            "5 EDGE Miles per ₹100 on direct airline bookings and Travel EDGE spends"
+          ],
+          [
+            "Other rewards",
+            "2 EDGE Miles per ₹100 on other eligible spends"
+          ],
+          [
+            "Domestic lounge access",
+            "8 visits per calendar quarter on Visa, 6 on Mastercard"
+          ],
+          [
+            "International lounge access",
+            "2 visits per calendar quarter"
+          ],
+          [
+            "Forex markup",
+            "3.5% + GST"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees, Welcome Bonus and Renewal Benefits",
+        "headers": [
+          "Particulars",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining fee",
+            "₹3000 + GST (₹3540)"
+          ],
+          [
+            "Welcome benefit",
+            "5000 EDGE Miles when your first transaction is ₹1000 or more, made within 30 days of card issuance. Not applicable to lifetime-free cards."
+          ],
+          [
+            "Annual fee",
+            "₹3000 + GST (₹3540)"
+          ],
+          [
+            "Renewal benefit",
+            "1500 EDGE Miles. Not applicable to lifetime-free cards."
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Axis Horizon Credit Card Rewards and Exclusions",
+        "headers": [
+          "Spend category",
+          "EDGE Miles earned"
+        ],
+        "rows": [
+          [
+            "Direct airline bookings and eligible Travel EDGE spends",
+            "5 EDGE Miles per ₹100"
+          ],
+          [
+            "Other eligible online and offline spends, including direct hotel payments",
+            "2 EDGE Miles per ₹100"
+          ],
+          [
+            "Fuel, rent, utilities, telecom, insurance, government payments, education, transportation and tolls, wallet loads and gift cards",
+            "No miles"
+          ]
+        ]
+      },
+      {
+        "id": "transfer_partners-3",
+        "kind": "transfer_partners",
+        "title": "Axis Horizon Credit Card Transfer Partners",
+        "headers": [
+          "Group",
+          "EDGE Miles : Partner points/miles",
+          "Partners"
+        ],
+        "rows": [
+          [
+            "A",
+            "1:1",
+            "Air Canada Aeroplan, Air France–KLM Flying Blue, Air India Maharaja Club, Ethiopian Airlines, Etihad Guest, JAL Mileage Bank, Qantas Frequent Flyer, Singapore Airlines KrisFlyer, Thai Airways Royal Orchid Plus, Turkish Airlines Miles&Smiles, United MileagePlus, Wyndham Rewards"
+          ],
+          [
+            "A",
+            "2:1",
+            "Accor ALL, British Airways Club, Cathay Asia Miles, Finnair Plus, Qatar Airways Privilege Club, Vietnam Airlines Lotusmiles"
+          ],
+          [
+            "B",
+            "1:1",
+            "AirAsia rewards, Hilton Honors, IHG One Rewards, Miles & More, Orchid Rewards, Postcard Sunshine Club, Radisson Rewards, SpiceJet"
+          ],
+          [
+            "B",
+            "2:1 standard, 1:1 introductory offer",
+            "IndiGo BluChip"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-4",
+        "kind": "other_table",
+        "title": "Axis Horizon Miles Transfer Limits",
+        "headers": [
+          "Limit",
+          "EDGE Miles per calendar year"
+        ],
+        "rows": [
+          [
+            "Overall",
+            "5L"
+          ],
+          [
+            "Group A combined",
+            "1L"
+          ],
+          [
+            "Group B combined",
+            "4L"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "Axis Horizon Credit Card Lounge Access",
+        "headers": [
+          "Lounge access",
+          "Visits per calendar quarter",
+          "Maximum across four quarters"
+        ],
+        "rows": [
+          [
+            "Domestic – Visa",
+            "8",
+            "32"
+          ],
+          [
+            "Domestic – Mastercard",
+            "6",
+            "24"
+          ],
+          [
+            "International – both variants",
+            "2",
+            "8"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-6",
+        "kind": "other_table",
+        "title": "Axis Horizon vs Axis Atlas: Which Credit Card Is Better?",
+        "headers": [
+          "Feature",
+          "Axis Horizon",
+          "Axis Atlas"
+        ],
+        "rows": [
+          [
+            "Annual fee",
+            "₹3000 + GST",
+            "₹5000 + GST"
+          ],
+          [
+            "Direct airline bookings and eligible Travel EDGE spends",
+            "5 EDGE Miles per ₹100",
+            "5 EDGE Miles per ₹100"
+          ],
+          [
+            "Direct hotel payments",
+            "2 EDGE Miles per ₹100",
+            "5 EDGE Miles per ₹100"
+          ],
+          [
+            "Other eligible spends",
+            "2 EDGE Miles per ₹100",
+            "2 EDGE Miles per ₹100"
+          ],
+          [
+            "Transfers to KrisFlyer, Flying Blue and Air India",
+            "1 EDGE Mile = 1 partner mile/point",
+            "1 EDGE Mile = 2 partner miles/points"
+          ],
+          [
+            "Transfers to Accor, Qatar Airways and British Airways",
+            "2 EDGE Miles = 1 partner point/mile",
+            "2 EDGE Miles = 1 partner point/mile"
+          ],
+          [
+            "Annual transfer limit",
+            "5L EDGE Miles: 1L Group A + 4L Group B",
+            "1.5L EDGE Miles: 30,000 Group A + 1.2L Group B"
+          ],
+          [
+            "Spend milestones",
+            "None",
+            "2500 miles at ₹3L, another 2500 at ₹7.5L, another 5000 at ₹15L"
+          ],
+          [
+            "Domestic lounge access",
+            "8 visits per calendar quarter on Visa, 6 on Mastercard",
+            "8, 12 or 18 visits annually, depending on tier"
+          ],
+          [
+            "International lounge access",
+            "2 visits per calendar quarter",
+            "4, 6 or 12 visits annually, depending on tier"
+          ]
+        ]
+      },
+      {
+        "id": "axis-transfer-groups-sept-2026",
+        "kind": "transfer_partners",
+        "title": "Axis Bank Transfer Partner Groups (Updated Sept 2026)",
+        "note": "Accor ALL & Cathay returned to Group A; Air India Maharaja Club, Flying Blue & Qantas moved to Group A; Hilton Honors & Miles & More added to Group B; ITC Hotels removed.",
+        "headers": [
+          "Partner",
+          "Tier",
+          "Update (Sept 2026)"
+        ],
+        "rows": [
+          [
+            "Accor Live Limitless (ALL)",
+            "Group A",
+            "Returned in Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Cathay Asia Miles",
+            "Group A",
+            "Added Sept 2026 (Atlas 2:1 · Magnus Burgundy 5:2 · Magnus 5:1)"
+          ],
+          [
+            "Air India Maharaja Club",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Flying Blue (Air France / KLM)",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Qantas Frequent Flyer",
+            "Group A",
+            "Moved from Group B to Group A (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Hilton Honors",
+            "Group B",
+            "Added to Group B (Atlas 1:2 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "Miles & More (Lufthansa)",
+            "Group B",
+            "Added to Group B (Atlas 1:1 · Magnus Burgundy 5:4)"
+          ],
+          [
+            "ITC Hotels",
+            "Removed",
+            "Discontinued as Axis transfer partner"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -900,7 +1225,32 @@
       {
         "q": "How much do I save via the welcome benefits offered on the card?",
         "a": "Considering a redemption value of 1:1, with 5000 bonus reward points, you can get a value back of 5000 air miles, redeemable against travel partner points."
+      },
+      {
+        "question": "What is the annual fee for the Axis Horizon Credit Card?",
+        "answer": "The joining and annual fee is ₹3000 + GST, or ₹3540 including GST. There is no spend-based annual fee waiver."
+      },
+      {
+        "question": "Is the Axis Horizon Credit Card lifetime free?",
+        "answer": "Eligible Burgundy customers with savings accounts opened on or after 1 July 2026 can get Horizon lifetime free, subject to maintaining the required relationship. Those already holding a lifetime-free Select, Magnus or Horizon cannot get another under this offer. Welcome and renewal miles are not available on lifetime-free cards."
+      },
+      {
+        "question": "How do I get the Axis Horizon welcome bonus?",
+        "answer": "On paid cards, your first transaction must be ₹1000 or more and made within 30 days of card issuance to qualify for 5000 EDGE Miles. A smaller first purchase makes you ineligible, even if you spend more later. For cards issued from 1 September 2026, the bonus can take up to 60 days from the qualifying transaction."
+      },
+      {
+        "question": "Does Axis Horizon require minimum spending for lounge access?",
+        "answer": "The current Horizon lounge terms do not specify a minimum spending requirement. Access is available to the primary cardholder at participating lounges, within the quarterly limits."
+      },
+      {
+        "question": "How many airport lounge visits does Axis Horizon offer?",
+        "answer": "Visa cardholders get 8 domestic visits per calendar quarter, while Mastercard cardholders get 6. Both variants offer 2 international visits per calendar quarter. These benefits apply to the primary cardholder."
       }
+    ],
+    "program_updates_2026": [
+      "Lifetime-free Horizon cards do not get welcome or renewal miles. Eligible Burgundy customers with savings accounts opened on or after 1 July 2026 can get the card lifetime free, subject to maintaining the required relationship. Customers already holding a lifetime-free Select, Magnus or Horizon cannot get another under this offer.",
+      "Eligible Burgundy customers with savings accounts opened on or after 1 July 2026 can get Horizon lifetime free, subject to maintaining the required relationship. Those already holding a lifetime-free Select, Magnus or Horizon cannot get another under this offer. Welcome and renewal miles are not available on lifetime-free cards.",
+      "On paid cards, your first transaction must be ₹1000 or more and made within 30 days of card issuance to qualify for 5000 EDGE Miles. A smaller first purchase makes you ineligible, even if you spend more later. For cards issued from 1 September 2026, the bonus can take up to 60 days from the qualifying transaction."
     ]
   },
   "ratings": {
@@ -921,14 +1271,18 @@
       "High number of complimentary airport lounge visits",
       "Welcome benefit surpass the joining fee",
       "Accelerated rewards on travel bookings also include spends at direct airline websites/counters",
-      "Decent return via base reward rate"
+      "Decent return via base reward rate",
+      "Good rewards on direct flight bookings.",
+      "1:1 transfers to several useful airline programmes."
     ],
     "cons": [
       "No milestone benefits",
       "No annual fee waiver option",
       "Exclusion of some everyday transactions from reward program",
       "Grouping of travel partners with low limit to partners in Group A",
-      "No concessional forex markup fee"
+      "No concessional forex markup fee",
+      "Direct hotel bookings earn only the base reward rate.",
+      "No rewards on several regular bills, including utilities and insurance."
     ],
     "best_for_whom": "Domestic & international flyers value-optimizing airline/hotel loyalty points and lounge access",
     "not_ideal_for": "Low-travel users preferring straight monthly statement cashback",

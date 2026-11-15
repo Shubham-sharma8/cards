@@ -51,7 +51,9 @@
         "url": "https://d2llguf9uoxb71.cloudfront.net/pp/pdf/Lounge_Directory.pdf",
         "source_type": "official_pdf"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -132,7 +134,161 @@
         "1 Free Night Award on spending Rs. 9 lakh in an anniversary year",
         "1 Free Night Award on spending Rs. 15 lakh in an anniversary year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "Marriott Bonvoy HDFC Bank Credit Card: Quick Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹3000 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹3000 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "1 Free Night Award worth up to 15,000 Marriott Bonvoy points"
+          ],
+          [
+            "Renewal Benefit",
+            "1 Free Night Award worth up to 15,000 Marriott Bonvoy points"
+          ],
+          [
+            "Marriott Status",
+            "Complimentary Silver Elite Status"
+          ],
+          [
+            "Elite Night Credits",
+            "10 every year"
+          ],
+          [
+            "Reward Rate",
+            "Up to 8 Marriott Bonvoy points per ₹150"
+          ],
+          [
+            "Domestic Lounge Access",
+            "12 visits per calendar year"
+          ],
+          [
+            "International Lounge Access",
+            "12 visits per calendar year"
+          ],
+          [
+            "Milestone Benefits",
+            "Up to 3 additional Free Night Awards"
+          ],
+          [
+            "Forex Markup",
+            "3.5% + GST"
+          ],
+          [
+            "Best For",
+            "Marriott loyalists and frequent travelers"
+          ],
+          [
+            "Card Network",
+            "Diners Club International"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Marriott Bonvoy HDFC Bank Credit Card Fees",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹3000 + GST ~₹3540"
+          ],
+          [
+            "Welcome Benefit",
+            "1 Free Night Award worth up to 15,000 Marriott Bonvoy points"
+          ],
+          [
+            "Marriott Bonvoy Status",
+            "Complimentary Silver Elite Status + 10 Elite Night Credits every year"
+          ],
+          [
+            "Annual Fee",
+            "₹3000 + GST ~₹3540"
+          ],
+          [
+            "Renewal Benefit",
+            "1 Free Night Award worth up to 15,000 Marriott Bonvoy points"
+          ],
+          [
+            "Annual Fee Waiver",
+            "No annual fee waiver"
+          ],
+          [
+            "Milestone Benefits",
+            "Additional Free Night Awards on eligible annual spends"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Marriott Bonvoy HDFC Bank Credit Card Reward Rate",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Marriott Bonvoy Hotel Spends",
+            "8 Marriott Bonvoy points per ₹150 spent"
+          ],
+          [
+            "Travel, Dining and Entertainment",
+            "4 Marriott Bonvoy points per ₹150 spent"
+          ],
+          [
+            "Other Retail Spends",
+            "2 Marriott Bonvoy points per ₹150 spent"
+          ],
+          [
+            "Fuel, Rent, Wallet Loads, EMI Transactions, Government Payments, Gift Voucher Purchases",
+            "No rewards"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "Marriott Bonvoy HDFC Bank Credit Card Milestone Benefits",
+        "headers": [
+          "Annual Spend",
+          "Benefit"
+        ],
+        "rows": [
+          [
+            "₹6 lakh",
+            "1 Free Night Award"
+          ],
+          [
+            "₹9 lakh",
+            "1 Free Night Award"
+          ],
+          [
+            "₹15 lakh",
+            "1 Free Night Award"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -600,6 +756,26 @@
       {
         "q": "Are there any terms and conditions associated with this credit card’s lounge access benefit?",
         "a": "No. there are no spend-based conditions applicable to the lounge access benefit."
+      },
+      {
+        "question": "Is the Marriott Bonvoy HDFC Bank Credit Card worth it?",
+        "answer": "The card is worth considering for regular Marriott travelers because of the Free Night Awards, Silver Elite status, and milestone benefits."
+      },
+      {
+        "question": "Does the Marriott Bonvoy HDFC Bank Credit Card offer airport lounge access?",
+        "answer": "Yes. The card offers 12 domestic and 12 international airport lounge visits per year without any spend-based conditions."
+      },
+      {
+        "question": "Does the Marriott Bonvoy HDFC Bank Credit Card have spend-based lounge access conditions?",
+        "answer": "No. The card currently offers complimentary domestic and international airport lounge access without any spend-based conditions."
+      },
+      {
+        "question": "What is the annual fee of the Marriott Bonvoy HDFC Bank Credit Card?",
+        "answer": "The card has a joining and annual fee of ₹3000 plus GST."
+      },
+      {
+        "question": "Can Marriott Bonvoy Free Night Awards be topped up with points?",
+        "answer": "Yes. Marriott Bonvoy allows users to top up Free Night Awards with up to 25,000 additional Marriott Bonvoy points."
       }
     ]
   },
@@ -622,13 +798,19 @@
       "Exclusive privileges on Marriott hotel bookings",
       "Access to both international and domestic airport lounges",
       "Complimentary Marriott Bonvoy Silver Elite Status",
-      "Free Night Stays at Marriott as welcome and milestone benefits"
+      "Free Night Stays at Marriott as welcome and milestone benefits",
+      "Free Night Award as welcome and renewal benefit",
+      "10 Elite Night Credits every year",
+      "No spend condition for lounge access"
     ],
     "cons": [
       "No general travel benefits",
       "Features are limited to co-branded hotel bookings",
       "Base reward rate is low",
-      "No Priority Pass membership"
+      "No Priority Pass membership",
+      "Average reward rate on regular spends",
+      "No annual fee waiver",
+      "Many categories excluded from rewards"
     ],
     "best_for_whom": "Travelers wanting 12 domestic + 12 international NO-SPEND lounges AND a guaranteed annual Marriott Free Night worth >Rs. 8,000 for a Rs. 3,000 fee",
     "not_ideal_for": "Day-to-day cashback earners",

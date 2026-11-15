@@ -38,7 +38,9 @@
     "bank_url": "https://www.sbicard.com/en/personal/credit-cards.html",
     "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
     "aggregator_urls": [],
-    "applicable_lounge_list_urls": []
+    "applicable_lounge_list_urls": [],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-07"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -125,7 +127,154 @@
         "2,000 bonus Reward points worth Rs. 500 on payment of joining fee",
         "Annual fee waiver on spending Rs. 1 Lakh in a year"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "BPCL SBI Credit Card – At a Glance",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST"
+          ],
+          [
+            "Welcome Benefit",
+            "2000 Reward Points worth ₹500"
+          ],
+          [
+            "Annual Fee Waiver",
+            "Spend ₹1 lakh in the previous year"
+          ],
+          [
+            "BPCL Fuel Rewards",
+            "13 RP/₹100 = 3.25% value back"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% on eligible BPCL transactions"
+          ],
+          [
+            "Effective BPCL Fuel Benefit",
+            "Up to 4.25%"
+          ],
+          [
+            "Grocery, Dining, Departmental Stores & Movies",
+            "5 RP/₹100 = 1.25% value back"
+          ],
+          [
+            "Other Eligible Spends",
+            "1 RP/₹100 = 0.25% value back"
+          ],
+          [
+            "BPCL Fuel Reward Cap",
+            "1300 RP per statement cycle"
+          ],
+          [
+            "Maximum BPCL Fuel Spend at 3.25%",
+            "₹10,000 per statement cycle"
+          ],
+          [
+            "Domestic Lounge Access",
+            "None"
+          ],
+          [
+            "Reward Point Value",
+            "1 RP = ₹0.25 for BPCL fuel redemption"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "Fees",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹499 + GST (~₹589)"
+          ],
+          [
+            "Welcome Gift",
+            "2000 Reward Points worth ₹500"
+          ],
+          [
+            "Annual Fee",
+            "₹499 + GST (~₹589)"
+          ],
+          [
+            "Annual Fee Waiver",
+            "On spends of ₹1 lakh in a year"
+          ],
+          [
+            "Renewal Benefit",
+            "None"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "Rewards Structure",
+        "headers": [
+          "Type of Spend",
+          "Reward Points",
+          "Value Back"
+        ],
+        "rows": [
+          [
+            "BPCL Fuel",
+            "13 RP / ₹100 – Maximum 1300 RP per statement cycle",
+            "3.25%"
+          ],
+          [
+            "Dining, Departmental Stores, Grocery & Movies",
+            "5 RP / ₹100 – Maximum 5000 RP per month",
+            "1.25%"
+          ],
+          [
+            "Other Eligible Spends",
+            "1 RP / ₹100",
+            "0.25%"
+          ],
+          [
+            "Non-BPCL fuel, BPCL fuel paid through RuPay UPI, rent, wallet loading",
+            "No Rewards",
+            "NIL"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-3",
+        "kind": "fees_and_charges",
+        "title": "Other Benefits and Charges",
+        "headers": [
+          "Attribute",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Fuel Surcharge Waiver",
+            "1% on BPCL fuel transactions up to ₹4000. Maximum waiver of ₹100 per statement cycle"
+          ],
+          [
+            "Foreign Currency Markup",
+            "3.5% + GST"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -286,11 +435,19 @@
     "editorial_summary": "option from SBI Card suited for fuel users.",
     "pros": [
       "Up to 4.25% value-back on BPCL fuel spends",
-      "Accelerated rewards on groceries, departmental stores, movies & dining spends"
+      "Accelerated rewards on groceries, departmental stores, movies & dining spends",
+      "Good value on BPCL fuel spends with 3.25% rewards plus a 1% fuel surcharge waiver.",
+      "Low annual fee of ₹499 + GST.",
+      "Accelerated rewards are available on up to ₹10,000 of BPCL fuel spends per statement cycle.",
+      "1.25% value back on groceries, dining, departmental stores and movies is useful for a card in this fee range."
     ],
     "cons": [
       "Low rewards redemption value",
-      "Capping on accelerated rewards earning"
+      "Capping on accelerated rewards earning",
+      "The annual fee waiver now requires ₹1 lakh of yearly spends, which is high for an entry-level fuel credit card.",
+      "Regular spends earn only 0.25%, so this is not a good card for general everyday spending.",
+      "No complimentary airport lounge access.",
+      "The BPCL SBI Card OCTANE offers much better fuel rewards for users with higher monthly fuel spends."
     ],
     "best_for_whom": "Regular petrol/diesel commuters matching the card's partner pump brand (BPCL/IOCL/HPCL)",
     "not_ideal_for": "EV drivers or users spending under Rs. 2,000/month on fuel",

@@ -50,7 +50,9 @@
         "url": "https://www.visa.co.in/en_in/visa-offers-and-perks/visa-airport-lounge-access-program/146561",
         "source_type": "official_network_page"
       }
-    ]
+    ],
+    "last_verified_month": "2026-11",
+    "source_updated_at": "2026-11-10"
   },
   "filter_tags": {
     "is_ltf": false,
@@ -140,7 +142,299 @@
         "3,000 reward points on reaching Rs. 3 lakh annual spends",
         "1,500 reward points for every additional Rs. 1 lakh spent after reaching Rs. 3 lakh annual spends"
       ]
-    }
+    },
+    "structured_tables": [
+      {
+        "id": "fees_and_charges-0",
+        "kind": "fees_and_charges",
+        "title": "ICICI Rubyx Credit Card Review – At a Glance",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Card Type",
+            "Mid-premium Lifestyle"
+          ],
+          [
+            "Best For",
+            "Lounge Access & Merchant Offers"
+          ],
+          [
+            "Joining Fee",
+            "₹3000 + GST or Lifetime Free"
+          ],
+          [
+            "Annual Fee",
+            "₹2000 + GST or Lifetime Free"
+          ],
+          [
+            "Reward Rate",
+            "0.25%-1%"
+          ],
+          [
+            "Domestic Airport Lounge",
+            "2/Quarter"
+          ],
+          [
+            "Railway Lounge",
+            "2/Quarter"
+          ],
+          [
+            "Forex Markup",
+            "3.5%"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-1",
+        "kind": "fees_and_charges",
+        "title": "ICICI Bank Rubyx Credit Card Fees",
+        "headers": [
+          "Particulars",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Joining Fee",
+            "₹3000 + GST or Lifetime Free"
+          ],
+          [
+            "Welcome Benefit",
+            "Welcome vouchers worth over ₹5,000*"
+          ],
+          [
+            "Annual Fee",
+            "₹2000 + GST or Lifetime Free"
+          ],
+          [
+            "Annual Fee Waiver",
+            "₹3 lakh annual spends in the previous card anniversary year** (only if card is not LTF)"
+          ]
+        ]
+      },
+      {
+        "id": "reward_structure-2",
+        "kind": "reward_structure",
+        "title": "ICICI Bank Rubyx Credit Card Rewards",
+        "headers": [
+          "Spend Category",
+          "Rewards"
+        ],
+        "rows": [
+          [
+            "Domestic Retail Spends",
+            "2 Reward Points per ₹100 (Approx. 0.5% return)"
+          ],
+          [
+            "International Spends",
+            "4 Reward Points per ₹100 (Approx. 1% return)"
+          ],
+          [
+            "Utility & Insurance Spends",
+            "1 Reward Point per ₹100 (Approx. 0.25% return)"
+          ],
+          [
+            "Fuel Spends",
+            "No Reward Points"
+          ]
+        ]
+      },
+      {
+        "id": "milestone_benefits-3",
+        "kind": "milestone_benefits",
+        "title": "ICICI Bank Rubyx Credit Card Milestone Rewards",
+        "headers": [
+          "Milestone Spend",
+          "Bonus Reward Points"
+        ],
+        "rows": [
+          [
+            "₹3 lakh in a card anniversary year",
+            "3000 Reward Points"
+          ],
+          [
+            "Every additional ₹1 lakh after ₹3 lakh",
+            "1500 Reward Points"
+          ],
+          [
+            "Maximum Bonus",
+            "15,000 Reward Points per card anniversary year"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-4",
+        "kind": "lounge_access",
+        "title": "ICICI Bank Rubyx Credit Card Airport Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Domestic Airport Lounge Access",
+            "2 complimentary visits per calendar quarter*"
+          ],
+          [
+            "Spend Requirement",
+            "₹75,000 in the previous calendar quarter"
+          ],
+          [
+            "International Airport Lounge Access",
+            "Not Available"
+          ],
+          [
+            "Eligible Cardholder",
+            "Primary cardholder only"
+          ]
+        ]
+      },
+      {
+        "id": "lounge_access-5",
+        "kind": "lounge_access",
+        "title": "ICICI Bank Rubyx Credit Card Railway Lounge Access",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Complimentary Railway Lounge Access",
+            "2 visits per calendar quarter (8 visits per year)"
+          ],
+          [
+            "Spend Requirement",
+            "None"
+          ],
+          [
+            "Eligible Cardholder",
+            "Primary cardholder only"
+          ],
+          [
+            "Lounge Network",
+            "Participating Executive Railway Lounges across India"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-6",
+        "kind": "other_table",
+        "title": "ICICI Bank Rubyx Credit Card Movie Benefits",
+        "headers": [
+          "Benefit",
+          "Details"
+        ],
+        "rows": [
+          [
+            "BookMyShow Offer",
+            "25% discount, up to ₹150 per transaction"
+          ],
+          [
+            "INOX Offer",
+            "25% discount, up to ₹150 on the second ticket"
+          ],
+          [
+            "Minimum Tickets",
+            "2 tickets per transaction"
+          ],
+          [
+            "Frequency",
+            "2 times per month on BookMyShow and 2 times per month on INOX"
+          ],
+          [
+            "Spend Requirement",
+            "₹25,000 in the previous calendar quarter"
+          ]
+        ]
+      },
+      {
+        "id": "fees_and_charges-7",
+        "kind": "fees_and_charges",
+        "title": "ICICI Bank Rubyx Credit Card: Other Benefits & Charges",
+        "headers": [
+          "Feature",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Forex Markup",
+            "3.5% + GST (Effective ~4.13%)"
+          ],
+          [
+            "Fuel Surcharge Waiver",
+            "1% waiver on fuel spends between ₹400 and ₹4000 at eligible HPCL fuel stations (up to ₹50,000 fuel spends per month)"
+          ],
+          [
+            "Reward Redemption Fee",
+            "₹99 + GST per redemption request"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-8",
+        "kind": "other_table",
+        "title": "Pros & Cons",
+        "headers": [
+          "Pros",
+          "Cons"
+        ],
+        "rows": [
+          [
+            "Frequently offered as a Lifetime Free (LTF) card",
+            "Low reward rate of 0.25%-1%"
+          ],
+          [
+            "Complimentary domestic airport and railway lounge access",
+            "₹75,000 quarterly spend required for airport lounge access"
+          ],
+          [
+            "Useful movie offers on BookMyShow and INOX",
+            "No complimentary international airport lounge access"
+          ],
+          [
+            "Good merchant offers from ICICI Bank",
+            "High forex markup of 3.5%"
+          ],
+          [
+            "Welcome benefits on paid variant",
+            "Better alternatives available in the same fee segment"
+          ]
+        ]
+      },
+      {
+        "id": "other_table-9",
+        "kind": "other_table",
+        "title": "Best Alternatives to the ICICI Bank Rubyx Credit Card",
+        "headers": [
+          "Looking for",
+          "Better Alternative"
+        ],
+        "rows": [
+          [
+            "Higher cashback",
+            "SBI Cashback Credit Card"
+          ],
+          [
+            "Better travel rewards",
+            "HDFC Regalia Gold Credit Card"
+          ],
+          [
+            "Better premium ICICI card",
+            "ICICI Sapphiro Credit Card"
+          ],
+          [
+            "Low forex markup",
+            "Scapia Credit Card"
+          ],
+          [
+            "Better lifestyle benefits",
+            "YES Bank Reserv Credit Card"
+          ]
+        ]
+      }
+    ]
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -861,6 +1155,22 @@
       {
         "q": "What is the age eligibility criteria to apply for ICICI Rubyx Credit Card?",
         "a": "The applicant must be between the ages of 21 and 65 years to be eligible for applying for ICICI Bank Rubyx Credit Card."
+      },
+      {
+        "question": "Is the ICICI Bank Rubyx Credit Card lifetime free?",
+        "answer": "Not usually. The joining fee is ₹3,000 + GST and the annual fee is ₹2,000 + GST, though ICICI sometimes offers it free to existing customers. The annual fee is waived when you spend ₹3 lakh in a year."
+      },
+      {
+        "question": "What is the forex markup on the ICICI Bank Rubyx Credit Card?",
+        "answer": "It's 3.5% plus GST on spends in a foreign currency. That's the usual rate, so it isn't the best card to use abroad."
+      },
+      {
+        "question": "Does the ICICI Bank Rubyx Credit Card give airport lounge access?",
+        "answer": "Yes. You get 2 domestic visits a quarter once you spend ₹75,000 in the previous quarter."
+      },
+      {
+        "question": "How much can I earn with the ICICI Bank Rubyx Credit Card?",
+        "answer": "You earn about 0.25% back in reward points on regular spends, and up to 1% on its bonus categories. Check the review above for the exact categories and monthly caps."
       }
     ]
   },
