@@ -289,10 +289,13 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
           )}
         </div>
 
-        {/* Search Picker — Aceternity Gooey Search + CometCard output */}
+        {/* Search Picker — Icon-only until clicked + CometCard output */}
         <div>
           <GooeySearchInput
-            mode="bar"
+            mode="morph"
+            compactLabel=""
+            collapsedWidth={44}
+            expandedWidth={480}
             value={cardSearch}
             onValueChange={setCardSearch}
             placeholder="Search by card or bank (e.g. 'hsbc live', 'sbi cashback', 'infinia', 'axis atlas')..."

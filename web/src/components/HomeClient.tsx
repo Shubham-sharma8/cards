@@ -593,32 +593,33 @@ export function HomeClient({
               one calm ledger.
             </p>
 
-            {/* Primary Search Pill + Live Autocomplete */}
+            {/* Primary Search (icon-only until clicked, expands smoothly bigger) + Live Autocomplete */}
             <div className="mt-2 max-w-xl mx-auto relative">
               <form
                 onSubmit={handleSearch}
                 onFocus={() => setSearchFocused(true)}
                 onBlur={() => setTimeout(() => setSearchFocused(false), 200)}
-                className="flex flex-col sm:flex-row gap-2.5 items-stretch sm:items-center"
+                className="flex flex-wrap gap-3 items-center justify-center"
               >
                 <label htmlFor="hero-search" className="sr-only">
                   Search credit cards, banks, or features
                 </label>
-                <div className="flex-1">
-                  <GooeySearchInput
-                    mode="bar"
-                    value={searchInput}
-                    onValueChange={(val) => {
-                      setSearchInput(val);
-                      setSearchFocused(true);
-                    }}
-                    onSubmit={(val) => {
-                      router.push(`/cards?q=${encodeURIComponent(val.trim())}`);
-                    }}
-                    placeholder="Search Infinia, Accor ALL, RuPay UPI..."
-                    ariaLabel="Search credit cards, banks, or features"
-                  />
-                </div>
+                <GooeySearchInput
+                  mode="morph"
+                  compactLabel=""
+                  collapsedWidth={48}
+                  expandedWidth={410}
+                  value={searchInput}
+                  onValueChange={(val) => {
+                    setSearchInput(val);
+                    setSearchFocused(true);
+                  }}
+                  onSubmit={(val) => {
+                    router.push(`/cards?q=${encodeURIComponent(val.trim())}`);
+                  }}
+                  placeholder="Search Infinia, Accor ALL, RuPay UPI..."
+                  ariaLabel="Search credit cards, banks, or features"
+                />
                 <button
                   type="submit"
                   className="px-6 py-2.5 text-[14px] font-medium text-white bg-[#0F5C4D] hover:bg-[#0B473B] rounded-full transition-colors cursor-pointer shrink-0 shadow-[0_4px_14px_rgba(15,92,77,0.18)]"

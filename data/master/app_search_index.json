@@ -129,7 +129,7 @@
         "spend_condition": "None",
         "extra_notes": "Global concierge booking + select club restaurant privileges"
       },
-      "capping_summary": null,
+      "capping_summary": "15,000 RP/mo SmartBuy bonus cap | ₹18L/yr spend or ₹50L RLV mandatory retention (₹10L fee waiver)",
       "milestone_summary": null,
       "best_for_short": "High-spending HNIs (Rs. 10L+/year) buying flights, hotels, and brand vouchers via SmartBuy with unlimited family lounge access",
       "json_path": "data/cards_by_bank/hdfc-bank/hdfc-infinia-metal-edition-credit-card.json",
@@ -686,7 +686,7 @@
         ]
       },
       "effective_return_pct_by_category": {
-        "online_shopping_general": 10.0,
+        "online_shopping_general": 1.5,
         "amazon_flipkart_myntra": 1.5,
         "dining_swiggy_zomato": 10.0,
         "groceries_quick_commerce": 10.0,
@@ -696,27 +696,27 @@
         "fuel": 0.0,
         "insurance": 0.0,
         "education_rent_govt": 0.0,
-        "international_forex_net_of_markup": -0.85,
+        "international_forex_net_of_markup": -2.35,
         "offline_general_other": 1.5
       },
       "monthly_category_caps_inr": {
-        "online_shopping_general": 1200,
         "dining_swiggy_zomato": 1200,
         "groceries_quick_commerce": 1200,
         "utilities_bills_telecom": 1200
       },
       "category_caveats": {
-        "dining_swiggy_zomato": "10% across Dining, Food Delivery, Groceries & Eligible Shopping (₹1,200/mo combined cap; ₹12,000 spend)",
-        "groceries_quick_commerce": "10% across Zepto/Blinkit/Instamart/DMart & Dining (₹1,200/mo combined cap; 1.5% after)",
-        "amazon_flipkart_myntra": "1.5% base cashback directly on Amazon, Flipkart & Myntra (excluded from 10% tier)",
-        "utilities_bills_telecom": "10% eligible utility MCC (shared ₹1,200/mo cap) or route via Zepto Apay Gift Cards → Amazon Pay",
-        "insurance": "0% direct insurer MCC — Pro Hack: buy Amazon Pay Gift Cards on Zepto (10% up to ₹1,200/mo) → pay via Amazon Pay / Policybazaar"
+        "online_shopping_general": "1.5% base across general online portals (only select departmental/apparel MCCs qualify for 10% pool).",
+        "amazon_flipkart_myntra": "1.5% unlimited base (Amazon, Flipkart & Myntra explicitly excluded from 10%).",
+        "dining_swiggy_zomato": "10% on restaurants, Swiggy & Zomato (shares ₹1,000–₹1,200/mo combined cap).",
+        "groceries_quick_commerce": "10% on Zepto, Blinkit, Instamart, DMart & supermarkets (MCC 5411/5499; shares ₹1,000–₹1,200/mo combined cap).",
+        "utilities_bills_telecom": "10% on eligible utility MCC 4900 & Zepto Amazon Pay Gift Card route (govt portals MCC 9399 excluded).",
+        "insurance": "0% direct insurer MCC — Pro Hack: buy Amazon Pay Gift Cards on Zepto (10% up to ₹1,200/mo) and pay via Amazon Pay / PolicyBazaar."
       },
       "domestic_lounge_summary": "2 complimentary domestic lounges/year (max 1 per 6 months, updated Nov 2026)",
       "international_lounge_summary": "1 complimentary international airport lounge visit per calendar year (+ 2 domestic/yr)",
       "lounge_spend_condition": "No spend criteria (cut in Nov 2026 from 4/yr to 2/yr max 1 per 6 months!)",
       "golf_summary": null,
-      "capping_summary": null,
+      "capping_summary": "₹1,000–₹1,200/mo combined 10% cap (Dining, Groceries, Utilities, select MCCs); 1.5% uncapped on Amazon/Flipkart/other",
       "milestone_summary": null,
       "best_for_short": "Households spending up to Rs. 12,000/mo on dining, groceries (incl. offline D-Mart/supermarkets), Zomato, Swiggy, Blinkit, utility bills & eligible shopping plus everyday 1.5% base spends",
       "json_path": "data/cards_by_bank/hsbc-bank/hsbc-live-credit-card.json",
@@ -900,12 +900,14 @@
       "monthly_category_caps_inr": {
         "travel_flights_hotels": 20000
       },
-      "category_caveats": {},
+      "category_caveats": {
+        "travel_flights_hotels": "5 EDGE Miles/₹100 direct airlines/hotels (capped ₹2L/mo Travel); Accor transfer heavily devalued to 2:1 in 2026 & ITC removed."
+      },
       "domestic_lounge_summary": "8 domestic lounges/yr (Spend condition: Rs. 5 Lakh in a year)",
       "international_lounge_summary": "4 international lounges/yr (Silver) with NO spend criteria",
       "lounge_spend_condition": "Rs. 5 Lakh in a year",
       "golf_summary": null,
-      "capping_summary": null,
+      "capping_summary": "2026 Deval: Accor cut 1:2 -> 2:1 (halved+ value), ITC dropped; 30k Group A EM/yr cap; fresh apps restricted",
       "milestone_summary": null,
       "best_for_short": "Airline flyers redeeming SQ KrisFlyer / United / Air India directly from airline & hotel websites with guest lounge access",
       "json_path": "data/cards_by_bank/axis-bank/axis-bank-atlas-credit-card.json",
@@ -1091,11 +1093,12 @@
         "offline_general_other": 500
       },
       "category_caveats": {
-        "dining_swiggy_zomato": "10% on Swiggy Food/Dineout only (₹1,500/mo cap) · 1% non-Swiggy",
-        "groceries_quick_commerce": "10% on Swiggy Instamart only (₹1,500/mo cap) · 1% non-Swiggy",
+        "dining_swiggy_zomato": "10% strictly on Swiggy Food/Dineout txns ≥ ₹249 (2026 min order update; ₹1,500/mo cap) · <₹249 & Zomato earn 1%.",
+        "groceries_quick_commerce": "10% strictly on Swiggy Instamart txns ≥ ₹249 (₹1,500/mo cap) · non-Swiggy earns 1%.",
         "online_shopping_general": "5% select online MCCs (₹1,500/mo cap); excl. utility/wallet",
         "amazon_flipkart_myntra": "5% on eligible Amazon/Flipkart/Myntra MCCs (shared ₹1,500 cap)",
-        "offline_general_other": "1% base cashback capped at ₹500/statement cycle"
+        "offline_general_other": "1% base cashback capped at ₹500/statement cycle",
+        "travel_flights_hotels": "5% cashback on Cleartrip bookings (shared ₹1,500/cycle cap); 1% on other travel."
       },
       "domestic_lounge_summary": "No domestic airport lounge access",
       "international_lounge_summary": "No international lounge access",
@@ -1107,7 +1110,7 @@
         "spend_condition": "Mastercard World tier",
         "extra_notes": "50% off green fees beyond complimentary rounds via Mastercard"
       },
-      "capping_summary": null,
+      "capping_summary": "10% Swiggy (≥ ₹249 min txn, ₹1,500/cycle cap) · 5% Cleartrip/online (₹1,500 cap) · 1% other (₹500 cap)",
       "milestone_summary": null,
       "best_for_short": "HDFC Bank customers seeking cashback rewards & bank-specific discount offers",
       "json_path": "data/cards_by_bank/hdfc-bank/swiggy-hdfc-bank-credit-card.json",
@@ -2492,7 +2495,7 @@
       "international_lounge_summary": "Unlimited international Priority Pass + 4 complimentary guest visits/yr",
       "lounge_spend_condition": "Rs. 50,000",
       "golf_summary": null,
-      "capping_summary": null,
+      "capping_summary": "2026 Deval: Accor ratio cut 5:4 -> 5:2, ITC removed; 2L Group A RP/yr cap; 12–35 EDGE RP on >₹1.5L/mo",
       "milestone_summary": null,
       "best_for_short": "Ultra-high spenders putting Rs. 3L–Rs. 15L/month (weddings, luxury, corporate travel) unlocking the unbeatable 35 RP/Rs. 200 tier above Rs. 1.5L/mo",
       "json_path": "data/cards_by_bank/axis-bank/axis-bank-magnus-credit-card-for-burgundy.json",
@@ -5282,8 +5285,8 @@
       "effective_return_pct_by_category": {
         "online_shopping_general": 1.0,
         "amazon_flipkart_myntra": 1.0,
-        "dining_swiggy_zomato": 4.0,
-        "groceries_quick_commerce": 4.0,
+        "dining_swiggy_zomato": 5.0,
+        "groceries_quick_commerce": 5.0,
         "travel_flights_hotels": 1.0,
         "upi_scan_and_pay": 1.0,
         "utilities_bills_telecom": 25.0,
@@ -5299,15 +5302,15 @@
         "groceries_quick_commerce": 200
       },
       "category_caveats": {
-        "utilities_bills_telecom": "25% Airtel App (₹250 cap) · 10% bills (₹250 cap); needs matching retail spend",
-        "dining_swiggy_zomato": "10% Zomato only (Eff Apr 2026) · 1% outside Zomato",
-        "groceries_quick_commerce": "10% Blinkit only (Eff Apr 2026) · 1% outside Blinkit"
+        "utilities_bills_telecom": "25% Airtel (2× base cashback, max ₹250) + 10% Utility (1× base cashback, max ₹250) — requires 1% regular retail spend in the same cycle; ₹0 base spend = ₹0 cashback.",
+        "dining_swiggy_zomato": "10% Zomato partner wallet credit only (min order ₹499, max ₹200/mo); Swiggy & offline dining earn 1%.",
+        "groceries_quick_commerce": "10% Blinkit partner wallet credit only (min order ₹499, max ₹200/mo); BigBasket & supermarkets earn 1%."
       },
-      "domestic_lounge_summary": "Discontinued (Apr 12, 2026): 4 complimentary domestic lounge visits removed",
+      "domestic_lounge_summary": "Discontinued (Apr 12, 2026): 0 complimentary domestic airport lounge visits",
       "international_lounge_summary": "No international lounge access",
       "lounge_spend_condition": "Discontinued effective April 12, 2026",
       "golf_summary": null,
-      "capping_summary": null,
+      "capping_summary": "Conditional Apr 2026 cap: 25% Airtel (2× base, ₹250 max) + 10% Utility (1× base, ₹250 max); Zomato/Blinkit ₹200 wallet credit (₹499 MOV); 0 lounges",
       "milestone_summary": null,
       "best_for_short": "Airtel, Zomato & Blinkit users who ALREADY put Rs. 15k–Rs. 25k/mo of non-excluded retail spend on this card",
       "json_path": "data/cards_by_bank/axis-bank/airtel-axis-bank-credit-card.json",
@@ -13909,7 +13912,7 @@
       "international_lounge_summary": "Additionally, cardholders and add-on members can avail unlimited complimentary international lounge visits with Priority Pass, along with four additional guest visits per year.",
       "lounge_spend_condition": "Rs. 50,000 in previous 3 months",
       "golf_summary": null,
-      "capping_summary": null,
+      "capping_summary": "2026 Deval: Accor ratio cut 5:2 -> 5:1, ITC removed; 1L Group A RP/yr cap; 35 RP on >₹1.5L/mo",
       "milestone_summary": null,
       "best_for_short": "High-income spenders maximizing Axis Bank concierge, unlimited lounges & accelerated travel portals",
       "json_path": "data/cards_by_bank/axis-bank/axis-magnus-credit-card.json",

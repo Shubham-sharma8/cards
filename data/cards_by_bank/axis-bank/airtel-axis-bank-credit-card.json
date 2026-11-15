@@ -97,8 +97,8 @@
     "effective_return_pct_by_category": {
       "online_shopping_general": 1.0,
       "amazon_flipkart_myntra": 1.0,
-      "dining_swiggy_zomato": 4.0,
-      "groceries_quick_commerce": 4.0,
+      "dining_swiggy_zomato": 5.0,
+      "groceries_quick_commerce": 5.0,
       "travel_flights_hotels": 1.0,
       "upi_scan_and_pay": 1.0,
       "utilities_bills_telecom": 25.0,
@@ -114,12 +114,15 @@
       "groceries_quick_commerce": 200
     },
     "monthly_capping_rules": [
-      "April 12, 2026 Devaluation: 25% Airtel (cap Rs. 250/mo) & 10% Utility via Airtel Thanks (cap Rs. 250/mo) unlock ONLY in proportion to monthly 1% base retail spend (Rs. 25k/mo base spend needed for full Rs. 500 cap; Rs. 0 base spend = Rs. 0 utility cashback). 10% on Zomato, Blinkit & District Movies (min order Rs. 499, Rs. 200/partner cap; Swiggy & BigBasket removed); 0 domestic lounges."
+      "April 12, 2026 MITC Overhaul: 25% Airtel cashback (up to ₹250/mo) is capped at 2× your 1% base cashback, and 10% Utility cashback via Airtel Thanks (up to ₹250/mo) is capped at 1× your 1% base cashback.",
+      "You must spend ₹12,500/mo on regular 1% retail spends to unlock the full ₹250 Airtel cap (and ₹25,000/mo to also unlock the full ₹250 utility cap). With ₹0 other spend, accelerated Airtel/Utility cashback drops to ₹0.",
+      "Swiggy & BigBasket 10% direct cashback discontinued — replaced by 10% partner wallet credits on Zomato, Blinkit & District Movies (min ₹499 txn, ₹200/partner/mo cap).",
+      "All 4 complimentary domestic airport lounge visits/yr completely discontinued effective April 12, 2026."
     ],
     "category_caveats": {
-      "utilities_bills_telecom": "25% Airtel App (₹250 cap) · 10% bills (₹250 cap); needs matching retail spend",
-      "dining_swiggy_zomato": "10% Zomato only (Eff Apr 2026) · 1% outside Zomato",
-      "groceries_quick_commerce": "10% Blinkit only (Eff Apr 2026) · 1% outside Blinkit"
+      "utilities_bills_telecom": "25% Airtel (2× base cashback, max ₹250) + 10% Utility (1× base cashback, max ₹250) — requires 1% regular retail spend in the same cycle; ₹0 base spend = ₹0 cashback.",
+      "dining_swiggy_zomato": "10% Zomato partner wallet credit only (min order ₹499, max ₹200/mo); Swiggy & offline dining earn 1%.",
+      "groceries_quick_commerce": "10% Blinkit partner wallet credit only (min order ₹499, max ₹200/mo); BigBasket & supermarkets earn 1%."
     },
     "excluded_categories": [
       "Fuel transactions",
@@ -339,7 +342,8 @@
           ]
         ]
       }
-    ]
+    ],
+    "capping_summary": "Conditional Apr 2026 cap: 25% Airtel (2× base, ₹250 max) + 10% Utility (1× base, ₹250 max); Zomato/Blinkit ₹200 wallet credit (₹499 MOV); 0 lounges"
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -348,7 +352,7 @@
       "spend_criteria": "Discontinued effective April 12, 2026",
       "add_on_allowed": false,
       "shared_limit": false,
-      "summary": "Discontinued (Apr 12, 2026): 4 complimentary domestic lounge visits removed"
+      "summary": "Discontinued (Apr 12, 2026): 0 complimentary domestic airport lounge visits"
     },
     "international": {
       "program": "None",
@@ -525,14 +529,13 @@
     "sentiment_summary": "Community discussions around Axis Bank Cashback cards.",
     "key_threads": [],
     "practical_community_warnings": [
-      "High 3.5% (+GST) forex markup makes international swipes net negative.",
-      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
-      "April 12, 2026 Devaluation: 25% Airtel (cap Rs. 250/mo) & 10% Utility via Airtel Thanks (cap Rs. 250/mo) unlock ONLY in proportion to monthly 1% base retail spend (Rs. 25k/mo base spend needed for full Rs. 500 cap; Rs. 0 base spend = Rs. 0 utility cashback). 10% on Zomato, Blinkit & District Movies (min order Rs. 499, Rs. 200/partner cap; Swiggy & BigBasket removed); 0 domestic lounges."
+      "April 12, 2026 MITC Devaluation: 25% Airtel cashback is capped at 2× your 1% base cashback & 10% Utility is capped at 1× base cashback — ₹0 regular other spends = ₹0 Airtel/Utility cashback!",
+      "Swiggy & BigBasket 10% removed (replaced by Zomato/Blinkit/District partner wallet credits with ₹499 minimum order and ₹200/mo cap).",
+      "4 complimentary domestic airport lounge visits discontinued effective April 12, 2026; 3.5%+GST forex markup."
     ],
     "optimization_tips": [
-      "April 2026 Proportional Unlock Rule: 25% Airtel Thanks recharge (₹250 cap) & 10% Utility bills via Airtel Thanks (₹250 cap) now unlock proportionally with base 1% retail spend — mix Zomato, Blinkit & everyday offline/online spends so bill cashback isn't withheld.",
-      "₹200 cashback on Airtel payments",
-      "₹100 cashback on utility bill payments"
+      "Math check before keeping after Apr 2026: To unlock the full ₹250 Airtel (25%) cap you need ₹12,500 in 1% regular spends (~₹125 base), and ₹25,000 in 1% spends for the full ₹250 utility cap. If you hold SBI Cashback or HDFC Infinia for 3.3%–5% retail spends, shifting ₹12.5k–₹25k away just to unlock Airtel Axis loses opportunity cost!",
+      "Only swipe Airtel Axis on Zomato/Blinkit/District above ₹499 where it earns 10% wallet credits (up to ₹200 each/mo)."
     ]
   },
   "devaluation_analysis": {

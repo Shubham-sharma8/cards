@@ -2160,9 +2160,12 @@ export function CardDossierClient({
                     </p>
                   </div>
                   {combinedIndianLounges.length > 0 && (
-                    <div className="w-full sm:w-72">
+                    <div className="shrink-0">
                       <GooeySearchInput
-                        mode="bar"
+                        mode="morph"
+                        compactLabel=""
+                        collapsedWidth={44}
+                        expandedWidth={300}
                         value={loungeQuery}
                         onValueChange={setLoungeQuery}
                         placeholder="Filter by city, terminal, lounge..."

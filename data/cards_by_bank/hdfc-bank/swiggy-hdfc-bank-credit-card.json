@@ -116,11 +116,12 @@
       "10% strictly on Swiggy Food, Instamart & Dineout (capped Rs. 1,500/cycle — Zomato & offline dining earn 1%); 5% on Amazon/Flipkart/Myntra/apparel online MCCs (capped Rs. 1,500/cycle); 1% other (capped Rs. 500/cycle)."
     ],
     "category_caveats": {
-      "dining_swiggy_zomato": "10% on Swiggy Food/Dineout only (₹1,500/mo cap) · 1% non-Swiggy",
-      "groceries_quick_commerce": "10% on Swiggy Instamart only (₹1,500/mo cap) · 1% non-Swiggy",
+      "dining_swiggy_zomato": "10% strictly on Swiggy Food/Dineout txns ≥ ₹249 (2026 min order update; ₹1,500/mo cap) · <₹249 & Zomato earn 1%.",
+      "groceries_quick_commerce": "10% strictly on Swiggy Instamart txns ≥ ₹249 (₹1,500/mo cap) · non-Swiggy earns 1%.",
       "online_shopping_general": "5% select online MCCs (₹1,500/mo cap); excl. utility/wallet",
       "amazon_flipkart_myntra": "5% on eligible Amazon/Flipkart/Myntra MCCs (shared ₹1,500 cap)",
-      "offline_general_other": "1% base cashback capped at ₹500/statement cycle"
+      "offline_general_other": "1% base cashback capped at ₹500/statement cycle",
+      "travel_flights_hotels": "5% cashback on Cleartrip bookings (shared ₹1,500/cycle cap); 1% on other travel."
     },
     "excluded_categories": [],
     "transfer_partners": [],
@@ -134,7 +135,8 @@
         "5% Cashback on online spends across various categories (with monthly capping of up to Rs. 1,500).",
         "1% Cashback on all other spends, including offline transactions, with monthly capping of up to Rs. 500."
       ]
-    }
+    },
+    "capping_summary": "10% Swiggy (≥ ₹249 min txn, ₹1,500/cycle cap) · 5% Cleartrip/online (₹1,500 cap) · 1% other (₹500 cap)"
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -345,6 +347,7 @@
     "sentiment_summary": "Community discussions around HDFC Bank Cashback cards.",
     "key_threads": [],
     "practical_community_warnings": [
+      "2026 Update: Minimum transaction value raised from ₹100 to ₹249 for 10% Swiggy cashback (orders under ₹249 earn lower base rate); Cleartrip 5% added.",
       "High 3.5% (+GST) forex markup makes international swipes net negative.",
       "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
       "10% strictly on Swiggy Food, Instamart & Dineout (capped Rs. 1,500/cycle — Zomato & offline dining earn 1%); 5% on Amazon/Flipkart/Myntra/apparel online MCCs (capped Rs. 1,500/cycle); 1% other (capped Rs. 500/cycle)."

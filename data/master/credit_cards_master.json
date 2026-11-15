@@ -861,11 +861,16 @@
       },
       "devaluation": {
         "devaluation_frequency": "High",
-        "devaluation_risk_score": 8.0,
-        "last_devalued_on": "2026 (Accor transfer partner dropped; Oct 8 2026 KFS exclusions)",
+        "devaluation_risk_score": 8,
+        "last_devalued_on": "2026 (Accor cut to 2:1, ITC dropped, Group A partner purge)",
         "devaluation_history": [
+          "2026 EDGE Miles Overhaul: Accor cut to 2:1 (from 1:2), ITC Hotels removed, Group A partners restructured, fresh applications paused/restricted.",
           "2024-04: Group A 30k EM/yr cap introduced + gold/rent/utilities excluded + direct OTA (MMT/ClearTrip) removed from 5X",
           "2026: Dropped Accor Live Limitless transfer partner (halving hotel value for many); HSBC TravelOne dethroned it as #1 mid-tier travel card"
+        ],
+        "watch_out_vectors": [
+          "Quarterly spend thresholds for domestic airport lounge access",
+          "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
         ]
       },
       "pros": [
@@ -3304,10 +3309,15 @@
       },
       "devaluation": {
         "devaluation_frequency": "Very High",
-        "devaluation_risk_score": 8.5,
+        "devaluation_risk_score": 8,
         "last_devalued_on": null,
         "devaluation_history": [
+          "2026 EDGE Rewards Update: Accor transfer halved from 5:4 to 5:2; ITC Hotels removed.",
           "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions)."
+        ],
+        "watch_out_vectors": [
+          "Quarterly spend thresholds for domestic airport lounge access",
+          "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
         ]
       },
       "pros": [
@@ -3884,9 +3894,9 @@
         "min_age": 21,
         "max_age": 65,
         "min_monthly_income_salaried_inr": 500000,
-        "min_annual_itr_self_employed_inr": 6000000,
+        "min_annual_itr_self_employed_inr": 4800000,
         "min_cibil_score": 780,
-        "notes": "Strictly invite-only; 2026 HDFC internal retention/upgrade threshold tightened toward Rs. 18L spend/6 months & Rs. 5L/mo net salary or Imperia/HNI AUM."
+        "notes": "Strictly invite-only flagship: HDFC requires ₹18 Lakh/yr retail card spend OR ₹50 Lakh Total Relationship Value (RLV) for mandatory annual retention (to avoid downgrade to Diners Club Black Metal); ₹10 Lakh/yr spend waives the ₹12,500+GST fee. Fresh/upgrade benchmark ~₹5L/mo net salary or ₹48L–₹60L+ ITR / Imperia-Private HNI AUM."
       },
       "ratings": {
         "aggregator_rating": null,
@@ -3904,11 +3914,16 @@
       },
       "devaluation": {
         "devaluation_frequency": "Low",
-        "devaluation_risk_score": 4.0,
+        "devaluation_risk_score": 4,
         "last_devalued_on": "2024-08 (SmartBuy monthly caps introduced; rumors of Infinia Private/reserve tier)",
         "devaluation_history": [
+          "2026 Retention Rule: Enforced ₹18 Lakh/yr card retail spend OR ₹50 Lakh RLV retention threshold (risk of forced downgrade to Diners Club Black Metal if unmet; ₹48L–₹60L+ ITR benchmark).",
           "2024-08: Capped GyFTR vouchers & SmartBuy accelerated monthly bonus to 15,000 RP; Tanishq/Apple caps",
           "2026: Tightened invite-only upgrade bar (Rs. 18L/6mo or Rs. 5L+/mo net salary per Reddit r/CreditCardsIndia)"
+        ],
+        "watch_out_vectors": [
+          "Quarterly spend thresholds for domestic airport lounge access",
+          "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
         ]
       },
       "pros": [
@@ -13029,7 +13044,7 @@
           "spend_criteria": "Discontinued effective April 12, 2026",
           "add_on_allowed": false,
           "shared_limit": false,
-          "summary": "Domestic airport lounge access discontinued effective April 12, 2026 (0 visits)"
+          "summary": "Discontinued (Apr 12, 2026): 0 complimentary domestic airport lounge visits"
         },
         "international": {
           "program": "None",
@@ -13044,7 +13059,18 @@
           "visits_per_quarter": 0,
           "summary": "No railway lounge access"
         },
-        "participating_lounges_ref": "data/master/lounge_access_master.json"
+        "has_domestic_lounge": false,
+        "has_international_lounge": false,
+        "has_railway_lounge": false,
+        "no_spend_domestic_lounge": false,
+        "applicable_lounge_links": [],
+        "participating_lounges_matched": [],
+        "participating_lounges_count": 0,
+        "no_lounge_note": "Axis Bank discontinued all 4 complimentary domestic lounge visits effective 12 April 2026.",
+        "domestic_lounge_accessible_count": 0,
+        "international_lounge_accessible_count": 0,
+        "accessible_lounge_codes": [],
+        "accessible_golf_slugs": []
       },
       "eligibility": {
         "min_age": 21,
@@ -13069,11 +13095,15 @@
       },
       "devaluation": {
         "devaluation_frequency": "High",
-        "devaluation_risk_score": 7.5,
+        "devaluation_risk_score": 7,
         "last_devalued_on": "2026-04-12",
         "devaluation_history": [
           "April 12, 2026 Major Devaluation: (1) 25% Airtel & 10% Utility cashback now tied to monthly 1% base retail spend (Rs. 25,000/mo retail required to unlock full Rs. 500 utility+Airtel cap; Rs. 0 base spend = Rs. 0 cashback); (2) Domestic airport lounge visits (4/yr) completely discontinued; (3) Swiggy & BigBasket removed — replaced by Zomato, Blinkit & District Movies with Rs. 499 MOV and Rs. 200/partner monthly cap.",
           "Previous 2024–2025 utility cap reductions from Rs. 300 to Rs. 250/mo."
+        ],
+        "watch_out_vectors": [
+          "Quarterly spend thresholds for domestic airport lounge access",
+          "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
         ]
       },
       "pros": [
@@ -18279,10 +18309,15 @@
       },
       "devaluation": {
         "devaluation_frequency": "Very High",
-        "devaluation_risk_score": 8.5,
+        "devaluation_risk_score": 8,
         "last_devalued_on": null,
         "devaluation_history": [
+          "2026 EDGE Rewards Update: Accor transfer cut to 5:1; ITC Hotels removed.",
           "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions)."
+        ],
+        "watch_out_vectors": [
+          "Quarterly spend thresholds for domestic airport lounge access",
+          "Exclusion of rent, wallet, utilities, education, and government spends from reward points"
         ]
       },
       "pros": [

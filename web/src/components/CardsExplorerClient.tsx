@@ -511,13 +511,16 @@ export function CardsExplorerClient({ cards, banks }: CardsExplorerClientProps) 
           </div>
         </div>
 
-        {/* Search Field — Aceternity Gooey Search */}
-        <div className="max-w-2xl">
+        {/* Search Field — Icon-only until clicked, expands to full bar */}
+        <div className="flex items-center">
           <label htmlFor="directory-search" className="sr-only">
             Filter cards by keyword
           </label>
           <GooeySearchInput
-            mode="bar"
+            mode="morph"
+            compactLabel=""
+            collapsedWidth={44}
+            expandedWidth={480}
             value={query}
             onValueChange={(val) => {
               setQuery(val);

@@ -40,7 +40,7 @@ CURATED_CALC_OVERRIDES: dict[str, dict[str, Any]] = {
     },
     "hsbc_bank_live_plus_credit_card": {
         "rates": {
-            "online_shopping_general": 10.0,
+            "online_shopping_general": 1.5,
             "amazon_flipkart_myntra": 1.5,
             "dining_swiggy_zomato": 10.0,
             "groceries_quick_commerce": 10.0,
@@ -54,14 +54,13 @@ CURATED_CALC_OVERRIDES: dict[str, dict[str, Any]] = {
             "offline_general_other": 1.5,
         },
         "monthly_caps_inr": {
-            "online_shopping_general": 1200,
             "dining_swiggy_zomato": 1200,
             "groceries_quick_commerce": 1200,
             "utilities_bills_telecom": 1200,
         },
         "capping": [
-            "10% cashback across dining, food delivery, groceries (D-Mart/supermarkets/Blinkit/Zepto/Swiggy/Zomato), eligible shopping (excl. Amazon & Flipkart; Myntra promo till Oct 31, 2026) & utility bill payments — combined cap Rs. 1,200/month (up to Rs. 12,000 monthly spend).",
-            "1.5% UNLIMITED cashback on Amazon, Flipkart, travel & general offline/online retail spends (excluded: fuel, rent, wallet, jewelry, insurance, hospitals, local transport, tax).",
+            "10% cashback on Dining, Food Delivery (Swiggy/Zomato), Groceries (DMart/Blinkit/Zepto/Instamart — MCC 5411/5499), eligible Utility Bills (MCC 4900 / Zepto Amazon Pay Voucher route) & select offline/apparel departmental MCCs — combined cap ₹1,000–₹1,200/month.",
+            "Amazon, Flipkart & Myntra are EXCLUDED from 10% and earn 1.5% UNLIMITED base cashback (same 1.5% across general online/offline retail & travel; Fuel, Rent, Wallet, Govt, Jewellery, Hospitals & Local Transport earn 0%).",
         ],
     },
     "hdfc_bank_phonepe_ultimo_credit_card": {
@@ -229,8 +228,8 @@ CURATED_CALC_OVERRIDES: dict[str, dict[str, Any]] = {
         "rates": {
             "online_shopping_general": 1.0,
             "amazon_flipkart_myntra": 1.0,
-            "dining_swiggy_zomato": 10.0,
-            "groceries_quick_commerce": 10.0,
+            "dining_swiggy_zomato": 5.0,
+            "groceries_quick_commerce": 5.0,
             "travel_flights_hotels": 1.0,
             "upi_scan_and_pay": 1.0,
             "utilities_bills_telecom": 25.0,
@@ -246,7 +245,8 @@ CURATED_CALC_OVERRIDES: dict[str, dict[str, Any]] = {
             "groceries_quick_commerce": 200,
         },
         "capping": [
-            "April 12, 2026 Devaluation: 25% Airtel (cap Rs. 250/mo) & 10% Utility via Airtel Thanks (cap Rs. 250/mo) unlock ONLY in proportion to monthly 1% base retail spend (Rs. 25k/mo base spend needed for full Rs. 500 cap; Rs. 0 base spend = Rs. 0 utility cashback). 10% on Zomato, Blinkit & District Movies (min order Rs. 499, Rs. 200/partner cap; Swiggy & BigBasket removed); 0 domestic lounges.",
+            "April 12, 2026 MITC: 25% Airtel (max ₹250/mo) is capped at 2× your 1% base cashback, and 10% Utility via Airtel Thanks (max ₹250/mo) is capped at 1× your 1% base cashback (needs ₹12,500/mo other spends for Airtel cap & ₹25,000/mo for full utility cap; ₹0 base spend = ₹0 accelerated cashback).",
+            "Swiggy & BigBasket 10% removed — replaced with 10% partner wallet credits on Zomato, Blinkit & District Movies (min order ₹499, ₹200/partner cap); 0 domestic lounges (4/yr discontinued).",
         ],
     },
     "icici_amazon_pay_icici_bank_credit_card": {
@@ -438,11 +438,12 @@ CURATED_CALC_OVERRIDES: dict[str, dict[str, Any]] = {
         },
         "capping": [
             "Base 3.33% (5 RP/Rs.150 at Rs.1/RP on flights/hotels/Apple/Tanishq); 16.5% (5X) on flights & GyFTR vouchers and 33% (10X) on hotels via SmartBuy.",
-            "SmartBuy accelerated RP capped at 15,000 RP/month; Insurance capped at 10,000 RP/month (5,000 RP/day eff. July 2025); Utilities capped at 2,000 RP/month; Rent & Govt/Tax earn 0%.",
+            "SmartBuy accelerated RP capped at 15,000 RP/month; Insurance capped at 10,000 RP/month (5,000 RP/day); Utilities capped at 2,000 RP/month; Rent & Govt/Tax earn 0%.",
+            "2026 Retention & Eligibility Policy: ₹10L/yr spend waives ₹12,500+GST annual fee, but HDFC mandates ₹18L/yr retail card spend OR ₹50L Total Relationship Value (RLV) to retain Infinia and avoid downgrade to Diners Club Black Metal (fresh/upgrade benchmark ~₹5L/mo net salary or ₹48L–₹60L+ ITR).",
         ],
         "category_caveats": {
             "insurance": "3.33% base RPs capped at 10,000 RP/month (5,000 RP/day) under HDFC July 2025 circular.",
-            "education_rent_govt": "0% on Rent and Government/Tax transactions (only HDFC BizBlack earns rewards on Income Tax/GST).",
+            "education_rent_govt": "0% on Rent and Government/Tax transactions (excluded from ₹18L annual retention spend gate too).",
             "utilities_bills_telecom": "3.33% capped at 2,000 RP/month.",
         },
     },
@@ -2112,7 +2113,7 @@ CURATED_CALC_OVERRIDES: dict[str, dict[str, Any]] = {
 CURATED_CALC_OVERRIDES.update({
     "hsbc_bank_live_plus_credit_card": {
         "rates": {
-            "online_shopping_general": 10.0,
+            "online_shopping_general": 1.5,
             "amazon_flipkart_myntra": 1.5,
             "dining_swiggy_zomato": 10.0,
             "groceries_quick_commerce": 10.0,
@@ -2122,24 +2123,24 @@ CURATED_CALC_OVERRIDES.update({
             "fuel": 0.0,
             "insurance": 0.0,
             "education_rent_govt": 0.0,
-            "international_forex_net_of_markup": -0.85,
+            "international_forex_net_of_markup": -2.35,
             "offline_general_other": 1.5,
         },
         "monthly_caps_inr": {
-            "online_shopping_general": 1200,
             "dining_swiggy_zomato": 1200,
             "groceries_quick_commerce": 1200,
             "utilities_bills_telecom": 1200,
         },
         "capping": [
-            "10% cashback across dining, food delivery, groceries, eligible shopping (excl. Amazon & Flipkart) & utility bills (MCC 4900) — combined shared cap of Rs. 1,200/month (up to Rs. 12,000 monthly spend); 1.5% uncapped after cap or on Amazon/Flipkart/travel.",
-            "r/CreditCardsIndia caveat: Direct govt/state electricity boards billed under MCC 9399 yield 0%/1.5%; pay via Paytm/Airtel/Amazon Pay utility channels (MCC 4900) where eligible.",
+            "10% cashback across Dining, Food Delivery (Swiggy/Zomato), Groceries (DMart/Zepto/Blinkit/Instamart — MCC 5411/5499), eligible Utility Bills (MCC 4900) & select departmental/apparel MCCs — combined shared cap of ₹1,000–₹1,200/month.",
+            "Amazon, Flipkart & Myntra earn 1.5% UNLIMITED base cashback (excl. from 10%). Tip: buy Amazon Pay Gift Cards on Zepto (codes as Grocery 10% up to ₹1,200/mo) and pay utility/insurance bills via Amazon Pay or PolicyBazaar.",
         ],
         "category_caveats": {
-            "online_shopping_general": "10% applies to eligible dining/apparel/dept MCCs sharing Rs. 1,200/mo pool; Amazon & Flipkart earn 1.5% uncapped.",
-            "dining_swiggy_zomato": "Shares Rs. 1,200/month 10% cashback pool across dining, groceries, eligible shopping & utilities.",
-            "groceries_quick_commerce": "Shares Rs. 1,200/month 10% cashback pool across dining, groceries, eligible shopping & utilities.",
-            "utilities_bills_telecom": "Shares Rs. 1,200/month 10% pool on MCC 4900 only; direct govt utility portals (MCC 9399) yield 0%/1.5% — route via Paytm/Airtel MCC 4900.",
+            "online_shopping_general": "1.5% unlimited base on general e-commerce (Amazon/Flipkart/Myntra explicitly excluded from 10%; only select MCCs qualify).",
+            "amazon_flipkart_myntra": "1.5% unlimited base (explicitly excluded from 10% tier).",
+            "dining_swiggy_zomato": "10% across restaurants, Swiggy & Zomato (shares ₹1,000–₹1,200/mo pool).",
+            "groceries_quick_commerce": "10% across Blinkit, Zepto, Instamart, DMart & supermarkets (MCC 5411/5499; shares ₹1,000–₹1,200/mo pool).",
+            "utilities_bills_telecom": "10% on eligible utility MCC 4900 & Zepto Amazon Pay Gift Card route (direct govt boards MCC 9399 earn 0%/1.5%).",
         },
     },
     "hsbc_premier_credit_card": {
@@ -2215,12 +2216,12 @@ CURATED_CALC_OVERRIDES.update({
             "offline_general_other": 500,
         },
         "capping": [
-            "10% strictly on Swiggy Food, Instamart & Dineout (capped Rs. 1,500/cycle — Zomato & offline dining earn 1%); 5% on Amazon/Flipkart/Myntra/apparel online MCCs (capped Rs. 1,500/cycle); 1% other (capped Rs. 500/cycle).",
+            "10% strictly on Swiggy Food, Instamart & Dineout for transactions ≥ ₹249 (2026 min order update; capped ₹1,500/cycle — Zomato & offline dining earn 1%); 5% on Cleartrip/Amazon/Flipkart/Myntra/apparel online MCCs (capped ₹1,500/cycle); 1% other (capped ₹500/cycle).",
         ],
         "category_caveats": {
-            "dining_swiggy_zomato": "10% applies STRICTLY to Swiggy Food & Dineout (shared Rs. 1,500/mo Swiggy pool); offline dining & Zomato earn 1%.",
-            "groceries_quick_commerce": "10% applies STRICTLY to Swiggy Instamart (shared Rs. 1,500/mo Swiggy pool).",
-            "online_shopping_general": "5% on eligible online apparel/dept MCCs (shared Rs. 1,500/mo pool with Amazon/Flipkart).",
+            "dining_swiggy_zomato": "10% applies STRICTLY to Swiggy Food & Dineout txns ≥ ₹249 (shared ₹1,500/mo Swiggy pool); txns < ₹249, offline dining & Zomato earn 1%.",
+            "groceries_quick_commerce": "10% applies STRICTLY to Swiggy Instamart txns ≥ ₹249 (shared ₹1,500/mo Swiggy pool).",
+            "online_shopping_general": "5% on eligible online apparel/dept MCCs & Cleartrip (shared ₹1,500/mo pool with Amazon/Flipkart).",
         },
     },
     "hdfc_bank_swiggy_blck_hdfc_credit_card": {

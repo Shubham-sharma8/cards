@@ -464,7 +464,8 @@
           ]
         ]
       }
-    ]
+    ],
+    "capping_summary": "2026 Deval: Accor ratio cut 5:2 -> 5:1, ITC removed; 1L Group A RP/yr cap; 35 RP on >₹1.5L/mo"
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -1676,6 +1677,7 @@
     "devaluation_risk_score": 8,
     "last_devalued_on": null,
     "devaluation_history": [
+      "2026 EDGE Rewards Update: Accor transfer cut to 5:1; ITC Hotels removed.",
       "Most aggressive devaluer (2023 Magnus, 2024 Atlas/Magnus Great Devaluation, 2026 Accor exit, Airtel proportional unlock & KFS exclusions)."
     ],
     "watch_out_vectors": [

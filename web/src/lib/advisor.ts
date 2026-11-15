@@ -113,11 +113,10 @@ export const SHARED_CAP_POOLS: Record<
       keys: [
         "dining_swiggy_zomato",
         "groceries_quick_commerce",
-        "online_shopping_general",
         "utilities_bills_telecom",
       ],
       combinedCapInr: 1200,
-      label: "10% Dining, Grocery, Eligible Shopping & Utilities pool capped at ₹1,200/mo (1.5% base after; Amazon/Flipkart 1.5%)",
+      label: "10% Dining, Groceries & Utilities pool capped at ₹1,000–₹1,200/mo (1.5% base on Amazon/Flipkart/Myntra & excess)",
     },
   ],
   hsbc_bank_rupay_cashback_credit_card: [
@@ -349,6 +348,14 @@ export function baseFallbackRatePct(card: CardSummaryItem): number {
   return Math.max(0, Math.min(base, 3.3));
 }
 
+/** Apr 12, 2026 MITC: 25% Airtel (max ₹250) unlocks at 2x 1% base cashback; 10% Utility (max ₹250) at 1x base. */
+export function calculateAirtelAxisUtilityCap(baseRetailMonthlySpend: number): number {
+  if (baseRetailMonthlySpend <= 0) return 0;
+  const airtelUnlocked = Math.min(250, Math.round(baseRetailMonthlySpend * 0.02));
+  const utilityUnlocked = Math.min(250, Math.round(baseRetailMonthlySpend * 0.01));
+  return airtelUnlocked + utilityUnlocked;
+}
+
 export function cappedMonthlyCategoryReward(
   card: CardSummaryItem,
   catKey: SpendCategoryKey,
@@ -570,7 +577,7 @@ export function evaluateCardForSpend(
     }
   }
 
-  // Airtel Axis Apr 12, 2026 rule: 25% Airtel & 10% Utility cashback require matching 1% base retail cashback
+  // Airtel Axis Apr 12, 2026 rule: 25% Airtel (2x) & 10% Utility (1x) require matching 1% base retail cashback
   if (card.card_id === "axis_bank_airtel_axis_bank_credit_card") {
     const baseRetailSpend =
       (monthlySpend.online_shopping_general || 0) +
@@ -578,10 +585,10 @@ export function evaluateCardForSpend(
       (monthlySpend.travel_flights_hotels || 0) +
       (monthlySpend.upi_scan_and_pay || 0) +
       (monthlySpend.offline_general_other || 0);
-    const unlockedUtilityCeiling = Math.min(250, Math.round(baseRetailSpend * 0.015));
+    const unlockedUtilityCeiling = calculateAirtelAxisUtilityCap(baseRetailSpend);
     const beforeGate = rawMonthlyRewards["utilities_bills_telecom"] || 0;
     poolLabels["utilities_bills_telecom"] =
-      "Apr 2026 rule: 10%/25% utility cashback unlocked only by 1% base retail spends (max ₹250/mo)";
+      "Apr 2026 MITC: 25% Airtel (2× base, ₹250 max) + 10% Utility (1× base, ₹250 max) — requires 1% retail spends";
     if ((monthlySpend.utilities_bills_telecom || 0) > 0 && beforeGate > unlockedUtilityCeiling) {
       rawMonthlyRewards["utilities_bills_telecom"] = unlockedUtilityCeiling;
       capNotes.push(
@@ -964,6 +971,41 @@ export function scoreCardsForProfile(
       });
     }
 
+    if (
+      card.card_id === "axis_bank_airtel_axis_bank_credit_card" &&
+      (profile.monthlySpend.utilities_bills_telecom || 0) > 0
+    ) {
+      const baseOtherSpend =
+        (profile.monthlySpend.online_shopping_general || 0) +
+        (profile.monthlySpend.amazon_flipkart_myntra || 0) +
+        (profile.monthlySpend.travel_flights_hotels || 0) +
+        (profile.monthlySpend.upi_scan_and_pay || 0) +
+        (profile.monthlySpend.offline_general_other || 0);
+      const unlocked = calculateAirtelAxisUtilityCap(baseOtherSpend);
+      if (baseOtherSpend < 25000) {
+        limitAlerts.push({
+          severity: baseOtherSpend === 0 ? "warning" : "info",
+          tag: "2× Base Unlock",
+          title:
+            baseOtherSpend === 0
+              ? "₹0 Airtel/Utility unlocked without base spends"
+              : `₹${unlocked}/mo Airtel+Utility unlocked (need ₹25k base spend for full ₹500)`,
+          detail:
+            "Apr 2026 MITC caps 25% Airtel at 2× your 1% base cashback and 10% Utility at 1× base cashback.",
+        });
+      }
+    }
+
+    if (card.card_id === "hdfc_bank_infinia_credit_card" && calc.annualSpendInr < 1800000) {
+      limitAlerts.push({
+        severity: "info",
+        tag: "Retention Gate",
+        title: "Requires ₹18L/yr spend or ₹50L HDFC RLV",
+        detail:
+          "₹10L/yr waives annual fee, while ₹18L/yr retail spend or ₹50L HDFC RLV is required to retain Infinia and prevent downgrade to DCB Metal.",
+      });
+    }
+
     // Score & Reasons calculation
     let goalBonus = 0;
     const reasons: string[] = [];
@@ -1253,7 +1295,7 @@ export function evaluateTwoCardCombo(
     const indCap = card.monthly_category_caps_inr?.[catKey];
     let minCap: number | null = typeof indCap === "number" && indCap > 0 ? indCap : null;
     if (card.card_id === AIRTEL_ID && catKey === "utilities_bills_telecom") {
-      const unlocked = Math.min(250, Math.round(airtelBaseMonthlySpend * 0.015));
+      const unlocked = calculateAirtelAxisUtilityCap(airtelBaseMonthlySpend);
       minCap = minCap === null ? unlocked : Math.min(minCap, unlocked);
     }
     let activePool: { remainingInr: number; label: string } | null = null;
@@ -1280,7 +1322,7 @@ export function evaluateTwoCardCombo(
     let baseRateB = rawRateB;
 
     if (k === "utilities_bills_telecom" && hasAirtel) {
-      const unlockedCap = Math.min(250, Math.round(airtelBaseMonthlySpend * 0.015));
+      const unlockedCap = calculateAirtelAxisUtilityCap(airtelBaseMonthlySpend);
       if (cardA.card_id === AIRTEL_ID) {
         baseRateA =
           unlockedCap <= 0

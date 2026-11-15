@@ -3,6 +3,7 @@ import { SPEND_CATEGORY_KEYS, SPEND_CATEGORY_META } from "./format";
 import {
   SHARED_CAP_POOLS,
   baseFallbackRatePct,
+  calculateAirtelAxisUtilityCap,
   cappedMonthlyCategoryReward,
   evaluateCardForSpend,
 } from "./advisor";
@@ -148,7 +149,7 @@ export function analyzeOwnedPortfolio(
   const evalOwnedCap = (card: CardSummaryItem, catKey: SpendCategoryKey, spendAmt: number) => {
     let res = cappedMonthlyCategoryReward(card, catKey, spendAmt);
     if (card.card_id === AIRTEL_ID && catKey === "utilities_bills_telecom") {
-      const unlockedUtilCap = Math.min(250, Math.round(airtelBaseMonthlySpend * 0.015));
+      const unlockedUtilCap = calculateAirtelAxisUtilityCap(airtelBaseMonthlySpend);
       const clampedReward = Math.min(res.monthlyReward, unlockedUtilCap);
       const effPct = spendAmt > 0 ? (clampedReward / spendAmt) * 100 : unlockedUtilCap > 0 ? res.headlinePct : 0;
       const eligBeforeCap =
@@ -312,11 +313,11 @@ export function analyzeOwnedPortfolio(
       hackTip = `${best.card.card_name} loses money on FX markup (${bestEffectivePct.toFixed(1)}% net). Add a 0% Forex LTF card (ixigo AU / Scapia / Uni).`;
     }
 
-    if (ownsAirtel && k === "utilities_bills_telecom" && airtelBaseMonthlySpend < 12500) {
+    if (ownsAirtel && k === "utilities_bills_telecom" && airtelBaseMonthlySpend < 25000) {
       const note =
         airtelBaseMonthlySpend === 0
-          ? "Apr 2026 rule: Airtel Axis earns ₹0 utility cashback without 1% base retail spend on it."
-          : `Apr 2026 rule: ₹${Math.round(airtelBaseMonthlySpend).toLocaleString("en-IN")} base spend unlocks max ₹${Math.min(250, Math.round(airtelBaseMonthlySpend * 0.015))}/mo on Airtel Axis.`;
+          ? "Apr 2026 MITC: Airtel Axis earns ₹0 Airtel/Utility cashback without 1% base retail spend on it."
+          : `Apr 2026 MITC: ₹${Math.round(airtelBaseMonthlySpend).toLocaleString("en-IN")} base spend unlocks max ₹${calculateAirtelAxisUtilityCap(airtelBaseMonthlySpend)}/mo (2× Airtel + 1× Utility) on Airtel Axis.`;
       hackTip = best && best.capRes.headlinePct > 0 ? `${hackTip} (${note})` : note;
     }
 

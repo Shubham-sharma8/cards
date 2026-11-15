@@ -428,16 +428,17 @@ export function LoungesClient({
         </div>
 
         {(viewMode === "programs" || viewMode === "spots" || viewMode === "matrix") && (
-          <div className="flex flex-col sm:flex-row gap-2.5 flex-1 lg:max-w-lg items-stretch sm:items-center">
-            <div className="flex-1">
-              <GooeySearchInput
-                mode="bar"
-                value={query}
-                onValueChange={setQuery}
-                placeholder="Search city (Delhi, Mumbai), lounge, or bank..."
-                ariaLabel="Search city, lounge, or bank"
-              />
-            </div>
+          <div className="flex flex-wrap gap-2.5 flex-1 lg:justify-end items-center">
+            <GooeySearchInput
+              mode="morph"
+              compactLabel=""
+              collapsedWidth={44}
+              expandedWidth={320}
+              value={query}
+              onValueChange={setQuery}
+              placeholder="Search city (Delhi, Mumbai), lounge, or bank..."
+              ariaLabel="Search city, lounge, or bank"
+            />
             <select
               value={bankFilter}
               onChange={(e) => setBankFilter(e.target.value)}
@@ -511,9 +512,12 @@ export function LoungesClient({
                 </span>
               </div>
 
-              <div>
+              <div className="flex items-center">
                 <GooeySearchInput
-                  mode="bar"
+                  mode="morph"
+                  compactLabel=""
+                  collapsedWidth={44}
+                  expandedWidth={420}
                   value={airportQuery}
                   onValueChange={setAirportQuery}
                   placeholder="Search Delhi, Mumbai, Privé, 080, Goa, Noida DXN, NMI..."
@@ -1024,9 +1028,12 @@ export function LoungesClient({
                     Live Google Maps scores, total reviews, and real course photos across major Indian golf clubs.
                   </p>
                 </div>
-                <div className="w-full sm:w-72">
+                <div className="shrink-0">
                   <GooeySearchInput
-                    mode="bar"
+                    mode="morph"
+                    compactLabel=""
+                    collapsedWidth={44}
+                    expandedWidth={300}
                     value={golfCourseQuery}
                     onValueChange={setGolfCourseQuery}
                     placeholder="Filter city or golf club..."
@@ -1193,9 +1200,12 @@ export function LoungesClient({
                         <h4 className="text-[13.5px] font-medium text-[#1A1D21]">
                           Mastercard India Participating Golf Courses
                         </h4>
-                        <div className="w-full sm:w-64">
+                        <div className="shrink-0">
                           <GooeySearchInput
-                            mode="bar"
+                            mode="morph"
+                            compactLabel=""
+                            collapsedWidth={44}
+                            expandedWidth={280}
                             value={golfCourseQuery}
                             onValueChange={setGolfCourseQuery}
                             placeholder="Filter city or golf club..."

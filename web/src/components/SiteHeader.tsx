@@ -149,131 +149,138 @@ export function SiteHeader() {
             </nav>
           </div>
 
-          {/* Center Aceternity Gooey Search Bar (lg+ inline live popover, md compact button) */}
-          <div ref={inlineWrapRef} className="relative hidden md:block flex-1 max-w-[340px] xl:max-w-[380px]">
-            <form
-              onSubmit={handleSearchSubmit}
-              onFocus={() => setInlineFocused(true)}
-            >
-              <GooeySearchInput
-                mode="bar"
-                value={query}
-                onValueChange={(val) => {
-                  setQuery(val);
-                  setInlineFocused(true);
-                }}
-                onSubmit={() => {
-                  setSearchModalOpen(false);
-                  setInlineFocused(false);
-                  router.push(`/cards?q=${encodeURIComponent(query.trim())}`);
-                }}
-                placeholder="Search cards, banks, perks..."
-                ariaLabel="Search credit cards, banks, and offers"
-                className="[&_input]:py-1.5 [&_input]:text-[13px]"
-                rightSlot={
-                  <span className="flex items-center gap-1 shrink-0">
-                    {!query && (
-                      <kbd className="hidden xl:inline-block text-[10.5px] text-[#717882] bg-[#F3F2EE] px-1.5 py-0.5 rounded">
-                        ⌘K
-                      </kbd>
-                    )}
-                    <Link
-                      href={query.trim() ? `/cards?q=${encodeURIComponent(query.trim())}` : "/cards"}
-                      title="Open advanced card filters"
-                      aria-label="Open card directory filters"
-                      className="p-1 rounded-full text-[#4B525C] hover:text-[#0F5C4D] hover:bg-[#EEF5F2] transition-colors shrink-0"
-                    >
-                      <SlidersHorizontal className="w-3.5 h-3.5" aria-hidden="true" />
-                    </Link>
-                  </span>
-                }
-              />
-            </form>
+          {/* Center Aceternity Expandable Icon Search — hidden on Home (/) to avoid duplicate search */}
+          {pathname !== "/" && (
+            <div ref={inlineWrapRef} className="relative hidden md:flex items-center justify-end shrink-0">
+              <form
+                onSubmit={handleSearchSubmit}
+                onFocus={() => setInlineFocused(true)}
+              >
+                <GooeySearchInput
+                  mode="morph"
+                  open={inlineFocused}
+                  onOpenChange={setInlineFocused}
+                  compactLabel=""
+                  collapsedWidth={42}
+                  expandedWidth={310}
+                  value={query}
+                  onValueChange={(val) => {
+                    setQuery(val);
+                    setInlineFocused(true);
+                  }}
+                  onSubmit={() => {
+                    setSearchModalOpen(false);
+                    setInlineFocused(false);
+                    router.push(`/cards?q=${encodeURIComponent(query.trim())}`);
+                  }}
+                  placeholder="Search cards, banks, perks..."
+                  ariaLabel="Search credit cards, banks, and offers"
+                  rightSlot={
+                    <span className="flex items-center gap-1 shrink-0">
+                      {!query && (
+                        <kbd className="hidden xl:inline-block text-[10.5px] text-[#717882] bg-[#F3F2EE] px-1.5 py-0.5 rounded">
+                          ⌘K
+                        </kbd>
+                      )}
+                      <Link
+                        href={query.trim() ? `/cards?q=${encodeURIComponent(query.trim())}` : "/cards"}
+                        title="Open advanced card filters"
+                        aria-label="Open card directory filters"
+                        className="p-1 rounded-full text-[#4B525C] hover:text-[#0F5C4D] hover:bg-[#EEF5F2] transition-colors shrink-0"
+                      >
+                        <SlidersHorizontal className="w-3.5 h-3.5" aria-hidden="true" />
+                      </Link>
+                    </span>
+                  }
+                />
+              </form>
 
-            {/* Live Search Popover with CometCard results + Quick Table trigger */}
-            <AnimatePresence>
-              {inlineFocused && (
-                <motion.div
-                  initial={{ opacity: 0, y: 6, scale: 0.99 }}
-                  animate={{ opacity: 1, y: 0, scale: 1 }}
-                  exit={{ opacity: 0, y: 4, scale: 0.99 }}
-                  transition={fastTransition}
-                  className="absolute left-0 right-0 top-[calc(100%+8px)] bg-white border border-[#C9C9C2] rounded-2xl shadow-[0_14px_34px_rgba(26,29,33,0.12)] overflow-hidden z-40"
-                >
-                  <div className="max-h-[340px] overflow-y-auto p-2 space-y-1.5">
-                    {results.length === 0 ? (
-                      <p className="py-6 text-center text-[13px] text-[#717882]">
-                        No cards matched &ldquo;{query}&rdquo;.
-                      </p>
-                    ) : (
-                      results.map((c) => (
-                        <CometCard key={c.card_id} rotateDepth={4} translateDepth={3}>
-                          <div className="flex items-center justify-between gap-2 px-3 py-2 rounded-xl border border-[#EFEFE9] bg-white hover:border-[#0F5C4D]/40 transition-colors">
-                            <Link
-                              href={`/${c.bank_slug}/${c.card_slug}`}
-                              onClick={() => setInlineFocused(false)}
-                              className="flex items-center gap-2.5 min-w-0 flex-1"
-                            >
-                              <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="xs" />
-                              <div className="min-w-0">
-                                <p className="text-[13px] font-medium text-[#1A1D21] truncate">
-                                  {c.card_name}
-                                </p>
-                                <p className="text-[11.5px] text-[#717882] truncate">
-                                  {c.bank} · {c.primary_category}
-                                </p>
-                              </div>
-                            </Link>
-                            <div className="flex items-center gap-1.5 shrink-0">
-                              <button
-                                type="button"
-                                onClick={() => {
-                                  setInlineFocused(false);
-                                  openCard(c);
-                                }}
-                                title="Quick tables & summary"
-                                className="p-1.5 rounded-lg border border-[#E4E4DF] bg-[#FAF9F6] text-[#0F5C4D] hover:bg-[#EEF5F2] transition-colors cursor-pointer"
+              {/* Live Search Popover with CometCard results + Quick Table trigger */}
+              <AnimatePresence>
+                {inlineFocused && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 6, scale: 0.99 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 4, scale: 0.99 }}
+                    transition={fastTransition}
+                    className="absolute right-0 top-[calc(100%+8px)] w-[360px] bg-white border border-[#C9C9C2] rounded-2xl shadow-[0_14px_34px_rgba(26,29,33,0.12)] overflow-hidden z-40"
+                  >
+                    <div className="max-h-[340px] overflow-y-auto p-2 space-y-1.5">
+                      {results.length === 0 ? (
+                        <p className="py-6 text-center text-[13px] text-[#717882]">
+                          No cards matched &ldquo;{query}&rdquo;.
+                        </p>
+                      ) : (
+                        results.map((c) => (
+                          <CometCard key={c.card_id} rotateDepth={4} translateDepth={3}>
+                            <div className="flex items-center justify-between gap-2 px-3 py-2 rounded-xl border border-[#EFEFE9] bg-white hover:border-[#0F5C4D]/40 transition-colors">
+                              <Link
+                                href={`/${c.bank_slug}/${c.card_slug}`}
+                                onClick={() => setInlineFocused(false)}
+                                className="flex items-center gap-2.5 min-w-0 flex-1"
                               >
-                                <Table2 className="w-3.5 h-3.5" aria-hidden="true" />
-                              </button>
-                              <span className="text-[11.5px] text-[#0F5C4D] bg-[#EEF5F2] px-2 py-0.5 rounded tabular-nums">
-                                {c.annual_fee_inr === 0 ? "LTF" : formatInr(c.annual_fee_inr)}
-                              </span>
+                                <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="xs" />
+                                <div className="min-w-0">
+                                  <p className="text-[13px] font-medium text-[#1A1D21] truncate">
+                                    {c.card_name}
+                                  </p>
+                                  <p className="text-[11.5px] text-[#717882] truncate">
+                                    {c.bank} · {c.primary_category}
+                                  </p>
+                                </div>
+                              </Link>
+                              <div className="flex items-center gap-1.5 shrink-0">
+                                <button
+                                  type="button"
+                                  onClick={() => {
+                                    setInlineFocused(false);
+                                    openCard(c);
+                                  }}
+                                  title="Quick tables & summary"
+                                  className="p-1.5 rounded-lg border border-[#E4E4DF] bg-[#FAF9F6] text-[#0F5C4D] hover:bg-[#EEF5F2] transition-colors cursor-pointer"
+                                >
+                                  <Table2 className="w-3.5 h-3.5" aria-hidden="true" />
+                                </button>
+                                <span className="text-[11.5px] text-[#0F5C4D] bg-[#EEF5F2] px-2 py-0.5 rounded tabular-nums">
+                                  {c.annual_fee_inr === 0 ? "LTF" : formatInr(c.annual_fee_inr)}
+                                </span>
+                              </div>
                             </div>
-                          </div>
-                        </CometCard>
-                      ))
-                    )}
-                  </div>
-                  <div className="bg-[#FAF9F6] border-t border-[#E4E4DF] px-3.5 py-2 flex items-center justify-between text-[11.5px] text-[#717882]">
-                    <span>Enter for all matches</span>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setInlineFocused(false);
-                        router.push(`/cards?q=${encodeURIComponent(query.trim())}`);
-                      }}
-                      className="text-[#0F5C4D] hover:underline cursor-pointer"
-                    >
-                      View full directory →
-                    </button>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+                          </CometCard>
+                        ))
+                      )}
+                    </div>
+                    <div className="bg-[#FAF9F6] border-t border-[#E4E4DF] px-3.5 py-2 flex items-center justify-between text-[11.5px] text-[#717882]">
+                      <span>Enter for all matches</span>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setInlineFocused(false);
+                          router.push(`/cards?q=${encodeURIComponent(query.trim())}`);
+                        }}
+                        className="text-[#0F5C4D] hover:underline cursor-pointer"
+                      >
+                        View full directory →
+                      </button>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          )}
 
           {/* Right Utility Actions */}
           <div className="flex items-center gap-2 shrink-0">
-            <button
-              type="button"
-              onClick={() => setSearchModalOpen(true)}
-              className="md:hidden inline-flex items-center gap-1.5 px-2.5 py-1.5 text-[13px] text-[#4B525C] bg-white border border-[#E4E4DF] hover:border-[#C9C9C2] rounded-full transition-colors cursor-pointer"
-              aria-label="Search cards (Cmd+K)"
-            >
-              <Search className="w-3.5 h-3.5 text-[#717882]" aria-hidden="true" />
-              <span className="hidden sm:inline">Search</span>
-            </button>
+            {pathname !== "/" && (
+              <button
+                type="button"
+                onClick={() => setSearchModalOpen(true)}
+                className="md:hidden inline-flex items-center justify-center w-9 h-9 bg-[#0F5C4D] text-white hover:bg-[#0B473B] rounded-full transition-colors cursor-pointer shadow-sm"
+                aria-label="Search cards (Cmd+K)"
+              >
+                <Search className="w-4 h-4" aria-hidden="true" />
+              </button>
+            )}
 
             <Link
               href="/my-cards"

@@ -498,9 +498,12 @@ export function LoungeDetailClient({
               Zero-spend and low-spend (&lt; ₹15,000) cards are shown first. Cards requiring ₹15,000+ spend are tucked inside the expandable list below.
             </p>
           </div>
-          <div className="w-full sm:w-80">
+          <div className="shrink-0">
             <GooeySearchInput
-              mode="bar"
+              mode="morph"
+              compactLabel=""
+              collapsedWidth={44}
+              expandedWidth={320}
               value={cardQuery}
               onValueChange={setCardQuery}
               placeholder="Filter bank, card, Visa / RuPay..."

@@ -160,8 +160,9 @@
       "insurance": 10000
     },
     "monthly_capping_rules": [
-      "Base 3.33% (5 RP/Rs.150 at Rs.1/RP on flights/hotels/Apple/Tanishq); 16.5% (5X) on flights & GyFTR vouchers and 33% (10X) on hotels via SmartBuy.",
-      "SmartBuy accelerated RP capped at 15,000 RP/month; Insurance capped at 10,000 RP/month (5,000 RP/day eff. July 2025); Utilities capped at 2,000 RP/month; Rent & Govt/Tax earn 0%."
+      "Base 3.33% (5 RP/₹150 at ₹1/RP on SmartBuy flights/hotels/Apple/Tanishq); 16.5% (5X) on flights & GyFTR vouchers and 33% (10X) on hotels via SmartBuy.",
+      "SmartBuy accelerated RP capped at 15,000 RP/month; Insurance capped at 10,000 RP/month (5,000 RP/day); Utilities capped at 2,000 RP/month; Rent & Govt/Tax earn 0%.",
+      "Mandatory 2026 Retention & Upgrade Thresholds: Spend ₹10L/yr to waive ₹12,500+GST fee, AND satisfy ≥ ₹18L/yr eligible retail spend OR ≥ ₹50L HDFC Total Relationship Value (RLV) to retain Infinia and avoid downgrade to Diners Club Black Metal (₹48L–₹60L+ ITR / ₹5L+ net monthly salary upgrade tier)."
     ],
     "category_caveats": {
       "insurance": "3.33% base RPs capped at 10,000 RP/month (5,000 RP/day) under HDFC July 2025 circular.",
@@ -300,6 +301,14 @@
           [
             "Annual Fee Waiver",
             "Annual spends of ₹10 Lakhs"
+          ],
+          [
+            "Mandatory Retention Criteria (2026)",
+            "₹18 Lakh annual eligible retail spend OR ₹50 Lakh Total Relationship Value (RLV) with HDFC Bank"
+          ],
+          [
+            "Invite / Upgrade Benchmark",
+            "₹48L–₹60L+ annual ITR / ₹5L+ net monthly salary / Imperia-Private Banking AUM"
           ]
         ]
       },
@@ -588,7 +597,8 @@
           ]
         ]
       }
-    ]
+    ],
+    "capping_summary": "15,000 RP/mo SmartBuy bonus cap | ₹18L/yr spend or ₹50L RLV mandatory retention (₹10L fee waiver)"
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -1873,9 +1883,9 @@
     "sentiment_summary": "Community discussions around HDFC Bank Super-Premium cards.",
     "key_threads": [],
     "practical_community_warnings": [
-      "Quarterly spend thresholds for domestic airport lounge access",
-      "Exclusion of rent, wallet, utilities, education, and government spends from reward points",
-      "Base 3.33% (5 RP/Rs.150 at Rs.1/RP on flights/hotels/Apple/Tanishq); 16.5% (5X) on flights & GyFTR vouchers and 33% (10X) on hotels via SmartBuy."
+      "Mandatory 2026 Retention Gate: ₹10L/yr spend waives the ₹12,500+GST annual fee, but keeping Infinia active requires ≥ ₹18L/yr retail spend OR ≥ ₹50L HDFC RLV (otherwise HDFC may downgrade to DCB Metal).",
+      "SmartBuy accelerated RP strictly capped at 15,000 RP/month; Insurance capped at 10,000 RP/mo (5,000/day); Utilities capped at 2,000 RP/mo; Rent & Govt/Tax earn 0%.",
+      "Exclusion of rent, wallet, fuel, and government spends from both reward points and annual ₹18L retention calculations."
     ],
     "optimization_tips": [
       "SmartBuy GyFTR 5X Voucher Loop: Buy Amazon Pay, Flipkart, BigBasket & Swiggy vouchers via HDFC SmartBuy GyFTR to earn 16.5% reward value (5X RPs redeemed 1:1 for flights/hotels/Apple/Tanishq); even after ~3.5%+GST processing fees on Apay GVs, net yield on insurance/utilities stays ~12%+.",
@@ -1888,6 +1898,7 @@
     "devaluation_risk_score": 4,
     "last_devalued_on": "2024-08 (SmartBuy monthly caps introduced; rumors of Infinia Private/reserve tier)",
     "devaluation_history": [
+      "2026 Retention Rule: Enforced ₹18 Lakh/yr card retail spend OR ₹50 Lakh RLV retention threshold (risk of forced downgrade to Diners Club Black Metal if unmet; ₹48L–₹60L+ ITR benchmark).",
       "2024-08: Capped GyFTR vouchers & SmartBuy accelerated monthly bonus to 15,000 RP; Tanishq/Apple caps",
       "2026: Tightened invite-only upgrade bar (Rs. 18L/6mo or Rs. 5L+/mo net salary per Reddit r/CreditCardsIndia)"
     ],
@@ -1936,9 +1947,9 @@
     "age_range": "21 to 65 years",
     "min_monthly_income_salaried_inr": 500000,
     "govt_employee_income_note": null,
-    "min_annual_itr_self_employed_inr": 6000000,
+    "min_annual_itr_self_employed_inr": 4800000,
     "min_cibil_score": 780,
-    "approval_notes": "Strictly invite-only; 2026 HDFC internal retention/upgrade threshold tightened toward Rs. 18L spend/6 months & Rs. 5L/mo net salary or Imperia/HNI AUM."
+    "approval_notes": "Strictly invite-only flagship: HDFC requires ₹18 Lakh/yr retail card spend OR ₹50 Lakh Total Relationship Value (RLV) for mandatory annual retention (to avoid downgrade to Diners Club Black Metal); ₹10 Lakh/yr spend waives the ₹12,500+GST fee. Fresh/upgrade benchmark ~₹5L/mo net salary or ₹48L–₹60L+ ITR / Imperia-Private HNI AUM."
   },
   "latest_offers": [
     {

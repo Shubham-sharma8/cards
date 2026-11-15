@@ -144,7 +144,9 @@
       "2 EDGE Miles/Rs.100 (~4% Accor / airline partner value at 1:2 Group A transfer) uncapped base; 5 EDGE Miles/Rs.100 (~10% value) on direct airlines/hotels/Travel EDGE up to Rs. 2L spend/month.",
       "30,000 Group A annual transfer limit/year; excludes utilities, rent, gold, wallet, govt, fuel, insurance."
     ],
-    "category_caveats": {},
+    "category_caveats": {
+      "travel_flights_hotels": "5 EDGE Miles/₹100 direct airlines/hotels (capped ₹2L/mo Travel); Accor transfer heavily devalued to 2:1 in 2026 & ITC removed."
+    },
     "excluded_categories": [
       "Gold/jewelry, rent, wallet, utilities, govt, insurance, fuel excluded (per Axis KFS Oct 8, 2026)"
     ],
@@ -448,7 +450,8 @@
           ]
         ]
       }
-    ]
+    ],
+    "capping_summary": "2026 Deval: Accor cut 1:2 -> 2:1 (halved+ value), ITC dropped; 30k Group A EM/yr cap; fresh apps restricted"
   },
   "lounge_access_detailed": {
     "domestic": {
@@ -1636,6 +1639,7 @@
     "sentiment_summary": "Community discussions around Axis Bank Travel & Miles cards.",
     "key_threads": [],
     "practical_community_warnings": [
+      "2026 Major Overhaul: Accor transfer slashed to 2:1 & ITC dropped; HSBC TravelOne/HDFC Regalia Gold often beat Atlas on hotel value.",
       "Verify quarterly spend threshold before relying on complimentary lounge entry.",
       "High 3.5% (+GST) forex markup makes international swipes net negative."
     ],
@@ -1646,8 +1650,9 @@
   "devaluation_analysis": {
     "devaluation_frequency": "High",
     "devaluation_risk_score": 8,
-    "last_devalued_on": "2026 (Accor transfer partner dropped; Oct 8 2026 KFS exclusions)",
+    "last_devalued_on": "2026 (Accor cut to 2:1, ITC dropped, Group A partner purge)",
     "devaluation_history": [
+      "2026 EDGE Miles Overhaul: Accor cut to 2:1 (from 1:2), ITC Hotels removed, Group A partners restructured, fresh applications paused/restricted.",
       "2024-04: Group A 30k EM/yr cap introduced + gold/rent/utilities excluded + direct OTA (MMT/ClearTrip) removed from 5X",
       "2026: Dropped Accor Live Limitless transfer partner (halving hotel value for many); HSBC TravelOne dethroned it as #1 mid-tier travel card"
     ],
