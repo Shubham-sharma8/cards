@@ -254,7 +254,9 @@ export function DevaluationsClient({ tracker, cards }: DevaluationsClientProps) 
                   ? "#9A5B13"
                   : "#0F5C4D",
             }))}
-            height={170}
+            markLineValue={7}
+            markLineLabel="High Risk ≥ 7/10"
+            height={190}
           />
         </div>
 

@@ -47,7 +47,12 @@ import { exportSingleCardPdf, shareUrlOrText } from "@/lib/pdfExport";
 import { buildWhatsAppShareHref, sanitizeExternalHref } from "@/lib/security";
 import { getBankHelpBySlug } from "@/lib/bankHelpDirectory";
 import { getDiscontinuedNotice } from "@/lib/legacyCards";
-import { CategoryMultiBarChart } from "./AnalyticsCharts";
+import {
+  CategoryMultiBarChart,
+  GradientStackedAreaChart,
+  SpendStudyMarklineChart,
+} from "./AnalyticsCharts";
+import { buildCardSpendStudyData } from "@/lib/chartDataBuilders";
 import { InteractiveBenefitExplorer } from "./InteractiveBenefitExplorer";
 import {
   SPEND_CATEGORY_KEYS,
@@ -1135,6 +1140,36 @@ export function CardDossierClient({
                       })}
                       height={175}
                     />
+
+                    {(() => {
+                      const study = buildCardSpendStudyData(dossier);
+                      return (
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                          <SpendStudyMarklineChart
+                            title="Spend-to-Return Study & Breakeven Marklines"
+                            subtitle="Net annual ₹ benefit & yield % across ₹5k–₹2L/mo spend (red fee-loss zone vs emerald profit zone & fee waiver markLine)."
+                            points={study.curvePoints}
+                            annualFeeInr={study.annualFeeInr}
+                            waiverSpendMonthlyInr={study.waiverMonthlyInr}
+                            height={270}
+                          />
+                          <GradientStackedAreaChart
+                            title="Pre-Cap vs Post-Cap Value Stack (Gradient Stacked Area)"
+                            subtitle="Study how monthly caps saturate and transition into 1% base spillover as monthly spend rises."
+                            xLabels={study.xLabels}
+                            series={study.stackedSeries}
+                            valueUnit="₹"
+                            markLineY={study.annualFeeInr > 0 ? study.annualFeeInr : undefined}
+                            markLineLabel={
+                              study.annualFeeInr > 0
+                                ? `Annual Fee ${formatInr(study.annualFeeInr)}`
+                                : undefined
+                            }
+                            height={270}
+                          />
+                        </div>
+                      );
+                    })()}
                   </div>
                 );
               })()}

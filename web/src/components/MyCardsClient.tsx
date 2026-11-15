@@ -31,6 +31,12 @@ import { generateMyCardsAiSummary } from "@/lib/aiSuggestions";
 import { calmTransition } from "@/lib/motion";
 import { BankLogo } from "./BankLogo";
 import { useCompare } from "./CompareContext";
+import {
+  BumpRankingChart,
+  CategoryMultiBarChart,
+  GradientStackedAreaChart,
+} from "./AnalyticsCharts";
+import { buildBumpCategoryRanking } from "@/lib/chartDataBuilders";
 import { GooeySearchInput } from "./ui/gooey-input";
 import { CometCard } from "./ui/comet-card";
 import { BankModalTrigger, Modal } from "./ui/animated-modal";
@@ -165,6 +171,7 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
   );
 
   const [cardSearch, setCardSearch] = useState("");
+  const [chartStudyTab, setChartStudyTab] = useState<"stacked" | "bump" | "bars">("stacked");
   const [spendPresetId, setSpendPresetId] = useState<string>("urban");
   const [monthlySpend, setMonthlySpend] = useState<Record<SpendCategoryKey, number>>(
     () => ({ ...SPEND_PRESETS[1].spend })
@@ -699,6 +706,115 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                   On {formatInr(analysis.totalMonthlySpendInr)}/mo spend
                 </span>
               </div>
+            </section>
+
+            {/* Portfolio ECharts Analytics Studio */}
+            <section className="bg-white border border-[#E4E4DF] rounded-xl p-4 sm:p-5 space-y-4 w-full min-w-0">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div>
+                  <h2 className="text-[16px] font-medium text-[#1A1D21]">
+                    Portfolio Visual Study Studio (Interactive ECharts)
+                  </h2>
+                  <p className="text-[12px] text-[#717882]">
+                    Switch between 12-Month Gradient Stacked Area, Category Bump Rankings, and Net Annual Benefit Bars.
+                  </p>
+                </div>
+                <div className="inline-flex flex-wrap items-center rounded-lg border border-[#E4E4DF] bg-[#FAF9F6] p-0.5">
+                  {(
+                    [
+                      { id: "stacked", label: "Gradient Stacked Area" },
+                      { id: "bump", label: "Category Bump Rank" },
+                      { id: "bars", label: "Net Value Bars" },
+                    ] as const
+                  ).map((t) => (
+                    <button
+                      key={t.id}
+                      type="button"
+                      onClick={() => setChartStudyTab(t.id)}
+                      className={`px-2.5 py-1 text-[11.5px] font-medium rounded-md transition-colors cursor-pointer ${
+                        chartStudyTab === t.id
+                          ? "bg-[#0F5C4D] text-white"
+                          : "text-[#4B525C] hover:text-[#1A1D21]"
+                      }`}
+                    >
+                      {t.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {chartStudyTab === "stacked" && (() => {
+                const months = Array.from({ length: 12 }, (_, i) => `M${i + 1}`);
+                const stackedSeries = analysis.cardAudits.map((a) => ({
+                  id: a.card.card_id,
+                  name: a.card.card_name.replace(/Credit Card/gi, "").trim(),
+                  values: months.map((_, mIdx) =>
+                    Math.round((Math.max(0, a.attributedAnnualRewardInr) / 12) * (mIdx + 1))
+                  ),
+                }));
+                return (
+                  <GradientStackedAreaChart
+                    title="12-Month Cumulative Reward Stack vs Total Renewal Fees"
+                    subtitle="How each card in your wallet compounds rewards across 12 billing cycles."
+                    xLabels={months}
+                    series={stackedSeries}
+                    valueUnit="₹"
+                    markLineY={
+                      analysis.totalCurrentFeesInr > 0 ? analysis.totalCurrentFeesInr : undefined
+                    }
+                    markLineLabel={
+                      analysis.totalCurrentFeesInr > 0
+                        ? `Total Renewal Fees ${formatInr(analysis.totalCurrentFeesInr)}`
+                        : undefined
+                    }
+                    height={270}
+                  />
+                );
+              })()}
+
+              {chartStudyTab === "bump" && (() => {
+                const bump = buildBumpCategoryRanking(
+                  analysis.ownedCards.map((c) => ({
+                    id: c.card_id,
+                    name: c.card_name,
+                    rates: (c.effective_return_pct_by_category || {}) as Record<
+                      string,
+                      number | undefined
+                    >,
+                  }))
+                );
+                return bump.series.length >= 2 ? (
+                  <BumpRankingChart
+                    title="Wallet Card Dominance Across Categories (Bump Ranking)"
+                    subtitle="#1 = highest return card in your wallet per spend category; overlapping lines expose redundant cards."
+                    xLabels={bump.xLabels}
+                    series={bump.series}
+                    height={270}
+                  />
+                ) : (
+                  <p className="text-[12.5px] text-[#717882]">
+                    Add 2 or more cards to your wallet to visualize head-to-head Bump Rankings.
+                  </p>
+                );
+              })()}
+
+              {chartStudyTab === "bars" && (
+                <CategoryMultiBarChart
+                  title="Net Attributed Value by Card (Rewards Minus Fee)"
+                  subtitle="Green bars pay off your spend; negative red bars represent fee-drag clutter candidates."
+                  data={analysis.cardAudits.map((a) => ({
+                    id: a.card.card_id,
+                    label: a.card.card_name.replace(/Credit Card/gi, "").trim(),
+                    sublabel: a.card.bank,
+                    value: Math.round(a.netAttributedValueInr),
+                    displayValue: formatInr(Math.round(a.netAttributedValueInr)),
+                    href: `/${a.card.bank_slug}/${a.card.card_slug}`,
+                  }))}
+                  markLineValue={0}
+                  markLineLabel="Breakeven ₹0"
+                  height={210}
+                />
+              )}
             </section>
 
             {/* Tabular Utilization Matrix with Checkboxes & Swipe Hacks */}

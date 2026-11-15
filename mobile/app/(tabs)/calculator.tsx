@@ -33,6 +33,7 @@ import { LedgerTheme } from '../../src/lib/theme';
 import { BankLogo } from '../../src/components/BankLogo';
 import { CardArtwork } from '../../src/components/CardArtwork';
 import {
+  NativeGradientStackedAreaChart,
   NativeHorizontalBarChart,
   NativeValueBreakdownChart,
 } from '../../src/components/AnalyticsCharts';
@@ -482,6 +483,25 @@ export default function CalculatorScreen() {
                 feeInr={ranked[0].feeCharged}
                 netInr={ranked[0].netProfit}
               />
+
+              {ranked[0].topContributors.length > 0 && (
+                <NativeGradientStackedAreaChart
+                  title={`Spend Scale Yield: ${ranked[0].card.card_name}`}
+                  subtitle="Cumulative category reward stack across 0.5x to 2.0x spend vs annual fee"
+                  xLabels={['0.5x', '1.0x', '1.5x', '2.0x']}
+                  series={ranked[0].topContributors.map((c) => ({
+                    id: c.label,
+                    name: c.label,
+                    values: [0.5, 1.0, 1.5, 2.0].map((m) => Math.round(c.rewardInr * m)),
+                  }))}
+                  markLineY={ranked[0].feeCharged > 0 ? ranked[0].feeCharged : undefined}
+                  markLineLabel={
+                    ranked[0].feeCharged > 0
+                      ? `Fee ${formatInr(ranked[0].feeCharged)}`
+                      : undefined
+                  }
+                />
+              )}
             </View>
           )}
 

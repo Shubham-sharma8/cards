@@ -17,7 +17,15 @@ import { resolveMediaUrl } from "@/lib/mediaCdn";
 import { LEDGER_EASE, fastTransition } from "@/lib/motion";
 import { BankLogo } from "./BankLogo";
 import { useCompare } from "./CompareContext";
-import { CategoryMultiBarChart } from "./AnalyticsCharts";
+import {
+  CategoryMultiBarChart,
+  GradientStackedAreaChart,
+  LineRaceChart,
+} from "./AnalyticsCharts";
+import {
+  build12MonthLineRace,
+  buildCalculatorCategoryStackedData,
+} from "@/lib/chartDataBuilders";
 import { SearchParamsSync } from "./SearchParamsSync";
 
 export interface CardCalcExtraMeta {
@@ -480,12 +488,53 @@ export function CalculatorClient({ cards, extraByCardId }: CalculatorClientProps
                   id: r.card.card_id,
                   label: r.card.card_name.replace(/Credit Card/gi, "").trim(),
                   sublabel: r.card.bank,
-                  value: Math.max(0, Math.round(r.netAnnualBenefit)),
+                  value: Math.round(r.netAnnualBenefit),
                   displayValue: formatInr(Math.round(r.netAnnualBenefit)),
                   href: `/${r.card.bank_slug}/${r.card.card_slug}`,
                 }))}
                 height={185}
               />
+
+              {(() => {
+                const winner = rankedCards[0];
+                const stacked = buildCalculatorCategoryStackedData(
+                  winner.breakdown,
+                  winner.effectiveAnnualFee
+                );
+                const race = build12MonthLineRace(
+                  rankedCards.slice(0, 4).map((r) => ({
+                    id: r.card.card_id,
+                    name: r.card.card_name.replace(/Credit Card/gi, "").trim(),
+                    annualGrossInr: r.annualGrossReward,
+                    effectiveFeeInr: r.effectiveAnnualFee,
+                  }))
+                );
+                return (
+                  <div className="grid grid-cols-1 gap-4">
+                    <GradientStackedAreaChart
+                      title={`Reward Composition Across Spend Scale (${winner.card.card_name})`}
+                      subtitle="Gradient stacked area showing how your top categories build annual rewards vs fee line as monthly spend scales."
+                      xLabels={stacked.xLabels}
+                      series={stacked.series}
+                      valueUnit="₹"
+                      markLineY={stacked.feeLine > 0 ? stacked.feeLine : undefined}
+                      markLineLabel={
+                        stacked.feeLine > 0
+                          ? `Fee ${formatInr(stacked.feeLine)}`
+                          : undefined
+                      }
+                      height={260}
+                    />
+                    <LineRaceChart
+                      title="12-Month Cumulative Net Profit Race (Top 4 Ranked Cards)"
+                      subtitle="Starts after Month-1 renewal fee deduction and races net ₹ value earned across 12 billing cycles."
+                      xLabels={race.xLabels}
+                      series={race.series}
+                      height={260}
+                    />
+                  </div>
+                );
+              })()}
             </div>
           )}
 

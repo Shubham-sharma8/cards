@@ -1,6 +1,15 @@
 import React, { useMemo, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
-import Svg, { Line, Rect, Text as SvgText } from 'react-native-svg';
+import Svg, {
+  Circle,
+  Defs,
+  Line,
+  LinearGradient,
+  Path,
+  Rect,
+  Stop,
+  Text as SvgText,
+} from 'react-native-svg';
 import { Maximize2 } from 'lucide-react-native';
 import { LedgerTheme } from '../lib/theme';
 import { ScalePressable } from './MotionPrimitives';
@@ -123,11 +132,19 @@ export function NativeMultiBarChart({
           {data.map((d, idx) => {
             const slotW = canvasW / data.length;
             const cx = idx * slotW + slotW / 2;
-            const ratio = Math.max(0.06, Math.min(1, d.value / maxVal));
-            const bh = Math.round(ratio * plotH);
+            const isNeg = Number.isFinite(d.value) && d.value < 0;
+            const isZero = !Number.isFinite(d.value) || d.value === 0;
+            const ratio = isZero
+              ? 0
+              : Math.max(0.06, Math.min(1, Math.abs(d.value) / maxVal));
+            const bh = isZero ? 3 : Math.max(6, Math.round(ratio * plotH));
             const bx = cx - barW / 2;
             const by = padT + plotH - bh;
-            const fill = d.color || CHART_PALETTE[idx % CHART_PALETTE.length];
+            const fill = isNeg
+              ? '#DC2626'
+              : isZero
+                ? '#CBD5E1'
+                : d.color || CHART_PALETTE[idx % CHART_PALETTE.length];
             const isSel = selectedIdx === idx;
             const shortLbl = d.label.length > 12 ? `${d.label.slice(0, 11)}…` : d.label;
 
@@ -158,7 +175,7 @@ export function NativeMultiBarChart({
                   y={Math.max(12, by - 6)}
                   fontSize="10"
                   fontWeight="600"
-                  fill="#111827"
+                  fill={isNeg ? '#B91C1C' : '#111827'}
                   textAnchor="middle"
                 >
                   {d.displayValue}
@@ -293,11 +310,12 @@ export function NativeValueBreakdownChart({
   const svgH = 185;
   const maxVal = Math.max(1000, grossInr, feeInr, Math.abs(netInr)) * 1.18;
   const items = [
-    { label: 'Gross Reward', value: Math.max(0, grossInr), color: '#0C5B4C' },
-    { label: 'Annual Fee', value: Math.max(0, feeInr), color: '#B45309' },
+    { label: 'Gross Reward', value: Math.max(0, grossInr), signed: grossInr, color: '#0C5B4C' },
+    { label: 'Annual Fee', value: Math.max(0, feeInr), signed: feeInr, color: '#B45309' },
     {
       label: 'Net Profit',
-      value: Math.max(0, netInr),
+      value: Math.abs(netInr),
+      signed: netInr,
       color: netInr >= 0 ? '#15803D' : '#B42318',
     },
   ];
@@ -325,7 +343,10 @@ export function NativeValueBreakdownChart({
       >
         {items.map((item) => {
           const bh = Math.max(8, Math.round((item.value / maxVal) * 104));
-          const formattedVal = `₹${Math.round(item.value).toLocaleString('en-IN')}`;
+          const formattedVal =
+            item.signed < 0
+              ? `-₹${Math.round(Math.abs(item.signed)).toLocaleString('en-IN')}`
+              : `₹${Math.round(item.signed).toLocaleString('en-IN')}`;
           return (
             <View
               key={item.label}
@@ -339,7 +360,7 @@ export function NativeValueBreakdownChart({
                 style={{
                   fontSize: 12,
                   fontWeight: '700',
-                  color: '#111827',
+                  color: item.signed < 0 ? '#B42318' : '#111827',
                   marginBottom: 6,
                 }}
                 numberOfLines={1}
@@ -428,6 +449,232 @@ export function NativeUtilizationChart({
           );
         })}
       </View>
+    </View>
+  );
+}
+
+export interface MobileStackedAreaSeries {
+  id: string;
+  name: string;
+  color?: string;
+  values: number[];
+}
+
+export function NativeGradientStackedAreaChart({
+  title,
+  subtitle,
+  xLabels,
+  series,
+  markLineY,
+  markLineLabel,
+}: {
+  title: string;
+  subtitle?: string;
+  xLabels: string[];
+  series: MobileStackedAreaSeries[];
+  markLineY?: number;
+  markLineLabel?: string;
+}) {
+  const { width: winWidth } = useWindowDimensions();
+  const [selectedX, setSelectedX] = useState<number>(Math.max(0, xLabels.length - 1));
+
+  if (!series.length || !xLabels.length) return null;
+
+  const svgW = Math.max(296, winWidth - 68);
+  const svgH = 210;
+  const padL = 12;
+  const padR = 12;
+  const padT = 18;
+  const padB = 28;
+  const plotW = svgW - padL - padR;
+  const plotH = svgH - padT - padB;
+
+  const colTotals = xLabels.map((_, xi) =>
+    series.reduce((sum, s) => sum + Math.max(0, s.values[xi] ?? 0), 0)
+  );
+  const maxY = Math.max(1000, markLineY ?? 0, ...colTotals) * 1.15;
+
+  const getX = (xi: number) =>
+    xLabels.length <= 1 ? padL + plotW / 2 : padL + (xi / (xLabels.length - 1)) * plotW;
+  const getY = (val: number) => padT + plotH - (Math.max(0, val) / maxY) * plotH;
+
+  // Compute cumulative bands bottom -> top
+  const bands = series.map((s, sIdx) => {
+    const color = s.color || CHART_PALETTE[sIdx % CHART_PALETTE.length];
+    const topPts = xLabels.map((_, xi) => {
+      const cumTop = series
+        .slice(0, sIdx + 1)
+        .reduce((acc, cur) => acc + Math.max(0, cur.values[xi] ?? 0), 0);
+      return { x: getX(xi), y: getY(cumTop) };
+    });
+    const botPts = xLabels.map((_, xi) => {
+      const cumBot = series
+        .slice(0, sIdx)
+        .reduce((acc, cur) => acc + Math.max(0, cur.values[xi] ?? 0), 0);
+      return { x: getX(xi), y: getY(cumBot) };
+    });
+
+    const lineD = topPts
+      .map((pt, i) => `${i === 0 ? 'M' : 'L'} ${pt.x.toFixed(1)} ${pt.y.toFixed(1)}`)
+      .join(' ');
+    const areaD = [
+      lineD,
+      ...botPts
+        .slice()
+        .reverse()
+        .map((pt) => `L ${pt.x.toFixed(1)} ${pt.y.toFixed(1)}`),
+      'Z',
+    ].join(' ');
+
+    return { id: s.id, name: s.name, color, lineD, areaD, topPts };
+  });
+
+  const safeX = Math.min(selectedX, xLabels.length - 1);
+  const activeTotal = colTotals[safeX] ?? 0;
+
+  return (
+    <View style={styles.card}>
+      <View style={styles.headerRow}>
+        <View style={{ flex: 1 }}>
+          <Text style={styles.title}>{title}</Text>
+          {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
+        </View>
+      </View>
+
+      <View style={styles.tooltipBanner}>
+        <Text style={styles.tooltipName} numberOfLines={1}>
+          {xLabels[safeX]} Stacked Total
+        </Text>
+        <Text style={styles.tooltipVal}>₹{Math.round(activeTotal).toLocaleString('en-IN')}</Text>
+      </View>
+
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
+        {bands.map((b) => (
+          <View key={b.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
+            <View style={[styles.dot, { backgroundColor: b.color }]} />
+            <Text style={{ fontSize: 11, color: LedgerTheme.colors.inkSecondary }}>
+              {b.name}
+            </Text>
+          </View>
+        ))}
+      </View>
+
+      <Svg width={svgW} height={svgH}>
+        <Defs>
+          {bands.map((b) => (
+            <LinearGradient key={`grad-${b.id}`} id={`grad-${b.id}`} x1="0" y1="0" x2="0" y2="1">
+              <Stop offset="0" stopColor={b.color} stopOpacity="0.58" />
+              <Stop offset="1" stopColor={b.color} stopOpacity="0.08" />
+            </LinearGradient>
+          ))}
+        </Defs>
+
+        {[0.25, 0.5, 0.75, 1].map((pct) => {
+          const y = padT + plotH - pct * plotH;
+          return (
+            <Line
+              key={pct}
+              x1={padL}
+              y1={y}
+              x2={svgW - padR}
+              y2={y}
+              stroke="#E6E2D8"
+              strokeWidth={1}
+              strokeDasharray="4,4"
+            />
+          );
+        })}
+
+        {bands
+          .slice()
+          .reverse()
+          .map((b) => (
+            <React.Fragment key={b.id}>
+              <Path d={b.areaD} fill={`url(#grad-${b.id})`} />
+              <Path d={b.lineD} fill="none" stroke={b.color} strokeWidth={2} />
+            </React.Fragment>
+          ))}
+
+        {typeof markLineY === 'number' && markLineY > 0 && markLineY < maxY && (
+          <React.Fragment>
+            <Line
+              x1={padL}
+              y1={getY(markLineY)}
+              x2={svgW - padR}
+              y2={getY(markLineY)}
+              stroke="#991B1B"
+              strokeWidth={1.4}
+              strokeDasharray="5,4"
+            />
+            {markLineLabel ? (
+              <SvgText
+                x={svgW - padR - 4}
+                y={Math.max(12, getY(markLineY) - 4)}
+                fontSize="9.5"
+                fontWeight="700"
+                fill="#991B1B"
+                textAnchor="end"
+              >
+                {markLineLabel}
+              </SvgText>
+            ) : null}
+          </React.Fragment>
+        )}
+
+        <Line
+          x1={getX(safeX)}
+          y1={padT}
+          x2={getX(safeX)}
+          y2={padT + plotH}
+          stroke="#0C5B4C"
+          strokeWidth={1}
+          strokeDasharray="3,3"
+        />
+
+        {bands.map((b) => {
+          const pt = b.topPts[safeX];
+          return pt ? (
+            <Circle
+              key={`dot-${b.id}`}
+              cx={pt.x}
+              cy={pt.y}
+              r={4}
+              fill="#FFFFFF"
+              stroke={b.color}
+              strokeWidth={2}
+            />
+          ) : null;
+        })}
+
+        {xLabels.map((lbl, xi) => {
+          const showLbl = xLabels.length <= 7 || xi === 0 || xi === xLabels.length - 1 || xi % 2 === 0;
+          const hitW = plotW / Math.max(1, xLabels.length);
+          return (
+            <React.Fragment key={`${lbl}-${xi}`}>
+              <Rect
+                x={getX(xi) - hitW / 2}
+                y={0}
+                width={hitW}
+                height={svgH}
+                fill="transparent"
+                onPress={() => setSelectedX(xi)}
+              />
+              {showLbl ? (
+                <SvgText
+                  x={getX(xi)}
+                  y={padT + plotH + 17}
+                  fontSize="9.5"
+                  fontWeight={xi === safeX ? '700' : '400'}
+                  fill={xi === safeX ? '#0C5B4C' : '#474F59'}
+                  textAnchor="middle"
+                >
+                  {lbl}
+                </SvgText>
+              ) : null}
+            </React.Fragment>
+          );
+        })}
+      </Svg>
     </View>
   );
 }

@@ -29,6 +29,7 @@ import { BankLogo } from "./BankLogo";
 import { useCompare } from "./CompareContext";
 import { GooeySearchInput } from "./ui/gooey-input";
 import { useExpandableCard } from "./ui/expandable-card";
+import { CategoryMultiBarChart } from "./AnalyticsCharts";
 
 interface MerchantsClientProps {
   directory: MerchantDirectoryPayload;
@@ -450,6 +451,34 @@ export function MerchantsClient({ directory, cards }: MerchantsClientProps) {
 
       {/* Step 3: Portfolio Upgrade Recommendation */}
       <div className="space-y-2.5 pt-2 border-t border-[#E4E4DF]">
+        <CategoryMultiBarChart
+          title="Effective Reward % on This Billing Descriptor"
+          subtitle="Visual comparison between your owned cards and top market alternatives."
+          horizontal
+          height={180}
+          data={[
+            ...activeRec.topOwned.slice(0, 2).map((m) => ({
+              id: `owned-${m.card.card_id}`,
+              label: `★ ${m.card.card_name.replace(/Credit Card/gi, "").trim()}`,
+              sublabel: "In Your Wallet",
+              value: Number(m.effectivePct.toFixed(2)),
+              displayValue: `${m.effectivePct.toFixed(1)}% (${formatInr(m.monthlyRewardInr)}/mo)`,
+              color: m.isSbiExemptZero ? "#DC2626" : "#0F5C4D",
+            })),
+            ...activeRec.topMarket
+              .filter((m) => !ownedSet.has(m.card.card_id))
+              .slice(0, 3)
+              .map((m) => ({
+                id: `mkt-${m.card.card_id}`,
+                label: m.card.card_name.replace(/Credit Card/gi, "").trim(),
+                sublabel: m.card.bank,
+                value: Number(m.effectivePct.toFixed(2)),
+                displayValue: `${m.effectivePct.toFixed(1)}% (${formatInr(m.monthlyRewardInr)}/mo)`,
+                color: "#1D4ED8",
+                href: `/${m.card.bank_slug}/${m.card.card_slug}`,
+              })),
+          ]}
+        />
         <div className="flex items-center justify-between gap-2">
           <h3 className="text-[13px] font-medium text-[#1A1D21] uppercase tracking-[0.04em] flex items-center gap-1.5">
             <Sparkles className="w-3.5 h-3.5 text-[#0F5C4D]" />

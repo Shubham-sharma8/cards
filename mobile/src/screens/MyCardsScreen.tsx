@@ -49,6 +49,7 @@ import { LedgerTheme } from '../lib/theme';
 import { BankLogo } from '../components/BankLogo';
 import { CardArtwork } from '../components/CardArtwork';
 import {
+  NativeGradientStackedAreaChart,
   NativeHorizontalBarChart,
   NativeUtilizationChart,
   NativeValueBreakdownChart,
@@ -633,19 +634,43 @@ export function MyCardsScreenView() {
             />
 
             {analysis.cardAudits.length > 0 && (
-              <NativeHorizontalBarChart
-                title="Net Attributed Value by Card"
-                subtitle="Annual reward value minus annual fee across your saved cards"
-                data={analysis.cardAudits.map((audit) => ({
-                  id: audit.card.card_id,
-                  label: audit.card.card_name,
-                  sublabel: `${audit.card.bank} · ${audit.primaryCategories.slice(0, 2).join(', ') || 'Backup role'}`,
-                  value: Math.round(audit.netAttributedValueInr),
-                  displayValue: formatInr(audit.netAttributedValueInr),
-                  onPress: () =>
-                    router.push(`/card/${audit.card.bank_slug}/${audit.card.card_slug}`),
-                }))}
-              />
+              <>
+                <NativeGradientStackedAreaChart
+                  title="12-Month Portfolio Reward Stack"
+                  subtitle="Cumulative gradient stacked yield across your owned cards vs total annual fee"
+                  xLabels={['M1', 'M3', 'M6', 'M9', 'M12']}
+                  series={analysis.cardAudits.slice(0, 5).map((audit) => ({
+                    id: audit.card.card_id,
+                    name: audit.card.card_name.replace(/Credit Card/gi, '').trim(),
+                    values: [1, 3, 6, 9, 12].map((m) =>
+                      Math.round((Math.max(0, audit.attributedAnnualRewardInr) / 12) * m)
+                    ),
+                  }))}
+                  markLineY={
+                    analysis.totalCurrentFeesInr > 0
+                      ? analysis.totalCurrentFeesInr
+                      : undefined
+                  }
+                  markLineLabel={
+                    analysis.totalCurrentFeesInr > 0
+                      ? `Fee ${formatInr(analysis.totalCurrentFeesInr)}`
+                      : undefined
+                  }
+                />
+                <NativeHorizontalBarChart
+                  title="Net Attributed Value by Card"
+                  subtitle="Annual reward value minus annual fee across your saved cards"
+                  data={analysis.cardAudits.map((audit) => ({
+                    id: audit.card.card_id,
+                    label: audit.card.card_name,
+                    sublabel: `${audit.card.bank} · ${audit.primaryCategories.slice(0, 2).join(', ') || 'Backup role'}`,
+                    value: Math.round(audit.netAttributedValueInr),
+                    displayValue: formatInr(audit.netAttributedValueInr),
+                    onPress: () =>
+                      router.push(`/card/${audit.card.bank_slug}/${audit.card.card_slug}`),
+                  }))}
+                />
+              </>
             )}
 
             {/* Clear Your Clutter — Portfolio Audit & Renewal Verdict */}

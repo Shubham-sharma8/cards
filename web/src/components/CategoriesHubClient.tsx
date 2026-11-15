@@ -31,7 +31,8 @@ import { BankLogo } from "./BankLogo";
 import { useCompare } from "./CompareContext";
 import { calmTransition, fastTransition } from "@/lib/motion";
 import { CanvaFeatureIcon, resolveCategoryCanvaIcon } from "./FeatureIcon";
-import { CategoryMultiBarChart } from "./AnalyticsCharts";
+import { BumpRankingChart, CategoryMultiBarChart } from "./AnalyticsCharts";
+import { buildBumpCategoryRanking } from "@/lib/chartDataBuilders";
 import { SearchParamsSync } from "./SearchParamsSync";
 import { getCategoryProTips } from "@/lib/categoryTips";
 import { Sparkles } from "lucide-react";
@@ -400,27 +401,50 @@ export function CategoriesHubClient({
                 </div>
 
                 {activeCategory.topCards.length >= 2 && (
-                  <CategoryMultiBarChart
-                    title={`${activeCategory.shortLabel} Return Rate & Market Comparison`}
-                    subtitle={
-                      activeCategory.peakReturnPct > 0
-                        ? `Comparing ${SPEND_CATEGORY_META[activeCategory.keyReturnKey].shortLabel} % across top ${activeCategory.shortLabel} leaders`
-                        : `Overall Cards rating (0–5★) across top ${activeCategory.shortLabel} picks`
-                    }
-                    data={activeCategory.topCards.map((c) => {
-                      const pct = c.effective_return_pct_by_category?.[activeCategory.keyReturnKey] ?? 0;
-                      const usePct = activeCategory.peakReturnPct > 0;
-                      return {
-                        id: c.card_id,
-                        label: c.card_name.replace(/Credit Card/gi, "").trim(),
-                        sublabel: c.bank,
-                        value: usePct ? Math.max(0.2, pct) : c.overall_rating,
-                        displayValue: usePct ? `${pct.toFixed(1)}%` : `${c.overall_rating.toFixed(1)}★`,
-                        href: `/${c.bank_slug}/${c.card_slug}`,
-                      };
-                    })}
-                    height={200}
-                  />
+                  <>
+                    <CategoryMultiBarChart
+                      title={`${activeCategory.shortLabel} Return Rate & Market Comparison`}
+                      subtitle={
+                        activeCategory.peakReturnPct > 0
+                          ? `Comparing ${SPEND_CATEGORY_META[activeCategory.keyReturnKey].shortLabel} % across top ${activeCategory.shortLabel} leaders`
+                          : `Overall Cards rating (0–5★) across top ${activeCategory.shortLabel} picks`
+                      }
+                      data={activeCategory.topCards.map((c) => {
+                        const pct = c.effective_return_pct_by_category?.[activeCategory.keyReturnKey] ?? 0;
+                        const usePct = activeCategory.peakReturnPct > 0;
+                        return {
+                          id: c.card_id,
+                          label: c.card_name.replace(/Credit Card/gi, "").trim(),
+                          sublabel: c.bank,
+                          value: usePct ? Math.max(0.2, pct) : c.overall_rating,
+                          displayValue: usePct ? `${pct.toFixed(1)}%` : `${c.overall_rating.toFixed(1)}★`,
+                          href: `/${c.bank_slug}/${c.card_slug}`,
+                        };
+                      })}
+                      height={200}
+                    />
+                    {(() => {
+                      const bump = buildBumpCategoryRanking(
+                        activeCategory.topCards.slice(0, 5).map((c) => ({
+                          id: c.card_id,
+                          name: c.card_name,
+                          rates: (c.effective_return_pct_by_category || {}) as Record<
+                            string,
+                            number | undefined
+                          >,
+                        }))
+                      );
+                      return (
+                        <BumpRankingChart
+                          title={`Top 5 ${activeCategory.shortLabel} Cards Across All Spend Categories (Bump Chart)`}
+                          subtitle="See whether top cards in this category stay #1 elsewhere or specialize strictly in one bucket."
+                          xLabels={bump.xLabels}
+                          series={bump.series}
+                          height={250}
+                        />
+                      );
+                    })()}
+                  </>
                 )}
               </div>
 
