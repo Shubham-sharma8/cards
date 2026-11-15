@@ -135,7 +135,7 @@ export function CompareClient({ initialCards }: CompareClientProps) {
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={calmTransition}
-      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6"
+      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-24 space-y-6"
     >
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-[#E4E4DF] pb-5">
         <div>
@@ -209,87 +209,6 @@ export function CompareClient({ initialCards }: CompareClientProps) {
           </Link>
         </div>
       </div>
-
-      {/* Visual Bar Comparison */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <CategoryMultiBarChart
-          title="Overall Market Score (out of 5.0★)"
-          subtitle="Composite rating across net return, lounge access, waivers & community sentiment."
-          data={cards.map((c) => ({
-            id: c.identity.card_id,
-            label: c.identity.card_name.replace(/Credit Card/gi, "").trim(),
-            sublabel: c.identity.bank,
-            value: c.ratings.overall_market_rating,
-            displayValue: `${c.ratings.overall_market_rating.toFixed(2)}★`,
-            href: `/${c.identity.bank_slug}/${c.identity.card_slug}`,
-          }))}
-          height={155}
-        />
-        <CategoryMultiBarChart
-          title="Peak Category Return Rate (%)"
-          subtitle="Best single-category accelerated earn rate among the 12 Indian spend categories."
-          data={cards.map((c) => {
-            const vals = Object.values(c.reward_calculator_model?.effective_return_pct_by_category || {}).filter(
-              (v) => typeof v === "number"
-            );
-            const peak = vals.length > 0 ? Math.max(...vals) : 0;
-            return {
-              id: c.identity.card_id,
-              label: c.identity.card_name.replace(/Credit Card/gi, "").trim(),
-              sublabel: c.identity.bank,
-              value: Math.max(0.2, peak),
-              displayValue: `${peak.toFixed(1)}%`,
-              href: `/${c.identity.bank_slug}/${c.identity.card_slug}`,
-            };
-          })}
-          height={155}
-        />
-      </div>
-
-      {/* Deep Study Charts: Bump Ranking + 12-Month Value Stack */}
-      {cards.length >= 2 && (() => {
-        const bump = buildBumpCategoryRanking(
-          cards.map((c) => ({
-            id: c.identity.card_id,
-            name: c.identity.card_name,
-            rates: (c.reward_calculator_model?.effective_return_pct_by_category || {}) as Record<
-              string,
-              number | undefined
-            >,
-          }))
-        );
-        const studyX = Array.from({ length: 12 }, (_, i) => `M${i + 1}`);
-        const stackedCompareSeries = cards.map((c) => {
-          const study = buildCardSpendStudyData(c);
-          // Use the ₹50k/mo point as balanced baseline annual reward
-          const pt50k = study.curvePoints.find((p) => p.monthlySpendInr === 50000) || study.curvePoints[0];
-          const monthlyNet = Math.max(0, Math.round(pt50k.netAnnualBenefitInr / 12));
-          return {
-            id: c.identity.card_id,
-            name: c.identity.card_name.replace(/Credit Card/gi, "").trim(),
-            values: studyX.map((_, mIdx) => monthlyNet * (mIdx + 1)),
-          };
-        });
-        return (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <BumpRankingChart
-              title="Category Strength Bump Chart (#1 Best → Backup)"
-              subtitle="Ranks compared cards head-to-head across core Indian spend categories so overlaps are obvious."
-              xLabels={bump.xLabels}
-              series={bump.series}
-              height={260}
-            />
-            <GradientStackedAreaChart
-              title="Combined Wallet 12-Month Net Yield Stack (₹50k/mo Spend)"
-              subtitle="Cumulative annual reward stacked across your compared cards."
-              xLabels={studyX}
-              series={stackedCompareSeries}
-              valueUnit="₹"
-              height={260}
-            />
-          </div>
-        );
-      })()}
 
       {/* Responsive Horizontal Comparison Table */}
       <div className="bg-white border border-[#E4E4DF] rounded-xl overflow-x-auto">
@@ -605,6 +524,87 @@ export function CompareClient({ initialCards }: CompareClientProps) {
           </tbody>
         </table>
       </div>
+
+      {/* Visual Bar Comparison */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <CategoryMultiBarChart
+          title="Overall Market Score (out of 5.0★)"
+          subtitle="Composite rating across net return, lounge access, waivers & community sentiment."
+          data={cards.map((c) => ({
+            id: c.identity.card_id,
+            label: c.identity.card_name.replace(/Credit Card/gi, "").trim(),
+            sublabel: c.identity.bank,
+            value: c.ratings.overall_market_rating,
+            displayValue: `${c.ratings.overall_market_rating.toFixed(2)}★`,
+            href: `/${c.identity.bank_slug}/${c.identity.card_slug}`,
+          }))}
+          height={155}
+        />
+        <CategoryMultiBarChart
+          title="Peak Category Return Rate (%)"
+          subtitle="Best single-category accelerated earn rate among the 12 Indian spend categories."
+          data={cards.map((c) => {
+            const vals = Object.values(c.reward_calculator_model?.effective_return_pct_by_category || {}).filter(
+              (v) => typeof v === "number"
+            );
+            const peak = vals.length > 0 ? Math.max(...vals) : 0;
+            return {
+              id: c.identity.card_id,
+              label: c.identity.card_name.replace(/Credit Card/gi, "").trim(),
+              sublabel: c.identity.bank,
+              value: Math.max(0.2, peak),
+              displayValue: `${peak.toFixed(1)}%`,
+              href: `/${c.identity.bank_slug}/${c.identity.card_slug}`,
+            };
+          })}
+          height={155}
+        />
+      </div>
+
+      {/* Deep Study Charts: Bump Ranking + 12-Month Value Stack */}
+      {cards.length >= 2 && (() => {
+        const bump = buildBumpCategoryRanking(
+          cards.map((c) => ({
+            id: c.identity.card_id,
+            name: c.identity.card_name,
+            rates: (c.reward_calculator_model?.effective_return_pct_by_category || {}) as Record<
+              string,
+              number | undefined
+            >,
+          }))
+        );
+        const studyX = Array.from({ length: 12 }, (_, i) => `M${i + 1}`);
+        const stackedCompareSeries = cards.map((c) => {
+          const study = buildCardSpendStudyData(c);
+          // Use the ₹50k/mo point as balanced baseline annual reward
+          const pt50k = study.curvePoints.find((p) => p.monthlySpendInr === 50000) || study.curvePoints[0];
+          const monthlyNet = Math.max(0, Math.round(pt50k.netAnnualBenefitInr / 12));
+          return {
+            id: c.identity.card_id,
+            name: c.identity.card_name.replace(/Credit Card/gi, "").trim(),
+            values: studyX.map((_, mIdx) => monthlyNet * (mIdx + 1)),
+          };
+        });
+        return (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <BumpRankingChart
+              title="Category Strength Bump Chart (#1 Best → Backup)"
+              subtitle="Ranks compared cards head-to-head across core Indian spend categories so overlaps are obvious."
+              xLabels={bump.xLabels}
+              series={bump.series}
+              height={260}
+            />
+            <GradientStackedAreaChart
+              title="Combined Wallet 12-Month Net Yield Stack (₹50k/mo Spend)"
+              subtitle="Cumulative annual reward stacked across your compared cards."
+              xLabels={studyX}
+              series={stackedCompareSeries}
+              valueUnit="₹"
+              height={260}
+            />
+          </div>
+        );
+      })()}
     </motion.div>
   );
 }
