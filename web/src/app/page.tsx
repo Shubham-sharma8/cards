@@ -1,12 +1,19 @@
 import React from "react";
-import { getAllCards, getBanksIndex, getDevaluationTracker, getLatestOffers } from "@/lib/data";
+import {
+  getAllCardsAsync,
+  getBanksIndexAsync,
+  getDevaluationTrackerAsync,
+  getLatestOffersAsync,
+} from "@/lib/data";
 import { HomeClient } from "@/components/HomeClient";
 
-export default function HomePage() {
-  const cards = getAllCards();
-  const banksIndex = getBanksIndex();
-  const deval = getDevaluationTracker();
-  const latestOffers = getLatestOffers();
+export default async function HomePage() {
+  const [cards, banksIndex, deval, latestOffers] = await Promise.all([
+    getAllCardsAsync(),
+    getBanksIndexAsync(),
+    getDevaluationTrackerAsync(),
+    getLatestOffersAsync(),
+  ]);
 
   const sortedBanks = [...banksIndex.banks].sort((a, b) => b.total_cards - a.total_cards);
 

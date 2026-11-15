@@ -9,7 +9,7 @@ import {
   getCardDossierAsync,
   getGolfClubsMasterAsync,
   getLoungeAccessMasterAsync,
-  getRelatedCardFeatureRows,
+  getRelatedCardFeatureRowsAsync,
   getSearchIndexAsync,
 } from "@/lib/data";
 import { formatInr, SPEND_CATEGORY_KEYS } from "@/lib/format";
@@ -32,7 +32,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { bankSlug, cardSlug } = await params;
-  const dossier = getCardDossier(bankSlug, cardSlug);
+  const dossier = getCardDossier(bankSlug, cardSlug) || (await getCardDossierAsync(bankSlug, cardSlug));
   if (!dossier) {
     return buildPageMetadata({
       title: "Card Not Found — Cards by cogify",
@@ -112,7 +112,7 @@ export default async function CardDossierPage({ params }: PageProps) {
       club_name: club.club_name,
       google_rating: club.google_rating ?? undefined,
     }));
-  const relatedRows = getRelatedCardFeatureRows(dossier);
+  const relatedRows = await getRelatedCardFeatureRowsAsync(dossier);
   const totalCardsCount = searchIdx.cards.length || getAllCards().length;
   const { identity } = dossier;
 

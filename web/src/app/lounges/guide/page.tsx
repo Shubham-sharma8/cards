@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 import { LoungeGuideClient } from "@/components/LoungeGuideClient";
-import { getLoungeCatalog } from "@/lib/data";
+import { getLoungeCatalogAsync } from "@/lib/data";
 import { buildBreadcrumbJsonLd, buildPageMetadata, getSiteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -14,8 +14,8 @@ export const metadata: Metadata = buildPageMetadata({
   ogAlt: "Airport Lounge QR Claim Guide & Portal Directory — Cards by cogify",
 });
 
-export default function LoungeGuidePage() {
-  const catalog = getLoungeCatalog();
+export default async function LoungeGuidePage() {
+  const catalog = await getLoungeCatalogAsync();
   const siteUrl = getSiteUrl();
 
   const howToJsonLd = {

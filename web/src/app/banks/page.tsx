@@ -2,15 +2,15 @@ import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Building2, ExternalLink } from "lucide-react";
-import { getBanksIndex, getDevaluationTracker } from "@/lib/data";
+import { getBanksIndexAsync, getDevaluationTrackerAsync } from "@/lib/data";
 import { BankLogo } from "@/components/BankLogo";
 import { MotionRevealCard } from "@/components/MotionReveal";
 import { JsonLd } from "@/components/JsonLd";
 import { sanitizeExternalHref } from "@/lib/security";
 import { buildBreadcrumbJsonLd, buildCollectionJsonLd, buildPageMetadata } from "@/lib/seo";
 
-export function generateMetadata(): Metadata {
-  const idx = getBanksIndex();
+export async function generateMetadata(): Promise<Metadata> {
+  const idx = await getBanksIndexAsync();
   return buildPageMetadata({
     title: `All ${idx.total_banks} Credit Card Issuers in India — Cards by cogify`,
     description: `Complete index of ${idx.total_banks} Indian banks and credit card issuers (${idx.total_cards} active cards) with LTF availability, UPI RuPay options, lounge coverage, and devaluation risk.`,
@@ -20,9 +20,11 @@ export function generateMetadata(): Metadata {
   });
 }
 
-export default function BanksPage() {
-  const banksIndex = getBanksIndex();
-  const devalTracker = getDevaluationTracker();
+export default async function BanksPage() {
+  const [banksIndex, devalTracker] = await Promise.all([
+    getBanksIndexAsync(),
+    getDevaluationTrackerAsync(),
+  ]);
   const profiles = devalTracker.issuer_devaluation_profiles || {};
 
   const banks = [...banksIndex.banks].sort((a, b) => b.total_cards - a.total_cards);

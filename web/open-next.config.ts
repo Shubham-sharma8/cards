@@ -1,5 +1,7 @@
 import { defineCloudflareConfig } from "@opennextjs/cloudflare";
+import staticAssetsIncrementalCache from "@opennextjs/cloudflare/overrides/incremental-cache/static-assets-incremental-cache";
 
 export default defineCloudflareConfig({
-  // Static-first ISR & edge dynamic SSR via Cloudflare Workers + R2 data fallback
+  // Serve pre-rendered static pages directly from Workers Static Assets (zero runtime recomputation)
+  incrementalCache: staticAssetsIncrementalCache,
 });

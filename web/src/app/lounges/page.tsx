@@ -2,7 +2,12 @@ import React from "react";
 import type { Metadata } from "next";
 import { LoungesClient } from "@/components/LoungesClient";
 import { JsonLd } from "@/components/JsonLd";
-import { getAllCards, getGolfClubsMaster, getLoungeAccessMaster, getLoungeCatalog } from "@/lib/data";
+import {
+  getAllCardsAsync,
+  getGolfClubsMasterAsync,
+  getLoungeAccessMasterAsync,
+  getLoungeCatalogAsync,
+} from "@/lib/data";
 import { buildBreadcrumbJsonLd, buildCollectionJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -14,11 +19,14 @@ export const metadata: Metadata = buildPageMetadata({
   ogAlt: "Airport Lounge, Golf & Railway Lounge Directory — Cards by cogify",
 });
 
-export default function LoungesPage() {
-  const catalog = getLoungeCatalog();
-  const loungeMaster = getLoungeAccessMaster();
-  const golfClubs = getGolfClubsMaster().clubs;
-  const allCards = getAllCards();
+export default async function LoungesPage() {
+  const [catalog, loungeMaster, golfMaster, allCards] = await Promise.all([
+    getLoungeCatalogAsync(),
+    getLoungeAccessMasterAsync(),
+    getGolfClubsMasterAsync(),
+    getAllCardsAsync(),
+  ]);
+  const golfClubs = golfMaster.clubs;
   const noSpendLoungeCards = allCards
     .filter((c) => c.filter_tags.no_spend_domestic_lounge)
     .sort((a, b) => b.overall_rating - a.overall_rating);

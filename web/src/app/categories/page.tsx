@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { CategoriesHubClient } from "@/components/CategoriesHubClient";
 import { JsonLd } from "@/components/JsonLd";
-import { getAdvisorMetaMap, getAllCards, getCategoryStats } from "@/lib/data";
+import { getAdvisorMetaMapAsync, getAllCardsAsync, getCategoryStatsAsync } from "@/lib/data";
 import { getCategoryStudyTable, type CategoryStudyTable } from "@/lib/categoryStudies";
 import { buildBreadcrumbJsonLd, buildCollectionJsonLd, buildPageMetadata } from "@/lib/seo";
 
@@ -15,10 +15,12 @@ export const metadata: Metadata = buildPageMetadata({
   ogAlt: "13 Curated Credit Card Category Study Tables — Cards by cogify",
 });
 
-export default function CategoriesPage() {
-  const categories = getCategoryStats();
-  const allCards = getAllCards();
-  const advisorMetaMap = getAdvisorMetaMap();
+export default async function CategoriesPage() {
+  const [categories, allCards, advisorMetaMap] = await Promise.all([
+    getCategoryStatsAsync(),
+    getAllCardsAsync(),
+    getAdvisorMetaMapAsync(),
+  ]);
   const studyTables: Record<string, CategoryStudyTable> = {};
   for (const cat of categories) {
     const tbl = getCategoryStudyTable(cat.id, allCards, advisorMetaMap);

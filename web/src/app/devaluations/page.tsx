@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { getAllCards, getDevaluationTracker } from "@/lib/data";
+import { getAllCardsAsync, getDevaluationTrackerAsync } from "@/lib/data";
 import { DevaluationsClient } from "@/components/DevaluationsClient";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbJsonLd, buildCollectionJsonLd, buildPageMetadata } from "@/lib/seo";
@@ -14,9 +14,11 @@ export const metadata: Metadata = buildPageMetadata({
   ogAlt: "Indian Credit Card Devaluation Tracker (2024–2026) — Cards by cogify",
 });
 
-export default function DevaluationsPage() {
-  const tracker = getDevaluationTracker();
-  const cards = getAllCards();
+export default async function DevaluationsPage() {
+  const [tracker, cards] = await Promise.all([
+    getDevaluationTrackerAsync(),
+    getAllCardsAsync(),
+  ]);
 
   return (
     <>

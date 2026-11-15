@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getAllCards, getMerchantDirectory } from "@/lib/data";
+import { getAllCardsAsync, getMerchantDirectory } from "@/lib/data";
 import { MerchantsClient } from "@/components/MerchantsClient";
 import { buildPageMetadata } from "@/lib/seo";
 
@@ -24,7 +24,7 @@ export const metadata: Metadata = buildPageMetadata({
   },
 });
 
-export default function MerchantsPage() {
-  const cards = getAllCards();
+export default async function MerchantsPage() {
+  const cards = await getAllCardsAsync();
   return <MerchantsClient directory={directory} cards={cards} />;
 }

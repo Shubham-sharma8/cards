@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { AdvisorClient } from "@/components/AdvisorClient";
 import { JsonLd } from "@/components/JsonLd";
-import { getAdvisorMetaMap, getAllCards, getFeeWaiverMap } from "@/lib/data";
+import { getAdvisorMetaMapAsync, getAllCardsAsync, getFeeWaiverMapAsync } from "@/lib/data";
 import { buildBreadcrumbJsonLd, buildPageMetadata, buildWebAppJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -14,10 +14,12 @@ export const metadata: Metadata = buildPageMetadata({
   ogAlt: "Personalized Credit Card Advisor & 2-Card Combo Builder — Cards by cogify",
 });
 
-export default function AdvisorPage() {
-  const cards = getAllCards();
-  const waiverMap = getFeeWaiverMap();
-  const advisorMetaMap = getAdvisorMetaMap();
+export default async function AdvisorPage() {
+  const [cards, waiverMap, advisorMetaMap] = await Promise.all([
+    getAllCardsAsync(),
+    getFeeWaiverMapAsync(),
+    getAdvisorMetaMapAsync(),
+  ]);
 
   return (
     <>

@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { ArrowLeft, Search } from "lucide-react";
-import { getAllCards, getBanksIndex } from "@/lib/data";
+import { getAllCardsAsync, getBanksIndexAsync } from "@/lib/data";
 
-export default function NotFound() {
-  const cardCount = getAllCards().length;
-  const bankCount = getBanksIndex().total_banks;
+export default async function NotFound() {
+  const [cards, banksIndex] = await Promise.all([getAllCardsAsync(), getBanksIndexAsync()]);
+  const cardCount = cards.length;
+  const bankCount = banksIndex.total_banks;
 
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16">

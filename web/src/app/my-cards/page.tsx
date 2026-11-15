@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import type { Metadata } from "next";
 import { MyCardsClient } from "@/components/MyCardsClient";
-import { getAllCards, getFeeWaiverMap } from "@/lib/data";
+import { getAllCardsAsync, getFeeWaiverMapAsync } from "@/lib/data";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -13,9 +13,8 @@ export const metadata: Metadata = buildPageMetadata({
   noIndex: true,
 });
 
-export default function MyCardsPage() {
-  const cards = getAllCards();
-  const waiverMap = getFeeWaiverMap();
+export default async function MyCardsPage() {
+  const [cards, waiverMap] = await Promise.all([getAllCardsAsync(), getFeeWaiverMapAsync()]);
 
   return (
     <Suspense

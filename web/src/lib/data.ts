@@ -23,6 +23,19 @@ import { isValidCardId, isValidSlug } from "./security";
 const DATA_ROOT = path.resolve(process.cwd(), "..", "data");
 const DEFAULT_R2_BASE = "https://media.card.cogify.me";
 
+export interface CalculatorCardExtraMeta {
+  fee_waiver_spend_inr: number | null;
+  monthly_capping_rules: string[];
+  earn_unit: string;
+  point_value_inr_default: number;
+}
+
+interface R2JsonBucket {
+  get(key: string): Promise<{ json<J = unknown>(): Promise<J> } | null>;
+}
+
+const inflightR2 = new Map<string, Promise<unknown>>();
+
 function getR2BaseUrl(): string {
   const envUrl = process.env.NEXT_PUBLIC_R2_PUBLIC_URL?.trim();
   return (envUrl && envUrl.length > 0 ? envUrl : DEFAULT_R2_BASE).replace(/\/+$/, "");
@@ -37,18 +50,48 @@ function hasLocalDataFs(): boolean {
 }
 
 async function fetchR2Json<T>(relPath: string): Promise<T | null> {
+  const cleanPath = relPath.replace(/^\/+/, "");
+  const existing = inflightR2.get(cleanPath);
+  if (existing) {
+    return (await existing) as T | null;
+  }
+
+  const job = (async (): Promise<T | null> => {
+    try {
+      const { getCloudflareContext } = await import("@opennextjs/cloudflare");
+      const ctx = await getCloudflareContext({ async: true });
+      const bucket = (ctx?.env as unknown as { CARDLEDGER_MEDIA?: R2JsonBucket } | undefined)
+        ?.CARDLEDGER_MEDIA;
+      if (bucket) {
+        const obj = await bucket.get(cleanPath);
+        if (obj) {
+          return (await obj.json()) as T;
+        }
+      }
+    } catch {
+      // Outside Cloudflare Workers context (local dev/build or Node runtime); fall back to public R2 HTTPS.
+    }
+
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 8000);
+      const res = await fetch(`${getR2BaseUrl()}/${cleanPath}`, {
+        signal: controller.signal,
+        next: { revalidate: 3600 },
+      });
+      clearTimeout(timer);
+      if (!res.ok) return null;
+      return (await res.json()) as T;
+    } catch {
+      return null;
+    }
+  })();
+
+  inflightR2.set(cleanPath, job);
   try {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 3500);
-    const res = await fetch(`${getR2BaseUrl()}/${relPath.replace(/^\/+/, "")}`, {
-      signal: controller.signal,
-      next: { revalidate: 3600 },
-    });
-    clearTimeout(timer);
-    if (!res.ok) return null;
-    return (await res.json()) as T;
-  } catch {
-    return null;
+    return await job;
+  } finally {
+    inflightR2.delete(cleanPath);
   }
 }
 
@@ -105,6 +148,10 @@ export function getAllCards(): CardSummaryItem[] {
   return getSearchIndex().cards;
 }
 
+export async function getAllCardsAsync(): Promise<CardSummaryItem[]> {
+  return (await getSearchIndexAsync()).cards;
+}
+
 export function getBanksIndex(): BanksIndexPayload {
   if (!cachedBanksIndex) {
     if (hasLocalDataFs()) {
@@ -116,11 +163,45 @@ export function getBanksIndex(): BanksIndexPayload {
   return cachedBanksIndex;
 }
 
+export async function getBanksIndexAsync(): Promise<BanksIndexPayload> {
+  if (hasLocalDataFs()) return getBanksIndex();
+  if (cachedBanksIndex) return cachedBanksIndex;
+  const remote = await fetchR2Json<BanksIndexPayload>("meta/cards_by_bank_index.json");
+  if (remote) {
+    cachedBanksIndex = remote;
+    return remote;
+  }
+  return getBanksIndex();
+}
+
+const EMPTY_LOUNGE_CATALOG: LoungeCatalogPayload = {
+  generated_at: "",
+  total_programs: 0,
+  network_rules: {},
+  baseline_indian_airport_lounges_count: 0,
+  programs: {},
+};
+
 export function getLoungeCatalog(): LoungeCatalogPayload {
   if (!cachedLoungeCatalog) {
-    cachedLoungeCatalog = readJsonFile<LoungeCatalogPayload>("master/lounge_programs_catalog.json");
+    if (hasLocalDataFs()) {
+      cachedLoungeCatalog = readJsonFile<LoungeCatalogPayload>("master/lounge_programs_catalog.json");
+    } else {
+      return EMPTY_LOUNGE_CATALOG;
+    }
   }
   return cachedLoungeCatalog;
+}
+
+export async function getLoungeCatalogAsync(): Promise<LoungeCatalogPayload> {
+  if (hasLocalDataFs()) return getLoungeCatalog();
+  if (cachedLoungeCatalog) return cachedLoungeCatalog;
+  const remote = await fetchR2Json<LoungeCatalogPayload>("meta/lounge_programs_catalog.json");
+  if (remote) {
+    cachedLoungeCatalog = remote;
+    return remote;
+  }
+  return EMPTY_LOUNGE_CATALOG;
 }
 
 export function getLoungeAccessMaster(): LoungeAccessMasterPayload {
@@ -195,13 +276,28 @@ export async function getDevaluationTrackerAsync(): Promise<DevaluationTrackerPa
 
 export function getLatestOffers(): LatestOffersPayload {
   if (!cachedLatestOffers) {
-    try {
-      cachedLatestOffers = readJsonFile<LatestOffersPayload>("master/latest_offers.json");
-    } catch {
-      cachedLatestOffers = { total_offers: 0, banks_covered: 0, offers: [] };
+    if (hasLocalDataFs()) {
+      try {
+        cachedLatestOffers = readJsonFile<LatestOffersPayload>("master/latest_offers.json");
+      } catch {
+        cachedLatestOffers = { total_offers: 0, banks_covered: 0, offers: [] };
+      }
+    } else {
+      return { total_offers: 0, banks_covered: 0, offers: [] };
     }
   }
   return cachedLatestOffers;
+}
+
+export async function getLatestOffersAsync(): Promise<LatestOffersPayload> {
+  if (hasLocalDataFs()) return getLatestOffers();
+  if (cachedLatestOffers) return cachedLatestOffers;
+  const remote = await fetchR2Json<LatestOffersPayload>("meta/latest_offers.json");
+  if (remote) {
+    cachedLatestOffers = remote;
+    return remote;
+  }
+  return getLatestOffers();
 }
 
 const cachedDossiers = new Map<string, CardDossier | null>();
@@ -236,11 +332,15 @@ export function getCardDossier(bankSlug: string, cardSlug: string): CardDossier 
 export async function getCardDossierAsync(bankSlug: string, cardSlug: string): Promise<CardDossier | null> {
   if (!isValidSlug(bankSlug) || !isValidSlug(cardSlug)) return null;
   if (hasLocalDataFs()) return getCardDossier(bankSlug, cardSlug);
+  const cacheKey = `${bankSlug}/${cardSlug}`;
+  if (cachedDossiers.has(cacheKey)) {
+    return cachedDossiers.get(cacheKey) ?? null;
+  }
   const idx = await getSearchIndexAsync();
   const match = idx.cards.find((c) => c.bank_slug === bankSlug && c.card_slug === cardSlug);
   if (!match) return null;
   const remote = await fetchR2Json<CardDossier>(`dossiers/${match.card_id}.json`);
-  if (remote) cachedDossiers.set(`${bankSlug}/${cardSlug}`, remote);
+  if (remote) cachedDossiers.set(cacheKey, remote);
   return remote;
 }
 
@@ -267,9 +367,11 @@ export async function getCardsByIdsAsync(ids: string[]): Promise<CardDossier[]> 
 
 let cachedFeeWaiverMap: Record<string, number | null> | null = null;
 let cachedAdvisorMetaMap: Record<string, AdvisorCardMeta> | null = null;
+let cachedCalculatorExtraMeta: Record<string, CalculatorCardExtraMeta> | null = null;
 
 export function getFeeWaiverMap(): Record<string, number | null> {
   if (cachedFeeWaiverMap) return cachedFeeWaiverMap;
+  if (!hasLocalDataFs()) return {};
   const map: Record<string, number | null> = {};
   for (const c of getAllCards()) {
     const d = getCardDossier(c.bank_slug, c.card_slug);
@@ -279,8 +381,20 @@ export function getFeeWaiverMap(): Record<string, number | null> {
   return map;
 }
 
+export async function getFeeWaiverMapAsync(): Promise<Record<string, number | null>> {
+  if (hasLocalDataFs()) return getFeeWaiverMap();
+  if (cachedFeeWaiverMap) return cachedFeeWaiverMap;
+  const remote = await fetchR2Json<Record<string, number | null>>("meta/fee_waiver_map.json");
+  if (remote) {
+    cachedFeeWaiverMap = remote;
+    return remote;
+  }
+  return {};
+}
+
 export function getAdvisorMetaMap(): Record<string, AdvisorCardMeta> {
   if (cachedAdvisorMetaMap) return cachedAdvisorMetaMap;
+  if (!hasLocalDataFs()) return {};
   const map: Record<string, AdvisorCardMeta> = {};
   for (const c of getAllCards()) {
     const d = getCardDossier(c.bank_slug, c.card_slug);
@@ -319,6 +433,47 @@ export function getAdvisorMetaMap(): Record<string, AdvisorCardMeta> {
   }
   cachedAdvisorMetaMap = map;
   return map;
+}
+
+export async function getAdvisorMetaMapAsync(): Promise<Record<string, AdvisorCardMeta>> {
+  if (hasLocalDataFs()) return getAdvisorMetaMap();
+  if (cachedAdvisorMetaMap) return cachedAdvisorMetaMap;
+  const remote = await fetchR2Json<Record<string, AdvisorCardMeta>>("meta/advisor_meta_map.json");
+  if (remote) {
+    cachedAdvisorMetaMap = remote;
+    return remote;
+  }
+  return {};
+}
+
+export function getCalculatorExtraMetaMap(): Record<string, CalculatorCardExtraMeta> {
+  if (cachedCalculatorExtraMeta) return cachedCalculatorExtraMeta;
+  if (!hasLocalDataFs()) return {};
+  const map: Record<string, CalculatorCardExtraMeta> = {};
+  for (const c of getAllCards()) {
+    const dossier = getCardDossier(c.bank_slug, c.card_slug);
+    if (dossier) {
+      map[c.card_id] = {
+        fee_waiver_spend_inr: dossier.fees_and_charges_detailed?.fee_waiver_spend_inr ?? null,
+        monthly_capping_rules: dossier.reward_calculator_model?.monthly_capping_rules || [],
+        earn_unit: dossier.reward_calculator_model?.earn_unit || "Reward Points",
+        point_value_inr_default: dossier.reward_calculator_model?.point_value_inr_default ?? 1,
+      };
+    }
+  }
+  cachedCalculatorExtraMeta = map;
+  return map;
+}
+
+export async function getCalculatorExtraMetaMapAsync(): Promise<Record<string, CalculatorCardExtraMeta>> {
+  if (hasLocalDataFs()) return getCalculatorExtraMetaMap();
+  if (cachedCalculatorExtraMeta) return cachedCalculatorExtraMeta;
+  const remote = await fetchR2Json<Record<string, CalculatorCardExtraMeta>>("meta/calculator_extra_meta.json");
+  if (remote) {
+    cachedCalculatorExtraMeta = remote;
+    return remote;
+  }
+  return {};
 }
 
 function buildFeatureRow(
@@ -414,8 +569,50 @@ export function getRelatedCardFeatureRows(dossier: CardDossier): RelatedCardFeat
   return rows;
 }
 
-export function getCategoryStats(): CategoryStatsItem[] {
-  const cards = getAllCards();
+export async function getRelatedCardFeatureRowsAsync(
+  dossier: CardDossier
+): Promise<RelatedCardFeatureRow[]> {
+  if (hasLocalDataFs()) return getRelatedCardFeatureRows(dossier);
+  const rows: RelatedCardFeatureRow[] = [buildFeatureRow(dossier, true, "This Card")];
+  const seen = new Set<string>([dossier.identity.card_id]);
+
+  const wanted: { id: string; bankSlug: string; cardSlug: string; role: string }[] = [];
+  for (const alt of dossier.alternate_options || []) {
+    if (seen.has(alt.card_id) || wanted.length >= 5) continue;
+    seen.add(alt.card_id);
+    wanted.push({ id: alt.card_id, bankSlug: alt.bank_slug, cardSlug: alt.card_slug, role: alt.role });
+  }
+
+  if (wanted.length < 4) {
+    const peers = (await getAllCardsAsync())
+      .filter(
+        (c) =>
+          !seen.has(c.card_id) &&
+          (c.primary_category === dossier.identity.primary_category ||
+            c.categories.includes(dossier.identity.primary_category))
+      )
+      .sort((a, b) => b.overall_rating - a.overall_rating);
+
+    for (const p of peers) {
+      if (wanted.length >= 4) break;
+      seen.add(p.card_id);
+      wanted.push({ id: p.card_id, bankSlug: p.bank_slug, cardSlug: p.card_slug, role: "category_peer" });
+    }
+  }
+
+  const resolved = await Promise.all(
+    wanted.map(async (item) => ({
+      role: item.role,
+      dossier: await getCardDossierAsync(item.bankSlug, item.cardSlug),
+    }))
+  );
+  for (const item of resolved) {
+    if (item.dossier) rows.push(buildFeatureRow(item.dossier, false, item.role));
+  }
+  return rows;
+}
+
+function buildCategoryStats(cards: CardSummaryItem[]): CategoryStatsItem[] {
   return CATEGORY_META.map((meta) => {
     const matched = (() => {
       if (meta.id === "golf") {
@@ -494,6 +691,14 @@ export function getCategoryStats(): CategoryStatsItem[] {
       topCards,
     };
   });
+}
+
+export function getCategoryStats(): CategoryStatsItem[] {
+  return buildCategoryStats(getAllCards());
+}
+
+export async function getCategoryStatsAsync(): Promise<CategoryStatsItem[]> {
+  return buildCategoryStats(await getAllCardsAsync());
 }
 
 export function getMerchantDirectory(): MerchantDirectoryPayload {

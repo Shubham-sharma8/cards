@@ -49,6 +49,9 @@ META_FILES = [
     ("meta/lounge_access_master.json", ROOT / "data" / "master" / "lounge_access_master.json"),
     ("meta/golf_clubs_master.json", ROOT / "data" / "master" / "golf_clubs_master.json"),
     ("meta/devaluation_tracker.json", ROOT / "data" / "master" / "devaluation_tracker.json"),
+    ("meta/cards_by_bank_index.json", ROOT / "data" / "master" / "cards_by_bank_index.json"),
+    ("meta/latest_offers.json", ROOT / "data" / "master" / "latest_offers.json"),
+    ("meta/lounge_programs_catalog.json", ROOT / "data" / "master" / "lounge_programs_catalog.json"),
     ("meta/merchant_mcc_directory.json", WEB_PUBLIC / "data" / "merchant-mcc-directory.json"),
     ("meta/search_index.json", MOBILE_DATA / "search_index.json"),
 ]
@@ -187,14 +190,92 @@ def collect_jobs(prefix_filter: str | None = None) -> list[tuple[str, bytes, str
         jobs.append((key, file_path.read_bytes(), "application/json; charset=utf-8", "public, max-age=3600"))
 
     dossiers_path = MOBILE_DATA / "dossiers_map.json"
-    if dossiers_path.exists() and (not prefix_filter or "dossiers/".startswith(prefix_filter) or prefix_filter.startswith("dossiers")):
+    search_index_path = MOBILE_DATA / "search_index.json"
+    if dossiers_path.exists():
         dossiers = json.loads(dossiers_path.read_text(encoding="utf-8"))
-        for card_id, dossier in dossiers.items():
-            key = f"dossiers/{card_id}.json"
-            if prefix_filter and not key.startswith(prefix_filter):
-                continue
-            payload = json.dumps(dossier, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
-            jobs.append((key, payload, "application/json; charset=utf-8", "public, max-age=86400"))
+
+        if search_index_path.exists():
+            search_cards = json.loads(search_index_path.read_text(encoding="utf-8")).get("cards", [])
+            need_fw = not prefix_filter or "meta/fee_waiver_map.json".startswith(prefix_filter)
+            need_adv = not prefix_filter or "meta/advisor_meta_map.json".startswith(prefix_filter)
+            need_calc = not prefix_filter or "meta/calculator_extra_meta.json".startswith(prefix_filter)
+            if need_fw or need_adv or need_calc:
+                fw_map: dict[str, object] = {}
+                adv_map: dict[str, dict[str, object]] = {}
+                calc_map: dict[str, dict[str, object]] = {}
+
+                def _first(*vals: object) -> object:
+                    for v in vals:
+                        if v is not None:
+                            return v
+                    return None
+
+                for c in search_cards:
+                    cid = c.get("card_id")
+                    if not cid:
+                        continue
+                    d = dossiers.get(cid) or {}
+                    fees_det = d.get("fees_and_charges_detailed") or {}
+                    rc = d.get("reward_calculator_model") or {}
+                    elig = d.get("eligibility_detailed") or {}
+                    deval = d.get("devaluation_analysis") or {}
+                    comm = d.get("reddit_user_feedback") or {}
+                    lng = d.get("lounge_access_detailed") or {}
+                    lng_dom = lng.get("domestic") or {}
+                    lng_intl = lng.get("international") or {}
+                    ft = c.get("filter_tags") or {}
+                    fw_calc = rc.get("fee_waiver_and_milestone_calculator") or {}
+                    benefits_faq = d.get("benefits_features_and_faqs") or {}
+
+                    fw_val = _first(fees_det.get("fee_waiver_spend_inr"), c.get("fee_waiver_spend_inr"))
+                    fw_map[cid] = fw_val
+
+                    adv_map[cid] = {
+                        "minIncomeSalariedInr": _first(elig.get("min_monthly_income_salaried_inr"), ft.get("min_income_salaried_inr")),
+                        "minItrAnnualInr": elig.get("min_annual_itr_self_employed_inr"),
+                        "minCibilScore": _first(elig.get("min_cibil_score"), ft.get("min_cibil_score"), 730),
+                        "approvalNotes": elig.get("approval_notes"),
+                        "cappingRules": _first(rc.get("monthly_capping_rules"), [c["capping_summary"]] if c.get("capping_summary") else []),
+                        "excludedCategories": _first(rc.get("excluded_categories"), []),
+                        "pointValueDefault": _first(rc.get("point_value_inr_default"), 0.25),
+                        "pointValueMatrix": _first(rc.get("point_value_inr_matrix"), {}),
+                        "devaluationRiskScore": _first(deval.get("devaluation_risk_score"), 4),
+                        "devaluationFrequency": _first(deval.get("devaluation_frequency"), "Moderate"),
+                        "lastDevaluedOn": deval.get("last_devalued_on"),
+                        "communityScore": _first(comm.get("community_score"), c.get("overall_rating")),
+                        "communityWarnings": _first(comm.get("practical_community_warnings"), []),
+                        "loungeSpendCriteria": _first(lng_dom.get("spend_criteria"), c.get("lounge_spend_condition")),
+                        "domesticVisitsPerYear": _first(lng_dom.get("visits_per_year"), 0),
+                        "domesticVisitsPerQuarter": _first(lng_dom.get("visits_per_quarter"), 0),
+                        "internationalVisitsPerYear": _first(lng_intl.get("visits_per_year"), 0),
+                        "milestoneSlabs": _first(fw_calc.get("milestone_slabs"), benefits_faq.get("milestone_benefits"), []),
+                        "feeWaiverSpendInr": fw_val,
+                        "fuelSurchargeWaiver": fees_det.get("fuel_surcharge_waiver"),
+                    }
+
+                    calc_map[cid] = {
+                        "fee_waiver_spend_inr": fees_det.get("fee_waiver_spend_inr"),
+                        "monthly_capping_rules": rc.get("monthly_capping_rules") or [],
+                        "earn_unit": rc.get("earn_unit") or "Reward Points",
+                        "point_value_inr_default": _first(rc.get("point_value_inr_default"), 1),
+                    }
+
+                for key, obj in [
+                    ("meta/fee_waiver_map.json", fw_map),
+                    ("meta/advisor_meta_map.json", adv_map),
+                    ("meta/calculator_extra_meta.json", calc_map),
+                ]:
+                    if not prefix_filter or key.startswith(prefix_filter):
+                        payload = json.dumps(obj, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+                        jobs.append((key, payload, "application/json; charset=utf-8", "public, max-age=3600"))
+
+        if not prefix_filter or "dossiers/".startswith(prefix_filter) or prefix_filter.startswith("dossiers"):
+            for card_id, dossier in dossiers.items():
+                key = f"dossiers/{card_id}.json"
+                if prefix_filter and not key.startswith(prefix_filter):
+                    continue
+                payload = json.dumps(dossier, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+                jobs.append((key, payload, "application/json; charset=utf-8", "public, max-age=86400"))
 
     return jobs
 

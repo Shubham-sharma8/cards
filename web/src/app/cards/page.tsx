@@ -1,13 +1,14 @@
 import React from "react";
 import type { Metadata } from "next";
-import { getAllCards, getBanksIndex } from "@/lib/data";
+import { getAllCardsAsync, getBanksIndexAsync } from "@/lib/data";
 import { CardsExplorerClient } from "@/components/CardsExplorerClient";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbJsonLd, buildCollectionJsonLd, buildPageMetadata } from "@/lib/seo";
 
-export function generateMetadata(): Metadata {
-  const cardCount = getAllCards().length;
-  const bankCount = getBanksIndex().total_banks;
+export async function generateMetadata(): Promise<Metadata> {
+  const [cards, banksIndex] = await Promise.all([getAllCardsAsync(), getBanksIndexAsync()]);
+  const cardCount = cards.length;
+  const bankCount = banksIndex.total_banks;
   return buildPageMetadata({
     title: `All ${cardCount} Indian Credit Cards — Filter & Search | Cards by cogify`,
     description: `Filter ${cardCount} active Indian credit cards across ${bankCount} banks by LTF, no-spend lounge access, RuPay UPI, zero forex markup, salary requirement, and reward rates.`,
@@ -17,9 +18,8 @@ export function generateMetadata(): Metadata {
   });
 }
 
-export default function CardsPage() {
-  const cards = getAllCards();
-  const banksIndex = getBanksIndex();
+export default async function CardsPage() {
+  const [cards, banksIndex] = await Promise.all([getAllCardsAsync(), getBanksIndexAsync()]);
 
   return (
     <>
