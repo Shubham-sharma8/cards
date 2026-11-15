@@ -97,8 +97,8 @@
     "effective_return_pct_by_category": {
       "online_shopping_general": 1.0,
       "amazon_flipkart_myntra": 1.0,
-      "dining_swiggy_zomato": 5.0,
-      "groceries_quick_commerce": 5.0,
+      "dining_swiggy_zomato": 4.0,
+      "groceries_quick_commerce": 4.0,
       "travel_flights_hotels": 1.0,
       "upi_scan_and_pay": 1.0,
       "utilities_bills_telecom": 25.0,
@@ -120,9 +120,9 @@
       "All 4 complimentary domestic airport lounge visits/yr completely discontinued effective April 12, 2026."
     ],
     "category_caveats": {
-      "utilities_bills_telecom": "25% Airtel (2× base cashback, max ₹250) + 10% Utility (1× base cashback, max ₹250) — requires 1% regular retail spend in the same cycle; ₹0 base spend = ₹0 cashback.",
-      "dining_swiggy_zomato": "10% Zomato partner wallet credit only (min order ₹499, max ₹200/mo); Swiggy & offline dining earn 1%.",
-      "groceries_quick_commerce": "10% Blinkit partner wallet credit only (min order ₹499, max ₹200/mo); BigBasket & supermarkets earn 1%."
+      "utilities_bills_telecom": "25% Airtel App (₹250 cap) · 10% bills (₹250 cap); needs matching retail spend",
+      "dining_swiggy_zomato": "10% Zomato only (Eff Apr 2026) · 1% outside Zomato",
+      "groceries_quick_commerce": "10% Blinkit only (Eff Apr 2026) · 1% outside Blinkit"
     },
     "excluded_categories": [
       "Fuel transactions",
@@ -534,8 +534,7 @@
       "4 complimentary domestic airport lounge visits discontinued effective April 12, 2026; 3.5%+GST forex markup."
     ],
     "optimization_tips": [
-      "Math check before keeping after Apr 2026: To unlock the full ₹250 Airtel (25%) cap you need ₹12,500 in 1% regular spends (~₹125 base), and ₹25,000 in 1% spends for the full ₹250 utility cap. If you hold SBI Cashback or HDFC Infinia for 3.3%–5% retail spends, shifting ₹12.5k–₹25k away just to unlock Airtel Axis loses opportunity cost!",
-      "Only swipe Airtel Axis on Zomato/Blinkit/District above ₹499 where it earns 10% wallet credits (up to ₹200 each/mo)."
+      "April 2026 Proportional Unlock Rule: 25% Airtel Thanks recharge (₹250 cap) & 10% Utility bills via Airtel Thanks (₹250 cap) now unlock proportionally with base 1% retail spend — mix Zomato, Blinkit & everyday offline/online spends so bill cashback isn't withheld."
     ]
   },
   "devaluation_analysis": {

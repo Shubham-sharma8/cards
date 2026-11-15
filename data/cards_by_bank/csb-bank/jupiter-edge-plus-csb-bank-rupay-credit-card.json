@@ -442,10 +442,15 @@
   "reddit_user_feedback": {
     "community_score": 4.6,
     "reddit_mentions": 18,
-    "sentiment_summary": "Viewed positively on r/CreditCardsIndia for online shopping utility.",
+    "sentiment_summary": "Viewed positively on Cardholder for online shopping utility.",
     "key_threads": [],
-    "practical_community_warnings": [],
-    "optimization_tips": []
+    "practical_community_warnings": [
+      "Monitor quarterly spend gates & monthly category caps",
+      "3.33% base + 5X (16.5%) on Income Tax, GST, PayZapp utilities & SmartBuy business spends (business 5X bonus capped at 7,500 RP/cycle on >= Rs. 50,000 monthly spend); Insurance capped 5,000 RP/mo."
+    ],
+    "optimization_tips": [
+      "Focus spends on online shopping (10.0% effective return) before hitting monthly category caps."
+    ]
   },
   "devaluation_analysis": {
     "devaluation_frequency": "Low-Medium",

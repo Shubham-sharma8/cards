@@ -6,6 +6,7 @@ import {
   type CardConversionResult,
 } from './conversion';
 import { formatLoungeQuota, SPEND_CATEGORY_KEYS, SPEND_CATEGORY_META } from './format';
+import { isCardDiscontinuedForNewApplicants } from './legacyCards';
 import type {
   AdvisorCardMeta,
   AdvisorPriorityMode,
@@ -856,6 +857,7 @@ export function scoreCardsForProfile(
     SPEND_CATEGORY_KEYS.reduce((s, k) => s + (profile.monthlySpend[k] || 0), 0) * 3;
 
   for (const card of cards) {
+    if (isCardDiscontinuedForNewApplicants(card)) continue;
     const t = card.filter_tags;
     const meta = metaMap[card.card_id];
 
@@ -1650,11 +1652,11 @@ export function findBestTwoCardCombo(
 ): MobileTwoCardComboResult | null {
   const conversionStrategy: RewardConversionStrategy =
     options?.conversionStrategy ?? options?.profile?.conversionStrategy ?? 'default_inr';
-  let eligiblePool = cards;
+  let eligiblePool = cards.filter((c) => !isCardDiscontinuedForNewApplicants(c));
   if (options?.profile) {
     const p = options.profile;
     const metaMap = options.metaMap ?? getAdvisorMetaMap();
-    eligiblePool = cards.filter((c) => {
+    eligiblePool = eligiblePool.filter((c) => {
       const t = c.filter_tags;
       const meta = metaMap[c.card_id];
       if (p.feePreference === 'ltf_only' && !t.is_ltf) return false;

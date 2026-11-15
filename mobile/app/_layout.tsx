@@ -13,10 +13,8 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { BrandWordmark } from '../src/components/BrandLogo';
 import { CompareProvider } from '../src/components/CompareContext';
-import { DrawerProvider } from '../src/components/DrawerContext';
 import { GreenCirclesLoader } from '../src/components/GreenCirclesLoader';
 import { ScalePressable } from '../src/components/MotionPrimitives';
-import { SidebarDrawer } from '../src/components/SidebarDrawer';
 import { TOTAL_CARDS } from '../src/lib/data';
 import { isValidLaunchRoute } from '../src/lib/security';
 import { LedgerTheme } from '../src/lib/theme';
@@ -191,7 +189,6 @@ export default function RootLayout() {
       <View style={{ flex: 1, backgroundColor: LedgerTheme.colors.canvas }} onLayout={onLayoutRootView}>
         <ThemeProvider value={CardLedgerLightTheme}>
           <CompareProvider>
-            <DrawerProvider>
               <LaunchRouteBridge />
               <StatusBar style="dark" />
               <Stack
@@ -261,8 +258,6 @@ export default function RootLayout() {
                   options={{ title: 'QR Portals & Claim Steps', headerBackTitle: 'Lounges' }}
                 />
               </Stack>
-              <SidebarDrawer />
-            </DrawerProvider>
           </CompareProvider>
         </ThemeProvider>
         {showBootLoader && (

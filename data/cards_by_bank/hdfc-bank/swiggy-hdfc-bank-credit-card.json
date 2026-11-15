@@ -13,7 +13,7 @@
       "Dining, Groceries & Movies",
       "Golf"
     ],
-    "status": "Active",
+    "status": "Discontinued for New Applicants",
     "schema_version": "2026.11-dossier-v2",
     "generated_at": "2026-11-14T16:00:26.769663+00:00"
   },
@@ -116,12 +116,11 @@
       "10% strictly on Swiggy Food, Instamart & Dineout (capped Rs. 1,500/cycle — Zomato & offline dining earn 1%); 5% on Amazon/Flipkart/Myntra/apparel online MCCs (capped Rs. 1,500/cycle); 1% other (capped Rs. 500/cycle)."
     ],
     "category_caveats": {
-      "dining_swiggy_zomato": "10% strictly on Swiggy Food/Dineout txns ≥ ₹249 (2026 min order update; ₹1,500/mo cap) · <₹249 & Zomato earn 1%.",
-      "groceries_quick_commerce": "10% strictly on Swiggy Instamart txns ≥ ₹249 (₹1,500/mo cap) · non-Swiggy earns 1%.",
+      "dining_swiggy_zomato": "10% on Swiggy Food/Dineout only (₹1,500/mo cap) · 1% non-Swiggy",
+      "groceries_quick_commerce": "10% on Swiggy Instamart only (₹1,500/mo cap) · 1% non-Swiggy",
       "online_shopping_general": "5% select online MCCs (₹1,500/mo cap); excl. utility/wallet",
       "amazon_flipkart_myntra": "5% on eligible Amazon/Flipkart/Myntra MCCs (shared ₹1,500 cap)",
-      "offline_general_other": "1% base cashback capped at ₹500/statement cycle",
-      "travel_flights_hotels": "5% cashback on Cleartrip bookings (shared ₹1,500/cycle cap); 1% on other travel."
+      "offline_general_other": "1% base cashback capped at ₹500/statement cycle"
     },
     "excluded_categories": [],
     "transfer_partners": [],

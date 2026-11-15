@@ -26,6 +26,7 @@ import {
   ExternalLink,
   Headphones,
   Plane,
+  QrCode,
   Search,
   ShieldAlert,
   Sparkles,
@@ -467,11 +468,19 @@ export default function DiscoverScreen() {
                       </ScalePressable>
 
                       <ScalePressable
+                        onPress={() => router.push('/lounge-guide' as never)}
+                        style={styles.quickPillLink}
+                      >
+                        <QrCode size={17} color={LedgerTheme.colors.accent} />
+                        <Text style={styles.quickPillLinkText}>QR Claim Guide</Text>
+                      </ScalePressable>
+
+                      <ScalePressable
                         onPress={() => router.push('/(tabs)/calculator')}
                         style={styles.quickPillLink}
                       >
                         <CanvaFeatureIcon icon="rewards" size={18} />
-                        <Text style={styles.quickPillLinkText}>Calculator</Text>
+                        <Text style={styles.quickPillLinkText}>Spend Calculator</Text>
                       </ScalePressable>
 
                       <ScalePressable
@@ -1097,20 +1106,22 @@ const styles = StyleSheet.create({
   },
   quickActionLinksRow: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
     gap: 10,
   },
   quickPillLink: {
-    flex: 1,
+    width: '48.4%',
+    flexGrow: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 6,
+    gap: 7,
     backgroundColor: LedgerTheme.colors.surface,
     borderWidth: 1,
     borderColor: LedgerTheme.colors.hairline,
     borderRadius: 16,
     paddingVertical: 14,
-    paddingHorizontal: 10,
+    paddingHorizontal: 12,
   },
   quickPillLinkText: {
     fontSize: 13.5,

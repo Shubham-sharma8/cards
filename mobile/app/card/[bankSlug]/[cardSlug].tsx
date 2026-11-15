@@ -61,6 +61,8 @@ import { matchGolfGuideForCard } from '../../../src/lib/golfGuide';
 import { generateDossierAiVerdict } from '../../../src/lib/aiSuggestions';
 import { exportSingleCardPdfMobile, shareCardSummary } from '../../../src/lib/pdfExport';
 import { getBankHelpBySlug } from '../../../src/lib/bankHelpDirectory';
+import { getDiscontinuedNotice } from '../../../src/lib/legacyCards';
+import { InteractiveBenefitExplorer } from '../../../src/components/InteractiveBenefitExplorer';
 import type { RewardConversionStrategy } from '../../../src/lib/types';
 import {
   formatFeeDisplay,
@@ -975,6 +977,86 @@ export default function CardDossierScreen() {
         </View>
       </CalmEntranceView>
 
+      {(() => {
+        const legacyNotice = getDiscontinuedNotice({
+          card_id: identity.card_id,
+          status: identity.status,
+        });
+        if (!legacyNotice) return null;
+        return (
+          <View
+            style={{
+              backgroundColor: '#FEF6EA',
+              borderWidth: 1,
+              borderColor: '#F59E0B',
+              borderRadius: 16,
+              padding: 15,
+              gap: 10,
+            }}
+          >
+            <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: 8 }}>
+              <AlertTriangle size={18} color="#B45309" style={{ marginTop: 2 }} />
+              <View style={{ flex: 1, gap: 4 }}>
+                <Text
+                  style={{
+                    fontSize: 11,
+                    fontWeight: '700',
+                    color: '#9A5B13',
+                    textTransform: 'uppercase',
+                  }}
+                >
+                  New Applications Closed · Retained for Calculator &amp; Offers
+                </Text>
+                <Text style={{ fontSize: 15, fontWeight: '700', color: LedgerTheme.colors.inkPrimary }}>
+                  {legacyNotice.title}
+                </Text>
+                <Text style={{ fontSize: 12.5, lineHeight: 18, color: LedgerTheme.colors.inkSecondary }}>
+                  {legacyNotice.summary}
+                </Text>
+              </View>
+            </View>
+            {legacyNotice.replacements.length > 0 && (
+              <View style={{ gap: 8 }}>
+                {legacyNotice.replacements.map((rep) => (
+                  <ScalePressable
+                    key={rep.cardId}
+                    onPress={() =>
+                      router.push({
+                        pathname: '/card/[bankSlug]/[cardSlug]',
+                        params: { bankSlug: rep.bankSlug, cardSlug: rep.cardSlug },
+                      })
+                    }
+                    style={{
+                      backgroundColor: '#FFFFFF',
+                      borderWidth: 1,
+                      borderColor: LedgerTheme.colors.hairline,
+                      borderRadius: 12,
+                      padding: 12,
+                      gap: 4,
+                    }}
+                  >
+                    <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <Text style={{ fontSize: 11.5, fontWeight: '700', color: LedgerTheme.colors.accent }}>
+                        {rep.tierLabel}
+                      </Text>
+                      <Text style={{ fontSize: 12, fontWeight: '600', color: LedgerTheme.colors.accent }}>
+                        Open Variant →
+                      </Text>
+                    </View>
+                    <Text style={{ fontSize: 14.5, fontWeight: '700', color: LedgerTheme.colors.inkPrimary }}>
+                      {rep.cardName}
+                    </Text>
+                    <Text style={{ fontSize: 12, color: LedgerTheme.colors.inkSecondary }}>
+                      {rep.highlight}
+                    </Text>
+                  </ScalePressable>
+                ))}
+              </View>
+            )}
+          </View>
+        );
+      })()}
+
       {/* Section Tabs */}
       <ScrollView
         horizontal
@@ -1099,6 +1181,8 @@ export default function CardDossierScreen() {
               </ScalePressable>
             </View>
           </View>
+
+          <InteractiveBenefitExplorer key={identity.card_id} dossier={dossier} />
 
           <View style={styles.panel}>
             <View style={styles.verdictTopRow}>

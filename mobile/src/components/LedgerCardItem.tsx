@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Bookmark, Check, ChevronRight, Plus, Star, Wallet } from 'lucide-react-native';
 import type { CardSummaryItem } from '../lib/types';
 import { formatFeeDisplay, formatInr } from '../lib/format';
+import { getDiscontinuedNotice } from '../lib/legacyCards';
 import { LedgerTheme } from '../lib/theme';
 import { BankLogo } from './BankLogo';
 import { CardArtwork } from './CardArtwork';
@@ -27,6 +28,7 @@ export const LedgerCardItem = React.memo(function LedgerCardItem({
   const compared = isSelected(card.card_id);
   const saved = isSaved(card.card_id);
   const owned = isOwned(card.card_id);
+  const discontinuedNotice = getDiscontinuedNotice(card);
   const t = card.filter_tags;
 
   const peakPct = Object.entries(card.effective_return_pct_by_category || {})
@@ -107,7 +109,23 @@ export const LedgerCardItem = React.memo(function LedgerCardItem({
 
       {/* Feature Tags */}
       <View style={styles.tagsRow}>
-        {featurePills.slice(0, compact ? 2 : 3).map((pill) => (
+        {discontinuedNotice && (
+          <View
+            style={{
+              backgroundColor: '#FEF6EA',
+              borderColor: '#F59E0B',
+              borderWidth: 1,
+              borderRadius: 999,
+              paddingHorizontal: 8,
+              paddingVertical: 4,
+            }}
+          >
+            <Text style={{ fontSize: 11, fontWeight: '700', color: '#9A5B13' }}>
+              {discontinuedNotice.badgeLabel}
+            </Text>
+          </View>
+        )}
+        {featurePills.slice(0, compact ? (discontinuedNotice ? 1 : 2) : (discontinuedNotice ? 2 : 3)).map((pill) => (
           <CanvaFeaturePill key={pill.label} icon={pill.icon} label={pill.label} />
         ))}
       </View>

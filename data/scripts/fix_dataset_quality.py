@@ -672,6 +672,7 @@ def main() -> int:
             d = by_id.get(item.get("card_id", ""))
             if not d:
                 continue
+            item["status"] = d["identity"].get("status", item.get("status", "Active"))
             item["card_network"] = d["identity"].get("card_network")
             item["forex_markup_pct"] = d["fees_and_charges_detailed"].get("forex_markup_pct")
             item["filter_tags"] = d.get("filter_tags", item.get("filter_tags"))
@@ -693,16 +694,16 @@ def main() -> int:
         if isinstance(raw_master, list):
             for i, d in enumerate(raw_master):
                 idn = d.get("identity") or {}
-                k = f"{idn.get('bank_slug')}/{idn.get('card_slug')}"
-                if k in by_id:
-                    raw_master[i] = by_id[k]
+                cid = idn.get("card_id")
+                if cid and cid in by_id:
+                    raw_master[i] = by_id[cid]
             master_path.write_text(json.dumps(raw_master, indent=2, ensure_ascii=False))
         elif isinstance(raw_master, dict) and isinstance(raw_master.get("cards"), list):
             for i, d in enumerate(raw_master["cards"]):
                 idn = d.get("identity") or {}
-                k = f"{idn.get('bank_slug')}/{idn.get('card_slug')}"
-                if k in by_id:
-                    raw_master["cards"][i] = by_id[k]
+                cid = idn.get("card_id")
+                if cid and cid in by_id:
+                    raw_master["cards"][i] = by_id[cid]
             master_path.write_text(json.dumps(raw_master, indent=2, ensure_ascii=False))
 
     update_devaluation_tracker()

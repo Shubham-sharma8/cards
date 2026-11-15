@@ -1150,10 +1150,18 @@
   "reddit_user_feedback": {
     "community_score": 4.2,
     "reddit_mentions": 18,
-    "sentiment_summary": "Viewed positively on r/CreditCardsIndia for cashback utility.",
+    "sentiment_summary": "Viewed positively on Cardholder for cashback utility.",
     "key_threads": [],
-    "practical_community_warnings": [],
-    "optimization_tips": []
+    "practical_community_warnings": [
+      "High 3.5% (+GST) forex markup makes international swipes net negative.",
+      "Monitor quarterly spend gates & monthly category caps",
+      "3.33% base + 5X (16.5%) on Income Tax, GST, PayZapp utilities & SmartBuy business spends (business 5X bonus capped at 7,500 RP/cycle on >= Rs. 50,000 monthly spend); Insurance capped 5,000 RP/mo."
+    ],
+    "optimization_tips": [
+      "Focus spends on dining & food delivery (5.0% effective return) before hitting monthly category caps.",
+      "Avoid foreign currency & international SaaS charges on this card due to 3.5% + GST forex markup; use a 0%-forex card instead.",
+      "Track ₹150,000 annual retail spend before anniversary month to waive renewal fees — rent/govt/wallet spends often don't count."
+    ]
   },
   "devaluation_analysis": {
     "devaluation_frequency": "Low-Medium",

@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { ArrowRight, Bookmark, Check, Plus, Star, Table2, Wallet } from "lucide-react";
 import type { CardSummaryItem } from "@/lib/types";
 import { formatFeeDisplay } from "@/lib/format";
+import { getDiscontinuedNotice } from "@/lib/legacyCards";
 import { BankLogo } from "./BankLogo";
 import { CardArtwork } from "./CardArtwork";
 import { useCompare } from "./CompareContext";
@@ -32,6 +33,7 @@ export function LedgerCardItem({ card, highlightNote, variant = "default" }: Led
   const compared = isSelected(card.card_id);
   const saved = isSaved(card.card_id);
   const owned = isOwned(card.card_id);
+  const discontinuedNotice = getDiscontinuedNotice(card);
   const t = card.filter_tags;
 
   const bestCats = Object.entries(card.effective_return_pct_by_category || {})
@@ -179,6 +181,11 @@ export function LedgerCardItem({ card, highlightNote, variant = "default" }: Led
 
         {/* Key Feature Tags — Capped for Equal Card Heights */}
         <div className="flex flex-wrap items-center gap-1.5 min-h-[28px]">
+          {discontinuedNotice && (
+            <span className="inline-flex items-center gap-1 text-[11px] font-medium bg-[#FEF6EA] border border-[#F59E0B]/40 text-[#9A5B13] px-2 py-0.5 rounded-md whitespace-nowrap">
+              {discontinuedNotice.badgeLabel}
+            </span>
+          )}
           {owned && (
             <span className="inline-flex items-center gap-1 text-[11px] bg-[#EEF5F2] border border-[#0F5C4D]/35 text-[#0F5C4D] px-2 py-0.5 rounded-md">
               <Check className="w-3 h-3" aria-hidden="true" />
@@ -186,7 +193,7 @@ export function LedgerCardItem({ card, highlightNote, variant = "default" }: Led
             </span>
           )}
           {visiblePills.length > 0 ? (
-            visiblePills.slice(0, owned ? 2 : 3).map((p) => {
+            visiblePills.slice(0, owned || discontinuedNotice ? 2 : 3).map((p) => {
               const cls =
                 p.tone === "green"
                   ? "bg-[#EEF5F2] border-[#CBE0D7] text-[#0F5C4D]"

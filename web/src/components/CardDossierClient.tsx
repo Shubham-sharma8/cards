@@ -46,7 +46,9 @@ import { matchGolfGuideForCard } from "@/lib/golfGuide";
 import { exportSingleCardPdf, shareUrlOrText } from "@/lib/pdfExport";
 import { buildWhatsAppShareHref, sanitizeExternalHref } from "@/lib/security";
 import { getBankHelpBySlug } from "@/lib/bankHelpDirectory";
+import { getDiscontinuedNotice } from "@/lib/legacyCards";
 import { CategoryMultiBarChart } from "./AnalyticsCharts";
+import { InteractiveBenefitExplorer } from "./InteractiveBenefitExplorer";
 import {
   SPEND_CATEGORY_KEYS,
   SPEND_CATEGORY_META,
@@ -656,8 +658,8 @@ export function CardDossierClient({
                 <span className="text-[12px] text-[#4B525C] bg-white/85 border border-[#E4E4DF] px-2.5 py-0.5 rounded-md">
                   {identity.card_network} · {identity.card_tier}
                 </span>
-                {identity.status && identity.status !== "active" && (
-                  <span className="text-[12px] text-[#9A5B13] bg-[#FEF6EA] px-2.5 py-0.5 rounded-md capitalize">
+                {identity.status && identity.status.toLowerCase() !== "active" && (
+                  <span className="text-[12px] font-medium text-[#9A5B13] bg-[#FEF6EA] border border-[#F59E0B]/35 px-2.5 py-0.5 rounded-md">
                     {identity.status}
                   </span>
                 )}
@@ -923,6 +925,59 @@ export function CardDossierClient({
         </div>
       </section>
 
+      {(() => {
+        const legacyNotice = getDiscontinuedNotice({
+          card_id: identity.card_id,
+          status: identity.status,
+        });
+        if (!legacyNotice) return null;
+        return (
+          <section className="mt-5 bg-[#FEF6EA] border border-[#F59E0B]/40 rounded-xl p-4 sm:p-5 space-y-3.5">
+            <div className="flex items-start gap-3">
+              <AlertTriangle className="w-5 h-5 text-[#B45309] shrink-0 mt-0.5" aria-hidden="true" />
+              <div className="space-y-1 min-w-0">
+                <span className="inline-block text-[11px] font-semibold uppercase tracking-[0.06em] text-[#9A5B13] bg-white/85 border border-[#F59E0B]/35 px-2 py-0.5 rounded">
+                  New Applications Closed · Existing Holders Retained in Database
+                </span>
+                <h2 className="text-[16px] sm:text-[17px] font-semibold text-[#1A1D21] mt-1">
+                  {legacyNotice.title}
+                </h2>
+                <p className="text-[13px] text-[#4B525C] leading-relaxed">
+                  {legacyNotice.summary}
+                </p>
+              </div>
+            </div>
+
+            {legacyNotice.replacements.length > 0 && (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                {legacyNotice.replacements.map((rep) => (
+                  <Link
+                    key={rep.cardId}
+                    href={`/${rep.bankSlug}/${rep.cardSlug}`}
+                    className="group bg-white border border-[#E4E4DF] hover:border-[#0F5C4D]/55 rounded-xl p-3.5 flex flex-col justify-between gap-2 transition-all hover:shadow-xs"
+                  >
+                    <div>
+                      <div className="flex items-center justify-between gap-2">
+                        <span className="text-[11px] font-medium text-[#0F5C4D] bg-[#EEF5F2] px-2 py-0.5 rounded">
+                          {rep.tierLabel}
+                        </span>
+                        <span className="text-[12px] font-medium text-[#0F5C4D] group-hover:translate-x-0.5 transition-transform">
+                          View Variant →
+                        </span>
+                      </div>
+                      <h3 className="text-[14.5px] font-semibold text-[#1A1D21] group-hover:text-[#0F5C4D] mt-2">
+                        {rep.cardName}
+                      </h3>
+                      <p className="text-[12px] text-[#4B525C] mt-0.5">{rep.highlight}</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </section>
+        );
+      })()}
+
       {/* Aceternity-adapted Animated Tabs Bar */}
       <div className="mt-6 border-b border-[#E4E4DF] overflow-x-auto">
         <div className="flex items-center gap-1 min-w-max pb-2" role="tablist" aria-label="Card details sections">
@@ -995,6 +1050,9 @@ export function CardDossierClient({
                   Customize 12 Spend Sliders →
                 </button>
               </div>
+
+              {/* Interactive Visual Benefit & Monthly Cap Explorer */}
+              <InteractiveBenefitExplorer key={identity.card_id} dossier={dossier} />
 
               {/* AI Should You Apply? Verdict */}
               {(() => {

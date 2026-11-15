@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15",
+  "generated_at": "2026-11-14",
   "issuer_devaluation_profiles": {
     "Axis Bank": {
       "frequency": "Very High",
@@ -196,7 +196,9 @@
       ],
       "severity": "High",
       "summary": "Removed ₹1.9 Lakh milestone (7,500 MR Points); full milestone benefits narrowed to ₹4L spend threshold. From Nov 15, 2026 transactions count by posting date & MR pools stay card-separate.",
-      "source_ref": "Amex India 2026 T&C & Nov 2026 Transfer Update"
+      "source_ref": "Amex India 2026 T&C & Nov 2026 Transfer Update",
+      "pdf_url": "https://www.americanexpress.com/in/legal-disclosures/most-important-terms-and-conditions/",
+      "mitc_pdf_url": "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf"
     },
     {
       "date": "2026-09-01",
@@ -210,7 +212,9 @@
       ],
       "severity": "Medium",
       "summary": "Accor ALL & Cathay returned to Group A (Atlas 2:1, Magnus Burgundy 5:2); Air India, Flying Blue & Qantas moved to Group A; Hilton & Miles & More added to Group B; ITC Hotels removed.",
-      "source_ref": "Axis Bank Travel EDGE Transfer Partner Sept 2026 Update"
+      "source_ref": "Axis Bank Travel EDGE Transfer Partner Sept 2026 Update",
+      "pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
+      "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf"
     },
     {
       "date": "2026-07-15",
@@ -222,7 +226,9 @@
       ],
       "severity": "High",
       "summary": "Unlimited domestic airport lounge access transitioned to revised spend-based quarterly eligibility criteria effective 15 July 2026.",
-      "source_ref": "BOBCARD July 2026 Revision"
+      "source_ref": "BOBCARD July 2026 Revision",
+      "pdf_url": "https://www.bobcard.co.in/most-important-terms-and-conditions",
+      "mitc_pdf_url": "https://www.bobcard.co.in/pdfs/MITC.pdf"
     },
     {
       "date": "2026-07-01",
@@ -235,7 +241,9 @@
       ],
       "severity": "Medium",
       "summary": "Carved out a separate 3,000 Bonus RP/month limit on SmartBuy GyFTR & Woohoo Brand Vouchers (~₹30k/mo spend on Infinia, ~₹45k on DCB Metal).",
-      "source_ref": "HDFC SmartBuy July 2026 Caps"
+      "source_ref": "HDFC SmartBuy July 2026 Caps",
+      "pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/faq-swiggy-card-upgrade-final.pdf",
+      "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
     },
     {
       "date": "2026-07-01",
@@ -246,7 +254,9 @@
       ],
       "severity": "High",
       "summary": "Monthly PhonePe cap split into 500 RP Insurance + 1,500 RP Other (250 + 750 on Purple); online 5% cap cut 50% (2,000->1,000 RP); Tolls/Education/Jewellery/Gift Cards excluded.",
-      "source_ref": "SBI Card PhonePe MITC Addendum Jul 2026"
+      "source_ref": "SBI Card PhonePe MITC Addendum Jul 2026",
+      "pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/kfs/key-fact-statement.pdf",
+      "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/most-important-terms-and-conditions.pdf"
     },
     {
       "date": "2026-07-01",
@@ -258,7 +268,9 @@
       ],
       "severity": "High",
       "summary": "May 15 base rate shift (5 RP/₹200 on Regalia Gold & BizPower, 4 RP/₹200 on DCP, <₹200 earns 0) + July 1 ₹60k/qtr lounge spend rule (₹75k on BizPower). Boarding Edge arrival perks launched for Regalia Gold.",
-      "source_ref": "HDFC Bank May–Jul 2026 Updates"
+      "source_ref": "HDFC Bank May–Jul 2026 Updates",
+      "pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/faq-swiggy-card-upgrade-final.pdf",
+      "mitc_pdf_url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
     },
     {
       "date": "2026-07",
@@ -281,7 +293,9 @@
       ],
       "severity": "High",
       "summary": "All 4 complimentary domestic lounge visits discontinued, Swiggy/BigBasket 10% removed, and cashback caps mathematically linked proportionally to base 1% retail spends.",
-      "source_ref": "Axis Bank Apr 2026 MITC"
+      "source_ref": "Axis Bank Apr 2026 MITC",
+      "pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/sosc-credit-cards.pdf",
+      "mitc_pdf_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-mitc.pdf"
     },
     {
       "date": "2026-04-01",
@@ -291,7 +305,9 @@
       ],
       "severity": "High",
       "summary": "Online 5% cashback cap tightened from ₹5,000 to ₹2,000 per statement cycle (plus separate ₹2,000 offline 1% cap = ₹4,000 total); Tolls, Digital Gaming & Govt excluded.",
-      "source_ref": "SBI Card Apr 2026 Revision"
+      "source_ref": "SBI Card Apr 2026 Revision",
+      "pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/kfs/key-fact-statement.pdf",
+      "mitc_pdf_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/most-important-terms-and-conditions.pdf"
     },
     {
       "date": "2026-04",

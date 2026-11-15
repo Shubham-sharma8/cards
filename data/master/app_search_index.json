@@ -591,10 +591,8 @@
         "offline_general_other": 2000
       },
       "category_caveats": {
-        "online_shopping_general": "5% capped at ₹2,000/statement cycle (~₹40k spend) since Apr 2026",
-        "amazon_flipkart_myntra": "Shares ₹2,000/cycle online cashback pool (5% rate unchanged)",
-        "offline_general_other": "1% offline capped at ₹2,000/statement cycle",
-        "insurance": "Direct insurer MCC = 0% (Buy Amazon Pay Gift Cards inside Amazon @ 5% up to ₹2k cap instead)"
+        "online_shopping_general": "5% online across merchants (combined ₹5,000/mo cycle cap across 5%+1%)",
+        "amazon_flipkart_myntra": "5% online on Amazon/Flipkart/Myntra (shared ₹5,000/mo cap)"
       },
       "domestic_lounge_summary": "No domestic airport lounge access",
       "international_lounge_summary": "No international lounge access",
@@ -702,15 +700,15 @@
       "monthly_category_caps_inr": {
         "dining_swiggy_zomato": 1200,
         "groceries_quick_commerce": 1200,
-        "utilities_bills_telecom": 1200
+        "utilities_bills_telecom": 1200,
+        "online_shopping_general": 1200
       },
       "category_caveats": {
-        "online_shopping_general": "1.5% base across general online portals (only select departmental/apparel MCCs qualify for 10% pool).",
-        "amazon_flipkart_myntra": "1.5% unlimited base (Amazon, Flipkart & Myntra explicitly excluded from 10%).",
-        "dining_swiggy_zomato": "10% on restaurants, Swiggy & Zomato (shares ₹1,000–₹1,200/mo combined cap).",
-        "groceries_quick_commerce": "10% on Zepto, Blinkit, Instamart, DMart & supermarkets (MCC 5411/5499; shares ₹1,000–₹1,200/mo combined cap).",
-        "utilities_bills_telecom": "10% on eligible utility MCC 4900 & Zepto Amazon Pay Gift Card route (govt portals MCC 9399 excluded).",
-        "insurance": "0% direct insurer MCC — Pro Hack: buy Amazon Pay Gift Cards on Zepto (10% up to ₹1,200/mo) and pay via Amazon Pay / PolicyBazaar."
+        "dining_swiggy_zomato": "10% across Dining, Food Delivery, Groceries & Eligible Shopping (₹1,200/mo combined cap; ₹12,000 spend)",
+        "groceries_quick_commerce": "10% across Zepto/Blinkit/Instamart/DMart & Dining (₹1,200/mo combined cap; 1.5% after)",
+        "amazon_flipkart_myntra": "1.5% base cashback directly on Amazon, Flipkart & Myntra (excluded from 10% tier)",
+        "utilities_bills_telecom": "10% eligible utility MCC (shared ₹1,200/mo cap) or route via Zepto Apay Gift Cards → Amazon Pay",
+        "insurance": "0% direct insurer MCC — Pro Hack: buy Amazon Pay Gift Cards on Zepto (10% up to ₹1,200/mo) → pay via Amazon Pay / Policybazaar"
       },
       "domestic_lounge_summary": "2 complimentary domestic lounges/year (max 1 per 6 months, updated Nov 2026)",
       "international_lounge_summary": "1 complimentary international airport lounge visit per calendar year (+ 2 domestic/yr)",
@@ -1021,7 +1019,7 @@
       ],
       "card_network": "Mastercard World",
       "card_tier": "Mid-Tier",
-      "status": "Active",
+      "status": "Discontinued for New Applicants",
       "annual_fee_inr": 500,
       "fee_waiver_spend_inr": 200000,
       "forex_markup_pct": 3.5,
@@ -1093,12 +1091,11 @@
         "offline_general_other": 500
       },
       "category_caveats": {
-        "dining_swiggy_zomato": "10% strictly on Swiggy Food/Dineout txns ≥ ₹249 (2026 min order update; ₹1,500/mo cap) · <₹249 & Zomato earn 1%.",
-        "groceries_quick_commerce": "10% strictly on Swiggy Instamart txns ≥ ₹249 (₹1,500/mo cap) · non-Swiggy earns 1%.",
+        "dining_swiggy_zomato": "10% on Swiggy Food/Dineout only (₹1,500/mo cap) · 1% non-Swiggy",
+        "groceries_quick_commerce": "10% on Swiggy Instamart only (₹1,500/mo cap) · 1% non-Swiggy",
         "online_shopping_general": "5% select online MCCs (₹1,500/mo cap); excl. utility/wallet",
         "amazon_flipkart_myntra": "5% on eligible Amazon/Flipkart/Myntra MCCs (shared ₹1,500 cap)",
-        "offline_general_other": "1% base cashback capped at ₹500/statement cycle",
-        "travel_flights_hotels": "5% cashback on Cleartrip bookings (shared ₹1,500/cycle cap); 1% on other travel."
+        "offline_general_other": "1% base cashback capped at ₹500/statement cycle"
       },
       "domestic_lounge_summary": "No domestic airport lounge access",
       "international_lounge_summary": "No international lounge access",
@@ -5285,8 +5282,8 @@
       "effective_return_pct_by_category": {
         "online_shopping_general": 1.0,
         "amazon_flipkart_myntra": 1.0,
-        "dining_swiggy_zomato": 5.0,
-        "groceries_quick_commerce": 5.0,
+        "dining_swiggy_zomato": 4.0,
+        "groceries_quick_commerce": 4.0,
         "travel_flights_hotels": 1.0,
         "upi_scan_and_pay": 1.0,
         "utilities_bills_telecom": 25.0,
@@ -5302,9 +5299,9 @@
         "groceries_quick_commerce": 200
       },
       "category_caveats": {
-        "utilities_bills_telecom": "25% Airtel (2× base cashback, max ₹250) + 10% Utility (1× base cashback, max ₹250) — requires 1% regular retail spend in the same cycle; ₹0 base spend = ₹0 cashback.",
-        "dining_swiggy_zomato": "10% Zomato partner wallet credit only (min order ₹499, max ₹200/mo); Swiggy & offline dining earn 1%.",
-        "groceries_quick_commerce": "10% Blinkit partner wallet credit only (min order ₹499, max ₹200/mo); BigBasket & supermarkets earn 1%."
+        "utilities_bills_telecom": "25% Airtel App (₹250 cap) · 10% bills (₹250 cap); needs matching retail spend",
+        "dining_swiggy_zomato": "10% Zomato only (Eff Apr 2026) · 1% outside Zomato",
+        "groceries_quick_commerce": "10% Blinkit only (Eff Apr 2026) · 1% outside Blinkit"
       },
       "domestic_lounge_summary": "Discontinued (Apr 12, 2026): 0 complimentary domestic airport lounge visits",
       "international_lounge_summary": "No international lounge access",

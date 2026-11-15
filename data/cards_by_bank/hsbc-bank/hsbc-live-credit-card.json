@@ -144,7 +144,8 @@
     "monthly_category_caps_inr": {
       "dining_swiggy_zomato": 1200,
       "groceries_quick_commerce": 1200,
-      "utilities_bills_telecom": 1200
+      "utilities_bills_telecom": 1200,
+      "online_shopping_general": 1200
     },
     "monthly_capping_rules": [
       "10% cashback on Dining, Food Delivery (Swiggy/Zomato), Groceries (DMart/Zepto/Blinkit/Instamart — MCC 5411/5499), eligible Utility Bills (MCC 4900) & select apparel/departmental MCCs — shared monthly cap of ₹1,000–₹1,200/billing cycle.",
@@ -152,12 +153,11 @@
       "MCC Caveat: Direct state electricity portals billed under Govt MCC 9399 yield 0%; use Zepto Amazon Pay Gift Card route (codes as Grocery 10% up to cap) -> Amazon Pay / PolicyBazaar for bills & insurance."
     ],
     "category_caveats": {
-      "online_shopping_general": "1.5% base across general online portals (only select departmental/apparel MCCs qualify for 10% pool).",
-      "amazon_flipkart_myntra": "1.5% unlimited base (Amazon, Flipkart & Myntra explicitly excluded from 10%).",
-      "dining_swiggy_zomato": "10% on restaurants, Swiggy & Zomato (shares ₹1,000–₹1,200/mo combined cap).",
-      "groceries_quick_commerce": "10% on Zepto, Blinkit, Instamart, DMart & supermarkets (MCC 5411/5499; shares ₹1,000–₹1,200/mo combined cap).",
-      "utilities_bills_telecom": "10% on eligible utility MCC 4900 & Zepto Amazon Pay Gift Card route (govt portals MCC 9399 excluded).",
-      "insurance": "0% direct insurer MCC — Pro Hack: buy Amazon Pay Gift Cards on Zepto (10% up to ₹1,200/mo) and pay via Amazon Pay / PolicyBazaar."
+      "dining_swiggy_zomato": "10% across Dining, Food Delivery, Groceries & Eligible Shopping (₹1,200/mo combined cap; ₹12,000 spend)",
+      "groceries_quick_commerce": "10% across Zepto/Blinkit/Instamart/DMart & Dining (₹1,200/mo combined cap; 1.5% after)",
+      "amazon_flipkart_myntra": "1.5% base cashback directly on Amazon, Flipkart & Myntra (excluded from 10% tier)",
+      "utilities_bills_telecom": "10% eligible utility MCC (shared ₹1,200/mo cap) or route via Zepto Apay Gift Cards → Amazon Pay",
+      "insurance": "0% direct insurer MCC — Pro Hack: buy Amazon Pay Gift Cards on Zepto (10% up to ₹1,200/mo) → pay via Amazon Pay / Policybazaar"
     },
     "excluded_categories": [
       "Amazon & Flipkart excluded from 10% tier (earn 1.5% base). Nov 2026 devaluation: 1.5% international cashback discontinued, Hospitals (MCC 8062) & Local Transport (MCC 4111) excluded; fuel, rent, wallet, govt & insurance excluded"
@@ -1562,10 +1562,7 @@
     "optimization_tips": [
       "Zepto → Amazon Pay Insurance Hack: Buy Amazon Pay Gift Cards on Zepto using HSBC Live+ (codes as Grocery MCC = 10% cashback up to ₹1,200/month on ₹12k spend), add to your Amazon Pay balance, then pay LIC/term/health insurance via Amazon Pay or Policybazaar (choose Amazon Pay wallet) at an effective 10% return.",
       "Track the shared ₹1,200/month cap: Dining, Swiggy/Zomato food delivery, Blinkit/Zepto/Instamart groceries, DMart, and eligible shopping share one ₹12,000/month 10% pool — excess spends earn 1.5% uncapped.",
-      "Never use directly on Amazon.in, Flipkart, or Myntra for 10% (those drop to 1.5% base); save direct marketplace checkouts for SBI Cashback or Amazon Pay ICICI.",
-      "Use it for grocery shopping at supermarkets such as DMart and Reliance Fresh, as well as eligible online grocery platforms like Blinkit, Amazon Fresh and Flipkart Minutes.",
-      "Pay for food delivery on Swiggy and Zomato to earn 10% cashback.",
-      "Use it when dining at restaurants and cafés."
+      "Never use directly on Amazon.in, Flipkart, or Myntra for 10% (those drop to 1.5% base); save direct marketplace checkouts for SBI Cashback or Amazon Pay ICICI."
     ]
   },
   "devaluation_analysis": {

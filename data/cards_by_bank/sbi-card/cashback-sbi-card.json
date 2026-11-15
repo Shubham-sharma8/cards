@@ -114,10 +114,8 @@
       "0% cashback on Fuel, Rent, Utilities, Insurance, Education, Wallet Loads, Jewellery, Gift Cards, Tolls, Digital Gaming & Government payments."
     ],
     "category_caveats": {
-      "online_shopping_general": "5% capped at ₹2,000/statement cycle (~₹40k spend) since Apr 2026",
-      "amazon_flipkart_myntra": "Shares ₹2,000/cycle online cashback pool (5% rate unchanged)",
-      "offline_general_other": "1% offline capped at ₹2,000/statement cycle",
-      "insurance": "Direct insurer MCC = 0% (Buy Amazon Pay Gift Cards inside Amazon @ 5% up to ₹2k cap instead)"
+      "online_shopping_general": "5% online across merchants (combined ₹5,000/mo cycle cap across 5%+1%)",
+      "amazon_flipkart_myntra": "5% online on Amazon/Flipkart/Myntra (shared ₹5,000/mo cap)"
     },
     "excluded_categories": [
       "Rent, fuel, wallet loads, jewelry, school/educational services, railway tickets, EMI/Flexipay, gift cards/vouchers, merchant EMI",
@@ -399,7 +397,7 @@
     ],
     "optimization_tips": [
       "Apay Gift Card Utility & Insurance Route: Direct utilities, insurance, and gift card MCCs earn 0%. Buy Amazon Pay Gift Cards directly on Amazon.in (or eligible e-commerce voucher checkouts coding as online shopping) for 5% cashback, then pay electricity/gas/insurance inside Amazon Pay.",
-      "Split ₹2,000 online + ₹2,000 offline monthly caps (effective 1 Apr 2026; max ₹40,000/mo 5% online spend) — shift excess online spends after ₹40k to HDFC Swiggy / Millennia / Amazon Pay ICICI."
+      "Shared ₹5,000/month cap: 5% online and 1% offline cashbacks share a single ₹5,000/billing-cycle ceiling (₹1,00,000 online spend) — avoid sudden bulk gift-card spikes that trigger SBI fraud alerts."
     ]
   },
   "devaluation_analysis": {
