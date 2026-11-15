@@ -2295,6 +2295,8 @@ def main():
             "card_network": card.get("card_network"),
             "card_tier": card.get("card_tier"),
             "status": card.get("status"),
+            "joining_fee_inr": int(fees_raw.get("joining_fee_inr") or 0),
+            "joining_fee_waiver": fees_raw.get("joining_fee_waiver"),
             "annual_fee_inr": ann_fee,
             "fee_waiver_spend_inr": waiver_spend,
             "forex_markup_pct": forex_num,

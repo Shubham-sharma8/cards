@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Bookmark, Check, ChevronRight, Plus, Star, Wallet } from 'lucide-react-native';
 import type { CardSummaryItem } from '../lib/types';
-import { formatInr } from '../lib/format';
+import { formatFeeDisplay, formatInr } from '../lib/format';
 import { LedgerTheme } from '../lib/theme';
 import { BankLogo } from './BankLogo';
 import { CardArtwork } from './CardArtwork';
@@ -121,12 +121,17 @@ export const LedgerCardItem = React.memo(function LedgerCardItem({
       {/* Clean Non-Overlapping Footer: Metrics Row Above + Actions Row */}
       <View style={styles.footerWrap}>
         <View style={styles.metricsGroup}>
-          <View style={styles.metricCol}>
-            <Text style={styles.metricLabel}>Annual Fee</Text>
-            <Text style={styles.metricVal}>
-              {card.annual_fee_inr === 0 ? '₹0 (LTF)' : formatInr(card.annual_fee_inr)}
-            </Text>
-          </View>
+          {(() => {
+            const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+            return (
+              <View style={styles.metricCol}>
+                <Text style={styles.metricLabel}>{feeInfo.label}</Text>
+                <Text style={styles.metricVal} numberOfLines={1}>
+                  {feeInfo.primaryText}
+                </Text>
+              </View>
+            );
+          })()}
           {peakPct > 0 && (
             <View style={styles.metricCol}>
               <Text style={styles.metricLabel}>Peak Return</Text>

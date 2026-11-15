@@ -27,6 +27,7 @@ def main() -> None:
     banks_index_path = MASTER_DIR / "cards_by_bank_index.json"
     lounge_catalog_path = MASTER_DIR / "lounge_programs_catalog.json"
     lounge_master_path = MASTER_DIR / "lounge_access_master.json"
+    golf_clubs_path = MASTER_DIR / "golf_clubs_master.json"
     deval_tracker_path = MASTER_DIR / "devaluation_tracker.json"
     latest_offers_path = MASTER_DIR / "latest_offers.json"
 
@@ -36,6 +37,8 @@ def main() -> None:
     shutil.copy2(lounge_catalog_path, MOBILE_DATA_DIR / "lounge_catalog.json")
     if lounge_master_path.exists():
         shutil.copy2(lounge_master_path, MOBILE_DATA_DIR / "lounge_access_master.json")
+    if golf_clubs_path.exists():
+        shutil.copy2(golf_clubs_path, MOBILE_DATA_DIR / "golf_clubs_master.json")
     shutil.copy2(deval_tracker_path, MOBILE_DATA_DIR / "devaluation_tracker.json")
     if latest_offers_path.exists():
         shutil.copy2(latest_offers_path, MOBILE_DATA_DIR / "latest_offers.json")

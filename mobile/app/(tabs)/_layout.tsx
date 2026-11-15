@@ -2,12 +2,28 @@ import React from 'react';
 import { Link, Tabs } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { Calculator, Compass, Plane, Scale, Search, Wallet } from 'lucide-react-native';
+import { Calculator, Compass, Menu, Plane, Scale, Search, Wallet } from 'lucide-react-native';
 import { LedgerTheme } from '../../src/lib/theme';
 import { useCompare } from '../../src/components/CompareContext';
-import { BrandLogoMark } from '../../src/components/BrandLogo';
+import { useDrawer } from '../../src/components/DrawerContext';
+import { BrandWordmark } from '../../src/components/BrandLogo';
 import { ScalePressable } from '../../src/components/MotionPrimitives';
 import { AnimatedTabBar } from '../../src/components/AnimatedTabBar';
+
+function DrawerMenuButton() {
+  const { openDrawer } = useDrawer();
+  return (
+    <ScalePressable
+      onPress={openDrawer}
+      style={styles.drawerMenuBtn}
+      hitSlop={10}
+      accessibilityRole="button"
+      accessibilityLabel="Open navigation menu"
+    >
+      <Menu size={19} color={LedgerTheme.colors.inkPrimary} />
+    </ScalePressable>
+  );
+}
 
 function CompareHeaderButton() {
   const { items } = useCompare();
@@ -42,6 +58,7 @@ export default function TabLayout() {
           fontSize: 18,
           fontWeight: '700',
         },
+        headerLeft: () => <DrawerMenuButton />,
         headerRight: () => <CompareHeaderButton />,
       }}
     >
@@ -49,12 +66,7 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Discover',
-          headerTitle: () => (
-            <View style={styles.brandRow}>
-              <BrandLogoMark size={26} />
-              <Text style={styles.brandText}>CardLedger</Text>
-            </View>
-          ),
+          headerTitle: () => <BrandWordmark compact />,
           tabBarIcon: ({ color, size }) => <Compass size={size} color={color} />,
         }}
       />
@@ -91,6 +103,17 @@ export default function TabLayout() {
 }
 
 const styles = StyleSheet.create({
+  drawerMenuBtn: {
+    marginLeft: 14,
+    width: 36,
+    height: 36,
+    borderRadius: 10,
+    backgroundColor: LedgerTheme.colors.surface,
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.hairline,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   brandRow: {
     flexDirection: 'row',
     alignItems: 'center',

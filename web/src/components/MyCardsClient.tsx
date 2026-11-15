@@ -5,9 +5,13 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
 import {
   AlertTriangle,
+  ArrowDown,
   ArrowRight,
+  ArrowUp,
+  Calendar,
   Check,
   Flag,
+  Pencil,
   Plane,
   Plus,
   Search,
@@ -20,6 +24,7 @@ import type { CardSummaryItem, SpendCategoryKey } from "@/lib/types";
 import {
   SPEND_CATEGORY_KEYS,
   SPEND_CATEGORY_META,
+  formatFeeDisplay,
   formatInr,
   matchesTokenizedQuery,
 } from "@/lib/format";
@@ -109,7 +114,39 @@ function findBestMatch(cards: CardSummaryItem[], patterns: string[]): string | n
 }
 
 export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
-  const { ownedIds, toggleOwned, setOwnedIds, clearOwned } = useCompare();
+  const {
+    ownedIds,
+    walletMeta,
+    toggleOwned,
+    setOwnedIds,
+    moveOwnedCard,
+    updateWalletMeta,
+    clearOwned,
+  } = useCompare();
+
+  const [selectedCardModal, setSelectedCardModal] = useState<CardSummaryItem | null>(null);
+  const [renewalDraft, setRenewalDraft] = useState("");
+  const [last4Draft, setLast4Draft] = useState("");
+  const [nicknameDraft, setNicknameDraft] = useState("");
+
+  const openCardModal = (card: CardSummaryItem) => {
+    const m = walletMeta[card.card_id];
+    setSelectedCardModal(card);
+    setRenewalDraft(m?.renewalDate ?? "");
+    setLast4Draft(m?.last4Digits ?? "");
+    setNicknameDraft(m?.nickname ?? "");
+  };
+
+  const saveCardModalMeta = () => {
+    if (!selectedCardModal) return;
+    const cleanLast4 = last4Draft.replace(/\D/g, "").slice(0, 4);
+    updateWalletMeta(selectedCardModal.card_id, {
+      renewalDate: renewalDraft.trim() || undefined,
+      last4Digits: cleanLast4 || undefined,
+      nickname: nicknameDraft.trim() || undefined,
+    });
+    setSelectedCardModal(null);
+  };
 
   const enrichedCards = useMemo(
     () =>
@@ -326,34 +363,101 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
           )}
         </div>
 
-        {/* Owned Card Chips */}
+        {/* Owned Card Portfolio Deck with Reorder, Renewal Date & Check Airport & Golf */}
         {analysis.ownedCards.length > 0 ? (
-          <div className="flex flex-wrap gap-2 pt-1">
-            {analysis.ownedCards.map((c) => (
-              <div
-                key={c.card_id}
-                className="inline-flex items-center gap-2 bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg px-3 py-1.5 text-[13px]"
-              >
-                <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="xs" />
-                <Link
-                  href={`/${c.bank_slug}/${c.card_slug}`}
-                  className="font-medium text-[#1A1D21] hover:text-[#0F5C4D]"
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pt-1">
+            {analysis.ownedCards.map((c, idx) => {
+              const feeInfo = formatFeeDisplay(c.joining_fee_inr, c.annual_fee_inr);
+              const meta = walletMeta[c.card_id];
+              return (
+                <div
+                  key={c.card_id}
+                  className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl p-3.5 flex flex-col justify-between gap-2.5 hover:border-[#0F5C4D]/40 transition-colors"
                 >
-                  {c.card_name}
-                </Link>
-                <span className="text-[11.5px] text-[#717882] tabular-nums">
-                  ({c.annual_fee_inr === 0 ? "LTF" : formatInr(c.annual_fee_inr)})
-                </span>
-                <button
-                  type="button"
-                  onClick={() => toggleOwned(c.card_id)}
-                  aria-label={`Remove ${c.card_name} from wallet`}
-                  className="text-[#717882] hover:text-[#991B1B] ml-1 cursor-pointer"
-                >
-                  <X className="w-3.5 h-3.5" />
-                </button>
-              </div>
-            ))}
+                  <div className="flex items-start justify-between gap-2">
+                    <button
+                      type="button"
+                      onClick={() => openCardModal(c)}
+                      className="flex items-start gap-2.5 text-left min-w-0 flex-1 cursor-pointer group"
+                    >
+                      <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="sm" />
+                      <div className="min-w-0 flex-1">
+                        <div className="text-[11.5px] text-[#717882] flex items-center gap-1.5">
+                          <span>{c.bank}</span>
+                          {meta?.last4Digits && (
+                            <span className="font-mono text-[#0F5C4D] bg-[#EEF5F2] px-1.5 py-0.2 rounded">
+                              •••• {meta.last4Digits}
+                            </span>
+                          )}
+                          {meta?.nickname && (
+                            <span className="text-[#4B525C] truncate">· {meta.nickname}</span>
+                          )}
+                        </div>
+                        <div className="font-semibold text-[14px] text-[#1A1D21] group-hover:text-[#0F5C4D] truncate mt-0.5">
+                          {c.card_name}
+                        </div>
+                        <div className="text-[12px] text-[#0F5C4D] font-medium mt-0.5 tabular-nums">
+                          {feeInfo.primaryText}
+                        </div>
+                      </div>
+                    </button>
+
+                    <div className="flex items-center gap-1 shrink-0">
+                      <button
+                        type="button"
+                        disabled={idx === 0}
+                        onClick={() => moveOwnedCard(c.card_id, "up")}
+                        title="Move up"
+                        aria-label={`Move ${c.card_name} up`}
+                        className="p-1 rounded bg-white border border-[#E4E4DF] text-[#4B525C] hover:text-[#1A1D21] disabled:opacity-35 cursor-pointer disabled:cursor-default"
+                      >
+                        <ArrowUp className="w-3.5 h-3.5" />
+                      </button>
+                      <button
+                        type="button"
+                        disabled={idx === analysis.ownedCards.length - 1}
+                        onClick={() => moveOwnedCard(c.card_id, "down")}
+                        title="Move down"
+                        aria-label={`Move ${c.card_name} down`}
+                        className="p-1 rounded bg-white border border-[#E4E4DF] text-[#4B525C] hover:text-[#1A1D21] disabled:opacity-35 cursor-pointer disabled:cursor-default"
+                      >
+                        <ArrowDown className="w-3.5 h-3.5" />
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => toggleOwned(c.card_id)}
+                        aria-label={`Remove ${c.card_name} from wallet`}
+                        className="p-1 text-[#717882] hover:text-[#991B1B] cursor-pointer"
+                      >
+                        <X className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-[#E4E4DF] text-[12px]">
+                    <button
+                      type="button"
+                      onClick={() => openCardModal(c)}
+                      className="inline-flex items-center gap-1 text-[#4B525C] hover:text-[#0F5C4D] cursor-pointer"
+                    >
+                      <Calendar className="w-3.5 h-3.5 text-[#0F5C4D]" />
+                      <span>
+                        {meta?.renewalDate ? `Renews ${meta.renewalDate}` : "Set renewal date"}
+                      </span>
+                      <Pencil className="w-3 h-3 opacity-70" />
+                    </button>
+
+                    <Link
+                      href={`/lounges?card=${encodeURIComponent(c.card_id)}`}
+                      className="inline-flex items-center gap-1 font-medium text-[#0F5C4D] hover:underline"
+                    >
+                      <Plane className="w-3.5 h-3.5" />
+                      <span>Check Airport &amp; Golf</span>
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         ) : (
           <div className="bg-[#FAF9F6] border border-dashed border-[#D3D3CC] rounded-xl p-5 text-center space-y-2">
@@ -891,6 +995,153 @@ export function MyCardsClient({ cards, waiverMap }: MyCardsClientProps) {
                 )}
               </section>
             </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Personal Saved Card Details Modal (Fees, Renewal Date, Check Airport & Golf) */}
+      <AnimatePresence>
+        {selectedCardModal && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 bg-black/45 flex items-center justify-center p-4"
+            onClick={() => setSelectedCardModal(null)}
+          >
+            <motion.div
+              initial={{ opacity: 0, scale: 0.97, y: 8 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.97, y: 8 }}
+              onClick={(e) => e.stopPropagation()}
+              className="w-full max-w-md bg-white border border-[#E4E4DF] rounded-2xl p-5 sm:p-6 shadow-xl space-y-4"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex items-center gap-2.5 min-w-0">
+                  <BankLogo bankSlug={selectedCardModal.bank_slug} bank={selectedCardModal.bank} size="md" />
+                  <div className="min-w-0">
+                    <h3 className="text-[17px] font-semibold text-[#1A1D21] truncate">
+                      {selectedCardModal.card_name}
+                    </h3>
+                    <p className="text-[12.5px] text-[#717882]">
+                      {selectedCardModal.bank} · {selectedCardModal.card_network}
+                    </p>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setSelectedCardModal(null)}
+                  className="text-[#717882] hover:text-[#1A1D21] p-1 cursor-pointer"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+
+              {(() => {
+                const feeInfo = formatFeeDisplay(
+                  selectedCardModal.joining_fee_inr,
+                  selectedCardModal.annual_fee_inr
+                );
+                return (
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-[12.5px]">
+                    <div className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl p-3">
+                      <span className="text-[#717882] block text-[11px]">
+                        {feeInfo.isSplit ? "Joining Fee" : "Joining / Card Fee"}
+                      </span>
+                      <span className="font-semibold text-[#1A1D21] tabular-nums">
+                        {feeInfo.joiningText}
+                      </span>
+                    </div>
+                    {feeInfo.isSplit && (
+                      <div className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl p-3">
+                        <span className="text-[#717882] block text-[11px]">Annual Renewal Fee</span>
+                        <span className="font-semibold text-[#1A1D21] tabular-nums">
+                          {feeInfo.annualText}
+                        </span>
+                      </div>
+                    )}
+                    <div className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-xl p-3">
+                      <span className="text-[#717882] block text-[11px]">Indian Lounges</span>
+                      <span className="font-semibold text-[#0F5C4D] tabular-nums">
+                        {selectedCardModal.domestic_lounge_accessible_count ??
+                          selectedCardModal.accessible_lounge_codes?.length ??
+                          0}{" "}
+                        verified
+                      </span>
+                    </div>
+                  </div>
+                );
+              })()}
+
+              <div className="space-y-3 text-[13px]">
+                <div>
+                  <label className="block text-[12px] font-medium text-[#4B525C] mb-1">
+                    Date of Renewal
+                  </label>
+                  <input
+                    type="text"
+                    value={renewalDraft}
+                    onChange={(e) => setRenewalDraft(e.target.value)}
+                    placeholder="e.g. 15 Nov 2026"
+                    className="w-full px-3 py-2 bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-3">
+                  <div>
+                    <label className="block text-[12px] font-medium text-[#4B525C] mb-1">
+                      Last 4 Digits
+                    </label>
+                    <input
+                      type="text"
+                      value={last4Draft}
+                      onChange={(e) => setLast4Draft(e.target.value.replace(/\D/g, "").slice(0, 4))}
+                      placeholder="4821"
+                      maxLength={4}
+                      className="w-full px-3 py-2 bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[12px] font-medium text-[#4B525C] mb-1">
+                      Nickname / Label
+                    </label>
+                    <input
+                      type="text"
+                      value={nicknameDraft}
+                      onChange={(e) => setNicknameDraft(e.target.value)}
+                      placeholder="Personal / Add-on"
+                      className="w-full px-3 py-2 bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-2 pt-1">
+                <Link
+                  href={`/lounges?card=${encodeURIComponent(selectedCardModal.card_id)}`}
+                  onClick={() => saveCardModalMeta()}
+                  className="w-full inline-flex items-center justify-center gap-2 bg-[#1A1D21] hover:bg-[#2B3038] text-white text-[13px] font-medium px-4 py-2.5 rounded-xl transition-colors"
+                >
+                  <Plane className="w-4 h-4" />
+                  Check Airport &amp; Golf for This Card Only
+                </Link>
+                <div className="flex items-center gap-2">
+                  <Link
+                    href={`/${selectedCardModal.bank_slug}/${selectedCardModal.card_slug}`}
+                    onClick={() => saveCardModalMeta()}
+                    className="flex-1 text-center border border-[#E4E4DF] hover:border-[#0F5C4D] text-[#1A1D21] text-[13px] font-medium px-3 py-2 rounded-xl transition-colors"
+                  >
+                    Full Card Dossier →
+                  </Link>
+                  <button
+                    type="button"
+                    onClick={saveCardModalMeta}
+                    className="flex-1 bg-[#0F5C4D] hover:bg-[#0B463B] text-white text-[13px] font-medium px-3 py-2 rounded-xl transition-colors cursor-pointer"
+                  >
+                    Save Details
+                  </button>
+                </div>
+              </div>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>

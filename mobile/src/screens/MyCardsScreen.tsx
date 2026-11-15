@@ -11,7 +11,10 @@ import {
 import { useRouter } from 'expo-router';
 import {
   AlertTriangle,
+  ArrowDown,
   ArrowRight,
+  ArrowUp,
+  Calendar,
   Check,
   ChevronDown,
   ChevronUp,
@@ -32,6 +35,7 @@ import {
 } from 'lucide-react-native';
 import { ALL_CARDS, CALC_META } from '../lib/data';
 import {
+  formatFeeDisplay,
   formatInr,
   matchesTokenizedQuery,
   SPEND_CATEGORY_KEYS,
@@ -230,6 +234,7 @@ export function MyCardsScreenView() {
     walletMeta,
     toggleOwned,
     setOwnedIds,
+    moveOwnedCard,
     updateWalletMeta,
     incrementUsage,
     resetUsageCycle,
@@ -255,6 +260,10 @@ export function MyCardsScreenView() {
   const [cardSearch, setCardSearch] = useState('');
   const [editingLast4Card, setEditingLast4Card] = useState<CardSummaryItem | null>(null);
   const [last4Draft, setLast4Draft] = useState('');
+  const [selectedWalletCard, setSelectedWalletCard] = useState<CardSummaryItem | null>(null);
+  const [renewalDraft, setRenewalDraft] = useState('');
+  const [detailLast4Draft, setDetailLast4Draft] = useState('');
+  const [nicknameDraft, setNicknameDraft] = useState('');
   const [showOptimizer, setShowOptimizer] = useState(false);
 
   const [spendPresetId, setSpendPresetId] = useState<string>('urban');
@@ -404,6 +413,25 @@ export function MyCardsScreenView() {
   const openAddOrEditLast4 = (card: CardSummaryItem) => {
     setEditingLast4Card(card);
     setLast4Draft(walletMeta[card.card_id]?.last4Digits ?? '');
+  };
+
+  const openWalletCardDetails = (card: CardSummaryItem) => {
+    const m = walletMeta[card.card_id];
+    setSelectedWalletCard(card);
+    setRenewalDraft(m?.renewalDate ?? '');
+    setDetailLast4Draft(m?.last4Digits ?? '');
+    setNicknameDraft(m?.nickname ?? '');
+  };
+
+  const saveWalletCardDetails = () => {
+    if (!selectedWalletCard) return;
+    const cleanLast4 = detailLast4Draft.replace(/\D/g, '').slice(0, 4);
+    updateWalletMeta(selectedWalletCard.card_id, {
+      last4Digits: cleanLast4 || undefined,
+      renewalDate: renewalDraft.trim() || undefined,
+      nickname: nicknameDraft.trim() || undefined,
+    });
+    setSelectedWalletCard(null);
   };
 
   const confirmLast4Modal = () => {
@@ -719,12 +747,14 @@ export function MyCardsScreenView() {
               </ScalePressable>
             </View>
 
-            {walletPerkSummary.perCard.map(({ card, quota, meta }, idx) => (
+            {walletPerkSummary.perCard.map(({ card, quota, meta }, idx) => {
+              const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+              return (
               <CalmEntranceView key={card.card_id} delayMs={idx * 40} style={styles.walletCard}>
                 {/* Card Identity Header */}
                 <View style={styles.walletHeaderRow}>
                   <ScalePressable
-                    onPress={() => router.push(`/card/${card.bank_slug}/${card.card_slug}`)}
+                    onPress={() => openWalletCardDetails(card)}
                     style={styles.walletIdentityTouch}
                   >
                     <CardArtwork
@@ -739,20 +769,34 @@ export function MyCardsScreenView() {
                         <BankLogo bankSlug={card.bank_slug} bank={card.bank} size="xs" />
                         <Text style={styles.walletBankLabel} numberOfLines={1}>
                           {card.bank}
+                          {meta.nickname ? ` · ${meta.nickname}` : ''}
                         </Text>
                       </View>
                       <Text style={styles.walletCardTitle} numberOfLines={2}>
                         {card.card_name}
                       </Text>
+                      <Text style={styles.walletFeeMeta} numberOfLines={1}>
+                        {feeInfo.primaryText}
+                      </Text>
                       <View style={styles.tagRow}>
                         <ScalePressable
-                          onPress={() => openAddOrEditLast4(card)}
+                          onPress={() => openWalletCardDetails(card)}
                           style={styles.last4Badge}
                         >
                           <Text style={styles.last4Text}>
-                            {meta.last4Digits ? `•••• ${meta.last4Digits}` : '+ Last 4 digits'}
+                            {meta.last4Digits ? `•••• ${meta.last4Digits}` : '+ Last 4'}
                           </Text>
                           <Pencil size={10} color={LedgerTheme.colors.accent} />
+                        </ScalePressable>
+
+                        <ScalePressable
+                          onPress={() => openWalletCardDetails(card)}
+                          style={styles.renewalBadge}
+                        >
+                          <Calendar size={10} color={LedgerTheme.colors.inkSecondary} />
+                          <Text style={styles.renewalBadgeText}>
+                            {meta.renewalDate ? `Renews ${meta.renewalDate}` : '+ Renewal Date'}
+                          </Text>
                         </ScalePressable>
 
                         {quota.domesticEligible && (
@@ -780,16 +824,45 @@ export function MyCardsScreenView() {
                     </View>
                   </ScalePressable>
 
-                  <ScalePressable
-                    onPress={() => {
-                      triggerCalmLayoutTransition();
-                      toggleOwned(card.card_id);
-                    }}
-                    hitSlop={8}
-                    style={styles.removeCardBtn}
-                  >
-                    <X size={16} color={LedgerTheme.colors.inkMuted} />
-                  </ScalePressable>
+                  <View style={styles.cardActionColumn}>
+                    <View style={styles.reorderGroup}>
+                      <ScalePressable
+                        disabled={idx === 0}
+                        onPress={() => {
+                          triggerCalmLayoutTransition();
+                          moveOwnedCard(card.card_id, 'up');
+                        }}
+                        hitSlop={4}
+                        style={[styles.reorderBtn, idx === 0 && styles.reorderBtnDisabled]}
+                      >
+                        <ArrowUp size={13} color={LedgerTheme.colors.inkPrimary} />
+                      </ScalePressable>
+                      <ScalePressable
+                        disabled={idx === walletPerkSummary.perCard.length - 1}
+                        onPress={() => {
+                          triggerCalmLayoutTransition();
+                          moveOwnedCard(card.card_id, 'down');
+                        }}
+                        hitSlop={4}
+                        style={[
+                          styles.reorderBtn,
+                          idx === walletPerkSummary.perCard.length - 1 && styles.reorderBtnDisabled,
+                        ]}
+                      >
+                        <ArrowDown size={13} color={LedgerTheme.colors.inkPrimary} />
+                      </ScalePressable>
+                    </View>
+                    <ScalePressable
+                      onPress={() => {
+                        triggerCalmLayoutTransition();
+                        toggleOwned(card.card_id);
+                      }}
+                      hitSlop={8}
+                      style={styles.removeCardBtn}
+                    >
+                      <X size={16} color={LedgerTheme.colors.inkMuted} />
+                    </ScalePressable>
+                  </View>
                 </View>
 
                 {quota.spendConditionText && !quota.noSpendDomestic && (
@@ -858,16 +931,16 @@ export function MyCardsScreenView() {
 
                 <View style={styles.cardFooterRow}>
                   <ScalePressable
-                    onPress={() => router.push(`/card/${card.bank_slug}/${card.card_slug}`)}
+                    onPress={() => openWalletCardDetails(card)}
                     style={styles.cardDetailLink}
                   >
-                    <Text style={styles.cardDetailLinkText}>Full Card Dossier</Text>
-                    <ArrowRight size={13} color={LedgerTheme.colors.accent} />
+                    <Text style={styles.cardDetailLinkText}>Fee &amp; Renewal</Text>
+                    <Pencil size={12} color={LedgerTheme.colors.accent} />
                   </ScalePressable>
 
                   <ScalePressable
                     onPress={() =>
-                      router.push('/(tabs)/lounges?subTab=spots' as never)
+                      router.push(`/(tabs)/lounges?card=${encodeURIComponent(card.card_id)}` as never)
                     }
                     style={styles.cardDetailLink}
                   >
@@ -876,7 +949,8 @@ export function MyCardsScreenView() {
                   </ScalePressable>
                 </View>
               </CalmEntranceView>
-            ))}
+              );
+            })}
 
             {/* Collapsible Spend & Reward Optimizer */}
             <View style={styles.panel}>
@@ -993,6 +1067,151 @@ export function MyCardsScreenView() {
           </View>
         )}
       </ScrollView>
+
+      {/* Saved Card Personal Details Modal (Annual Fee, Date of Renewal, Check Airport & Golf) */}
+      <Modal
+        visible={Boolean(selectedWalletCard)}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setSelectedWalletCard(null)}
+      >
+        <Pressable
+          style={styles.modalBackdrop}
+          onPress={() => setSelectedWalletCard(null)}
+        >
+          <Pressable style={styles.modalSheet} onPress={(e) => e.stopPropagation()}>
+            {selectedWalletCard && (() => {
+              const feeInfo = formatFeeDisplay(
+                selectedWalletCard.joining_fee_inr,
+                selectedWalletCard.annual_fee_inr
+              );
+              return (
+                <>
+                  <View style={styles.rowBetween}>
+                    <Text style={styles.modalTitle}>Card Details &amp; Renewal</Text>
+                    <ScalePressable onPress={() => setSelectedWalletCard(null)} hitSlop={8}>
+                      <X size={18} color={LedgerTheme.colors.inkMuted} />
+                    </ScalePressable>
+                  </View>
+
+                  <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                    <CardArtwork
+                      localImagePath={selectedWalletCard.local_image_path}
+                      bank={selectedWalletCard.bank}
+                      cardName={selectedWalletCard.card_name}
+                      network={selectedWalletCard.card_network}
+                      size="sm"
+                    />
+                    <View style={{ flex: 1, gap: 2 }}>
+                      <Text style={styles.modalSub}>{selectedWalletCard.card_name}</Text>
+                      <Text style={styles.modalHint}>
+                        {selectedWalletCard.bank} · {selectedWalletCard.card_network}
+                      </Text>
+                    </View>
+                  </View>
+
+                  <View style={styles.detailStatsRow}>
+                    <View style={styles.detailStatBox}>
+                      <Text style={styles.detailStatLabel}>
+                        {feeInfo.isSplit ? 'Joining Fee' : 'Joining / Card Fee'}
+                      </Text>
+                      <Text style={styles.detailStatVal}>{feeInfo.joiningText}</Text>
+                    </View>
+                    {feeInfo.isSplit && (
+                      <View style={styles.detailStatBox}>
+                        <Text style={styles.detailStatLabel}>Annual Renewal Fee</Text>
+                        <Text style={styles.detailStatVal}>{feeInfo.annualText}</Text>
+                      </View>
+                    )}
+                    <View style={styles.detailStatBox}>
+                      <Text style={styles.detailStatLabel}>Indian Lounges</Text>
+                      <Text style={styles.detailStatVal}>
+                        {selectedWalletCard.domestic_lounge_accessible_count ??
+                          selectedWalletCard.accessible_lounge_codes?.length ??
+                          0}{' '}
+                        verified
+                      </Text>
+                    </View>
+                  </View>
+
+                  <View style={{ gap: 8 }}>
+                    <Text style={styles.inputFieldLabel}>Date of Renewal (e.g. 15 Nov 2026)</Text>
+                    <TextInput
+                      value={renewalDraft}
+                      onChangeText={setRenewalDraft}
+                      placeholder="DD MMM YYYY (e.g. 15 Nov 2026)"
+                      placeholderTextColor={LedgerTheme.colors.inkMuted}
+                      style={styles.detailInput}
+                    />
+                    <View style={{ flexDirection: 'row', gap: 10 }}>
+                      <View style={{ flex: 1, gap: 4 }}>
+                        <Text style={styles.inputFieldLabel}>Last 4 Digits</Text>
+                        <TextInput
+                          value={detailLast4Draft}
+                          onChangeText={(txt) =>
+                            setDetailLast4Draft(txt.replace(/\D/g, '').slice(0, 4))
+                          }
+                          placeholder="4821"
+                          placeholderTextColor={LedgerTheme.colors.inkMuted}
+                          keyboardType="number-pad"
+                          maxLength={4}
+                          style={styles.detailInput}
+                        />
+                      </View>
+                      <View style={{ flex: 1.5, gap: 4 }}>
+                        <Text style={styles.inputFieldLabel}>Card Nickname</Text>
+                        <TextInput
+                          value={nicknameDraft}
+                          onChangeText={setNicknameDraft}
+                          placeholder="Personal / Add-on"
+                          placeholderTextColor={LedgerTheme.colors.inkMuted}
+                          style={styles.detailInput}
+                        />
+                      </View>
+                    </View>
+                  </View>
+
+                  <View style={{ gap: 8, marginTop: 2 }}>
+                    <ScalePressable
+                      onPress={() => {
+                        const targetId = selectedWalletCard.card_id;
+                        saveWalletCardDetails();
+                        router.push(
+                          `/(tabs)/lounges?card=${encodeURIComponent(targetId)}` as never
+                        );
+                      }}
+                      style={styles.modalPrimaryActionBtn}
+                    >
+                      <Plane size={15} color="#FFFFFF" />
+                      <Text style={styles.modalSaveText}>Check Airport &amp; Golf for This Card</Text>
+                    </ScalePressable>
+
+                    <View style={styles.modalActions}>
+                      <ScalePressable
+                        onPress={() => {
+                          const bSlug = selectedWalletCard.bank_slug;
+                          const cSlug = selectedWalletCard.card_slug;
+                          saveWalletCardDetails();
+                          router.push(`/card/${bSlug}/${cSlug}`);
+                        }}
+                        style={styles.modalCancelBtn}
+                      >
+                        <Text style={styles.modalCancelText}>Full Card Dossier →</Text>
+                      </ScalePressable>
+                      <ScalePressable
+                        onPress={saveWalletCardDetails}
+                        style={styles.modalSaveBtn}
+                      >
+                        <Text style={styles.modalSaveText}>Save Details</Text>
+                      </ScalePressable>
+                    </View>
+                  </View>
+                </>
+              );
+            })()}
+          </Pressable>
+        </Pressable>
+      </Modal>
 
       {/* Optional Last 4 Digits Modal */}
       <Modal
@@ -1312,11 +1531,54 @@ const styles = StyleSheet.create({
     color: LedgerTheme.colors.inkPrimary,
     lineHeight: 22,
   },
+  walletFeeMeta: {
+    fontSize: 11.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.accent,
+  },
   tagRow: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     gap: 6,
     marginTop: 2,
+  },
+  renewalBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    backgroundColor: LedgerTheme.colors.canvas,
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.hairline,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 7,
+  },
+  renewalBadgeText: {
+    fontSize: 11.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.inkSecondary,
+  },
+  cardActionColumn: {
+    alignItems: 'flex-end',
+    gap: 6,
+  },
+  reorderGroup: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+  },
+  reorderBtn: {
+    width: 26,
+    height: 26,
+    borderRadius: 7,
+    backgroundColor: LedgerTheme.colors.canvas,
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.hairline,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  reorderBtnDisabled: {
+    opacity: 0.35,
   },
   last4Badge: {
     flexDirection: 'row',
@@ -1590,6 +1852,58 @@ const styles = StyleSheet.create({
     letterSpacing: 4,
     color: LedgerTheme.colors.inkPrimary,
     textAlign: 'center',
+  },
+  detailStatsRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  detailStatBox: {
+    flex: 1,
+    minWidth: 95,
+    backgroundColor: LedgerTheme.colors.canvas,
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.hairline,
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    gap: 2,
+  },
+  detailStatLabel: {
+    fontSize: 10.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.inkMuted,
+  },
+  detailStatVal: {
+    fontSize: 13.5,
+    fontWeight: '700',
+    color: LedgerTheme.colors.inkPrimary,
+    fontVariant: ['tabular-nums'],
+  },
+  inputFieldLabel: {
+    fontSize: 11.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.inkSecondary,
+  },
+  detailInput: {
+    borderWidth: 1,
+    borderColor: LedgerTheme.colors.hairlineStrong,
+    backgroundColor: LedgerTheme.colors.canvas,
+    borderRadius: 10,
+    paddingHorizontal: 12,
+    paddingVertical: 9,
+    fontSize: 13.5,
+    fontWeight: '600',
+    color: LedgerTheme.colors.inkPrimary,
+  },
+  modalPrimaryActionBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: '#1A1D21',
+    borderRadius: 11,
+    paddingVertical: 11,
   },
   modalActions: {
     flexDirection: 'row',

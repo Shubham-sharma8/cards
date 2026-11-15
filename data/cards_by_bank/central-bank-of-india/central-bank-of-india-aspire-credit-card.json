@@ -174,7 +174,11 @@
     "applicable_lounge_links": [],
     "participating_lounges_matched": [],
     "participating_lounges_count": 0,
-    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access."
+    "no_lounge_note": "This card does not provide complimentary domestic airport, international airport, or railway lounge access.",
+    "domestic_lounge_accessible_count": 0,
+    "international_lounge_accessible_count": 0,
+    "accessible_lounge_codes": [],
+    "accessible_golf_slugs": []
   },
   "fees_and_charges_detailed": {
     "joining_fee_inr": 0,

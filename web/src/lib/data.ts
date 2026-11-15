@@ -145,13 +145,28 @@ export async function getLoungeAccessMasterAsync(): Promise<LoungeAccessMasterPa
 
 export function getGolfClubsMaster(): GolfClubsMasterPayload {
   if (!cachedGolfClubsMaster) {
-    try {
-      cachedGolfClubsMaster = readJsonFile<GolfClubsMasterPayload>("master/golf_clubs_master.json");
-    } catch {
-      cachedGolfClubsMaster = { generated_at: "", clubs_count: 0, clubs: [] };
+    if (hasLocalDataFs()) {
+      try {
+        cachedGolfClubsMaster = readJsonFile<GolfClubsMasterPayload>("master/golf_clubs_master.json");
+      } catch {
+        cachedGolfClubsMaster = { generated_at: "", clubs_count: 0, clubs: [] };
+      }
+    } else {
+      return { generated_at: "", clubs_count: 0, clubs: [] };
     }
   }
   return cachedGolfClubsMaster;
+}
+
+export async function getGolfClubsMasterAsync(): Promise<GolfClubsMasterPayload> {
+  if (hasLocalDataFs()) return getGolfClubsMaster();
+  if (cachedGolfClubsMaster) return cachedGolfClubsMaster;
+  const remote = await fetchR2Json<GolfClubsMasterPayload>("meta/golf_clubs_master.json");
+  if (remote) {
+    cachedGolfClubsMaster = remote;
+    return remote;
+  }
+  return { generated_at: "", clubs_count: 0, clubs: [] };
 }
 
 export function getDevaluationTracker(): DevaluationTrackerPayload {

@@ -35,7 +35,7 @@ import { BankLogo } from "./BankLogo";
 import { CardArtwork } from "./CardArtwork";
 import { LedgerCardItem } from "./LedgerCardItem";
 import { resolveMediaUrl } from "@/lib/mediaCdn";
-import { formatInr, matchesTokenizedQuery } from "@/lib/format";
+import { formatFeeDisplay, formatInr, matchesTokenizedQuery } from "@/lib/format";
 import {
   CARD_TRANSFER_SPECS,
   CONVERSION_STRATEGIES,
@@ -655,7 +655,10 @@ export function HomeClient({
                                 {card.card_name}
                               </p>
                               <p className="text-[11.5px] text-[#717882] truncate">
-                                {card.bank} · {card.annual_fee_inr === 0 ? "LTF" : `${formatInr(card.annual_fee_inr)}/yr`}
+                                {(() => {
+                                  const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+                                  return `${card.bank} · ${feeInfo.isSplit ? `Join ${feeInfo.joiningText} / Yr ${feeInfo.annualText}` : feeInfo.primaryText}`;
+                                })()}
                                 {minInc ? ` · ₹${Math.round(minInc / 1000)}k+/mo` : ""}
                               </p>
                             </div>
@@ -880,10 +883,15 @@ export function HomeClient({
                           {card.card_name}
                         </p>
                         <div className="flex items-center justify-between text-[11.5px] tabular-nums">
-                          <span className="text-[#4B525C]">
-                            {card.annual_fee_inr === 0 ? "LTF (₹0)" : formatInr(card.annual_fee_inr)}
+                          <span className="text-[#4B525C] truncate pr-2">
+                            {(() => {
+                              const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+                              return feeInfo.isSplit
+                                ? `Join ${feeInfo.joiningText} · Yr ${feeInfo.annualText}`
+                                : feeInfo.primaryText;
+                            })()}
                           </span>
-                          <span className="font-medium" style={{ color: accentHex }}>
+                          <span className="font-medium shrink-0" style={{ color: accentHex }}>
                             {peakPct > 0 ? `Up to ${peakPct.toFixed(1)}%` : `${card.card_network}`}
                           </span>
                           </div>
@@ -948,10 +956,15 @@ export function HomeClient({
                         {card.card_name}
                       </p>
                       <div className="flex items-center justify-between text-[11.5px] tabular-nums">
-                        <span className="text-[#4B525C]">
-                          {card.annual_fee_inr === 0 ? "LTF (₹0)" : formatInr(card.annual_fee_inr)}
+                        <span className="text-[#4B525C] truncate pr-2">
+                          {(() => {
+                            const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+                            return feeInfo.isSplit
+                              ? `Join ${feeInfo.joiningText} · Yr ${feeInfo.annualText}`
+                              : feeInfo.primaryText;
+                          })()}
                         </span>
-                        <span className="font-medium" style={{ color: accentHex }}>
+                        <span className="font-medium shrink-0" style={{ color: accentHex }}>
                           {peakPct > 0 ? `Up to ${peakPct.toFixed(1)}%` : card.card_network}
                         </span>
                       </div>
@@ -987,7 +1000,10 @@ export function HomeClient({
                   bank={sc.bank}
                   network={sc.card_network}
                   tier={sc.card_tier}
-                  annualFeeLabel={sc.annual_fee_inr === 0 ? "Lifetime Free (₹0)" : formatInr(sc.annual_fee_inr)}
+                  annualFeeLabel={(() => {
+                    const f = formatFeeDisplay(sc.joining_fee_inr, sc.annual_fee_inr);
+                    return f.isSplit ? `${f.joiningText} join · ${f.annualText}/yr` : f.primaryText;
+                  })()}
                   loungeLabel={sc.domestic_lounge_summary || "See lounge rules"}
                   rewardHighlight={peakStudioPct > 0 ? `Up to ${peakStudioPct.toFixed(1)}% real return` : sc.primary_category}
                   cardTheme={sc.card_theme}

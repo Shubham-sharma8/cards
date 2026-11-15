@@ -14,6 +14,7 @@ export interface CompareItem {
 export interface WalletCardMeta {
   last4Digits?: string;
   nickname?: string;
+  renewalDate?: string;
   usedDomesticLounge: number;
   usedInternationalLounge: number;
   usedGolfGames: number;
@@ -84,6 +85,7 @@ interface CompareContextValue {
   clearSaved: () => void;
   toggleOwned: (cardId: string, last4Digits?: string) => void;
   setOwnedIds: (ids: string[]) => void;
+  moveOwnedCard: (cardId: string, direction: 'up' | 'down') => void;
   isOwned: (cardId: string) => boolean;
   clearOwned: () => void;
   updateWalletMeta: (cardId: string, patch: Partial<WalletCardMeta>) => void;
@@ -179,6 +181,19 @@ export function CompareProvider({ children }: { children: React.ReactNode }) {
     writePersisted(OWNED_KEY, next);
     setOwnedIdsState(next);
   };
+  const moveOwnedCard = (cardId: string, direction: 'up' | 'down') => {
+    setOwnedIdsState((prev) => {
+      const idx = prev.indexOf(cardId);
+      if (idx === -1) return prev;
+      const target = direction === 'up' ? idx - 1 : idx + 1;
+      if (target < 0 || target >= prev.length) return prev;
+      const copy = [...prev];
+      const [item] = copy.splice(idx, 1);
+      copy.splice(target, 0, item);
+      writePersisted(OWNED_KEY, copy);
+      return copy;
+    });
+  };
   const isOwned = (cardId: string) => ownedIds.includes(cardId);
   const clearOwned = () => {
     writePersisted(OWNED_KEY, []);
@@ -246,6 +261,7 @@ export function CompareProvider({ children }: { children: React.ReactNode }) {
         clearSaved,
         toggleOwned,
         setOwnedIds,
+        moveOwnedCard,
         isOwned,
         clearOwned,
         updateWalletMeta,

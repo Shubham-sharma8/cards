@@ -149,13 +149,13 @@ export function AnimatedTabBar({
       >
         {tabWidth > 0 && (
           <Animated.View
-            pointerEvents="none"
             style={[
               styles.activePill,
               {
                 width: Math.max(46, tabWidth - 6),
                 left: horizontalPad + 3,
                 top: 7,
+                pointerEvents: 'none',
               },
               indicatorStyle,
             ]}

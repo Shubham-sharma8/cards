@@ -15,12 +15,10 @@ import {
   MapPin,
   Phone,
   Plane,
-  Plus,
   QrCode,
   Search,
   Star,
   Train,
-  Wallet,
   X,
   XCircle,
 } from "lucide-react";
@@ -30,7 +28,7 @@ import type {
   LoungeAccessMasterPayload,
   LoungeCatalogPayload,
 } from "@/lib/types";
-import { formatLoungeSourceType, matchesTokenizedQuery } from "@/lib/format";
+import { formatLoungeSourceType } from "@/lib/format";
 import { resolveMediaUrl } from "@/lib/mediaCdn";
 import { SearchParamsSync } from "./SearchParamsSync";
 import {
@@ -53,22 +51,9 @@ interface LoungesClientProps {
   noSpendLoungeCards: CardSummaryItem[];
 }
 
-type ViewMode = "my_cards" | "programs" | "spots" | "cards" | "golf";
+type ViewMode = "my_cards" | "matrix" | "golf" | "programs" | "spots" | "cards";
 
 const POPULAR_AIRPORT_CODES = new Set(["DEL", "BOM", "BLR", "HYD", "MAA", "CCU", "AMD", "GOI", "GOX", "COK", "PNQ", "ATQ"]);
-
-function findCardIdByPattern(cards: CardSummaryItem[], patterns: string[]): string | null {
-  for (const pat of patterns) {
-    const q = pat.toLowerCase();
-    const match = cards.find(
-      (c) =>
-        c.card_name.toLowerCase().includes(q) ||
-        c.card_id.toLowerCase().includes(q)
-    );
-    if (match) return match.card_id;
-  }
-  return null;
-}
 
 export function LoungesClient({
   catalog,
@@ -77,7 +62,7 @@ export function LoungesClient({
   allCards,
   noSpendLoungeCards,
 }: LoungesClientProps) {
-  const { ownedIds, toggleOwned, setOwnedIds, clearOwned } = useCompare();
+  const { ownedIds } = useCompare();
 
   const airportDirectory = useMemo(
     () => getAirportDirectory(loungeMaster),
@@ -86,11 +71,18 @@ export function LoungesClient({
 
   const [viewMode, setViewMode] = useState<ViewMode>("my_cards");
   const [selectedAirport, setSelectedAirport] = useState<string>("DEL");
+  const [focusedCardId, setFocusedCardId] = useState<string | null>(null);
 
   const syncFromParams = useCallback(
     (sp: URLSearchParams) => {
       const apParam = sp.get("airport")?.trim().toUpperCase() || "";
       const vParam = sp.get("view")?.trim() || "";
+      const cardParam = sp.get("card")?.trim() || "";
+      if (cardParam) {
+        setFocusedCardId(cardParam);
+      } else {
+        setFocusedCardId(null);
+      }
       const hasAp = airportDirectory.some((a) => a.airportCode === apParam);
       if (hasAp) {
         setSelectedAirport(apParam);
@@ -100,6 +92,7 @@ export function LoungesClient({
         vParam === "spots" ||
         vParam === "cards" ||
         vParam === "my_cards" ||
+        vParam === "matrix" ||
         vParam === "golf"
       ) {
         setViewMode(vParam);
@@ -108,7 +101,6 @@ export function LoungesClient({
     [airportDirectory]
   );
   const [terminalFilter, setTerminalFilter] = useState<"all" | "domestic" | "international">("all");
-  const [walletSearch, setWalletSearch] = useState("");
   const [airportQuery, setAirportQuery] = useState("");
   const [airportFilterMode, setAirportFilterMode] = useState<"popular" | "all" | "intl">("popular");
   const [query, setQuery] = useState("");
@@ -131,43 +123,44 @@ export function LoungesClient({
     [ownedIds, cardById]
   );
 
-  const quickPresets = useMemo(() => {
-    const regaliaId = findCardIdByPattern(allCards, ["regalia gold"]);
-    const airtelId = findCardIdByPattern(allCards, ["airtel axis"]);
-    const hsbcLiveId = findCardIdByPattern(allCards, ["hsbc live+"]);
-    const scapiaId = findCardIdByPattern(allCards, ["scapia", "ixigo"]);
-    const amazonId = findCardIdByPattern(allCards, ["amazon pay icici"]);
+  const focusedCard = useMemo(
+    () => (focusedCardId ? cardById.get(focusedCardId) ?? null : null),
+    [focusedCardId, cardById]
+  );
 
-    const items = [
-      regaliaId ? { label: "+ HDFC Regalia Gold", id: regaliaId } : null,
-      airtelId ? { label: "+ Airtel Axis", id: airtelId } : null,
-      hsbcLiveId ? { label: "+ HSBC Live+", id: hsbcLiveId } : null,
-      scapiaId ? { label: "+ Scapia / Zero Forex", id: scapiaId } : null,
-      amazonId ? { label: "+ Amazon Pay ICICI", id: amazonId } : null,
-    ].filter((x): x is { label: string; id: string } => Boolean(x));
-
-    const trio = [regaliaId, airtelId, hsbcLiveId].filter((x): x is string =>
-      Boolean(x)
-    );
-    return { items, trio };
-  }, [allCards]);
-
-  const walletSearchMatches = useMemo(() => {
-    if (!walletSearch.trim()) return [];
-    return allCards
-      .filter((c) =>
-        matchesTokenizedQuery(
-          `${c.bank} ${c.card_name} ${c.card_network}`,
-          walletSearch
-        )
-      )
-      .slice(0, 7);
-  }, [allCards, walletSearch]);
+  const activeEvalCards = useMemo(
+    () => (focusedCard ? [focusedCard] : ownedCards),
+    [focusedCard, ownedCards]
+  );
 
   const airportReport = useMemo(
-    () => evaluateAirportForOwnedCards(selectedAirport, loungeMaster, ownedCards),
-    [selectedAirport, loungeMaster, ownedCards]
+    () => evaluateAirportForOwnedCards(selectedAirport, loungeMaster, activeEvalCards),
+    [selectedAirport, loungeMaster, activeEvalCards]
   );
+
+  const cardToLoungeRows = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return (loungeMaster.participating_indian_airport_lounges || []).filter((spot) => {
+      if (focusedCard) {
+        const codeSet = new Set((focusedCard.accessible_lounge_codes || []).map((c) => c.toUpperCase()));
+        if (spot.lounge_code && !codeSet.has(spot.lounge_code.toUpperCase())) return false;
+      }
+      if (!q) return true;
+      const hitCard = [...(spot.eligible_no_spend_card_ids || []), ...(spot.eligible_low_spend_card_ids || [])]
+        .slice(0, 20)
+        .some((cid) => {
+          const card = cardById.get(cid);
+          return card ? card.card_name.toLowerCase().includes(q) || card.bank.toLowerCase().includes(q) : false;
+        });
+      return (
+        spot.city.toLowerCase().includes(q) ||
+        spot.lounge_name.toLowerCase().includes(q) ||
+        spot.airport_code.toLowerCase().includes(q) ||
+        spot.terminal.toLowerCase().includes(q) ||
+        hitCard
+      );
+    });
+  }, [loungeMaster, query, focusedCard, cardById]);
 
   const filteredAirports = useMemo(() => {
     const q = airportQuery.trim().toLowerCase();
@@ -187,14 +180,18 @@ export function LoungesClient({
 
   const filteredGolfClubs = useMemo(() => {
     const q = golfCourseQuery.trim().toLowerCase();
-    return golfClubs.filter(
-      (c) =>
+    return golfClubs.filter((c) => {
+      if (focusedCard && focusedCard.accessible_golf_slugs?.length) {
+        if (!focusedCard.accessible_golf_slugs.includes(c.slug)) return false;
+      }
+      return (
         !q ||
         c.city.toLowerCase().includes(q) ||
         c.club_name.toLowerCase().includes(q) ||
         (c.formatted_address || "").toLowerCase().includes(q)
-    );
-  }, [golfClubs, golfCourseQuery]);
+      );
+    });
+  }, [golfClubs, golfCourseQuery, focusedCard]);
 
   const programs = useMemo(
     () =>
@@ -390,6 +387,7 @@ export function LoungesClient({
         <div className="flex flex-wrap items-center gap-1.5 bg-[#F3F2EE] p-1 rounded-lg w-fit">
           {[
             { id: "my_cards", label: "My Cards Airport Check" },
+            { id: "matrix", label: "Card ↔ Lounge Table" },
             { id: "golf", label: "Golf Claim & Courses" },
             { id: "programs", label: `Official Programs (${filteredPrograms.length})` },
             { id: "spots", label: "Search Bank PDFs" },
@@ -420,7 +418,7 @@ export function LoungesClient({
           })}
         </div>
 
-        {(viewMode === "programs" || viewMode === "spots") && (
+        {(viewMode === "programs" || viewMode === "spots" || viewMode === "matrix") && (
           <div className="flex flex-col sm:flex-row gap-2.5 flex-1 lg:max-w-lg">
             <div className="relative flex-1">
               <Search className="w-4 h-4 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2" aria-hidden="true" />
@@ -449,13 +447,47 @@ export function LoungesClient({
         )}
       </div>
 
+      {/* Focused Card Banner (from My Cards -> Check Airport & Golf) */}
+      {focusedCard && (
+        <div className="bg-[#EEF5F2] border border-[#0F5C4D]/30 rounded-xl px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <BankLogo bank={focusedCard.bank} size="sm" />
+            <div className="min-w-0">
+              <div className="text-[13.5px] font-semibold text-[#1A1D21] truncate">
+                Checking Access Only for {focusedCard.card_name}
+              </div>
+              <div className="text-[12px] text-[#0F5C4D]">
+                {focusedCard.domestic_lounge_accessible_count ?? focusedCard.accessible_lounge_codes?.length ?? 0} Indian domestic lounges ·{" "}
+                {focusedCard.accessible_golf_slugs?.length ?? 0} partner golf clubs
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 shrink-0">
+            <Link
+              href={`/${focusedCard.bank_slug}/${focusedCard.card_slug}`}
+              className="text-[12px] font-medium text-[#0F5C4D] bg-white border border-[#0F5C4D]/25 px-2.5 py-1.5 rounded-lg hover:bg-[#FAF9F6]"
+            >
+              Card Dossier →
+            </Link>
+            <button
+              type="button"
+              onClick={() => setFocusedCardId(null)}
+              className="inline-flex items-center gap-1 text-[12px] font-medium text-[#1A1D21] bg-white border border-[#E4E4DF] px-2.5 py-1.5 rounded-lg hover:border-[#0F5C4D]/40 cursor-pointer"
+            >
+              <X className="w-3.5 h-3.5" />
+              Show All My Cards
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* View Content: My Cards Airport Terminal Checker */}
       {viewMode === "my_cards" && (
         <div className="space-y-5">
-          {/* Airport Selector & Owned Wallet Panel */}
+          {/* Airport Selector */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-            {/* Left: Interactive Airport Picker */}
-            <div className="lg:col-span-6 bg-white border border-[#E4E4DF] rounded-xl p-5 space-y-3.5">
+            {/* Full-Width Interactive Airport Picker */}
+            <div className="lg:col-span-12 bg-white border border-[#E4E4DF] rounded-xl p-5 space-y-3.5">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <div>
                   <h2 className="text-[16px] font-semibold text-[#1A1D21]">
@@ -518,7 +550,7 @@ export function LoungesClient({
                 </div>
               )}
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-[268px] overflow-y-auto pr-1">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 max-h-[268px] overflow-y-auto pr-1">
                 {filteredAirports.map((a) => {
                   const active = selectedAirport === a.airportCode;
                   return (
@@ -572,150 +604,6 @@ export function LoungesClient({
                 )}
               </div>
             </div>
-
-            {/* Right: Owned Wallet Cards */}
-            <div className="lg:col-span-6 bg-white border border-[#E4E4DF] rounded-xl p-5 space-y-3.5">
-              <div className="flex flex-wrap items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
-                  <Wallet className="w-4 h-4 text-[#0F5C4D]" aria-hidden="true" />
-                  <h2 className="text-[15.5px] font-medium text-[#1A1D21]">
-                    2. Cards You Own ({ownedCards.length})
-                  </h2>
-                </div>
-                <div className="flex items-center gap-3 text-[12.5px]">
-                  {ownedCards.length > 0 && (
-                    <button
-                      type="button"
-                      onClick={clearOwned}
-                      className="text-[#717882] hover:text-[#1A1D21] cursor-pointer"
-                    >
-                      Clear wallet
-                    </button>
-                  )}
-                  <Link
-                    href="/my-cards"
-                    className="font-medium text-[#0F5C4D] hover:underline"
-                  >
-                    Open full My Wallet →
-                  </Link>
-                </div>
-              </div>
-
-              {/* Search box to add/toggle cards */}
-              <div className="relative">
-                <Search
-                  className="w-4 h-4 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2"
-                  aria-hidden="true"
-                />
-                <input
-                  type="text"
-                  value={walletSearch}
-                  onChange={(e) => setWalletSearch(e.target.value)}
-                  placeholder="Add cards you own to test (e.g., Regalia Gold, Airtel Axis, HSBC Live+)..."
-                  className="w-full pl-9 pr-3 py-2 text-[13.5px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg focus:outline-none focus:border-[#0F5C4D]"
-                />
-                <AnimatePresence>
-                  {walletSearchMatches.length > 0 && (
-                    <motion.div
-                      initial={{ opacity: 0, y: -4 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -4 }}
-                      transition={fastTransition}
-                      className="mt-2 border border-[#E4E4DF] rounded-lg divide-y divide-[#E4E4DF] bg-[#FAF9F6] max-h-56 overflow-y-auto"
-                    >
-                      {walletSearchMatches.map((c) => {
-                        const added = ownedIds.includes(c.card_id);
-                        return (
-                          <button
-                            key={c.card_id}
-                            type="button"
-                            onClick={() => {
-                              toggleOwned(c.card_id);
-                              setWalletSearch("");
-                            }}
-                            className="w-full px-3 py-2 flex items-center justify-between gap-2 text-left hover:bg-white transition-colors cursor-pointer"
-                          >
-                            <div className="flex items-center gap-2 min-w-0">
-                              <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="xs" />
-                              <div className="min-w-0">
-                                <div className="text-[13px] text-[#1A1D21] truncate">
-                                  {c.card_name}
-                                </div>
-                                <div className="text-[11.5px] text-[#717882] truncate">
-                                  {c.card_network || "Network"} ·{" "}
-                                  {c.domestic_lounge_summary || "No domestic lounge"}
-                                </div>
-                              </div>
-                            </div>
-                            <span
-                              className={`text-[12px] shrink-0 px-2 py-0.5 rounded-md ${
-                                added
-                                  ? "bg-[#EEF5F2] text-[#0F5C4D]"
-                                  : "bg-white border border-[#E4E4DF] text-[#1A1D21]"
-                              }`}
-                            >
-                              {added ? "Owned ✓" : "+ Add"}
-                            </span>
-                          </button>
-                        );
-                      })}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-
-              {/* Active owned chips */}
-              {ownedCards.length > 0 ? (
-                <div className="flex flex-wrap gap-2">
-                  {ownedCards.map((c) => (
-                    <span
-                      key={c.card_id}
-                      className="inline-flex items-center gap-1.5 bg-[#EEF5F2] border border-[#0F5C4D]/25 text-[#1A1D21] text-[12.5px] pl-2 pr-1.5 py-1 rounded-lg"
-                    >
-                      <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="xs" />
-                      <span className="truncate max-w-[190px]">{c.card_name}</span>
-                      <button
-                        type="button"
-                        onClick={() => toggleOwned(c.card_id)}
-                        aria-label={`Remove ${c.card_name}`}
-                        className="p-0.5 text-[#4B525C] hover:text-[#1A1D21] cursor-pointer"
-                      >
-                        <X className="w-3.5 h-3.5" />
-                      </button>
-                    </span>
-                  ))}
-                </div>
-              ) : (
-                <div className="bg-[#FAF9F6] border border-[#E4E4DF] rounded-lg p-3 space-y-2">
-                  <p className="text-[12.5px] text-[#4B525C]">
-                    Your wallet is empty. Add your cards above or load popular Indian cards to test{" "}
-                    {airportReport.city} ({airportReport.airportCode}) terminals immediately:
-                  </p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {quickPresets.trio.length > 0 && (
-                      <button
-                        type="button"
-                        onClick={() => setOwnedIds(quickPresets.trio)}
-                        className="inline-flex items-center gap-1 text-[12px] font-medium bg-[#0F5C4D] text-white px-2.5 py-1 rounded-md cursor-pointer"
-                      >
-                        <Plus className="w-3 h-3" />
-                        Test Regalia Gold + Airtel Axis + HSBC Live+
-                      </button>
-                    )}
-                    {quickPresets.items.map((p) => (
-                      <button
-                        key={p.id}
-                        type="button"
-                        onClick={() => toggleOwned(p.id)}
-                        className="text-[12px] bg-white border border-[#E4E4DF] hover:border-[#0F5C4D]/50 text-[#1A1D21] px-2.5 py-1 rounded-md cursor-pointer"
-                      >
-                        {p.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
           </div>
 
           {/* Summary Verdict Banner */}
@@ -730,11 +618,11 @@ export function LoungesClient({
                 {airportReport.totalSpots === 1 ? "" : "s"}
               </h3>
               <p className="text-[13px] text-[#4B525C] mt-0.5">
-                {ownedCards.length === 0
-                  ? `Showing all terminals at ${airportReport.city}. Add your cards above to evaluate exact entry per terminal.`
-                  : `With ${ownedCards.length} card${ownedCards.length === 1 ? "" : "s"} in your wallet: ${airportReport.accessibleNoSpendCount} unconditional no-spend, ${airportReport.spendGatedCount} spend-gated, ${airportReport.notCoveredCount} not covered.`}
+                {activeEvalCards.length === 0
+                  ? `Showing all terminals at ${airportReport.city}. Add your cards in My Cards to evaluate exact entry per terminal.`
+                  : `With ${activeEvalCards.length} active card${activeEvalCards.length === 1 ? "" : "s"}: ${airportReport.accessibleNoSpendCount} unconditional no-spend, ${airportReport.spendGatedCount} spend-gated, ${airportReport.notCoveredCount} not covered.`}
               </p>
-              {ownedCards.length > 0 && airportReport.totalSpots > 0 && (
+              {activeEvalCards.length > 0 && airportReport.totalSpots > 0 && (
                 <div className="mt-2.5 max-w-md space-y-1">
                   <div className="h-1.5 bg-[#F3F2EE] rounded-full overflow-hidden">
                     <motion.div
@@ -881,13 +769,16 @@ export function LoungesClient({
                       bestLoungeBadge ? "border-[#0F5C4D]/45" : "border-[#E4E4DF]"
                     }`}
                   >
-                    <div className="relative h-44 w-full overflow-hidden bg-[#F3F2EE]">
+                    <Link
+                      href={`/lounges/${spot.lounge_code}`}
+                      className="block relative h-44 w-full overflow-hidden bg-[#F3F2EE] group"
+                    >
                       <Image
                         src={spotImg}
                         alt={spot.google_place_name || `${spot.lounge_name} real lounge photo`}
                         fill
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-cover"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
                       {typeof spot.google_rating === "number" && (
@@ -917,21 +808,23 @@ export function LoungesClient({
                           </span>
                         )}
                       </div>
-                    </div>
+                    </Link>
 
                     <div className="p-5 flex flex-col justify-between gap-4 flex-1">
                     <div className="space-y-3">
                       <div className="flex items-start justify-between gap-2">
                         <div className="space-y-1">
                           <h4 className="text-[16px] font-medium text-[#1A1D21] leading-snug">
-                            {spot.lounge_name}
+                            <Link href={`/lounges/${spot.lounge_code}`} className="hover:text-[#0F5C4D] hover:underline">
+                              {spot.lounge_name}
+                            </Link>
                           </h4>
                           {bestLoungeBadge && (
                             <p className="text-[12px] text-[#0F5C4D]">{bestLoungeBadge.reason}</p>
                           )}
                         </div>
 
-                        {ownedCards.length > 0 && (
+                        {activeEvalCards.length > 0 && (
                           <span
                             className={`inline-flex items-center gap-1 text-[12px] font-medium border px-2.5 py-1 rounded-lg shrink-0 ${statusBg}`}
                           >
@@ -1043,25 +936,25 @@ export function LoungesClient({
                         </div>
                       )}
                       <div className="flex flex-wrap items-center gap-2 text-[12px]">
+                        <Link
+                          href={`/lounges/${spot.lounge_code}`}
+                          className="inline-flex items-center gap-1.5 text-white bg-[#0F5C4D] hover:bg-[#0B473B] px-2.5 py-1 rounded-md font-medium"
+                        >
+                          <span>Details, 6 Photos &amp; Reviews</span>
+                        </Link>
                         {claimPortals[0] && (
                           <a
                             href={claimPortals[0].url}
                             target="_blank"
                             rel="noopener noreferrer"
                             referrerPolicy="no-referrer"
-                            className="inline-flex items-center gap-1.5 text-white bg-[#0F5C4D] hover:bg-[#0B473B] px-2.5 py-1 rounded-md font-medium"
+                            className="inline-flex items-center gap-1 text-[#0F5C4D] bg-[#EEF5F2] px-2.5 py-1 rounded-md font-medium hover:underline"
                           >
                             <QrCode className="w-3.5 h-3.5" />
-                            <span>Claim QR ({claimPortals[0].name})</span>
+                            <span>{claimPortals[0].name}</span>
                             <ExternalLink className="w-3 h-3" />
                           </a>
                         )}
-                        <Link
-                          href={`/lounges/guide?airport=${encodeURIComponent(airportReport.airportCode)}&section=steps`}
-                          className="inline-flex items-center gap-1 text-[#0F5C4D] bg-[#EEF5F2] px-2.5 py-1 rounded-md font-medium hover:underline"
-                        >
-                          Steps
-                        </Link>
                         {spot.google_maps_url && (
                           <a
                             href={spot.google_maps_url}
@@ -1177,7 +1070,9 @@ export function LoungesClient({
                     <div className="p-3.5 space-y-2 flex-1 flex flex-col justify-between">
                       <div>
                         <h4 className="text-[14px] font-semibold text-[#1A1D21] leading-snug">
-                          {club.club_name}
+                          <Link href={`/lounges/${club.slug}`} className="hover:text-[#0F5C4D] hover:underline">
+                            {club.club_name}
+                          </Link>
                         </h4>
                         {club.formatted_address && (
                           <p className="text-[11.5px] text-[#717882] line-clamp-2 mt-1">
@@ -1185,19 +1080,26 @@ export function LoungesClient({
                           </p>
                         )}
                       </div>
-                      {club.google_maps_url && (
-                        <a
-                          href={club.google_maps_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          referrerPolicy="no-referrer"
-                          className="inline-flex items-center gap-1 text-[12px] font-medium text-[#0F5C4D] hover:underline w-fit"
+                      <div className="flex items-center justify-between gap-2 pt-1">
+                        <Link
+                          href={`/lounges/${club.slug}`}
+                          className="text-[12px] font-medium text-[#0F5C4D] hover:underline"
                         >
-                          <MapPin className="w-3.5 h-3.5" />
-                          <span>Open on Google Maps</span>
-                          <ExternalLink className="w-3 h-3" />
-                        </a>
-                      )}
+                          Details, Photos &amp; Cards →
+                        </Link>
+                        {club.google_maps_url && (
+                          <a
+                            href={club.google_maps_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            referrerPolicy="no-referrer"
+                            className="inline-flex items-center gap-1 text-[11.5px] font-medium text-[#9A5B13] hover:underline"
+                          >
+                            <MapPin className="w-3 h-3" />
+                            <span>Maps</span>
+                          </a>
+                        )}
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -1330,6 +1232,117 @@ export function LoungesClient({
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* View Content: Card <-> Lounge Matrix Table */}
+      {viewMode === "matrix" && (
+        <div className="bg-white border border-[#E4E4DF] rounded-xl overflow-hidden">
+          <div className="px-5 py-4 border-b border-[#E4E4DF] flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h2 className="text-[16px] font-semibold text-[#1A1D21]">
+                Card ↔ Indian Airport Lounge Eligibility Table ({cardToLoungeRows.length})
+              </h2>
+              <p className="text-[12px] text-[#717882]">
+                Verify which credit cards enter each Indian terminal lounge without spend criteria, and open full lounge guides.
+              </p>
+            </div>
+            <span className="text-[12px] text-[#0F5C4D] bg-[#EEF5F2] px-2.5 py-1 rounded-full font-medium">
+              Spend-free cards prioritized
+            </span>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-[13px]">
+              <thead>
+                <tr className="bg-[#FAF9F6] border-b border-[#E4E4DF] text-[11.5px] uppercase tracking-wider text-[#717882]">
+                  <th className="py-3 px-4 font-semibold">Airport</th>
+                  <th className="py-3 px-4 font-semibold">Lounge &amp; Terminal</th>
+                  <th className="py-3 px-4 font-semibold">Rating</th>
+                  <th className="py-3 px-4 font-semibold">Top No-Spend Eligible Cards</th>
+                  <th className="py-3 px-4 font-semibold">How to Claim / Guide</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[#E4E4DF]">
+                {cardToLoungeRows.slice(0, 100).map((spot) => {
+                  const noSpendCards = (spot.eligible_no_spend_card_ids || [])
+                    .map((cid) => cardById.get(cid))
+                    .filter((c): c is CardSummaryItem => Boolean(c));
+                  const gatedCount =
+                    (spot.eligible_low_spend_card_ids?.length || 0) +
+                    (spot.eligible_high_spend_card_ids?.length || 0);
+                  const accessTitle = spot.how_to_access?.[0]?.channel || "LoungeOne / HOI LMS / Bank QR";
+                  return (
+                    <tr key={spot.lounge_code} className="hover:bg-[#FAF9F6]/70 align-top">
+                      <td className="py-3 px-4 whitespace-nowrap">
+                        <span className="inline-block bg-[#EEF5F2] text-[#0F5C4D] font-semibold text-[11.5px] px-2 py-0.5 rounded tabular-nums">
+                          {spot.airport_code}
+                        </span>
+                        <div className="text-[12px] text-[#4B525C] mt-1">{spot.city}</div>
+                      </td>
+                      <td className="py-3 px-4 min-w-[200px]">
+                        <Link
+                          href={`/lounges/${spot.lounge_code}`}
+                          className="font-semibold text-[#1A1D21] hover:text-[#0F5C4D] hover:underline"
+                        >
+                          {spot.lounge_name}
+                        </Link>
+                        <div className="text-[11.5px] text-[#717882] mt-0.5">
+                          {spot.terminal} · {spot.terminal_type}
+                        </div>
+                      </td>
+                      <td className="py-3 px-4 whitespace-nowrap tabular-nums">
+                        {typeof spot.google_rating === "number" ? (
+                          <span className="inline-flex items-center gap-1 text-[#1A1D21] font-medium">
+                            <Star className="w-3.5 h-3.5 fill-[#D97706] text-[#D97706]" />
+                            {spot.google_rating.toFixed(1)}
+                          </span>
+                        ) : (
+                          <span className="text-[#717882]">—</span>
+                        )}
+                      </td>
+                      <td className="py-3 px-4 min-w-[240px]">
+                        <div className="flex flex-wrap gap-1.5">
+                          {noSpendCards.slice(0, 4).map((c) => (
+                            <Link
+                              key={c.card_id}
+                              href={`/${c.bank_slug}/${c.card_slug}`}
+                              className="inline-flex items-center gap-1 text-[11.5px] bg-[#FAF9F6] border border-[#E4E4DF] rounded-md px-2 py-0.5 text-[#1A1D21] hover:border-[#0F5C4D]"
+                            >
+                              {c.card_name}
+                            </Link>
+                          ))}
+                          {noSpendCards.length > 4 && (
+                            <span className="text-[11.5px] text-[#0F5C4D] font-medium px-1.5 py-0.5">
+                              +{noSpendCards.length - 4} spend-free
+                            </span>
+                          )}
+                          {noSpendCards.length === 0 && (
+                            <span className="text-[11.5px] text-[#9A5B13]">
+                              {gatedCount} spend-gated / Priority Pass cards
+                            </span>
+                          )}
+                        </div>
+                      </td>
+                      <td className="py-3 px-4 whitespace-nowrap">
+                        <div className="text-[12px] text-[#4B525C] max-w-[180px] truncate">{accessTitle}</div>
+                        <Link
+                          href={`/lounges/${spot.lounge_code}`}
+                          className="inline-flex items-center gap-1 text-[12px] font-medium text-[#0F5C4D] hover:underline mt-0.5"
+                        >
+                          6 Photos &amp; Access →
+                        </Link>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+            {cardToLoungeRows.length === 0 && (
+              <p className="text-center text-[13px] text-[#717882] py-8">
+                No Indian lounges matched your filter.
+              </p>
+            )}
           </div>
         </div>
       )}

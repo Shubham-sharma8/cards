@@ -69,10 +69,30 @@ import {
   type CanvaIconKey,
 } from "./FeatureIcon";
 
+export interface CardAccessibleLoungeSummary {
+  lounge_code?: string;
+  airport_code?: string;
+  city: string;
+  lounge_name: string;
+  terminal: string;
+  terminal_type: string;
+  google_rating?: number;
+}
+
+export interface CardAccessibleGolfSummary {
+  slug: string;
+  city: string;
+  club_name: string;
+  google_rating?: number;
+}
+
 interface CardDossierClientProps {
   dossier: CardDossier;
   relatedRows?: RelatedCardFeatureRow[];
   totalCardsCount?: number;
+  accessibleIndianLounges?: CardAccessibleLoungeSummary[];
+  accessibleGolfClubs?: CardAccessibleGolfSummary[];
+  domesticLoungeCount?: number;
 }
 
 type DossierTab = "overview" | "rewards" | "lounges" | "fees" | "devals";
@@ -209,6 +229,9 @@ export function CardDossierClient({
   dossier,
   relatedRows = [],
   totalCardsCount,
+  accessibleIndianLounges = [],
+  accessibleGolfClubs = [],
+  domesticLoungeCount,
 }: CardDossierClientProps) {
   const { identity, visual_assets, official_and_reference_links, filter_tags } = dossier;
   const {
@@ -364,17 +387,34 @@ export function CardDossierClient({
     };
   }, [simSpend, calc, fees, includeGst, conversionStrategy, summaryShim]);
 
+  const [benefitGroupFilter, setBenefitGroupFilter] = useState<'all' | 'highlights' | 'milestones' | 'lifestyle'>('all');
+
+  const combinedIndianLounges = useMemo<CardAccessibleLoungeSummary[]>(() => {
+    if (accessibleIndianLounges.length > 0) return accessibleIndianLounges;
+    return (lounge.participating_lounges_matched || []).map((spot) => ({
+      lounge_code: undefined,
+      city: spot.city,
+      lounge_name: spot.lounge_name,
+      terminal: spot.terminal,
+      terminal_type: spot.terminal_type,
+      google_rating: undefined,
+    }));
+  }, [accessibleIndianLounges, lounge.participating_lounges_matched]);
+
+  const effectiveDomesticLoungeCount =
+    domesticLoungeCount ??
+    combinedIndianLounges.filter((l) => !String(l.terminal_type || "").toLowerCase().includes("international")).length;
+
   const filteredLounges = useMemo(() => {
-    const list = lounge.participating_lounges_matched || [];
     const q = loungeQuery.trim().toLowerCase();
-    if (!q) return list;
-    return list.filter(
+    if (!q) return combinedIndianLounges;
+    return combinedIndianLounges.filter(
       (s) =>
         s.city.toLowerCase().includes(q) ||
         s.lounge_name.toLowerCase().includes(q) ||
         s.terminal.toLowerCase().includes(q)
     );
-  }, [lounge.participating_lounges_matched, loungeQuery]);
+  }, [combinedIndianLounges, loungeQuery]);
 
   const subRatings = useMemo(
     () => normalizeSubRatings(ratings.category_sub_ratings),
@@ -801,30 +841,41 @@ export function CardDossierClient({
         </div>
 
         {/* Key Numbers Ledger Strip */}
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 mt-5 pt-5 border-t border-[#E4E4DF] tabular-nums">
+        <div
+          className={`grid grid-cols-2 ${
+            fees.joining_fee_inr !== fees.annual_fee_inr ? "sm:grid-cols-5" : "sm:grid-cols-4"
+          } gap-4 mt-5 pt-5 border-t border-[#E4E4DF] tabular-nums`}
+        >
           <div className="bg-white border border-[#E4E4DF] rounded-xl p-3.5 space-y-1">
             <span className="inline-flex items-center gap-1.5 text-[11.5px] text-[#717882]">
               <Receipt className="w-3.5 h-3.5 text-[#0F5C4D]" aria-hidden="true" />
               Joining Fee
             </span>
             <span className="block text-[15px] font-medium text-[#1A1D21]">
-              {formatInr(fees.joining_fee_inr, true)}
+              {fees.joining_fee_inr === 0 ? "₹0 (LTF)" : formatInr(fees.joining_fee_inr, true)}
             </span>
-          </div>
-          <div className="bg-white border border-[#E4E4DF] rounded-xl p-3.5 space-y-1">
-            <span className="inline-flex items-center gap-1.5 text-[11.5px] text-[#717882]">
-              <Calendar className="w-3.5 h-3.5 text-[#0F5C4D]" aria-hidden="true" />
-              Annual Fee
-            </span>
-            <span className="block text-[15px] font-medium text-[#1A1D21]">
-              {fees.annual_fee_inr === 0 ? "₹0 (LTF)" : formatInr(fees.annual_fee_inr)}
-            </span>
-            {fees.fee_waiver_spend_inr ? (
+            {fees.joining_fee_inr === fees.annual_fee_inr && fees.fee_waiver_spend_inr ? (
               <span className="block text-[11px] text-[#717882]">
                 Waived at {formatInr(fees.fee_waiver_spend_inr)}/yr
               </span>
             ) : null}
           </div>
+          {fees.joining_fee_inr !== fees.annual_fee_inr && (
+            <div className="bg-white border border-[#E4E4DF] rounded-xl p-3.5 space-y-1">
+              <span className="inline-flex items-center gap-1.5 text-[11.5px] text-[#717882]">
+                <Calendar className="w-3.5 h-3.5 text-[#0F5C4D]" aria-hidden="true" />
+                Annual Fee
+              </span>
+              <span className="block text-[15px] font-medium text-[#1A1D21]">
+                {fees.annual_fee_inr === 0 ? "₹0 (LTF)" : formatInr(fees.annual_fee_inr)}
+              </span>
+              {fees.fee_waiver_spend_inr ? (
+                <span className="block text-[11px] text-[#717882]">
+                  Waived at {formatInr(fees.fee_waiver_spend_inr)}/yr
+                </span>
+              ) : null}
+            </div>
+          )}
           <div className="bg-white border border-[#E4E4DF] rounded-xl p-3.5 space-y-1">
             <span className="inline-flex items-center gap-1.5 text-[11.5px] text-[#717882]">
               <Plane className="w-3.5 h-3.5 text-[#0F5C4D]" aria-hidden="true" />
@@ -834,8 +885,12 @@ export function CardDossierClient({
               {domLoungeQuota}
             </span>
             {lounge.has_domestic_lounge && (
-              <span className="block text-[11px] text-[#717882] truncate">
-                {isNoSpendLounge ? "No spend criteria" : "Spend-based"}
+              <span className="block text-[11px] text-[#0F5C4D] font-medium truncate">
+                {effectiveDomesticLoungeCount > 0
+                  ? `${effectiveDomesticLoungeCount} Indian lounges`
+                  : isNoSpendLounge
+                    ? "No spend criteria"
+                    : "Spend-based"}
               </span>
             )}
           </div>
@@ -1261,8 +1316,33 @@ export function CardDossierClient({
               {/* Highlights + Sub-ratings */}
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                 <div className="lg:col-span-2 bg-white border border-[#E4E4DF] rounded-xl p-5 sm:p-6">
-                  <h3 className="text-[16px] font-medium text-[#1A1D21]">Key Features &amp; Benefits</h3>
-                  {benefits.highlights?.length > 0 && (
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <h3 className="text-[16px] font-medium text-[#1A1D21]">Key Features &amp; Benefits</h3>
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      {(
+                        [
+                          ["all", "All Perks"],
+                          ["highlights", "Highlights"],
+                          ["milestones", "Welcome & Milestones"],
+                          ["lifestyle", "Lifestyle"],
+                        ] as const
+                      ).map(([k, lbl]) => (
+                        <button
+                          key={k}
+                          type="button"
+                          onClick={() => setBenefitGroupFilter(k)}
+                          className={`px-2.5 py-1 text-[11.5px] rounded-full border transition-colors cursor-pointer ${
+                            benefitGroupFilter === k
+                              ? "bg-[#0F5C4D] border-[#0F5C4D] text-white font-medium"
+                              : "bg-[#FAF9F6] border-[#E4E4DF] text-[#4B525C] hover:border-[#C9C9C2]"
+                          }`}
+                        >
+                          {lbl}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                  {(benefitGroupFilter === "all" || benefitGroupFilter === "highlights") && benefits.highlights?.length > 0 && (
                     <ul className="mt-3 space-y-2.5">
                       {benefits.highlights.map((h, idx) => (
                         <li key={idx} className="text-[13.5px] text-[#4B525C] leading-relaxed flex items-start gap-2.5">
@@ -1277,7 +1357,7 @@ export function CardDossierClient({
                     </ul>
                   )}
 
-                  {welcomeList.length > 0 && (
+                  {(benefitGroupFilter === "all" || benefitGroupFilter === "milestones") && welcomeList.length > 0 && (
                     <div className="mt-4 pt-4 border-t border-[#E4E4DF]">
                       <h4 className="inline-flex items-center gap-2 text-[13.5px] font-medium text-[#1A1D21]">
                         <CanvaFeatureIcon icon="welcome" size={18} />
@@ -1291,7 +1371,7 @@ export function CardDossierClient({
                     </div>
                   )}
 
-                  {benefits.milestone_benefits?.length > 0 && (
+                  {(benefitGroupFilter === "all" || benefitGroupFilter === "milestones") && benefits.milestone_benefits?.length > 0 && (
                     <div className="mt-4 pt-4 border-t border-[#E4E4DF]">
                       <h4 className="inline-flex items-center gap-2 text-[13.5px] font-medium text-[#1A1D21]">
                         <CanvaFeatureIcon icon="rewards" size={18} />
@@ -1308,7 +1388,7 @@ export function CardDossierClient({
                     </div>
                   )}
 
-                  {lifestyleGroups.length > 0 && (
+                  {(benefitGroupFilter === "all" || benefitGroupFilter === "lifestyle") && lifestyleGroups.length > 0 && (
                     <div className="mt-4 pt-4 border-t border-[#E4E4DF] grid grid-cols-1 sm:grid-cols-2 gap-4">
                       {lifestyleGroups.map((grp) => (
                         <div key={grp.title}>
@@ -2061,18 +2141,25 @@ export function CardDossierClient({
                 );
               })()}
 
-              {/* Searchable Participating Lounges Table */}
+              {/* Searchable Participating Lounges Table (All Accessible Lounges in India) */}
               <div className="bg-white border border-[#E4E4DF] rounded-xl p-5 sm:p-6">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                   <div>
-                    <h3 className="text-[16px] font-medium text-[#1A1D21]">
-                      Matched Airport &amp; Terminal Lounges ({lounge.participating_lounges_count})
-                    </h3>
-                    <p className="text-[13px] text-[#717882]">
-                      {lounge.no_lounge_note || "Verify terminal access right before travel as banks rotate lounge operators."}
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h3 className="text-[16px] font-medium text-[#1A1D21]">
+                        Domestic Lounges Accessible in India ({combinedIndianLounges.length})
+                      </h3>
+                      {effectiveDomesticLoungeCount > 0 && (
+                        <span className="text-[11.5px] font-medium bg-[#EEF5F2] text-[#0F5C4D] px-2.5 py-0.5 rounded-full tabular-nums">
+                          {effectiveDomesticLoungeCount} domestic spots
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-[13px] text-[#717882] mt-0.5">
+                      {lounge.no_lounge_note || "Tap any lounge below for terminal photos, hours, reviews, and step-by-step QR access."}
                     </p>
                   </div>
-                  {lounge.participating_lounges_matched?.length > 0 && (
+                  {combinedIndianLounges.length > 0 && (
                     <div className="relative w-full sm:w-72">
                       <Search className="w-4 h-4 text-[#717882] absolute left-3 top-1/2 -translate-y-1/2" aria-hidden="true" />
                       <input
@@ -2087,23 +2174,44 @@ export function CardDossierClient({
                 </div>
 
                 {filteredLounges.length > 0 ? (
-                  <div className="mt-4 overflow-x-auto max-h-[380px] overflow-y-auto border border-[#E4E4DF] rounded-lg">
+                  <div className="mt-4 overflow-x-auto max-h-[420px] overflow-y-auto border border-[#E4E4DF] rounded-lg">
                     <table className="w-full text-left text-[13px]">
-                      <thead className="bg-[#F3F2EE] text-[#4B525C] sticky top-0">
+                      <thead className="bg-[#F3F2EE] text-[#4B525C] sticky top-0 z-10">
                         <tr>
                           <th className="py-2.5 px-3.5 font-medium">City</th>
                           <th className="py-2.5 px-3.5 font-medium">Lounge Name</th>
                           <th className="py-2.5 px-3.5 font-medium">Terminal</th>
                           <th className="py-2.5 px-3.5 font-medium">Type</th>
+                          <th className="py-2.5 px-3.5 font-medium text-right">Details</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-[#E4E4DF]">
                         {filteredLounges.map((spot, idx) => (
-                          <tr key={`${spot.city}-${spot.lounge_name}-${idx}`} className="hover:bg-[#FAF9F6]">
+                          <tr key={`${spot.lounge_code || spot.city}-${spot.lounge_name}-${idx}`} className="hover:bg-[#FAF9F6]">
                             <td className="py-2.5 px-3.5 text-[#1A1D21] whitespace-nowrap">{spot.city}</td>
-                            <td className="py-2.5 px-3.5 text-[#1A1D21]">{spot.lounge_name}</td>
+                            <td className="py-2.5 px-3.5 text-[#1A1D21] font-medium">
+                              {spot.lounge_code ? (
+                                <Link href={`/lounges/${spot.lounge_code}`} className="hover:text-[#0F5C4D] hover:underline">
+                                  {spot.lounge_name}
+                                </Link>
+                              ) : (
+                                spot.lounge_name
+                              )}
+                            </td>
                             <td className="py-2.5 px-3.5 text-[#4B525C]">{spot.terminal || "—"}</td>
                             <td className="py-2.5 px-3.5 text-[#717882]">{spot.terminal_type || "Domestic"}</td>
+                            <td className="py-2.5 px-3.5 text-right whitespace-nowrap">
+                              {spot.lounge_code ? (
+                                <Link
+                                  href={`/lounges/${spot.lounge_code}`}
+                                  className="text-[12px] font-medium text-[#0F5C4D] hover:underline"
+                                >
+                                  View →
+                                </Link>
+                              ) : (
+                                "—"
+                              )}
+                            </td>
                           </tr>
                         ))}
                       </tbody>
@@ -2111,10 +2219,40 @@ export function CardDossierClient({
                   </div>
                 ) : (
                   <p className="text-[13.5px] text-[#717882] mt-4">
-                    {lounge.participating_lounges_matched?.length
+                    {combinedIndianLounges.length > 0
                       ? `No lounges matched "${loungeQuery}".`
                       : "No participating lounge list matched for this card."}
                   </p>
+                )}
+
+                {accessibleGolfClubs.length > 0 && (
+                  <div className="mt-5 pt-4 border-t border-[#E4E4DF]">
+                    <div className="flex items-center justify-between gap-2 mb-3">
+                      <h4 className="text-[14.5px] font-medium text-[#1A1D21]">
+                        Golf Courses Accessible ({accessibleGolfClubs.length} Indian Clubs)
+                      </h4>
+                      <Link href={`/lounges?view=golf&card=${encodeURIComponent(identity.card_id)}`} className="text-[12px] font-medium text-[#0F5C4D] hover:underline">
+                        Open in Lounge &amp; Golf Explorer →
+                      </Link>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+                      {accessibleGolfClubs.slice(0, 12).map((club) => (
+                        <Link
+                          key={club.slug}
+                          href={`/lounges/${club.slug}`}
+                          className="flex items-center justify-between gap-2 bg-[#FAF9F6] hover:bg-[#EEF5F2] border border-[#E4E4DF] rounded-lg px-3 py-2 text-[12.5px] transition-colors"
+                        >
+                          <div className="min-w-0">
+                            <p className="font-medium text-[#1A1D21] truncate">{club.club_name}</p>
+                            <p className="text-[11px] text-[#717882]">{club.city}</p>
+                          </div>
+                          {club.google_rating ? (
+                            <span className="text-[11px] text-[#9A5B13] font-medium shrink-0">★ {club.google_rating}</span>
+                          ) : null}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 )}
               </div>
             </motion.div>

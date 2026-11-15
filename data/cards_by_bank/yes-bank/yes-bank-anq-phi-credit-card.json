@@ -196,8 +196,300 @@
         "local_pdf_path": "data/raw/lounges/pdfs/priority_pass_directory.pdf"
       }
     ],
-    "participating_lounges_matched": [],
-    "participating_lounges_count": 0
+    "participating_lounges_matched": [
+      {
+        "city": "Ahmedabad",
+        "airport_code": "AMD",
+        "lounge_code": "AMD02",
+        "lounge_name": "Adani Silver Lounge-International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.5
+      },
+      {
+        "city": "Amritsar",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ5D",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 3.6
+      },
+      {
+        "city": "Amritsar",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ6",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.1
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR10",
+        "lounge_name": "080 International Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR12",
+        "lounge_name": "080 Arrival",
+        "terminal": "Arrival Terminal 2",
+        "terminal_type": "International/ Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Chandigarh",
+        "airport_code": "IXC",
+        "lounge_code": "IXC5",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Chennai",
+        "airport_code": "MAA",
+        "lounge_code": "MAA02",
+        "lounge_name": "International Airport Chennai Travel Club Lounge - T2 Terminal",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Kochi",
+        "airport_code": "COK",
+        "lounge_code": "COK2",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Goa (Mopa)",
+        "airport_code": "GOX",
+        "lounge_code": "GOX01",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.0
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "airport_code": "GOI",
+        "lounge_code": "GOI02",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Hyderabad",
+        "airport_code": "HYD",
+        "lounge_code": "HYD02",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.6
+      },
+      {
+        "city": "Kannur",
+        "airport_code": "CNN",
+        "lounge_code": "CNN1",
+        "lounge_name": "International Kannaur Pearl Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 3.9
+      },
+      {
+        "city": "Kolkata",
+        "airport_code": "CCU",
+        "lounge_code": "CCU02",
+        "lounge_name": "Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Kolkata",
+        "airport_code": "CCU",
+        "lounge_code": "CCU04",
+        "lounge_name": "Travel Club Lounge Annex International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Lucknow",
+        "airport_code": "LKO",
+        "lounge_code": "LKO02",
+        "lounge_name": "Budweiser",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Madurai",
+        "airport_code": "IXM",
+        "lounge_code": "IXM1",
+        "lounge_name": "International Madurai Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 1.7
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL04",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 3 (T3I International)",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Srinagar",
+        "airport_code": "SXR",
+        "lounge_code": "SXR1",
+        "lounge_name": "Paahun The Executive Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.5
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "airport_code": "TRV",
+        "lounge_code": "TRV01",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.4
+      },
+      {
+        "city": "Tiruchirappalli",
+        "airport_code": "TRZ",
+        "lounge_code": "TRZ2",
+        "lounge_name": "International Airport Tiruchirappalli O’Vetra International Departure Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.9
+      },
+      {
+        "city": "Pune",
+        "airport_code": "PNQ",
+        "lounge_code": "PNQ5",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Bhogapuram",
+        "airport_code": "VOX",
+        "lounge_code": "VOX02",
+        "lounge_name": "Encalm",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 3.3
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM_T2I",
+        "lounge_name": "Adani Lounge (International T2)",
+        "terminal": "Terminal 2 (T2I International)",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.6
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM05",
+        "lounge_name": "Adani Silver Lounge (T2 International)",
+        "terminal": "Terminal 2 (T2I International)",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM_LOYALTY_T2I",
+        "lounge_name": "Loyalty Lounge (Terminal 2)",
+        "terminal": "Terminal 2 (T2I International)",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 3.7
+      },
+      {
+        "city": "Kochi",
+        "airport_code": "COK",
+        "lounge_code": "COK_EARTH",
+        "lounge_name": "Earth Lounge (International T3)",
+        "terminal": "Terminal 3 (T3I)",
+        "terminal_type": "International",
+        "matched_network": "Mastercard",
+        "google_rating": 4.6
+      }
+    ],
+    "participating_lounges_count": 26,
+    "domestic_lounge_accessible_count": 0,
+    "international_lounge_accessible_count": 26,
+    "accessible_lounge_codes": [
+      "AMD02",
+      "ATQ5D",
+      "ATQ6",
+      "BLR10",
+      "BLR12",
+      "IXC5",
+      "MAA02",
+      "COK2",
+      "GOX01",
+      "GOI02",
+      "HYD02",
+      "CNN1",
+      "CCU02",
+      "CCU04",
+      "LKO02",
+      "IXM1",
+      "DEL04",
+      "SXR1",
+      "TRV01",
+      "TRZ2",
+      "PNQ5",
+      "VOX02",
+      "BOM_T2I",
+      "BOM05",
+      "BOM_LOYALTY_T2I",
+      "COK_EARTH"
+    ],
+    "accessible_golf_slugs": []
   },
   "fees_and_charges_detailed": {
     "joining_fee_inr": 499,

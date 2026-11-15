@@ -198,7 +198,7 @@ export function CalmEntranceView({
 }: CalmEntranceViewProps) {
   return (
     <Animated.View
-      entering={FadeInDown.duration(340).delay(delayMs).springify().damping(20).stiffness(190)}
+      entering={FadeInDown.delay(delayMs).springify().damping(20).stiffness(190)}
       layout={enableLayout ? LinearTransition.duration(220) : undefined}
       style={style}
     >
@@ -215,7 +215,7 @@ interface AnimatedRevealProps {
 export function AnimatedReveal({ children, style }: AnimatedRevealProps) {
   return (
     <Animated.View
-      entering={FadeInDown.duration(260).springify().damping(20).stiffness(200)}
+      entering={FadeInDown.springify().damping(20).stiffness(200)}
       exiting={FadeOutUp.duration(180)}
       layout={LinearTransition.duration(220)}
       style={style}
@@ -380,7 +380,7 @@ export function Card3DTiltPressable({
       style={[animStyle, style, { overflow: 'hidden' }]}
     >
       {children}
-      <Animated.View pointerEvents="none" style={[styles.cardSheenBar, sheenStyle]} />
+      <Animated.View style={[styles.cardSheenBar, sheenStyle, { pointerEvents: 'none' }]} />
     </AnimatedPressable>
   );
 }
@@ -434,7 +434,7 @@ export function AiShimmerStrip() {
     transform: [{ translateX: x.value }, { skewX: '-18deg' }],
   }));
 
-  return <Animated.View pointerEvents="none" style={[styles.aiShimmerBar, animStyle]} />;
+  return <Animated.View style={[styles.aiShimmerBar, animStyle, { pointerEvents: 'none' }]} />;
 }
 
 const styles = StyleSheet.create({

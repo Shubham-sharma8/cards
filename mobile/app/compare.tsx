@@ -219,7 +219,7 @@ export default function CompareScreen() {
             onPress={() => {
               const names = dossiers.map((d) => d.identity.card_name).join(' vs ');
               const ids = dossiers.map((d) => d.identity.card_id).join(',');
-              const msg = `CardLedger Comparison: ${names}\nhttps://cardledger.in/compare?ids=${encodeURIComponent(ids)}`;
+              const msg = `Cardify Comparison: ${names}\nhttps://card.cogify.me/compare?ids=${encodeURIComponent(ids)}`;
               void openExternalUrlSafely(buildWhatsAppShareUrl(msg)).then((ok) => {
                 if (!ok) void shareComparisonSummary(dossiers);
               });

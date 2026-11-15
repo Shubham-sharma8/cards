@@ -168,3 +168,39 @@ export function matchesTokenizedQuery(
     .toLowerCase();
   return tokens.every((tok) => hay.includes(tok));
 }
+
+export interface FeeDisplayInfo {
+  isSplit: boolean;
+  label: string;
+  primaryText: string;
+  joiningText: string;
+  annualText: string | null;
+}
+
+/**
+ * Formats Joining Fee vs. Annual Fee:
+ * Shows both Joining and Annual when they differ; otherwise shows only Joining Fee.
+ */
+export function formatFeeDisplay(
+  joiningFeeInr: number | undefined | null,
+  annualFeeInr: number
+): FeeDisplayInfo {
+  const joining = joiningFeeInr ?? annualFeeInr;
+  const fmt = (val: number) => (val === 0 ? '₹0 (LTF)' : formatInr(val));
+  if (joining !== annualFeeInr) {
+    return {
+      isSplit: true,
+      label: 'Joining / Annual',
+      primaryText: `Join ${fmt(joining)} · Annual ${annualFeeInr === 0 ? '₹0' : formatInr(annualFeeInr)}`,
+      joiningText: joining === 0 ? '₹0' : formatInr(joining),
+      annualText: annualFeeInr === 0 ? '₹0' : formatInr(annualFeeInr),
+    };
+  }
+  return {
+    isSplit: false,
+    label: 'Joining Fee',
+    primaryText: fmt(joining),
+    joiningText: fmt(joining),
+    annualText: null,
+  };
+}

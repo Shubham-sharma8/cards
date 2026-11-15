@@ -13,8 +13,11 @@ import {
   AlertTriangle,
   Award,
   Building2,
+  Calendar,
   CheckCircle2,
+  ChevronDown,
   ChevronRight,
+  ChevronUp,
   Clock,
   ExternalLink,
   Flag,
@@ -70,7 +73,7 @@ import type {
   LoungeSpot,
 } from '../../src/lib/types';
 
-type SubTab = 'my_cards' | 'golf' | 'programs' | 'spots' | 'banks';
+type SubTab = 'my_cards' | 'golf' | 'matrix' | 'programs' | 'spots' | 'banks';
 
 interface SpotWithProgram extends LoungeSpot {
   key: string;
@@ -99,8 +102,8 @@ function findCardIdByPattern(
 
 export default function LoungesScreen() {
   const router = useRouter();
-  const params = useLocalSearchParams<{ subTab?: string; airport?: string }>();
-  const { ownedIds, toggleOwned, setOwnedIds, clearOwned } = useCompare();
+  const params = useLocalSearchParams<{ subTab?: string; airport?: string; card?: string }>();
+  const { ownedIds } = useCompare();
 
   const airportDirectory = useMemo(
     () => getAirportDirectory(LOUNGE_ACCESS_MASTER),
@@ -111,31 +114,39 @@ export default function LoungesScreen() {
     params.subTab === 'banks' ||
       params.subTab === 'spots' ||
       params.subTab === 'programs' ||
+      params.subTab === 'matrix' ||
       params.subTab === 'my_cards' ||
       params.subTab === 'golf'
       ? params.subTab
       : 'my_cards'
   );
+  const [focusedCardId, setFocusedCardId] = useState<string | null>(
+    params.card ? String(params.card).trim() : null
+  );
   const [selectedAirport, setSelectedAirport] = useState<string>('DEL');
   const [airportSearch, setAirportSearch] = useState('');
   const [airportHubFilter, setAirportHubFilter] = useState<'top' | 'intl' | 'all'>('top');
-  const [walletSearch, setWalletSearch] = useState('');
   const [terminalFilter, setTerminalFilter] = useState<'all' | 'domestic' | 'international'>('all');
   const [query, setQuery] = useState('');
   const [golfCourseQuery, setGolfCourseQuery] = useState('');
   const [golfFilter, setGolfFilter] = useState<'all' | 'games_lessons' | 'lessons' | 'unlimited'>('all');
-  const [golfSubSection, setGolfSubSection] = useState<'cards' | 'clubs' | 'steps'>('cards');
+  const [golfSubSection, setGolfSubSection] = useState<'cards' | 'clubs' | 'steps'>('clubs');
   const [expandedBlocked, setExpandedBlocked] = useState<Record<string, boolean>>({});
+  const [expandedSpendGated, setExpandedSpendGated] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     if (
       params.subTab === 'banks' ||
       params.subTab === 'spots' ||
       params.subTab === 'programs' ||
+      params.subTab === 'matrix' ||
       params.subTab === 'my_cards' ||
       params.subTab === 'golf'
     ) {
       setSubTab(params.subTab);
+    }
+    if (params.card !== undefined) {
+      setFocusedCardId(params.card ? String(params.card).trim() : null);
     }
     if (params.airport) {
       const code = params.airport.trim().toUpperCase();
@@ -144,7 +155,7 @@ export default function LoungesScreen() {
         setSubTab('my_cards');
       }
     }
-  }, [params.subTab, params.airport, airportDirectory]);
+  }, [params.subTab, params.airport, params.card, airportDirectory]);
 
   const cardById = useMemo(() => {
     const m = new Map<string, CardSummaryItem>();
@@ -160,6 +171,16 @@ export default function LoungesScreen() {
         .map((id) => cardById.get(id))
         .filter((c): c is CardSummaryItem => Boolean(c)),
     [ownedIds, cardById]
+  );
+
+  const focusedCard = useMemo(
+    () => (focusedCardId ? cardById.get(focusedCardId) ?? null : null),
+    [focusedCardId, cardById]
+  );
+
+  const activeEvalCards = useMemo(
+    () => (focusedCard ? [focusedCard] : ownedCards),
+    [focusedCard, ownedCards]
   );
 
   const golfEligibleCards = useMemo(() => {
@@ -225,22 +246,40 @@ export default function LoungesScreen() {
       .filter((a): a is NonNullable<typeof a> => Boolean(a));
   }, [airportDirectory, airportSearch, airportHubFilter]);
 
-  const walletSearchMatches = useMemo(() => {
-    if (!walletSearch.trim()) return [];
-    return ALL_CARDS.filter((c) =>
-      matchesTokenizedQuery(walletSearch, c.bank, c.card_name, c.card_network)
-    ).slice(0, 6);
-  }, [walletSearch]);
-
   const airportReport = useMemo(
     () =>
       evaluateAirportForOwnedCards(
         selectedAirport,
         LOUNGE_ACCESS_MASTER,
-        ownedCards
+        activeEvalCards
       ),
-    [selectedAirport, ownedCards]
+    [selectedAirport, activeEvalCards]
   );
+
+  const cardToLoungeRows = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const list = (LOUNGE_ACCESS_MASTER.participating_indian_airport_lounges || []).filter((spot) => {
+      if (focusedCard) {
+        const codes = new Set((focusedCard.accessible_lounge_codes || []).map((x) => x.toUpperCase()));
+        if (spot.lounge_code && !codes.has(spot.lounge_code.toUpperCase())) return false;
+      }
+      if (!q) return true;
+      const sampleCardHit = [...(spot.eligible_no_spend_card_ids || []), ...(spot.eligible_low_spend_card_ids || [])]
+        .slice(0, 20)
+        .some((cid) => {
+          const c = cardById.get(cid);
+          return c ? c.card_name.toLowerCase().includes(q) || c.bank.toLowerCase().includes(q) : false;
+        });
+      return (
+        spot.city.toLowerCase().includes(q) ||
+        spot.lounge_name.toLowerCase().includes(q) ||
+        spot.airport_code.toLowerCase().includes(q) ||
+        spot.terminal.toLowerCase().includes(q) ||
+        sampleCardHit
+      );
+    });
+    return list;
+  }, [query, focusedCard, cardById]);
 
   const programs = useMemo(
     () =>
@@ -460,6 +499,7 @@ export default function LoungesScreen() {
       >
         {[
           { id: 'my_cards' as SubTab, label: 'Airport Check', icon: 'wallet' },
+          { id: 'matrix' as SubTab, label: 'Card-Lounge Table', icon: 'pin' },
           { id: 'golf' as SubTab, label: 'Golf Claim', icon: 'golf' },
           {
             id: 'programs' as SubTab,
@@ -503,6 +543,29 @@ export default function LoungesScreen() {
         })}
       </ScrollView>
 
+      {/* Focused Card Banner (when launched from My Cards Check Airport & Golf) */}
+      {focusedCard && (
+        <View style={styles.compactGuideBanner}>
+          <View style={{ flex: 1, gap: 2 }}>
+            <Text style={styles.compactGuideText} numberOfLines={1}>
+              Filtering Airport &amp; Golf for {focusedCard.card_name}
+            </Text>
+            <Text style={styles.spotNote} numberOfLines={1}>
+              {focusedCard.domestic_lounge_accessible_count || 0} Indian lounges · {(focusedCard.accessible_golf_slugs || []).length} golf clubs
+            </Text>
+          </View>
+          <ScalePressable
+            onPress={() => {
+              setFocusedCardId(null);
+              router.setParams({ card: undefined } as never);
+            }}
+            style={styles.spotPortalPill}
+          >
+            <Text style={styles.spotPortalPillText}>Show All</Text>
+          </ScalePressable>
+        </View>
+      )}
+
       {subTab !== 'my_cards' && subTab !== 'golf' && (
         <>
           <View style={styles.searchBox}>
@@ -516,9 +579,11 @@ export default function LoungesScreen() {
               placeholder={
                 subTab === 'programs'
                   ? 'Search bank or city (HDFC, Delhi, T3)...'
-                  : subTab === 'spots'
-                    ? 'Search city, terminal, or lounge...'
-                    : `Search ${TOTAL_BANKS} Indian issuing banks...`
+                  : subTab === 'matrix'
+                    ? 'Search lounge, city (DEL, BOM) or card name...'
+                    : subTab === 'spots'
+                      ? 'Search city, terminal, or lounge...'
+                      : `Search ${TOTAL_BANKS} Indian issuing banks...`
               }
               placeholderTextColor={LedgerTheme.colors.inkMuted}
               style={styles.searchInput}
@@ -684,131 +749,25 @@ export default function LoungesScreen() {
           </View>
         </View>
 
-        {/* Owned Wallet Selector */}
-        <View style={[styles.card, { marginTop: 14 }]}>
+        {/* Quiet My Cards Status Bar (Removed bulky "Your Wallet" panel) */}
+        <ScalePressable
+          onPress={() => router.push('/(tabs)/my-cards' as never)}
+          style={[styles.card, { marginTop: 14, paddingVertical: 12 }]}
+        >
           <View style={styles.sectionTopRow}>
-            <Text style={styles.sectionTitle}>
-              2. Your Wallet ({ownedCards.length})
-            </Text>
-            <View style={{ flexDirection: 'row', gap: 12 }}>
-              {ownedCards.length > 0 && (
-                <ScalePressable onPress={clearOwned} hitSlop={8}>
-                  <Text style={styles.clearLink}>Clear</Text>
-                </ScalePressable>
-              )}
-              <ScalePressable onPress={() => router.push('/(tabs)/my-cards' as never)} hitSlop={8}>
-                <Text style={styles.manageLink}>My Cards →</Text>
-              </ScalePressable>
-            </View>
-          </View>
-
-          <View style={styles.searchBoxInner}>
-            <Search size={16} color={LedgerTheme.colors.inkMuted} />
-            <TextInput
-              value={walletSearch}
-              onChangeText={setWalletSearch}
-              placeholder="Add card to test (Regalia Gold, Airtel Axis, HSBC Live+)..."
-              placeholderTextColor={LedgerTheme.colors.inkMuted}
-              style={styles.searchInput}
-            />
-            {walletSearch.length > 0 && (
-              <ScalePressable onPress={() => setWalletSearch('')} hitSlop={8}>
-                <X size={16} color={LedgerTheme.colors.inkMuted} />
-              </ScalePressable>
-            )}
-          </View>
-
-          {walletSearchMatches.length > 0 && (
-            <AnimatedReveal style={styles.dropdownBox}>
-              {walletSearchMatches.map((c) => {
-                const owned = ownedIds.includes(c.card_id);
-                return (
-                  <ScalePressable
-                    key={c.card_id}
-                    onPress={() => {
-                      triggerCalmLayoutTransition();
-                      toggleOwned(c.card_id);
-                      setWalletSearch('');
-                    }}
-                    style={styles.dropdownRow}
-                  >
-                    <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="xs" />
-                    <View style={{ flex: 1 }}>
-                      <Text style={styles.dropdownTitle}>{c.card_name}</Text>
-                      <Text style={styles.dropdownSub}>
-                        {c.card_network || 'Network'} ·{' '}
-                        {c.domestic_lounge_summary || 'No domestic lounge'}
-                      </Text>
-                    </View>
-                    <Text
-                      style={[
-                        styles.dropdownTag,
-                        owned && { color: LedgerTheme.colors.accent },
-                      ]}
-                    >
-                      {owned ? 'Owned ✓' : '+ Add'}
-                    </Text>
-                  </ScalePressable>
-                );
-              })}
-            </AnimatedReveal>
-          )}
-
-          {ownedCards.length > 0 ? (
-            <View style={styles.ownedChipsWrap}>
-              {ownedCards.map((c) => (
-                <ScalePressable
-                  key={c.card_id}
-                  onPress={() => {
-                    triggerCalmLayoutTransition();
-                    toggleOwned(c.card_id);
-                  }}
-                  style={styles.ownedChip}
-                >
-                  <BankLogo bankSlug={c.bank_slug} bank={c.bank} size="xs" />
-                  <Text numberOfLines={1} style={styles.ownedChipText}>
-                    {c.card_name}
-                  </Text>
-                  <X size={14} color={LedgerTheme.colors.inkSecondary} />
-                </ScalePressable>
-              ))}
-            </View>
-          ) : (
-            <View style={styles.presetBox}>
-              <Text style={styles.presetText}>
-                Add cards you own above, or load a test stack to check {airportReport.city} ({airportReport.airportCode}) lounges:
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, flex: 1 }}>
+              <Wallet size={16} color={LedgerTheme.colors.accent} />
+              <Text style={styles.sectionTitle} numberOfLines={1}>
+                {focusedCard
+                  ? `Checking 1 card: ${focusedCard.card_name}`
+                  : ownedCards.length > 0
+                    ? `Checking ${ownedCards.length} Saved Card${ownedCards.length === 1 ? '' : 's'} from My Cards`
+                    : 'No Saved Cards Yet — Add in My Cards'}
               </Text>
-              <View style={styles.presetWrap}>
-                {quickPresets.trio.length > 0 && (
-                  <ScalePressable
-                    onPress={() => {
-                      triggerCalmLayoutTransition();
-                      setOwnedIds(quickPresets.trio);
-                    }}
-                    style={styles.presetPrimary}
-                  >
-                    <Plus size={14} color={LedgerTheme.colors.surface} />
-                    <Text style={styles.presetPrimaryText}>
-                      Test Regalia Gold + Airtel Axis + HSBC Live+
-                    </Text>
-                  </ScalePressable>
-                )}
-                {quickPresets.items.map((p) => (
-                  <ScalePressable
-                    key={p.id}
-                    onPress={() => {
-                      triggerCalmLayoutTransition();
-                      toggleOwned(p.id);
-                    }}
-                    style={styles.presetSecondary}
-                  >
-                    <Text style={styles.presetSecondaryText}>{p.label}</Text>
-                  </ScalePressable>
-                ))}
-              </View>
             </View>
-          )}
-        </View>
+            <Text style={styles.manageLink}>My Cards →</Text>
+          </View>
+        </ScalePressable>
 
         {/* Verdict Banner */}
         <View style={[styles.card, { marginTop: 14 }]}>
@@ -820,12 +779,12 @@ export default function LoungesScreen() {
             Lounge{airportReport.totalSpots === 1 ? '' : 's'}
           </Text>
           <Text style={styles.spotSub}>
-            {ownedCards.length === 0
-              ? `Listing all participating terminals at ${airportReport.city}. Add your cards above to verify terminal eligibility.`
-              : `With ${ownedCards.length} owned card${ownedCards.length === 1 ? '' : 's'}: ${airportReport.accessibleNoSpendCount} unconditional, ${airportReport.spendGatedCount} spend-gated, ${airportReport.notCoveredCount} not covered.`}
+            {activeEvalCards.length === 0
+              ? `Listing all participating terminals at ${airportReport.city}. Add your cards in My Cards to verify entry automatically.`
+              : `With ${activeEvalCards.length} active card${activeEvalCards.length === 1 ? '' : 's'}: ${airportReport.accessibleNoSpendCount} unconditional, ${airportReport.spendGatedCount} spend-gated, ${airportReport.notCoveredCount} not covered.`}
           </Text>
 
-          {ownedCards.length > 0 && airportReport.totalSpots > 0 && (
+          {activeEvalCards.length > 0 && airportReport.totalSpots > 0 && (
             <View style={styles.coverageWrap}>
               {(() => {
                 const covered =
@@ -942,48 +901,57 @@ export default function LoungesScreen() {
         {/* Terminal Spot Cards */}
         <View style={{ gap: 16, marginTop: 12 }}>
           {airportReport.spotEvaluations
-            .filter((ev) =>
-              terminalFilter === 'all'
+            .filter((ev) => {
+              if (focusedCard && ev.verdict === 'not_covered') return false;
+              return terminalFilter === 'all'
                 ? true
                 : /international/i.test(ev.spot.terminal_type) ===
-                  (terminalFilter === 'international')
-            )
+                  (terminalFilter === 'international');
+            })
             .map((ev) => {
             const { spot, verdict, noSpendCards, spendGatedCards, blockedCards, bestLoungeBadge, claimPortals } = ev;
             const isIntl = /international/i.test(spot.terminal_type);
             const coverImg = getLoungePhotoSource(spot.local_photo_path, isIntl);
+            const spendExpanded = Boolean(expandedSpendGated[spot.lounge_code]);
             return (
               <CalmFilterItem key={spot.lounge_code}>
                 <View style={[styles.card, styles.spotCardBleed, bestLoungeBadge && styles.bestTerminalCard]}>
-                  <View style={styles.spotCoverWrap}>
-                    <Image source={coverImg} style={styles.spotCoverImg} />
-                    <View style={styles.spotCoverOverlay}>
-                      <View style={styles.termBadgeOverlay}>
-                        <Text style={styles.termBadgeOverlayText}>{spot.terminal}</Text>
-                      </View>
-                      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
-                        {typeof spot.google_rating === 'number' && (
-                          <View style={styles.googleRatingOverlay}>
-                            <Star size={11} color="#FBBF24" fill="#FBBF24" />
-                            <Text style={styles.googleRatingOverlayText}>
-                              {spot.google_rating.toFixed(1)}
-                              {spot.google_review_count
-                                ? ` (${spot.google_review_count.toLocaleString('en-IN')})`
-                                : ''}
-                            </Text>
-                          </View>
-                        )}
-                        {bestLoungeBadge ? (
-                          <View style={styles.bestBadgePill}>
-                            <Award size={11} color={LedgerTheme.colors.surface} />
-                            <Text style={styles.bestBadgeText}>{bestLoungeBadge.label}</Text>
-                          </View>
-                        ) : null}
+                  <ScalePressable
+                    onPress={() => router.push(`/lounge/${spot.lounge_code}` as never)}
+                  >
+                    <View style={styles.spotCoverWrap}>
+                      <Image source={coverImg} style={styles.spotCoverImg} />
+                      <View style={styles.spotCoverOverlay}>
+                        <View style={styles.termBadgeOverlay}>
+                          <Text style={styles.termBadgeOverlayText}>{spot.terminal}</Text>
+                        </View>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                          {typeof spot.google_rating === 'number' && (
+                            <View style={styles.googleRatingOverlay}>
+                              <Star size={11} color="#FBBF24" fill="#FBBF24" />
+                              <Text style={styles.googleRatingOverlayText}>
+                                {spot.google_rating.toFixed(1)}
+                                {spot.google_review_count
+                                  ? ` (${spot.google_review_count.toLocaleString('en-IN')})`
+                                  : ''}
+                              </Text>
+                            </View>
+                          )}
+                          {bestLoungeBadge ? (
+                            <View style={styles.bestBadgePill}>
+                              <Award size={11} color={LedgerTheme.colors.surface} />
+                              <Text style={styles.bestBadgeText}>{bestLoungeBadge.label}</Text>
+                            </View>
+                          ) : null}
+                        </View>
                       </View>
                     </View>
-                  </View>
+                  </ScalePressable>
                   <View style={styles.spotCardBody}>
-                  <View style={styles.cardHeader}>
+                  <ScalePressable
+                    onPress={() => router.push(`/lounge/${spot.lounge_code}` as never)}
+                    style={styles.cardHeader}
+                  >
                     <View style={{ flex: 1, gap: 6 }}>
                       <View style={styles.cityRow}>
                         <View
@@ -1008,7 +976,7 @@ export default function LoungesScreen() {
                       ) : null}
                     </View>
 
-                    {ownedCards.length > 0 && (
+                    {activeEvalCards.length > 0 && (
                       <View
                         style={[
                           styles.verdictPill,
@@ -1044,7 +1012,7 @@ export default function LoungesScreen() {
                         </Text>
                       </View>
                     )}
-                  </View>
+                  </ScalePressable>
 
                   <Text style={styles.spotAcceptLine}>
                     Accepts: {spot.accepted_networks.join(' · ')}
@@ -1094,42 +1062,61 @@ export default function LoungesScreen() {
                   )}
 
                   {spendGatedCards.length > 0 && (
-                    <View style={{ gap: 8 }}>
-                      <Text style={styles.cardUseLabelWarn}>Requires Prior Spend</Text>
-                      {spendGatedCards.map((item) => (
-                        <ScalePressable
-                          key={`sg-${item.card.card_id}`}
-                          onPress={() =>
-                            router.push({
-                              pathname: '/card/[bankSlug]/[cardSlug]',
-                              params: {
-                                bankSlug: item.card.bank_slug,
-                                cardSlug: item.card.card_slug,
-                              },
-                            })
-                          }
-                          style={styles.qualWarnBox}
-                        >
-                          <View style={styles.qualTopRow}>
-                            <BankLogo
-                              bankSlug={item.card.bank_slug}
-                              bank={item.card.bank}
-                              size="xs"
-                            />
-                            <Text style={styles.qualCardName} numberOfLines={1}>
-                              {item.card.card_name}
-                            </Text>
-                            <View style={styles.quotaPillWarn}>
-                              <Text style={styles.quotaPillWarnText}>
-                                {getShortSpendLabel(item.spendCondition)}
+                    <View style={styles.blockedCollapseWrap}>
+                      <ScalePressable
+                        onPress={() =>
+                          setExpandedSpendGated((prev) => ({
+                            ...prev,
+                            [spot.lounge_code]: !prev[spot.lounge_code],
+                          }))
+                        }
+                        style={[styles.blockedToggleBtn, { backgroundColor: '#FEF6EA', borderColor: '#E9CFA6' }]}
+                      >
+                        <Text style={[styles.blockedToggleText, { color: '#9A5B13' }]}>
+                          {spendGatedCards.length} spend-gated card{spendGatedCards.length === 1 ? '' : 's'} (prior spend required)
+                        </Text>
+                        <Text style={[styles.blockedToggleAction, { color: '#9A5B13' }]}>
+                          {spendExpanded ? 'Hide' : 'Show'}
+                        </Text>
+                      </ScalePressable>
+                      {spendExpanded && (
+                        <View style={{ gap: 8, marginTop: 8 }}>
+                          {spendGatedCards.map((item) => (
+                            <ScalePressable
+                              key={`sg-${item.card.card_id}`}
+                              onPress={() =>
+                                router.push({
+                                  pathname: '/card/[bankSlug]/[cardSlug]',
+                                  params: {
+                                    bankSlug: item.card.bank_slug,
+                                    cardSlug: item.card.card_slug,
+                                  },
+                                })
+                              }
+                              style={styles.qualWarnBox}
+                            >
+                              <View style={styles.qualTopRow}>
+                                <BankLogo
+                                  bankSlug={item.card.bank_slug}
+                                  bank={item.card.bank}
+                                  size="xs"
+                                />
+                                <Text style={styles.qualCardName} numberOfLines={1}>
+                                  {item.card.card_name}
+                                </Text>
+                                <View style={styles.quotaPillWarn}>
+                                  <Text style={styles.quotaPillWarnText}>
+                                    {getShortSpendLabel(item.spendCondition)}
+                                  </Text>
+                                </View>
+                              </View>
+                              <Text style={styles.qualOneLinerWarn} numberOfLines={1}>
+                                {getShortQuotaLabel(item.quotaSummary)} · {item.matchedNetwork}
                               </Text>
-                            </View>
-                          </View>
-                          <Text style={styles.qualOneLinerWarn} numberOfLines={1}>
-                            {getShortQuotaLabel(item.quotaSummary)} · {item.matchedNetwork}
-                          </Text>
-                        </ScalePressable>
-                      ))}
+                            </ScalePressable>
+                          ))}
+                        </View>
+                      )}
                     </View>
                   )}
 
@@ -1175,29 +1162,26 @@ export default function LoungesScreen() {
                     </Text>
                   ) : null}
                   <View style={styles.spotPortalRow}>
+                    <ScalePressable
+                      onPress={() => router.push(`/lounge/${spot.lounge_code}` as never)}
+                      style={styles.spotPortalPillPrimary}
+                    >
+                      <Text style={styles.spotPortalPillPrimaryText}>
+                        Details, 6 Photos &amp; Reviews
+                      </Text>
+                      <ChevronRight size={13} color="#FFFFFF" />
+                    </ScalePressable>
                     {claimPortals[0] ? (
                       <ScalePressable
                         onPress={() => openUrl(claimPortals[0].url)}
-                        style={styles.spotPortalPillPrimary}
+                        style={styles.spotPortalPill}
                       >
-                        <QrCode size={13} color="#FFFFFF" />
-                        <Text style={styles.spotPortalPillPrimaryText}>
-                          Claim QR ({claimPortals[0].name})
+                        <QrCode size={12} color={LedgerTheme.colors.accent} />
+                        <Text style={styles.spotPortalPillText}>
+                          {claimPortals[0].name}
                         </Text>
-                        <ExternalLink size={12} color="#FFFFFF" />
                       </ScalePressable>
                     ) : null}
-                    <ScalePressable
-                      onPress={() =>
-                        router.push({
-                          pathname: '/lounge-guide',
-                          params: { airport: airportReport.airportCode, section: 'steps' },
-                        } as never)
-                      }
-                      style={styles.spotPortalPill}
-                    >
-                      <Text style={styles.spotPortalPillText}>Steps</Text>
-                    </ScalePressable>
                     {spot.google_maps_url ? (
                       <ScalePressable
                         onPress={() => openUrl(spot.google_maps_url!)}
@@ -1213,6 +1197,67 @@ export default function LoungesScreen() {
               </CalmFilterItem>
             );
           })}
+        </View>
+      </ScrollView>
+    );
+  }
+
+  if (subTab === 'matrix') {
+    return (
+      <ScrollView
+        style={{ flex: 1, backgroundColor: LedgerTheme.colors.canvas }}
+        contentContainerStyle={styles.listContent}
+      >
+        {segmentedHeader}
+        <View style={styles.card}>
+          <Text style={styles.sectionTitle}>
+            Which Card Works at Which Lounge ({cardToLoungeRows.length} Indian Lounges)
+          </Text>
+          <Text style={styles.spotSub}>
+            Spend-free cards appear first for every terminal. Tap any lounge to inspect photos, reviews, hours &amp; live wallet status.
+          </Text>
+          <View style={{ gap: 10 }}>
+            {cardToLoungeRows.slice(0, 80).map((spot) => {
+              const noSpend = (spot.eligible_no_spend_card_ids || [])
+                .map((id) => cardById.get(id))
+                .filter((c): c is CardSummaryItem => Boolean(c));
+              const lowSpend = (spot.eligible_low_spend_card_ids || [])
+                .map((id) => cardById.get(id))
+                .filter((c): c is CardSummaryItem => Boolean(c));
+              return (
+                <ScalePressable
+                  key={`mtx-${spot.lounge_code}`}
+                  onPress={() => router.push(`/lounge/${spot.lounge_code}` as never)}
+                  style={{
+                    backgroundColor: LedgerTheme.colors.canvas,
+                    borderWidth: 1,
+                    borderColor: LedgerTheme.colors.hairline,
+                    borderRadius: 12,
+                    padding: 12,
+                    gap: 6,
+                  }}
+                >
+                  <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}>
+                    <Text style={[styles.cardTitle, { fontSize: 14.5, flex: 1 }]} numberOfLines={1}>
+                      {spot.city} ({spot.airport_code}) · {spot.lounge_name}
+                    </Text>
+                    <ChevronRight size={15} color={LedgerTheme.colors.accent} />
+                  </View>
+                  <Text style={styles.spotNote} numberOfLines={1}>
+                    {spot.terminal} · {spot.terminal_type}
+                    {spot.google_rating ? ` · ★ ${spot.google_rating.toFixed(1)}` : ''}
+                  </Text>
+                  <Text style={{ fontSize: 12, color: LedgerTheme.colors.accent, fontWeight: '600' }} numberOfLines={2}>
+                    Spend-free ({noSpend.length + lowSpend.length}):{' '}
+                    {[...noSpend, ...lowSpend]
+                      .slice(0, 4)
+                      .map((c) => c.card_name)
+                      .join(', ') || 'Check portal'}
+                  </Text>
+                </ScalePressable>
+              );
+            })}
+          </View>
         </View>
       </ScrollView>
     );
@@ -1387,15 +1432,23 @@ export default function LoungesScreen() {
             </View>
             <View style={{ gap: 12 }}>
               {GOLF_CLUBS_MASTER.clubs
-                .filter(
-                  (cl) =>
+                .filter((cl) => {
+                  if (focusedCard && focusedCard.accessible_golf_slugs?.length) {
+                    if (!focusedCard.accessible_golf_slugs.includes(cl.slug)) return false;
+                  }
+                  return (
                     !gq ||
                     cl.club_name.toLowerCase().includes(gq) ||
                     cl.city.toLowerCase().includes(gq) ||
                     (cl.formatted_address || '').toLowerCase().includes(gq)
-                )
+                  );
+                })
                 .map((club) => (
-                  <View key={club.slug} style={styles.golfClubCard}>
+                  <ScalePressable
+                    key={club.slug}
+                    onPress={() => router.push(`/lounge/${club.slug}` as never)}
+                    style={styles.golfClubCard}
+                  >
                     <View style={styles.golfClubCoverWrap}>
                       <Image
                         source={getGolfPhotoSource(club.local_photo_path)}
@@ -1425,7 +1478,7 @@ export default function LoungesScreen() {
                       </Text>
                       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 6, alignItems: 'center', justifyContent: 'space-between' }}>
                         <View style={styles.countBadge}>
-                          <Text style={styles.countBadgeText}>Golf Club · {club.city}</Text>
+                          <Text style={styles.countBadgeText}>Details, Photos &amp; Cards →</Text>
                         </View>
                         {club.google_maps_url ? (
                           <ScalePressable
@@ -1439,7 +1492,7 @@ export default function LoungesScreen() {
                         ) : null}
                       </View>
                     </View>
-                  </View>
+                  </ScalePressable>
                 ))}
             </View>
           </View>

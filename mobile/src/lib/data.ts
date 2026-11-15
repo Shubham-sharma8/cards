@@ -162,3 +162,31 @@ export function getMatchedLoungesForProgramIds(programIds: string[]): LoungeSpot
   }
   return spots;
 }
+
+export function getAccessibleIndianLoungesForCard(cardId: string) {
+  const card = ALL_CARDS.find((c) => c.card_id === cardId);
+  const codeSet = new Set((card?.accessible_lounge_codes || []).map((c) => c.toUpperCase()));
+  return (LOUNGE_ACCESS_MASTER.participating_indian_airport_lounges || []).filter((spot) => {
+    if (spot.lounge_code && codeSet.has(spot.lounge_code.toUpperCase())) return true;
+    const allIds = [
+      ...(spot.eligible_no_spend_card_ids || []),
+      ...(spot.eligible_low_spend_card_ids || []),
+      ...(spot.eligible_high_spend_card_ids || []),
+      ...(spot.verified_cardmaven_card_ids || []),
+    ];
+    return allIds.includes(cardId);
+  });
+}
+
+export function getAccessibleGolfClubsForCard(cardId: string) {
+  const card = ALL_CARDS.find((c) => c.card_id === cardId);
+  const slugSet = new Set(card?.accessible_golf_slugs || []);
+  return (GOLF_CLUBS_MASTER.clubs || []).filter((club) => {
+    if (slugSet.has(club.slug)) return true;
+    const allIds = [
+      ...(club.eligible_no_spend_card_ids || []),
+      ...(club.eligible_high_spend_card_ids || []),
+    ];
+    return allIds.includes(cardId);
+  });
+}

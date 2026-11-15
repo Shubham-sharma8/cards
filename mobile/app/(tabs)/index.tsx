@@ -45,7 +45,7 @@ import {
   matchCardForDevalMention,
   splitDevalSummaryClauses,
 } from '../../src/lib/devaluations';
-import { formatInr, matchesTokenizedQuery } from '../../src/lib/format';
+import { formatFeeDisplay, formatInr, matchesTokenizedQuery } from '../../src/lib/format';
 import { openExternalUrlSafely } from '../../src/lib/security';
 import { resolveOpenMediaSource } from '../../src/lib/openMedia';
 import { LedgerTheme } from '../../src/lib/theme';
@@ -358,14 +358,22 @@ export default function DiscoverScreen() {
                               </View>
 
                               <View style={styles.showcaseFooter}>
-                                <View>
-                                  <Text style={styles.showcaseMetricLabel}>Annual Fee</Text>
-                                  <Text style={styles.showcaseMetricVal}>
-                                    {card.annual_fee_inr === 0
-                                      ? '₹0 (LTF)'
-                                      : formatInr(card.annual_fee_inr)}
-                                  </Text>
-                                </View>
+                                {(() => {
+                                  const feeInfo = formatFeeDisplay(
+                                    card.joining_fee_inr,
+                                    card.annual_fee_inr
+                                  );
+                                  return (
+                                    <View style={{ flex: 1, paddingRight: 6 }}>
+                                      <Text style={styles.showcaseMetricLabel}>{feeInfo.label}</Text>
+                                      <Text style={styles.showcaseMetricVal} numberOfLines={1}>
+                                        {feeInfo.isSplit
+                                          ? `${feeInfo.joiningText} / ${feeInfo.annualText}`
+                                          : feeInfo.primaryText}
+                                      </Text>
+                                    </View>
+                                  );
+                                })()}
                                 {peakPct > 0 && (
                                   <View style={{ alignItems: 'flex-end' }}>
                                     <Text style={styles.showcaseMetricLabel}>Peak Reward</Text>

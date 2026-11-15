@@ -47,6 +47,8 @@ import {
   ALL_CARDS,
   DEVALUATION_TRACKER,
   getDossierBySlugs,
+  getAccessibleGolfClubsForCard,
+  getAccessibleIndianLoungesForCard,
   getMatchedLoungesForProgramIds,
 } from '../../../src/lib/data';
 import { splitDevalSummaryClauses } from '../../../src/lib/devaluations';
@@ -61,6 +63,7 @@ import { exportSingleCardPdfMobile, shareCardSummary } from '../../../src/lib/pd
 import { getBankHelpBySlug } from '../../../src/lib/bankHelpDirectory';
 import type { RewardConversionStrategy } from '../../../src/lib/types';
 import {
+  formatFeeDisplay,
   formatInr,
   formatLoungeQuota,
   roleLabel,
@@ -207,12 +210,38 @@ export default function CardDossierScreen() {
     [dossier]
   );
 
+  const accessibleIndianLounges = useMemo(
+    () => (dossier ? getAccessibleIndianLoungesForCard(dossier.identity.card_id) : []),
+    [dossier]
+  );
+
+  const accessibleGolfClubs = useMemo(
+    () => (dossier ? getAccessibleGolfClubsForCard(dossier.identity.card_id) : []),
+    [dossier]
+  );
+
+  const cardSummaryMeta = useMemo(
+    () =>
+      dossier ? ALL_CARDS.find((c) => c.card_id === dossier.identity.card_id) ?? null : null,
+    [dossier]
+  );
+
+  const domesticIndiaLoungeCount = useMemo(() => {
+    if (cardSummaryMeta?.domestic_lounge_accessible_count != null) {
+      return cardSummaryMeta.domestic_lounge_accessible_count;
+    }
+    return accessibleIndianLounges.filter(
+      (s) => !String(s.terminal_type || '').toLowerCase().includes('international')
+    ).length;
+  }, [accessibleIndianLounges, cardSummaryMeta]);
+
   const relatedRows = useMemo(
     () => (dossier ? getRelatedCardFeatureRowsForMobile(dossier) : []),
     [dossier]
   );
 
   const [activeTab, setActiveTab] = useState<SectionTab>('overview');
+  const [benefitGroupFilter, setBenefitGroupFilter] = useState<'all' | 'highlights' | 'welcome' | 'milestones'>('all');
   const [loungeQuery, setLoungeQuery] = useState('');
   const [openFaqIdx, setOpenFaqIdx] = useState<number | null>(0);
   const [openDevalIdx, setOpenDevalIdx] = useState<number | null>(0);
@@ -261,18 +290,36 @@ export default function CardDossierScreen() {
     return out;
   }, [dossier]);
 
-  const filteredLounges = useMemo(() => {
+  const displayLounges = useMemo(() => {
+    const base =
+      accessibleIndianLounges.length > 0
+        ? accessibleIndianLounges.map((s) => ({
+            lounge_code: s.lounge_code,
+            city: s.city,
+            lounge_name: s.lounge_name,
+            terminal: s.terminal,
+            terminal_type: s.terminal_type,
+            google_rating: s.google_rating,
+          }))
+        : matchedLounges.map((s) => ({
+            lounge_code: undefined as string | undefined,
+            city: s.city,
+            lounge_name: s.lounge_name,
+            terminal: s.terminal,
+            terminal_type: s.terminal_type,
+            google_rating: undefined as number | undefined,
+          }));
     const q = loungeQuery.trim().toLowerCase();
     const list = !q
-      ? matchedLounges
-      : matchedLounges.filter(
+      ? base
+      : base.filter(
           (s) =>
             s.city.toLowerCase().includes(q) ||
             s.lounge_name.toLowerCase().includes(q) ||
             s.terminal.toLowerCase().includes(q)
         );
-    return list.slice(0, 60);
-  }, [matchedLounges, loungeQuery]);
+    return list.slice(0, 120);
+  }, [accessibleIndianLounges, matchedLounges, loungeQuery]);
 
   const simResult = useMemo(() => {
     if (!dossier) return null;
@@ -860,13 +907,45 @@ export default function CardDossierScreen() {
 
           {/* Key Numbers Strip */}
           <View style={styles.keyGrid}>
+            {(() => {
+              const feeInfo = formatFeeDisplay(fees.joining_fee_inr, fees.annual_fee_inr);
+              if (feeInfo.isSplit) {
+                return (
+                  <>
+                    <View style={styles.keyCell}>
+                      <View style={styles.keyLabelRow}>
+                        <IndianRupee size={12} color={LedgerTheme.colors.accent} />
+                        <Text style={styles.keyLabel}>Joining Fee</Text>
+                      </View>
+                      <Text style={styles.keyVal}>{feeInfo.joiningText}</Text>
+                    </View>
+                    <View style={styles.keyCell}>
+                      <View style={styles.keyLabelRow}>
+                        <CalendarCheck size={12} color={LedgerTheme.colors.accent} />
+                        <Text style={styles.keyLabel}>Annual Fee</Text>
+                      </View>
+                      <Text style={styles.keyVal}>{feeInfo.annualText}</Text>
+                    </View>
+                  </>
+                );
+              }
+              return (
+                <View style={styles.keyCell}>
+                  <View style={styles.keyLabelRow}>
+                    <IndianRupee size={12} color={LedgerTheme.colors.accent} />
+                    <Text style={styles.keyLabel}>Joining Fee</Text>
+                  </View>
+                  <Text style={styles.keyVal}>{feeInfo.primaryText}</Text>
+                </View>
+              );
+            })()}
             <View style={styles.keyCell}>
               <View style={styles.keyLabelRow}>
-                <IndianRupee size={12} color={LedgerTheme.colors.accent} />
-                <Text style={styles.keyLabel}>Annual Fee</Text>
+                <Plane size={12} color={LedgerTheme.colors.accent} />
+                <Text style={styles.keyLabel}>India Lounges</Text>
               </View>
               <Text style={styles.keyVal}>
-                {fees.annual_fee_inr === 0 ? '₹0 (LTF)' : formatInr(fees.annual_fee_inr)}
+                {domesticIndiaLoungeCount > 0 ? `${domesticIndiaLoungeCount} lounges` : domLoungeQuota}
               </Text>
             </View>
             <View style={styles.keyCell}>
@@ -906,7 +985,7 @@ export default function CardDossierScreen() {
           [
             ['overview', 'Overview'],
             ['rewards', 'Calc & Rates'],
-            ['lounges', `Lounges (${matchedLounges.length})`],
+            ['lounges', `Lounges (${accessibleIndianLounges.length || matchedLounges.length})`],
             ['fees', 'Fees & Eligibility'],
             ['devals', 'Deval & FAQs'],
           ] as Array<[SectionTab, string]>
@@ -1150,33 +1229,60 @@ export default function CardDossierScreen() {
             (dossier.benefits_features_and_faqs.highlights || []).length > 0 ||
             (dossier.benefits_features_and_faqs.milestone_benefits || []).length > 0) && (
             <View style={styles.panel}>
-              <Text style={styles.panelTitle}>Key Highlights, Welcome & Milestone Benefits</Text>
-              {(dossier.benefits_features_and_faqs.highlights || [])
-                .slice(0, 5)
-                .map((item, i) => (
-                  <View key={`hl_${i}`} style={styles.benefitRow}>
-                    <View style={styles.benefitIconWrap}>
-                      <CanvaFeatureIcon icon={resolveBenefitCanvaIcon(item)} size={18} />
+              <Text style={styles.panelTitle}>Key Highlights, Welcome &amp; Milestone Benefits</Text>
+              <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6, marginBottom: 8 }}>
+                {(
+                  [
+                    ['all', 'All Perks'],
+                    ['highlights', 'Highlights'],
+                    ['welcome', 'Welcome'],
+                    ['milestones', 'Milestones'],
+                  ] as const
+                ).map(([k, lbl]) => {
+                  const active = benefitGroupFilter === k;
+                  return (
+                    <ScalePressable
+                      key={k}
+                      onPress={() => setBenefitGroupFilter(k)}
+                      style={[
+                        styles.qrPortalPill,
+                        active && { backgroundColor: LedgerTheme.colors.accent, borderColor: LedgerTheme.colors.accent },
+                      ]}
+                    >
+                      <Text style={[styles.qrPortalPillText, active && { color: '#FFFFFF' }]}>{lbl}</Text>
+                    </ScalePressable>
+                  );
+                })}
+              </ScrollView>
+              {(benefitGroupFilter === 'all' || benefitGroupFilter === 'highlights') &&
+                (dossier.benefits_features_and_faqs.highlights || [])
+                  .slice(0, 6)
+                  .map((item, i) => (
+                    <View key={`hl_${i}`} style={styles.benefitRow}>
+                      <View style={styles.benefitIconWrap}>
+                        <CanvaFeatureIcon icon={resolveBenefitCanvaIcon(item)} size={18} />
+                      </View>
+                      <Text style={styles.benefitText}>{item}</Text>
                     </View>
-                    <Text style={styles.benefitText}>{item}</Text>
+                  ))}
+              {(benefitGroupFilter === 'all' || benefitGroupFilter === 'welcome') &&
+                welcomeItems.map((w, i) => (
+                  <View key={`w_${i}`} style={styles.benefitRow}>
+                    <View style={styles.benefitIconWrap}>
+                      <CanvaFeatureIcon icon="welcome" size={18} />
+                    </View>
+                    <Text style={styles.benefitText}>{w}</Text>
                   </View>
                 ))}
-              {welcomeItems.map((w, i) => (
-                <View key={`w_${i}`} style={styles.benefitRow}>
-                  <View style={styles.benefitIconWrap}>
-                    <CanvaFeatureIcon icon="welcome" size={18} />
+              {(benefitGroupFilter === 'all' || benefitGroupFilter === 'milestones') &&
+                (dossier.benefits_features_and_faqs.milestone_benefits || []).map((m, i) => (
+                  <View key={`m_${i}`} style={styles.benefitRow}>
+                    <View style={styles.benefitIconWrap}>
+                      <CanvaFeatureIcon icon={resolveBenefitCanvaIcon(m)} size={18} />
+                    </View>
+                    <Text style={styles.benefitText}>{m}</Text>
                   </View>
-                  <Text style={styles.benefitText}>{w}</Text>
-                </View>
-              ))}
-              {(dossier.benefits_features_and_faqs.milestone_benefits || []).map((m, i) => (
-                <View key={`m_${i}`} style={styles.benefitRow}>
-                  <View style={styles.benefitIconWrap}>
-                    <CanvaFeatureIcon icon={resolveBenefitCanvaIcon(m)} size={18} />
-                  </View>
-                  <Text style={styles.benefitText}>{m}</Text>
-                </View>
-              ))}
+                ))}
             </View>
           )}
 
@@ -1799,10 +1905,13 @@ export default function CardDossierScreen() {
             </View>
           )}
 
-          {matchedLounges.length > 0 && (
+          {(accessibleIndianLounges.length > 0 || matchedLounges.length > 0) && (
             <View style={styles.panel}>
               <Text style={styles.panelTitle}>
-                Applicable Terminals ({matchedLounges.length})
+                Domestic Lounges Accessible in India ({domesticIndiaLoungeCount || accessibleIndianLounges.length || matchedLounges.length})
+              </Text>
+              <Text style={styles.metaNote}>
+                Tap any Indian airport lounge below for photos, terminal guide, hours, reviews &amp; live wallet check.
               </Text>
               <View style={styles.searchBox}>
                 <Search size={15} color={LedgerTheme.colors.inkMuted} />
@@ -1814,15 +1923,54 @@ export default function CardDossierScreen() {
                   style={styles.searchInput}
                 />
               </View>
-              {filteredLounges.map((spot, idx) => (
-                <View key={`sp_${idx}`} style={styles.spotItem}>
-                  <Text style={styles.spotTitle}>
-                    {spot.city} · {spot.lounge_name}
-                  </Text>
-                  <Text style={styles.metaNote}>
-                    {spot.terminal} ({spot.terminal_type})
-                  </Text>
-                </View>
+              {displayLounges.map((spot, idx) => (
+                <ScalePressable
+                  key={`sp_${spot.lounge_code || idx}`}
+                  onPress={() => {
+                    if (spot.lounge_code) {
+                      router.push(`/lounge/${spot.lounge_code}` as never);
+                    }
+                  }}
+                  style={[styles.spotItem, { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 }]}
+                >
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.spotTitle}>
+                      {spot.city} · {spot.lounge_name}
+                    </Text>
+                    <Text style={styles.metaNote}>
+                      {spot.terminal} ({spot.terminal_type})
+                      {spot.google_rating ? ` · ★ ${spot.google_rating.toFixed(1)}` : ''}
+                    </Text>
+                  </View>
+                  {spot.lounge_code ? (
+                    <ChevronRight size={15} color={LedgerTheme.colors.accent} />
+                  ) : null}
+                </ScalePressable>
+              ))}
+            </View>
+          )}
+
+          {accessibleGolfClubs.length > 0 && (
+            <View style={styles.panel}>
+              <Text style={styles.panelTitle}>
+                Accessible Indian Golf Clubs ({accessibleGolfClubs.length})
+              </Text>
+              {accessibleGolfClubs.slice(0, 10).map((club) => (
+                <ScalePressable
+                  key={club.slug}
+                  onPress={() => router.push(`/lounge/${club.slug}` as never)}
+                  style={[styles.spotItem, { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 }]}
+                >
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.spotTitle}>
+                      {club.city} · {club.club_name}
+                    </Text>
+                    <Text style={styles.metaNote}>
+                      Golf Club{club.google_rating ? ` · ★ ${club.google_rating.toFixed(1)}` : ''}
+                    </Text>
+                  </View>
+                  <ChevronRight size={15} color={LedgerTheme.colors.accent} />
+                </ScalePressable>
               ))}
             </View>
           )}
@@ -2256,7 +2404,7 @@ export default function CardDossierScreen() {
                       fees.annual_fee_inr === 0
                         ? 'Lifetime Free'
                         : `${formatInr(fees.annual_fee_inr)}/yr`;
-                    const msg = `${identity.card_name} (${identity.bank}) — ${feeLabel} · ★ ${dossier.ratings.overall_market_rating.toFixed(2)}/5\nhttps://cardledger.in/${identity.bank_slug}/${identity.card_slug}`;
+                    const msg = `${identity.card_name} (${identity.bank}) — ${feeLabel} · ★ ${dossier.ratings.overall_market_rating.toFixed(2)}/5\nhttps://card.cogify.me/${identity.bank_slug}/${identity.card_slug}`;
                     void openExternalUrlSafely(buildWhatsAppShareUrl(msg)).then((ok) => {
                       if (!ok) void shareCardSummary(dossier);
                     });

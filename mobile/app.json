@@ -1,18 +1,18 @@
 {
   "expo": {
-    "name": "CardLedger India",
-    "slug": "cardledger-india",
-    "version": "1.0.0",
+    "name": "Cardify",
+    "slug": "cardify-india",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "cardledger",
+    "scheme": "cardify",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "in.cardledger.app",
+      "bundleIdentifier": "me.cogify.cardify",
       "buildNumber": "1",
       "infoPlist": {
-        "CFBundleDisplayName": "CardLedger",
+        "CFBundleDisplayName": "Cardify",
         "ITSAppUsesNonExemptEncryption": false
       },
       "privacyManifests": {
@@ -43,12 +43,12 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "package": "in.cardledger.app",
+      "package": "me.cogify.cardify",
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [

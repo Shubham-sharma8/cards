@@ -150,7 +150,7 @@ export default function FinderScreen() {
     try {
       await Share.share({
         title: activeCategoryStudy.title,
-        message: `${header}\n\n${body}\n\n— CardLedger India Live Database`,
+        message: `${header}\n\n${body}\n\n— Cardify by cogify · Live Database`,
       });
     } catch {
       // ignore cancelled share
@@ -758,7 +758,7 @@ export default function FinderScreen() {
           <SafeAreaView style={styles.sheetModalSafe}>
             <View style={styles.sheetModalHeader}>
               <View style={{ flex: 1, gap: 2 }}>
-                <Text style={styles.sheetModalBadge}>CardLedger India · Live 2026 Sheet</Text>
+                <Text style={styles.sheetModalBadge}>Cardify India · Live 2026 Sheet</Text>
                 <Text style={styles.sheetModalTitle} numberOfLines={2}>
                   {activeCategoryStudy.title}
                 </Text>

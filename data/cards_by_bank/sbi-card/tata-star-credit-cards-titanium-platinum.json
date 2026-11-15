@@ -194,476 +194,672 @@
     ],
     "participating_lounges_matched": [
       {
-        "city": "Ahmedabad",
-        "lounge_name": "The Lounge",
-        "terminal": "Domestic T1",
+        "city": "Agartala",
+        "airport_code": "IXA",
+        "lounge_code": "IXA1",
+        "lounge_name": "Airport Agartala Primus Lounge",
+        "terminal": "Domestic Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.0
       },
       {
         "city": "Ahmedabad",
-        "lounge_name": "Adani Silver Lounge-International",
-        "terminal": "International T2",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Bangalore",
-        "lounge_name": "080 Domestic Lounge - West PH 2",
-        "terminal": "Domestic T1",
+        "airport_code": "AMD",
+        "lounge_code": "AMD01",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
       },
       {
-        "city": "Bangalore",
+        "city": "Ahmedabad",
+        "airport_code": "AMD",
+        "lounge_code": "AMD04",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.4
+      },
+      {
+        "city": "Prayagraj",
+        "airport_code": "IXD",
+        "lounge_code": "IXD",
+        "lounge_name": "Airport Allahabad / Prayagraj Zesto Execustive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 2.9
+      },
+      {
+        "city": "Amritsar",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ3D",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 3.6
+      },
+      {
+        "city": "Amritsar",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ4D",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 3.6
+      },
+      {
+        "city": "Amritsar",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 2.9
+      },
+      {
+        "city": "Ayodhya",
+        "airport_code": "AYJ",
+        "lounge_code": "AYJ1D",
+        "lounge_name": "Kailash Parbat",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 3.2
+      },
+      {
+        "city": "Bagdogra",
+        "airport_code": "IXB",
+        "lounge_code": "IXB1D",
+        "lounge_name": "International Airport Bagdogra Take off Bar",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 1.5
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR9",
         "lounge_name": "080 Domestic Lounge",
-        "terminal": "Domestic T2",
+        "terminal": "Terminal 2",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.8
       },
       {
-        "city": "Bangalore",
-        "lounge_name": "080 International Lounge",
-        "terminal": "International T2",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR101",
+        "lounge_name": "080 Domestic Lounge - West PH 1",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
       },
       {
-        "city": "Bhubaneswar",
-        "lounge_name": "Bird Lounge",
-        "terminal": "Domestic T1",
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR102",
+        "lounge_name": "080 Domestic Lounge - West PH 2",
+        "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR104",
+        "lounge_name": "080 Domestic Lounge - East",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Bhopal",
+        "airport_code": "BHO",
+        "lounge_code": "BHO",
+        "lounge_name": "Raja Bhoj Bhopal Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.3
       },
       {
         "city": "Chandigarh",
-        "lounge_name": "Primus Lounge",
+        "airport_code": "IXC",
+        "lounge_code": "IXC6",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
         "terminal": "Domestic Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 2.9
       },
       {
         "city": "Chennai",
-        "lounge_name": "Travel Club Lounge -T1 Lounge B",
-        "terminal": "Domestic T1",
+        "airport_code": "MAA",
+        "lounge_code": "MAA01",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge A",
+        "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.8
       },
       {
         "city": "Chennai",
-        "lounge_name": "Travel Club Lounge - T2 Terminal",
-        "terminal": "International T2",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
+        "airport_code": "MAA",
+        "lounge_code": "MAA03",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge B",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.8
       },
       {
-        "city": "Cochin",
-        "lounge_name": "Earth Lounge",
-        "terminal": "Domestic T1",
+        "city": "Chennai",
+        "airport_code": "MAA",
+        "lounge_code": "MAA04",
+        "lounge_name": "International Airport Chennai Travel Club Lounge - T4 Terminal",
+        "terminal": "Terminal 4",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Kochi",
+        "airport_code": "COK",
+        "lounge_code": "COK1",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.8
       },
       {
         "city": "Coimbatore",
-        "lounge_name": "BlackBerry Restaurant & Bar",
-        "terminal": "Domestic NA",
+        "airport_code": "CJB",
+        "lounge_code": "CJB1D",
+        "lounge_name": "International Airport Coimbatore BlackBerry Restaurant & Bar",
+        "terminal": "Main Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 2.1
       },
       {
-        "city": "Goa",
-        "lounge_name": "Encalm Lounge",
-        "terminal": "Domestic T1",
+        "city": "Dibrugarh",
+        "airport_code": "DIB",
+        "lounge_code": "DIB",
+        "lounge_name": "Mohanbari Dibrugarh Primus Lounge",
+        "terminal": "Main Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 1.8
+      },
+      {
+        "city": "Goa (Mopa)",
+        "airport_code": "GOX",
+        "lounge_code": "GOX02",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.0
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "airport_code": "GOI",
+        "lounge_code": "GOI01",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Gwalior",
+        "airport_code": "GWL",
+        "lounge_code": "GWL",
+        "lounge_name": "Airport Gwalior Paahun Executive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 2.2
       },
       {
         "city": "Hyderabad",
+        "airport_code": "HYD",
+        "lounge_code": "HYD01",
         "lounge_name": "Encalm Lounge",
-        "terminal": "Domestic T1",
+        "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.6
       },
       {
         "city": "Indore",
+        "airport_code": "IDR",
+        "lounge_code": "IDR",
         "lounge_name": "Primus Lounge",
-        "terminal": "Domestic NA",
+        "terminal": "Main Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 2.0
       },
       {
         "city": "Jaipur",
-        "lounge_name": "The Lounge",
+        "airport_code": "JAI",
+        "lounge_code": "JAI01",
+        "lounge_name": "International Airport Jaipur The Lounge",
         "terminal": "Terminal 2",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.4
+      },
+      {
+        "city": "Jammu",
+        "airport_code": "IXJ",
+        "lounge_code": "IXJ",
+        "lounge_name": "Airport Jammu Paahun - The Executive Lounge and Restaurant",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 3.4
+      },
+      {
+        "city": "Kannur",
+        "airport_code": "CNN",
+        "lounge_code": "CNN",
+        "lounge_name": "International Kannaur Pearl Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 3.9
       },
       {
         "city": "Kolkata",
+        "airport_code": "CCU",
+        "lounge_code": "CCU01",
         "lounge_name": "Travel Club Lounge Domestic",
-        "terminal": "Domestic T1",
+        "terminal": "Domestic Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
       },
       {
         "city": "Kolkata",
-        "lounge_name": "Travel Club Lounge International",
-        "terminal": "International T1",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
+        "airport_code": "CCU",
+        "lounge_code": "CCU03",
+        "lounge_name": "Travel Club Lounge Annex Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
       },
       {
-        "city": "Mumbai",
+        "city": "Lucknow",
+        "airport_code": "LKO",
+        "lounge_code": "LKO01",
         "lounge_name": "Adani Lounge",
-        "terminal": "Domestic T1B",
+        "terminal": "Terminal 3",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
       },
       {
-        "city": "Mumbai",
-        "lounge_name": "Travel Club",
-        "terminal": "Domestic T2",
+        "city": "Nagpur",
+        "airport_code": "NAG",
+        "lounge_code": "NAG3",
+        "lounge_name": "Mandarin Lounge",
+        "terminal": "Main Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 1.6
       },
       {
-        "city": "Mumbai",
-        "lounge_name": "Adani East Lounge",
-        "terminal": "International T2",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
+        "city": "Nagpur",
+        "airport_code": "NAG",
+        "lounge_code": "NAG5",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 3.4
       },
       {
         "city": "New Delhi",
-        "lounge_name": "Encalm Lounge",
-        "terminal": "Domestic T1",
+        "airport_code": "DEL",
+        "lounge_code": "DEL01",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 1 (T1D)",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.6
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL02",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 2 (T2D)",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.4
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL03",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 3 (T3D Domestic)",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.5
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL05",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 3 (Arrivals)",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.1
       },
       {
         "city": "Pune",
-        "lounge_name": "Elysian Lounge",
-        "terminal": "Domestic Terminal",
+        "airport_code": "PNQ",
+        "lounge_code": "PNQ3",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.7
       },
       {
-        "city": "Srinagar",
-        "lounge_name": "Paahun The Executive Lounge",
-        "terminal": "International T1",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
+        "city": "Ranchi",
+        "airport_code": "IXR",
+        "lounge_code": "IXR2",
+        "lounge_name": "Birsa Munda Ranchi The Airr Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "airport_code": "TRV",
+        "lounge_code": "TRV02",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Tiruchirappalli",
+        "airport_code": "TRZ",
+        "lounge_code": "TRZ1",
+        "lounge_name": "International Airport Tiruchirappalli O’Vetra Domestic Departure Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.9
       },
       {
         "city": "Vadodara",
-        "lounge_name": "Premium Lounge",
+        "airport_code": "BDQ",
+        "lounge_code": "BDQ1",
+        "lounge_name": "Airport Vadodara Premium Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Mastercard",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Varanasi",
+        "airport_code": "VNS",
+        "lounge_code": "VNS1D",
+        "lounge_name": "Take off Bar and Lounge",
         "terminal": "Domestic Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Ahmedabad",
-        "lounge_name": "| 1 | Ahmedabad | The Lounge | Domestic T1 |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Ahmedabad",
-        "lounge_name": "| 2 | Ahmedabad | Adani Silver Lounge-International | International T2 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Bangalore",
-        "lounge_name": "| 3 | Bangalore | 080 Domestic Lounge - West PH 2 | Domestic T1 |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Bangalore",
-        "lounge_name": "| 4 | Bangalore | 080 Domestic Lounge | Domestic T2 |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Bangalore",
-        "lounge_name": "| 5 | Bangalore | 080 International Lounge | International T2 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 1.4
       },
       {
         "city": "Bhubaneswar",
-        "lounge_name": "| 6 | Bhubaneswar | Bird Lounge | Domestic T1 |",
-        "terminal": "Domestic",
+        "airport_code": "BBI",
+        "lounge_code": "BBI2",
+        "lounge_name": "Biju Patnaik International Airport Bhubaneshwar O’Vetra Domestic  Lounge",
+        "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.3
       },
       {
-        "city": "Chandigarh",
-        "lounge_name": "| 7 | Chandigarh | Primus Lounge | Domestic Terminal |",
-        "terminal": "Domestic",
+        "city": "Raipur",
+        "airport_code": "RPR",
+        "lounge_code": "RPR1",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 3.8
       },
       {
-        "city": "Chandigarh",
-        "lounge_name": "| 8 | Chandigarh | Primus Lounge | International Terminal |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "| 9 | Chennai | Travel Club Lounge -T1 Lounge B | Domestic T1 |",
-        "terminal": "T1",
+        "city": "Dehradun",
+        "airport_code": "DED",
+        "lounge_code": "DED2",
+        "lounge_name": "Jolly Grant Airport Dehra Dun Carnations Lounge",
+        "terminal": "Domestic Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 3.8
       },
       {
-        "city": "Chennai",
-        "lounge_name": "| 10 | Chennai | Travel Club Lounge - T2 Terminal | International T2 |",
-        "terminal": "T2",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Cochin",
-        "lounge_name": "| 11 | Cochin | Earth Lounge | Domestic T1 |",
-        "terminal": "Domestic",
+        "city": "Navi Mumbai",
+        "airport_code": "NMI",
+        "lounge_code": "NMI01",
+        "lounge_name": "Mumbai International Airport Navi Mumbai Adani Lounge",
+        "terminal": "Domestic Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.4
       },
       {
-        "city": "Cochin",
-        "lounge_name": "| 12 | Cochin | Earth Lounge | International T3 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Goa",
-        "lounge_name": "| 14 | Goa | Encalm Lounge | Domestic T1 |",
-        "terminal": "Domestic",
+        "city": "Noida / Jewar",
+        "airport_code": "DXN",
+        "lounge_code": "DXN01",
+        "lounge_name": "International Airport Noida Travel Club",
+        "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.4
       },
       {
-        "city": "Hyderabad",
-        "lounge_name": "| 15 | Hyderabad | Encalm Lounge | Domestic T1 |",
-        "terminal": "Domestic",
+        "city": "Patna",
+        "airport_code": "PAT",
+        "lounge_code": "PAT1",
+        "lounge_name": "Uttham Lounge",
+        "terminal": "Main Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.6
       },
       {
-        "city": "Hyderabad",
-        "lounge_name": "| 16 | Hyderabad | Encalm Lounge | International T1 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Indore",
-        "lounge_name": "| 17 | Indore | Primus Lounge | Domestic NA |",
-        "terminal": "Domestic",
+        "city": "Bhogapuram",
+        "airport_code": "VOX",
+        "lounge_code": "VOX01",
+        "lounge_name": "Encalm",
+        "terminal": "Main Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 3.3
       },
       {
-        "city": "Jaipur",
-        "lounge_name": "| 18 | Jaipur | The Lounge | Terminal 2 |",
-        "terminal": "Terminal 2",
+        "city": "Guwahati",
+        "airport_code": "GAU",
+        "lounge_code": "GAU01",
+        "lounge_name": "The Lounge",
+        "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Kolkata",
-        "lounge_name": "| 19 | Kolkata | Travel Club Lounge Domestic | Domestic T1 |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Kolkata",
-        "lounge_name": "| 20 | Kolkata | Travel Club Lounge International | International T1 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 4.3
       },
       {
         "city": "Mumbai",
-        "lounge_name": "| 21 | Mumbai | Adani Lounge | Domestic T1B |",
-        "terminal": "Domestic",
+        "airport_code": "BOM",
+        "lounge_code": "BOM01",
+        "lounge_name": "Travel Club Lounge",
+        "terminal": "Terminal 1C (Domestic)",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 3.9
       },
       {
         "city": "Mumbai",
-        "lounge_name": "| 22 | Mumbai | Travel Club | Domestic T2 |",
-        "terminal": "Domestic",
+        "airport_code": "BOM",
+        "lounge_code": "BOM02",
+        "lounge_name": "Adani Lounge (T1B Domestic)",
+        "terminal": "Terminal 1B (Domestic)",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
+        "matched_network": "Mastercard",
+        "google_rating": 3.4
       },
       {
         "city": "Mumbai",
-        "lounge_name": "| 23 | Mumbai | Adani East Lounge | International T2 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "| 24 | New Delhi | Encalm Lounge | Domestic T1 |",
-        "terminal": "Domestic",
+        "airport_code": "BOM",
+        "lounge_code": "BOM_T2D",
+        "lounge_name": "Adani Lounge (Domestic T2)",
+        "terminal": "Terminal 2 (T2D Domestic)",
         "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "| 25 | New Delhi | Encalm Lounge | Domestic T3 |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "| 26 | New Delhi | Encalm Lounge | International T3 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Pune",
-        "lounge_name": "| 27 | Pune | Elysian Lounge | Domestic Terminal |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Srinagar",
-        "lounge_name": "| 28 | Srinagar | Paahun The Executive Lounge | International T1 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Vadodara",
-        "lounge_name": "| 29 | Vadodara | Premium Lounge | Domestic Terminal |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "sbi_set_b"
-      },
-      {
-        "city": "Bangalore",
-        "lounge_name": "| 2 | Bangalore | 080 Domestic Lounge - West PH 2 | Domestic T1 |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "Bangalore",
-        "lounge_name": "| 3 | Bangalore | 080 International Lounge | International T2 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "| 4 | Chennai | Travel Club Lounge -T1 Lounge B | Domestic T1 |",
-        "terminal": "T1",
-        "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "| 5 | Chennai | Travel Club Lounge - T2 Terminal | International T2 |",
-        "terminal": "T2",
-        "terminal_type": "International",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "Hyderabad",
-        "lounge_name": "| 6 | Hyderabad | Encalm Lounge | Domestic T1 |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "Hyderabad",
-        "lounge_name": "| 7 | Hyderabad | Encalm Lounge | International T1 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "Kolkata",
-        "lounge_name": "| 8 | Kolkata | Travel Club Lounge Domestic | Domestic T1 |",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "Kolkata",
-        "lounge_name": "| 9 | Kolkata | Travel Club Lounge International | International T1 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "page_sbi_lounge_page"
+        "matched_network": "Mastercard",
+        "google_rating": 4.4
       },
       {
         "city": "Mumbai",
-        "lounge_name": "| 10 | Mumbai | Adani Lounge | Domestic T1B |",
-        "terminal": "Domestic",
+        "airport_code": "BOM",
+        "lounge_code": "BOM03",
+        "lounge_name": "Good Times Bar Lounge",
+        "terminal": "Terminal 1B (Domestic)",
         "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
+        "matched_network": "Mastercard",
+        "google_rating": 3.9
       },
       {
         "city": "Mumbai",
-        "lounge_name": "| 11 | Mumbai | Travel Club | Domestic T2 |",
-        "terminal": "Domestic",
+        "airport_code": "BOM",
+        "lounge_code": "BOM04",
+        "lounge_name": "Travel Club Lounge (Terminal 2)",
+        "terminal": "Terminal 2 (T2D Domestic)",
         "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
+        "matched_network": "Mastercard",
+        "google_rating": 4.3
       },
       {
         "city": "Mumbai",
-        "lounge_name": "| 12 | Mumbai | Adani East Lounge | International T2 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "| 13 | New Delhi | Encalm Lounge | Domestic T1 |",
-        "terminal": "Domestic",
+        "airport_code": "BOM",
+        "lounge_code": "BOM07",
+        "lounge_name": "Aviserv East Arrival Lounge",
+        "terminal": "Terminal 2 (Arrivals)",
         "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
+        "matched_network": "Mastercard",
+        "google_rating": 4.0
       },
       {
-        "city": "New Delhi",
-        "lounge_name": "| 14 | New Delhi | Encalm Lounge | Domestic T3 |",
-        "terminal": "Domestic",
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM08",
+        "lounge_name": "Aviserv West Arrival Lounge",
+        "terminal": "Terminal 2 (Arrivals)",
         "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
+        "matched_network": "Mastercard",
+        "google_rating": 4.0
       },
       {
-        "city": "New Delhi",
-        "lounge_name": "| 15 | New Delhi | Encalm Lounge | International T3 |",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "page_sbi_lounge_page"
-      },
-      {
-        "city": "Pune",
-        "lounge_name": "| 16 | Pune | Elysian Lounge | Domestic Terminal |",
-        "terminal": "Domestic",
+        "city": "Guwahati",
+        "airport_code": "GAU",
+        "lounge_code": "GAU02",
+        "lounge_name": "The Lounge (1st Floor)",
+        "terminal": "Terminal 1 (1st Floor)",
         "terminal_type": "Domestic",
-        "source_program_id": "page_sbi_lounge_page"
+        "matched_network": "Mastercard",
+        "google_rating": 4.3
       }
     ],
-    "participating_lounges_count": 67
+    "participating_lounges_count": 60,
+    "domestic_lounge_accessible_count": 60,
+    "international_lounge_accessible_count": 0,
+    "accessible_lounge_codes": [
+      "IXA1",
+      "AMD01",
+      "AMD04",
+      "IXD",
+      "ATQ3D",
+      "ATQ4D",
+      "ATQ",
+      "AYJ1D",
+      "IXB1D",
+      "BLR9",
+      "BLR101",
+      "BLR102",
+      "BLR104",
+      "BHO",
+      "IXC6",
+      "MAA01",
+      "MAA03",
+      "MAA04",
+      "COK1",
+      "CJB1D",
+      "DIB",
+      "GOX02",
+      "GOI01",
+      "GWL",
+      "HYD01",
+      "IDR",
+      "JAI01",
+      "IXJ",
+      "CNN",
+      "CCU01",
+      "CCU03",
+      "LKO01",
+      "NAG3",
+      "NAG5",
+      "DEL01",
+      "DEL02",
+      "DEL03",
+      "DEL05",
+      "PNQ3",
+      "IXR2",
+      "TRV02",
+      "TRZ1",
+      "BDQ1",
+      "VNS1D",
+      "BBI2",
+      "RPR1",
+      "DED2",
+      "NMI01",
+      "DXN01",
+      "PAT1",
+      "VOX01",
+      "GAU01",
+      "BOM01",
+      "BOM02",
+      "BOM_T2D",
+      "BOM03",
+      "BOM04",
+      "BOM07",
+      "BOM08",
+      "GAU02"
+    ],
+    "accessible_golf_slugs": []
   },
   "fees_and_charges_detailed": {
     "joining_fee_inr": 499,

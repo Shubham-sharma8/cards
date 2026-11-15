@@ -248,7 +248,7 @@ export async function exportComparisonPdfMobile(dossiers: MobileCardDossier[]): 
   const body = `
     <div class="hdr">
       <div>
-        <div class="brand">CardLedger India · Comprehensive Comparison Dossier</div>
+        <div class="brand">Cardify India · Product of cogify.me · Comparison Dossier</div>
         <h1>Side-by-Side Credit Card Comparison</h1>
         <p class="sub">${escapeHtml(dossiers.map((d) => d.identity.card_name).join(' vs. '))}</p>
       </div>
@@ -282,9 +282,9 @@ export async function exportComparisonPdfMobile(dossiers: MobileCardDossier[]): 
       </tbody>
     </table>
     <div class="${dossiers.length === 3 ? 'grid-3' : 'grid-2'}">${prosConsColumns}</div>
-    <div class="ftr"><span>CardLedger India · Native iOS Report</span><span>Verify MITC &amp; caps before applying</span></div>`;
+    <div class="ftr"><span>Cardify · Product of cogify.me</span><span>Verify MITC &amp; caps before applying</span></div>`;
 
-  const fileName = `cardledger-compare-${dossiers.map((d) => d.identity.card_slug.slice(0, 12)).join('-vs-')}.pdf`;
+  const fileName = `cardify-compare-${dossiers.map((d) => d.identity.card_slug.slice(0, 12)).join('-vs-')}.pdf`;
   if (Platform.OS === 'ios' && CardLedgerPdf?.exportHtmlToPdf) {
     await CardLedgerPdf.exportHtmlToPdf(wrapHtml(body), fileName);
     return;
@@ -422,7 +422,7 @@ export async function exportSingleCardPdfMobile(d: MobileCardDossier): Promise<v
           </div>`
         : ''
     }
-    <div class="ftr"><span>CardLedger India · Dossier Report</span><span>Always verify final MITC before applying</span></div>`;
+    <div class="ftr"><span>Cardify · Product of cogify.me</span><span>Always verify final MITC before applying</span></div>`;
 
   const fileName = `${d.identity.card_slug}.pdf`;
   if (Platform.OS === 'ios' && CardLedgerPdf?.exportHtmlToPdf) {
@@ -453,7 +453,7 @@ export async function shareComparisonSummary(dossiers: MobileCardDossier[]): Pro
     return `• ${d.identity.card_name} (${d.identity.bank}): Fee ${fee} · ★ ${d.ratings.overall_market_rating.toFixed(2)}/5 · Lounge: ${dom} · Forex: ${d.fees_and_charges_detailed.forex_markup_pct}%`;
   });
   await Share.share({
-    title: `CardLedger Comparison (${dossiers.length} cards)`,
-    message: `CardLedger Side-by-Side Comparison:\n\n${summaryLines.join('\n')}`,
+    title: `Cardify Comparison (${dossiers.length} cards)`,
+    message: `Cardify Side-by-Side Comparison:\n\n${summaryLines.join('\n')}`,
   });
 }

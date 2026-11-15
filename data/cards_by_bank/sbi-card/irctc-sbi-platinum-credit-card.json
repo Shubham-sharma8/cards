@@ -256,93 +256,12 @@
         "local_pdf_path": null
       }
     ],
-    "participating_lounges_matched": [
-      {
-        "city": "Agra",
-        "lounge_name": "| 1 | Agra Cantonment Railway Station | Executive Lounge | Platform 1 | Near Cloak Room | Agra | India | Railways Lounge | Operational |",
-        "terminal": "",
-        "terminal_type": "Railway",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Bhopal",
-        "lounge_name": "| 5 | Bhopal Railway Station | The Stuti Luxury Lounge | Platform 1 | Main entrance of first floor | Bhopal | India | Railways Lounge | Oper",
-        "terminal": "",
-        "terminal_type": "Railway",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "| 6 | Chennai Central Railway Station | Executive Lounge | Platform 6 -7 | Concourse Area Near Platform No - 6 & 7, opposite Apollo Pharmacy",
-        "terminal": "",
-        "terminal_type": "Railway",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Delhi",
-        "lounge_name": "| 7 | Old Delhi Railway Station | IRCTC Lounge | Platform 5 | Near Gate No.2, Towards entry for Platform no. 5 from Chandni Chowk side, Near",
-        "terminal": "",
-        "terminal_type": "Railway",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Jaipur",
-        "lounge_name": "| 9 | Jaipur Railway Station | IRCTC Executive Lounge | Platform 1 | Platform number 1, First AC waiting room Near by Lift | Jaipur | India ",
-        "terminal": "",
-        "terminal_type": "Railway",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Kolkata",
-        "lounge_name": "| 10 | Sealdah Railway Station | IRCTC Executive Lounge | Platform 8 | Metro Exit & Entry gate Near Enquiry Counter | Kolkata | India | Rail",
-        "terminal": "",
-        "terminal_type": "Railway",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Agra",
-        "lounge_name": "Executive Lounge",
-        "terminal": "Platform 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Bhopal",
-        "lounge_name": "The Stuti Luxury Lounge",
-        "terminal": "Platform 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "Executive Lounge",
-        "terminal": "Platform 6 -7",
-        "terminal_type": "Domestic",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Delhi",
-        "lounge_name": "IRCTC Lounge",
-        "terminal": "Platform 5",
-        "terminal_type": "Domestic",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Jaipur",
-        "lounge_name": "IRCTC Executive Lounge",
-        "terminal": "Platform 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "hdfc_irctc_railway"
-      },
-      {
-        "city": "Kolkata",
-        "lounge_name": "IRCTC Executive Lounge",
-        "terminal": "Platform 8",
-        "terminal_type": "Domestic",
-        "source_program_id": "hdfc_irctc_railway"
-      }
-    ],
-    "participating_lounges_count": 12
+    "participating_lounges_matched": [],
+    "participating_lounges_count": 0,
+    "domestic_lounge_accessible_count": 0,
+    "international_lounge_accessible_count": 0,
+    "accessible_lounge_codes": [],
+    "accessible_golf_slugs": []
   },
   "fees_and_charges_detailed": {
     "joining_fee_inr": 500,

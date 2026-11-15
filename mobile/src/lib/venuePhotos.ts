@@ -94,9 +94,15 @@ const LOUNGE_PHOTOS: Record<string, ImageSourcePropType> = {
   '/lounge-photos/vns1d.jpg': require('../../assets/venue-photos/lounges/vns1d.jpg'),
   '/lounge-photos/vox01.jpg': require('../../assets/venue-photos/lounges/vox01.jpg'),
   '/lounge-photos/vox02.jpg': require('../../assets/venue-photos/lounges/vox02.jpg'),
+  '/illustrations/lounge-gallery-buffet.webp': require('../../assets/illustrations/lounge-gallery-buffet.webp'),
+  '/illustrations/lounge-gallery-pods.webp': require('../../assets/illustrations/lounge-gallery-pods.webp'),
+  '/illustrations/airport-lounge-hero.webp': require('../../assets/illustrations/airport-lounge-hero.webp'),
+  '/illustrations/lounge-domestic-dining.webp': require('../../assets/illustrations/lounge-domestic-dining.webp'),
+  '/illustrations/lounge-intl-suite.webp': require('../../assets/illustrations/lounge-intl-suite.webp'),
 };
 
 const GOLF_PHOTOS: Record<string, ImageSourcePropType> = {
+  '/illustrations/lounge-golf-club.webp': require('../../assets/illustrations/lounge-golf-club.webp'),
   '/golf-photos/ahmedabad-glade-one-golf-resort-club.jpg': require('../../assets/venue-photos/golf/ahmedabad-glade-one-golf-resort-club.jpg'),
   '/golf-photos/ahmedabad-gulmohar-greens-golf-country-club.jpg': require('../../assets/venue-photos/golf/ahmedabad-gulmohar-greens-golf-country-club.jpg'),
   '/golf-photos/ahmedabad-kalhaar-blues-greens-golf-club.jpg': require('../../assets/venue-photos/golf/ahmedabad-kalhaar-blues-greens-golf-club.jpg'),
@@ -141,4 +147,12 @@ export function getGolfPhotoSource(localPath?: string | null): ImageSourcePropTy
   if (remoteUrl) return { uri: remoteUrl };
   if (localPath && GOLF_PHOTOS[localPath]) return GOLF_PHOTOS[localPath];
   return require('../../assets/illustrations/lounge-golf-club.webp');
+}
+
+export function getVenuePhotoSource(localPath?: string | null, isGolf?: boolean): ImageSourcePropType {
+  if (localPath && LOUNGE_PHOTOS[localPath]) return LOUNGE_PHOTOS[localPath];
+  if (localPath && GOLF_PHOTOS[localPath]) return GOLF_PHOTOS[localPath];
+  const remoteUrl = resolveR2MediaUrl(localPath);
+  if (remoteUrl) return { uri: remoteUrl };
+  return isGolf ? getGolfPhotoSource(localPath) : getLoungePhotoSource(localPath);
 }

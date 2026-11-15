@@ -62,6 +62,8 @@ export interface CardSummaryItem {
   card_network: string;
   card_tier: string;
   status: string;
+  joining_fee_inr?: number;
+  joining_fee_waiver?: string | null;
   annual_fee_inr: number;
   fee_waiver_spend_inr?: number | null;
   forex_markup_pct?: number;
@@ -76,6 +78,11 @@ export interface CardSummaryItem {
   domestic_lounge_summary?: string | null;
   international_lounge_summary?: string | null;
   lounge_spend_condition?: string | null;
+  lounge_spend_threshold_inr?: number;
+  domestic_lounge_accessible_count?: number;
+  international_lounge_accessible_count?: number;
+  accessible_lounge_codes?: string[];
+  accessible_golf_slugs?: string[];
   golf_summary?: GolfSummary | null;
   capping_summary?: string | null;
   milestone_summary?: string | null;
@@ -310,6 +317,10 @@ export interface CardDossier {
     applicable_lounge_links: LoungeProgramLink[];
     participating_lounges_matched: LoungeSpot[];
     participating_lounges_count: number;
+    domestic_lounge_accessible_count?: number;
+    international_lounge_accessible_count?: number;
+    accessible_lounge_codes?: string[];
+    accessible_golf_slugs?: string[];
     no_lounge_note?: string;
   };
   fees_and_charges_detailed: {
@@ -494,6 +505,21 @@ export interface AdvisorProfile {
   monthlySpend: Record<SpendCategoryKey, number>;
 }
 
+export interface LoungeReviewItem {
+  author: string;
+  rating: number;
+  tag: string;
+  comment: string;
+}
+
+export interface VenueAccessMethod {
+  channel: string;
+  type: "portal" | "network" | "physical" | "priority_pass" | "concierge" | string;
+  url: string;
+  phone?: string;
+  steps: string[];
+}
+
 export interface ParticipatingAirportLoungeSpot {
   sr: string;
   airport_city_and_lounge: string;
@@ -510,6 +536,15 @@ export interface ParticipatingAirportLoungeSpot {
   google_review_count?: number;
   google_maps_url?: string;
   local_photo_path?: string;
+  gallery_photos?: string[];
+  people_reviews?: LoungeReviewItem[];
+  how_to_access?: VenueAccessMethod[];
+  airport_guide_note?: string | null;
+  verified_cardmaven_card_ids?: string[];
+  eligible_no_spend_card_ids?: string[];
+  eligible_low_spend_card_ids?: string[];
+  eligible_high_spend_card_ids?: string[];
+  total_eligible_cards_count?: number;
 }
 
 export interface GolfClubSpot {
@@ -522,6 +557,12 @@ export interface GolfClubSpot {
   google_maps_url?: string | null;
   formatted_address?: string | null;
   local_photo_path?: string | null;
+  gallery_photos?: string[];
+  people_reviews?: LoungeReviewItem[];
+  how_to_access?: VenueAccessMethod[];
+  eligible_no_spend_card_ids?: string[];
+  eligible_high_spend_card_ids?: string[];
+  total_eligible_cards_count?: number;
 }
 
 export interface GolfClubsMasterPayload {

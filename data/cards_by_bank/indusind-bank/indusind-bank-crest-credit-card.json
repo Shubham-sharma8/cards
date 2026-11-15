@@ -250,566 +250,1032 @@
     "participating_lounges_matched": [
       {
         "city": "Agartala",
-        "lounge_name": "IXA01 Agartala Maharaja Bir Bikram Airport Primus Lounge Domestic Terminal Domestic Departure",
-        "terminal": "Domestic",
+        "airport_code": "IXA",
+        "lounge_code": "IXA1",
+        "lounge_name": "Airport Agartala Primus Lounge",
+        "terminal": "Domestic Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
+        "matched_network": "Visa",
+        "google_rating": 4.0
       },
       {
         "city": "Ahmedabad",
-        "lounge_name": "AMD01 Ahmedabad Sardar Vallabhbhai Patel International Airport The Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Amritsar",
-        "lounge_name": "ATQ01 Amritsar Sri Guru Ram Dass Jee International Airport Airr Lounge (Int) Terminal 1 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Amritsar",
-        "lounge_name": "ATQ02 Amritsar Sri Guru Ram Dass Jee International Airport Primus Lounge Domestic Terminal Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Bengaluru",
-        "lounge_name": "BLR01 Bengaluru Kempegowda International Airport 080 Lounge Terminal 2 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Bengaluru",
-        "lounge_name": "BLR105 Bengaluru Kempegowda International Airport 080 Arrival Terminal 1 Arrival Arrival",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Bengaluru",
-        "lounge_name": "BLR205 Bengaluru Kempegowda International Airport 080 Arrival Terminal 2 Arrival Arrival",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Bengaluru",
-        "lounge_name": "BLR206 Bengaluru Kempegowda International Airport 080 VIP Arrival Terminal 2 Arrival Arrival",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Bhopal",
-        "lounge_name": "BHO01 Bhopal Bhopal Raja Bhoj Primus Lounge Terminal 1 Domestic Departure",
+        "airport_code": "AMD",
+        "lounge_code": "AMD01",
+        "lounge_name": "Adani Lounge",
         "terminal": "Terminal 1",
         "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Calicut",
-        "lounge_name": "CCJ02 Calicut Kozhikode Calicut International Airport Bird Lounge Terminal 2 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Chandigarh",
-        "lounge_name": "IXC01 Chandigarh Shaheed Bhagat Singh International Airport Plaza Premium Lounge Domestic Terminal Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Chandigarh",
-        "lounge_name": "IXC02 Chandigarh Shaheed Bhagat Singh International Airport Plaza Premium Lounge International Terminal International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "MAA01 Chennai Chennai International Airport Travel Club Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "MAA03 Chennai Chennai International Airport Travel Club Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "MAA02 Chennai Chennai International Airport Travel Club Terminal 2 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Chennai",
-        "lounge_name": "MAA04 Chennai Chennai International Airport Travel Club Terminal 4 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Cochin",
-        "lounge_name": "COK02 Cochin Cochin International Airport Earth Lounge Terminal 3 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Cochin",
-        "lounge_name": "COK01 Cochin Cochin International Airport Earth Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Coimbatore",
-        "lounge_name": "CJB01 Coimbatore Coimbatore International Airport Blackberry Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Dibrugarh",
-        "lounge_name": "DIB01 Dibrugarh Dibrugarh Mohanbari Airport Primus Lounge Domestic Terminal Domestic Departure",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Goa",
-        "lounge_name": "GOX02 Goa Domestic T1 Departure Encalm Lounge Terminal 1 Domestic Departure",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Goa",
-        "lounge_name": "GOX01 Goa Encalm Lounge International T1 Departure Encalm Lounge Terminal 1 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Guwahati",
-        "lounge_name": "GAU01 Guwahati Lokpriya Gopinath Bordoloi International Airport The Lounge GF Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Guwahati",
-        "lounge_name": "GAU02 Guwahati Lokpriya Gopinath Bordoloi International Airport The Lounge FF Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Gwalior",
-        "lounge_name": "GWL01 Gwalior Rajmata Vijayaraje Scindia Airport Pahun Lounge Terminal 1 Domestic Departure",
-        "terminal": "Terminal 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Hyderabad",
-        "lounge_name": "HYD02 Hyderabad Encalm Lounge International T1 Departure Encalm Lounge Terminal 1 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Hyderabad",
-        "lounge_name": "HYD01 Hyderabad Encalm Lounge Domestic T1 Departure Encalm Lounge Terminal 1 Domestic Departure",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Indore",
-        "lounge_name": "IDR01 Indore Devi Ahilya Bai Holkar Airport Primus Lounge Terminal 1 Domestic Departure",
-        "terminal": "Terminal 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Jaipur",
-        "lounge_name": "JAI01 Jaipur Jaipur International Airport Adani Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Jammu",
-        "lounge_name": "IXJ01 Jammu Jammu Airport Pahun Lounge Terminal 1 Domestic Departure",
-        "terminal": "Terminal 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Kannur",
-        "lounge_name": "CNN01 Kannur Kannur International Pearl Lounge Terminal 1 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Kannur",
-        "lounge_name": "CNN02 Kannur Kannur International Pearl Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Lucknow",
-        "lounge_name": "LKO01 Lucknow Chaudhary Charan Singh International Airport Adani Lounge Terminal 3 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Madurai",
-        "lounge_name": "IXM01 Madurai Madurai International Airport Primus Lounge Main Terminal International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Mumbai",
-        "lounge_name": "BOM01 Mumbai Chhatrapati Shivaji Maharaj International Airport Travel Club Terminal 1C Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Mumbai",
-        "lounge_name": "BOM04 Mumbai Chhatrapati Shivaji Maharaj International Airport Travel Club Terminal 2 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Mumbai",
-        "lounge_name": "NMI01 Navi Mumbai Navi Mumbai International Airport Adani Silver Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Nagpur",
-        "lounge_name": "NAG01 Nagpur Dr. Babasaheb Ambedkar International Airport Airr Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Nagpur",
-        "lounge_name": "NAG02 Nagpur Dr. Babasaheb Ambedkar International Airport Mandarin Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "DEL01 New Delhi Encalm Lounge Domestic Departure T1 (New) Encalm Lounge Terminal 1 (New) Domestic Departure",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "DEL02 New Delhi Indira Gandhi International Airport Encalm Lounge Terminal 2 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "DEL03 New Delhi Encalm Lounge Domestic Departure T3 Encalm Lounge Terminal 3 Domestic Departure",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "DEL04 New Delhi Encalm Lounge International Departure T3 Encalm Lounge Terminal 3 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "DEL05 New Delhi Encalm Lounge Domestic arrival T3 Encalm Lounge Terminal 3 Arrival Arrival",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Dehradun",
-        "lounge_name": "DED11 Dehradun Dehradun Airport Carnations Lounge Terminal 1 Domestic Departure",
-        "terminal": "Terminal 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Ranchi",
-        "lounge_name": "IXR01 Ranchi Birsa Munda Airport Airr Lounge Terminal 1 Domestic Departure",
-        "terminal": "Terminal 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Srinagar",
-        "lounge_name": "SXR01 Srinagar Sheikh Ul Alam International Airport Pahun Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Trivandrum",
-        "lounge_name": "TRV01 Trivandrum Thiruvananthapuram International Airport T2 The Lounge Terminal 2 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Patna",
-        "lounge_name": "PAT01 Patna Jayprakash Narayan Airport Uttham Lounge Terminal 1 Domestic Departure",
-        "terminal": "Terminal 1",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Varanasi",
-        "lounge_name": "VNS01 Varanasi Lal Bahadur Shastri International Airport Take off Bar and Lounge Terminal 1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Mumbai",
-        "lounge_name": "BOM02 Mumbai Chhatrapati Shivaji Maharaj International Airport Adani Lounge - Domestic T1-B (Previously 'Oasis') T1-B Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Mumbai",
-        "lounge_name": "BOM05 Mumbai Chhatrapati Shivaji Maharaj International Airport Adani Silver International Lounge T2 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "New Delhi",
-        "lounge_name": "DEL02 New Delhi Encalm Lounge Domestic Departure T2 Indira Gandhi International Airport T2 Domestic Departure",
-        "terminal": "Domestic",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Dehradun",
-        "lounge_name": "Dehradun Airport Carnations Lounge T1 Domestic",
-        "terminal": "T1",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Amritsar",
-        "lounge_name": "ATQ02 Amritsar Primus Lounge Sri Guru Ram Dass Jee",
-        "terminal": "",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Bengaluru",
-        "lounge_name": "BLR101 Bengaluru Kempegowda International Airport 080 Domestic Lounge T1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Bengaluru",
-        "lounge_name": "BLR102 Bengaluru Kempegowda International Airport 080 Domestic Lounge T1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Bengaluru",
-        "lounge_name": "BLRI202 Bengaluru Kempegowda International Airport 080 International Lounge T2 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Chandigarh",
-        "lounge_name": "IXC01 Chandigarh Plaza Premium Lounge Shaheed Bhagat Singh",
-        "terminal": "",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Chandigarh",
-        "lounge_name": "IXC02 Chandigarh Plaza Premium Lounge Shaheed Bhagat Singh",
-        "terminal": "",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Cochin",
-        "lounge_name": "COK02 Cochin Earth Lounge Cochin International Airport T3 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Cochin",
-        "lounge_name": "COK01 Cochin Earth Lounge Cochin International Airport T1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Goa",
-        "lounge_name": "GOX02 Goa Encalm Lounge Domestic T1 Departure Manohar International Airport T1 Domestic Departure",
-        "terminal": "Domestic",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Goa",
-        "lounge_name": "GOX01 Goa Encalm Lounge International T1",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Goa",
-        "lounge_name": "GOI01 Goa - Dom Goa International Airport - Dabolim Travel Club (New Lounge) T1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Goa",
-        "lounge_name": "GOI02 Goa - Int Goa International Airport - Dabolim Travel Club (New Lounge) T1 International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Madurai",
-        "lounge_name": "IXM01 Madurai Primus Lounge Madurai International Airport Main Terminal International Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Pune",
-        "lounge_name": "PNQ01 Pune Earth Lounge Pune International Airport T1 Domestic Departure",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Goa",
-        "lounge_name": "*The Travel Club Lounge - Goa - Dom (near Gate B) will be non-operational from 11:00 PM to 6:00 AM.",
-        "terminal": "",
-        "terminal_type": "Domestic",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Calicut",
-        "lounge_name": "The Calicut International Airport Lounge will cease operations effective 26 June 2026 and tentatively",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "indusind_lounge_program"
-      },
-      {
-        "city": "Agartala",
-        "lounge_name": "1 Agartala Airport Agartala Primus Lounge IXA1 Domestic Domestic Terminal Airside - Domestic Departures, Ground Level, after Security Hold A",
-        "terminal": "Domestic",
-        "terminal_type": "Domestic",
-        "source_program_id": "visa_india_lounges"
+        "matched_network": "Visa",
+        "google_rating": 4.7
       },
       {
         "city": "Ahmedabad",
-        "lounge_name": "2 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD01 Domestic Terminal 1 Terminal 1 (Near Boarding Gate No. 1) 24Hr",
-        "terminal": "International",
+        "airport_code": "AMD",
+        "lounge_code": "AMD02",
+        "lounge_name": "Adani Silver Lounge-International",
+        "terminal": "International Terminal",
         "terminal_type": "International",
-        "source_program_id": "visa_india_lounges"
+        "matched_network": "Visa",
+        "google_rating": 4.5
       },
       {
         "city": "Ahmedabad",
-        "lounge_name": "3 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Silver Lounge-International AMD02 International Terminal 2 Terminal 2 Depar",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "visa_india_lounges"
-      },
-      {
-        "city": "Ahmedabad",
-        "lounge_name": "4 Sardar Vallabhbhai Patel International Airport Ahmedabad Adani Lounge AMD04 Domestic Terminal 2 Terminal 2 Departure area First Floor 24Hr",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "visa_india_lounges"
+        "airport_code": "AMD",
+        "lounge_code": "AMD04",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.4
       },
       {
         "city": "Prayagraj",
-        "lounge_name": "5 Prayagraj Airport Allahabad / Prayagraj Zesto Execustive Lounge IXD Domestic Domestic Terminal Airside - Prayagraj Airport, Domestic Depar",
-        "terminal": "Domestic",
+        "airport_code": "IXD",
+        "lounge_code": "IXD",
+        "lounge_name": "Airport Allahabad / Prayagraj Zesto Execustive Lounge",
+        "terminal": "Domestic Terminal",
         "terminal_type": "Domestic",
-        "source_program_id": "visa_india_lounges"
+        "matched_network": "Visa",
+        "google_rating": 2.9
       },
       {
         "city": "Amritsar",
-        "lounge_name": "9 Sri Guru Ram Dass Jee International Airport Amritsar Primus Lounge ATQ Domestic NA Airside - Domestic Departures. After Security Checks pr",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "visa_india_lounges"
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ3D",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.6
       },
       {
         "city": "Amritsar",
-        "lounge_name": "10 Sri Guru Ram Dass Jee International Airport Amritsar The Airr Lounge ATQ6 International International Terminal Airside - International De",
-        "terminal": "International",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ4D",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.6
+      },
+      {
+        "city": "Amritsar",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ5D",
+        "lounge_name": "Costa Coffee",
+        "terminal": "Main Terminal",
         "terminal_type": "International",
-        "source_program_id": "visa_india_lounges"
+        "matched_network": "Visa",
+        "google_rating": 3.6
+      },
+      {
+        "city": "Amritsar",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 2.9
+      },
+      {
+        "city": "Amritsar",
+        "airport_code": "ATQ",
+        "lounge_code": "ATQ6",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.1
+      },
+      {
+        "city": "Ayodhya",
+        "airport_code": "AYJ",
+        "lounge_code": "AYJ1D",
+        "lounge_name": "Kailash Parbat",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.2
+      },
+      {
+        "city": "Bagdogra",
+        "airport_code": "IXB",
+        "lounge_code": "IXB1D",
+        "lounge_name": "International Airport Bagdogra Take off Bar",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 1.5
       },
       {
         "city": "Bengaluru",
-        "lounge_name": "13 Kempegowda International Airport Bengaluru 080 Domestic Lounge BLR9 Domestic Terminal 2 Airside - Domestic and in transit Departures. Aft",
-        "terminal": "International",
-        "terminal_type": "International",
-        "source_program_id": "visa_india_lounges"
+        "airport_code": "BLR",
+        "lounge_code": "BLR9",
+        "lounge_name": "080 Domestic Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.8
       },
       {
         "city": "Bengaluru",
-        "lounge_name": "14 Kempegowda International Airport Bengaluru 080 International Lounge BLR10 International Terminal 2 Airside - International Departures. Af",
-        "terminal": "International",
+        "airport_code": "BLR",
+        "lounge_code": "BLR10",
+        "lounge_name": "080 International Lounge",
+        "terminal": "Terminal 2",
         "terminal_type": "International",
-        "source_program_id": "visa_india_lounges"
+        "matched_network": "Visa",
+        "google_rating": 4.7
       },
       {
         "city": "Bengaluru",
-        "lounge_name": "15 Kempegowda International Airport Bengaluru 080 Arrival BLR12 International/ Domestic Arrival Terminal 2 Landside - Ground Level, Arrivals",
-        "terminal": "International",
+        "airport_code": "BLR",
+        "lounge_code": "BLR12",
+        "lounge_name": "080 Arrival",
+        "terminal": "Arrival Terminal 2",
+        "terminal_type": "International/ Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR101",
+        "lounge_name": "080 Domestic Lounge - West PH 1",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR102",
+        "lounge_name": "080 Domestic Lounge - West PH 2",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR104",
+        "lounge_name": "080 Domestic Lounge - East",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Bhopal",
+        "airport_code": "BHO",
+        "lounge_code": "BHO",
+        "lounge_name": "Raja Bhoj Bhopal Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Chandigarh",
+        "airport_code": "IXC",
+        "lounge_code": "IXC6",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 2.9
+      },
+      {
+        "city": "Chandigarh",
+        "airport_code": "IXC",
+        "lounge_code": "IXC5",
+        "lounge_name": "International Airport Chandigarh Primus Lounge",
+        "terminal": "International Terminal",
         "terminal_type": "International",
-        "source_program_id": "visa_india_lounges"
+        "matched_network": "Visa",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Chennai",
+        "airport_code": "MAA",
+        "lounge_code": "MAA01",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge A",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Chennai",
+        "airport_code": "MAA",
+        "lounge_code": "MAA03",
+        "lounge_name": "International Airport Chennai Travel Club Lounge -T1 Lounge B",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Chennai",
+        "airport_code": "MAA",
+        "lounge_code": "MAA02",
+        "lounge_name": "International Airport Chennai Travel Club Lounge - T2 Terminal",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Chennai",
+        "airport_code": "MAA",
+        "lounge_code": "MAA04",
+        "lounge_name": "International Airport Chennai Travel Club Lounge - T4 Terminal",
+        "terminal": "Terminal 4",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Kochi",
+        "airport_code": "COK",
+        "lounge_code": "COK2",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Kochi",
+        "airport_code": "COK",
+        "lounge_code": "COK1",
+        "lounge_name": "Cochin International Airport Cochin Travel Club Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Coimbatore",
+        "airport_code": "CJB",
+        "lounge_code": "CJB1D",
+        "lounge_name": "International Airport Coimbatore BlackBerry Restaurant & Bar",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 2.1
+      },
+      {
+        "city": "Dibrugarh",
+        "airport_code": "DIB",
+        "lounge_code": "DIB",
+        "lounge_name": "Mohanbari Dibrugarh Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 1.8
+      },
+      {
+        "city": "Goa (Mopa)",
+        "airport_code": "GOX",
+        "lounge_code": "GOX01",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.0
+      },
+      {
+        "city": "Goa (Mopa)",
+        "airport_code": "GOX",
+        "lounge_code": "GOX02",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.0
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "airport_code": "GOI",
+        "lounge_code": "GOI01",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Goa (Dabolim)",
+        "airport_code": "GOI",
+        "lounge_code": "GOI02",
+        "lounge_name": "International Airport - Dabolim Goa Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Gwalior",
+        "airport_code": "GWL",
+        "lounge_code": "GWL",
+        "lounge_name": "Airport Gwalior Paahun Executive Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 2.2
+      },
+      {
+        "city": "Hyderabad",
+        "airport_code": "HYD",
+        "lounge_code": "HYD01",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.6
+      },
+      {
+        "city": "Hyderabad",
+        "airport_code": "HYD",
+        "lounge_code": "HYD02",
+        "lounge_name": "Encalm Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.6
+      },
+      {
+        "city": "Indore",
+        "airport_code": "IDR",
+        "lounge_code": "IDR",
+        "lounge_name": "Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 2.0
+      },
+      {
+        "city": "Jaipur",
+        "airport_code": "JAI",
+        "lounge_code": "JAI01",
+        "lounge_name": "International Airport Jaipur The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.4
+      },
+      {
+        "city": "Jammu",
+        "airport_code": "IXJ",
+        "lounge_code": "IXJ",
+        "lounge_name": "Airport Jammu Paahun - The Executive Lounge and Restaurant",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.4
+      },
+      {
+        "city": "Kannur",
+        "airport_code": "CNN",
+        "lounge_code": "CNN",
+        "lounge_name": "International Kannaur Pearl Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.9
+      },
+      {
+        "city": "Kannur",
+        "airport_code": "CNN",
+        "lounge_code": "CNN1",
+        "lounge_name": "International Kannaur Pearl Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 3.9
+      },
+      {
+        "city": "Kolkata",
+        "airport_code": "CCU",
+        "lounge_code": "CCU01",
+        "lounge_name": "Travel Club Lounge Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Kolkata",
+        "airport_code": "CCU",
+        "lounge_code": "CCU02",
+        "lounge_name": "Travel Club Lounge International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Kolkata",
+        "airport_code": "CCU",
+        "lounge_code": "CCU03",
+        "lounge_name": "Travel Club Lounge Annex Domestic",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Kolkata",
+        "airport_code": "CCU",
+        "lounge_code": "CCU04",
+        "lounge_name": "Travel Club Lounge Annex International",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Lucknow",
+        "airport_code": "LKO",
+        "lounge_code": "LKO01",
+        "lounge_name": "Adani Lounge",
+        "terminal": "Terminal 3",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Lucknow",
+        "airport_code": "LKO",
+        "lounge_code": "LKO02",
+        "lounge_name": "Budweiser",
+        "terminal": "Terminal 3",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.8
+      },
+      {
+        "city": "Madurai",
+        "airport_code": "IXM",
+        "lounge_code": "IXM1",
+        "lounge_name": "International Madurai Primus Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 1.7
+      },
+      {
+        "city": "Nagpur",
+        "airport_code": "NAG",
+        "lounge_code": "NAG3",
+        "lounge_name": "Mandarin Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 1.6
+      },
+      {
+        "city": "Nagpur",
+        "airport_code": "NAG",
+        "lounge_code": "NAG5",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.4
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL01",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 1 (T1D)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.6
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL02",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 2 (T2D)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.4
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL03",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 3 (T3D Domestic)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.5
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL04",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 3 (T3I International)",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL05",
+        "lounge_name": "Delhi Encalm Lounge",
+        "terminal": "Terminal 3 (Arrivals)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.1
+      },
+      {
+        "city": "Pune",
+        "airport_code": "PNQ",
+        "lounge_code": "PNQ3",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Ranchi",
+        "airport_code": "IXR",
+        "lounge_code": "IXR2",
+        "lounge_name": "Birsa Munda Ranchi The Airr Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Srinagar",
+        "airport_code": "SXR",
+        "lounge_code": "SXR1",
+        "lounge_name": "Paahun The Executive Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.5
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "airport_code": "TRV",
+        "lounge_code": "TRV01",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.4
+      },
+      {
+        "city": "Thiruvananthapuram",
+        "airport_code": "TRV",
+        "lounge_code": "TRV02",
+        "lounge_name": "International Airport Thiruvananthapuram The Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.2
+      },
+      {
+        "city": "Tiruchirappalli",
+        "airport_code": "TRZ",
+        "lounge_code": "TRZ1",
+        "lounge_name": "International Airport Tiruchirappalli O’Vetra Domestic Departure Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.9
+      },
+      {
+        "city": "Tiruchirappalli",
+        "airport_code": "TRZ",
+        "lounge_code": "TRZ2",
+        "lounge_name": "International Airport Tiruchirappalli O’Vetra International Departure Lounge",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.9
+      },
+      {
+        "city": "Vadodara",
+        "airport_code": "BDQ",
+        "lounge_code": "BDQ1",
+        "lounge_name": "Airport Vadodara Premium Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Varanasi",
+        "airport_code": "VNS",
+        "lounge_code": "VNS1D",
+        "lounge_name": "Take off Bar and Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 1.4
+      },
+      {
+        "city": "Bhubaneswar",
+        "airport_code": "BBI",
+        "lounge_code": "BBI2",
+        "lounge_name": "Biju Patnaik International Airport Bhubaneshwar O’Vetra Domestic  Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Raipur",
+        "airport_code": "RPR",
+        "lounge_code": "RPR1",
+        "lounge_name": "The Airr Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.8
+      },
+      {
+        "city": "Pune",
+        "airport_code": "PNQ",
+        "lounge_code": "PNQ5",
+        "lounge_name": "International Airport Pune Elysian Lounge",
+        "terminal": "New Integrated",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Dehradun",
+        "airport_code": "DED",
+        "lounge_code": "DED2",
+        "lounge_name": "Jolly Grant Airport Dehra Dun Carnations Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.8
+      },
+      {
+        "city": "Navi Mumbai",
+        "airport_code": "NMI",
+        "lounge_code": "NMI01",
+        "lounge_name": "Mumbai International Airport Navi Mumbai Adani Lounge",
+        "terminal": "Domestic Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.4
+      },
+      {
+        "city": "Noida / Jewar",
+        "airport_code": "DXN",
+        "lounge_code": "DXN01",
+        "lounge_name": "International Airport Noida Travel Club",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.4
+      },
+      {
+        "city": "Patna",
+        "airport_code": "PAT",
+        "lounge_code": "PAT1",
+        "lounge_name": "Uttham Lounge",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.6
+      },
+      {
+        "city": "Bhogapuram",
+        "airport_code": "VOX",
+        "lounge_code": "VOX01",
+        "lounge_name": "Encalm",
+        "terminal": "Main Terminal",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.3
+      },
+      {
+        "city": "Bhogapuram",
+        "airport_code": "VOX",
+        "lounge_code": "VOX02",
+        "lounge_name": "Encalm",
+        "terminal": "Main Terminal",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 3.3
+      },
+      {
+        "city": "Guwahati",
+        "airport_code": "GAU",
+        "lounge_code": "GAU01",
+        "lounge_name": "The Lounge",
+        "terminal": "Terminal 1",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM01",
+        "lounge_name": "Travel Club Lounge",
+        "terminal": "Terminal 1C (Domestic)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.9
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM02",
+        "lounge_name": "Adani Lounge (T1B Domestic)",
+        "terminal": "Terminal 1B (Domestic)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.4
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM_T2D",
+        "lounge_name": "Adani Lounge (Domestic T2)",
+        "terminal": "Terminal 2 (T2D Domestic)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.4
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM_T2I",
+        "lounge_name": "Adani Lounge (International T2)",
+        "terminal": "Terminal 2 (T2I International)",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.6
+      },
+      {
+        "city": "New Delhi",
+        "airport_code": "DEL",
+        "lounge_code": "DEL_PRIVE_T3I",
+        "lounge_name": "Encalm Privé International Lounge",
+        "terminal": "Terminal 3 (T3I International)",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM03",
+        "lounge_name": "Good Times Bar Lounge",
+        "terminal": "Terminal 1B (Domestic)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 3.9
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM04",
+        "lounge_name": "Travel Club Lounge (Terminal 2)",
+        "terminal": "Terminal 2 (T2D Domestic)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM05",
+        "lounge_name": "Adani Silver Lounge (T2 International)",
+        "terminal": "Terminal 2 (T2I International)",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM07",
+        "lounge_name": "Aviserv East Arrival Lounge",
+        "terminal": "Terminal 2 (Arrivals)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.0
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM08",
+        "lounge_name": "Aviserv West Arrival Lounge",
+        "terminal": "Terminal 2 (Arrivals)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.0
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM_PRIVE_T2I",
+        "lounge_name": "Adani Business / Privé Lounge (T2 International)",
+        "terminal": "Terminal 2 (T2I International)",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.6
+      },
+      {
+        "city": "Mumbai",
+        "airport_code": "BOM",
+        "lounge_code": "BOM_LOYALTY_T2I",
+        "lounge_name": "Loyalty Lounge (Terminal 2)",
+        "terminal": "Terminal 2 (T2I International)",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 3.7
+      },
+      {
+        "city": "Hyderabad",
+        "airport_code": "HYD",
+        "lounge_code": "HYD_PRIVE_I",
+        "lounge_name": "Encalm Privé Lounge (International)",
+        "terminal": "International Terminal",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.9
+      },
+      {
+        "city": "Bengaluru",
+        "airport_code": "BLR",
+        "lounge_code": "BLR_PRIVE_T2",
+        "lounge_name": "080 VIP / Privé Lounge (Terminal 2)",
+        "terminal": "Terminal 2",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.7
+      },
+      {
+        "city": "Guwahati",
+        "airport_code": "GAU",
+        "lounge_code": "GAU02",
+        "lounge_name": "The Lounge (1st Floor)",
+        "terminal": "Terminal 1 (1st Floor)",
+        "terminal_type": "Domestic",
+        "matched_network": "Visa",
+        "google_rating": 4.3
+      },
+      {
+        "city": "Kochi",
+        "airport_code": "COK",
+        "lounge_code": "COK_EARTH",
+        "lounge_name": "Earth Lounge (International T3)",
+        "terminal": "Terminal 3 (T3I)",
+        "terminal_type": "International",
+        "matched_network": "Visa",
+        "google_rating": 4.6
       }
     ],
-    "participating_lounges_count": 80
+    "participating_lounges_count": 90,
+    "domestic_lounge_accessible_count": 60,
+    "international_lounge_accessible_count": 30,
+    "accessible_lounge_codes": [
+      "IXA1",
+      "AMD01",
+      "AMD02",
+      "AMD04",
+      "IXD",
+      "ATQ3D",
+      "ATQ4D",
+      "ATQ5D",
+      "ATQ",
+      "ATQ6",
+      "AYJ1D",
+      "IXB1D",
+      "BLR9",
+      "BLR10",
+      "BLR12",
+      "BLR101",
+      "BLR102",
+      "BLR104",
+      "BHO",
+      "IXC6",
+      "IXC5",
+      "MAA01",
+      "MAA03",
+      "MAA02",
+      "MAA04",
+      "COK2",
+      "COK1",
+      "CJB1D",
+      "DIB",
+      "GOX01",
+      "GOX02",
+      "GOI01",
+      "GOI02",
+      "GWL",
+      "HYD01",
+      "HYD02",
+      "IDR",
+      "JAI01",
+      "IXJ",
+      "CNN",
+      "CNN1",
+      "CCU01",
+      "CCU02",
+      "CCU03",
+      "CCU04",
+      "LKO01",
+      "LKO02",
+      "IXM1",
+      "NAG3",
+      "NAG5",
+      "DEL01",
+      "DEL02",
+      "DEL03",
+      "DEL04",
+      "DEL05",
+      "PNQ3",
+      "IXR2",
+      "SXR1",
+      "TRV01",
+      "TRV02",
+      "TRZ1",
+      "TRZ2",
+      "BDQ1",
+      "VNS1D",
+      "BBI2",
+      "RPR1",
+      "PNQ5",
+      "DED2",
+      "NMI01",
+      "DXN01",
+      "PAT1",
+      "VOX01",
+      "VOX02",
+      "GAU01",
+      "BOM01",
+      "BOM02",
+      "BOM_T2D",
+      "BOM_T2I",
+      "DEL_PRIVE_T3I",
+      "BOM03",
+      "BOM04",
+      "BOM05",
+      "BOM07",
+      "BOM08",
+      "BOM_PRIVE_T2I",
+      "BOM_LOYALTY_T2I",
+      "HYD_PRIVE_I",
+      "BLR_PRIVE_T2",
+      "GAU02",
+      "COK_EARTH"
+    ],
+    "accessible_golf_slugs": [
+      "ahmedabad-glade-one-golf-resort-club",
+      "ahmedabad-kensville-golf-country-club",
+      "ahmedabad-gulmohar-greens-golf-country-club",
+      "ahmedabad-kalhaar-blues-greens-golf-club",
+      "bengaluru-clover-greens-golf-club",
+      "bengaluru-prestige-augusta-golf-village",
+      "bengaluru-karnataka-golf-association-kga",
+      "delhi-ncr-classic-golf-country-club",
+      "delhi-ncr-golden-greens-golf-country-club",
+      "delhi-ncr-jaypee-greens-golf-spa-resort",
+      "delhi-ncr-noida-golf-course",
+      "delhi-ncr-qutab-golf-course",
+      "delhi-ncr-hamoni-golf-camp",
+      "mumbai-bombay-presidency-golf-club-bpgc",
+      "mumbai-nine-aces-golf-greens-academy",
+      "mumbai-willingdon-sports-club-golf-course",
+      "pune-oxford-golf-resort",
+      "pune-the-poona-club-golf-course",
+      "pune-aamby-valley-golf-course",
+      "hyderabad-boulder-hills-golf-country-club",
+      "hyderabad-hyderabad-golf-association-hga",
+      "goa-the-lalit-golf-spa-resort-goa",
+      "jaipur-rambagh-golf-club",
+      "kochi-cial-golf-country-club",
+      "kolkata-the-tollygunge-club-golf",
+      "chennai-cosmopolitan-club-tngf-golf",
+      "chandigarh-chandigarh-golf-club",
+      "panchkula-panchkula-golf-club",
+      "visakhapatnam-east-point-golf-club",
+      "vadodara-gaekwad-baroda-golf-club"
+    ]
   },
   "fees_and_charges_detailed": {
     "joining_fee_inr": 75000,

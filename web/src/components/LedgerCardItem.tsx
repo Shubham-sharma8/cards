@@ -5,7 +5,7 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { ArrowRight, Bookmark, Check, Plus, Star, Wallet } from "lucide-react";
 import type { CardSummaryItem } from "@/lib/types";
-import { formatInr } from "@/lib/format";
+import { formatFeeDisplay } from "@/lib/format";
 import { BankLogo } from "./BankLogo";
 import { CardArtwork } from "./CardArtwork";
 import { useCompare } from "./CompareContext";
@@ -213,12 +213,19 @@ export function LedgerCardItem({ card, highlightNote }: LedgerCardItemProps) {
       {/* Bottom Metric Ledger Bar: Split cleanly into Metric Row + Action Row so zero overlap occurs */}
       <div className="pt-3 border-t border-[#E4E4DF] space-y-2.5">
         <div className="grid grid-cols-2 gap-3 text-[12.5px] tabular-nums">
-          <div className="min-w-0">
-            <span className="block text-[11px] text-[#717882]">Annual Fee</span>
-            <span className="text-[#1A1D21] font-medium whitespace-nowrap">
-              {card.annual_fee_inr === 0 ? "₹0 (LTF)" : formatInr(card.annual_fee_inr)}
-            </span>
-          </div>
+          {(() => {
+            const feeInfo = formatFeeDisplay(card.joining_fee_inr, card.annual_fee_inr);
+            return (
+              <div className="min-w-0">
+                <span className="block text-[11px] text-[#717882]">{feeInfo.label}</span>
+                <span className="text-[#1A1D21] font-medium whitespace-nowrap">
+                  {feeInfo.isSplit
+                    ? `${feeInfo.joiningText} / ${feeInfo.annualText}`
+                    : feeInfo.primaryText}
+                </span>
+              </div>
+            );
+          })()}
           <div className="min-w-0 text-right">
             <span className="block text-[11px] text-[#717882]">Peak Return</span>
             <span className="text-[#0F5C4D] font-medium whitespace-nowrap">

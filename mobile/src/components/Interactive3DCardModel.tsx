@@ -138,17 +138,15 @@ export function Interactive3DCardModel({
         <Animated.View style={[styles.cardShell, { width: cardWidth, height: cardHeight }, outerStyle]}>
           {/* Multi-layer metallic depth rim */}
           <View
-            pointerEvents="none"
             style={[
               styles.depthRimBack,
-              { borderColor: borderHex, backgroundColor: `${accentHex}16` },
+              { borderColor: borderHex, backgroundColor: `${accentHex}16`, pointerEvents: 'none' },
             ]}
           />
           <View
-            pointerEvents="none"
             style={[
               styles.depthRim,
-              { borderColor: borderHex, backgroundColor: `${accentHex}2A` },
+              { borderColor: borderHex, backgroundColor: `${accentHex}2A`, pointerEvents: 'none' },
             ]}
           />
           <View style={[styles.face, { backgroundColor: softBg, borderColor: borderHex }]}>
@@ -166,7 +164,7 @@ export function Interactive3DCardModel({
                 </Text>
               </View>
             )}
-            <Animated.View pointerEvents="none" style={[styles.glareStrip, glareStyle]} />
+            <Animated.View style={[styles.glareStrip, glareStyle, { pointerEvents: 'none' }]} />
           </View>
         </Animated.View>
       </View>

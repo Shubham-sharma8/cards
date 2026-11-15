@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { BANK_HELP_DIRECTORY } from "@/lib/bankHelpDirectory";
-import { getAllCards } from "@/lib/data";
+import { getAllCards, getGolfClubsMaster, getLoungeAccessMaster } from "@/lib/data";
 import { getSiteUrl } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -42,5 +42,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
-  return [...staticRoutes, ...helpBankRoutes, ...cardRoutes];
+  const loungeRoutes: MetadataRoute.Sitemap = (getLoungeAccessMaster().participating_indian_airport_lounges || [])
+    .filter((l) => Boolean(l.lounge_code))
+    .map((l) => ({
+      url: `${baseUrl}/lounges/${l.lounge_code}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    }));
+
+  const golfRoutes: MetadataRoute.Sitemap = (getGolfClubsMaster().clubs || []).map((g) => ({
+    url: `${baseUrl}/lounges/${g.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.65,
+  }));
+
+  return [...staticRoutes, ...helpBankRoutes, ...cardRoutes, ...loungeRoutes, ...golfRoutes];
 }
